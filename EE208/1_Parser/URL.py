@@ -10,12 +10,25 @@ def parseURL(content):
     for i in soup.findAll('a',{'href': re.compile('://')}):
         urlset.add(i['href'])
     return urlset
-'''
-content = urllib2.urlopen('http://www.sjtu.edu.cn').read()
-urlSet = parseURL(content)
-print urlSet
 
-'''
+
+def parseIMG(content):
+    imgset = set()
+    soup = BeautifulSoup(content)
+    for i in soup.findAll('img'):
+        imgset.add(i['src'])
+    return imgset
+
+def parseQiushibaikePic(content):
+    docs = {}
+    nextPage = ''
+    pass
+    return docs,nextPage
+
+
+
+
+
 def write_outputs(urls, filename):
     with open(filename, 'w') as f:
         for url in urls:
@@ -35,4 +48,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-'''
+
