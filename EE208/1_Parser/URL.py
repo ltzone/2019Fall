@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 def parseURL(content):
     urlset = set()
-    soup = BeautifulSoup(content)
+    soup = BeautifulSoup(content,features='html.parser')
     for i in soup.findAll('a',{'href': re.compile('://')}):
         urlset.add(i['href'])
     return urlset
@@ -14,16 +14,18 @@ def parseURL(content):
 
 def parseIMG(content):
     imgset = set()
-    soup = BeautifulSoup(content)
+    soup = BeautifulSoup(content,features='html.parser')
     for i in soup.findAll('img'):
         imgset.add(i['src'])
     return imgset
 
-def parseQiushibaikePic(content):
-    docs = {}
-    nextPage = ''
+def parseZhihuPic(content):
+    pics = set()
+    soup = BeautifulSoup(content,features='html.parser')
+    soup = soup.body.div.main-content.
+    for i in soup.findAll()
     pass
-    return docs,nextPage
+    return pics
 
 
 
