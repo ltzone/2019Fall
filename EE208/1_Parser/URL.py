@@ -19,13 +19,6 @@ def parseIMG(content):
         imgset.add(i['src'])
     return imgset
 
-def parseZhihuPic(content):
-    pics = set()
-    soup = BeautifulSoup(content,features='html.parser')
-    soup = soup.body.div.main-content.
-    for i in soup.findAll()
-    pass
-    return pics
 
 
 
