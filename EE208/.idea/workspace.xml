@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d1aead1-d0c6-4835-a16e-3e028f4cccc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1_Parser/Zhihu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Parser/URL.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Parser/URL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Parser/res1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1_Parser/res1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_crawler/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +22,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1QdrbWr4ZJsrXxNoWULLcY1KmnY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -36,7 +37,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Zhihu">
+  <component name="RunManager" selected="Python.test">
     <configuration name="Zhihu" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,8 +80,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EE208" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_crawler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_crawler/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.Zhihu" />
       </list>
     </recent_temporary>
