@@ -10,7 +10,9 @@ def union_dfs(a,b):
             a.append(e)
 
 def union_bfs(a,b):
-    pass
+    for e in b:
+        if e not in a:
+            a.insert(0,e)
 
 def crawl(seed, method):
     tocrawl = [seed]
