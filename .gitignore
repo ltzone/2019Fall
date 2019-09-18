@@ -1,0 +1,7 @@
+*.aux
+*.log
+*.gz
+*.pdf
+*.toc
+EE208/.idea/
+*.txt
