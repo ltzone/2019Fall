@@ -3,13 +3,12 @@ import urllib2
 import re
 from bs4 import BeautifulSoup
 
-
-def parseURL(content):
-    urlset = set()
+def parseIMG(content):
+    imgset = set()
     soup = BeautifulSoup(content,features='html.parser')
-    for i in soup.findAll('a',{'href': re.compile('://')}):
-        urlset.add(i['href'])
-    return urlset
+    for i in soup.findAll('img'):
+        imgset.add(i['src'])
+    return imgset
 
 
 def write_outputs(urls, filename):
@@ -25,10 +24,14 @@ def main():
     if len(sys.argv) > 1:
         url = sys.argv[1]
     content = urllib2.urlopen(url).read()
-    urls = parseURL(content)
-    write_outputs(urls, 'res1.txt')
+    urls = parseIMG(content)
+    write_outputs(urls, 'res2.txt')
 
 
 if __name__ == '__main__':
     main()
+
+
+
+
 
