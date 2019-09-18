@@ -1,0 +1,74 @@
+\documentclass{article}
+
+% TITLE PAGE CONTENT %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\labno}{01}
+\newcommand{\labtitle}{EE208 Parser}
+\newcommand{\authorname}{Zhou Litao}
+\newcommand{\studentno}{518030910407}
+\newcommand{\classno}{F1803016}
+% END TITLE PAGE CONTENT %%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+{\LARGE \textsc{Laboratory No. \labno:} \\ \vspace{4pt}}
+{\Large \textsc{\labtitle} \\ \vspace{4pt}} 
+\rule[13pt]{\textwidth}{1pt} \\ \vspace{15pt}
+{\large By: \authorname \\ \vspace{10pt}
+No. \studentno \\ \vspace{10pt}
+SJTU \classno \\ \vspace{10pt}
+\today \vspace{20pt}}
+\end{center}
+
+
+
+\section{Introduction}
+
+\subsection{Equipment}
+\begin{itemize}
+\item\textbf{Environment} Ubuntu 16.04 (on Virtual Machine)
+\item\textbf{Language} Python 2.7.16 with packages as follows
+	\begin{itemize}
+	\item urllib3 1.24.2
+	\item beautifulsoup4 4.8.0
+	\end{itemize}
+\item\textbf{Tools} PyCharm 2019.2, Virtual Box
+\end{itemize}
+The Python script is also tested in Windows 10.
+
+\subsection{Purpose}
+In this experiment, we're going to build a web-page parser. Three functions need to be implemented. First, the parser should be able to extract all the URLs from an arbitrary-given page and return a set of the URLs. Second, the parser needs to be able to extract all the images from an arbitray-given page and return a set of all the pages' addresses. Finally, for the 'Zhihu Daily` website, the parser can output the image address, description text, and the linked page address for every piece of news. The experiment is based on some well-defined modules (such as \textit{BeautifulSoup, urllib}, etc.) in Python. The Python script should also be able to be executed in console.
+
+
+
+
+\subsection{Principle}
+An HTML Parser is used to extract contents from a given web-page according to its HTML labels, and organize them into a particular data structure. In this experiment, this work has already been done by the BeautifulSoup module. It takes in a webpage and return an HTML tree, which will be easier and more efficient for us to search for what we want.
+
+As the flowchart (\ref{fig:flowchart}) depicts,  our program should first get the HTML document according to the input URL, then we leave the parsing work for BeautifulSoup. With the HTML tree returned, we can use the built-in function to retrieve our objective information, during which process the codes will vary from exercise to exercise. Finally, some data processing work is needed before the program returns the values. Note that both the retrieval conditions and the data processing codes should be carefully designed in every exercise in order to fit the requirements.
+
+
+
+\section{Procedure}
+\subsection{Exercise 1}
+
+Process Explanation + Core codes + Results
+
+Use Graph and persudo code
+
+Complete results, screenshots recommended
+
+\subsection{Exercise 2}
+\subsection{Exercise 3}
+
+\section{Discussion \& Conclusion}
+\subsection{Overview}
+\subsection{Thoughts}
+\subsection{Innovations}
+\subsection{Problems \& Solution}
+
+
+\end{document}
+
