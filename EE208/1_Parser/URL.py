@@ -23,7 +23,7 @@ def write_outputs(urls, filename):
 
 
 def main():
-    url = 'https://www.163.com'
+    url = 'http://www.baidu.com'
     # url = 'http://www.sjtu.edu.cn'
     if len(sys.argv) > 1:
         url = sys.argv[1]

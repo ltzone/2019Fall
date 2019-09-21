@@ -7,7 +7,7 @@ def parseIMG(content):
     imgset = set()
     soup = BeautifulSoup(content,features='html.parser')
     for i in soup.findAll('img'):
-        imgset.add(i['src'])
+        imgset.add(i['src'].strip())
     return imgset
 
 

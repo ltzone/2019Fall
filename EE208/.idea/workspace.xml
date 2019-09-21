@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d1aead1-d0c6-4835-a16e-3e028f4cccc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1_Parser/try.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Parser/IMG.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Parser/IMG.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1_Parser/URL.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Parser/URL.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1_Parser/res1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1_Parser/res1.txt" afterDir="false" />
     </list>
@@ -43,8 +43,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.myparser">
-    <configuration name="Zhihu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.IMG">
+    <configuration name="IMG" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -56,7 +56,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_Parser/Zhihu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_Parser/IMG.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.IMG" />
         <item itemvalue="Python.try" />
         <item itemvalue="Python.crawler_sample" />
         <item itemvalue="Python.login" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.Zhihu" />
       </list>
     </recent_temporary>
   </component>
@@ -219,10 +219,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568799783858</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="URL v2.0">
+      <created>1569080681511</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569080681511</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
     <option name="COLUMN_ORDER">
       <list>
         <option value="0" />
@@ -250,6 +258,7 @@
     <MESSAGE value="crawler login" />
     <MESSAGE value="crawler1 finished" />
     <MESSAGE value="code 2.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="code 2.1" />
+    <MESSAGE value="URL v2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="URL v2.0" />
   </component>
 </project>
