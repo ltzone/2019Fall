@@ -1,14 +1,17 @@
+
 import sys
 import urllib2
 import re
 from bs4 import BeautifulSoup
-
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 def parseURL(content):
     urlset = set()
     soup = BeautifulSoup(content,features='html.parser')
     for i in soup.findAll('a',{'href': re.compile('://')}):
-        urlset.add(i['href'])
+        j = i['href'].split('#')[0]
+        urlset.add(j)
     return urlset
 
 
@@ -20,7 +23,7 @@ def write_outputs(urls, filename):
 
 
 def main():
-    url = 'http://www.baidu.com'
+    url = 'https://www.163.com'
     # url = 'http://www.sjtu.edu.cn'
     if len(sys.argv) > 1:
         url = sys.argv[1]
