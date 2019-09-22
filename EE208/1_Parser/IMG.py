@@ -23,11 +23,11 @@ def URL_set_uniform(URLset,url):
     urlseg = urlparse.urlparse(url)
     uniURLs = set()
     for j in URLset:
-        if re.match('^//',j):
+        if re.match('^//',j):         #case 1: relative-protocal URL
             uniURLs.add(urlseg.scheme+ ':'+j)
-        elif (not re.match('://',j)):
+        elif (not re.match('://',j)): #case 2: relative path
             uniURLs.add(urlparse.urljoin(url,j))
-        else:
+        else:                         #case 3: standard URL
             uniURLs.add(j)
     return uniURLs
 
