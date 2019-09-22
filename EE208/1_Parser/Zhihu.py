@@ -22,8 +22,6 @@ def write_outputs(pics, filename):
 
 def main():
     url = 'http://daily.zhihu.com'
-    if len(sys.argv) > 1:
-        url = sys.argv[1]
     content = urllib2.urlopen(url).read()
     pics = parseZhihuPic(url,content)
     write_outputs(pics, 'res3.txt')
