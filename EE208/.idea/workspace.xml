@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d1aead1-d0c6-4835-a16e-3e028f4cccc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Parser/IMG.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Parser/IMG.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Parser/Zhihu.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Parser/Zhihu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1_Parser/res3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1_Parser/res3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_crawler/crawler_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_crawler/crawler_sample.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Zhihu">
+  <component name="RunManager" selected="Python.crawler_sample">
     <configuration name="IMG" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,10 +170,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.crawler_sample" />
         <item itemvalue="Python.Zhihu" />
         <item itemvalue="Python.IMG" />
         <item itemvalue="Python.try" />
-        <item itemvalue="Python.crawler_sample" />
         <item itemvalue="Python.login" />
       </list>
     </recent_temporary>
