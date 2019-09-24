@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d1aead1-d0c6-4835-a16e-3e028f4cccc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/1_Parser/res3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1_Parser/res3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_crawler/crawler_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_crawler/crawler_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_crawler/html/httpwww.baidu.com" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_crawler/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_crawler/crawler.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -231,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569121371893</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="CODE 2.3">
+      <created>1569312757112</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1569312757112</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -265,6 +274,7 @@
     <MESSAGE value="code 2.1" />
     <MESSAGE value="URL v2.0" />
     <MESSAGE value="IMG v2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="IMG v2.0" />
+    <MESSAGE value="CODE 2.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="CODE 2.3" />
   </component>
 </project>
