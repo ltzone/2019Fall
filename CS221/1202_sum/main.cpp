@@ -1,4 +1,3 @@
-
 /*************************************************
 Copyright:SJTU
 Author: Litao Zhou
@@ -14,7 +13,6 @@ using namespace std;
 BigInt class is a linklist of numbers (which are stored in terms of char type)
 The numbers in the list are stored in reversed order for the sake of add operation
 The Time complexity of the program is O(n)
-
 basic functions:
 - write() takes in a line of numbers ending with '\n' and store them in the BigInt
 - print() output the linklist in reversed order to show the number
