@@ -1,7 +1,28 @@
+
+/*************************************************
+Copyright:SJTU
+Author: Litao Zhou
+Date:2019-10-01
+Description:SJTUOJ 1202 BigInt
+**************************************************/
+
 #include <iostream>
 
 using namespace std;
 
+/**********
+BigInt class is a linklist of numbers (which are stored in terms of char type)
+The numbers in the list are stored in reversed order for the sake of add operation
+The Time complexity of the program is O(n)
+
+basic functions:
+- write() takes in a line of numbers ending with '\n' and store them in the BigInt
+- print() output the linklist in reversed order to show the number
+- clear() destruct the linklist
+- add() takes in 2 BigInts, and make the current BigInt be their result
+- reverse() is an auxiliary function to reverse the linklist in O(n) time
+**********/
+/* Class Declaration */
 class BigInt
 {
 private:
@@ -25,10 +46,11 @@ public:
     void clear();
     void write();
     void print();
-    BigInt add (const BigInt& A, const BigInt& B);
+    void add (const BigInt& A, const BigInt& B);
     void reverse();
 };
 
+/* Function Definition */
 void BigInt::clear()
 {
     node *p = head->next, *q;
@@ -74,14 +96,43 @@ void BigInt::reverse()
     head->next = prev;
 }
 
+void BigInt::add(const BigInt& A, const BigInt& B)
+{
+    clear();
+    if (A.len < B.len) return add(B,A);
+    node *pa=A.head->next,*pb=B.head->next;
+    bool carry = false;
+    node *pr=head;
+    char q;
+    while (pb!=NULL)
+    {
+        q = pa->num + pb->num - '0' + carry;
+        if (q > '9') { carry = true; q-=10;}
+        pr = insert_at(pr,q);
+        pa = pa->next;
+        pb = pb->next;
+    }
+    while (pa!=NULL)
+    {
+        q = pa->num + carry;
+        if (q > '9') { carry = true; q-=10;}
+        pr = insert_at(pr,q);
+        pa = pa->next;
+    }
+    if (carry) pr = insert_at(pr,'1');
+    return;
+}
+/* End of BigInt Class */
 
-
-
+/************
+The following main() function gives an example of BigInt class
+************/
 int main()
 {
-    BigInt a;
+    BigInt a,b,c;
     a.write();
-    a.print();
-    a.print();
+    b.write();
+    c.add(a,b);
+    c.print();
     return 0;
 }
