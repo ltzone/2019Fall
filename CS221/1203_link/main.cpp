@@ -1,3 +1,9 @@
+/*************************************************
+Copyright:SJTU
+Author: Litao Zhou
+Date:2019-10-01
+Description:SJTUOJ 1203 LinkUnion
+**************************************************/
 #include <iostream>
 using namespace std;
 
@@ -5,6 +11,17 @@ template <class elemType> class LinkList;
 template <class elemType>
 LinkList<elemType> operator+ (const LinkList<elemType> &a, const LinkList<elemType> &b);
 
+
+
+/**********
+LinkList class is a template linklist
+basic functions:
+- write(len) takes in a line of elements totalling the number of len
+- print() output the linklist
+- clear() destruct the linklist
+- operator+ takes in 2 linklists and join them together
+**********/
+/* Class Declaration */
 template <class elemType>
 class LinkList
 {
@@ -34,6 +51,7 @@ public:
     void print();
 };
 
+/* Function Definition */
 template <class elemType>
 LinkList<elemType> operator+ (const LinkList<elemType> &a, const LinkList<elemType> &b)
 {
@@ -79,7 +97,6 @@ void LinkList<elemType>::write(int count)
     }
 }
 
-
 template <class elemType>
 void LinkList<elemType>::print()
 {
@@ -90,7 +107,11 @@ void LinkList<elemType>::print()
         p = p->next;
     }
 }
+/* End of BigInt Class */
 
+/************
+The main() function is divided to 3 branches. Alternatively designed for int, char, double linklists.
+************/
 int main()
 {
     char typ[7];
