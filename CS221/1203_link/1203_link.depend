@@ -1,4 +1,5 @@
 # depslib dependency file v1.0
-1569930525 source:d:\git\2019fall\cs221\1203_link\main.cpp
+1569936289 source:d:\git\2019fall\cs221\1203_link\main.cpp
 	<iostream>
+	<stdio.h>
 

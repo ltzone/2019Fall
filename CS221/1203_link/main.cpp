@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 template <class elemType> class LinkList;
@@ -40,12 +39,12 @@ LinkList<elemType> operator+ (const LinkList<elemType> &a, const LinkList<elemTy
 {
     LinkList<elemType> res;
     typename LinkList<elemType>::node *pa = a.head->next, *pb = b.head->next, *p = res.head;
-    for (int i=0;i<a.len;++i)
+    while (pa!=NULL)
     {
         p = res.insert_at(pa->data,p);
         pa = pa->next;
     }
-    for (int j=0;j<b.len;++j)
+    while (pb!=NULL)
     {
         p = res.insert_at(pb->data,p);
         pb = pb->next;
@@ -58,16 +57,15 @@ LinkList<elemType> operator+ (const LinkList<elemType> &a, const LinkList<elemTy
 template <class elemType>
 void LinkList<elemType>::clear()
 {
-    node *p=head,*q;
+    node *p = head->next, *q;
+    head->next = NULL;
     while (p!=NULL)
     {
         q = p->next;
         delete p;
         p = q;
     }
-    len = 0;
 }
-
 template <class elemType>
 void LinkList<elemType>::write(int count)
 {
@@ -79,8 +77,8 @@ void LinkList<elemType>::write(int count)
         cin>>a;
         p = insert_at(a,p);
     }
-    p->next =NULL;
 }
+
 
 template <class elemType>
 void LinkList<elemType>::print()

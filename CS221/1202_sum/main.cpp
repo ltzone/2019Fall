@@ -59,6 +59,7 @@ void BigInt::clear()
         delete p;
         p = q;
     }
+    len = 0;
 }
 
 void BigInt::write()
@@ -106,6 +107,7 @@ void BigInt::add(const BigInt& A, const BigInt& B)
     {
         q = pa->num + pb->num - '0' + carry;
         if (q > '9') { carry = true; q-=10;}
+        else carry = false;
         pr = insert_at(pr,q);
         pa = pa->next;
         pb = pb->next;
@@ -114,6 +116,7 @@ void BigInt::add(const BigInt& A, const BigInt& B)
     {
         q = pa->num + carry;
         if (q > '9') { carry = true; q-=10;}
+        else carry = false;
         pr = insert_at(pr,q);
         pa = pa->next;
     }
