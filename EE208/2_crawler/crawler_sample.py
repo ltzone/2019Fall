@@ -23,7 +23,7 @@ def crawl(seed, method):
         if page not in crawled:
             content = get_page(page)
             outlinks = get_all_links(content)
-
+            graph[page] = outlinks
             globals()['union_%s' % method](tocrawl, outlinks)
             crawled.append(page)
     return graph, crawled

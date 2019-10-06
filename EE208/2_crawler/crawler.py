@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-from BeautifulSoup import BeautifulSoup
+from bs4 import BeautifulSoup
 import urllib2
 import re
 import urlparse
@@ -14,22 +14,44 @@ def valid_filename(s):
     return s
 
 def get_page(page):
-    content = ''
-    ...
+    try:
+        content = urllib2.urlopen(page,timeout=3).read()
+    except:
+        print ('Can\'t access to %s' % page)
+        content = None
     return content
 
-def get_all_links(content, page):
-    links = []
-    ...
+def URL_set_uniform(URLset,page):
+    urlseg = urlparse.urlparse(page)
+    uniURLs = set()
+    for i in URLset:
+        j = j = i['href'].split('#')[0]
+        if re.match('^//',j):         #case 1: relative-protocal URL
+            uniURLs.add(urlseg.scheme+ ':'+j)
+        elif (not re.match('://',j)): #case 2: relative path
+            uniURLs.add(urlparse.urljoin(page,j))
+        else:                         #case 3: standard URL
+            uniURLs.add(j)
+    return uniURLs
+
+def get_all_links(content,page):
+    urlset = set()
+    soup = BeautifulSoup(content,features='html.parser')
+    for i in soup.findAll('a',{'href': re.compile('^http|^/')}):
+        urlset.add(i)
+    links = list(URL_set_uniform(urlset,page))
     return links
-        
+
 def union_dfs(a,b):
     for e in b:
         if e not in a:
             a.append(e)
             
 def union_bfs(a,b):
-    ...
+    for e in b:
+        if e not in a:
+            a.insert(0,e)
+
        
 def add_page_to_folder(page, content): #将网页存到文件夹里，将网址和对应的文件名写入index.txt中
     index_filename = 'index.txt'    #index.txt中每行是'网址 对应的文件名'
@@ -49,18 +71,18 @@ def crawl(seed, method, max_page):
     crawled = []
     graph = {}
     count = 0
-    
-    while tocrawl:
+    while tocrawl and (count < int(max_page)):
         page = tocrawl.pop()
         if page not in crawled:
             print page
             content = get_page(page)
-            add_page_to_folder(page, content)
-            outlinks = get_all_links(content, page)
-            globals()['union_%s' % method](tocrawl, outlinks)
-            crawled.append(page)
-            ...
-            ...
+            if content:
+                add_page_to_folder(page, content)
+                outlinks = get_all_links(content, page)
+                globals()['union_%s' % method](tocrawl, outlinks)
+                crawled.append(page)
+                graph[page] = outlinks
+                count += 1
     return graph, crawled
 
 if __name__ == '__main__':

@@ -1,0 +1,1388 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="zh">
+<head>
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    
+    <link rel="dns-prefetch" href="//s1.bdstatic.com"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" sizes="any" mask href="//www.baidu.com/img/baidu.svg">
+
+    <script src="https://ts.bdimg.com/libs/blueimp-md5/1-0-1/md5.min.js"></script>
+    <script>var token = '6d1caad8030704e76bd0a787aa26bbc1440042c3f6bb022c4a0647e3b2e1ad31'</script>
+    <title>百度学术-单篇购买</title>
+
+    
+    <link rel="stylesheet" href="/lib/static/scholar/cache/ppv/css/home_fc1af09.css">
+
+    
+    <script>
+var _hmt = _hmt || [];
+
+var bds = {
+    se : {},
+    util : {},
+    //js通用数据
+    comm : {
+        gj:'1',
+        qid:'3646466423',
+        bsToken: 'the fisrt two args should be string type:0,1!',
+        user: '',
+        username: '',
+        loginAction: [],
+        host: window.location.host,
+        subpro: 'xueshu_proposal',
+        wd:'',
+        uploadDownHost: '//xueshupload.baidu.com',
+        query: '',
+        queryMd5: '',
+        typeLanguage: '',
+        searchAct: '//xueshu.baidu.com/s',
+        onlineshow:(+new Date() > +new Date("2016/04/01")?1:0),
+                site:'index_links',
+                scUrlComponent: '&tn=SE_baiduxueshu_c1gjeupa&ie=utf-8'
+    }
+};
+
+A = {};
+A.ui = {};
+
+var supportCanvas = !!document.createElement('canvas').getContext;
+var isIE6 = navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion .split(";")[1].replace(/[ ]/g,"")=="MSIE6.0";
+
+function G (id) {
+    return document.getElementById(id);
+}
+// 发送统计
+function c (data) {
+    if (!data['type'] || !data['actblock']) {
+        return;
+    }
+    data['category'] = 'kaiti';
+    _hmt.push(['_trackEvent', data['category'], data['actblock'], data['type']]);
+}
+ function ns_c_xs(q){
+    var p = encodeURIComponent(window.document.location.href), sQ = '',wd="", sV = '', mu='', img = window["BD_PS_C" + (new Date()).getTime()] = new Image();
+    for (v in q) {
+        switch (v) {
+            case "title":
+                sV = encodeURIComponent(q[v].replace(/<[^<>]+>/g, ""));
+                break;
+            case "url":
+                sV = encodeURIComponent(q[v]);
+                break;
+            default:
+                sV = q[v]
+        }
+        sQ += v + "=" + sV + "&";
+    }
+    mu= "&mu=" + p;
+    img.src = "http://nsclick.baidu.com/v.gif?pid=201&pj=mp_xueshu&qid=" + bds.comm.qid + "&" + sQ + "site=index_links&path=" + p + "&tn=ae_xueshu_ppv&t=" + new Date().getTime();
+    return true;
+}
+</script><script type="text/javascript">
+
+
+	var list = {
+        "graph.baidu.com": "http://graph.baidu.com",
+		"p.qiao.baidu.com":"http://p.qiao.baidu.com",
+		"vse.baidu.com":"http://vse.baidu.com",
+		"hdpreload.baidu.com":"http://hdpreload.baidu.com",
+		"lcr.open.baidu.com":"http://lcr.open.baidu.com",
+		"kankan.baidu.com":"http://kankan.baidu.com",
+		"xapp.baidu.com":"http://xapp.baidu.com",
+		"dr.dh.baidu.com":"http://dr.dh.baidu.com",
+		"xiaodu.baidu.com":"http://xiaodu.baidu.com",
+		"sensearch.baidu.com":"http://sensearch.baidu.com",
+		"s1.bdstatic.com":"http://s1.bdstatic.com",
+		"olime.baidu.com":"http://olime.baidu.com",
+		"app.baidu.com":"http://app.baidu.com",
+		"i.baidu.com":"http://i.baidu.com",
+		"c.baidu.com":"http://c.baidu.com",
+		"sclick.baidu.com":"http://sclick.baidu.com",
+		"nsclick.baidu.com":"http://nsclick.baidu.com",
+		"sestat.baidu.com":"http://sestat.baidu.com",
+		"eclick.baidu.com":"http://eclick.baidu.com",
+		"api.map.baidu.com":"http://api.map.baidu.com",
+		"ecma.bdimg.com":"http://ecma.bdimg.com",
+		"ecmb.bdimg.com":"http://ecmb.bdimg.com",
+        "t1.baidu.com":"http://t1.baidu.com",
+        "t2.baidu.com":"http://t2.baidu.com",
+        "t3.baidu.com":"http://t3.baidu.com",
+		"t10.baidu.com":"http://t10.baidu.com",
+		"t11.baidu.com":"http://t11.baidu.com",
+		"t12.baidu.com":"http://t12.baidu.com",
+		"i7.baidu.com":"http://i7.baidu.com",
+		"i8.baidu.com":"http://i8.baidu.com",
+		"i9.baidu.com":"http://i9.baidu.com",
+		"b1.bdstatic.com":"http://b1.bdstatic.com",
+		"ss.bdimg.com":"http://ss.bdimg.com",
+		"opendata.baidu.com":"http://opendata.baidu.com",
+		"api.open.baidu.com":"http://api.open.baidu.com",
+		"tag.baidu.com":"http://tag.baidu.com",
+		"f3.baidu.com":"http://f3.baidu.com",
+		"s.share.baidu.com":"http://s.share.baidu.com",
+		"bdimg.share.baidu.com":"http://bdimg.share.baidu.com",
+        "1.su.bdimg.com":"http://1.su.bdimg.com",
+        "2.su.bdimg.com":"http://2.su.bdimg.com",
+        "3.su.bdimg.com":"http://3.su.bdimg.com",
+        "4.su.bdimg.com":"http://4.su.bdimg.com",
+        "5.su.bdimg.com":"http://5.su.bdimg.com",
+        "6.su.bdimg.com":"http://6.su.bdimg.com",
+        "7.su.bdimg.com":"http://7.su.bdimg.com",
+        "8.su.bdimg.com":"http://8.su.bdimg.com",
+        "hiphotos.baidu.com":"http://hiphotos.baidu.com",
+        "xueshu.baidu.com":"http://xueshu.baidu.com",
+        "baidu.bigan.net":"http://baidu.bigan.net",
+        "a.xueshu.baidu.com":"http://a.xueshu.baidu.com"
+	};
+//https域名转换工具
+bds.util = bds.util || {};
+bds.util.domain = (function(){
+
+
+var get = function(url) {
+		if(location.protocol === "http") {
+			return url;
+		}
+		var reg = /^(http[s]?:\/\/)?([^\/]+)(.*)/,
+			reg2 = /^(http[s]?:\/\/)?(s1.bdstatic.com\/r\/www\/cache\/mid\/static)(.*)/,
+		matches = url.match(reg),
+		//s1.bdstatic.com静态域名特殊处理
+		matches2 = url.match(reg2);
+		if(matches2){
+			url = "https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/mid/static/protocol/https"+ matches2[3];
+			return url;
+		}else{
+			//判断传入参数是域名还是地址，分别做处理
+			url = list.hasOwnProperty(matches[2])&&(list[matches[2]] + matches[3]) || url;
+			return url;
+		}
+	},
+	set = function(kdomain,vdomain) {
+		list[kdomain] = vdomain;
+	};
+	return {
+		get : get,
+		set : set
+	}
+})();
+</script>
+
+
+    <script src="/lib/static/scholar/cache/jquery/jquery-1.10.2.min_45ac1eb.js"></script>
+
+    
+        <script type="text/javascript">
+bds = bds || {};
+bds.cf = {};
+bds.cf.ts = "1570340932";
+bds.cf.token = "6d1caad8030704e76bd0a787aa26bbc1440042c3f6bb022c4a0647e3b2e1ad31";
+bds.cf.sign = "f653616fd7fe01ab3f82bb32dfb675a9";
+
+function getCfStr() {
+    var ts = parseInt(new Date / 1000, 10);
+    return "&_ts=" + ts
+        + "&_token=" + bds.cf.token 
+        + "&_sign=" + md5(ts +  bds.cf.token + '3b6e2e87fcce6eea8337eeac83b478f5');
+}
+
+function getCfObj() {
+    var ts = parseInt(new Date / 1000, 10);
+    return {
+            '_ts' : ts,
+            '_token' : bds.cf.token,
+            '_sign' : md5(ts +  bds.cf.token + '3b6e2e87fcce6eea8337eeac83b478f5')
+        }
+}
+</script>
+    
+</head>
+
+<body>
+    
+    <div id="wrapper">
+    
+        
+                                                                                
+
+<div id="head_wr" class="gj "><div id="head" class="LOG_WR gj " data-log="{'actblock': 'head'}"><div class="headCont "><div id="u" class="gj "><span id="setting"><a class="settingicon" href="javascript:;"><i style="font-size:18px;" class="iconfont  head-icon-set-gray">&#xe61b;</i></a><div class="menuarrow"><i class="head-icon head-icon-menu-triangle"></i></div><div id="setMenu" class="menuDropList"><div><a href="javascript:;" class="feedback">意见反馈</a></div></div></span><a id="lb" href="https://passport.baidu.com/v2/?login&tpl=xueshu&u=http%3A%2F%2Fxueshu.baidu.com%2F">登录</a><a href="https://passport.baidu.com/v2/?reg&regType=1&tpl=xueshu&u=http%3A%2F%2Fxueshu.baidu.com%2F" target="_blank" class="reg">注册</a></div>
+
+            
+                                    <a href="/" class="s_logo">
+                        <div class="s_logo_img" alt="到学术首页" title="到学术首页"></div>
+                    </a>
+                
+                <div class="s_form_wr">
+                    <form class="fm" id="form" action="//xueshu.baidu.com/s">
+                        <div class="s_ipt_wr">
+                            <input name="wd" autocomplete="off" id="kw" value="" maxlength="256">
+                            <i class="s_ipt_search_icon"></i>
+                        </div>
+
+                        <input type="hidden" name="ie" value="utf-8">
+<input type="hidden" name="tn" value="SE_baiduxueshu_c1gjeupa">
+<input type="hidden" name="sc_from" value=""/>
+<input type="hidden" name="sc_as_para" value="sc_lib:"/>
+
+
+                                            </form>
+
+<div class="sc_adv_triangle_down gj">
+        <span>高级搜索</span><i class="sc_adv_icon"></i>
+    </div>
+
+<div id="sc_adv">
+<form action="//xueshu.baidu.com/s" id="sc_adv_frm">
+    <div class="sc_adv_hatr">
+        <span class="sc_adv_label">包含全部检索词</span>
+        <span><input type="text" placeholder="" data-type="all" data-name="" class="sc_adv_keyword_ipt sc-input sc_adv_keyword1" maxlength="100" value=""></span>
+    </div>
+    <div class="sc_adv_hatr">
+        <span class="sc_adv_label">包含精确检索词</span>
+        <span><input type="text" placeholder="多个检索词以逗号，分隔" data-type="precise" data-name="" class="sc_adv_keyword_ipt sc-input sc_adv_keyword2" maxlength="100" value=""></span>
+    </div>
+    <div class="sc_adv_hatr">
+        <span class="sc_adv_label">包含至少一个检索词</span>
+        <span><input type="text" placeholder="多个检索词以逗号，分隔" data-type="or" data-name="" class="sc_adv_keyword_ipt sc-input" maxlength="100" value=""></span>
+    </div>
+    <div class="sc_adv_hatr">
+        <span class="sc_adv_label">不包含检索词</span>
+        <span><input type="text" placeholder="多个检索词以逗号，分隔" data-type="not" data-name="" class="sc_adv_keyword_ipt sc-input" maxlength="100" value=""></span>
+    </div>
+    <div class="sc_adv_hatr" style="margin-bottom:23px;">
+        <span class="sc_adv_label">出现检索词的位置</span>
+        <span class="sc_adv_keyword_pos">
+            <div class="sc_adv_dropdown_btn">
+                <span class="sc_adv_dropdown_text">
+                                    <a href="javascript:;"  data-name="">文章任何位置</a>
+                                </span>
+                <i class="c-icon c-icon-arrow-down-gray"></i>
+                <div class="sc_adv_dropdown_group sc_adv_dropdown_group1 sc_adv_dropgroup_title" data-index="1">
+                                    <a href="javascript:;"  data-name="intitle">位于文章标题</a>
+                                </div>
+            </div>
+        </span>
+    </div>
+    <div class="sc_adv_hatr">
+        <span class="sc_adv_label">作者</span>
+        <span><input type="text" placeholder="请输入作者名字" data-name="author" class="sc_adv_txin sc-input sc_adv_author" maxlength="50" value=""></span>
+    </div>
+    <div class="sc_adv_hatr">
+        <span class="sc_adv_label">出版物</span>
+        <span class="sc_adv_jour_conf">
+            <span class="sc_adv_dropdown_btn">
+                <span class="sc_adv_dropdown_text">
+                                        <a href="javascript:;"  data-name="journal" data-holder="请输入期刊名称">期刊</a>
+                                    </span>
+                <i class="c-icon c-icon-arrow-down-gray"></i>
+                <div class="sc_adv_dropdown_group sc_adv_dropgroup_pub" data-index="2">
+                                        <a href="javascript:;" data-name="conference" data-holder="请输入会议名称">会议</a>
+                                    </div>
+            </span>
+            <input type="text" placeholder="请输入期刊名称" data-name="journal" class="sc-input sc_adv_txin sc_adv_pubipt" maxlength="100" value="">
+        </span>
+    </div>
+    <div class="sc_adv_hatr">
+        <span class="sc_adv_label">发表时间</span>
+        <span class="sc_adv_year">
+        <input type="text" data-nolog="1" pattern="[0-9]*" size="4" placeholder="年" maxlength="4" name="" class="sc-input sc-input-xmini sc_adv_input_ylo" value="">&nbsp;-&nbsp;<input type="text" data-nolog="1" pattern="[0-9]*" size="4" placeholder="年" maxlength="4" name="" class="sc-input sc-input-xmini sc_adv_input_yhi" value="">
+        </span>
+    </div>
+    <div class="sc_adv_hatr">
+        <span class="sc_adv_label">语言检索范围</span>
+        <span class="sc_adv_dropdown_btn">
+            <span class="sc_adv_dropdown_text sc_adv_lang_sel">
+                <a href="javascript:;" data-id="0">不限</a>
+            </span>
+            <i class="c-icon c-icon-arrow-down-gray"></i>
+            <div class="sc_adv_dropdown_group sc_adv_dropgroup_lang">
+                                <a href="javascript:;" data-id="0" class="sc_adv_lang_hide">不限</a>
+                                <a href="javascript:;" data-id="1">英文</a>
+                                <a href="javascript:;" data-id="2">中文</a>
+                            </div>
+        </span>
+    </div>
+    <span class="sc_adv_wd_hidden"></span>
+    <input type="hidden" name="ie" value="utf-8">
+    <input type="hidden" name="tn" value="SE_baiduxueshu_c1gjeupa">
+    <input type="hidden" name="sc_f_para" value="sc_tasktype={firstAdvancedSearch}">
+    <input type="hidden" name="sc_from" value=""/>
+    <input type="hidden" name="sc_as_para" value="sc_lib:"/>
+
+    <span class="sc_adv_sub s_btn_wr"><input type="submit" value="搜索" class="sc_adv_sub_btn s_btn"></span>
+</form>
+</div>
+
+                                                        </div>
+                    </div>
+    </div>
+</div>
+
+
+<div class="ppv_topnav"><div class="topnav_l" style="width: 1100px;"><div class="tnav_content"><a href="/u/ppv" class="selected">单篇购买</a><a href="/u/ppv?tab=intro" class="">产品介绍</a><a href="/u/ppv?tab=usercenter" class="">个人中心</a><a href="/u/ppv?tab=help" class="">帮助</a></div></div></div>
+
+
+        <div id="container">
+            
+                
+                <div id="left_menu_content" class="LOG_WR gj" data-log="{'actblock':'menu'}">
+    <div class="left_menu_logo">
+        <a href="/">
+                <div class="sologan onlyOn"></div>
+                <i class="iconfont onlyOff logosim">&#xe607;</i>
+        </a>
+    </div>
+    <div class="main_menu_wr">
+        <div class="sch_main_menu">
+                        <div class="menu_listitem">
+                <a href="/" class=""  data-log="{'type':'xueshu_sch'}" target="_blank">
+                    <i class="iconfont i-wx"></i><span>文献</span>
+                </a>
+            </div>
+            <div class="menu_listitem">
+                <a href="/usercenter/journal/navigation?language=1" class="" data-log="{'type':'journal'}">
+                <i class="iconfont i-qk"></i><span>期刊</span>
+                </a>
+            </div>
+            <div class="menu_listitem dotPromote">
+                <a href="/usercenter/data/authorchannel?cmd=frontpage" data-log="{'type':'authorchannel'}" class="">
+                <i class="iconfont i-xz"></i><span>学者</span>
+                </a>
+            </div>
+                        <div class="splite-line"></div>
+                        <div class="menu_listitem">
+                <a href="/usercenter" data-log="{'type':'mycollect'}" class="need-login ">
+                    <i class="iconfont i-dy"></i><span>订阅</span><i id="msimsg"></i>
+                </a>
+            </div>
+
+            <div class="menu_listitem">
+                <a href="/usercenter/?tab=collect" data-log="{'type':'mycollect'}" class="need-login ">
+                    <i class="iconfont i-sc"></i><span>收藏</span>
+                </a>
+            </div>
+
+            <div class="menu_listitem">
+                <a href="/usercenter/papercheck/index?tag=check&upload=1" data-log="{'type':'authorchannel'}" class="paperCheck ">
+                    <i class="iconfont i-lwck"></i><span>论文查重</span>
+                </a>
+            </div>
+            <div class="menu_listitem">
+                <a href="/u/biye/?tag=paper" class="" data-log="{'type':'journal'}">
+                    <i class="iconfont i-ktfx"></i><span>开题分析</span>
+                </a>
+            </div>
+            <div class="menu_listitem">
+                <a href="/u/ppv" data-log="{'type':'ppv'}" class="active">
+                    <i class="iconfont i-dpgm"></i><span>单篇购买</span>
+                </a>
+            </div>
+            <div class="menu_listitem">
+                <a href="/u/paperhelp" data-log="{'type':'paperhelp'}" class="">
+                    <i class="iconfont i-wxhz"></i><span>文献互助</span>
+                </a>
+            </div>
+                        <div class="splite-line"></div>
+                        <div class="menu_listitem">
+                <a href="/u/user" class="need-login " data-log="{'type':'user'}">
+                    <i class="iconfont i-yhzx"></i><span>用户中心</span><i id="ucimsg"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+                
+                <div id="right_content" class="content_wr">
+                
+                    <div class="right_content_main">
+                    
+<div class="pagecontent">
+  <div class="ppv-content">
+<div class="ppv-usercenter-home-header">
+    <div class="ppv-usercenter-home-heade-count">
+        支持单篇购买文档数量
+        <p>
+            <em>1</em><em>3</em><em>0</em><em>7</em><em>1</em><em>8</em><em>0</em><em>0</em>        </p>
+    </div>
+    <div class="ppv-usercenter-home-heade-userInfo">
+        <div class="ppv-userInfo">
+	    <img class="user_pic" src="http://himg.baidu.com/sys/portrait/item/1f9763616f62696e673577" alt="用户头像" title="" />
+    <h3 class="login">登录</h3>
+    </div>
+    </div>
+</div>
+<div class="ppv-usercenter-home-introStep">
+    <div class="leftIntro">
+        <p class="IntroTitle">文献页面中，带有【付费下载】选项便可支持单篇购买文献操作</p>
+        <img src="/lib/static/scholar/cache/ppv/img/buyStep_178e5ad.png" width="500px" alt="购买文献操作">
+    </div>
+    <div class="rightSearch">
+        <p class="IntroTitle">搜索所需文献</p>
+        <div class="s_form_wr">
+            <form class="fm" action="//xueshu.baidu.com/s" target="_blank">
+                <input name="wd" autocomplete="off" id="kw" value="" maxlength="256">
+                <input type="submit" class="iconfont search-g" value="&#xe624;">
+                <input type="hidden" name="ie" value="utf-8">
+                <input type="hidden" name="tn" value="SE_baiduxueshu_c1gjeupa">
+            </form>
+        </div>
+        <p class="instance">
+            <span>示例文献 : </span>
+                <a href="//xueshu.baidu.com/s?wd=DEVELOPMENT OF POLYMER-BASED 0–3 COMPOSITES WITH HIGH DIELECTRIC CONSTANT
+">DEVELOPMENT OF POLYMER-BASED 0–3 COMPOSITES WITH HIGH DIELECTRIC CONSTANT</a>
+        </p>
+        <p class="detailStep"><a href="/u/ppv/?tab=intro">查看详细操作步骤 >> </a></p>
+    </div>
+</div>
+<div class="ppv-usercenter-home-SP-wr">
+    <h3><span>合作机构</span><div></div></h3>
+    <div class="ppv-usercenter-home-SP-List ppv-usercenter-home-SP-ListUp">
+                    <div class="ppv-usercenter-home-SP-List-section c-clearfix">                <div data-index="0" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(https://ps-scholar-static.bj.bcebos.com/common/CCC.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>Copyright Clearance Center</h4>
+                        <p>提供专业文献: <span>约2500万篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        美版权结算中心(CCC)是一个国际领先的内容管理、许可授权、内容发现和文献传递的解决方案提供者。通过连接内容使用者和内容创造者，我们提供了众多助力搜索、强...
+                    </div>
+                </div>
+                                                <div data-index="1" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/5366d0160924ab18060191603cfae6cd7b890b55.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>John Wiley &amp; Sons Inc</h4>
+                        <p>提供专业文献: <span>约350万篇</span></p>
+                        <p></p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        Wiley作为一家国际性公司，始终致力于帮助机构与个人拓展通向成功所需的知识与技能。我们提供科学、技术、医学和人文社科期刊与在线学习、评估与认证相结合的解...
+                    </div>
+                </div>
+                                                <div data-index="2" class="ppv-usercenter-home-SP-List-item c-span-last">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/d058ccbf6c81800a08c82d52b83533fa828b47b8.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>Cambridge</h4>
+                        <p>提供专业文献: <span>约200万篇</span></p>
+                        <p>（预计7月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        剑桥大学出版社成立于1534年，为英国剑桥大学之分支机构；是历史最悠久及规模最大的出版社之一。剑桥大学出版社是一个非盈利机构，以“在全球范围内推动知识、教...
+                    </div>
+                </div>
+                                                <div data-index="3" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/4b90f603738da9779c26ea71b951f8198618e35b.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>Taylor &amp; Francis</h4>
+                        <p>提供专业文献: <span>约350万篇</span></p>
+                        <p>（预计7月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        Taylor &amp; Francis 集团是世界领先的学术出版社，每年出版2500余种期刊，5000多本新书，共有11万多册专业图书在售。集团提供全方位的出版...
+                    </div>
+                </div>
+                                                <div data-index="4" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/4b90f603738da9779c57ea71b951f8198618e374.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>Ingenta</h4>
+                        <p>提供专业文献: <span>约450万篇</span></p>
+                        <p>（预计7月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        Ingenta 是世界领先的内容方案提供商。通过提供整套的商业产品、内容与广告服务以及客户支持与专业服务，Ingenta为出版行业全流程提供解决方案。我们...
+                    </div>
+                </div>
+                                                <div data-index="5" class="ppv-usercenter-home-SP-List-item c-span-last">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/21a4462309f79052773b376905f3d7ca7bcbd545.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>Karger</h4>
+                        <p>提供专业文献: <span>约15万篇</span></p>
+                        <p></p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        Karger是一家瑞士医学和科技出版公司，它致力于以高质量的出版物服务科学团体的信息需求，内容涵盖所有医学领域。Karger的出版物包含100多种同行评审...
+                    </div>
+                </div>
+                                                <div data-index="6" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/3bf33a87e950352a3b2249525a43fbf2b2118b2d.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>World Scientific</h4>
+                        <p>提供专业文献: <span>约14万篇</span></p>
+                        <p></p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        世界科技出版公司（World Scientific Publishing Company）是当今亚太地区规模最大的英文科技出版公司，也是世界科技出版公司之...
+                    </div>
+                </div>
+                                                <div data-index="7" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/b3b7d0a20cf431ad1fcbe3634236acaf2edd984b.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>台湾华艺</h4>
+                        <p>提供专业文献: <span>约58.6万篇</span></p>
+                        <p>（预计7月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        华艺（airiti）成立于2000年，以艺术资料库为主，跨足学术领域。陆续建成期刊、论文、电子书等数据库产品；秉持“创新华文知识服务”的精神，期许成为华文...
+                    </div>
+                </div>
+                                                <div data-index="8" class="ppv-usercenter-home-SP-List-item c-span-last">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/b8014a90f603738d0d436078ba1bb051f819ec5b.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>台湾学术期刊在线数据库</h4>
+                        <p>提供专业文献: <span>约51.8万篇</span></p>
+                        <p></p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        TWS台湾学术期刊在线数据库是第一家获得国家新闻出版广电总局批文许可引进的台湾期刊全文数据库。文献内容涵盖台湾学术期刊出版总量85％以上，收录台湾学科包括...
+                    </div>
+                </div>
+            </div>                    <div class="ppv-usercenter-home-SP-List-section c-clearfix">                <div data-index="9" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/f703738da9773912155ee93bf1198618367ae274.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>台湾学术书籍数据库</h4>
+                        <p>提供专业文献: <span>约5800篇</span></p>
+                        <p>（预计7月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        TWB台湾学术书数据库是第一家取得新闻出版总署批准引进的全學科台湾学术书数据库。主要收录台湾学术专着、史料研究、商业出版社出版的学术著作，适合研究台湾的读...
+                    </div>
+                </div>
+                                                <div data-index="10" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/37d12f2eb9389b508c1d6d028c35e5dde6116e84.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>Trans Tech Publications Inc</h4>
+                        <p>提供专业文献: <span>约4万篇</span></p>
+                        <p>（预计7月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        Trans Tech Publications出版公司创立于1967年，为更好的服务于全世界科学和工程界，Trans Tech Publications出...
+                    </div>
+                </div>
+                                                <div data-index="11" class="ppv-usercenter-home-SP-List-item c-span-last">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/7dd98d1001e939019a42006e72ec54e736d1961a.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>AIMS</h4>
+                        <p>提供专业文献: <span>约1.2万篇</span></p>
+                        <p></p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        美国注册有着二十多年历史, AIMS是集出版和举办国际会议于一体的国际品牌。旗下有二十个高水准数学期刊，大多是SCI-E刊，有五种是核心SCI刊。AIMS...
+                    </div>
+                </div>
+                                                <div data-index="12" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/8c1001e93901213f0473c38c5de736d12f2e951a.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>The World &amp; I Online</h4>
+                        <p>提供专业文献: <span>约1万篇</span></p>
+                        <p>（预计7月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        World &amp; I（2004年注册成为The World &amp; I Online）是一个单刊数据库。自1986年1月以来，The World &amp; I Onl...
+                    </div>
+                </div>
+                                                <div data-index="13" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/4034970a304e251f006ec972ad86c9177e3e539a.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>AATCC</h4>
+                        <p>提供专业文献: <span>约200篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        美国纺织化学颜料协会, 成立于1921年，主要服务于纺织行业的专业人士。目前AATCC在全球60多个国家数以千计的个人及企业用户， 以其公认的测量和评估纤...
+                    </div>
+                </div>
+                                                <div data-index="14" class="ppv-usercenter-home-SP-List-item c-span-last">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/6159252dd42a283404051a8151b5c9ea14cebf9c.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>IAPT</h4>
+                        <p>提供专业文献: <span>约4000篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        国际植物分类协会，出版双月刊TAXON，该期刊被SCI, JCR及其他特定领域内的索引收录，期刊可回溯至1950年。主要关注于植物和真菌类的研究。
+                    </div>
+                </div>
+                                                <div data-index="15" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/0dd7912397dda144e5044338b8b7d0a20cf4862e.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>ASPT</h4>
+                        <p>提供专业文献: <span>约1500篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        美国植物分类学家协会，成立于1935年，主要为了鼓励、帮助提供植物分类领域的教学和科研，拥有超过1300多个会员。出版社涉及植物分类及植物标本。
+                    </div>
+                </div>
+                                                <div data-index="16" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/0ff41bd5ad6eddc4e2199b7133dbb6fd536633b9.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>Springer Publishing</h4>
+                        <p>提供专业文献: <span>约1.2万篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        拥有65年的出版历史，涉及领域有：护理学、老年学、长期护理、心理学、公共卫生、社会工作、康复、医疗教育，出版期刊约26种。
+                    </div>
+                </div>
+                                                <div data-index="17" class="ppv-usercenter-home-SP-List-item c-span-last">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/279759ee3d6d55fbbc1c5eac67224f4a21a4dd65.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>Physics Essays Publication</h4>
+                        <p>提供专业文献: <span>约1200篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        专注于物理基本问题相关的，杂志追溯到1988年。期刊致力于出版过去、当前的先进理念、方法和结果下的严谨试验方法等。本期刊致力于出版很多领域内的试验或原创研...
+                    </div>
+                </div>
+            </div>                    <div class="ppv-usercenter-home-SP-List-section c-clearfix">                <div data-index="18" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/279759ee3d6d55fbbf235dac67224f4a21a4dd56.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>Leuven University Press</h4>
+                        <p>提供专业文献: <span>约150篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        位于比利时，始于1971年。一年出版40本书 ，一半是英文或是法语、德语、意大利语等的组合，另一半是荷兰语。每本期刊都经过同行审查，确保最高的学术标准。目...
+                    </div>
+                </div>
+                                                <div data-index="19" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/4034970a304e251f1bf2ce72ad86c9177f3e5336.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>AOAC International</h4>
+                        <p>提供专业文献: <span>约5500篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        国际认可的，独立，第三方，非盈利组织，成立于1884年，主要为发展中的组织制定一致性的标准，推动国际通行标准的发展。其制定的标准被全球使用，以促进贸易及公...
+                    </div>
+                </div>
+                                                <div data-index="20" class="ppv-usercenter-home-SP-List-item c-span-last">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/96dda144ad3459828b6afb1806f431adcaef8453.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>Journal of Transport and Economic Policy</h4>
+                        <p>提供专业文献: <span>约500篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        交通与经济政策刊，于1967年开始出版，并很快成为运输经济与交通政策领域内信息的主要来源。直至今天，该期刊仍主要聚焦于特定交通研究领域内的研究。顺应时事，...
+                    </div>
+                </div>
+                                                <div data-index="21" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/5882b2b7d0a20cf47637eb557c094b36adaf9990.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>Pacific Affairs</h4>
+                        <p>提供专业文献: <span>约2500篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        太平洋事务。自1961年起，一直坐落于英国哥伦比亚大学的加拿大温哥华分校。该期刊作为亚洲研究中心的主要组成部分，致力于为亚洲及太平洋地区的读者提供高质量全...
+                    </div>
+                </div>
+                                                <div data-index="22" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/e7cd7b899e510fb3b419631dd333c895d1430c33.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>SBP Journal</h4>
+                        <p>提供专业文献: <span>约3500篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        社会行为与个性出版社，成立于1973年，主要出版领域涉及社会、性格及发展心理学等。数千名同行评审专家对期刊进行评审。
+                    </div>
+                </div>
+                                                <div data-index="23" class="ppv-usercenter-home-SP-List-item c-span-last">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/d52a2834349b033b71f9e8501fce36d3d439bdc2.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>Amsterdam University Press</h4>
+                        <p>提供专业文献: <span>约2000篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        阿姆斯特丹大学出版社：以纸本和开放获取资源的形式提供高质量的学术期刊。阿姆斯特丹大学出版社以其批判性、国际性、创造性、开放性和较强的社会责任著称。出版物有...
+                    </div>
+                </div>
+                                                <div data-index="24" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/024f78f0f736afc3b5b228efb919ebc4b64512f9.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>White Horse Press</h4>
+                        <p>提供专业文献: <span>约2500篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        于家族企业，目前已经注册为有限责任公司。其出版物涉及领域为环境和社会领域。
+                    </div>
+                </div>
+                                                <div data-index="25" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/86d6277f9e2f0708c3923c8ae324b899a801f2a1.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>Mohr Siebeck</h4>
+                        <p>提供专业文献: <span>约1万篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        成立于1801年的德国家族式出版社。出版物涉及领域有神学、哲学、法律、经济学等。
+                    </div>
+                </div>
+                                                <div data-index="26" class="ppv-usercenter-home-SP-List-item c-span-last">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/2934349b033b5bb5e17b31743cd3d539b700bc8f.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>Canadian Veterinary Medical Association</h4>
+                        <p>提供专业文献: <span>约400篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        加拿大兽医协会：为加拿大兽医专业人士发声，致力于提高动物的良好的生存状态，提高社会对兽医、对多种动物的公众认知。
+                    </div>
+                </div>
+            </div>                    <div class="ppv-usercenter-home-SP-List-section c-clearfix">                <div data-index="27" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/a1ec08fa513d26975a9418d75ffbb2fb4216d8f0.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>Aerospace Medical Association</h4>
+                        <p>提供专业文献: <span>约3500篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        航空医学协会。设立主要目的是慈善、教育及科学，它是航空医学、人类表现等领域目前最大、最有代表性的专业会员机构。航空医学协会是一个“伞形”集团，举办空中及航...
+                    </div>
+                </div>
+                                                <div data-index="28" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/e850352ac65c103861c4de48b8119313b17e8985.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>International Association for Bridge and Struct...</h4>
+                        <p>提供专业文献: <span>约8000篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        国际桥梁与结构工程协会（IABSE）由来自100多个国家的会员组成的科学技术协会。成立于1929年，总部位于瑞士 苏黎世。IABSE全方面处理结构工程的各...
+                    </div>
+                </div>
+                                                <div data-index="29" class="ppv-usercenter-home-SP-List-item c-span-last">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/55e736d12f2eb938c9656878df628535e5dd6f2b.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>NAPICU （National Association of Psychiatric Int...</h4>
+                        <p>提供专业文献: <span>约50篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        1996年正式成立的关注多领域的非营利性组织。其主要关注的是精神保健和特殊护理，致力于提升病人看病体验和治疗效果；与此同时也关注医疗人员的提供和发展。除出...
+                    </div>
+                </div>
+                                                <div data-index="30" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/5366d0160924ab1839aaf3bd3ffae6cd7a890bff.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>Scrivener publishing</h4>
+                        <p>提供专业文献: <span>约500篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        提供期刊、电子书及电子书系列。涉及领域比较广，包括生物伦理学、生物科技、商务、化学、土木工程、计算机科学、药学、能源、食品、地理、纳米科技、数学等。
+                    </div>
+                </div>
+                                                <div data-index="31" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/0bd162d9f2d3572ce7028e568013632763d0c35c.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>Vittorio Klostermann</h4>
+                        <p>提供专业文献: <span>约1000篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        成立于1930年，专注于人文社科类的德国学术出版社。其主要关注领域为哲学，值得一提的是，该出版社收录了马丁·海德格尔（20世纪存在主义哲学的创始人）的全部手稿。
+                    </div>
+                </div>
+                                                <div data-index="32" class="ppv-usercenter-home-SP-List-item c-span-last">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/7aec54e736d12f2ee97bb3ea45c2d56285356839.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>Westburn Publishers Ltd</h4>
+                        <p>提供专业文献: <span>约1000篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        成立于1983年，专注于市场营销及其他相关学科的学术出版社。目前在售三本期刊。《消费者行为》为双盲同行评审期刊，致力于沟通消费者行为和组织购买者之间的差异...
+                    </div>
+                </div>
+                                                <div data-index="33" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/d4628535e5dde711c7405e7cadefce1b9c1661ad.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>Policy Press</h4>
+                        <p>提供专业文献: <span>约3500篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        世界领先的高质量书籍和期刊出版社。主要关注社科领域，依托布里斯托大学，旗下出版物涉及最新的政策研究，既可以帮助学者，也可以帮助学生的学习。
+                    </div>
+                </div>
+                                                <div data-index="34" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/1e30e924b899a901a62047bc17950a7b0208f527.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>Science Reviews 2000</h4>
+                        <p>提供专业文献: <span>约5000篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        拥有四十多年历史的专业出版社，为各领域的研究学者和实业人士提供领先全球的讯息，所涉及主题包括：自然科学、技术和文化等。
+                    </div>
+                </div>
+                                                <div data-index="35" class="ppv-usercenter-home-SP-List-item c-span-last">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/b7fd5266d016092400bbbe91de0735fae7cd3499.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>Bentham</h4>
+                        <p>提供专业文献: <span>约8万篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        大型自然科学、科技和医药类出版社，出版100多本期刊和书籍，主要关注药物学、生物制药和医学研究等，其内容收录在多个资源集成平台如PubMed, Scopu...
+                    </div>
+                </div>
+            </div>                    <div class="ppv-usercenter-home-SP-List-section c-clearfix">                <div data-index="36" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/0b46f21fbe096b63e4fb41da06338744eaf8ac5d.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>American Association for Geodetic Surveying</h4>
+                        <p>提供专业文献: <span>约300篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        美国大地测量协会，致力于推动地理和地面信息测绘的发展，帮助测绘专家更好地与地理资讯系统对接，在地理空间领域推动更多的教育项目，推动地理资讯系统与各不同层级...
+                    </div>
+                </div>
+                                                <div data-index="37" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/d53f8794a4c27d1e4f42254e11d5ad6edcc438d7.jpg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>Medio Ambiente /IIED</h4>
+                        <p>提供专业文献: <span>约50篇</span></p>
+                        <p>（预计10月份上线）</p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        主要关注拉美地区，致力于帮助拉美社会更加公正和民主，关注该地区的国家经济、社会和环境政策。
+                    </div>
+                </div>
+                                                <div data-index="38" class="ppv-usercenter-home-SP-List-item c-span-last">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(https://ps-scholar-static.bj.bcebos.com/common/元照logo.png)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>元照出版公司</h4>
+                        <p>提供专业文献: <span>约1万篇</span></p>
+                        <p></p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        元照出版公司以「法学」为核心，在二十一世纪跨领域的科际整合年代，开展与金融财税、区块链、AI人工智能、环境能源、公卫、医药、食安、长照等领域。作品从199...
+                    </div>
+                </div>
+                                                <div data-index="39" class="ppv-usercenter-home-SP-List-item ">
+                    <div class="ppv-usercenter-home-SP-logo"><div style="background-image:url(https://ps-scholar-static.bj.bcebos.com/common/hogrefe.jpeg)"></div></div>
+                    <div class="ppv-usercenter-home-SP-info">
+                        <h4>Hogrefe</h4>
+                        <p>提供专业文献: <span>约1万篇</span></p>
+                        <p></p>
+                    </div>
+                    <div class="ppv-usercenter-home-SP-abs">
+                        Hogrefe是欧洲心理学、精神病学和心理健康领域的领先科学出版商。这些核心领域由护理、医疗保健和医学领域的出版物补充。Hogrefe产品被广泛应用于临床...
+                    </div>
+                </div>
+                                    </div>
+            </div>
+
+    <div class="wraperList">
+        <span class="closeItemBtn"><i class="iconfont">&#xe613;</i></span>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(https://ps-scholar-static.bj.bcebos.com/common/CCC.jpg)"></div></div>
+            <div class="home-info">
+                <h4>Copyright Clearance Center</h4>
+                <p>提供专业文献: <span style="color: #06c;">约2500万篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                美版权结算中心(CCC)是一个国际领先的内容管理、许可授权、内容发现和文献传递的解决方案提供者。通过连接内容使用者和内容创造者，我们提供了众多助力搜索、强化出版、尊重版权的市场解决方案。美国版权结算中心携手子公司RightsDirect和Ixxus为来自全球的大型公司和学术机构的上千万用户提供可靠的解决方案。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/5366d0160924ab18060191603cfae6cd7b890b55.jpg)"></div></div>
+            <div class="home-info">
+                <h4>John Wiley &amp; Sons Inc</h4>
+                <p>提供专业文献: <span style="color: #06c;">约350万篇</span></p>
+                <p></p>
+            </div>
+            <div class="home-abs">
+                Wiley作为一家国际性公司，始终致力于帮助机构与个人拓展通向成功所需的知识与技能。我们提供科学、技术、医学和人文社科期刊与在线学习、评估与认证相结合的解决方案，帮助高校、研究机构、学术团体、企业、政府以及个人提高学术和专业影响力。Wiley自1807年创建至今，已拥有超过200年历史，全球总部位于美国新泽西州的霍博肯（Hoboken）。公司在纽约证券交易所挂牌上市，交易代码为 JWa 和 JWb。欲获取更多信息，请访问wiley.com
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/d058ccbf6c81800a08c82d52b83533fa828b47b8.jpg)"></div></div>
+            <div class="home-info">
+                <h4>Cambridge</h4>
+                <p>提供专业文献: <span style="color: #06c;">约200万篇</span></p>
+                <p>（预计7月份上线）</p>
+            </div>
+            <div class="home-abs">
+                剑桥大学出版社成立于1534年，为英国剑桥大学之分支机构；是历史最悠久及规模最大的出版社之一。剑桥大学出版社是一个非盈利机构，以“在全球范围内推动知识、教育、学习和研究的发展”为己任。是自1584年印制了第一本书籍以来，一直在持续不断地为全球读者提供各类高品质图书。剑桥作者队伍及业务范围遍及全世界。每年出版1600多种学术新书以及380多种学术期刊，是全球出版学术范围最广的出版社之一。出版领域包括自然科学、人文社科、工程技术、医学，一直保持和延续着高品质出版和技术创新的恒久声誉，以满足全球客户、作者和读者的各种需求。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/4b90f603738da9779c26ea71b951f8198618e35b.jpg)"></div></div>
+            <div class="home-info">
+                <h4>Taylor &amp; Francis</h4>
+                <p>提供专业文献: <span style="color: #06c;">约350万篇</span></p>
+                <p>（预计7月份上线）</p>
+            </div>
+            <div class="home-abs">
+                Taylor &amp; Francis 集团是世界领先的学术出版社，每年出版2500余种期刊，5000多本新书，共有11万多册专业图书在售。集团提供全方位的出版支持，帮助作者和编辑传播他们的研究成果、观点和知识。我们的作者包括顶尖的科学家、研究人员、学者以及各个领域最优秀的专业人员。出版范围涵盖了人文科学、社会科学、行为科学、科学技术与医学等诸多学科。Taylor &amp; Francis 总部位于英国牛津，并在美国、中国、澳大利亚、南非、瑞典、印度、新加坡等20多个国家设有分支机构。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/4b90f603738da9779c57ea71b951f8198618e374.jpg)"></div></div>
+            <div class="home-info">
+                <h4>Ingenta</h4>
+                <p>提供专业文献: <span style="color: #06c;">约450万篇</span></p>
+                <p>（预计7月份上线）</p>
+            </div>
+            <div class="home-abs">
+                Ingenta 是世界领先的内容方案提供商。通过提供整套的商业产品、内容与广告服务以及客户支持与专业服务，Ingenta为出版行业全流程提供解决方案。我们帮助出版社有效管理内容，实现内容的货币化。为超过450家商业和学术类出版社服务近40年，Ingenta解决了内容提供商面临的基本问题。拥有超过300家出版社，16000本书籍和期刊，25000注册机构用户以及数百万的最终用户，Ingenta旗下Ingenta Connect 提供低成本的电子出版服务组合，为用户提供可靠的技术支持，实现电子资源的便捷传播。全球约有180万研究学者期望通过Ingenta Connect 获取所需资源，Ingenta Connect已经成为全球最大的学术和专业资源提供商。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/21a4462309f79052773b376905f3d7ca7bcbd545.jpg)"></div></div>
+            <div class="home-info">
+                <h4>Karger</h4>
+                <p>提供专业文献: <span style="color: #06c;">约15万篇</span></p>
+                <p></p>
+            </div>
+            <div class="home-abs">
+                Karger是一家瑞士医学和科技出版公司，它致力于以高质量的出版物服务科学团体的信息需求，内容涵盖所有医学领域。Karger的出版物包含100多种同行评审期刊，每年出版新书50多种，还涵盖数目不断增长的开放式获取期刊。为了履行在全球传递知识的承诺，Karger出版内容主要以英文为主，专注于基础和临床研究，一般均可在线获取。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/3bf33a87e950352a3b2249525a43fbf2b2118b2d.jpg)"></div></div>
+            <div class="home-info">
+                <h4>World Scientific</h4>
+                <p>提供专业文献: <span style="color: #06c;">约14万篇</span></p>
+                <p></p>
+            </div>
+            <div class="home-abs">
+                世界科技出版公司（World Scientific Publishing Company）是当今亚太地区规模最大的英文科技出版公司，也是世界科技出版公司之一 。公司总部设在新加坡，在美国新泽西、英国伦敦、德国慕尼黑、印度钦奈、日本东京、以色列及中国的北京、上海、香港、台湾等地均设有分公司。世界科技出版公司专职出版高科技书刊，内容涉及基础科学、计算机科学、工程技术、医学、生命科学、商业与管理等各学科领域。目前，世界科技出版公司的年出版量呈增长态势，每年出版新书600余种，学术期刊130余种，其中有一半以上的期刊被SCI收录。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/b3b7d0a20cf431ad1fcbe3634236acaf2edd984b.jpg)"></div></div>
+            <div class="home-info">
+                <h4>台湾华艺</h4>
+                <p>提供专业文献: <span style="color: #06c;">约58.6万篇</span></p>
+                <p>（预计7月份上线）</p>
+            </div>
+            <div class="home-abs">
+                华艺（airiti）成立于2000年，以艺术资料库为主，跨足学术领域。陆续建成期刊、论文、电子书等数据库产品；秉持“创新华文知识服务”的精神，期许成为华文知识的领航员。目前已成为台湾首个且唯一跻身国际资料库的专业产品。由于在网络世界中，知识研究进步快速。华艺会随全球化的脚步不断创新，无止境的追求最新、最好、最专业的服务模式。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/b8014a90f603738d0d436078ba1bb051f819ec5b.jpg)"></div></div>
+            <div class="home-info">
+                <h4>台湾学术期刊在线数据库</h4>
+                <p>提供专业文献: <span style="color: #06c;">约51.8万篇</span></p>
+                <p></p>
+            </div>
+            <div class="home-abs">
+                TWS台湾学术期刊在线数据库是第一家获得国家新闻出版广电总局批文许可引进的台湾期刊全文数据库。文献内容涵盖台湾学术期刊出版总量85％以上，收录台湾学科包括：图书情报学、哲学、物理、化学、医学、中医药学、生物科学、农业、电机工程、机械工程、法学、教育学等。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/f703738da9773912155ee93bf1198618367ae274.jpg)"></div></div>
+            <div class="home-info">
+                <h4>台湾学术书籍数据库</h4>
+                <p>提供专业文献: <span style="color: #06c;">约5800篇</span></p>
+                <p>（预计7月份上线）</p>
+            </div>
+            <div class="home-abs">
+                TWB台湾学术书数据库是第一家取得新闻出版总署批准引进的全學科台湾学术书数据库。主要收录台湾学术专着、史料研究、商业出版社出版的学术著作，适合研究台湾的读者与机构采用。收录超过5,800本繁体中文电子书，每月送审并持续增加中。收录范围涵盖哲学、宗教、自然科学、应用科学、社会科学、史地、语言文学、艺术等综合性内容。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/37d12f2eb9389b508c1d6d028c35e5dde6116e84.jpg)"></div></div>
+            <div class="home-info">
+                <h4>Trans Tech Publications Inc</h4>
+                <p>提供专业文献: <span style="color: #06c;">约4万篇</span></p>
+                <p>（预计7月份上线）</p>
+            </div>
+            <div class="home-abs">
+                Trans Tech Publications出版公司创立于1967年，为更好的服务于全世界科学和工程界，Trans Tech Publications出版公司推出了Scientific.net平台。Scientific.net是专注于材料科学、工程学及相关学科领域规模最大、成长最快的网站。网站包含14份期刊及一部书系列，每年这些出版物新出版内容超过6万页。2015年，Trans Tech Publications出版公司推出了Specialized Collections（专业收藏）项目。通过该项目，科学家们可以获取由相关领域专家编制的综合图书中各专业研究领域近年来最优秀的文章。读者可以通过购买纸质书刊、电子书刊、CD或者订购单篇文章等各种便捷方式使用Trans Tech Publications出版公司的出版内容。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/7dd98d1001e939019a42006e72ec54e736d1961a.jpg)"></div></div>
+            <div class="home-info">
+                <h4>AIMS</h4>
+                <p>提供专业文献: <span style="color: #06c;">约1.2万篇</span></p>
+                <p></p>
+            </div>
+            <div class="home-abs">
+                美国注册有着二十多年历史, AIMS是集出版和举办国际会议于一体的国际品牌。旗下有二十个高水准数学期刊，大多是SCI-E刊，有五种是核心SCI刊。AIMS数学刊的编委，作者和读者，都遍布全球。历年来期刊领域内的领军人物大都在AIMS刊中发表过文章，包括七位菲尔斯奖得主。更有值得骄傲的是，陶哲轩在AIMS旗下的DCDS刊里接连发表了四篇文章。AIMS刊的特点是“质量求高，从严审稿，快速发表。”
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/8c1001e93901213f0473c38c5de736d12f2e951a.jpg)"></div></div>
+            <div class="home-info">
+                <h4>The World &amp; I Online</h4>
+                <p>提供专业文献: <span style="color: #06c;">约1万篇</span></p>
+                <p>（预计7月份上线）</p>
+            </div>
+            <div class="home-abs">
+                World &amp; I（2004年注册成为The World &amp; I Online）是一个单刊数据库。自1986年1月以来，The World &amp; I Online每个月都会组织专家学者就历史研究、文学、科技、地理、文化和地理研究、当代思想、哲学，艺术等等领域的前沿进展进行讨论并撰写发表相关报告。The World &amp; I Online令人信服而又往往具有争议性的文章每年被全世界超过100个国家的约6000个政府机构、研究院所、大学及公共图书馆所广泛使用。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/4034970a304e251f006ec972ad86c9177e3e539a.jpg)"></div></div>
+            <div class="home-info">
+                <h4>AATCC</h4>
+                <p>提供专业文献: <span style="color: #06c;">约200篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                美国纺织化学颜料协会, 成立于1921年，主要服务于纺织行业的专业人士。目前AATCC在全球60多个国家数以千计的个人及企业用户， 以其公认的测量和评估纤维及纤维织物的标准测试方法而闻名。收录主题涵盖：生产技术、纺织产品、化学物质与染剂、合成与天然布料与纱线之特性、环境污染议题与相关化学、生物学、物理学。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/6159252dd42a283404051a8151b5c9ea14cebf9c.jpg)"></div></div>
+            <div class="home-info">
+                <h4>IAPT</h4>
+                <p>提供专业文献: <span style="color: #06c;">约4000篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                国际植物分类协会，出版双月刊TAXON，该期刊被SCI, JCR及其他特定领域内的索引收录，期刊可回溯至1950年。主要关注于植物和真菌类的研究。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/0dd7912397dda144e5044338b8b7d0a20cf4862e.jpg)"></div></div>
+            <div class="home-info">
+                <h4>ASPT</h4>
+                <p>提供专业文献: <span style="color: #06c;">约1500篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                美国植物分类学家协会，成立于1935年，主要为了鼓励、帮助提供植物分类领域的教学和科研，拥有超过1300多个会员。出版社涉及植物分类及植物标本。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/0ff41bd5ad6eddc4e2199b7133dbb6fd536633b9.jpg)"></div></div>
+            <div class="home-info">
+                <h4>Springer Publishing</h4>
+                <p>提供专业文献: <span style="color: #06c;">约1.2万篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                拥有65年的出版历史，涉及领域有：护理学、老年学、长期护理、心理学、公共卫生、社会工作、康复、医疗教育，出版期刊约26种。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/279759ee3d6d55fbbc1c5eac67224f4a21a4dd65.jpg)"></div></div>
+            <div class="home-info">
+                <h4>Physics Essays Publication</h4>
+                <p>提供专业文献: <span style="color: #06c;">约1200篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                专注于物理基本问题相关的，杂志追溯到1988年。期刊致力于出版过去、当前的先进理念、方法和结果下的严谨试验方法等。本期刊致力于出版很多领域内的试验或原创研究如：光谱学、量子力学、粒子物理学、电磁波、天体物理学、空间物理学、物理学上的数学方法、等离子物理、物理哲学、化学物理及相对论。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/279759ee3d6d55fbbf235dac67224f4a21a4dd56.jpg)"></div></div>
+            <div class="home-info">
+                <h4>Leuven University Press</h4>
+                <p>提供专业文献: <span style="color: #06c;">约150篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                位于比利时，始于1971年。一年出版40本书 ，一半是英文或是法语、德语、意大利语等的组合，另一半是荷兰语。每本期刊都经过同行审查，确保最高的学术标准。目前在印的有1000种书，包含领域很广如：音乐、艺术与艺术理论、文本和文学、历史和考古、哲学和宗教与社会、法律和经济等。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/4034970a304e251f1bf2ce72ad86c9177f3e5336.jpg)"></div></div>
+            <div class="home-info">
+                <h4>AOAC International</h4>
+                <p>提供专业文献: <span style="color: #06c;">约5500篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                国际认可的，独立，第三方，非盈利组织，成立于1884年，主要为发展中的组织制定一致性的标准，推动国际通行标准的发展。其制定的标准被全球使用，以促进贸易及公共健康和安全。AOAC 推动了一系列安全利民的分析方法，如：食品和饮料、膳食补充剂、婴儿配方产品、饲料、肥料、水和土壤、兽药及其他。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/96dda144ad3459828b6afb1806f431adcaef8453.jpg)"></div></div>
+            <div class="home-info">
+                <h4>Journal of Transport and Economic Policy</h4>
+                <p>提供专业文献: <span style="color: #06c;">约500篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                交通与经济政策刊，于1967年开始出版，并很快成为运输经济与交通政策领域内信息的主要来源。直至今天，该期刊仍主要聚焦于特定交通研究领域内的研究。顺应时事，积极反应，有规律地出版世界范围内的交通经济政策及其影响。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/5882b2b7d0a20cf47637eb557c094b36adaf9990.jpg)"></div></div>
+            <div class="home-info">
+                <h4>Pacific Affairs</h4>
+                <p>提供专业文献: <span style="color: #06c;">约2500篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                太平洋事务。自1961年起，一直坐落于英国哥伦比亚大学的加拿大温哥华分校。该期刊作为亚洲研究中心的主要组成部分，致力于为亚洲及太平洋地区的读者提供高质量全方位的研究议题。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/e7cd7b899e510fb3b419631dd333c895d1430c33.jpg)"></div></div>
+            <div class="home-info">
+                <h4>SBP Journal</h4>
+                <p>提供专业文献: <span style="color: #06c;">约3500篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                社会行为与个性出版社，成立于1973年，主要出版领域涉及社会、性格及发展心理学等。数千名同行评审专家对期刊进行评审。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/d52a2834349b033b71f9e8501fce36d3d439bdc2.jpg)"></div></div>
+            <div class="home-info">
+                <h4>Amsterdam University Press</h4>
+                <p>提供专业文献: <span style="color: #06c;">约2000篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                阿姆斯特丹大学出版社：以纸本和开放获取资源的形式提供高质量的学术期刊。阿姆斯特丹大学出版社以其批判性、国际性、创造性、开放性和较强的社会责任著称。出版物有自传、期刊等。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/024f78f0f736afc3b5b228efb919ebc4b64512f9.jpg)"></div></div>
+            <div class="home-info">
+                <h4>White Horse Press</h4>
+                <p>提供专业文献: <span style="color: #06c;">约2500篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                于家族企业，目前已经注册为有限责任公司。其出版物涉及领域为环境和社会领域。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/86d6277f9e2f0708c3923c8ae324b899a801f2a1.jpg)"></div></div>
+            <div class="home-info">
+                <h4>Mohr Siebeck</h4>
+                <p>提供专业文献: <span style="color: #06c;">约1万篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                成立于1801年的德国家族式出版社。出版物涉及领域有神学、哲学、法律、经济学等。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/2934349b033b5bb5e17b31743cd3d539b700bc8f.jpg)"></div></div>
+            <div class="home-info">
+                <h4>Canadian Veterinary Medical Association</h4>
+                <p>提供专业文献: <span style="color: #06c;">约400篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                加拿大兽医协会：为加拿大兽医专业人士发声，致力于提高动物的良好的生存状态，提高社会对兽医、对多种动物的公众认知。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/a1ec08fa513d26975a9418d75ffbb2fb4216d8f0.jpg)"></div></div>
+            <div class="home-info">
+                <h4>Aerospace Medical Association</h4>
+                <p>提供专业文献: <span style="color: #06c;">约3500篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                航空医学协会。设立主要目的是慈善、教育及科学，它是航空医学、人类表现等领域目前最大、最有代表性的专业会员机构。航空医学协会是一个“伞形”集团，举办空中及航空旅行相关的论坛会。该协会在多个方面为联邦政府和国际组织提供专业意见，如航空学、航空医学标准、老龄化飞行员及心理压力等。ASMA的会员包括航空航天医学专家、生理学家、飞行护士、心理学家等。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/e850352ac65c103861c4de48b8119313b17e8985.jpg)"></div></div>
+            <div class="home-info">
+                <h4>International Association for Bridge and Structural Engineering</h4>
+                <p>提供专业文献: <span style="color: #06c;">约8000篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                国际桥梁与结构工程协会（IABSE）由来自100多个国家的会员组成的科学技术协会。成立于1929年，总部位于瑞士 苏黎世。IABSE全方面处理结构工程的各个方面：考虑技术、经济、环境、美学及社会因素后结构规划的科学性和美学性、设计、建造、运营、监督和检查、维护、恢复和保存、拆除和拆除结构等。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/55e736d12f2eb938c9656878df628535e5dd6f2b.jpg)"></div></div>
+            <div class="home-info">
+                <h4>NAPICU （National Association of Psychiatric Intensive Care and Low Secure Units 国家精神保健和低安全单位协会）</h4>
+                <p>提供专业文献: <span style="color: #06c;">约50篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                1996年正式成立的关注多领域的非营利性组织。其主要关注的是精神保健和特殊护理，致力于提升病人看病体验和治疗效果；与此同时也关注医疗人员的提供和发展。除出版领域内专业期刊外，NAPICU还出版资讯类期刊，组织季度会议和年度论坛等。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/5366d0160924ab1839aaf3bd3ffae6cd7a890bff.jpg)"></div></div>
+            <div class="home-info">
+                <h4>Scrivener publishing</h4>
+                <p>提供专业文献: <span style="color: #06c;">约500篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                提供期刊、电子书及电子书系列。涉及领域比较广，包括生物伦理学、生物科技、商务、化学、土木工程、计算机科学、药学、能源、食品、地理、纳米科技、数学等。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/0bd162d9f2d3572ce7028e568013632763d0c35c.jpg)"></div></div>
+            <div class="home-info">
+                <h4>Vittorio Klostermann</h4>
+                <p>提供专业文献: <span style="color: #06c;">约1000篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                成立于1930年，专注于人文社科类的德国学术出版社。其主要关注领域为哲学，值得一提的是，该出版社收录了马丁·海德格尔（20世纪存在主义哲学的创始人）的全部手稿。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/7aec54e736d12f2ee97bb3ea45c2d56285356839.jpg)"></div></div>
+            <div class="home-info">
+                <h4>Westburn Publishers Ltd</h4>
+                <p>提供专业文献: <span style="color: #06c;">约1000篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                成立于1983年，专注于市场营销及其他相关学科的学术出版社。目前在售三本期刊。《消费者行为》为双盲同行评审期刊，致力于沟通消费者行为和组织购买者之间的差异；《市场营销审查》则主要为实践者、老师和学生提供重要和有兴趣的学习资料；《社会商业》则致力于为学术及实业人士提供关于社会商务理论和时间方面的知识和观点分享等。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/d4628535e5dde711c7405e7cadefce1b9c1661ad.jpg)"></div></div>
+            <div class="home-info">
+                <h4>Policy Press</h4>
+                <p>提供专业文献: <span style="color: #06c;">约3500篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                世界领先的高质量书籍和期刊出版社。主要关注社科领域，依托布里斯托大学，旗下出版物涉及最新的政策研究，既可以帮助学者，也可以帮助学生的学习。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/1e30e924b899a901a62047bc17950a7b0208f527.jpg)"></div></div>
+            <div class="home-info">
+                <h4>Science Reviews 2000</h4>
+                <p>提供专业文献: <span style="color: #06c;">约5000篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                拥有四十多年历史的专业出版社，为各领域的研究学者和实业人士提供领先全球的讯息，所涉及主题包括：自然科学、技术和文化等。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/b7fd5266d016092400bbbe91de0735fae7cd3499.jpg)"></div></div>
+            <div class="home-info">
+                <h4>Bentham</h4>
+                <p>提供专业文献: <span style="color: #06c;">约8万篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                大型自然科学、科技和医药类出版社，出版100多本期刊和书籍，主要关注药物学、生物制药和医学研究等，其内容收录在多个资源集成平台如PubMed, Scopus, ProQuest等。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/0b46f21fbe096b63e4fb41da06338744eaf8ac5d.jpg)"></div></div>
+            <div class="home-info">
+                <h4>American Association for Geodetic Surveying</h4>
+                <p>提供专业文献: <span style="color: #06c;">约300篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                美国大地测量协会，致力于推动地理和地面信息测绘的发展，帮助测绘专家更好地与地理资讯系统对接，在地理空间领域推动更多的教育项目，推动地理资讯系统与各不同层级（地方、区域或国家范围内的）组织机构间更好协作。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(http://hiphotos.baidu.com/space/pic/item/d53f8794a4c27d1e4f42254e11d5ad6edcc438d7.jpg)"></div></div>
+            <div class="home-info">
+                <h4>Medio Ambiente /IIED</h4>
+                <p>提供专业文献: <span style="color: #06c;">约50篇</span></p>
+                <p>（预计10月份上线）</p>
+            </div>
+            <div class="home-abs">
+                主要关注拉美地区，致力于帮助拉美社会更加公正和民主，关注该地区的国家经济、社会和环境政策。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(https://ps-scholar-static.bj.bcebos.com/common/元照logo.png)"></div></div>
+            <div class="home-info">
+                <h4>元照出版公司</h4>
+                <p>提供专业文献: <span style="color: #06c;">约1万篇</span></p>
+                <p></p>
+            </div>
+            <div class="home-abs">
+                元照出版公司以「法学」为核心，在二十一世纪跨领域的科际整合年代，开展与金融财税、区块链、AI人工智能、环境能源、公卫、医药、食安、长照等领域。作品从1995年《月旦法学杂志》，1998年元照出版学术实务图书，到2005年月旦知识库、教学案例库、博硕士论文、解读裁判等跨领域、虚实整合、融合趋势与现象、学术与实务。作品以人文、社科类共逾万种品项，著名的作品包括《月旦法学杂志系列》、《元照英美法词典》等。
+            </div>
+        </div>
+                <div style="display: none;" class="listItem">
+            <div class="home-logo"><div style="background-image:url(https://ps-scholar-static.bj.bcebos.com/common/hogrefe.jpeg)"></div></div>
+            <div class="home-info">
+                <h4>Hogrefe</h4>
+                <p>提供专业文献: <span style="color: #06c;">约1万篇</span></p>
+                <p></p>
+            </div>
+            <div class="home-abs">
+                Hogrefe是欧洲心理学、精神病学和心理健康领域的领先科学出版商。这些核心领域由护理、医疗保健和医学领域的出版物补充。Hogrefe产品被广泛应用于临床、医疗实践、护理学习以及人力资源管理等领域。Hogrefe出版集团最初在德国哥廷根成立，目前包括16家出版公司，分布在欧洲14个国家，以及美国和巴西。
+            </div>
+        </div>
+            </div>
+
+</div>
+  </div>
+</div>
+
+                    </div>
+                
+                </div>
+                
+                
+                
+                <div class="pagefoot gj" style=""><div class="footcon"><span class="lawinfo"><h4>关于我们</h4><p>百度学术集成海量学术资源，融合人工智能、深度学习、大数据分析等技术，为科研工作者提供全面快捷的学术服务。在这里我们保持学习的态度，不忘初心，砥砺前行。<br><a href="/usercenter/show/baiducas?cmd=page" target="_blank" style="color: #38f;">了解更多>></a></p></span><span class="contact"><h4>联系我们</h4><div class="innerCont"><a href="http://weibo.com/baiduxueshu" target="_blank"><p class="wb"><span class=""></span></p></a><p class="wx"><span class="qrcode weixincode biye_bg"></span></p><a href="mailto:xueshu_support@baidu.com" target="_blank"><p class="help"></p></a></div></span><span class="moreinfo"><span class="productManual"> <a href="http://static.open.baidu.com/media/ch10/pdf/BaiduScholar-Manual.pdf" target="_blank">下载产品手册</a> &nbsp;&nbsp;&nbsp;|</span><span class="suggest"><a href="javascript:;" class="feedback"> 意见反馈</a></span></span></div><p class="foottext">©2019 Baidu 百度学术声明 <a href="https://www.baidu.com/duty/" target="_blank">使用百度前必读</a></p></div>
+                
+            
+        </div>
+        <div class="dialog_bg hover-screen"></div>
+    </div>
+
+    
+  <script src="/lib/static/scholar/cache/ppv/js/home_c9aef17.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="//zhifu.baidu.com/static/js/pc/iframe/lbscashier-iframe.js?t=20161010"></script>
+  
+    
+<div style="display:none;">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?ca3a5a9fcd6834247101423a2dcc1424";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+
+</body>
+</html>

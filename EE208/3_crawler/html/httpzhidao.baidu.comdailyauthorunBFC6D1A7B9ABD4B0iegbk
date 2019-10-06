@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<!--STATUS OK-->
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta http-equiv="content-type" content="text/html;charset=gbk" />
+<meta property="wb:webmaster" content="3aababe5ed22e23c" />
+<meta name="referrer" content="always" />
+<title>科学公园_知道日报特约作者_百度知道</title>
+<link rel="shortcut icon" href="//www.baidu.com/favicon.ico?t=20171027" type="image/x-icon" />
+<link rel="icon" sizes="any" mask href="//www.baidu.com/img/baidu.svg" />
+
+<script>
+    window.alogObjectConfig = {
+        product: '102',
+        page: '', 
+        monkey_page: '',
+        speed_page: '',
+        speed: {
+            sample: ''
+        },
+        monkey: {
+            sample: ''
+        },
+        exception: { 
+            sample: ''
+        },
+        feature: {
+            sample: ''
+        },
+        cus: {
+            sample: '',
+            custom_metrics: []
+        },
+        csp: {
+            sample: '',
+            'default-src': [
+                {match: '*bae.baidu.com', target: 'Accept,Warn'},
+                {match: '*.baidu.com,*.bdstatic.com,*.bdimg.com,localhost,*.hao123.com,*.hao123img.com', target: 'Accept'},
+                {match: /^(127|172|192|10)(\.\d+){3}$/, target: 'Accept'},
+                {match: '*', target: 'Accept,Warn'}
+            ]
+        }
+    };
+ 
+    void function(a,b,c,d,e,f,g){a.alogObjectName=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=a[e].l||+new Date,d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d;var h=!0;if(a.alogObjectConfig&&a.alogObjectConfig.sample){var i=Math.random();a.alogObjectConfig.rand=i,i>a.alogObjectConfig.sample&&(h=!1)}h&&(f=b.createElement(c),f.async=!0,f.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),g=b.getElementsByTagName(c)[0],g.parentNode.insertBefore(f,g))}(window,document,"script","/hunter/alog/alog.min.js","alog"),void function(){function a(){}window.PDC={mark:function(a,b){alog("speed.set",a,b||+new Date),alog.fire&&alog.fire("mark")},init:function(a){alog("speed.set","options",a)},view_start:a,tti:a,page_ready:a}}();
+    void function(n){var o=!1;n.onerror=function(n,e,t,c){var i=!0;return!e&&/^script error/i.test(n)&&(o?i=!1:o=!0),i&&alog("exception.send","exception",{msg:n,js:e,ln:t,col:c}),!1},alog("exception.on","catch",function(n){alog("exception.send","exception",{msg:n.msg,js:n.path,ln:n.ln,method:n.method,flag:"catch"})})}(window);
+</script>
+
+<script>
+	!function(document, window){
+		var log = {
+			list: [],
+			host: 'https://' + location.host + '/api/httpscheck',
+			log: function(param) {
+				var a = [];
+		    	for(var k in param) {
+		    		a.push(k + '=' + param[k]);
+		    	}
+		    	var msg = a.join('&');
+		    	if(~this.list.indexOf(msg)){
+		    		return;
+		    	}
+		    	this.list.push(msg);
+		  		var img = new Image();
+		    	var key = '_ik_log_' + (Math.random()*2147483648 ^ 0).toString(36);
+		    	window[key] = img;
+		    		img.onload = img.onerror = img.onabort = function() {
+		        		img.onload = img.onerror = img.onabort = null;
+		        		window[key] = null;
+			    		img = null;
+		    	};
+		  		img.src = this.host + '?' + msg;
+			}
+		};
+
+		function HTTPSWarningLog(){
+			this.selector = [
+				'link',
+				'script',
+				'img',
+				'embed',
+				'iframe'
+			];
+			this.warningCounter = 0;
+			this.init();
+		};
+
+		HTTPSWarningLog.prototype = {
+			init: function(){
+				this.fetch();
+			},
+
+			fetch: function(){
+				for(var tags = this.selector, i =0, len = tags.length; i < len;i++) {
+					this.getTag(tags[i]);
+				}
+			},
+
+			getTag: function(tag) {
+				var domList = document.getElementsByTagName(tag);
+				if(!domList.length) {
+					return;
+				}
+				for(var i = 0,len = domList.length;i<len;i++) {
+					var el = domList[i];
+					var url = el.getAttribute(el.tagName==='LINK' ? 'href' : 'src');
+                    if(el.getAttribute('rel') === 'canonical') {
+                        continue;
+                    }
+					if(url && 'https:' === location.protocol && !url.indexOf('http:')){
+						this.sendLog(el, el.tagName.toLowerCase(),url);
+						this.warningCounter++;
+					}
+				}
+			},
+			
+			sendLog: function(el, type, url){
+				log.log({
+					url: location.href,
+					wtype: type,
+					wurl: url
+				});
+			}
+		};
+
+		function domReady(fn){
+		    if(document.addEventListener) {
+		        document.addEventListener('DOMContentLoaded', function() {
+		            document.removeEventListener('DOMContentLoaded',arguments.callee, false);
+		            fn();
+		        }, false);
+		    }else if(document.attachEvent) {
+		        document.attachEvent('onreadystatechange', function() {
+		            if(document.readyState == 'complete') {
+		                document.detachEvent('onreadystatechange', arguments.callee);
+		                fn();
+		            }
+		        });
+		    }
+		};
+
+		domReady(function(){
+			new HTTPSWarningLog();
+			for(var i=1; i<6; i++) {
+				!function(i){
+					setTimeout(function(){
+						new HTTPSWarningLog();
+					}, i*i*i*1000);
+				}(i);
+			}
+		});
+	}(document, window);
+</script>
+
+<meta name="keywords" content="知道日报 百度知道 特约作者 科学公园" />
+<meta name="description" content='科学公园：一个致力于传播主流科学信息、揭露伪科学骗局、推广理性科学精神的科普平台。。知道日报是百度知道重磅推出的品牌内容栏目，泛生活领域的专业知识问答平台。基于百度知道强大的问答平台基础和良好的用户口碑，知道日报甄选广大网友深感兴趣的泛生活领域问题，涉及生活、科技、互联网、健康、环境、天文等几十个分类，邀请专业机构、专家学者，向读者提供专业优质的回答。
+' />
+
+<script type="text/javascript">
+			!function(){var n={},t={};n.context=function(n,e){var i=arguments.length;if(i>1)t[n]=e;else if(1==i){if("object"!=typeof n)return t[n];for(var o in n)n.hasOwnProperty(o)&&(t[o]=n[o])}},"F"in window||(window.F=n)}();;
+			
+            
+																																														
+			F.context('user', {"isLogin":"","isRealName":"","stoken":"","name":"","imId":"","id":"","euid":"","wealth":"","gradeIndex":"","isMavin":"","encryptedBDUSS":"65b1pCop7LSw0M+Sf5pLCvzss5f7HDgzX5TFA9k"});
+			F.context('user')['internalAdmin'] = null;
+
+									
+			            F.context('isQuality', false);
+            F.context('now', 1570340972);
+		</script>
+<script>F.context('sysTaskAutoInit', 1);</script>
+<!--[if lte IE 8]>
+<script>
+                (function(){
+                    var e="abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(","),
+                    i=e.length;
+                    while(i--){document.createElement(e[i])}
+                 })();
+            </script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="https://iknowpc.bdimg.com/static/common/pkg/common.2e57416.css" /><link rel="stylesheet" type="text/css" href="https://iknowpc.bdimg.com/static/common/widget/header-metis/header.39c9ddf.css" /><link rel="stylesheet" type="text/css" href="https://iknowpc.bdimg.com/static/daily/pkg/module.bd1979a.css" /><link rel="stylesheet" type="text/css" href="https://gss0.bdstatic.com/7051cy792sgCpNKfpU_Y_D3/static/com-brand/pkg/com-brand_f83454b.css" /></head>
+
+<script> alog('speed.set', 'ht', +new Date()); </script>
+
+<body class="daily-author">
+
+<div id="userbar" class="userbar userbar-renew" data="">
+<ul class="aside-list">
+<li>
+<a href="http://www.baidu.com/" class="toindex">百度首页</a>
+</li>
+<li><a rel="nofollow" alog-alias="usrbar-login" href="javascript:;" id="userbar-login" log="type:2026,pname:account,mod:login,action:show,pos:pop">登录</a></li>
+<li><a rel="nofollow" alog-alias="usrbar-reg" id="userbar-reg" href="https://passport.baidu.com/v2/?reg&tpl=ik&color=green&u=" target="_blank">注册</a></li>
+<li class="shop-entrance">
+<a href="/shop" title="知道商城" log="type:2026,pos:top-right,target:shop-entrance">商城<i class="i-house" style="display: none;"></i></a>
+<span class="lucky-try"></span>
+</li>
+</ul>
+</div>
+
+
+
+<div class="head-wrap">
+<header id="header" class="container">
+
+<div class="daily-search-box-wp fixed">
+<div class="daily-search-box container-wide">
+<div class="logo-wp">
+<a href="/" class="zhidao-logo"></a><span>|</span><a href="/daily/" class="daily-logo"></a>
+</div>
+<form action="/daily/search" name="search-form" method="get" id="search-form" class="search-form">
+<input class="hdi" id="kw" maxlength="256" tabindex="1" size="46" name="word" value="" autocomplete="off" placeholder="输入关键字或作者名"/>
+<input type="hidden" name="ie" value="gbk">
+<button alog-action="g-search-anwser" type="submit" id="search-btn" hidefocus="true"  tabindex="2" class="btn-global">搜索日报</button>
+<a href="#" alog-action="g-i-ask" class="i-ask-link" id="ask-btn">我要提问</a>
+</form>
+</div>
+</div>
+
+</header>
+</div>
+<div id="body" class="container">
+
+
+<div class="menu-wp">
+<div id="menu" class="menu">
+<div class="main-menu">
+<a href="/daily" class="" data-index="1" data-log="type:2060,action:click,area:main-menu-0,page:daily-all">精选</a><a href="/daily/square" class=" menu-found" data-index="2" data-log="type:2060,action:click,area:main-menu-1,page:daily-all">发现<i class="found-tip" title="有新文章，等你来读"></i></a><a href="/daily/focusdaily" class="" data-index="3" data-log="type:2060,action:click,area:main-menu-2,page:daily-all">收藏/关注</a><a href="/daily/authorcenter" class="authorcenter " data-index="4" data-log="type:2060,action:click,area:main-menu-3,page:daily-all">
+<i></i>
+作者中心</a>
+</div>
+</div>
+</div>
+<div class="author-banner-wp">
+<div class="author-banner container-wide">
+<div class="info">
+<div class="avatar">
+<img src="https://gss0.bdstatic.com/70cFsj3f_gcX8t7mm9GUKT-xh_/zhidaoribao2014/authors/scipark.png" width="134" height="134" alt="用户的头像">
+</div>
+<div class="name">
+科学公园
+<a class="org" title="机构"></a>
+</div>
+<div class="detail">一个致力于传播主流科学信息、揭露伪科学骗局、推广理性科学精神的科普平台。</div>
+<div class="authorlink">
+</div>
+</div>
+<div class="tag">
+<div class="focus-num">
+<strong id="focus-num">2050</strong>
+<span>粉丝</span>
+</div>
+<div class="daily">
+<strong>1221</strong>
+<span>文章</span>
+</div>
+<div class="pv" id="pv">
+<strong></strong>
+<span>阅读量</span>
+</div>
+<a href="#" class="focus unfocus" data-log="type:2060,action:click,area:focus,page:daily-author"><b></b>关注TA</a>
+</div>
+</div>
+</div>
+<div class="clearfix container-wide content">
+<div class="my-daily-list-wp">
+<div class="my-daily-list clearfix">
+<div class="time-line">
+<ul>
+<li>
+<div class="year">
+<span><b>2019</b>年</span>
+<span class="tag"></span>
+</div>
+<div class="time first">
+<span>09月29日</span>
+<b></b>
+</div></li>
+<li>
+<div class="time">
+<span>09月28日</span>
+<b></b>
+</div></li>
+<li>
+<div class="time">
+<span>09月28日</span>
+<b></b>
+</div></li>
+<li>
+<div class="time">
+<span>09月28日</span>
+<b></b>
+</div></li>
+<li>
+<div class="time">
+<span>09月27日</span>
+<b></b>
+</div></li>
+<li>
+<div class="time">
+<span>09月27日</span>
+<b></b>
+</div></li>
+<li>
+<div class="time">
+<span>09月27日</span>
+<b></b>
+</div></li>
+<li>
+<div class="time">
+<span>09月27日</span>
+<b></b>
+</div></li>
+<li>
+<div class="time">
+<span>09月27日</span>
+<b></b>
+</div></li>
+<li>
+<div class="time">
+<span>09月27日</span>
+<b></b>
+</div></li>
+</ul>
+</div><div class="daily-list-wp">
+<ul class="daily-list" id="daily-list">
+<li class=" clearfix" data-id="179165">
+<a class="img-wp" href="/daily/view?id=179165" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+<img src="https://gss0.baidu.com/94o3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D800%2C450/sign=e35d1350c58065387bbfac1ba7ed8d70/6f061d950a7b02080bbaa9ff6dd9f2d3572cc8b9.jpg" alt="物理学和天文学里有哪些充满诗意的故事？" title="物理学和天文学里有哪些充满诗意的故事？" width="800" height="450">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=179165" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+物理学和天文学里有哪些充满诗意的故事？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=179165" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+让我们先把思路转移到天文学上来，这不是因为曾经有很多的诗人为日月星辰谱写了很多美丽的诗篇，而是因为，天文学本身对于恒星和行星运动规律的归纳和总结，才使得物理学得以真正的发端。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="browse-count">阅读(986)</span>
+<span class="comment-count"></span>
+</div>
+</div>
+</li>
+<li class=" clearfix" data-id="179158">
+<a class="img-wp" href="/daily/view?id=179158" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+<img src="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D800%2C450/sign=3f8dde1a980a304e5277a8f2e1f88bb2/ac345982b2b7d0a2ce66ae83c4ef76094b369a05.jpg" alt="先抹橄榄油，再饮葡萄酒——历史上最早的大规模经济作物是什么？" title="先抹橄榄油，再饮葡萄酒——历史上最早的大规模经济作物是什么？" width="800" height="450">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=179158" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+先抹橄榄油，再饮葡萄酒——历史上最早的大规模经济作...
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=179158" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+与单纯为了生存的粮食作物不同，经济作物让人类的生活变得更加丰富多彩，与手工业、商业结合后，在农业社会焕发出无限的活力。中国的桑树、印度的胡椒也是同等重要的经济作物。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="browse-count">阅读(1839)</span>
+<span class="comment-count"></span>
+</div>
+</div>
+</li>
+<li class=" clearfix" data-id="174570">
+<a class="img-wp" href="/daily/view?id=174570" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+<img src="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D800%2C450%3B/sign=98ad6737fcd3572c66b794d4ba234f13/dc54564e9258d10921a2996cdf58ccbf6d814dae.jpg" alt="我们常见的野草都有哪些？你能叫出它们的名字吗？" title="我们常见的野草都有哪些？你能叫出它们的名字吗？" width="800" height="450">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=174570" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+我们常见的野草都有哪些？你能叫出它们的名字吗？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=174570" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+希望下次你和家人一起去郊游时，能够骄傲地说出它们的名字。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="browse-count">阅读(814)</span>
+<span class="comment-count"></span>
+</div>
+</div>
+</li>
+<li class=" clearfix" data-id="179171">
+<a class="img-wp" href="/daily/view?id=179171" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+<img src="https://gss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D800%2C450/sign=412e7ea6db3f8794d3aa4026e22b22c0/8435e5dde71190efa5ad0fc1c11b9d16fdfa605e.jpg" alt="物理学的其中万有理论，你知道几种？" title="物理学的其中万有理论，你知道几种？" width="800" height="450">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=179171" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+物理学的其中万有理论，你知道几种？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=179171" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+“万有理论”是科学上最为人钟爱的梦想。它一旦被发现，将能够从最基础的层面上来描述宇宙的运行机制，因而能够完成对自然的全部理解。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="browse-count">阅读(490)</span>
+<span class="comment-count"></span>
+</div>
+</div>
+</li>
+<li class=" clearfix" data-id="173679">
+<a class="img-wp" href="/daily/view?id=173679" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+<img src="https://gss0.baidu.com/7Po3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D800%2C450%3B/sign=72900d11bcfb43161a4a727210946a17/a9d3fd1f4134970a7fb37df59bcad1c8a6865d23.jpg" alt="巴塔哥尼亚的虎鲸“搁浅战术”为什么震惊世界？" title="巴塔哥尼亚的虎鲸“搁浅战术”为什么震惊世界？" width="800" height="450">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=173679" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+巴塔哥尼亚的虎鲸“搁浅战术”为什么震惊世界？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=173679" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+包括海狮在内的众多鳍脚类动物一直都是很多生态型虎鲸钟爱的食物，而借助尚未完全消失的四肢，鳍脚类动物得以在岸上繁殖与休息，享受着不受虎鲸打扰的宁静。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="browse-count">阅读(27087)</span>
+<span class="comment-count"></span>
+</div>
+</div>
+</li>
+<li class=" clearfix" data-id="179174">
+<a class="img-wp" href="/daily/view?id=179174" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+<img src="https://gss0.baidu.com/7Po3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D800%2C450/sign=255cd2da05d162d985bb6a1421ef85d8/5366d0160924ab18b07f7d293afae6cd7b890b46.jpg" alt="自然选择的背后有什么数学原理？" title="自然选择的背后有什么数学原理？" width="800" height="450">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=179174" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+自然选择的背后有什么数学原理？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=179174" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+当爱因斯坦被问及，宇宙中最强大的力量是什么？这位最能代表“天才”二字的思想巨人说：“复利”。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="browse-count">阅读(1853)</span>
+<span class="comment-count"></span>
+</div>
+</div>
+</li>
+<li class=" clearfix" data-id="179166">
+<a class="img-wp" href="/daily/view?id=179166" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+<img src="https://gss0.baidu.com/7Po3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D800%2C450/sign=979faed45e3d26972e86005565cb9ecf/d833c895d143ad4be660d5de8d025aafa40f0665.jpg" alt="“瓶中超新星”能将光转换成物质吗?" title="“瓶中超新星”能将光转换成物质吗?" width="800" height="450">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=179166" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+“瓶中超新星”能将光转换成物质吗?
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=179166" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+爱因斯坦著名的质能方程E=mc2提示了质量与能量的统一本质。质量转换成能量对我们来说很普遍，但一直以来很难看到纯粹从能量转换成质量的过程。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="browse-count">阅读(298)</span>
+<span class="comment-count"></span>
+</div>
+</div>
+</li>
+<li class=" clearfix" data-id="179170">
+<a class="img-wp" href="/daily/view?id=179170" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+<img src="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D800%2C450/sign=4bdc387c9722720e7b9beaf24bfb2672/79f0f736afc37931487e1b37e4c4b74543a9119d.jpg" alt="减肥必须吃低热量食物吗？" title="减肥必须吃低热量食物吗？" width="800" height="450">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=179170" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+减肥必须吃低热量食物吗？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=179170" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+想保持苗条，想减肥成功，不仅要有相对健康的生活习惯，饮食要合理搭配，也要适当控制自己的食欲，要接受轻微不舒服的饥饿感，还要辅助一定量的运动。这才是健康的减肥途径。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="browse-count">阅读(2192)</span>
+<span class="comment-count"></span>
+</div>
+</div>
+</li>
+<li class=" clearfix" data-id="179038">
+<a class="img-wp" href="/daily/view?id=179038" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+<img src="https://iknow-pic.cdn.bcebos.com/c995d143ad4bd11385d86a2f55afa40f4bfb0592@w_800,h_450" alt="植物开花——到底是为了谁？" title="植物开花——到底是为了谁？" width="800" height="450">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=179038" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+植物开花——到底是为了谁？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=179038" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+植物为什么要开花呢？如果没有人类这样的知音，如此妖娆多姿、芬芳扑鼻的花朵又是在为谁妩媚呢？
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="browse-count">阅读(264)</span>
+<span class="comment-count"></span>
+</div>
+</div>
+</li>
+<li class="last clearfix" data-id="179169">
+<a class="img-wp" href="/daily/view?id=179169" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+<img src="https://gss0.baidu.com/-vo3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D800%2C450/sign=3739a4ddd8ca7bcb7d2ecf278e394757/78310a55b319ebc4f272eb878d26cffc1e1716a1.jpg" alt="蚂蚁是怎么给自己“解毒”的？" title="蚂蚁是怎么给自己“解毒”的？" width="800" height="450">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=179169" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+蚂蚁是怎么给自己“解毒”的？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=179169" target="_blank" data-log="type:2060,action:click,area:daily-list,page:daily-ahthor">
+解毒药可不是人类的专利，有些动物也懂得利用它。今天我们就来看一看蚂蚁是如何利用解毒药的。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="browse-count">阅读(243)</span>
+<span class="comment-count"></span>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<nav class="pager h-center line">
+<b>1</b><a href="/daily/author?un=科学公园&ie=gbk&rn=10&pn=10">2</a><a href="/daily/author?un=科学公园&ie=gbk&rn=10&pn=20">3</a><a href="/daily/author?un=科学公园&ie=gbk&rn=10&pn=30">4</a><a href="/daily/author?un=科学公园&ie=gbk&rn=10&pn=40">5</a><a href="/daily/author?un=科学公园&ie=gbk&rn=10&pn=50">6</a><a href="/daily/author?un=科学公园&ie=gbk&rn=10&pn=60">7</a><a href="/daily/author?un=科学公园&ie=gbk&rn=10&pn=70">8</a><a href="/daily/author?un=科学公园&ie=gbk&rn=10&pn=80">9</a><a href="/daily/author?un=科学公园&ie=gbk&rn=10&pn=90">10</a><a class="pager-next" href="/daily/author?un=科学公园&ie=gbk&rn=10&pn=10">下一页&gt;</a><a class="pager-last" href="/daily/author?un=科学公园&ie=gbk&rn=10&pn=1220">尾页</a>
+</nav>
+</div></div>
+<div class="f-contact">合作及供稿请联系：zdribao@baidu.com</div>
+
+</div>
+
+
+<footer id="footer" class="wgt-footer">
+<p>
+<a target="_blank" rel="nofollow" href="http://help.baidu.com/question?prod_id=9&class=337">帮助</a>
+&nbsp;|&nbsp;<a target="_blank" rel="nofollow" href="javascript:;" id="footer-feedback">意见反馈</a>
+&nbsp;|&nbsp;<a target="_blank" rel="nofollow" href="http://help.baidu.com/newadd?prod_id=9&category=1">投诉举报</a>
+</p>
+<p>
+京ICP证030173号-1&nbsp;&nbsp;&nbsp;京网文【2013】0934-983号&nbsp;&nbsp;&nbsp;&nbsp;    &copy;2019Baidu&nbsp;&nbsp;<a rel="nofollow" href="http://www.baidu.com/duty/" target="_blank">使用百度前必读</a>&nbsp;|&nbsp;<a rel="nofollow" href="http://help.baidu.com/question?prod_id=9&class=325&id=2760" target="_blank">知道协议</a>&nbsp;</p>
+</footer>
+
+
+
+
+
+
+
+<script>
+    void function(a,b,c,d,e,f){function g(b){a.attachEvent?a.attachEvent("onload",b,!1):a.addEventListener&&a.addEventListener("load",b)}function h(a,c,d){d=d||15;var e=new Date;e.setTime((new Date).getTime()+1e3*d),b.cookie=a+"="+escape(c)+";path=/;expires="+e.toGMTString()}function i(a){var c=b.cookie.match(new RegExp("(^| )"+a+"=([^;]*)(;|$)"));return null!=c?unescape(c[2]):null}function j(){var a=i("PMS_JT");if(a){h("PMS_JT","",-1);try{a=a.match(/{["']s["']:(\d+),["']r["']:["']([\s\S]+)["']}/),a=a&&a[1]&&a[2]?{s:parseInt(a[1]),r:a[2]}:{}}catch(c){a={}}a.r&&b.referrer.replace(/#.*/,"")!=a.r||alog("speed.set","wt",a.s)}}if(a.alogObjectConfig){var k=a.alogObjectConfig.sample,l=a.alogObjectConfig.rand;d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d,k&&l&&l>k||(g(function(){alog("speed.set","lt",+new Date),e=b.createElement(c),e.async=!0,e.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),f=b.getElementsByTagName(c)[0],f.parentNode.insertBefore(e,f)}),j())}}(window,document,"script","/hunter/alog/dp.min.js");
+    </script>
+
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?92f9337283b8a859284c612d2cfeb037";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+</body><script type="text/javascript" src="https://iknowpc.bdimg.com/static/common/lib/mod.75d1f98.js"></script><script type="text/javascript">(window.__IKNOW_GLOBAL__ || window).require.resourceMap({"res":{"common:widget\/lib\/jquery\/jquery.origin.js":{"pkg":"common:p3"},"common:widget\/js\/util\/event\/event.js":{"pkg":"common:p6","deps":["common:widget\/lib\/jquery\/jquery.js"]},"common:widget\/bottom-ask\/bottom-ask.js":{"pkg":"common:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/util\/log\/log.js"]},"common:widget\/css\/fonts\/iconfont.js":{"pkg":"common:p0"},"common:widget\/css\/fonts\/iconfont.min.js":{"pkg":"common:p0"},"common:widget\/footer-new\/footer-new.js":{"pkg":"common:p0","deps":["common:widget\/lib\/jquery\/jquery.js","common:widget\/js\/util\/event\/event.js"]},"common:widget\/footer\/footer.js":{"pkg":"common:p0"},"common:widget\/header-metis\/header.js":{"pkg":"common:p0","deps":["common:widget\/lib\/jquery\/jquery.js","common:widget\/js\/ui\/dialog\/dialog.js","common:widget\/js\/util\/template\/template.js","common:widget\/js\/ui\/scrollbar-new\/scrollbar-new.js","common:widget\/js\/util\/store\/store.js"]},"common:widget\/menu\/menu.js":{"pkg":"common:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/log\/log.js"]},"common:widget\/search-box-new\/search-box-new.js":{"pkg":"common:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/ui\/suggestion-new\/suggestion-new.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/util\/form\/form.js","common:widget\/js\/util\/log\/log.js","common:widget\/js\/ui\/dialog\/dialog.js","common:widget\/lib\/jquery.placeholder\/jquery.placeholder.js"]},"common:widget\/userbar-renew\/userbar-renew.js":{"pkg":"common:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/logic\/login\/login.js","common:widget\/js\/util\/log\/log.js","common:widget\/js\/util\/store\/store.js"]},"com-brand:widget\/js\/uploader\/uploader.js":{"url":"https:\/\/gss0.bdstatic.com\/7051cy792sgCpNKfpU_Y_D3\/static\/com-brand\/widget\/js\/uploader\/uploader_b149a46.js","deps":["common:widget\/lib\/jquery\/jquery.js","common:widget\/js\/ui\/base\/base.js","common:widget\/js\/ui\/dialog\/dialog.js","common:widget\/js\/util\/uri\/uri.js","common:widget\/js\/util\/webuploader\/webuploader.js"]},"com-brand:widget\/js\/ueditor\/ueditor.min.js":{"pkg":"com-brand:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/ui\/dialog\/dialog.js","com-brand:widget\/js\/ueditor\/ueditor.config.js","com-brand:widget\/js\/uploader\/uploader.js"]},"com-brand:widget\/js\/ueditor\/ueditor.config.js":{"pkg":"com-brand:p0"},"com-brand:widget\/js\/ueditor\/addon\/addon.js":{"pkg":"com-brand:p0","deps":["common:widget\/lib\/jquery\/jquery.js","common:widget\/js\/logic\/authcode\/authcode.js"]},"com-brand:widget\/js\/ueditor\/lang\/lang.js":{"pkg":"com-brand:p0"},"com-brand:widget\/js\/ueditor\/prototype\/prototype.js":{"pkg":"com-brand:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/ui\/dialog\/dialog.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/util\/log\/log.js"]},"daily:widget\/acenter-notice\/acenter-notice.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/log\/log.js","common:widget\/js\/ui\/dialog\/dialog.js"]},"daily:widget\/js\/submit\/submit.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/event\/event.js"]},"daily:widget\/js\/author\/author.js":{"pkg":"daily:p0","deps":["daily:widget\/js\/submit\/submit.js"]},"daily:widget\/author-banner\/author-banner.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","daily:widget\/js\/author\/author.js","common:widget\/js\/ui\/dialog\/dialog.js"]},"daily:widget\/author-info\/author-info.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/log\/log.js"]},"daily:widget\/daily-list\/acenter-list.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/ui\/pager\/normalPager.js"]},"daily:widget\/daily-list\/daily-list.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js"]},"daily:widget\/js\/daily\/daily.js":{"pkg":"daily:p0","deps":["daily:widget\/js\/submit\/submit.js"]},"daily:widget\/daily-list\/fav-daily-list.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","daily:widget\/js\/daily\/daily.js","common:widget\/js\/ui\/dialog\/dialog.js"]},"daily:widget\/daily-list\/search-list.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js"]},"daily:widget\/loading\/loading.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js"]},"daily:widget\/daily-list\/show-list.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/template\/template.js","common:widget\/js\/util\/suffix-str\/suffix-str.js","daily:widget\/loading\/loading.js"]},"daily:widget\/daily-list\/text-list.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","daily:widget\/js\/daily\/daily.js","common:widget\/js\/ui\/dialog\/dialog.js"]},"daily:widget\/detail\/decorate-img.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js"]},"daily:widget\/js\/player\/cyberplayer.js":{"pkg":"daily:p0"},"daily:widget\/detail\/detail.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/log\/log.js","daily:widget\/js\/daily\/daily.js","daily:widget\/js\/author\/author.js","common:widget\/js\/ui\/dialog\/dialog.js","common:widget\/js\/util\/event\/event.js","daily:widget\/js\/player\/cyberplayer.js"]},"daily:widget\/detail\/support.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/log\/log.js"]},"daily:widget\/js\/jcrop\/jcrop.jquery.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js"]},"daily:widget\/edit\/edit.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","com-brand:widget\/js\/ueditor\/ueditor.min.js","common:widget\/js\/util\/template\/template.js","daily:widget\/js\/daily\/daily.js","common:widget\/js\/ui\/dialog\/dialog.js","daily:widget\/js\/player\/cyberplayer.js","common:widget\/js\/util\/event\/event.js","common:widget\/lib\/juicer\/juicer.js","daily:widget\/js\/jcrop\/jcrop.jquery.js","common:widget\/lib\/jquery.placeholder\/jquery.placeholder.js"]},"daily:widget\/favauthor-list\/favauthor-list.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","daily:widget\/js\/author\/author.js","common:widget\/js\/ui\/dialog\/dialog.js"]},"daily:widget\/hot-author\/hot-author.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js"]},"daily:widget\/hot-daily\/hot-daily.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js"]},"daily:widget\/hot-daily\/hot-get.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js"]},"daily:widget\/hot-video\/hot-video.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js"]},"daily:widget\/income\/income-content\/income-content.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/ui\/pager\/normalPager.js","common:widget\/js\/ui\/dialog\/dialog.js"]},"daily:widget\/income\/set-payee\/set-payee.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/ui\/dialog\/dialog.js","common:widget\/js\/ui\/uploader\/uploader.js","common:widget\/js\/util\/https\/https.js"]},"daily:widget\/js\/baidubce\/baidubce-sdk.bundle.min.js":{"pkg":"daily:p0"},"daily:widget\/js\/custom-style\/custom-style.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js"]},"daily:widget\/js\/page\/authorcenter.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/ui\/dialog\/dialog.js","common:widget\/js\/util\/log\/log.js","common:widget\/js\/util\/tangram\/url.js"]},"daily:widget\/js\/validator\/validator.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js"]},"daily:widget\/js\/page\/companyapply.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/ui\/dialog\/dialog.js","common:widget\/lib\/jquery.placeholder\/jquery.placeholder.js","daily:widget\/js\/custom-style\/custom-style.js","common:widget\/js\/ui\/uploader\/uploader.js","common:widget\/js\/ui\/countword\/countword.js","daily:widget\/js\/validator\/validator.js","common:widget\/js\/util\/https\/https.js"]},"daily:widget\/js\/page\/index.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/tangram\/cookie.js"]},"daily:widget\/js\/page\/personapply.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/ui\/dialog\/dialog.js","common:widget\/lib\/jquery.placeholder\/jquery.placeholder.js","daily:widget\/js\/custom-style\/custom-style.js","common:widget\/js\/ui\/uploader\/uploader.js","common:widget\/js\/ui\/countword\/countword.js","daily:widget\/js\/validator\/validator.js","common:widget\/js\/util\/https\/https.js"]},"daily:widget\/left-aside\/left-aside.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/event\/event.js"]},"daily:widget\/list-author\/list-author.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/template\/template.js","common:widget\/js\/ui\/dialog\/dialog.js","common:widget\/js\/util\/suffix-str\/suffix-str.js","daily:widget\/js\/author\/author.js","daily:widget\/loading\/loading.js"]},"daily:widget\/menu\/menu.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/event\/event.js"]},"daily:widget\/period-nav\/period-nav.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/template\/template.js"]},"daily:widget\/rank\/rank-container\/rank-container.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/ui\/dialog\/dialog.js"]},"daily:widget\/rel-daily\/rel-daily.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js"]},"daily:widget\/search-box\/search-box.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/lib\/jquery.placeholder\/jquery.placeholder.js","common:widget\/js\/util\/form\/form.js"]},"daily:widget\/share\/share.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js"]},"daily:widget\/topic-cont\/topic-cont.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/ui\/pager\/normalPager.js","common:widget\/js\/ui\/dialog\/dialog.js"]},"daily:widget\/view-replier\/view-replier.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js"]}},"pkg":{"common:p0":{"url":"https:\/\/iknowpc.bdimg.com\/static\/common\/pkg\/more.22db732.js","has":["common:widget\/bottom-ask\/bottom-ask.js","common:widget\/css\/fonts\/iconfont.js","common:widget\/css\/fonts\/iconfont.min.js","common:widget\/footer-new\/footer-new.js","common:widget\/footer\/footer.js","common:widget\/header-metis\/header.js","common:widget\/menu\/menu.js","common:widget\/search-box-new\/search-box-new.js","common:widget\/userbar-renew\/userbar-renew.js"]},"com-brand:p0":{"url":"https:\/\/gss0.bdstatic.com\/7051cy792sgCpNKfpU_Y_D3\/static\/com-brand\/pkg\/editor_c813b7f.js","has":["com-brand:widget\/js\/ueditor\/ueditor.min.js","com-brand:widget\/js\/ueditor\/ueditor.config.js","com-brand:widget\/js\/ueditor\/addon\/addon.js","com-brand:widget\/js\/ueditor\/lang\/lang.js","com-brand:widget\/js\/ueditor\/prototype\/prototype.js"]},"daily:p0":{"url":"https:\/\/iknowpc.bdimg.com\/static\/daily\/pkg\/module.ee47c97.js","has":["daily:widget\/acenter-notice\/acenter-notice.js","daily:widget\/js\/submit\/submit.js","daily:widget\/js\/author\/author.js","daily:widget\/author-banner\/author-banner.js","daily:widget\/author-info\/author-info.js","daily:widget\/daily-list\/acenter-list.js","daily:widget\/daily-list\/daily-list.js","daily:widget\/js\/daily\/daily.js","daily:widget\/daily-list\/fav-daily-list.js","daily:widget\/daily-list\/search-list.js","daily:widget\/loading\/loading.js","daily:widget\/daily-list\/show-list.js","daily:widget\/daily-list\/text-list.js","daily:widget\/detail\/decorate-img.js","daily:widget\/js\/player\/cyberplayer.js","daily:widget\/detail\/detail.js","daily:widget\/detail\/support.js","daily:widget\/js\/jcrop\/jcrop.jquery.js","daily:widget\/edit\/edit.js","daily:widget\/favauthor-list\/favauthor-list.js","daily:widget\/hot-author\/hot-author.js","daily:widget\/hot-daily\/hot-daily.js","daily:widget\/hot-daily\/hot-get.js","daily:widget\/hot-video\/hot-video.js","daily:widget\/income\/income-content\/income-content.js","daily:widget\/income\/set-payee\/set-payee.js","daily:widget\/js\/baidubce\/baidubce-sdk.bundle.min.js","daily:widget\/js\/custom-style\/custom-style.js","daily:widget\/js\/page\/authorcenter.js","daily:widget\/js\/validator\/validator.js","daily:widget\/js\/page\/companyapply.js","daily:widget\/js\/page\/index.js","daily:widget\/js\/page\/personapply.js","daily:widget\/left-aside\/left-aside.js","daily:widget\/list-author\/list-author.js","daily:widget\/menu\/menu.js","daily:widget\/period-nav\/period-nav.js","daily:widget\/rank\/rank-container\/rank-container.js","daily:widget\/rel-daily\/rel-daily.js","daily:widget\/search-box\/search-box.js","daily:widget\/share\/share.js","daily:widget\/topic-cont\/topic-cont.js","daily:widget\/view-replier\/view-replier.js"]}}});</script><script type="text/javascript" src="https://iknowpc.bdimg.com/static/common/pkg/lib.33719ed.js"></script><script type="text/javascript" src="https://iknowpc.bdimg.com/static/common/pkg/commonjs.0285675.js"></script><script type="text/javascript">
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;			window['__abbaidu_2016_subidgetf'] = function () {
+				if (window.location.href.indexOf("/question") == 0) {
+					return 'iknow-pc-qb';
+				}
+				return 'iknow-pc-other';
+			}
+			window['__abbaidu_2016_cb'] = function (responseData) {
+        		
+   			};
+		}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require.async(['common:widget/userbar-renew/userbar-renew']);
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require.async(['daily:widget/search-box/search-box'], function(o) {
+        o.init(1);
+    });
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require.async(['daily:widget/menu/menu'], function (o) {
+        o.init(1);
+    });
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require.async(['daily:widget/author-banner/author-banner'], function (obj) {
+        obj.init({
+            id: 8,
+            focusNum: 2050
+        });
+    });
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require.async(['daily:widget/daily-list/daily-list'], function(obj) {
+        obj.init();
+    });
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require.async(['common:widget/js/util/log/log'], function(log){
+    	log.init({
+    		query: 'body',
+    		action: 'click'
+    	});
+    });
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require('common:widget/js/logic/ie-prompt/ie-prompt');
+    require.async(['common:widget/footer/footer']);
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;								                				require.async(['common:widget/js/logic/dom-ready/dom-ready'], function(D){ D.init([]) });
+            }();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;        require.async(["common:widget/js/logic/duration/duration"],function(dur){
+            dur.init();
+        });
+    }();
+</script>
+<script type="text/javascript">
+    require.async(['common:widget/lib/jquery/jquery'], function ($) {
+        if (!/chrome|firefox|safari|msie 10|rsv:11|msie [89]/i.test(navigator.userAgent)) {
+            return;
+        }
+
+        window.BaiduHttps = window.BaiduHttps || {};
+        window.BaiduHttps.callbacks = function (data) {
+            if (data && data.s === 0) {
+                window.supportHttps = 1;
+                setTimeout(function () {
+                    $('a[href^="http://www.baidu.com/s?"]').each(function (index, item) {
+                        var link = $(item).attr('href');
+                        if (~link.indexOf('?wd=') || ~link.indexOf('&wd=')) {
+                            link = link.replace(/^http/, 'https');
+                            $(item).attr('href', link);
+                        }
+                    });
+                }, 2000);
+            }
+        };
+
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://www.baidu.com/con?from=zhidao';
+        document.body.appendChild(script);
+    });
+</script>
+
+
+<script async="" src="https://dlswbr.baidu.com/heicha/mw/abclite-2016-s.js"></script>
+</html>

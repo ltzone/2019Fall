@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<!--STATUS OK-->
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta http-equiv="content-type" content="text/html;charset=gbk" />
+<meta property="wb:webmaster" content="3aababe5ed22e23c" />
+<meta name="referrer" content="always" />
+<title>百度无线知道——随时随地你就知道</title>
+<link rel="shortcut icon" href="//www.baidu.com/favicon.ico?t=20171027" type="image/x-icon" />
+<link rel="icon" sizes="any" mask href="//www.baidu.com/img/baidu.svg" />
+
+<script>
+    window.alogObjectConfig = {
+        product: '102',
+        page: '', 
+        monkey_page: '',
+        speed_page: '',
+        speed: {
+            sample: ''
+        },
+        monkey: {
+            sample: ''
+        },
+        exception: { 
+            sample: ''
+        },
+        feature: {
+            sample: ''
+        },
+        cus: {
+            sample: '',
+            custom_metrics: []
+        },
+        csp: {
+            sample: '',
+            'default-src': [
+                {match: '*bae.baidu.com', target: 'Accept,Warn'},
+                {match: '*.baidu.com,*.bdstatic.com,*.bdimg.com,localhost,*.hao123.com,*.hao123img.com', target: 'Accept'},
+                {match: /^(127|172|192|10)(\.\d+){3}$/, target: 'Accept'},
+                {match: '*', target: 'Accept,Warn'}
+            ]
+        }
+    };
+ 
+    void function(a,b,c,d,e,f,g){a.alogObjectName=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=a[e].l||+new Date,d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d;var h=!0;if(a.alogObjectConfig&&a.alogObjectConfig.sample){var i=Math.random();a.alogObjectConfig.rand=i,i>a.alogObjectConfig.sample&&(h=!1)}h&&(f=b.createElement(c),f.async=!0,f.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),g=b.getElementsByTagName(c)[0],g.parentNode.insertBefore(f,g))}(window,document,"script","/hunter/alog/alog.min.js","alog"),void function(){function a(){}window.PDC={mark:function(a,b){alog("speed.set",a,b||+new Date),alog.fire&&alog.fire("mark")},init:function(a){alog("speed.set","options",a)},view_start:a,tti:a,page_ready:a}}();
+    void function(n){var o=!1;n.onerror=function(n,e,t,c){var i=!0;return!e&&/^script error/i.test(n)&&(o?i=!1:o=!0),i&&alog("exception.send","exception",{msg:n,js:e,ln:t,col:c}),!1},alog("exception.on","catch",function(n){alog("exception.send","exception",{msg:n.msg,js:n.path,ln:n.ln,method:n.method,flag:"catch"})})}(window);
+</script>
+
+
+<meta name="description"
+      content="百度知道是由全球最大的中文搜索引擎百度自主研发、基于搜索的互动式知识问答分享平台。用户可以根据自身的需求，有针对性地提出问题；同时，这些答案又将作为搜索结果，满足有相同或类似问题的用户需求。"/>
+
+<script type="text/javascript">
+			!function(){var n={},t={};n.context=function(n,e){var i=arguments.length;if(i>1)t[n]=e;else if(1==i){if("object"!=typeof n)return t[n];for(var o in n)n.hasOwnProperty(o)&&(t[o]=n[o])}},"F"in window||(window.F=n)}();;
+			
+            
+																																							
+			F.context('user', {"isLogin":"0","isRealName":"","stoken":"","name":"","imId":"","id":"","euid":"","wealth":"","gradeIndex":"","isMavin":""});
+			F.context('user')['internalAdmin'] = null;
+
+									
+			            F.context('isQuality', false);
+            F.context('now', 1570340978);
+		</script>
+
+<script>F.context('sysTaskAutoInit', 1);</script>
+
+
+
+<!--[if lte IE 8]>
+<script>
+                (function(){
+                    var e="abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(","),
+                    i=e.length;
+                    while(i--){document.createElement(e[i])}
+                 })();
+            </script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="http://iknowpc.bdimg.com/static/common/pkg/common.62ed754.css" /><link rel="stylesheet" type="text/css" href="http://iknowpc.bdimg.com/static/activity/widget/nareplace/index.2cc01fa.css" /><link rel="stylesheet" type="text/css" href="http://iknowpc.bdimg.com/static/activity/pkg/activity-common.61e1e5f.css" /><link rel="stylesheet" type="text/css" href="http://iknowpc.bdimg.com/static/common/widget/header-metis/header.9eae5e2.css" /><link rel="stylesheet" type="text/css" href="http://iknowpc.bdimg.com/static/activity/widget/nareplace/header/header.8069715.css" /><link rel="stylesheet" type="text/css" href="http://iknowpc.bdimg.com/static/activity/widget/nareplace/content/content.cd4031e.css" /><link rel="stylesheet" type="text/css" href="http://iknowpc.bdimg.com/static/activity/widget/nareplace/answer/answer.5be9d10.css" /><link rel="stylesheet" type="text/css" href="http://iknowpc.bdimg.com/static/activity/widget/nareplace/team/team.acf7a24.css" /><link rel="stylesheet" type="text/css" href="http://iknowpc.bdimg.com/static/activity/widget/nareplace/bottom/bottom.e63e8be.css" /></head>
+
+<script> alog('speed.set', 'ht', +new Date()); </script>
+
+<body class="layout-center">
+
+<div id="userbar" class="userbar userbar-renew" data="">
+<ul class="aside-list">
+<li>
+<a href="http://www.baidu.com/" class="toindex">百度首页</a>
+</li>
+<li><a rel="nofollow" alog-alias="usrbar-login" href="javascript:;" id="userbar-login" log="type:2026,pname:account,mod:login,action:show,pos:pop">登录</a></li>
+<li><a rel="nofollow" alog-alias="usrbar-reg" id="userbar-reg" href="https://passport.baidu.com/v2/?reg&tpl=ik&color=green&u=" target="_blank">注册</a></li>
+<li class="shop-entrance">
+<a href="/shop" title="知道商城" log="type:2026,pos:top-right,target:shop-entrance">商城<i class="i-house" style="display: none;"></i></a>
+<span class="lucky-try"></span>
+</li>
+</ul>
+</div>
+
+
+
+<div class="head-wrap">
+<header id="header" class="container">
+
+<header class="logo-container">
+<div class="act-logo container">
+<a class="logo-link" href="http://zhidao.baidu.com/" target="_blank"></a>
+</div>
+</header>
+
+</header>
+</div>
+<div id="body" class="container">
+
+<div class="wgt-header">
+<div class="header-content">
+<div class="header-left">
+<div class="header-title">下载百度知道客户端</div>
+<div class="header-slogan">您的问题，都能在这找到答案！</div>
+<div class="btn-container">
+<a href="https://itunes.apple.com/cn/app/bai-du-zhi-dao/id465885800?mt=8">
+<div class="ios-btn">
+<div class="wayIcon"></div>
+<span class="way">App Store</span>
+<div class="download">
+<span>点击</span>
+<span>下载</span>
+</div>
+</div>
+</a>
+<a href="http://dl.ops.baidu.com/baiduzhidao_AndroidPhone_pcbutton.apk">
+<div class="android-btn">
+<div class="wayIcon"></div>
+<span class="way">Android</span>
+<div class="download">
+<span>直接</span>
+<span>下载</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+<img src="https://iknowpc.bdimg.com/static/activity/widget/nareplace/header/img/headerPic.a8f8834.png" class="header-right">
+</div>
+<div class="code">
+<div class="img-cover">
+<img src="http://img.baidu.com/img/iknow/zhidaoappdl.png">
+</div>
+<span>扫描二维码下载</span>
+</div>
+<div class="codeHome">
+<div class="img-cover">
+<img src="https://iknowpc.bdimg.com/static/activity/widget/nareplace/header/img/code.6271ff6.png">
+</div>
+<span>扫一扫即刻访问</span>
+</div>
+</div><div class="wgt-content">
+<div class="content-container">
+<img src="https://iknowpc.bdimg.com/static/activity/widget/nareplace/content/img/contentIphone.fd02fb1.png" class="content-left">
+<div class="content-right">
+<div class="content-title">首页信息流聚合优质内容</div>
+<ul class="content-list">
+<li>
+<span class="list-title">风向标</span>
+<span class="list-content">时下最热话题，全面深度解读，实时动态掌握。</span>
+<div class="list-icon"></div>
+</li>
+<li>
+<span class="list-title">专栏</span>
+<span class="list-content">原创作者入驻，以文会友，分享知识。</span>
+<div class="list-icon"></div>
+</li>
+<li>
+<span class="list-title">热点问答</span>
+<span class="list-content">时下最火爆的问答，让你快速了解当前热点知识。</span>
+<div class="list-icon"></div>
+</li>
+</ul>
+</div>
+</div>
+</div><div class="wgt-answer">
+<div class="answer-container">
+<div class="answer-left">
+<div class="answer-title">随时随地问答互助</div>
+<ul class="answer-list">
+<li>
+<span class="list-title">快速提问</span>
+<span class="list-content">任何问题，在这里10分钟都可以得到解答，最新回答随时查看。</span>
+<div class="list-icon"></div>
+</li>
+<li>
+<span class="list-title">解答互助</span>
+<span class="list-content">个性化推荐，快速找到你感兴趣的问题；解答问题，收获感恩。</span>
+<div class="list-icon"></div>
+</li>
+</ul>
+</div>
+<img src="https://iknowpc.bdimg.com/static/activity/widget/nareplace/answer/img/answerIphone.4b87119.png" class="answer-right">
+</div>
+<div class="answer-arrow-container">
+<div class="answer-arrow"></div>
+</div>
+</div><div class="wgt-team">
+<div class="team-container">
+<img src="https://iknowpc.bdimg.com/static/activity/widget/nareplace/team/img/teamIphone.7a2ecd5.png" class="team-left">
+<div class="team-right">
+<div class="team-title">团队玩转停不下来</div>
+<ul class="team-list">
+<li>
+<span class="list-title">传播知识</span>
+<span class="list-content">跟团友共同分享知识，帮助数亿网友，受人膜拜。</span>
+<div class="list-icon"></div>
+</li>
+<li>
+<span class="list-title">加入团队</span>
+<span class="list-content">在这里，你可以找到共同爱好、专长、理想的团友。</span>
+<div class="list-icon"></div>
+</li>
+<li>
+<span class="list-title">多样玩法</span>
+<span class="list-content">千团大战、芝麻抽奖、多样趣味活动，你还在等什么？</span>
+<div class="list-icon"></div>
+</li>
+</ul>
+</div>
+</div>
+<div class="answer-arrow-container">
+<div class="answer-arrow"></div>
+</div>
+</div><div class="wgt-bottom">
+<div class="bottom-container">
+<div class="bottom-title">可在IOS和安卓系统上使用</div>
+<div class="btn-container">
+<a href="https://itunes.apple.com/cn/app/bai-du-zhi-dao/id465885800?mt=8">
+<div class="ios-btn">
+<div class="wayIcon"></div>
+<span class="way">App Store</span>
+<div class="download">
+<span>点击</span>
+<span>下载</span>
+</div>
+</div>
+</a>
+<a href="http://dl.ops.baidu.com/baiduzhidao_AndroidPhone_pcbutton.apk">
+<div class="android-btn">
+<div class="wayIcon"></div>
+<span class="way">Android</span>
+<div class="download">
+<span>直接</span>
+<span>下载</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+</div></div>
+
+
+<div class="wgt-footer-new">
+<div class="footer-wp">
+<ul class="footer-list clearfix">
+<li class="footer-list-item footer-list-guide">
+<div class="footer-title"><span class="icon-guide"></span>新手帮助</div>
+<ul class="footer-link clearfix">
+<li><a href="http://help.baidu.com/question?prod_en=zhidao&class=320&id=1525" target="_blank">如何答题</a></li>
+<li><a href="http://help.baidu.com/question?prod_id=9&class=320&id=1526" target="_blank">获取采纳</a></li>
+<li><a href="http://help.baidu.com/question?prod_id=9&class=337&id=1513" target="_blank">使用财富值</a></li>
+</ul>
+</li>
+<li class="footer-list-item footer-list-intro">
+<div class="footer-title"><span class="icon-intro"></span>玩法介绍</div>
+<ul class="footer-link clearfix">
+<li><a href="/shop" target="_blank">知道商城</a></li>
+<li><a href="http://zhidao.baidu.com/pcs/zhimatuan/index.html" target="_blank">知道团队</a></li>
+<li><a href="/home/partnerhome" target="_blank">合伙人认证</a></li>
+<li><a href="http://zhidao.baidu.com/s/hi-quality/index.html" target="_blank">高质量问答</a></li>
+</ul>
+</li>
+<li class="footer-list-item footer-list-sug">
+<div class="user-tip" id="js-footer-user-tip" style="display: none;">
+<p class="title">您的帐号状态正常</p>
+<p class="desc">感谢您对我们的支持</p>
+</div>
+<div class="footer-title"><span class="icon-sug"></span>投诉建议</div>
+<ul class="footer-link clearfix">
+<li><a href="javascript:;" log="module:common,action:click,area:footer_feedback" target="_blank" id="footer-feedback">意见反馈</a></li>
+<li><a href="/misc/appeal" log="module:common,action:click,area:footer_appeal" target="_blank" id="js-footer-appeal">账号申诉</a></li>
+<li><a href="http://ikefu.baidu.com/web/zhishisousuo#" log="module:common,action:click,area:footer_consult" target="_blank">智能咨询</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="footer-new">
+<p class="jt1128">
+京ICP证030173号-1&nbsp;&nbsp;&nbsp;京网文【2013】0934-983号&nbsp;&nbsp;&nbsp;&nbsp;        &copy;2019Baidu&nbsp;&nbsp;<a rel="nofollow" href="http://www.baidu.com/duty/" target="_blank">使用百度前必读</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a rel="nofollow" href="http://help.baidu.com/question?prod_id=9&class=325&id=2760" target="_blank">知道协议</a>&nbsp;&nbsp;</p>
+</div>
+</div>
+
+
+
+
+
+<script>
+    void function(a,b,c,d,e,f){function g(b){a.attachEvent?a.attachEvent("onload",b,!1):a.addEventListener&&a.addEventListener("load",b)}function h(a,c,d){d=d||15;var e=new Date;e.setTime((new Date).getTime()+1e3*d),b.cookie=a+"="+escape(c)+";path=/;expires="+e.toGMTString()}function i(a){var c=b.cookie.match(new RegExp("(^| )"+a+"=([^;]*)(;|$)"));return null!=c?unescape(c[2]):null}function j(){var a=i("PMS_JT");if(a){h("PMS_JT","",-1);try{a=a.match(/{["']s["']:(\d+),["']r["']:["']([\s\S]+)["']}/),a=a&&a[1]&&a[2]?{s:parseInt(a[1]),r:a[2]}:{}}catch(c){a={}}a.r&&b.referrer.replace(/#.*/,"")!=a.r||alog("speed.set","wt",a.s)}}if(a.alogObjectConfig){var k=a.alogObjectConfig.sample,l=a.alogObjectConfig.rand;d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d,k&&l&&l>k||(g(function(){alog("speed.set","lt",+new Date),e=b.createElement(c),e.async=!0,e.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),f=b.getElementsByTagName(c)[0],f.parentNode.insertBefore(e,f)}),j())}}(window,document,"script","/hunter/alog/dp.min.js");
+    </script>
+
+<script>
+				var _hmt = _hmt || [];
+				(function() {
+					var hm = document.createElement("script");
+					hm.src = "https://hm.baidu.com/hm.js?6859ce5aaf00fb00387e6434e4fcc925";
+					var s = document.getElementsByTagName("script")[0];
+					s.parentNode.insertBefore(hm, s);
+				})();
+			</script>
+
+</body><script type="text/javascript" src="http://iknowpc.bdimg.com/static/common/lib/mod.75d1f98.js"></script><script type="text/javascript">(window.__IKNOW_GLOBAL__ || window).require.resourceMap({"res":{"common:widget\/lib\/jquery\/jquery.origin.js":{"pkg":"common:p3"},"common:widget\/js\/util\/event\/event.js":{"pkg":"common:p6","deps":["common:widget\/lib\/jquery\/jquery.js"]},"common:widget\/bottom-ask\/bottom-ask.js":{"pkg":"common:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/util\/log\/log.js"]},"common:widget\/css\/fonts\/iconfont.js":{"pkg":"common:p0"},"common:widget\/css\/fonts\/iconfont.min.js":{"pkg":"common:p0"},"common:widget\/footer-new\/footer-new.js":{"pkg":"common:p0","deps":["common:widget\/lib\/jquery\/jquery.js","common:widget\/js\/util\/event\/event.js"]},"common:widget\/footer\/footer.js":{"pkg":"common:p0"},"common:widget\/header-metis\/header.js":{"pkg":"common:p0","deps":["common:widget\/lib\/jquery\/jquery.js","common:widget\/js\/ui\/dialog\/dialog.js","common:widget\/js\/util\/template\/template.js","common:widget\/js\/ui\/scrollbar-new\/scrollbar-new.js","common:widget\/js\/util\/store\/store.js"]},"common:widget\/menu\/menu.js":{"pkg":"common:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/log\/log.js"]},"common:widget\/search-box-new\/search-box-new.js":{"pkg":"common:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/ui\/suggestion-new\/suggestion-new.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/util\/form\/form.js","common:widget\/js\/util\/log\/log.js","common:widget\/js\/ui\/dialog\/dialog.js","common:widget\/lib\/jquery.placeholder\/jquery.placeholder.js"]},"common:widget\/userbar-renew\/userbar-renew.js":{"pkg":"common:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/logic\/login\/login.js","common:widget\/js\/util\/log\/log.js","common:widget\/js\/util\/store\/store.js"]}},"pkg":{"common:p0":{"url":"http:\/\/iknowpc.bdimg.com\/static\/common\/pkg\/more.22db732.js","has":["common:widget\/bottom-ask\/bottom-ask.js","common:widget\/css\/fonts\/iconfont.js","common:widget\/css\/fonts\/iconfont.min.js","common:widget\/footer-new\/footer-new.js","common:widget\/footer\/footer.js","common:widget\/header-metis\/header.js","common:widget\/menu\/menu.js","common:widget\/search-box-new\/search-box-new.js","common:widget\/userbar-renew\/userbar-renew.js"]}}});</script><script type="text/javascript" src="http://iknowpc.bdimg.com/static/common/pkg/lib.33719ed.js"></script><script type="text/javascript" src="http://iknowpc.bdimg.com/static/common/pkg/commonjs.4f2e5e7.js"></script><script type="text/javascript">
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;			window['__abbaidu_2016_subidgetf'] = function () {
+				if (window.location.href.indexOf("/question") == 0) {
+					return 'iknow-pc-qb';
+				}
+				return 'iknow-pc-other';
+			}
+			window['__abbaidu_2016_cb'] = function (responseData) {
+        		
+   			};
+		}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require.async(['common:widget/userbar-renew/userbar-renew']);
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require('common:widget/js/logic/ie-prompt/ie-prompt');
+    require.async(['common:widget/footer-new/footer-new'], function(footer) {
+        footer.init();
+    });
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;								                				require.async(['common:widget/js/logic/dom-ready/dom-ready'], function(D){ D.init([]) });
+            }();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;        require.async(["common:widget/js/logic/duration/duration"],function(dur){
+            dur.init();
+        });
+    }();
+</script>
+<script type="text/javascript">
+    require.async(['common:widget/lib/jquery/jquery'], function ($) {
+        if (!/chrome|firefox|safari|msie 10|rsv:11|msie [89]/i.test(navigator.userAgent)) {
+            return;
+        }
+
+        window.BaiduHttps = window.BaiduHttps || {};
+        window.BaiduHttps.callbacks = function (data) {
+            if (data && data.s === 0) {
+                window.supportHttps = 1;
+                setTimeout(function () {
+                    $('a[href^="http://www.baidu.com/s?"]').each(function (index, item) {
+                        var link = $(item).attr('href');
+                        if (~link.indexOf('?wd=') || ~link.indexOf('&wd=')) {
+                            link = link.replace(/^http/, 'https');
+                            $(item).attr('href', link);
+                        }
+                    });
+                }, 2000);
+            }
+        };
+
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://www.baidu.com/con?from=zhidao';
+        document.body.appendChild(script);
+    });
+</script>
+
+
+<script async="" src="https://dlswbr.baidu.com/heicha/mw/abclite-2016-s.js"></script>
+</html>

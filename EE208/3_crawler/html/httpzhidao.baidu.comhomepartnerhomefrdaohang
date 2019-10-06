@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<!--STATUS OK-->
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta http-equiv="content-type" content="text/html;charset=gbk" />
+<meta property="wb:webmaster" content="3aababe5ed22e23c" />
+<meta name="referrer" content="always" />
+<title>百度知道合伙人邀您一起加入</title>
+<link rel="shortcut icon" href="//www.baidu.com/favicon.ico?t=20171027" type="image/x-icon" />
+<link rel="icon" sizes="any" mask href="//www.baidu.com/img/baidu.svg" />
+
+<script>
+    window.alogObjectConfig = {
+        product: '102',
+        page: '', 
+        monkey_page: '',
+        speed_page: '',
+        speed: {
+            sample: ''
+        },
+        monkey: {
+            sample: ''
+        },
+        exception: { 
+            sample: ''
+        },
+        feature: {
+            sample: ''
+        },
+        cus: {
+            sample: '',
+            custom_metrics: []
+        },
+        csp: {
+            sample: '',
+            'default-src': [
+                {match: '*bae.baidu.com', target: 'Accept,Warn'},
+                {match: '*.baidu.com,*.bdstatic.com,*.bdimg.com,localhost,*.hao123.com,*.hao123img.com', target: 'Accept'},
+                {match: /^(127|172|192|10)(\.\d+){3}$/, target: 'Accept'},
+                {match: '*', target: 'Accept,Warn'}
+            ]
+        }
+    };
+ 
+    void function(a,b,c,d,e,f,g){a.alogObjectName=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=a[e].l||+new Date,d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d;var h=!0;if(a.alogObjectConfig&&a.alogObjectConfig.sample){var i=Math.random();a.alogObjectConfig.rand=i,i>a.alogObjectConfig.sample&&(h=!1)}h&&(f=b.createElement(c),f.async=!0,f.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),g=b.getElementsByTagName(c)[0],g.parentNode.insertBefore(f,g))}(window,document,"script","/hunter/alog/alog.min.js","alog"),void function(){function a(){}window.PDC={mark:function(a,b){alog("speed.set",a,b||+new Date),alog.fire&&alog.fire("mark")},init:function(a){alog("speed.set","options",a)},view_start:a,tti:a,page_ready:a}}();
+    void function(n){var o=!1;n.onerror=function(n,e,t,c){var i=!0;return!e&&/^script error/i.test(n)&&(o?i=!1:o=!0),i&&alog("exception.send","exception",{msg:n,js:e,ln:t,col:c}),!1},alog("exception.on","catch",function(n){alog("exception.send","exception",{msg:n.msg,js:n.path,ln:n.ln,method:n.method,flag:"catch"})})}(window);
+</script>
+
+<script>
+	!function(document, window){
+		var log = {
+			list: [],
+			host: 'https://' + location.host + '/api/httpscheck',
+			log: function(param) {
+				var a = [];
+		    	for(var k in param) {
+		    		a.push(k + '=' + param[k]);
+		    	}
+		    	var msg = a.join('&');
+		    	if(~this.list.indexOf(msg)){
+		    		return;
+		    	}
+		    	this.list.push(msg);
+		  		var img = new Image();
+		    	var key = '_ik_log_' + (Math.random()*2147483648 ^ 0).toString(36);
+		    	window[key] = img;
+		    		img.onload = img.onerror = img.onabort = function() {
+		        		img.onload = img.onerror = img.onabort = null;
+		        		window[key] = null;
+			    		img = null;
+		    	};
+		  		img.src = this.host + '?' + msg;
+			}
+		};
+
+		function HTTPSWarningLog(){
+			this.selector = [
+				'link',
+				'script',
+				'img',
+				'embed',
+				'iframe'
+			];
+			this.warningCounter = 0;
+			this.init();
+		};
+
+		HTTPSWarningLog.prototype = {
+			init: function(){
+				this.fetch();
+			},
+
+			fetch: function(){
+				for(var tags = this.selector, i =0, len = tags.length; i < len;i++) {
+					this.getTag(tags[i]);
+				}
+			},
+
+			getTag: function(tag) {
+				var domList = document.getElementsByTagName(tag);
+				if(!domList.length) {
+					return;
+				}
+				for(var i = 0,len = domList.length;i<len;i++) {
+					var el = domList[i];
+					var url = el.getAttribute(el.tagName==='LINK' ? 'href' : 'src');
+                    if(el.getAttribute('rel') === 'canonical') {
+                        continue;
+                    }
+					if(url && 'https:' === location.protocol && !url.indexOf('http:')){
+						this.sendLog(el, el.tagName.toLowerCase(),url);
+						this.warningCounter++;
+					}
+				}
+			},
+			
+			sendLog: function(el, type, url){
+				log.log({
+					url: location.href,
+					wtype: type,
+					wurl: url
+				});
+			}
+		};
+
+		function domReady(fn){
+		    if(document.addEventListener) {
+		        document.addEventListener('DOMContentLoaded', function() {
+		            document.removeEventListener('DOMContentLoaded',arguments.callee, false);
+		            fn();
+		        }, false);
+		    }else if(document.attachEvent) {
+		        document.attachEvent('onreadystatechange', function() {
+		            if(document.readyState == 'complete') {
+		                document.detachEvent('onreadystatechange', arguments.callee);
+		                fn();
+		            }
+		        });
+		    }
+		};
+
+		domReady(function(){
+			new HTTPSWarningLog();
+			for(var i=1; i<6; i++) {
+				!function(i){
+					setTimeout(function(){
+						new HTTPSWarningLog();
+					}, i*i*i*1000);
+				}(i);
+			}
+		});
+	}(document, window);
+</script>
+
+<meta name="description" content="知识分享，价值共创！百度知道合伙人平台，是基于知识内容的创作分发平台。一站式生产，全渠道分发；亿万精准流量，AI为创作者赋能；精准问答，直链服务，助力个人、机构、企业服务升级。兴趣团队、行业专家、企业机构，一键入驻，立享收益。" />
+
+<script type="text/javascript">
+			!function(){var n={},t={};n.context=function(n,e){var i=arguments.length;if(i>1)t[n]=e;else if(1==i){if("object"!=typeof n)return t[n];for(var o in n)n.hasOwnProperty(o)&&(t[o]=n[o])}},"F"in window||(window.F=n)}();;
+			
+            
+																																							
+			F.context('user', {"isLogin":"","isRealName":"","stoken":"","name":"","imId":"","id":"","euid":"","wealth":"","gradeIndex":"","isMavin":""});
+			F.context('user')['internalAdmin'] = null;
+
+									
+			            F.context('isQuality', false);
+            F.context('now', 1570340976);
+		</script>
+<script>F.context('sysTaskAutoInit', 1);</script>
+
+
+<!--[if lte IE 8]>
+<script>
+                (function(){
+                    var e="abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(","),
+                    i=e.length;
+                    while(i--){document.createElement(e[i])}
+                 })();
+            </script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="https://iknowpc.bdimg.com/static/common/pkg/common.2e57416.css" /><link rel="stylesheet" type="text/css" href="https://iknowpc.bdimg.com/static/home/pkg/module.8200f4f.css" /><link rel="stylesheet" type="text/css" href="https://iknowpc.bdimg.com/static/common/widget/header-metis/header.39c9ddf.css" /><link rel="stylesheet" type="text/css" href="https://iknowwap.bdimg.com/static/m-common/pkg/m_stable.972ae68.css" /></head>
+
+<script> alog('speed.set', 'ht', +new Date()); </script>
+
+<body class="layout-center partner-body">
+
+<div id="body" class="container">
+
+<div id="fullpage" class="fullpage-container">
+<div data-anchor='page1' class="banner section">
+<div class="banner-container section-content">
+<a class="logo-green" href="javascript:void(0);"></a>
+<a class="login-btn" href="javascript:void(0);">登录</a>
+<div class="banner-planet"><i></i></div>
+<div class="banner-top">
+<div class="banner-title">加入知道合伙人</div>
+<div class="banner-slogan"></div>
+</div>
+</div>
+</div>
+<div data-anchor='page2' class="type section">
+<div class="type-container section-content">
+<div class="type-container-wp">
+<div class="type-top moveUp">
+<p class="type-title">入驻类型</p>
+<p class="type-subTitle">即刻入驻，立享收益</p>
+</div>
+<div class="type-content moveUp">
+<div class="type-box type-team">
+<div class="type-pic"></div>
+<div class="type-box-title">团队</div>
+<div class="type-box-detail">多类型问答获取丰厚报酬</div>
+<div class="type-box-subTitle">适用人群</div>
+<ul class="type-list">
+<li class="list-item">新媒体人</li>
+<li class="list-item">品牌粉丝</li>
+<li class="list-item">兴趣团体</li>
+</ul>
+<div class="btn-type btn-team">入驻</div>
+</div>
+<div class="type-box type-mavin">
+<div class="type-pic"></div>
+<div class="type-box-title">行家</div>
+<div class="type-box-detail">专业知识成就行业影响力</div>
+<div class="type-box-subTitle">适用人群</div>
+<ul class="type-list">
+<li class="list-item">网红</li>
+<li class="list-item">企业精英</li>
+<li class="list-item">行业精英</li>
+</ul>
+<div class="btn-type btn-mavin">入驻</div>
+</div>
+<div class="type-box type-business">
+<div class="type-pic"></div>
+<div class="type-box-title">企业</div>
+<div class="type-box-detail">精准问题推荐树立品牌价值</div>
+<div class="type-box-subTitle">适用人群</div>
+<ul class="type-list">
+<li class="list-item">品牌机构</li>
+<li class="list-item">服务机构</li>
+</ul>
+<div class="btn-type btn-business">入驻</div>
+</div>
+<div class="type-box type-goverment">
+<div class="type-pic"></div>
+<div class="type-box-title">政府</div>
+<div class="type-box-detail">权威回答搭建公众沟通桥梁</div>
+<div class="type-box-subTitle">适用人群</div>
+<ul class="type-list">
+<li class="list-item">政府机关</li>
+<li class="list-item">事业单位</li>
+</ul>
+<div class="btn-type btn-goverment">入驻</div>
+</div>
+</div>
+</div>
+</div></div>
+<div data-anchor='page3' class="rights section">
+<div class="rights-container section-content">
+<div class="rights-container-wp">
+<div class="rights-top moveUp">
+<p class="rights-title">合伙人特权</p>
+<p class="rights-subTitle">用知识收获财富与价值</p>
+</div>
+<ul class="rights-list">
+<li class="list-item list-shouyi moveUp">
+<div class="icon-wp icon-shouyi"><i class="list-icon home-icons">&#xe708;</i></div>
+<p class="item-text">创作即有收益</p>
+<p class="item-detail">激励无上限</p>
+</li>
+<li class="list-item list-fuchi moveUp">
+<div class="icon-wp icon-fuchi"><i class="list-icon home-icons">&#xe707;</i></div>
+<p class="item-text">精准流量扶持</p>
+<p class="item-detail">缔造影响力大V</p>
+</li>
+<li class="list-item list-fuwu moveUp">
+<div class="icon-wp icon-fuwu"><i class="list-icon home-icons">&#xe706;</i></div>
+<p class="item-text">知识链接服务</p>
+<p class="item-detail">品牌曝光助力商业变现</p>
+</li>
+</ul>
+</div>
+</div></div>
+<div data-anchor='page4' class="collection section">
+<div class="collection-container section-content">
+<div class="collection-container-wp">
+<div class="collection-content">
+<div class="collection-top moveUp">
+<p class="collection-title">TA们都已入驻</p>
+<p class="collection-subTitle">别错过知识变现的未来趋势</p>
+</div>
+<div class="collection-bottom moveUp">
+<div class="collection-avatars">
+<a class="avatar-wp selected" data-name="team1" href="javascript:void(0);">
+<img class="collection-avatar" src="https://iknowpc.bdimg.com/static/home/widget/partner/collection/img/team1.269b73b.png"/>
+</a>
+<a class="avatar-wp mask" data-name="team2" href="javascript:void(0);">
+<img class="collection-avatar" src="https://iknowpc.bdimg.com/static/home/widget/partner/collection/img/team2.73b4934.jpg"/>
+</a>
+<a class="avatar-wp mask" data-name="team3" href="javascript:void(0);">
+<img class="collection-avatar" src="https://iknowpc.bdimg.com/static/home/widget/partner/collection/img/team3.ebda68a.png"/>
+</a>
+<a class="avatar-wp mask" data-name="mavin1" href="javascript:void(0);">
+<img class="collection-avatar" src="https://iknowpc.bdimg.com/static/home/widget/partner/collection/img/mavin1.69656e2.jpg"/>
+</a>
+<a class="avatar-wp mask" data-name="mavin2" href="javascript:void(0);">
+<img class="collection-avatar" src="https://iknowpc.bdimg.com/static/home/widget/partner/collection/img/mavin2.57c74db.jpg"/>
+</a>
+<a class="avatar-wp mask" data-name="mavin3" href="javascript:void(0);">
+<img class="collection-avatar" src="https://iknowpc.bdimg.com/static/home/widget/partner/collection/img/mavin3.b846ddc.jpg"/>
+</a>
+<a class="avatar-wp mask" data-name="business1" href="javascript:void(0);">
+<img class="collection-avatar" src="https://iknowpc.bdimg.com/static/home/widget/partner/collection/img/business1.5b3dd71.jpg"/>
+</a>
+<a class="avatar-wp mask" data-name="business2" href="javascript:void(0);">
+<img class="collection-avatar" src="https://iknowpc.bdimg.com/static/home/widget/partner/collection/img/business2.7bb0139.jpg"/>
+</a>
+<a class="avatar-wp mask" data-name="business3" href="javascript:void(0);">
+<img class="collection-avatar" src="https://iknowpc.bdimg.com/static/home/widget/partner/collection/img/business3.70b8595.png"/>
+</a>
+</div>
+<div class="collection-detail collection-team1" style="opacity: 1">
+<img class="collection-select-avatar" src="https://iknowpc.bdimg.com/static/home/widget/partner/collection/img/team1.269b73b.png" />
+<p class="collection-text1">奋斗才是出路<span class="select-type">团队</span></p>
+<p class="collection-text2">“创作月入10万”</p>
+</div>
+<div class="collection-detail collection-team2">
+<img class="collection-select-avatar" src="https://iknowpc.bdimg.com/static/home/widget/partner/collection/img/team2.73b4934.jpg" />
+<p class="collection-text1">闪修侠<span class="select-type">团队</span></p>
+<p class="collection-text2">“月导流300订单”</p>
+</div>
+<div class="collection-detail collection-team3">
+<img class="collection-select-avatar" src="https://iknowpc.bdimg.com/static/home/widget/partner/collection/img/team3.ebda68a.png" />
+<p class="collection-text1">正气法律达人团<span class="select-type">团队</span></p>
+<p class="collection-text2">“集结982名专业律师”</p>
+</div>
+<div class="collection-detail collection-mavin1">
+<img class="collection-select-avatar" src="https://iknowpc.bdimg.com/static/home/widget/partner/collection/img/mavin1.69656e2.jpg" />
+<p class="collection-text1">韩飞<span class="select-type">行家</span></p>
+<p class="collection-text2">“专业仲裁员：帮助人数达5218万”</p>
+</div>
+<div class="collection-detail collection-mavin2">
+<img class="collection-select-avatar" src="https://iknowpc.bdimg.com/static/home/widget/partner/collection/img/mavin2.57c74db.jpg" />
+<p class="collection-text1">梁志涛<span class="select-type">行家</span></p>
+<p class="collection-text2">“自媒体人：回答获赞40950次”</p>
+</div>
+<div class="collection-detail collection-mavin3">
+<img class="collection-select-avatar" src="https://iknowpc.bdimg.com/static/home/widget/partner/collection/img/mavin3.b846ddc.jpg" />
+<p class="collection-text1">宗永刚<span class="select-type">行家</span></p>
+<p class="collection-text2">“资深讲师：品牌曝光800万次”</p>
+</div>
+<div class="collection-detail collection-business1">
+<img class="collection-select-avatar" src="https://iknowpc.bdimg.com/static/home/widget/partner/collection/img/business1.5b3dd71.jpg" />
+<p class="collection-text1">12366<span class="select-type">机构</span></p>
+<p class="collection-text2">“创新智慧政务”</p>
+</div>
+<div class="collection-detail collection-business2">
+<img class="collection-select-avatar" src="https://iknowpc.bdimg.com/static/home/widget/partner/collection/img/business2.7bb0139.jpg" />
+<p class="collection-text1">华为<span class="select-type">机构</span></p>
+<p class="collection-text2">“服务亿万精准用户”</p>
+</div>
+<div class="collection-detail collection-business3">
+<img class="collection-select-avatar" src="https://iknowpc.bdimg.com/static/home/widget/partner/collection/img/business3.70b8595.png" />
+<p class="collection-text1">中青旅<span class="select-type">机构</span></p>
+<p class="collection-text2">“用知识建设旅游市场新生态”</p>
+</div>
+</div>
+</div>
+</div>
+<div class="wgt-footer-new">
+<div class="footer-wp">
+<ul class="footer-list clearfix">
+<li class="footer-list-item footer-list-guide">
+<div class="footer-title"><span class="icon-guide"></span>新手帮助</div>
+<ul class="footer-link clearfix">
+<li><a href="http://help.baidu.com/question?prod_en=zhidao&class=320&id=1525" target="_blank">如何答题</a></li>
+<li><a href="http://help.baidu.com/question?prod_id=9&class=320&id=1526" target="_blank">获取采纳</a></li>
+<li><a href="http://help.baidu.com/question?prod_id=9&class=337&id=1513" target="_blank">使用财富值</a></li>
+</ul>
+</li>
+<li class="footer-list-item footer-list-intro">
+<div class="footer-title"><span class="icon-intro"></span>玩法介绍</div>
+<ul class="footer-link clearfix">
+<li><a href="/shop" target="_blank">知道商城</a></li>
+<li><a href="http://zhidao.baidu.com/pcs/zhimatuan/index.html" target="_blank">知道团队</a></li>
+<li><a href="/home/partnerhome" target="_blank">合伙人认证</a></li>
+<li><a href="http://zhidao.baidu.com/s/hi-quality/index.html" target="_blank">高质量问答</a></li>
+</ul>
+</li>
+<li class="footer-list-item footer-list-sug">
+<div class="user-tip" id="js-footer-user-tip" style="display: none;">
+<p class="title">您的帐号状态正常</p>
+<p class="desc">感谢您对我们的支持</p>
+</div>
+<div class="footer-title"><span class="icon-sug"></span>投诉建议</div>
+<ul class="footer-link clearfix">
+<li><a href="javascript:;" log="module:common,action:click,area:footer_feedback" target="_blank" id="footer-feedback">意见反馈</a></li>
+<li><a href="/misc/appeal" log="module:common,action:click,area:footer_appeal" target="_blank" id="js-footer-appeal">账号申诉</a></li>
+<li><a href="http://ikefu.baidu.com/web/zhishisousuo#" log="module:common,action:click,area:footer_consult" target="_blank">智能咨询</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="footer-new">
+<p class="jt1128">
+京ICP证030173号-1&nbsp;&nbsp;&nbsp;京网文【2013】0934-983号&nbsp;&nbsp;&nbsp;&nbsp;        &copy;2019Baidu&nbsp;&nbsp;<a rel="nofollow" href="http://www.baidu.com/duty/" target="_blank">使用百度前必读</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a rel="nofollow" href="http://help.baidu.com/question?prod_id=9&class=325&id=2760" target="_blank">知道协议</a>&nbsp;&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<ul id="fullpageMenu">
+<li data-menuanchor='page1' class="active"><a href="javascript:;"></a></li>
+<li data-menuanchor='page2'><a href="javascript:;"></a></li>
+<li data-menuanchor='page3'><a href="javascript:;"></a></li>
+<li data-menuanchor='page4'><a href="javascript:;"></a></li>
+</ul>
+<script type="text/html" id="choose-dialog-tpl">
+    <div class="choose-dialog-title">请选择本次登录身份</div>
+    <div class="choose-dialog-content">
+        <div class="choose-box mavin-box">
+            <i class="choose-icon mavin-icon"></i>
+            <p class="choose-text">行家</p>
+            <p class="choose-detail">您已认证行家</p>
+        </div>
+        <div class="choose-box team-box">
+            <i class="choose-icon team-icon"></i>
+            <p class="choose-text">团队</p>
+            <p class="choose-detail">您已加入团队</p>
+        </div>
+    </div>
+</script>
+</div>
+
+
+
+
+
+
+
+<script>
+    void function(a,b,c,d,e,f){function g(b){a.attachEvent?a.attachEvent("onload",b,!1):a.addEventListener&&a.addEventListener("load",b)}function h(a,c,d){d=d||15;var e=new Date;e.setTime((new Date).getTime()+1e3*d),b.cookie=a+"="+escape(c)+";path=/;expires="+e.toGMTString()}function i(a){var c=b.cookie.match(new RegExp("(^| )"+a+"=([^;]*)(;|$)"));return null!=c?unescape(c[2]):null}function j(){var a=i("PMS_JT");if(a){h("PMS_JT","",-1);try{a=a.match(/{["']s["']:(\d+),["']r["']:["']([\s\S]+)["']}/),a=a&&a[1]&&a[2]?{s:parseInt(a[1]),r:a[2]}:{}}catch(c){a={}}a.r&&b.referrer.replace(/#.*/,"")!=a.r||alog("speed.set","wt",a.s)}}if(a.alogObjectConfig){var k=a.alogObjectConfig.sample,l=a.alogObjectConfig.rand;d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d,k&&l&&l>k||(g(function(){alog("speed.set","lt",+new Date),e=b.createElement(c),e.async=!0,e.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),f=b.getElementsByTagName(c)[0],f.parentNode.insertBefore(e,f)}),j())}}(window,document,"script","/hunter/alog/dp.min.js");
+    </script>
+
+<script>
+				var _hmt = _hmt || [];
+				(function() {
+					var hm = document.createElement("script");
+					hm.src = "https://hm.baidu.com/hm.js?6859ce5aaf00fb00387e6434e4fcc925";
+					var s = document.getElementsByTagName("script")[0];
+					s.parentNode.insertBefore(hm, s);
+				})();
+			</script>
+
+</body><script type="text/javascript" src="https://iknowpc.bdimg.com/static/common/lib/mod.75d1f98.js"></script><script type="text/javascript">(window.__IKNOW_GLOBAL__ || window).require.resourceMap({"res":{"common:widget\/bottom-ask\/bottom-ask.js":{"pkg":"common:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/util\/log\/log.js"]},"common:widget\/css\/fonts\/iconfont.js":{"pkg":"common:p0"},"common:widget\/css\/fonts\/iconfont.min.js":{"pkg":"common:p0"},"common:widget\/footer-new\/footer-new.js":{"pkg":"common:p0","deps":["common:widget\/lib\/jquery\/jquery.js","common:widget\/js\/util\/event\/event.js"]},"common:widget\/footer\/footer.js":{"pkg":"common:p0"},"common:widget\/header-metis\/header.js":{"pkg":"common:p0","deps":["common:widget\/lib\/jquery\/jquery.js","common:widget\/js\/ui\/dialog\/dialog.js","common:widget\/js\/util\/template\/template.js","common:widget\/js\/ui\/scrollbar-new\/scrollbar-new.js","common:widget\/js\/util\/store\/store.js"]},"common:widget\/menu\/menu.js":{"pkg":"common:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/log\/log.js"]},"common:widget\/search-box-new\/search-box-new.js":{"pkg":"common:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/ui\/suggestion-new\/suggestion-new.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/util\/form\/form.js","common:widget\/js\/util\/log\/log.js","common:widget\/js\/ui\/dialog\/dialog.js","common:widget\/lib\/jquery.placeholder\/jquery.placeholder.js"]},"common:widget\/userbar-renew\/userbar-renew.js":{"pkg":"common:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/logic\/login\/login.js","common:widget\/js\/util\/log\/log.js","common:widget\/js\/util\/store\/store.js"]},"m-common:widget\/js\/util\/patch\/patch.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js"]},"m-common:widget\/js\/util\/location\/location.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/js\/util\/event\/event.js"]},"m-common:widget\/js\/util\/hunter\/hunter.js":{"pkg":"m-common:p2"},"m-common:widget\/js\/ui\/dialog\/dialog.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/lib\/gmu\/dialog\/dialog.js"]},"m-common:widget\/js\/logic\/login\/login.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/js\/util\/location\/location.js"]},"m-common:widget\/js\/logic\/submit\/submit.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/js\/ui\/dialog\/dialog.js","m-common:widget\/js\/logic\/login\/login.js","m-common:widget\/js\/util\/location\/location.js"]},"m-common:widget\/js\/logic\/appeal\/appeal.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/js\/logic\/submit\/submit.js"]},"m-common:widget\/js\/logic\/message\/message.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/js\/util\/storage\/storage.js"]},"m-common:widget\/js\/logic\/squarevcode\/squarevcode.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/js\/util\/event\/event.js","m-common:widget\/js\/util\/https\/https.js"]},"m-common:widget\/js\/logic\/tune\/tune.js":{"pkg":"m-common:p2"},"m-common:widget\/js\/logic\/signin\/signin.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/js\/logic\/submit\/submit.js"]},"m-common:widget\/js\/logic\/bonus-season\/fresh-nosuc\/fresh-nosuc.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/lib\/gmu\/dialog\/dialog.js","m-common:widget\/js\/util\/template\/template.js"]},"m-common:widget\/js\/logic\/bonus-season\/fresh-prize\/fresh-prize.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/lib\/gmu\/dialog\/dialog.js","m-common:widget\/js\/util\/template\/template.js","m-common:widget\/js\/util\/event\/event.js","m-common:widget\/js\/util\/cookie\/cookie.js","m-common:widget\/js\/ui\/poptip\/poptip.js","m-common:widget\/js\/util\/log\/log.js"]},"m-common:widget\/js\/logic\/bonus-season\/bonus-season.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/js\/logic\/bonus-season\/fresh-nosuc\/fresh-nosuc.js","m-common:widget\/js\/logic\/bonus-season\/fresh-prize\/fresh-prize.js","m-common:widget\/js\/util\/log\/log.js"]},"m-common:widget\/js\/logic\/usergrade\/threshold.es.js":{"pkg":"m-common:p2"},"m-common:widget\/js\/logic\/usergrade\/gradedata.es.js":{"pkg":"m-common:p2","deps":["m-common:widget\/js\/logic\/usergrade\/threshold.es.js"]},"m-common:widget\/js\/ui\/floater\/floater.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js"]},"m-common:widget\/js\/ui\/menu\/menu.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/js\/util\/event\/event.js","m-common:widget\/lib\/gmu\/base\/fix\/fix.js"]},"m-common:widget\/js\/ui\/highdownDialog\/highdownDialog.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/js\/util\/log\/log.js"]},"m-common:widget\/search\/search-async.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/lib\/gmu\/suggestion.default\/suggestion.default.js","m-common:widget\/lib\/gmu\/dialog\/dialog.js","m-common:widget\/lib\/gmu\/quickdelete\/quickdelete.js","m-common:widget\/js\/ui\/dialog\/dialog.js","m-common:widget\/js\/util\/location\/location.js","m-common:widget\/js\/util\/event\/event.js","m-common:widget\/js\/util\/string\/string.js","m-common:widget\/js\/util\/log\/log.js"]},"m-common:widget\/search-new\/search-new.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/lib\/gmu\/suggestion.default\/suggestion.default.js","m-common:widget\/lib\/gmu\/dialog\/dialog.js","m-common:widget\/lib\/gmu\/quickdelete\/quickdelete.js","m-common:widget\/js\/ui\/dialog\/dialog.js","m-common:widget\/js\/util\/location\/location.js","m-common:widget\/js\/util\/event\/event.js","m-common:widget\/js\/util\/string\/string.js","m-common:widget\/js\/util\/log\/log.js"]},"m-common:widget\/header\/header-async.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/js\/ui\/more\/more.js","m-common:widget\/js\/util\/location\/location.js","m-common:widget\/js\/util\/event\/event.js","m-common:widget\/js\/util\/log\/log.js","m-common:widget\/js\/ui\/dialog\/dialog.js"]},"m-common:widget\/iknow-header\/iknow-header-async.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/js\/util\/log\/log.js","m-common:widget\/js\/util\/storage\/storage.js","m-common:widget\/js\/util\/location\/location.js","m-common:widget\/js\/logic\/login\/login.js","m-common:widget\/js\/util\/event\/event.js","m-common:widget\/js\/logic\/tune\/tune.js","m-common:widget\/js\/util\/cookie\/cookie.js","m-common:widget\/js\/util\/template\/template.js","m-common:widget\/js\/ui\/dialog\/dialog.js","m-common:widget\/js\/ui\/poptip\/poptip.js"]},"m-common:widget\/iknow-header\/search.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/lib\/gmu\/suggestion.default\/suggestion.default.js","m-common:widget\/lib\/gmu\/dialog\/dialog.js","m-common:widget\/lib\/gmu\/quickdelete\/quickdelete.js","m-common:widget\/js\/ui\/dialog\/dialog.js","m-common:widget\/js\/util\/location\/location.js","m-common:widget\/js\/util\/event\/event.js","m-common:widget\/js\/util\/string\/string.js","m-common:widget\/js\/util\/log\/log.js"]},"m-common:widget\/iknow-header\/toggle-header\/toggle-header.es.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/js\/util\/log\/log.js","m-common:widget\/js\/util\/event\/event.js","m-common:widget\/js\/util\/storage\/storage.js"]},"m-common:widget\/header-new\/header-new.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/js\/util\/log\/log.js","m-common:widget\/js\/util\/storage\/storage.js","m-common:widget\/js\/util\/location\/location.js"]},"m-common:widget\/msg\/msg-async.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/js\/util\/location\/location.js","m-common:widget\/js\/util\/event\/event.js","m-common:widget\/js\/util\/template\/template.js","m-common:widget\/js\/logic\/message\/message.js","m-common:widget\/js\/util\/storage\/storage.js"]},"m-common:widget\/footer-new\/footer-new.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/js\/util\/storage\/storage.js","m-common:widget\/js\/util\/location\/location.js","m-common:widget\/js\/logic\/login\/login.js","m-common:widget\/js\/util\/log\/log.js","m-common:widget\/js\/util\/cookie\/cookie.js","m-common:widget\/js\/ui\/poptip\/poptip.js","m-common:widget\/js\/logic\/tune\/tune.js"]},"m-common:widget\/product\/product-async.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/js\/util\/template\/template.js","m-common:widget\/js\/util\/event\/event.js","m-common:widget\/js\/util\/log\/log.js","m-common:widget\/js\/util\/alog\/alog.js"]},"m-common:widget\/signin\/signin-async.js":{"pkg":"m-common:p2","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/js\/util\/event\/event.js","m-common:widget\/js\/util\/log\/log.js","m-common:widget\/js\/logic\/signin\/signin.js","m-common:widget\/js\/logic\/login\/login.js","m-common:widget\/js\/util\/location\/location.js","m-common:widget\/js\/util\/storage\/storage.js"]},"m-common:widget\/lib\/gmu\/zepto\/zepto.origin.js":{"pkg":"m-common:p1"},"m-common:widget\/lib\/gmu\/zepto\/zepto.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.origin.js"]},"m-common:widget\/lib\/gmu\/base\/extend\/extend.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js"]},"m-common:widget\/lib\/gmu\/base\/ui\/ui.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/lib\/gmu\/base\/extend\/extend.js"]},"m-common:widget\/lib\/gmu\/base\/highlight\/highlight.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/lib\/gmu\/base\/extend\/extend.js"]},"m-common:widget\/lib\/gmu\/base\/position\/position.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/lib\/gmu\/base\/extend\/extend.js"]},"m-common:widget\/lib\/gmu\/base\/fix\/fix.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/lib\/gmu\/base\/extend\/extend.js"]},"m-common:widget\/lib\/gmu\/base\/iscroll\/iscroll.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js"]},"m-common:widget\/lib\/gmu\/dialog\/dialog.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/lib\/gmu\/base\/extend\/extend.js","m-common:widget\/lib\/gmu\/base\/ui\/ui.js","m-common:widget\/lib\/gmu\/base\/highlight\/highlight.js"]},"m-common:widget\/lib\/gmu\/dialog\/position\/position.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/lib\/gmu\/base\/extend\/extend.js","m-common:widget\/lib\/gmu\/base\/ui\/ui.js","m-common:widget\/lib\/gmu\/base\/highlight\/highlight.js","m-common:widget\/lib\/gmu\/dialog\/dialog.js","m-common:widget\/lib\/gmu\/base\/position\/position.js"]},"m-common:widget\/lib\/gmu\/gotop\/gotop.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/lib\/gmu\/base\/extend\/extend.js","m-common:widget\/lib\/gmu\/base\/ui\/ui.js","m-common:widget\/lib\/gmu\/base\/fix\/fix.js"]},"m-common:widget\/lib\/gmu\/gotop\/iscroll\/iscroll.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/lib\/gmu\/base\/iscroll\/iscroll.js","m-common:widget\/lib\/gmu\/base\/extend\/extend.js","m-common:widget\/lib\/gmu\/base\/ui\/ui.js","m-common:widget\/lib\/gmu\/base\/fix\/fix.js","m-common:widget\/lib\/gmu\/gotop\/gotop.js"]},"m-common:widget\/lib\/gmu\/suggestion\/suggestion.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/lib\/gmu\/base\/extend\/extend.js","m-common:widget\/lib\/gmu\/base\/ui\/ui.js","m-common:widget\/lib\/gmu\/base\/iscroll\/iscroll.js","m-common:widget\/lib\/gmu\/base\/highlight\/highlight.js"]},"m-common:widget\/lib\/gmu\/suggestion.default\/suggestion.default.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/suggestion\/suggestion.js"]},"m-common:widget\/lib\/gmu\/quickdelete\/quickdelete.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/lib\/gmu\/base\/extend\/extend.js","m-common:widget\/lib\/gmu\/base\/ui\/ui.js"]},"m-common:widget\/lib\/gmu\/slider\/slider.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/lib\/gmu\/base\/extend\/extend.js","m-common:widget\/lib\/gmu\/base\/ui\/ui.js"]},"m-common:widget\/lib\/gmu\/html2canvas\/html2canvas.min.js":{"pkg":"m-common:p1"},"m-common:widget\/js\/util\/https\/https.js":{"pkg":"m-common:p1"},"m-common:widget\/lib\/fis\/template\/template.js":{"pkg":"m-common:p1","deps":["m-common:widget\/js\/util\/https\/https.js"]},"m-common:widget\/js\/util\/alog\/alog.js":{"pkg":"m-common:p1","deps":["m-common:widget\/js\/util\/hunter\/hunter.js"]},"m-common:widget\/js\/util\/ck\/ck.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js"]},"m-common:widget\/js\/util\/event\/event.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js"]},"m-common:widget\/js\/util\/cookie\/cookie.js":{"pkg":"m-common:p1"},"m-common:widget\/js\/util\/log\/log.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/js\/util\/cookie\/cookie.js"]},"m-common:widget\/js\/ui\/more\/more.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js"]},"m-common:widget\/js\/util\/storage\/storage.js":{"pkg":"m-common:p1"},"m-common:widget\/js\/util\/corsStorage\/corsStorage.es.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js"]},"m-common:widget\/js\/util\/string\/string.js":{"pkg":"m-common:p1"},"m-common:widget\/js\/util\/template\/template.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/fis\/template\/template.js"]},"m-common:widget\/js\/util\/url\/url.js":{"pkg":"m-common:p1","deps":["m-common:widget\/js\/util\/string\/string.js"]},"m-common:widget\/js\/logic\/video-duration\/video-duration.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/js\/util\/log\/log.js"]},"m-common:widget\/js\/logic\/duration\/duration.js":{"pkg":"m-common:p1","deps":["m-common:widget\/js\/util\/log\/log.js","m-common:widget\/lib\/gmu\/zepto\/zepto.js"]},"m-common:widget\/js\/logic\/tune-iknow\/tune-iknow.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js"]},"m-common:widget\/js\/ui\/list\/list.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/js\/util\/event\/event.js"]},"m-common:widget\/js\/ui\/base\/base.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js"]},"m-common:widget\/js\/ui\/tip\/tip.js":{"pkg":"m-common:p1","deps":["m-common:widget\/js\/ui\/base\/base.js","m-common:widget\/lib\/gmu\/zepto\/zepto.js"]},"m-common:widget\/js\/ui\/poptip\/poptip.js":{"pkg":"m-common:p1","deps":["m-common:widget\/js\/util\/event\/event.js","m-common:widget\/lib\/gmu\/zepto\/zepto.js"]},"m-common:widget\/pushStateQuery\/pushStateQuery.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/js\/util\/url\/url.js","m-common:widget\/js\/util\/log\/log.js"]},"m-common:widget\/gotop\/gotop-async.js":{"pkg":"m-common:p1","deps":["m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/js\/util\/log\/log.js"]},"home:widget\/activity\/activity.js":{"pkg":"home:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/log\/log.js"]},"home:widget\/banner\/banner.js":{"pkg":"home:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/log\/log.js"]},"home:widget\/business\/business.js":{"pkg":"home:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/log\/log.js"]},"home:widget\/discussion\/discussion.js":{"pkg":"home:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/log\/log.js"]},"home:widget\/influence\/influence.js":{"pkg":"home:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/log\/log.js"]},"home:widget\/js\/lazyload\/lazyload.js":{"pkg":"home:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js"]},"home:widget\/js\/render-header\/render-header.js":{"pkg":"home:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js"]},"home:widget\/partner\/fullpage\/jquery.fullPage.js":{"pkg":"home:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js"]},"home:widget\/partner\/js\/dom-ready.js":{"pkg":"home:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/ui\/dialog\/dialog.js","common:widget\/js\/util\/template\/template.js","common:widget\/js\/util\/log\/log.js","home:widget\/partner\/fullpage\/jquery.fullPage.js"]},"home:widget\/recommend\/recommend.js":{"pkg":"home:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/log\/log.js"]},"home:widget\/slogan\/slogan.js":{"pkg":"home:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/ui\/tip\/tip.js","common:widget\/js\/logic\/sign-in\/sign-in.js","common:widget\/js\/util\/log\/log.js"]}},"pkg":{"common:p0":{"url":"https:\/\/iknowpc.bdimg.com\/static\/common\/pkg\/more.22db732.js","has":["common:widget\/bottom-ask\/bottom-ask.js","common:widget\/css\/fonts\/iconfont.js","common:widget\/css\/fonts\/iconfont.min.js","common:widget\/footer-new\/footer-new.js","common:widget\/footer\/footer.js","common:widget\/header-metis\/header.js","common:widget\/menu\/menu.js","common:widget\/search-box-new\/search-box-new.js","common:widget\/userbar-renew\/userbar-renew.js"]},"m-common:p2":{"url":"https:\/\/iknowwap.bdimg.com\/static\/m-common\/pkg\/m_common_qb.eed8b2f.js","has":["m-common:widget\/js\/util\/patch\/patch.js","m-common:widget\/js\/util\/location\/location.js","m-common:widget\/js\/util\/hunter\/hunter.js","m-common:widget\/js\/ui\/dialog\/dialog.js","m-common:widget\/js\/logic\/login\/login.js","m-common:widget\/js\/logic\/submit\/submit.js","m-common:widget\/js\/logic\/appeal\/appeal.js","m-common:widget\/js\/logic\/message\/message.js","m-common:widget\/js\/logic\/squarevcode\/squarevcode.js","m-common:widget\/js\/logic\/tune\/tune.js","m-common:widget\/js\/logic\/signin\/signin.js","m-common:widget\/js\/logic\/bonus-season\/fresh-nosuc\/fresh-nosuc.js","m-common:widget\/js\/logic\/bonus-season\/fresh-prize\/fresh-prize.js","m-common:widget\/js\/logic\/bonus-season\/bonus-season.js","m-common:widget\/js\/logic\/usergrade\/threshold.es.js","m-common:widget\/js\/logic\/usergrade\/gradedata.es.js","m-common:widget\/js\/ui\/floater\/floater.js","m-common:widget\/js\/ui\/menu\/menu.js","m-common:widget\/js\/ui\/highdownDialog\/highdownDialog.js","m-common:widget\/search\/search-async.js","m-common:widget\/search-new\/search-new.js","m-common:widget\/header\/header-async.js","m-common:widget\/iknow-header\/iknow-header-async.js","m-common:widget\/iknow-header\/search.js","m-common:widget\/iknow-header\/toggle-header\/toggle-header.es.js","m-common:widget\/header-new\/header-new.js","m-common:widget\/msg\/msg-async.js","m-common:widget\/footer-new\/footer-new.js","m-common:widget\/product\/product-async.js","m-common:widget\/signin\/signin-async.js"]},"m-common:p1":{"url":"https:\/\/iknowwap.bdimg.com\/static\/m-common\/pkg\/m_stable.c727ae0.js","has":["m-common:widget\/lib\/gmu\/zepto\/zepto.origin.js","m-common:widget\/lib\/gmu\/zepto\/zepto.js","m-common:widget\/lib\/gmu\/base\/extend\/extend.js","m-common:widget\/lib\/gmu\/base\/ui\/ui.js","m-common:widget\/lib\/gmu\/base\/highlight\/highlight.js","m-common:widget\/lib\/gmu\/base\/position\/position.js","m-common:widget\/lib\/gmu\/base\/fix\/fix.js","m-common:widget\/lib\/gmu\/base\/iscroll\/iscroll.js","m-common:widget\/lib\/gmu\/dialog\/dialog.js","m-common:widget\/lib\/gmu\/dialog\/position\/position.js","m-common:widget\/lib\/gmu\/gotop\/gotop.js","m-common:widget\/lib\/gmu\/gotop\/iscroll\/iscroll.js","m-common:widget\/lib\/gmu\/suggestion\/suggestion.js","m-common:widget\/lib\/gmu\/suggestion.default\/suggestion.default.js","m-common:widget\/lib\/gmu\/quickdelete\/quickdelete.js","m-common:widget\/lib\/gmu\/slider\/slider.js","m-common:widget\/lib\/gmu\/html2canvas\/html2canvas.min.js","m-common:widget\/js\/util\/https\/https.js","m-common:widget\/lib\/fis\/template\/template.js","m-common:widget\/js\/util\/alog\/alog.js","m-common:widget\/js\/util\/ck\/ck.js","m-common:widget\/js\/util\/event\/event.js","m-common:widget\/js\/util\/cookie\/cookie.js","m-common:widget\/js\/util\/log\/log.js","m-common:widget\/js\/ui\/more\/more.js","m-common:widget\/js\/util\/storage\/storage.js","m-common:widget\/js\/util\/corsStorage\/corsStorage.es.js","m-common:widget\/js\/util\/string\/string.js","m-common:widget\/js\/util\/template\/template.js","m-common:widget\/js\/util\/url\/url.js","m-common:widget\/js\/logic\/video-duration\/video-duration.js","m-common:widget\/js\/logic\/duration\/duration.js","m-common:widget\/js\/logic\/tune-iknow\/tune-iknow.js","m-common:widget\/js\/ui\/list\/list.js","m-common:widget\/js\/ui\/base\/base.js","m-common:widget\/js\/ui\/tip\/tip.js","m-common:widget\/js\/ui\/poptip\/poptip.js","m-common:widget\/pushStateQuery\/pushStateQuery.js","m-common:widget\/gotop\/gotop-async.js"]},"home:p0":{"url":"https:\/\/iknowpc.bdimg.com\/static\/home\/pkg\/module.88a2276.js","has":["home:widget\/activity\/activity.js","home:widget\/banner\/banner.js","home:widget\/business\/business.js","home:widget\/discussion\/discussion.js","home:widget\/influence\/influence.js","home:widget\/js\/lazyload\/lazyload.js","home:widget\/js\/render-header\/render-header.js","home:widget\/partner\/fullpage\/jquery.fullPage.js","home:widget\/partner\/js\/dom-ready.js","home:widget\/recommend\/recommend.js","home:widget\/slogan\/slogan.js"]}}});</script><script type="text/javascript" src="https://iknowpc.bdimg.com/static/common/pkg/lib.33719ed.js"></script><script type="text/javascript" src="https://iknowpc.bdimg.com/static/common/pkg/commonjs.0285675.js"></script><script type="text/javascript">
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;			window['__abbaidu_2016_subidgetf'] = function () {
+				if (window.location.href.indexOf("/question") == 0) {
+					return 'iknow-pc-qb';
+				}
+				return 'iknow-pc-other';
+			}
+			window['__abbaidu_2016_cb'] = function (responseData) {
+        		
+   			};
+		}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;        F.context('isLogin', 0);
+        F.context('userType', {
+            passedNum: 0,
+            appliedNum: 0,
+            passed: '',
+            applied: '',
+            userChoice: ''
+        });
+    }();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require('common:widget/js/logic/ie-prompt/ie-prompt');
+    require.async(['common:widget/footer-new/footer-new'], function(footer) {
+        footer.init();
+    });
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    var $ = require('common:widget/js/util/tangram/tangram');
+
+    $('.collection-avatars').delegate('.avatar-wp', 'click', function (e) {
+
+        if (!$(this).hasClass('selected')) {
+            var parent = $(this).parent()[0];
+            $(parent).find('.selected').removeClass('selected');
+            $(this).addClass('selected');
+            var name = $(this).data('name');
+
+            $(parent).siblings().addClass('hidden');
+            $(parent).siblings('.collection-'+$.string(name)).css('opacity', 0).removeClass('hidden').animate({opacity: 1}, 1000);
+        }
+
+    });
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;        require.async(['home:widget/partner/js/dom-ready','common:widget/js/util/log/log','common:widget/js/util/tangram/tangram'], function(E, log, $){
+            E.init();
+            // PV统计
+            log.send({
+                page: 'partnerHome',
+                area: 'partner-home',
+                action: 'pv',
+                isLogin: F.context('isLogin'),
+                fr: $.url.getQueryValue(location.href, "fr")
+            });
+        });
+    }();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;								                				require.async(['common:widget/js/logic/dom-ready/dom-ready'], function(D){ D.init([]) });
+            }();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;        require.async(["common:widget/js/logic/duration/duration"],function(dur){
+            dur.init();
+        });
+    }();
+</script>
+<script type="text/javascript">
+    require.async(['common:widget/lib/jquery/jquery'], function ($) {
+        if (!/chrome|firefox|safari|msie 10|rsv:11|msie [89]/i.test(navigator.userAgent)) {
+            return;
+        }
+
+        window.BaiduHttps = window.BaiduHttps || {};
+        window.BaiduHttps.callbacks = function (data) {
+            if (data && data.s === 0) {
+                window.supportHttps = 1;
+                setTimeout(function () {
+                    $('a[href^="http://www.baidu.com/s?"]').each(function (index, item) {
+                        var link = $(item).attr('href');
+                        if (~link.indexOf('?wd=') || ~link.indexOf('&wd=')) {
+                            link = link.replace(/^http/, 'https');
+                            $(item).attr('href', link);
+                        }
+                    });
+                }, 2000);
+            }
+        };
+
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://www.baidu.com/con?from=zhidao';
+        document.body.appendChild(script);
+    });
+</script>
+
+
+<script async="" src="https://dlswbr.baidu.com/heicha/mw/abclite-2016-s.js"></script>
+</html>
