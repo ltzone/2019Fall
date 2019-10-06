@@ -6,6 +6,9 @@ import urlparse
 import os
 import urllib
 import sys
+from Bitarray import Bitarray
+import threading
+import Queue
 
 def valid_filename(s):
     import string
@@ -42,15 +45,11 @@ def get_all_links(content,page):
     links = list(URL_set_uniform(urlset,page))
     return links
 
-def union_dfs(a,b):
+
+def union(a,b):
     for e in b:
         if e not in a:
-            a.append(e)
-            
-def union_bfs(a,b):
-    for e in b:
-        if e not in a:
-            a.insert(0,e)
+            a.put(0,e)
 
        
 def add_page_to_folder(page, content): #将网页存到文件夹里，将网址和对应的文件名写入index.txt中
@@ -65,30 +64,39 @@ def add_page_to_folder(page, content): #将网页存到文件夹里，将网址�
     f = open(os.path.join(folder, filename), 'w')
     f.write(content)                #将网页存入文件
     f.close()
-    
-def crawl(seed, method, max_page):
-    tocrawl = [seed]
-    crawled = []
-    graph = {}
-    count = 0
+
+
+def page_working():
     while tocrawl and (count < int(max_page)):
-        page = tocrawl.pop()
-        if page not in crawled:
+        page = tocrawl.get()
+        if crawled.has_str(page):
             print page
             content = get_page(page)
             if content:
                 add_page_to_folder(page, content)
                 outlinks = get_all_links(content, page)
                 globals()['union_%s' % method](tocrawl, outlinks)
-                crawled.append(page)
+                crawled.add_str(page)
                 graph[page] = outlinks
                 count += 1
-    return graph, crawled
+        tocrawl.task_done()
+
 
 if __name__ == '__main__':
 
-    seed = sys.argv[1]
-    method = sys.argv[2]
-    max_page = sys.argv[3]
-    
-    graph, crawled = crawl(seed, method, max_page)
+    seed = 'http://www.baidu.com'
+    max_page = 100
+
+    tocrawl = Queue.Queue() # tocrawl is a global working queue
+    tocrawl.put(seed)
+    crawled = Bitarray(20*max_page)
+    graph = {}
+    count = 0
+    varLock = threading.Lock()
+    NUM = 2
+
+    for i in range(NUM):
+        t = threading.Thread(target=page_working)
+        t.setDaemon(True)
+        t.start()
+    tocrawl.join()

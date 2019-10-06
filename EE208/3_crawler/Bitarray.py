@@ -27,6 +27,11 @@ class Bitarray:
             res = (res and self.get(i))
         return res
 
+    def has_str(self, str):
+        """ Match the string with the bitarray, return true if all matched """
+        strhash = self.get_hashstr(str)
+        return self.has_hashstr(strhash)
+
     def add_str(self, str):
         """ Add the str into the bitarray """
         strhash = self.get_hashstr(str)
@@ -43,15 +48,15 @@ class Bitarray:
         res = []
         hash_seed = [31, 133, 1245, 4, 683, 235, 986, 1325, 8539, 4452]
         for j in range(10):
-            res.append(BKDRHash(hash_seed[j], keyword) % self.size)
+            res.append(self.BKDRHash(hash_seed[j], keyword) % self.size)
         return res
 
-def BKDRHash(seed,key):
-    """ a BKDRHash function where seed can be set manually """
-    hash = 0
-    for i in range(len(key)):
-      hash = (hash * seed) + ord(key[i])
-    return hash
+    def BKDRHash(self,seed, key):
+        """ a BKDRHash function where seed can be set manually """
+        hash = 0
+        for i in range(len(key)):
+            hash = (hash * seed) + ord(key[i])
+        return hash
 
 def main(txt,bitlength):
     """a testing main function for counting fp-rate"""
@@ -74,4 +79,4 @@ def main(txt,bitlength):
     return
 
 if __name__ == "__main__":
-    main('test.txt',200000)
+    main('test.txt',700000)
