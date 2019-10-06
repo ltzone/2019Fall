@@ -151,24 +151,23 @@
 <ul><li class="hdline0">
 <i class="dot"></i>
 <strong>
-<a href="http://www.xinhuanet.com/politics/leaders/2019-10/06/c_1125074155.htm" target="_blank" class="a3" mon="ct=1&a=1&c=top&pn=0">习近平同金正恩就中朝建交70周年互致贺电 </a></strong>
+<a href="http://politics.gmw.cn/2019-10/06/content_33209754.htm" target="_blank" class="a3" mon="ct=1&a=1&c=top&pn=0">这场国之大典，给14亿中国人上了“三堂课”</a></strong>
 </li>
 <li class="hdline1">
 <i class="dot"></i>
 <strong>
-<a href="http://m.news.cctv.com/2019/10/05/ARTIwWs3oigWIQFXmN5gm8rF191005.shtml" target="_blank"  mon="r=1"><b>10万名群众游行配经典乐曲《红旗颂》MV来了</b></a>
+<a href="http://news.cctv.com/2019/10/05/ARTIqxu54UGuseIHAN5l2xMa191005.shtml" target="_blank"  mon="r=1"><b> 砥砺奋进 书写更新更美时代篇章 </b></a>
 </strong>
 </li>
 <li class="hdline2">
 <i class="dot"></i>
 <strong>
-<a href="http://news.cctv.com/2019/10/04/ARTIwcdsiqvbBfqKsjXfWmbs191004.shtml" target="_blank" class="a3" mon="ct=1&a=1&c=top&pn=1">携手奋进新时代</a><i style="font-size: 12px">&nbsp;</i><a href="https://wap.peopleapp.com/article/4651506/4534578" target="_blank" class="a3" mon="ct=1&a=1&c=top&pn=1">"光荣历史照亮美好明天"</a>
-</strong>
+<a href="http://m.news.cctv.com/2019/10/05/ARTIwWs3oigWIQFXmN5gm8rF191005.shtml" target="_blank" class="a3" mon="ct=1&a=1&c=top&pn=1">10万名群众游行配经典乐曲《红旗颂》MV来了</a></strong>
 </li>
 <li class="hdline3">
 <i class="dot"></i>
 <strong>
-<a href="https://wap.peopleapp.com/article/4657167/4540259" target="_blank"  mon="r=1">我为祖国自豪 我为祖国祝福</a>
+<a href="http://tv.81.cn/sytj-tupian/2019-10/06/content_9643842.htm" target="_blank"  mon="r=1">祖国在召唤第五集《铸剑》 </a>
 <i style="font-size: 12px">&nbsp;</i><a href="http://news.cctv.com/special/qzzhrmghgcl70zn/index.shtml?spm=C96370.PsikHJQ1ICOX.EyOXJo4iDXr2.1" target="_blank"  mon="r=1">国庆专题</a>
 </strong>
 </li>
@@ -190,77 +189,77 @@
 <ul class="ulist focuslistnews">
 <li class="bold-item">
 <span class="dot"></span>
-<a href="https://3w.huanqiu.com/a/276886/9CaKrnKn8yN?agt=8" mon="ct=1&amp;a=2&amp;c=top&pn=1" target="_blank">天安门广场70个红灯笼在空中"一动不动" 如何做到的</a></li>
+<a href="https://3w.huanqiu.com/a/78e6eb/9CaKrnKn8MC?agt=8" mon="ct=1&amp;a=2&amp;c=top&pn=1" target="_blank">今天起各地将迎来长假返程高峰,这些重要提示要记牢</a></li>
 <li>
-<a href="https://3w.huanqiu.com/a/df051c/9CaKrnKn8AF?agt=8" mon="ct=1&amp;a=2&amp;c=top&pn=2" target="_blank">现实版《我和我的祖国》上热搜！人民海军霸气应援来了</a></li>
+<a href="http://baijiahao.baidu.com/s?id=1646646863920602181" mon="ct=1&amp;a=2&amp;c=top&pn=2" target="_blank">各部门多措并举保障国庆长假返程高峰</a></li>
 <li>
-<a href="https://3w.huanqiu.com/a/c4b13d/9CaKrnKn8yG?agt=8" mon="ct=1&amp;a=2&amp;c=top&pn=3" target="_blank">4天出动警力3640余人次 “旅游警察”值守京城各大景区</a></li>
+<a href="http://baijiahao.baidu.com/s?id=1646624196096118116" mon="ct=1&amp;a=2&amp;c=top&pn=3" target="_blank">100面受阅战旗、20面备份旗帜正式入藏军博</a></li>
 <li>
-<a href="http://baijiahao.baidu.com/s?id=1646608389430923047" mon="ct=1&amp;a=2&amp;c=top&pn=4" target="_blank">代长胖代叫醒 “代经济”是消费升级还是懒人福音？</a></li>
+<a href="http://baijiahao.baidu.com/s?id=1646596285443931206" mon="ct=1&amp;a=2&amp;c=top&pn=4" target="_blank">珠江夜色更美，国庆假期“夜游广州”受热捧</a></li>
 <li>
-<a href="http://baijiahao.baidu.com/s?id=1646613266566915227" mon="ct=1&amp;a=2&amp;c=top&pn=5" target="_blank">康辉海霞备稿时为什么要吸氧？并不是累病了</a></li>
+<a href="http://baijiahao.baidu.com/s?id=1646628456285627724" mon="ct=1&amp;a=2&amp;c=top&pn=5" target="_blank">从西柏坡到雄安：“赶考路”上的“河北答卷”</a></li>
 <li>
-<a href="http://baijiahao.baidu.com/s?id=1646609908400292397" mon="ct=1&amp;a=2&amp;c=top&pn=6" target="_blank">三大运营商5G预约用户数逼近千万，商用进入倒计时</a></li>
+<a href="http://baijiahao.baidu.com/s?id=1646635936132439443" mon="ct=1&amp;a=2&amp;c=top&pn=6" target="_blank">全国首个海军退役军人组成的国防教育社会团队宣讲海洋国防</a></li>
 </ul>
 <ul class="ulist focuslistnews" >
 <li class="bold-item">
 <span class="dot"></span>
-<a href="https://3w.huanqiu.com/a/0c789f/9CaKrnKn8Ke?agt=8" mon="ct=1&amp;a=2&amp;c=top&pn=7" target="_blank">6日铁路迎返程客流高峰：预计发送旅客1518万人次</a></li>
+<a href="http://baijiahao.baidu.com/s?id=1646633226110355399" mon="ct=1&amp;a=2&amp;c=top&pn=7" target="_blank">国庆阅兵行注目礼环节前，为何有30秒没解说？</a></li>
 <li>
-<a href="https://baijiahao.baidu.com/s?id=1646563033970112627&wfr=content" mon="ct=1&amp;a=2&amp;c=top&pn=8" target="_blank">央视主播给香港蒙面暴徒送上一个忠告</a></li>
+<a href="https://baijiahao.baidu.com/s?id=1646632679535554251&wfr=content" mon="ct=1&amp;a=2&amp;c=top&pn=8" target="_blank">歼-20阅兵训练曾出现失误,最后靠秘密武器解决了</a></li>
 <li>
-<a href="http://baijiahao.baidu.com/s?id=1646596492189116291" mon="ct=1&amp;a=2&amp;c=top&pn=9" target="_blank">重要机位突发故障 央视披露庆典直播中的“有惊无险”</a></li>
+<a href="http://baijiahao.baidu.com/s?id=1646628456938766329" mon="ct=1&amp;a=2&amp;c=top&pn=9" target="_blank">阳澄湖大闸蟹开捕时间错过黄金期,蟹农全力备战重阳节</a></li>
 <li>
-<a href="https://3w.huanqiu.com/a/1080fe/9CaKrnKn8MB?agt=8" mon="ct=1&amp;a=2&amp;c=top&pn=10" target="_blank">4天4526.3亿！国庆旅游消费创纪录 你贡献了多少？</a></li>
+<a href="http://baijiahao.baidu.com/s?id=1646645302743013243" mon="ct=1&amp;a=2&amp;c=top&pn=10" target="_blank">十一消费数据:国人愈加"爱面子",消费向低线城市下沉</a></li>
 <li>
-<a href="http://baijiahao.baidu.com/s?id=1646613448221423768" mon="ct=1&amp;a=2&amp;c=top&pn=11" target="_blank">中国为什么要对“洋垃圾”说不？</a></li>
+<a href="http://baijiahao.baidu.com/s?id=1646635172248971086" mon="ct=1&amp;a=2&amp;c=top&pn=11" target="_blank">京张高铁最新消息!联调联试昨日启动,计划年底正式通车</a></li>
 <li>
-<a href="http://baijiahao.baidu.com/s?id=1646609761752488342" mon="ct=1&amp;a=2&amp;c=top&pn=12" target="_blank">吕秀莲批蔡英文：酬庸滥权两年把台湾家当全败光</a></li>
+<a href="http://baijiahao.baidu.com/s?id=1646635944690020313" mon="ct=1&amp;a=2&amp;c=top&pn=12" target="_blank">甘肃降温降水考验国庆假期返程,局地迎初雪"一夜入冬"</a></li>
 </ul>
 <ul class="ulist focuslistnews" >
 <li class="bold-item">
 <span class="dot"></span>
-<a href="http://baijiahao.baidu.com/s?id=1646612672263259383" mon="ct=1&amp;a=2&amp;c=top&pn=13" target="_blank">弹劾调查步步紧逼 美国府院斗法升级</a></li>
+<a href="http://baijiahao.baidu.com/s?id=1646631666057632272" mon="ct=1&amp;a=2&amp;c=top&pn=13" target="_blank">英媒爆料约翰逊准备挑战英女王,宁被炒也不辞职</a></li>
 <li>
-<a href="https://3w.huanqiu.com/a/3458fa/9CaKrnKn8ys?agt=8" mon="ct=1&amp;a=2&amp;c=top&pn=14" target="_blank">西班牙政府抗议美国拟对部分欧盟产品加征关税</a></li>
+<a href="https://3w.huanqiu.com/a/c36dc8/9CaKrnKn8Ve?agt=8" mon="ct=1&amp;a=2&amp;c=top&pn=14" target="_blank">执政面临严峻考验!本周首尔市中心数十万人集会要文在寅下台</a></li>
 <li>
-<a href="https://3w.huanqiu.com/a/21eee3/9CaKrnKn8Ag?agt=8" mon="ct=1&amp;a=2&amp;c=top&pn=15" target="_blank">朝鲜宣布与美无核化工作会谈破裂 敦促美方改变立场</a></li>
+<a href="http://baijiahao.baidu.com/s?id=1646640804680380315" mon="ct=1&amp;a=2&amp;c=top&pn=15" target="_blank">俄罗斯议会两院:美国联邦调查局盘问俄议员是无耻挑衅</a></li>
 <li>
-<a href="http://baijiahao.baidu.com/s?id=1646564155965076616" mon="ct=1&amp;a=2&amp;c=top&pn=16" target="_blank">伊拉克示威抗议引发的冲突已致93人死亡 近4000人受伤</a></li>
+<a href="https://3w.huanqiu.com/a/c36dc8/9CaKrnKn8PQ?agt=8" mon="ct=1&amp;a=2&amp;c=top&pn=16" target="_blank">儿子受聘乌企是否有利益冲突? 拜登:我不会回应</a></li>
 <li>
-<a href="http://baijiahao.baidu.com/s?id=1646620847155118235" mon="ct=1&amp;a=2&amp;c=top&pn=17" target="_blank">梅德韦杰夫：俄罗斯与古巴商定将制定古巴能源保障计划</a></li>
+<a href="https://3w.huanqiu.com/a/24d596/9CaKrnKn8PS?agt=8" mon="ct=1&amp;a=2&amp;c=top&pn=17" target="_blank">俄罗斯雅库特车祸致6人受伤含3名中国公民,或因降雪所致</a></li>
 <li>
-<a href="http://baijiahao.baidu.com/s?id=1646610243921395005" mon="ct=1&amp;a=2&amp;c=top&pn=18" target="_blank">梅根父亲因一封信与女儿再翻脸 称“伤透了心”</a></li>
+<a href="http://baijiahao.baidu.com/s?id=1646627024716620774" mon="ct=1&amp;a=2&amp;c=top&pn=18" target="_blank">特朗普推移民新规，买不起医保就别来美国</a></li>
 </ul>
 <ul class="ulist focuslistnews" >
 <li class="bold-item">
 <span class="dot"></span>
-<a href="http://baijiahao.baidu.com/s?id=1646609524878198580" mon="ct=1&amp;a=2&amp;c=top&pn=19" target="_blank">地球高温趋势持续 2019年9月全球气温又是史上最热</a></li>
+<a href="http://baijiahao.baidu.com/s?id=1646637415177590698" mon="ct=1&amp;a=2&amp;c=top&pn=19" target="_blank">2019诺贝尔奖10月7日起陆续揭晓,今年很有看头</a></li>
 <li>
-<a href="https://3w.huanqiu.com/a/c36dc8/9CaKrnKn8G6?agt=8" mon="ct=1&amp;a=2&amp;c=top&pn=20" target="_blank">诺贝尔文学奖10日揭晓，今年将公布两年的获得者</a></li>
+<a href="http://baijiahao.baidu.com/s?id=1646646136076905084" mon="ct=1&amp;a=2&amp;c=top&pn=20" target="_blank">腾讯体育宣布暂停火箭队比赛直播,浦发银行、李宁也发声了</a></li>
 <li>
-<a href="https://3w.huanqiu.com/a/21eee3/9CaKrnKn8Kh?agt=8" mon="ct=1&amp;a=2&amp;c=top&pn=21" target="_blank">法国著名导演吕克·贝松性侵案重启调查</a></li>
+<a href="https://3w.huanqiu.com/a/c36dc8/9CaKrnKn8X8?agt=8" mon="ct=1&amp;a=2&amp;c=top&pn=21" target="_blank">上映仅7天!《我和我的祖国》票房破20亿,创献礼片历史新高</a></li>
 <li>
-<a href="http://baijiahao.baidu.com/s?id=1646599240364409711" mon="ct=1&amp;a=2&amp;c=top&pn=22" target="_blank">今年第19号台风“海贝思”在西北太平洋生成</a></li>
+<a href="http://baijiahao.baidu.com/s?id=1646631355373591555" mon="ct=1&amp;a=2&amp;c=top&pn=22" target="_blank">发现脉冲星、观测宇宙"神秘电波",国庆长假"中国天眼"有点忙</a></li>
 <li>
-<a href="http://baijiahao.baidu.com/s?id=1646610888868382010" mon="ct=1&amp;a=2&amp;c=top&pn=23" target="_blank">体操世锦赛团体资格赛 中国女队第二晋级</a></li>
+<a href="http://baijiahao.baidu.com/s?id=1646640221394736256" mon="ct=1&amp;a=2&amp;c=top&pn=23" target="_blank">从供销社到新兴便利店,看中国街角“小店”70年变化</a></li>
 <li>
-<a href="http://baijiahao.baidu.com/s?id=1646601127373656265" mon="ct=1&amp;a=2&amp;c=top&pn=24" target="_blank">江南等地高温季或终结 华南强降雨来袭</a></li>
+<a href="http://baijiahao.baidu.com/s?id=1646637651531564442" mon="ct=1&amp;a=2&amp;c=top&pn=24" target="_blank">他们是离外滩灯光最近的人，却无法欣赏到灯光秀</a></li>
 </ul>
 <ul class="ulist focuslistnews" >
 <li class="bold-item">
 <span class="dot"></span>
-<a href="http://baijiahao.baidu.com/s?id=1646603026885339481&wfr=content" mon="ct=1&amp;a=2&amp;c=top&pn=25" target="_blank">父子俩同上阅兵场接受检阅 他们的10年之约实现了</a></li>
+<a href="http://baijiahao.baidu.com/s?id=1646601127373656265" mon="ct=1&amp;a=2&amp;c=top&pn=25" target="_blank">江南等地高温季或终结 华南强降雨来袭</a></li>
 <li>
-<a href="https://3w.huanqiu.com/a/c302d6/9CaKrnKn8BK?agt=8" mon="ct=1&amp;a=2&amp;c=top&pn=26" target="_blank">老父亲坐儿子肩头看升旗，画面太温馨了！</a></li>
+<a href="https://3w.huanqiu.com/a/26ef70/9CaKrnKn8Pm?agt=8" mon="ct=1&amp;a=2&amp;c=top&pn=26" target="_blank">降温!降温!"断崖式"降温!你的秋裤开始安排了吗?</a></li>
 <li>
-<a href="http://baijiahao.baidu.com/s?id=1646595100571163874" mon="ct=1&amp;a=2&amp;c=top&pn=27" target="_blank">乔家大院整改迎国庆：拆除旧商业街，投用新商城</a></li>
+<a href="http://baijiahao.baidu.com/s?id=1646603026885339481&wfr=content" mon="ct=1&amp;a=2&amp;c=top&pn=27" target="_blank">父子俩同上阅兵场接受检阅 他们的10年之约实现了</a></li>
 <li>
-<a href="http://baijiahao.baidu.com/s?id=1646604082855086251" mon="ct=1&amp;a=2&amp;c=top&pn=28" target="_blank">浙江嘉兴：低头玩手机过马路将罚50元 你支持吗？</a></li>
+<a href="http://baijiahao.baidu.com/s?id=1646595100571163874" mon="ct=1&amp;a=2&amp;c=top&pn=28" target="_blank">乔家大院整改迎国庆：拆除旧商业街，投用新商城</a></li>
 <li>
-<a href="https://3w.huanqiu.com/a/c36dc8/9CaKrnKn8NY?agt=8" mon="ct=1&amp;a=2&amp;c=top&pn=29" target="_blank">成龙探班《中国女排》现场 巩俐版郎平造型神还原</a></li>
+<a href="http://baijiahao.baidu.com/s?id=1646604082855086251" mon="ct=1&amp;a=2&amp;c=top&pn=29" target="_blank">浙江嘉兴：低头玩手机过马路将罚50元 你支持吗？</a></li>
 <li>
-<a href="http://baijiahao.baidu.com/s?id=1646607456426387345" mon="ct=1&amp;a=2&amp;c=top&pn=30" target="_blank">黄山回应悬空栈道挤满游客：不是黄山风景区</a></li>
+<a href="https://3w.huanqiu.com/a/1b9fb2/9CaKrnKn8QI?agt=8" mon="ct=1&amp;a=2&amp;c=top&pn=30" target="_blank">国庆心情太好,老人喝多了酒乘地铁扶梯摔倒,差点...</a></li>
 </ul>
 </div>
 <div id="pane-recommend" class="mod-tab-pane pane-recommend ">
@@ -392,16 +391,16 @@
 <div class="imagearea">
 <div class="imagearea-top" style="height:164px;">
 <div class="image-mask-item">
-<a href="http://baijiahao.baidu.com/s?id=1646518324474733331" target="_blank" class="item-image" mon="&a=12" title="被误解的乔布斯" style="background-image:url(http://hiphotos.baidu.com/news/crop%3D29%2C0%2C1991%2C1336%3Bq%3D80%3B/sign=624a6cf8dec8a786aa65104e5a3bf011/1b4c510fd9f9d72a270cdc1fdb2a2834349bbb4c.jpg)"></a>
-<a href="http://baijiahao.baidu.com/s?id=1646518324474733331" target="_blank" class="item-title" title="被误解的乔布斯" mon="&a=9">被误解的乔布斯</a>
+<a href="https://baijiahao.baidu.com/s?id=1646554421827396240&wfr=content" target="_blank" class="item-image" mon="&a=12" title="乔布斯逝世八周年，这10句话影响一个时代" style="background-image:url(http://hiphotos.baidu.com/news/crop%3D29%2C0%2C1991%2C1336%3Bq%3D80%3B/sign=624a6cf8dec8a786aa65104e5a3bf011/1b4c510fd9f9d72a270cdc1fdb2a2834349bbb4c.jpg)"></a>
+<a href="https://baijiahao.baidu.com/s?id=1646554421827396240&wfr=content" target="_blank" class="item-title" title="乔布斯逝世八周年，这10句话影响一个时代" mon="&a=9">乔布斯逝世八周年，这10句话影响一个时代</a>
 </div>
 </div>
 <div class="imagearea-bottom">
 <div class="image-list-item">
-<a href="http://baijiahao.baidu.com/s?id=1646516897325528481" title="当短视频之风吹向招聘行业" target="_blank" mon="&a=12" class="img" style="background-image:url(http://hiphotos.baidu.com/news/crop%3D49%2C0%2C542%2C364%3Bq%3D80%3B/sign=40c782bb91510fb36c562dd7e407f1b9/810a19d8bc3eb13595f07bb9a91ea8d3fd1f44f9.jpg)"></a><a href="http://baijiahao.baidu.com/s?id=1646516897325528481" mon="&a=9"  class="txt" target="_blank">当短视频之风吹向招聘行业</a>
+<a href="http://baijiahao.baidu.com/s?id=1646603459159364788" title="大数据AB面：BAT领跑8000亿产值" target="_blank" mon="&a=12" class="img" style="background-image:url(http://hiphotos.baidu.com/news/crop%3D62%2C0%2C516%2C346%3Bq%3D80%3B/sign=c3d3a52c9acad1c8c4f4a66742085525/7aec54e736d12f2e4aa51b6340c2d56285356815.jpg)"></a><a href="http://baijiahao.baidu.com/s?id=1646603459159364788" mon="&a=9"  class="txt" target="_blank">大数据AB面：BAT领跑8000亿产值</a>
 </div>
 <div class="image-list-item">
-<a href="https://baijiahao.baidu.com/s?id=1646529228389329102&wfr=content" title="谷歌被指骗取人脸数据" target="_blank" mon="&a=12" class="img" style="background-image:url(http://hiphotos.baidu.com/news/crop%3D75%2C0%2C809%2C543%3Bq%3D80%3B/sign=2179ab54df160924c86af85be93000d6/35a85edf8db1cb13ded0f011d254564e92584b73.jpg)"></a><a href="https://baijiahao.baidu.com/s?id=1646529228389329102&wfr=content" mon="&a=9"  class="txt" target="_blank">谷歌被指骗取人脸数据</a>
+<a href="http://baijiahao.baidu.com/s?id=1646622700139776806" title="苹果：iPhone 11系列只能官方换屏" target="_blank" mon="&a=12" class="img" style="background-image:url(http://hiphotos.baidu.com/news/crop%3D0%2C19%2C602%2C404%3Bq%3D80%3B/sign=a09f540ab9003af359f58620081aea6d/7af40ad162d9f2d3c16090eca6ec8a136327cc44.jpg)"></a><a href="http://baijiahao.baidu.com/s?id=1646622700139776806" mon="&a=9"  class="txt" target="_blank">苹果：iPhone 11系列只能官方换屏</a>
 </div>
 </div>
 </div>
@@ -409,26 +408,26 @@
 <div class="l-right-col" style="width:290px;" alog-group="log-baijia-right-up">
 <div class="baijia-focus-list">
 <ul class="ulist bdlist">
-<li class="bold-item"><a href="http://baijiahao.baidu.com/s?id=1646518791892832411" target="_blank" mon="a=9">华为东归，针锋相对</a></li>
-<li><a href="http://baijiahao.baidu.com/s?id=1646525526139592842" target="_blank" mon="a=9">拼多多卖医疗器械，高毛利巨头入局</a></li>
-<li><a href="http://baijiahao.baidu.com/s?id=1646501786053780225" target="_blank" mon="a=9">新iPhone需求强于预期 苹果重返万亿市值</a></li>
-<li><a href="http://baijiahao.baidu.com/s?id=1646473539381237491" target="_blank" mon="a=9">咪蒙团队宣布回归：还是原来的团队</a></li>
-<li><a href="http://baijiahao.baidu.com/s?id=1646467529485261862" target="_blank" mon="a=9">专访苹果CEO库克：不担心iPhone销量</a></li>
+<li class="bold-item"><a href="http://baijiahao.baidu.com/s?id=1644338727533681616" target="_blank" mon="a=9">诺奖风向标:B细胞T细胞发现者获拉斯克奖</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1646608985307240830" target="_blank" mon="a=9">接棒爱因斯坦，德物理学家揭开光子动量奥秘</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1646624943886502965" target="_blank" mon="a=9">《攀登者》里的珠峰是地球上最高的山吗？</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1646621484277671164" target="_blank" mon="a=9">联通5G套餐泄漏：199元起包100G流量</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1646612386963669846" target="_blank" mon="a=9">NASA将携Uber展开城市间未来空中旅行测试</a></li>
 </ul>
 <ul class="ulist bdlist" style="padding-top:5px">
-<li class="bold-item"><a href="http://baijiahao.baidu.com/s?id=1646494407392810571" target="_blank" mon="a=9">PayPal宣布退出Libra：继续就未来合作对话</a></li>
-<li><a href="http://baijiahao.baidu.com/s?id=1646478240464629868" target="_blank" mon="a=9">FBI局长警告脸书恐成为“儿童色情业者”平台</a></li>
-<li><a href="http://baijiahao.baidu.com/s?id=1646509282514597457" target="_blank" mon="a=9">罗永浩：iPhone SE2只要方正没打孔屏就好</a></li>
-<li><a href="http://baijiahao.baidu.com/s?id=1646510170586853417" target="_blank" mon="a=9">欧盟即将对博通开出反垄断禁止令</a></li>
-<li><a href="http://baijiahao.baidu.com/s?id=1646515919468703695" target="_blank" mon="a=9">下沉流量之战：AI不仅能养猪，还能赶野猪</a></li>
+<li class="bold-item"><a href="http://baijiahao.baidu.com/s?id=1646619340297783614" target="_blank" mon="a=9">扎克伯格：若不是控制公司我可能早被炒掉了</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1646619070048119455" target="_blank" mon="a=9">DRAM内存芯片价格暂时平稳</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1646618999697832792" target="_blank" mon="a=9">中国天眼FAST向全球开放</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1646605435958518148" target="_blank" mon="a=9">斯皮策太空望远镜在银河系发现“泡泡云”</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1646561856184764522" target="_blank" mon="a=9">马云小长假去哪了？</a></li>
 </ul>
 <ul class="ulist bdlist" style="padding-top:5px">
-<li class="bold-item"><a href="http://baijiahao.baidu.com/s?id=1646516449949861232" target="_blank" mon="a=9">5G套餐最快本月开售 已有826万用户预约</a></li>
-<li><a href="http://baijiahao.baidu.com/s?id=1646513916404816596" target="_blank" mon="a=9">欧盟各国财长将呼吁监管脸书天秤币</a></li>
-<li><a href="http://baijiahao.baidu.com/s?id=1646453635187857254" target="_blank" mon="a=9">在线招聘难为无米之炊</a></li>
-<li><a href="http://baijiahao.baidu.com/s?id=1646522743882950587" target="_blank" mon="a=9">三星Galaxy Fold屏幕折叠次数远不及宣传</a></li>
-<li><a href="http://baijiahao.baidu.com/s?id=1646517861486328027" target="_blank" mon="a=9">NASA“洞察号”与火星地面“战斗”</a></li>
-<li><a href="http://baijiahao.baidu.com/s?id=1646534094532721420" target="_blank" mon="a=9">昔日“硅谷第一个IT巨人”宣布9000人大裁员</a></li>
+<li class="bold-item"><a href="http://baijiahao.baidu.com/s?id=1646603384627357827" target="_blank" mon="a=9">HTC已停止智能手机硬件创新</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1646601376893058433" target="_blank" mon="a=9">iPhone刘海屏因尺寸和分辨率计算遭诉讼</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1646598830230853758" target="_blank" mon="a=9">美四大运营商推出统一身份认证</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1646554699264059358" target="_blank" mon="a=9">谷歌拟收购视频应用Firework 挑战海外版抖音</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1646598621180352334" target="_blank" mon="a=9">数说70年：手机上网流量资费5年降超九成</a></li>
+<li><a href="http://baijiahao.baidu.com/s?id=1646532485247172096" target="_blank" mon="a=9">LG显示器已裁掉四分之一的高管</a></li>
 </ul>
 </div>
 </div>
@@ -438,8 +437,8 @@
 <div class="imagearea">
 <div class="imagearea-top">
 <div class="image-mask-item">
-<a href="http://baijiahao.baidu.com/s?id=1646510441784099223" target="_blank" class="item-image" mon="&a=12" title="Uber之后，孙正义又被共享经济坑惨了" style="background-image:url(http://hiphotos.baidu.com/news/crop%3D52%2C0%2C536%2C360%3Bq%3D80%3B/sign=e4169bebfdd3572c72adc69cb726510b/faedab64034f78f019f156f176310a55b3191c3e.jpg)"></a>
-<a href="http://baijiahao.baidu.com/s?id=1646510441784099223" target="_blank" class="item-title" title="Uber之后，孙正义又被共享经济坑惨了" mon="&a=9">Uber之后，孙正义又被共享经济坑惨了</a>
+<a href="http://baijiahao.baidu.com/s?id=1646612676936753295" target="_blank" class="item-image" mon="&a=12" title="诺奖预测:生理学或医学奖的最大热门是？" style="background-image:url(http://hiphotos.baidu.com/news/crop%3D64%2C9%2C353%2C237%3Bq%3D80%3B/sign=39c3a6a456ee3d6d3689dd8b7e20590e/aa64034f78f0f736c73df9020555b319eac413f5.jpg)"></a>
+<a href="http://baijiahao.baidu.com/s?id=1646612676936753295" target="_blank" class="item-title" title="诺奖预测:生理学或医学奖的最大热门是？" mon="&a=9">诺奖预测:生理学或医学奖的最大热门是？</a>
 </div>
 </div>
 </div>
@@ -902,84 +901,84 @@ mod.init();
   
                           cpOptions_1.data.push({
           "index": 1,
-          //"title": "34辆地方彩车入驻奥林匹克公园",
-          "title": "34辆地方彩车入驻奥林匹克公园",
-          "url": "http:\/\/www.chinanews.com\/tp\/hd2011\/2019\/10-06\/906524.shtml",
-          "imgUrl": "https:\/\/imgsa.baidu.com\/news\/q%3D100\/sign=bc9073eca6ec8a13121a53e0c7029157\/37d3d539b6003af3d13b8b633a2ac65c1038b634.jpg",
+          //"title": "国庆期间南宁市民观看最古老的烟花——“打铁花”",
+          "title": "国庆期间南宁市民观看最古老的烟花——“打铁花”",
+          "url": "https:\/\/3w.huanqiu.com\/a\/6a6d07\/9CaKrnQhX0q?agt=8",
+          "imgUrl": "https:\/\/imgsa.baidu.com\/news\/q%3D100\/sign=820d01e7bc1c8701d0b6b6e6177e9e6e\/7acb0a46f21fbe09c71d7c1764600c338744ad76.jpg",
           "abs": "",
           "meadia": ""
         });
-        imgList.push({"url":"http:\/\/www.chinanews.com\/tp\/hd2011\/2019\/10-06\/906524.shtml"});
+        imgList.push({"url":"https:\/\/3w.huanqiu.com\/a\/6a6d07\/9CaKrnQhX0q?agt=8"});
                                 cpOptions_1.data.push({
           "index": 2,
-          //"title": "《历史的见证》文物展在布达拉宫珍宝馆展出",
-          "title": "《历史的见证》文物展在布达拉宫珍宝馆展出",
-          "url": "http:\/\/picture.youth.cn\/qtdb\/201910\/t20191006_12087711_1.htm",
-          "imgUrl": "https:\/\/imgsa.baidu.com\/news\/q%3D100\/sign=fb02320e299759ee4c5064cb82fa434e\/5243fbf2b21193134386a9b36a380cd790238de8.jpg",
+          //"title": "长沙老人拍集体复古结婚照迎重阳",
+          "title": "长沙老人拍集体复古结婚照迎重阳",
+          "url": "http:\/\/www.chinanews.com\/tp\/hd2011\/2019\/10-06\/906633.shtml",
+          "imgUrl": "https:\/\/imgsa.baidu.com\/news\/q%3D100\/sign=bc661a28bf51f819f725074aeab54a76\/21a4462309f790521d56db3d03f3d7ca7bcbd56c.jpg",
           "abs": "",
           "meadia": ""
         });
-        imgList.push({"url":"http:\/\/picture.youth.cn\/qtdb\/201910\/t20191006_12087711_1.htm"});
+        imgList.push({"url":"http:\/\/www.chinanews.com\/tp\/hd2011\/2019\/10-06\/906633.shtml"});
                                 cpOptions_1.data.push({
           "index": 3,
-          //"title": "市民在北京八大处公园国庆游园会参观游览",
-          "title": "市民在北京八大处公园国庆游园会参观游览",
-          "url": "https:\/\/3w.huanqiu.com\/a\/58ef16\/9CaKrnQhX0d?agt=8",
-          "imgUrl": "https:\/\/imgsa.baidu.com\/news\/q%3D100\/sign=113d29c8f4edab64727249c0c736af81\/7af40ad162d9f2d3e21e73eca6ec8a136327cca2.jpg",
+          //"title": "“粉黛”扮假期",
+          "title": "“粉黛”扮假期",
+          "url": "http:\/\/www.xinhuanet.com\/photo\/2019-10\/06\/c_1125074544.htm",
+          "imgUrl": "https:\/\/imgsa.baidu.com\/news\/q%3D100\/sign=be27f4f5a8efce1bec2bccca9f50f3e8\/7e3e6709c93d70cf150f1d0ef7dcd100baa12b3f.jpg",
           "abs": "",
           "meadia": ""
         });
-        imgList.push({"url":"https:\/\/3w.huanqiu.com\/a\/58ef16\/9CaKrnQhX0d?agt=8"});
+        imgList.push({"url":"http:\/\/www.xinhuanet.com\/photo\/2019-10\/06\/c_1125074544.htm"});
                                 cpOptions_1.data.push({
           "index": 4,
-          //"title": "浙江湖州：南浔古镇游兴浓",
-          "title": "浙江湖州：南浔古镇游兴浓",
-          "url": "https:\/\/3w.huanqiu.com\/a\/3458fa\/9CaKrnQhX0g?agt=8",
-          "imgUrl": "https:\/\/imgsa.baidu.com\/news\/q%3D100\/sign=632e4cb28f0a19d8cd03800503fb82c9\/b7fd5266d01609240489b718db0735fae6cd3400.jpg",
+          //"title": "百对新人南开园举行集体婚礼迎南开大学百年校庆",
+          "title": "百对新人南开园举行集体婚礼迎南开大学百年校庆",
+          "url": "http:\/\/www.chinanews.com\/tp\/hd2011\/2019\/10-06\/906662.shtml",
+          "imgUrl": "https:\/\/imgsa.baidu.com\/news\/q%3D100\/sign=7e710977a2345982c38ae1923cf5310b\/5fdf8db1cb134954e08f7567594e9258d1094a24.jpg",
           "abs": "",
           "meadia": ""
         });
-        imgList.push({"url":"https:\/\/3w.huanqiu.com\/a\/3458fa\/9CaKrnQhX0g?agt=8"});
+        imgList.push({"url":"http:\/\/www.chinanews.com\/tp\/hd2011\/2019\/10-06\/906662.shtml"});
                                 cpOptions_1.data.push({
           "index": 5,
-          //"title": "多哈田径世锦赛男子4X100米接力决赛 中国队第六获东京奥运资格",
-          "title": "多哈田径世锦赛男子4X100米接力决赛 中国队第六获东京奥运资格",
-          "url": "http:\/\/www.chinanews.com\/tp\/hd2011\/2019\/10-06\/906530.shtml",
-          "imgUrl": "https:\/\/imgsa.baidu.com\/news\/q%3D100\/sign=308b1e2ddd1b0ef46ae89c5eedc451a1\/b8014a90f603738d3d3e5a21bc1bb051f819ecb9.jpg",
+          //"title": "新疆托克逊县白杨河迎来入秋后首批候鸟",
+          "title": "新疆托克逊县白杨河迎来入秋后首批候鸟",
+          "url": "https:\/\/3w.huanqiu.com\/a\/58ef16\/9CaKrnQhX0p?agt=8",
+          "imgUrl": "https:\/\/imgsa.baidu.com\/news\/q%3D100\/sign=9819304dc58065387deaa013a7dda115\/2cf5e0fe9925bc31576ab49b51df8db1cb1370f9.jpg",
           "abs": "",
           "meadia": ""
         });
-        imgList.push({"url":"http:\/\/www.chinanews.com\/tp\/hd2011\/2019\/10-06\/906530.shtml"});
+        imgList.push({"url":"https:\/\/3w.huanqiu.com\/a\/58ef16\/9CaKrnQhX0p?agt=8"});
                                 cpOptions_1.data.push({
           "index": 6,
-          //"title": "印尼庆祝国民军建军74周年",
-          "title": "印尼庆祝国民军建军74周年",
-          "url": "http:\/\/photo.cctv.com\/2019\/10\/06\/PHOAfnlRo8vewvQXLLzxTfBo191006.shtml?spm=C35449.P80754075394.S41437.3",
-          "imgUrl": "https:\/\/imgsa.baidu.com\/news\/q%3D100\/sign=a4a9d5ce5d66d01678199a28a72ad498\/8718367adab44aedb301e8e7bc1c8701a18bfb62.jpg",
+          //"title": "国庆假期临近尾声,多地迎返程客流高峰",
+          "title": "国庆假期临近尾声,多地迎返程客流高峰",
+          "url": "http:\/\/www.chinanews.com\/tp\/hd2011\/2019\/10-06\/906648.shtml",
+          "imgUrl": "https:\/\/imgsa.baidu.com\/news\/q%3D100\/sign=b230b7248582b9013badc733438ca97e\/279759ee3d6d55fbcf37ea2562224f4a21a4ddc4.jpg",
           "abs": "",
           "meadia": ""
         });
-        imgList.push({"url":"http:\/\/photo.cctv.com\/2019\/10\/06\/PHOAfnlRo8vewvQXLLzxTfBo191006.shtml?spm=C35449.P80754075394.S41437.3"});
+        imgList.push({"url":"http:\/\/www.chinanews.com\/tp\/hd2011\/2019\/10-06\/906648.shtml"});
                                 cpOptions_1.data.push({
           "index": 7,
-          //"title": "澳大利亚科学家发现“最致命真菌” 可使人脑萎缩",
-          "title": "澳大利亚科学家发现“最致命真菌” 可使人脑萎缩",
-          "url": "http:\/\/www.chinanews.com\/tp\/hd2011\/2019\/10-06\/906533.shtml",
-          "imgUrl": "https:\/\/imgsa.baidu.com\/news\/q%3D100\/sign=630bef32ae8b87d65642af1f37082860\/f31fbe096b63f624bb7764008844ebf81a4ca38f.jpg",
+          //"title": "悉尼举办“你好，考拉”雕塑展",
+          "title": "悉尼举办“你好，考拉”雕塑展",
+          "url": "http:\/\/www.chinanews.com\/tp\/hd2011\/2019\/10-06\/906640.shtml",
+          "imgUrl": "https:\/\/imgsa.baidu.com\/news\/q%3D100\/sign=12ed7e196f59252da5171904049b032c\/55e736d12f2eb9385044e6f1da628535e5dd6f8c.jpg",
           "abs": "",
           "meadia": ""
         });
-        imgList.push({"url":"http:\/\/www.chinanews.com\/tp\/hd2011\/2019\/10-06\/906533.shtml"});
+        imgList.push({"url":"http:\/\/www.chinanews.com\/tp\/hd2011\/2019\/10-06\/906640.shtml"});
                                 cpOptions_1.data.push({
           "index": 8,
-          //"title": "德国举行国际犬展 真是萌翻了！",
-          "title": "德国举行国际犬展 真是萌翻了！",
-          "url": "https:\/\/3w.huanqiu.com\/a\/0d8d78\/9CaKrnQhX0i?agt=8",
-          "imgUrl": "https:\/\/imgsa.baidu.com\/news\/q%3D100\/sign=db07f6ddff1f3a295cc8d1cea925bce3\/cc11728b4710b9129fafa1fdccfdfc0392452242.jpg",
+          //"title": "莫斯科举行摩托车赛季闭幕式,摩托车手炫酷秀车技",
+          "title": "莫斯科举行摩托车赛季闭幕式,摩托车手炫酷秀车技",
+          "url": "https:\/\/3w.huanqiu.com\/a\/667415\/9CaKrnQhX0n?p=1&agt=8",
+          "imgUrl": "https:\/\/imgsa.baidu.com\/news\/q%3D100\/sign=23a7eebcafec08fa200017a769ef3d4d\/342ac65c103853432f56cd229c13b07eca80881c.jpg",
           "abs": "",
           "meadia": ""
         });
-        imgList.push({"url":"https:\/\/3w.huanqiu.com\/a\/0d8d78\/9CaKrnQhX0i?agt=8"});
+        imgList.push({"url":"https:\/\/3w.huanqiu.com\/a\/667415\/9CaKrnQhX0n?p=1&agt=8"});
             
     var index = 0 ;
     var url = location.href.substr(location.href.indexOf("?")+1).split("&");

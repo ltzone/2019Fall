@@ -576,7 +576,7 @@
   
       <h2>SEC Filings</h2>
     
-      <div data-block-uuid="82e70f70-a84d-431e-9296-c6a6aeb5743c"><div class="view view-widget-sec-filings view-id-widget_sec_filings view-display-id-table js-view-dom-id-27a71818be5085b8d9865484654408cdb95dc7f227e0b41ffb96eb97c0e3122f">
+      <div data-block-uuid="82e70f70-a84d-431e-9296-c6a6aeb5743c"><div class="view view-widget-sec-filings view-id-widget_sec_filings view-display-id-table js-view-dom-id-7d45035c5571f2ebb52b1763a8327cb2541dcae7b14b7a2f51a70689c7bcaea0">
   
     
         <div class="view-filters">
@@ -749,5 +749,5 @@
 <script src="/sites/g/files/knoqqb24286/files/js/js_ZoJrqzuVMJh4IQWmHyzM2UwAQOebY6H7SdhV5jiJayg.js"></script>
 
     
-  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"761e715901","applicationID":"35893545,24276188","transactionName":"ZlVXYRcAW0ZRW0QKX18fdFYRCFpbH2ddBkRQRFRSOhFUW1VUWRlVQ29FRwA+R1BeXFUR","queueTime":0,"applicationTime":624,"atts":"ShJUF18aSEg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"761e715901","applicationID":"35893545,24276188","transactionName":"ZlVXYRcAW0ZRW0QKX18fdFYRCFpbH2ddBkRQRFRSOhFUW1VUWRlVQ29FRwA+R1BeXFUR","queueTime":0,"applicationTime":636,"atts":"ShJUF18aSEg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

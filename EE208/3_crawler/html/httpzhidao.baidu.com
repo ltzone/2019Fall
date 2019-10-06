@@ -166,7 +166,7 @@
 
 									
 			            F.context('isQuality', false);
-            F.context('now', 1570343597);
+            F.context('now', 1570369894);
 		</script>
 <script>F.context('sysTaskAutoInit', 1);</script>
 
@@ -774,46 +774,33 @@
 <div class="wgt-discussion">
 <div class="wgt-discussion-title">大家热议</div>
 <div class="wgt-discussion-list">
-<a href="/question/1803116193756561187?entry=home_discuss" target="_blank" class="discussion-big" style="background-image:url(https://gss0.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/ac4bd11373f08202e3f88c9e45fbfbedab641b2c.jpg)">
+<a href="/question/1116950809316054699?entry=home_discuss" target="_blank" class="discussion-big" style="background-image:url(https://gss0.baidu.com/-4o3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/a5c27d1ed21b0ef4378e37e6d3c451da81cb3e27.jpg)">
 <div class="mask"></div>
 <div class="text-container">
-<div class="title">职场新人该不该主动要求工作?</div>
-<div class="intro">职场新人应该主动要求工作。
-职场新人刚刚入职，对公司的环境和身边同事的了解都很少，也对周围的一切比较好奇。如果你想要更快速的融入职场，主动要求工作或者主动去帮助身边的同时去完成共同的任务是很有必要的。
-首先，能让别人对你有个好印象。
-
-谁不喜欢积极帮忙的同事呢？职场新人一开始的工作任务可能比较少，你在完成自己的工作之后，积极地去帮助周围的同事，为他们做一点力所能及的事。既能增进同事之间的交流和了解，也能让你对公司的各项工作和业务更加熟悉，为以后进一步发展做准备。
-领导发现你能和周围的同事搞好关系，自然也会比较欣赏你。
-其次，让自己更容易脱颖而出
-
-领导喜欢积极主动进步快的员工。如果你主动要求工作，证明你已经能做好自己的本职工作，有更进一步的能力了。
-你向领导提出更多的工作要求时，也在同时向他表现出了你的能力和工作态度。有一句话说的好：有为才有位。
-你主动要求工作，接触更多的工作，就能比同期同事对工作更了解更熟悉，工作能力也相应会得到提升，那么有升职机会的时候，你自然会更容易脱颖而出。
-
-当然，积极主动也要有个度，要让被你帮助的人感到你的善意，要让领导知道你是量力而行。如果你好心办坏事，让同事觉得你多此一举，领导认为你贪功冒进，那就得不偿失了。
-</div>
+<div class="title">为什么很多人网上聊的火热，现实里却很尴尬？</div>
+<div class="intro">因为网络聊天是不用通过眼神交流的，聊天的时候遇到尴尬的问题，对方也不会知道你正处于尴尬中，而且你有足够的时间来应对一个个尴尬的问题。但是在面谈时，对方抛出的问题是随机的，在短时间内你可能反应不过来，从而导致了双方的尴尬。</div>
 <div class="statistics">
-<img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/cd00d3d0cecab1d8d3a6b9c8b3cbb7e78dcf.jpg" alt="" class="avatar">
-<span class="name">匿名用户</span>
+<img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/9dca417973d6bfd4bf38bb.jpg" alt="" class="avatar">
+<span class="name">Ays挚钥</span>
 <span class="point"></span>
-<span class="thumb-num">29点赞</span>
-<div class="discuss-num">430人参与讨论</div>
+<span class="thumb-num">82点赞</span>
+<div class="discuss-num">31人参与讨论</div>
 </div>
 </div>
 </a>
 <div class="discussion-small-list">
+<a href="/question/1803116193756561187?entry=home_discuss" target="_blank" class="discussion-small" style="background-image:url(https://gss0.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/ac4bd11373f08202e3f88c9e45fbfbedab641b2c.jpg)">
+<div class="mask"></div>
+<div class="text-container">
+<div class="title">职场新人该不该主动要求工作?</div>
+<div class="discuss-num">432人参与讨论</div>
+</div>
+</a>
 <a href="/question/1772773766892472620?entry=home_discuss" target="_blank" class="discussion-small" style="background-image:url(https://gss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/7acb0a46f21fbe09d8bf72b765600c338644adb4.jpg)">
 <div class="mask"></div>
 <div class="text-container">
 <div class="title">星座是否有科学依据？</div>
-<div class="discuss-num">833人参与讨论</div>
-</div>
-</a>
-<a href="/question/1708965351159880020?entry=home_discuss" target="_blank" class="discussion-small" style="background-image:url(https://gss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/2fdda3cc7cd98d103af308992f3fb80e7bec9076.jpg)">
-<div class="mask"></div>
-<div class="text-container">
-<div class="title">娱乐圈有哪些逆生长的明星？</div>
-<div class="discuss-num">351人参与讨论</div>
+<div class="discuss-num">838人参与讨论</div>
 </div>
 </a>
 </div>
@@ -825,21 +812,21 @@
 <div class="wgt-discussion-title">精彩推荐</div>
 <div class="recommend-list">
 <div class="recommend-item">
-<a href="https://zhidao.baidu.com/question/1372723824158423179" class="title" target="_blank">为什么越来越多人买华为, 而不选高性价比的小米？</a>
-<a href="https://zhidao.baidu.com/question/1372723824158423179" class="intro" target="_blank">华为和小米，是国产手机的两个代表，它们经常被拿到一起比较。有网友问：小米手机号称高性...</a>
-<div class="meta">
-<img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/8ed4d0a1badadfb1c9f1323931355e1c.jpg" alt="" class="avatar">
-<span class="name">小黑弑神2915</span>
-<span class="time">2018.06.06</span>
-</div>
-</div>
-<div class="recommend-item">
 <a href="https://zhidao.baidu.com/question/717825756184869045" class="title" target="_blank">考研与不考研的同学，未来差距大吗？</a>
 <a href="https://zhidao.baidu.com/question/717825756184869045" class="intro" target="_blank">有差距，但不会很大。前提是两个人都在水平差不多的本科院校，而且正常的轨道上发展。我还...</a>
 <div class="meta">
 <img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/8aa03533333031373779754c53.jpg" alt="" class="avatar">
 <span class="name">5330177yu</span>
 <span class="time">2019.06.11</span>
+</div>
+</div>
+<div class="recommend-item">
+<a href="https://zhidao.baidu.com/question/1372723824158423179" class="title" target="_blank">为什么越来越多人买华为, 而不选高性价比的小米？</a>
+<a href="https://zhidao.baidu.com/question/1372723824158423179" class="intro" target="_blank">华为和小米，是国产手机的两个代表，它们经常被拿到一起比较。有网友问：小米手机号称高性...</a>
+<div class="meta">
+<img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/8ed4d0a1badadfb1c9f1323931355e1c.jpg" alt="" class="avatar">
+<span class="name">小黑弑神2915</span>
+<span class="time">2018.06.06</span>
 </div>
 </div>
 <div class="recommend-item">
@@ -1041,7 +1028,7 @@
 <div class="name"><a href="/uteam/view?teamId=102208" target="_blank" class="link" data-type="uteam">星星之火</a></div>
 <span class="read-num">13w+回答</span>
 <span class="point"></span>
-<span class="thumb-num">7.5w采纳</span>
+<span class="thumb-num">7.6w采纳</span>
 </div>
 </div>
 <div class="rank-user
@@ -1065,9 +1052,9 @@
 </a>
 <div class="text-con">
 <div class="name"><a href="/uteam/view?teamId=102257" target="_blank" class="link" data-type="uteam">生活达人</a></div>
-<span class="read-num">1825回答</span>
+<span class="read-num">1830回答</span>
 <span class="point"></span>
-<span class="thumb-num">1254采纳</span>
+<span class="thumb-num">1259采纳</span>
 </div>
 </div>
 </div>
@@ -1263,7 +1250,7 @@
         month: '10',
         day: '06'
     });
-    F.context('realTimeData',{"finishCount":"551988625","onlineUserCount":"81032","onlineDoctorCount":"15374","zhimaCount":"11744127","partnerCount":"65975","teamCount":"11419","uadminCount":"8042","mavinCount":"22313"});
+    F.context('realTimeData',{"finishCount":"552001485","onlineUserCount":"87221","onlineDoctorCount":"17279","zhimaCount":"11744961","partnerCount":"65975","teamCount":"11419","uadminCount":"8042","mavinCount":"22313"});
 
 	require.async(['home:widget/slogan/slogan'],function(slogan){
 		slogan.init();

@@ -68,7 +68,7 @@
         <div id="block-views-home-banner-block" class="block block-views">
 
       
-    <div class="view view-home-banner view-id-home_banner view-display-id-block view-dom-id-f7a9d98fa564f7b275a1dfedf74f4fc5 home-banner">
+    <div class="view view-home-banner view-id-home_banner view-display-id-block view-dom-id-c0ef06d025e7fa31c337cc261df65be0 home-banner">
 
     <div class="swiper-container">
 
@@ -294,7 +294,7 @@
 </div>
 </div>
 </div>
-<div class="view view-frontpage view-id-frontpage view-display-id-page view-dom-id-43d8e1fb072d286e89b0b8f565ec54d8">
+<div class="view view-frontpage view-id-frontpage view-display-id-page view-dom-id-62795703b82e2f1ea60f56851c55bcfc">
         
   
   
@@ -452,7 +452,7 @@
 <script type="text/javascript" src="http://e.baidu.com/sites/all/themes/ebaidu2018/js/main.js?py3zmt"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"ebaidu2018","theme_token":"fTDTlOvpMmfvhbvmyylrqogSl0xr-ikxY-bLD-PjgDs","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/waypoints\/waypoints.min.js":1,"public:\/\/languages\/zh-hans_mluH5IiYehyDG3sibgsYMtmhzLq0IASWzJx7is0adLo.js":1,"sites\/all\/themes\/ebaidu2018\/js\/jquery.js":1,"sites\/all\/themes\/ebaidu2018\/js\/swiper.min.js":1,"sites\/all\/themes\/ebaidu2018\/js\/jquery.cycle.all.js":1,"sites\/all\/themes\/ebaidu2018\/js\/jquery.md5.js":1,"sites\/all\/themes\/ebaidu2018\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/themes\/ebaidu2018\/css\/swiper.min.css":1,"sites\/all\/themes\/ebaidu2018\/css\/style.css":1,"sites\/all\/themes\/ebaidu2018\/css\/ie.css":1}},"better_exposed_filters":{"views":{"frontpage":{"displays":{"page":{"filters":[]}}},"home_banner":{"displays":{"block":{"filters":[]}}}}}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"ebaidu2018","theme_token":"OhoO48fXOL3mpwBRgjlwHadG6On8XAwIK0_0OtFYZgk","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/waypoints\/waypoints.min.js":1,"public:\/\/languages\/zh-hans_mluH5IiYehyDG3sibgsYMtmhzLq0IASWzJx7is0adLo.js":1,"sites\/all\/themes\/ebaidu2018\/js\/jquery.js":1,"sites\/all\/themes\/ebaidu2018\/js\/swiper.min.js":1,"sites\/all\/themes\/ebaidu2018\/js\/jquery.cycle.all.js":1,"sites\/all\/themes\/ebaidu2018\/js\/jquery.md5.js":1,"sites\/all\/themes\/ebaidu2018\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/themes\/ebaidu2018\/css\/swiper.min.css":1,"sites\/all\/themes\/ebaidu2018\/css\/style.css":1,"sites\/all\/themes\/ebaidu2018\/css\/ie.css":1}},"better_exposed_filters":{"views":{"frontpage":{"displays":{"page":{"filters":[]}}},"home_banner":{"displays":{"block":{"filters":[]}}}}}});
 //--><!]]>
 </script>
     <script src="/sites/all/themes/ebaidu2018/js/jquery.running.js"></script>

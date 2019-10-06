@@ -13,7 +13,7 @@
 	<link href="/css/css2.css?v=2018.11.26" rel="stylesheet" media="screen">
 	<script src="/js/jquery.js"></script>
 	<script type="text/javascript">
-	var taken_for_user = '953ea601-aacf-42a3-b91e-1b8e425d0148';
+	var taken_for_user = '464b107f-8adb-4c64-9cb0-612536696624';
 	</script>
 	<script type="text/javascript" src="/js/custom/defaultToken.js?v=2018.11.26"></script>
 	<script src="/js/custom/recordquery.js?v=2018.11.26"></script>
@@ -31,7 +31,7 @@
           <div class="logo-right index-top">
             <div class="input-append pull-right">
               <input class="span2" type="text" style="border-right:0px;" placeholder="备案查询">
-              <span class="add-on" onclick="window.location.href='/portal/recordQuery?token=953ea601-aacf-42a3-b91e-1b8e425d0148'"><i class="icon-search"></i></span>
+              <span class="add-on" onclick="window.location.href='/portal/recordQuery?token=464b107f-8adb-4c64-9cb0-612536696624'"><i class="icon-search"></i></span>
             </div>
             <ul class="nav nav-pills z-index" >
               <li class='active'><a href="/portal/index">首页</a></li>
@@ -158,7 +158,7 @@
 						</p>
 
 					      <form id="recordform" action="/portal/registerSystemInfo" method="post"><input type="hidden" name="recordcode" value="京ICP备030173号"/>
-					      <input type="hidden" name="token" value="953ea601-aacf-42a3-b91e-1b8e425d0148" />
+					      <input type="hidden" name="token" value="464b107f-8adb-4c64-9cb0-612536696624" />
 					      </form> 	  		
 		 	  	</div> 	
 		 	  	<div style="float:left;padding-right:26px;padding-top:10px;">

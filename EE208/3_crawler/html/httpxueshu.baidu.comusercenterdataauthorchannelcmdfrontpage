@@ -46,7 +46,7 @@
     <link rel="icon" sizes="any" mask href="//www.baidu.com/img/baidu.svg">
 
     <script src="https://ts.bdimg.com/libs/blueimp-md5/1-0-1/md5.min.js"></script>
-    <script>var token = '59912c760fba6279e9ff886124833c539ea75f96f70d1ac1c461b1fda8eabf01'</script>
+    <script>var token = '926414c8d04df0c3aa8c84e6c8044e3476ecea314072651a209bcbae6f131350'</script>
     <title>学者主页</title>
 
     
@@ -62,7 +62,7 @@ var bds = {
     util : {},
     //js通用数据
     comm : {
-        qid:'3646562883',
+        qid:'2247946669',
         bsToken: 'the fisrt two args should be string type:0,1!',
         entity_id: '',
         mergeAuthorId: '',
@@ -266,9 +266,9 @@ var get = function(url) {
         <script type="text/javascript">
 bds = bds || {};
 bds.cf = {};
-bds.cf.ts = "1570340933";
-bds.cf.token = "59912c760fba6279e9ff886124833c539ea75f96f70d1ac1c461b1fda8eabf01";
-bds.cf.sign = "1e170ebc4b3e7906222414c19ab9fb24";
+bds.cf.ts = "1570369897";
+bds.cf.token = "926414c8d04df0c3aa8c84e6c8044e3476ecea314072651a209bcbae6f131350";
+bds.cf.sign = "fe1d7132208c5083b204a0d7e1bf74ee";
 
 function getCfStr() {
     var ts = parseInt(new Date / 1000, 10);
@@ -501,634 +501,186 @@ function getCfObj() {
             </p>
             <div class="scrollUl">
                 <ul>
-                                        <a href="http://xueshu.baidu.com/homepage/u/c3c926d23e84872b2a66d0fd636c702e">
+                                        <a href="http://xueshu.baidu.com/homepage/u/71b7fad56dff1bae13656417f0df71b3">
                         <li>
-                            <span class="authorName">刘阳</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">华南理工大学</span>
+                            <span class="authorName">王飞</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">山东淄博电气与物理研究中心</span>
                         </li>
                     </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/24b6e24d78330111abbd20d53dd3386b">
+                                        <a href="http://xueshu.baidu.com/homepage/u/e162a980b68250bd317cafc4e0956969">
                         <li>
-                            <span class="authorName">汪凡淙</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">北京师范大学</span>
+                            <span class="authorName">张竞元</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">中国海洋大学管理学院</span>
                         </li>
                     </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/01e3da5bb72e52cf649ba4f1b82de158">
+                                        <a href="http://xueshu.baidu.com/homepage/u/9b511e18059259fac4f083a2601cdfc5">
                         <li>
-                            <span class="authorName">宋宁静</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">晋中学院化学化工学院</span>
+                            <span class="authorName">何红坤</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">大连海事大学船舶电气工程学院</span>
                         </li>
                     </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/447e8c661612ae63d1d5e4fcbea8d4c8">
+                                        <a href="http://xueshu.baidu.com/homepage/u/1f313476f1d4c9b7a05c9957e4f9449b">
                         <li>
-                            <span class="authorName">王悦</span>
+                            <span class="authorName">童泽奇</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">大连理工大学工程力学系</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/4328772289d86cbb0f3d5f06620b0584">
+                        <li>
+                            <span class="authorName">冷进</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">中南大学 冶金与环境学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/d201ec51af1fe1b503e240502d3e26a6">
+                        <li>
+                            <span class="authorName">李军</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">哈尔滨医科大学附属第一医院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/ae608ebbce57f06a29e9de2dd5afb6be">
+                        <li>
+                            <span class="authorName">石磊</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">中国科学院软件研究所</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/6f5615649c108870d1d87a68158e0c0d">
+                        <li>
+                            <span class="authorName">范晓孟</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">西北工业大学</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/25e5bd67906682398c64aa3982d5ce6e">
+                        <li>
+                            <span class="authorName">刘榕全</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">福建省第五建筑工程公司</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/20453129e67a386658d5954e24b67838">
+                        <li>
+                            <span class="authorName">贺海善</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">云南景素茶叶普洱茶研究者</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/6b0f91db7f5ab3f5858b3322cef2ed21">
+                        <li>
+                            <span class="authorName">王雪松</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">北京市西城区白纸坊社区卫生服务中心</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/fdb7a952a29b50f3a45477b7d4a2747f">
+                        <li>
+                            <span class="authorName">Li, Xiaoshan</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">School of Mathematics and Statistics, Wuhan University</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/434c06287faf9717299d50d84df8aaf2">
+                        <li>
+                            <span class="authorName">魏林</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">华中师范大学化学学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/2c91a3e577560c320eec3986afcffbed">
+                        <li>
+                            <span class="authorName">池见星</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">复旦大学新闻学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/8af0dcfd03e0f6ad26cf62604d8ce7ef">
+                        <li>
+                            <span class="authorName">谢东</span>
                             <span class="paperNum">5</span>
-                            <span class="affilicate">吉林大学集成光电子国家重点实验室 电子科学与工程学院</span>
+                            <span class="affilicate">山东德州烟草有限公司</span>
                         </li>
                     </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/4bc479c0a853cc8e70204b55d04966f7">
+                                        <a href="http://xueshu.baidu.com/homepage/u/497f33043aad71096c900eb966057359">
                         <li>
-                            <span class="authorName">肖青</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">四川大学华西医院放疗科</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/77c4c4d05773075d5cd1da519d25a2bf">
-                        <li>
-                            <span class="authorName">胡晓萌</span>
+                            <span class="authorName">邹传义</span>
                             <span class="paperNum">4</span>
-                            <span class="affilicate">湖南师范大学</span>
+                            <span class="affilicate">东华理工大学测绘工程学院</span>
                         </li>
                     </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/cf07684a479f36848c0a8b7e13031911">
+                                        <a href="http://xueshu.baidu.com/homepage/u/09eee84ab3bfae0d365d5ac5d93a91ba">
                         <li>
-                            <span class="authorName">吕洋</span>
+                            <span class="authorName">Tianwei Shen</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">Hong Kong University of Science and Technology</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/2269a929e519c4c88bf4927855586a12">
+                        <li>
+                            <span class="authorName">庞孜钦</span>
                             <span class="paperNum">4</span>
-                            <span class="affilicate">西北工业大学自动化学院信息融合教育部重点实验室</span>
+                            <span class="affilicate">福建农林大学</span>
                         </li>
                     </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/a5423a0ec0f025906f905c8fd5557802">
+                                        <a href="http://xueshu.baidu.com/homepage/u/d57206f89ab2a129dbb08cf10d864a66">
                         <li>
-                            <span class="authorName">Pu Jianglong</span>
+                            <span class="authorName">YANG XIN</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">Harbin Institute of Technology</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/44012d020a155c86106cf888d07a0385">
+                        <li>
+                            <span class="authorName">卿凤</span>
                             <span class="paperNum">4</span>
-                            <span class="affilicate">Tokyo University of Agriculture and Technology</span>
+                            <span class="affilicate">四川师范学院国土管理学院</span>
                         </li>
                     </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/ac1d9858deb681a9bcd04fc539a636a3">
+                                        <a href="http://xueshu.baidu.com/homepage/u/5072d2a175c0f45ac172be804bc6ff38">
                         <li>
-                            <span class="authorName">高邈</span>
+                            <span class="authorName">于洪军</span>
                             <span class="paperNum">3</span>
-                            <span class="affilicate">大连海事大学</span>
+                            <span class="affilicate">上海江怀律师事务所</span>
                         </li>
                     </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/86517247851eb0190e5ead5f2860691a">
+                                        <a href="http://xueshu.baidu.com/homepage/u/d9a8c999994a6464784340bc3c9b5649">
                         <li>
-                            <span class="authorName">吴永胜</span>
+                            <span class="authorName">高海林</span>
                             <span class="paperNum">3</span>
-                            <span class="affilicate">北京理工大学</span>
+                            <span class="affilicate">锡林郭勒盟气象局</span>
                         </li>
                     </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/5207912714342919336f661b72a2b098">
+                                        <a href="http://xueshu.baidu.com/homepage/u/e96a899a03cfc330f238636d6b2f5288">
                         <li>
-                            <span class="authorName">李剑峰</span>
+                            <span class="authorName">毕卓能</span>
                             <span class="paperNum">4</span>
-                            <span class="affilicate">西南大学电子信息工程学院</span>
+                            <span class="affilicate">中国科学院广州能源研究所</span>
                         </li>
                     </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/4b27cea776a1f598318e85ecd8ff6bdb">
+                                        <a href="http://xueshu.baidu.com/homepage/u/d1bb67dc000501cbadf11fa31982a83e">
                         <li>
-                            <span class="authorName">李登实</span>
+                            <span class="authorName">顾海然</span>
                             <span class="paperNum">3</span>
-                            <span class="affilicate">江汉大学数学与计算机科学学院</span>
+                            <span class="affilicate">中国建筑第八工程局有限公司</span>
                         </li>
                     </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/e1d2f1f10337cb30ac6f0cc52bda1468">
+                                        <a href="http://xueshu.baidu.com/homepage/u/f44f840730ed6d361d9f12d827b39225">
                         <li>
-                            <span class="authorName">姚文明</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">中南大学</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/a6525059c50b600c1a3f7dbe0fbf25b5">
-                        <li>
-                            <span class="authorName">朱文龙</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">北京师范大学</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/56ac401010157c3504f1ef428989756a">
-                        <li>
-                            <span class="authorName">龚逸君</span>
+                            <span class="authorName">常大勇</span>
                             <span class="paperNum">4</span>
-                            <span class="affilicate">上海财经大学统计与管理学院</span>
+                            <span class="affilicate">烟台固特丽</span>
                         </li>
                     </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/3d33063d7b32332b88a9e9596dd74ac6">
+                                        <a href="http://xueshu.baidu.com/homepage/u/26079a285754745d8590f0eb9db5dc8f">
                         <li>
-                            <span class="authorName">辛秀颖</span>
+                            <span class="authorName">崔宇晨</span>
                             <span class="paperNum">3</span>
-                            <span class="affilicate">天津科技大学经济与管理学院物流教研室</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/318c7f87c7256b264bb14e13ccaf484b">
-                        <li>
-                            <span class="authorName">周瑾</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">中南大学土木工程学院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/c86471800cb98e9f940b2d87040c2547">
-                        <li>
-                            <span class="authorName">刘慧</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">东北大学理学院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/b7949985d740ab85c2568296acdb044b">
-                        <li>
-                            <span class="authorName">朱浩睿</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">长沙理工大学</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/f1e5f0a162e10230fecca212f9aef92c">
-                        <li>
-                            <span class="authorName">曹健</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">西安科技大学能源学院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/a9a18b0c7db3b98c63ddeb6b585370de">
-                        <li>
-                            <span class="authorName">胡庆祥</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">广东省中山市残疾人联合会康复部</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/cb0a86fcff4cdf73b0356ef7674ba847">
-                        <li>
-                            <span class="authorName">陈筱琳</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">北京邮电大学</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/fd2deef59c0cdaaf1ca48de1e9754d99">
-                        <li>
-                            <span class="authorName">卞庆功</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">西安建筑科技大学马克思主义学院马克思主义基本原理专业</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/bfa1d7e0102d074ae9c2cd5fa7a6f47f">
-                        <li>
-                            <span class="authorName">卢守兵</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">中国信息协会信用专业委员会</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/818f4eccee7f37ab39ba2c3858d8b03b">
-                        <li>
-                            <span class="authorName">阿米提江·麦麦提</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">中南民族大学文传学院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/161b3a21cae144f1daa7853dd045526c">
-                        <li>
-                            <span class="authorName">李依芮</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">西南交通大学高速铁路轨道工程教育部重点实验室</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/327540d0b8a9e7c3d25b235f37e4e861">
-                        <li>
-                            <span class="authorName">陈雨</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">中国农业大学图书馆情报研究中心</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/bf09492b5b51fdbdddfc5e585505b9ad">
-                        <li>
-                            <span class="authorName">董益</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">天津市眼科医院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/b404c64743199ab3ef209b2601af1874">
-                        <li>
-                            <span class="authorName">邓吉</span>
-                            <span class="paperNum">5</span>
-                            <span class="affilicate">天津大学精密仪器与光电子工程学院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/83bd6ae4097f82eff5210ef8e1f6f3a9">
-                        <li>
-                            <span class="authorName">杨航宇</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">北京林业大学；中国农业大学 食品工程</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/98bbc148256318bb420a2e57175289c6">
-                        <li>
-                            <span class="authorName">马朝阳</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">中国矿业大学矿业工程学院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/d64aac3f4a2b64dc4c55d02897d2ab22">
-                        <li>
-                            <span class="authorName">孔祥旭</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">中华孔子易学研讨会</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/a0ac0ca4edece1d74b75bf9843e93876">
-                        <li>
-                            <span class="authorName">赵明辉</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">中煤科工集团上海有限公司</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/feb03a13de88886be271ab97c3062e95">
-                        <li>
-                            <span class="authorName">周斌</span>
-                            <span class="paperNum">5</span>
-                            <span class="affilicate">中国铁路上海局集团有限公司</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/654213ac57248a974ef7b2f44f3a5438">
-                        <li>
-                            <span class="authorName">束峰琛</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">新沂市第一中学</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/5769930033f470943fc368e6e88f735e">
-                        <li>
-                            <span class="authorName">查瑞波</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">陕西师范大学</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/507b9364bf9453d946f119dcbb3ccbf3">
-                        <li>
-                            <span class="authorName">杨军</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">中国科学院微生物研究所</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/414523f616ffbb04ae5b8dbdafcd413f">
-                        <li>
-                            <span class="authorName">袁涛</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">湖南大学土木工程学院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/ab3281e19b28ccac846c75ae2e2b68b5">
-                        <li>
-                            <span class="authorName">王友俊</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">南京大学社会学院社会学系</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/2d837071bb1c4b3f05040f85603e19aa">
-                        <li>
-                            <span class="authorName">肖栋</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">炮兵学院炮手</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/8659d4bcd3248f03d1f0dccb0bb0867a">
-                        <li>
-                            <span class="authorName">周振坤</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">北京航空航天大学</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/8cab82958127aa9471725a32cd1fc324">
-                        <li>
-                            <span class="authorName">滕涛</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">南京农业大学无锡渔业学院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/535912db990f76c88c464292f7329c4c">
-                        <li>
-                            <span class="authorName">王雪成</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">交通运输部科学研究院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/d0c4cb5e2423da44a1a4c1f69a6becdd">
-                        <li>
-                            <span class="authorName">李守安</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">成都大学物理系原子核结构研究中心</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/b8a37034d8f18d20bab97c3e357351eb">
-                        <li>
-                            <span class="authorName">刘承玄</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">重庆市中医院肾病科</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/8c1821fc2787bcd225695eaa3b011ad1">
-                        <li>
-                            <span class="authorName">毛细英</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">景德镇陶瓷学院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/11eebe41ba7661bb07b41edb1999d174">
-                        <li>
-                            <span class="authorName">王绍峰</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">电子科技大学</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/3feed50641c35f1c25cf14edff220038">
-                        <li>
-                            <span class="authorName">韩硕</span>
-                            <span class="paperNum">5</span>
-                            <span class="affilicate">上海交通大学附属仁济医院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/bd14580d15dca060b47a91c772bea349">
-                        <li>
-                            <span class="authorName">赵红飞</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">武汉大学水资源与水电工程科学国家重点实验室</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/e1fdf3c4489561dd67f3f711ee658979">
-                        <li>
-                            <span class="authorName">于金海</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">南京大学</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/64d9642375525bfffafb4707b5602c03">
-                        <li>
-                            <span class="authorName">王智斌</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">许昌学院信息工程学院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/8604732f51154a80b9261e9794b74896">
-                        <li>
-                            <span class="authorName">陈立扬</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">深圳市城市交通规划设计研究中心有限公司</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/0c39476287ff77717b11da1645436e49">
-                        <li>
-                            <span class="authorName">王茂森</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">北京邮电大学</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/58e41cdfc01e2516df0fe902f68caaf6">
-                        <li>
-                            <span class="authorName">宫毛高</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">南京大学电子科学与工程学院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/0e4115b209fe140ad22eeb4727cc2ccc">
-                        <li>
-                            <span class="authorName">上海制造费发票</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">【电-微:13725461697，林财务】【正规/可查/可验/】</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/0a868f7f610c696883e5f1d305b3ea35">
-                        <li>
-                            <span class="authorName">蔡月樵</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">同济大学电子与信息工程学院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/0d2e0a9701bdde3a120bffb4ec181be8">
-                        <li>
-                            <span class="authorName">万冀</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">武汉大学</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/1231a94e2fc6794f0e822939332599bc">
-                        <li>
-                            <span class="authorName">刘文娜</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">北京林业大学水土保持学院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/43fcef8729b0cbd312a8f01cbdd2cbd2">
-                        <li>
-                            <span class="authorName">窦泽南</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">北京师范大学 心理学院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/62c58ac99b21244471bfd37dc1e5db20">
-                        <li>
-                            <span class="authorName">yang zheng</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">中国农业大学植物保护学院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/65d824947e443cf4dad142229c382b67">
-                        <li>
-                            <span class="authorName">陈洪瀚</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">西南交通大学信息科学与技术学院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/7e418a6b4ff0b4587177866494a20efb">
-                        <li>
-                            <span class="authorName">张言博</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">华中科技大学同济医学院公共卫生学院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/c40a816fd0bbefec4be1bab7ccc2c4bb">
-                        <li>
-                            <span class="authorName">孙巍巍</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">南京理工大学计算机科学与工程学院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/5de275fc09ac57b6267361912afc01cb">
-                        <li>
-                            <span class="authorName">于佳</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">西安工业大学</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/9c964230693a5cc497fc61be798adb77">
-                        <li>
-                            <span class="authorName">郭海东</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">西安建筑科技大学</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/594e28b69035954da201997f7d5e13b1">
-                        <li>
-                            <span class="authorName">Yuanxun Shao</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">School of Reliability and Systems Engineering, Beihang University, Beijing 100191, China</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/4f6474095c868f63828a49dca456d4db">
-                        <li>
-                            <span class="authorName">李旭升</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">暨南大学</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/91ad0ae2e7ff02e4e2ecb939b50e7f70">
-                        <li>
-                            <span class="authorName">李蒙</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">中国农业大学</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/d353bba6510333ca938456abc395df7d">
-                        <li>
-                            <span class="authorName">朱见深</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">山东大学生命科学学院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/14f7f0a084672ffd30df84162261eb56">
-                        <li>
-                            <span class="authorName">朱建</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">蚌埠医学院第一附属医院，心血管内科</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/854eb61b0ebc842bfe5a4c8a2f24810e">
-                        <li>
-                            <span class="authorName">冯国栋</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">合肥工业大学食品科学与工程学院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/252651f0bb241cf18d985babeed8869b">
-                        <li>
-                            <span class="authorName">麦合穆提江·达吾提</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">日本北海道大学理学部</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/c3ab9c33b51d812f589a9eac22ec3b91">
-                        <li>
-                            <span class="authorName">孙建闯</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">哈尔滨工程大学核学院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/0721e066c134d63e406acfc4052c3907">
-                        <li>
-                            <span class="authorName">刘晓磊</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">大庆油田测试技术服务分公司</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/cd58023f984d668289277d21332779b5">
-                        <li>
-                            <span class="authorName">毛羽</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">英国贝尔法斯特女王大学化学化工系</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/49d9b517ea87a67627972ebe495f1882">
-                        <li>
-                            <span class="authorName">魏亚雄</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">中国科学技术大学化学物理系</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/2541a57bef0720a03be33d64067e550f">
-                        <li>
-                            <span class="authorName">罗捷</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">广西中医药大学</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/d46530825cded54f52721e20b7cc5ed7">
-                        <li>
-                            <span class="authorName">封玲</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">浙江中医药大学</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/c86c24f942acbe3d2c6b59070e28b8e6">
-                        <li>
-                            <span class="authorName">侯延龙</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">兰州大学第二医院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/2fc3d043cf970d8c3b98628e2a6f7659">
-                        <li>
-                            <span class="authorName">张肖强</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">安徽工程大学电气工程学院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/0303cbe369c254c28a7455c9c5dadfc1">
-                        <li>
-                            <span class="authorName">程青松</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">长江大学</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/a30fdbd6069504942d9a707a51e71421">
-                        <li>
-                            <span class="authorName">王英财</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">哈尔滨工程大学材化学院</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/a4569c9832d3f65d1cda58f38d68fd9f">
-                        <li>
-                            <span class="authorName">刘振亮</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">南京大学心理系</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/8dceaa097d1787d8ef148cc7af41f5ec">
-                        <li>
-                            <span class="authorName">郑学昊</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">沈阳大学区域污染环境生态修复教育部重点实验室</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/5c04bdc2ac73c60359be0ad85175faaf">
-                        <li>
-                            <span class="authorName">周晓芳</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">中国科学院华南植物园</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/c4cc9833e408e96eccdb5573e9596f66">
-                        <li>
-                            <span class="authorName">肖海</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">广西万沃网络科技有限公司</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/8fbfc9ab8fa0872ac93d7d51829f957c">
-                        <li>
-                            <span class="authorName">张硕</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">中国农业科学院作物科学研究所</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/31d23f18582a9ff48a1763920a703828">
-                        <li>
-                            <span class="authorName">王亚光</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">中国传媒大学</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/190de54848818f196f4772f5bf0dea73">
-                        <li>
-                            <span class="authorName">周公吐哺</span>
-                            <span class="paperNum">3</span>
-                            <span class="affilicate">社会人文</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/c4e8ed86520deab8ef561d02a05ad196">
-                        <li>
-                            <span class="authorName">张贝贝</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">中国传媒大学</span>
+                            <span class="affilicate">湖北工业大学</span>
                         </li>
                     </a>
                                         <a href="http://xueshu.baidu.com/homepage/u/094a9863246af4b68f2a1ce8177b1703">
@@ -1138,67 +690,515 @@ function getCfObj() {
                             <span class="affilicate">南华大学</span>
                         </li>
                     </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/7fb14d0b3c0ec354ec42ac7a08392e69">
+                                        <a href="http://xueshu.baidu.com/homepage/u/285accc0af956e9395acae9fb4c089b6">
                         <li>
-                            <span class="authorName">董洲</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">合肥市第一人民医院 脊柱骨科</span>
-                        </li>
-                    </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/8d7e91ff29e102bd413f1e9b524f033a">
-                        <li>
-                            <span class="authorName">张进</span>
+                            <span class="authorName">吴小莉</span>
                             <span class="paperNum">3</span>
-                            <span class="affilicate">南开大学花学学院</span>
+                            <span class="affilicate">阿萨德has活动卡拉斯蜡</span>
                         </li>
                     </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/bad141d82de1c263d231a4d6b4704fa4">
+                                        <a href="http://xueshu.baidu.com/homepage/u/47c6400ea6082949d449081b0aa0b3eb">
                         <li>
-                            <span class="authorName">张小波</span>
+                            <span class="authorName">张楠林</span>
                             <span class="paperNum">4</span>
-                            <span class="affilicate">湖南农业大学</span>
+                            <span class="affilicate">西南石油大学石油与天然气工程学院</span>
                         </li>
                     </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/af4eafa9671a23d4396c17dc9f8d4738">
+                                        <a href="http://xueshu.baidu.com/homepage/u/161b3a21cae144f1daa7853dd045526c">
                         <li>
-                            <span class="authorName">吕树彬</span>
+                            <span class="authorName">李依芮</span>
                             <span class="paperNum">3</span>
-                            <span class="affilicate">中北大学朔州校区</span>
+                            <span class="affilicate">西南交通大学高速铁路轨道工程教育部重点实验室</span>
                         </li>
                     </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/c590fa12576ffbc31d6d864e39bb01c8">
+                                        <a href="http://xueshu.baidu.com/homepage/u/5aeecadc0158f09b2e3726125c9f0ee1">
                         <li>
-                            <span class="authorName">杨立昊</span>
+                            <span class="authorName">赵桂峰</span>
                             <span class="paperNum">4</span>
-                            <span class="affilicate">云南省标准化研究院</span>
+                            <span class="affilicate">天津中医药大学第一附属医院</span>
                         </li>
                     </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/4a26fb4d3c730042c21df27e011cdcf0">
+                                        <a href="http://xueshu.baidu.com/homepage/u/f1a50be69d8e5a4e9cc3377786cd818c">
                         <li>
-                            <span class="authorName">霍昱廷</span>
+                            <span class="authorName">张旭</span>
                             <span class="paperNum">3</span>
-                            <span class="affilicate">信阳市人大</span>
+                            <span class="affilicate">安徽大学 电子信息工程学院 电路与系统</span>
                         </li>
                     </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/732ab7a96fc3f86e31288f1bd0cebee5">
+                                        <a href="http://xueshu.baidu.com/homepage/u/04b058513e36a374aa67c22de88c4f6c">
                         <li>
-                            <span class="authorName">向杰</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">中共四川省达州市宣汉县委政法委员会</span>
+                            <span class="authorName">周长光</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">南京理工大学</span>
                         </li>
                     </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/c844dd19955962bf3a51f7f0c1524453">
+                                        <a href="http://xueshu.baidu.com/homepage/u/a30fdbd6069504942d9a707a51e71421">
                         <li>
-                            <span class="authorName">刘存德</span>
-                            <span class="paperNum">4</span>
-                            <span class="affilicate">广西医科大学第一附属医院</span>
+                            <span class="authorName">王英财</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">哈尔滨工程大学材化学院</span>
                         </li>
                     </a>
-                                        <a href="http://xueshu.baidu.com/homepage/u/aca760a63fe700a301537965d2cf800f">
+                                        <a href="http://xueshu.baidu.com/homepage/u/2541a57bef0720a03be33d64067e550f">
                         <li>
-                            <span class="authorName">金建强</span>
+                            <span class="authorName">罗捷</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">广西中医药大学</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/5f81f7e23553a8aacd6c2b5b1dbd7a2b">
+                        <li>
+                            <span class="authorName">王泉峰</span>
                             <span class="paperNum">4</span>
-                            <span class="affilicate">浙江工业大学</span>
+                            <span class="affilicate">重庆大学城市建设与环境工程学院水科学与工程系</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/dca14fe8ad89da82536adcb6268fd0ec">
+                        <li>
+                            <span class="authorName">杜文义</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">成都大学四川抗菌素工业研究所</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/e16a2273d05f8eda5a9d85489164b02d">
+                        <li>
+                            <span class="authorName">王凯博</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">云南省农业科学院农业环境资源研究所</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/dc13164335d2f2daf1b17619cb7bbea0">
+                        <li>
+                            <span class="authorName">王进春</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">南京航空航天大学能源与动力学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/5e1f73e778e80eb6d7079330de2da366">
+                        <li>
+                            <span class="authorName">王锡森</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">南开大学马克思主义学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/fdd6ab8a06d1ab8edf440c159fc2c720">
+                        <li>
+                            <span class="authorName">肖峰</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">南京林业大学汽车与交通工程学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/650c9d971e0ea9b7fdd680e350b19088">
+                        <li>
+                            <span class="authorName">蔡建树</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">浙江大学医学院附属邵逸夫医院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/d94972b6cc1a3814501dde2492492ff8">
+                        <li>
+                            <span class="authorName">高扬</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">南京师范大学 生命科学学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/936c670e83169c2d8695d686e46a848e">
+                        <li>
+                            <span class="authorName">苏迪</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">北京师范大学</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/03744ecc60eecb3ad9141987de5677a3">
+                        <li>
+                            <span class="authorName">业康</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">浙江省中药研究所有限公司</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/c705d7c6ab1cc6966a2c2d67892ac234">
+                        <li>
+                            <span class="authorName">魏松林</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">国家海洋局第三海洋研究所</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/5fb3dd698411690f3f2ca9fc40fd0ece">
+                        <li>
+                            <span class="authorName">朱克华</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">青岛蔚蓝生物股份有限公司</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/fa99169987c800ff13fc936ebde3e2c5">
+                        <li>
+                            <span class="authorName">何巍</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">中机中联工程有限公司</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/98d1872fc1fa6dbf3fb7fa7959d84100">
+                        <li>
+                            <span class="authorName">袁素平</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">中交第二公路工程局</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/ebee435b7a02008ab6ff5ec5862df093">
+                        <li>
+                            <span class="authorName">崔新男</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">中国矿业大学（北京），力学与建筑工程学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/96e4006b12a9988bb117ef30b192f15e">
+                        <li>
+                            <span class="authorName">黄勋</span>
+                            <span class="paperNum">5</span>
+                            <span class="affilicate">广州大学地理科学学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/e698d2a357c6e7bd9eae026e07100da1">
+                        <li>
+                            <span class="authorName">张铁刚</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">齐齐哈尔市职业教育中心学校</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/410f015857b1a4fe0ec4ae2d753fa165">
+                        <li>
+                            <span class="authorName">吴亮</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">南京大学</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/5003539d84076635cb8d1f2553bb0c6e">
+                        <li>
+                            <span class="authorName">梁殿胜</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">广州数控设备有限公司</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/db4ec1a216b088a3661330068d979cf3">
+                        <li>
+                            <span class="authorName">汪昀</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">国网电科院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/cf0c2004447ef8fb58fddae4c0edfc2f">
+                        <li>
+                            <span class="authorName">张懂</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">湖南师范大学</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/f6f5a7e152eb68d8fd287849d9a7ab23">
+                        <li>
+                            <span class="authorName">黄耀龙</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">吉林大学建设工程学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/433352c4261dd9bfc8fd2bac7ffb1fb6">
+                        <li>
+                            <span class="authorName">向波</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">西南交通大学机械工程学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/4b6a193f30011d48ace4ed921e342b81">
+                        <li>
+                            <span class="authorName">王博远</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">中山市疾病预防控制中心</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/2824089b53281f89d71094f5ccde89a7">
+                        <li>
+                            <span class="authorName">田伊林</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">生态学</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/93d25777de262c2cf795e2baf27445dd">
+                        <li>
+                            <span class="authorName">项晓</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">中国科学院国家授时中心</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/288273deb789e1f2e89fbdc39d29987d">
+                        <li>
+                            <span class="authorName">黄建伟</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">悦宸建筑工作室</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/91feba0134a56ac2f957f69c296b3b26">
+                        <li>
+                            <span class="authorName">何浩奇</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">南京师范大学计算机科学与技术学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/a27bf9ad780a892b80111765dd8ee2ad">
+                        <li>
+                            <span class="authorName">常延丽</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">西安交通大学材料科学与工程</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/57f98e2d7b2560f69d736df27dfe0753">
+                        <li>
+                            <span class="authorName">Haodong Zhang</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">National Academy of Innovation Strtegy,CAST</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/9e92f127a4afb00fb6e4f13a63e58271">
+                        <li>
+                            <span class="authorName">刘文武</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">广州地铁设计研究院有限公司</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/60352f6c9dc0603f7da12e5ae2038d49">
+                        <li>
+                            <span class="authorName">杨利中</span>
+                            <span class="paperNum">5</span>
+                            <span class="affilicate">浙江华数广电网络股份有限公司</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/e9746b3cd55e5369fe24623ae1be88d6">
+                        <li>
+                            <span class="authorName">刘春泉</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">武汉科技大学材料与冶金学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/93fcd4c4e76d4745ff033082cb63c3b0">
+                        <li>
+                            <span class="authorName">李尚</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">哈尔滨工业大学计算机科学与技术学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/b549f0bc820aeeb87a835d0a008223fe">
+                        <li>
+                            <span class="authorName">吕双坤</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">兰州大学</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/5ea229efaf96b190aea2af6bc3a517a7">
+                        <li>
+                            <span class="authorName">崔同洋</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">安徽工业大学</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/d95394492db3eedb0d91d6dd98b5ac7c">
+                        <li>
+                            <span class="authorName">陈永发</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">上海旅游高等专科学校</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/799690e206fe261cbbf4ae0f5c5f7670">
+                        <li>
+                            <span class="authorName">朱政豫</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">同济大学环境科学与工程学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/05cf6eb664889bdd130976308a0902c3">
+                        <li>
+                            <span class="authorName">高强</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">电子科技大学信息与软件工程学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/88aaab03bc8c1c4387883adebc99f562">
+                        <li>
+                            <span class="authorName">张世江</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">华侨大学土木工程学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/cac0c03781a9170e22519399b794ad82">
+                        <li>
+                            <span class="authorName">刘道奇</span>
+                            <span class="paperNum">5</span>
+                            <span class="affilicate">河南农业大学</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/afafa3205852bb1484c8760ccc84da46">
+                        <li>
+                            <span class="authorName">柴少峰</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">中国地震局兰州地震研究所</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/8171bea0b3f3f34399dde2b796bfe3ee">
+                        <li>
+                            <span class="authorName">袁坤山</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">青岛科技大学化学与分子工程学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/0f36ba51c1223bb7daa20d21b60de8a9">
+                        <li>
+                            <span class="authorName">耿慧</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">江南大学</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/0fd0b17b894032f64a1beae2825af37f">
+                        <li>
+                            <span class="authorName">张志钢</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">天津城市建设学院网络中心</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/b35af5dbb8b1d59fb0b86efbff3fd4c6">
+                        <li>
+                            <span class="authorName">樊文娟</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">甘肃省妇幼保健院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/aff4738be66915c6d455eebdf0d817f4">
+                        <li>
+                            <span class="authorName">何翼</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">华中科技大学生命科学与技术学院；中国农业科学院作物科学研究所</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/62c58ac99b21244471bfd37dc1e5db20">
+                        <li>
+                            <span class="authorName">yang zheng</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">中国农业大学植物保护学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/702055875b68b89bfce2d5b401eacad5">
+                        <li>
+                            <span class="authorName">王佳磊</span>
+                            <span class="paperNum">5</span>
+                            <span class="affilicate">云南艺术学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/7bd90fc7d9ac558635aa3228ddb1a095">
+                        <li>
+                            <span class="authorName">李建光</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">上海市地下建筑设计研究院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/414523f616ffbb04ae5b8dbdafcd413f">
+                        <li>
+                            <span class="authorName">袁涛</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">湖南大学土木工程学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/d50887f01a33232fbc9dcc1b664fd024">
+                        <li>
+                            <span class="authorName">唐浩</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">首都医科大学附属北京朝阳医院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/c4cc9833e408e96eccdb5573e9596f66">
+                        <li>
+                            <span class="authorName">肖海</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">广西万沃网络科技有限公司</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/f56682a83ea2d22070c8074a4ac62a2f">
+                        <li>
+                            <span class="authorName">康茜</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">南京农业大学</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/65cd2764dd6914a51ad995e5c6776229">
+                        <li>
+                            <span class="authorName">郜朝光</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">河南大学商学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/b65817a4504f356c15840927c3acbf54">
+                        <li>
+                            <span class="authorName">贾小龙</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">宁夏路桥集团</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/5307c9a2f33789df17d9b182d66b5904">
+                        <li>
+                            <span class="authorName">方新</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">安徽黄梅戏艺术职业学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/4549880cf47b3c3f819858be060fde8c">
+                        <li>
+                            <span class="authorName">王章义</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">浙江大学海洋学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/08a157cd3964de640920a45316f79706">
+                        <li>
+                            <span class="authorName">曲杰卿</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">青岛市交通运输公共服务中心</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/8a078b670bff2c7803dec3d64d45ebb6">
+                        <li>
+                            <span class="authorName">王耀祖</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">北京科技大学</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/4235cb0c1e3ddbaf0993c2701eeea081">
+                        <li>
+                            <span class="authorName">宋大伟</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">山东大学电气工程学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/7b4f1d9be487b1de542adb6d6ecf882d">
+                        <li>
+                            <span class="authorName">林奕林</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">南京理工大学机械工程学院</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/bd14580d15dca060b47a91c772bea349">
+                        <li>
+                            <span class="authorName">赵红飞</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">武汉大学水资源与水电工程科学国家重点实验室</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/c6eb0df66176e5dff016d73db18c72bb">
+                        <li>
+                            <span class="authorName">张典</span>
+                            <span class="paperNum">4</span>
+                            <span class="affilicate">江西财经大学</span>
+                        </li>
+                    </a>
+                                        <a href="http://xueshu.baidu.com/homepage/u/fb4eaafc37b7b65f623a104b075068fe">
+                        <li>
+                            <span class="authorName">钟志鸣</span>
+                            <span class="paperNum">3</span>
+                            <span class="affilicate">华北电力大学经济与管理学院</span>
                         </li>
                     </a>
                                     </ul>

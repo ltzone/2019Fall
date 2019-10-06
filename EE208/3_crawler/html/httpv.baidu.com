@@ -378,43 +378,43 @@ MV
 </h2>
 <ul class="ul-hot-tags">
 <li class='li-hot-tag'>
-<a href="http://v.baidu.com/watch/09111634338649761690.html?fr=v.baidu.com/" target="_blank" static="stp=link&no=1" class='a-hot-tag'>
+<a href="http://v.baidu.com/watch/1503893013373987372.html?fr=v.baidu.com/" target="_blank" static="stp=link&no=1" class='a-hot-tag'>
+冬奥会京张高铁联调联试
+</a>
+</li>
+<li class='li-hot-tag'>
+<a href="http://v.baidu.com/watch/09111634338649761690.html?fr=v.baidu.com/" target="_blank" static="stp=link&no=2" class='a-hot-tag'>
 新国徽亮相天安门城楼
 </a>
 </li>
 <li class='li-hot-tag'>
-<a href="http://v.baidu.com/watch/5118893766648187284.html?fr=v.baidu.com/" target="_blank" static="stp=link&no=2" class='a-hot-tag'>
+<a href="http://v.baidu.com/watch/5118893766648187284.html?fr=v.baidu.com/" target="_blank" static="stp=link&no=3" class='a-hot-tag'>
 国庆前4天5.42亿人次出游
 </a>
 </li>
 <li class='li-hot-tag'>
-<a href="http://v.baidu.com/watch/01815399579138592089.html?fr=v.baidu.com/" target="_blank" static="stp=link&no=3" class='a-hot-tag'>
+<a href="http://v.baidu.com/watch/01815399579138592089.html?fr=v.baidu.com/" target="_blank" static="stp=link&no=4" class='a-hot-tag'>
 塔里木盆地发现千亿方级大气田
 </a>
 </li>
 <li class='li-hot-tag'>
-<a href="http://v.baidu.com/watch/07921267736662575481.html?fr=v.baidu.com/" target="_blank" static="stp=link&no=4" class='a-hot-tag'>
+<a href="http://v.baidu.com/watch/07921267736662575481.html?fr=v.baidu.com/" target="_blank" static="stp=link&no=5" class='a-hot-tag'>
 10月新规来了！
 </a>
 </li>
 <li class='li-hot-tag'>
-<a href="http://v.baidu.com/watch/4903849928984395816.html?fr=v.baidu.com/" target="_blank" static="stp=link&no=5" class='a-hot-tag'>
+<a href="http://v.baidu.com/watch/4903849928984395816.html?fr=v.baidu.com/" target="_blank" static="stp=link&no=6" class='a-hot-tag'>
 迪拜世界第一高楼点亮巨幅五星红旗
 </a>
 </li>
 <li class='li-hot-tag'>
-<a href="http://v.baidu.com/watch/1849885849394196266.html?fr=v.baidu.com/" target="_blank" static="stp=link&no=6" class='a-hot-tag'>
+<a href="http://v.baidu.com/watch/1849885849394196266.html?fr=v.baidu.com/" target="_blank" static="stp=link&no=7" class='a-hot-tag'>
 中国又发现10亿吨级大油田！
 </a>
 </li>
 <li class='li-hot-tag'>
-<a href="http://v.baidu.com/watch/2302307926220151382.html?fr=v.baidu.com/" target="_blank" static="stp=link&no=7" class='a-hot-tag'>
+<a href="http://v.baidu.com/watch/2302307926220151382.html?fr=v.baidu.com/" target="_blank" static="stp=link&no=8" class='a-hot-tag'>
 国庆假期日均出入境客流将达198万人次
-</a>
-</li>
-<li class='li-hot-tag'>
-<a href="http://v.baidu.com/watch/3289793520832214693.html?fr=v.baidu.com/" target="_blank" static="stp=link&no=8" class='a-hot-tag'>
-中国专利申请总数连续八年领跑全球
 </a>
 </li>
 </ul>
@@ -424,93 +424,93 @@ MV
 <div class="focus-carousel" static="bl=index_focus_poster_big&blname=%E6%9C%80%E6%96%B0%E8%A6%81%E9%97%BB-%E8%BD%AE%E6%92%AD%E6%B5%B7%E6%8A%A5&to=play" id='focusCarousel'>
 <ul class="carousel-list">
 <li class='carousel-li'>
-<a href="http://v.baidu.com/watch/3984764001112488986.html?fr=v.baidu.com/" target="_blank" static="ti=%E9%9C%87%E6%92%BC%EF%BC%81%E4%B8%AD%E5%9B%BD%E9%AB%98%E5%88%86%E5%8D%81%E5%8F%B7%E5%8D%AB%E6%98%9F%E6%88%90%E5%8A%9F%E5%8F%91%E5%B0%84&no=1" class="a-carousel-poster " data-baishi="0">
+<a href="http://v.baidu.com/watch/3557988703972233705.html?fr=v.baidu.com/" target="_blank" static="ti=%E4%BF%84%E7%BD%97%E6%96%AF%E5%8F%91%E7%8E%B0%E4%B8%96%E7%95%8C%E9%A6%96%E9%A2%97%E5%B5%8C%E5%A5%97%E9%92%BB%E7%9F%B3&no=1" class="a-carousel-poster " data-baishi="0">
+<img src="http://a.hiphotos.baidu.com/video/pic/item/6609c93d70cf3bc792925cefde00baa1cd112a26.jpg" alt="俄罗斯发现世界首颗嵌套钻石" class=rel-move>
+<span class="icon-play"></span>
+</a>
+<a href="http://v.baidu.com/watch/3557988703972233705.html?fr=v.baidu.com/" target="_blank" class="a-title "  static="ti=%E4%BF%84%E7%BD%97%E6%96%AF%E5%8F%91%E7%8E%B0%E4%B8%96%E7%95%8C%E9%A6%96%E9%A2%97%E5%B5%8C%E5%A5%97%E9%92%BB%E7%9F%B3&no=1">
+<p class="title">俄罗斯发现世界首颗嵌套钻石</p>
+<p class="intro">自然形成 叹为观止</p>
+</a>
+</li>
+<li class='carousel-li'>
+<a href="http://v.baidu.com/watch/4086402447655357461.html?fr=v.baidu.com/" target="_blank" static="ti=%E5%A4%A9%E7%A9%BA%E6%9C%89%E6%9C%B5%E6%8E%A5%E5%90%BB%E4%BA%91&no=2" class="a-carousel-poster " data-baishi="0">
+<img src="http://c.hiphotos.baidu.com/video/pic/item/cefc1e178a82b901180f54307c8da9773912ef17.jpg" alt="天空有朵接吻云" class=rel-move>
+<span class="icon-play"></span>
+</a>
+<a href="http://v.baidu.com/watch/4086402447655357461.html?fr=v.baidu.com/" target="_blank" class="a-title "  static="ti=%E5%A4%A9%E7%A9%BA%E6%9C%89%E6%9C%B5%E6%8E%A5%E5%90%BB%E4%BA%91&no=2">
+<p class="title">天空有朵接吻云</p>
+<p class="intro">网友:云朵都开始撒狗粮</p>
+</a>
+</li>
+<li class='carousel-li'>
+<a href="http://v.baidu.com/watch/4255275695562870951.html?fr=v.baidu.com/" target="_blank" static="ti=%E4%B8%80%E5%AE%B6%E4%B8%89%E4%BB%A34%E5%8F%A3%E4%BA%BA10%E6%9C%881%E6%97%A5%E7%94%9F&no=3" class="a-carousel-poster " data-baishi="0">
+<img src="http://e.hiphotos.baidu.com/video/pic/item/b03533fa828ba61ea96c5c2c4e34970a304e5936.jpg" alt="一家三代4口人10月1日生" class=rel-move>
+<span class="icon-play"></span>
+</a>
+<a href="http://v.baidu.com/watch/4255275695562870951.html?fr=v.baidu.com/" target="_blank" class="a-title "  static="ti=%E4%B8%80%E5%AE%B6%E4%B8%89%E4%BB%A34%E5%8F%A3%E4%BA%BA10%E6%9C%881%E6%97%A5%E7%94%9F&no=3">
+<p class="title">一家三代4口人10月1日生</p>
+<p class="intro">与新中国同庆生日</p>
+</a>
+</li>
+<li class='carousel-li'>
+<a href="http://v.baidu.com/watch/3984764001112488986.html?fr=v.baidu.com/" target="_blank" static="ti=%E9%9C%87%E6%92%BC%EF%BC%81%E4%B8%AD%E5%9B%BD%E9%AB%98%E5%88%86%E5%8D%81%E5%8F%B7%E5%8D%AB%E6%98%9F%E6%88%90%E5%8A%9F%E5%8F%91%E5%B0%84&no=4" class="a-carousel-poster " data-baishi="0">
 <img src="http://a.hiphotos.baidu.com/video/pic/item/bd3eb13533fa828b0ff650e1f21f4134960a5adf.jpg" alt="震撼！中国高分十号卫星成功发射" class=rel-move>
 <span class="icon-play"></span>
 </a>
-<a href="http://v.baidu.com/watch/3984764001112488986.html?fr=v.baidu.com/" target="_blank" class="a-title "  static="ti=%E9%9C%87%E6%92%BC%EF%BC%81%E4%B8%AD%E5%9B%BD%E9%AB%98%E5%88%86%E5%8D%81%E5%8F%B7%E5%8D%AB%E6%98%9F%E6%88%90%E5%8A%9F%E5%8F%91%E5%B0%84&no=1">
+<a href="http://v.baidu.com/watch/3984764001112488986.html?fr=v.baidu.com/" target="_blank" class="a-title "  static="ti=%E9%9C%87%E6%92%BC%EF%BC%81%E4%B8%AD%E5%9B%BD%E9%AB%98%E5%88%86%E5%8D%81%E5%8F%B7%E5%8D%AB%E6%98%9F%E6%88%90%E5%8A%9F%E5%8F%91%E5%B0%84&no=4">
 <p class="title">震撼！中国高分十号卫星成功发射</p>
 <p class="intro">地面像元分辨率最高可达亚米级</p>
 </a>
 </li>
 <li class='carousel-li'>
-<a href="http://v.baidu.com/watch/4517545181972935288.html?fr=v.baidu.com/" target="_blank" static="ti=%E7%86%8A%E7%8C%AB%E6%A2%85%E6%B8%85%E5%9B%BD%E5%BA%86%E5%89%8D%E5%A4%95%E8%AF%9E%E4%B8%8B%E7%86%8A%E7%8C%AB%E5%AE%9D%E5%AE%9D&no=2" class="a-carousel-poster " data-baishi="0">
+<a href="http://v.baidu.com/watch/0550370239376378905.html?fr=v.baidu.com/" target="_blank" static="ti=%E8%B6%85%E7%87%83%E7%89%B9%E6%AE%8A%E8%A7%86%E8%A7%92%E7%9C%8B%E5%A4%A7%E9%98%85%E5%85%B5&no=5" class="a-carousel-poster " data-baishi="0">
+<img src="http://f.hiphotos.baidu.com/video/pic/item/b3fb43166d224f4a8ec73a1006f790529822d153.jpg" alt="超燃特殊视角看大阅兵" class=rel-move>
+<span class="icon-play"></span>
+</a>
+<a href="http://v.baidu.com/watch/0550370239376378905.html?fr=v.baidu.com/" target="_blank" class="a-title "  static="ti=%E8%B6%85%E7%87%83%E7%89%B9%E6%AE%8A%E8%A7%86%E8%A7%92%E7%9C%8B%E5%A4%A7%E9%98%85%E5%85%B5&no=5">
+<p class="title">超燃特殊视角看大阅兵</p>
+<p class="intro">“驾”战机“坐”坦克</p>
+</a>
+</li>
+<li class='carousel-li'>
+<a href="http://v.baidu.com/watch/4517545181972935288.html?fr=v.baidu.com/" target="_blank" static="ti=%E7%86%8A%E7%8C%AB%E6%A2%85%E6%B8%85%E5%9B%BD%E5%BA%86%E5%89%8D%E5%A4%95%E8%AF%9E%E4%B8%8B%E7%86%8A%E7%8C%AB%E5%AE%9D%E5%AE%9D&no=6" class="a-carousel-poster " data-baishi="0">
 <img src="http://e.hiphotos.baidu.com/video/pic/item/960a304e251f95ca62ed51b7c6177f3e67095293.jpg" alt="熊猫梅清国庆前夕诞下熊猫宝宝" class=rel-move>
 <span class="icon-play"></span>
 </a>
-<a href="http://v.baidu.com/watch/4517545181972935288.html?fr=v.baidu.com/" target="_blank" class="a-title "  static="ti=%E7%86%8A%E7%8C%AB%E6%A2%85%E6%B8%85%E5%9B%BD%E5%BA%86%E5%89%8D%E5%A4%95%E8%AF%9E%E4%B8%8B%E7%86%8A%E7%8C%AB%E5%AE%9D%E5%AE%9D&no=2">
+<a href="http://v.baidu.com/watch/4517545181972935288.html?fr=v.baidu.com/" target="_blank" class="a-title "  static="ti=%E7%86%8A%E7%8C%AB%E6%A2%85%E6%B8%85%E5%9B%BD%E5%BA%86%E5%89%8D%E5%A4%95%E8%AF%9E%E4%B8%8B%E7%86%8A%E7%8C%AB%E5%AE%9D%E5%AE%9D&no=6">
 <p class="title">熊猫梅清国庆前夕诞下熊猫宝宝</p>
 <p class="intro">取名“国庆”</p>
 </a>
 </li>
 <li class='carousel-li'>
-<a href="http://v.baidu.com/watch/8420068546809570785.html?fr=v.baidu.com/" target="_blank" static="ti=%E6%8F%AD%E7%A7%98%E9%98%85%E5%85%B5%E2%80%9C%E7%AC%AC%E9%9B%B6%E6%96%B9%E9%98%B5%E2%80%9D&no=3" class="a-carousel-poster " data-baishi="0">
+<a href="http://v.baidu.com/watch/8420068546809570785.html?fr=v.baidu.com/" target="_blank" static="ti=%E6%8F%AD%E7%A7%98%E9%98%85%E5%85%B5%E2%80%9C%E7%AC%AC%E9%9B%B6%E6%96%B9%E9%98%B5%E2%80%9D&no=7" class="a-carousel-poster " data-baishi="0">
 <img src="http://f.hiphotos.baidu.com/video/pic/item/279759ee3d6d55fb8284b52762224f4a20a4dd75.jpg" alt="揭秘阅兵“第零方阵”" class=rel-move>
 <span class="icon-play"></span>
 </a>
-<a href="http://v.baidu.com/watch/8420068546809570785.html?fr=v.baidu.com/" target="_blank" class="a-title "  static="ti=%E6%8F%AD%E7%A7%98%E9%98%85%E5%85%B5%E2%80%9C%E7%AC%AC%E9%9B%B6%E6%96%B9%E9%98%B5%E2%80%9D&no=3">
+<a href="http://v.baidu.com/watch/8420068546809570785.html?fr=v.baidu.com/" target="_blank" class="a-title "  static="ti=%E6%8F%AD%E7%A7%98%E9%98%85%E5%85%B5%E2%80%9C%E7%AC%AC%E9%9B%B6%E6%96%B9%E9%98%B5%E2%80%9D&no=7">
 <p class="title">揭秘阅兵“第零方阵”</p>
 <p class="intro">环卫洗扫车如何“走出”最佳清扫队形</p>
 </a>
 </li>
 <li class='carousel-li'>
-<a href="http://v.baidu.com/watch/9181071305185424804.html?fr=v.baidu.com/" target="_blank" static="ti=%E2%80%9C%E6%9C%80%E9%AB%98%E6%9C%BA%E4%BD%8D%E2%80%9D%E7%9E%B0%E9%98%85%E5%85%B5%E6%98%AF%E7%A7%8D%E4%BB%80%E4%B9%88%E4%BD%93%E9%AA%8C&no=4" class="a-carousel-poster " data-baishi="0">
+<a href="http://v.baidu.com/watch/9181071305185424804.html?fr=v.baidu.com/" target="_blank" static="ti=%E2%80%9C%E6%9C%80%E9%AB%98%E6%9C%BA%E4%BD%8D%E2%80%9D%E7%9E%B0%E9%98%85%E5%85%B5%E6%98%AF%E7%A7%8D%E4%BB%80%E4%B9%88%E4%BD%93%E9%AA%8C&no=8" class="a-carousel-poster " data-baishi="0">
 <img src="http://c.hiphotos.baidu.com/video/pic/item/a2cc7cd98d1001e93c66460eb70e7bec54e7975c.jpg" alt="“最高机位”瞰阅兵是种什么体验" class=rel-move>
 <span class="icon-play"></span>
 </a>
-<a href="http://v.baidu.com/watch/9181071305185424804.html?fr=v.baidu.com/" target="_blank" class="a-title "  static="ti=%E2%80%9C%E6%9C%80%E9%AB%98%E6%9C%BA%E4%BD%8D%E2%80%9D%E7%9E%B0%E9%98%85%E5%85%B5%E6%98%AF%E7%A7%8D%E4%BB%80%E4%B9%88%E4%BD%93%E9%AA%8C&no=4">
+<a href="http://v.baidu.com/watch/9181071305185424804.html?fr=v.baidu.com/" target="_blank" class="a-title "  static="ti=%E2%80%9C%E6%9C%80%E9%AB%98%E6%9C%BA%E4%BD%8D%E2%80%9D%E7%9E%B0%E9%98%85%E5%85%B5%E6%98%AF%E7%A7%8D%E4%BB%80%E4%B9%88%E4%BD%93%E9%AA%8C&no=8">
 <p class="title">“最高机位”瞰阅兵是种什么体验</p>
 <p class="intro">60万米高空第一视角来了</p>
 </a>
 </li>
 <li class='carousel-li'>
-<a href="http://v.baidu.com/watch/720668504802383399.html?fr=v.baidu.com/" target="_blank" static="ti=%E5%A5%B9%E4%BB%AC%E7%9A%84%E5%90%8D%E5%AD%97%E6%98%AF%E4%B8%AD%E5%9B%BD%E5%A5%B3%E5%85%B5&no=5" class="a-carousel-poster " data-baishi="0">
+<a href="http://v.baidu.com/watch/720668504802383399.html?fr=v.baidu.com/" target="_blank" static="ti=%E5%A5%B9%E4%BB%AC%E7%9A%84%E5%90%8D%E5%AD%97%E6%98%AF%E4%B8%AD%E5%9B%BD%E5%A5%B3%E5%85%B5&no=9" class="a-carousel-poster " data-baishi="0">
 <img src="http://a.hiphotos.baidu.com/video/pic/item/7af40ad162d9f2d3fa647beea6ec8a136327ccbe.jpg" alt="她们的名字是中国女兵" class=rel-move>
 <span class="icon-play"></span>
 </a>
-<a href="http://v.baidu.com/watch/720668504802383399.html?fr=v.baidu.com/" target="_blank" class="a-title "  static="ti=%E5%A5%B9%E4%BB%AC%E7%9A%84%E5%90%8D%E5%AD%97%E6%98%AF%E4%B8%AD%E5%9B%BD%E5%A5%B3%E5%85%B5&no=5">
+<a href="http://v.baidu.com/watch/720668504802383399.html?fr=v.baidu.com/" target="_blank" class="a-title "  static="ti=%E5%A5%B9%E4%BB%AC%E7%9A%84%E5%90%8D%E5%AD%97%E6%98%AF%E4%B8%AD%E5%9B%BD%E5%A5%B3%E5%85%B5&no=9">
 <p class="title">她们的名字是中国女兵</p>
 <p class="intro">挂枪受阅，英姿飒爽</p>
-</a>
-</li>
-<li class='carousel-li'>
-<a href="http://v.baidu.com/watch/8153041684928060926.html?fr=v.baidu.com/" target="_blank" static="ti=%E5%85%B5%E5%93%A5%E5%93%A5%E8%A1%A8%E7%99%BD%E4%B8%AD%E5%9B%BD%E5%A5%B3%E6%8E%92&no=6" class="a-carousel-poster " data-baishi="0">
-<img src="http://f.hiphotos.baidu.com/video/pic/item/203fb80e7bec54e73e47461fb6389b504fc26a03.jpg" alt="兵哥哥表白中国女排" class=rel-move>
-<span class="icon-play"></span>
-</a>
-<a href="http://v.baidu.com/watch/8153041684928060926.html?fr=v.baidu.com/" target="_blank" class="a-title "  static="ti=%E5%85%B5%E5%93%A5%E5%93%A5%E8%A1%A8%E7%99%BD%E4%B8%AD%E5%9B%BD%E5%A5%B3%E6%8E%92&no=6">
-<p class="title">兵哥哥表白中国女排</p>
-<p class="intro">齐喊：中国女排，世界第一</p>
-</a>
-</li>
-<li class='carousel-li'>
-<a href="http://v.baidu.com/watch/7717092260711997847.html?fr=v.baidu.com/" target="_blank" static="ti=%E4%B8%AD%E5%9B%BD%E4%B8%9C%E9%A3%8E%E2%80%9C%E5%BF%AB%E9%80%92%E2%80%9D%EF%BC%8C%E4%BD%BF%E5%91%BD%E5%BF%85%E8%BE%BE&no=7" class="a-carousel-poster " data-baishi="0">
-<img src="http://c.hiphotos.baidu.com/video/pic/item/6d81800a19d8bc3e056fd9ca8d8ba61ea8d3454f.jpg" alt="中国东风“快递”，使命必达" class=rel-move>
-<span class="icon-play"></span>
-</a>
-<a href="http://v.baidu.com/watch/7717092260711997847.html?fr=v.baidu.com/" target="_blank" class="a-title "  static="ti=%E4%B8%AD%E5%9B%BD%E4%B8%9C%E9%A3%8E%E2%80%9C%E5%BF%AB%E9%80%92%E2%80%9D%EF%BC%8C%E4%BD%BF%E5%91%BD%E5%BF%85%E8%BE%BE&no=7">
-<p class="title">中国东风“快递”，使命必达</p>
-<p class="intro">东风17常规导弹首秀阅兵场</p>
-</a>
-</li>
-<li class='carousel-li'>
-<a href="http://v.baidu.com/watch/3741226775408293142.html?fr=v.baidu.com/" target="_blank" static="ti=%E4%B8%9C%E9%A3%8E%E2%80%9441%E6%A0%B8%E5%AF%BC%E5%BC%B9%E6%96%B9%E9%98%9F%E6%83%8A%E8%89%B3%E4%BA%AE%E7%9B%B8&no=8" class="a-carousel-poster " data-baishi="0">
-<img src="http://g.hiphotos.baidu.com/video/pic/item/71cf3bc79f3df8dc186b5091c211728b47102858.jpg" alt="东风—41核导弹方队惊艳亮相" class=rel-move>
-<span class="icon-play"></span>
-</a>
-<a href="http://v.baidu.com/watch/3741226775408293142.html?fr=v.baidu.com/" target="_blank" class="a-title "  static="ti=%E4%B8%9C%E9%A3%8E%E2%80%9441%E6%A0%B8%E5%AF%BC%E5%BC%B9%E6%96%B9%E9%98%9F%E6%83%8A%E8%89%B3%E4%BA%AE%E7%9B%B8&no=8">
-<p class="title">东风—41核导弹方队惊艳亮相</p>
-<p class="intro">大国重器</p>
-</a>
-</li>
-<li class='carousel-li'>
-<a href="http://v.baidu.com/watch/7180469371214758254.html?fr=v.baidu.com/" target="_blank" static="ti=3%E5%88%86%E9%92%9F%E5%9B%9E%E7%9C%8B%E5%9B%BD%E5%BA%86%E8%81%94%E6%AC%A2%E4%BA%AE%E7%82%B9&no=9" class="a-carousel-poster " data-baishi="0">
-<img src="http://c.hiphotos.baidu.com/video/pic/item/7dd98d1001e939012509d13f74ec54e736d196a3.jpg" alt="3分钟回看国庆联欢亮点" class=rel-move>
-<span class="icon-play"></span>
-</a>
-<a href="http://v.baidu.com/watch/7180469371214758254.html?fr=v.baidu.com/" target="_blank" class="a-title "  static="ti=3%E5%88%86%E9%92%9F%E5%9B%9E%E7%9C%8B%E5%9B%BD%E5%BA%86%E8%81%94%E6%AC%A2%E4%BA%AE%E7%82%B9&no=9">
-<p class="title">3分钟回看国庆联欢亮点</p>
-<p class="intro">烟花、舞龙、腰鼓等</p>
 </a>
 </li>
 </ul>
@@ -909,7 +909,7 @@ MV
 <div id="PCIndexPageCube"></div>
 </div>
 <div class="section section-ad">
-<div id="channelBannerAdver_512185751"></div>
+<div id="channelBannerAdver_2013483701"></div>
 </div>
 <div class="section" style="position:relative">
 <div class="hot-today" id="index_show_hot_info">
@@ -985,30 +985,30 @@ MV
 <div class="focus-carousel" static="ext=index_show_mini_playlet%24%E6%98%8E%E6%98%9F&to=play" id='index_focus_poster_big_index_show_mini_playlet'>
 <ul class="carousel-list">
 <li class='carousel-li'>
-<a href="http://v.baidu.com/watch/07556053288643689740.html?fr=v.baidu.com/" target="_blank" static="ti=%E6%9D%8E%E7%8E%B0%E6%BF%80%E5%8A%A8%E5%90%88%E5%BD%B1%E4%B8%AD%E5%9B%BD%E5%A5%B3%E6%8E%92+%E7%BD%91%E5%8F%8B%EF%BC%9A%E7%AA%81%E7%84%B6%E6%98%BE%E5%BE%97%E5%A8%87%E5%B0%8F%E5%8F%AF%E4%BA%BA&no=1" class='a-carousel-poster' data-baishi="0">
+<a href="http://v.baidu.com/watch/6749766322428185619.html?fr=v.baidu.com" target="_blank" static="ti=%E5%B7%A9%E4%BF%90%E9%A5%B0%E6%BC%94%E9%83%8E%E5%B9%B3%E9%80%A0%E5%9E%8B%E6%9B%9D%E5%85%89++%E7%9B%B8%E4%BC%BC%E5%BA%A6%E6%9E%81%E9%AB%98&no=1" class='a-carousel-poster' data-baishi="0">
+<img src="http://a.hiphotos.baidu.com/video/pic/item/4034970a304e251f96b274fba886c9177f3e536f.jpg" alt="巩俐饰演郎平造型曝光  相似度极高" class=>
+<span class="icon-play"></span>
+</a>
+<a href="http://v.baidu.com/watch/6749766322428185619.html?fr=v.baidu.com" target="_blank" class="a-title"  static="ti=%E5%B7%A9%E4%BF%90%E9%A5%B0%E6%BC%94%E9%83%8E%E5%B9%B3%E9%80%A0%E5%9E%8B%E6%9B%9D%E5%85%89++%E7%9B%B8%E4%BC%BC%E5%BA%A6%E6%9E%81%E9%AB%98&no=1">
+<p class="title">巩俐饰演郎平造型曝光  相似度极高</p>
+</a>
+</li>
+<li class='carousel-li'>
+<a href="http://v.baidu.com/watch/1646700369042303970.html?fr=v.baidu.com" target="_blank" static="ti=%E8%B4%BE%E9%9D%99%E9%9B%AF%E5%85%A5%E8%A1%8C29%E5%B9%B4%E9%A6%96%E5%A4%BA%E8%A7%86%E5%90%8E++%E5%96%8A%E8%AF%9D%E5%A5%B3%E5%84%BF%EF%BC%9A%E5%A6%88%E5%A6%88%E5%81%9A%E5%88%B0%E4%BA%86&no=2" class='a-carousel-poster' data-baishi="0">
+<img src="http://d.hiphotos.baidu.com/video/pic/item/a686c9177f3e6709ce19d7fc34c79f3df8dc5593.jpg" alt="贾静雯入行29年首夺视后  喊话女儿：妈妈做到了" class=>
+<span class="icon-play"></span>
+</a>
+<a href="http://v.baidu.com/watch/1646700369042303970.html?fr=v.baidu.com" target="_blank" class="a-title"  static="ti=%E8%B4%BE%E9%9D%99%E9%9B%AF%E5%85%A5%E8%A1%8C29%E5%B9%B4%E9%A6%96%E5%A4%BA%E8%A7%86%E5%90%8E++%E5%96%8A%E8%AF%9D%E5%A5%B3%E5%84%BF%EF%BC%9A%E5%A6%88%E5%A6%88%E5%81%9A%E5%88%B0%E4%BA%86&no=2">
+<p class="title">贾静雯入行29年首夺视后  喊话女儿：妈妈做到了</p>
+</a>
+</li>
+<li class='carousel-li'>
+<a href="http://v.baidu.com/watch/07556053288643689740.html?fr=v.baidu.com/" target="_blank" static="ti=%E6%9D%8E%E7%8E%B0%E6%BF%80%E5%8A%A8%E5%90%88%E5%BD%B1%E4%B8%AD%E5%9B%BD%E5%A5%B3%E6%8E%92+%E7%BD%91%E5%8F%8B%EF%BC%9A%E7%AA%81%E7%84%B6%E6%98%BE%E5%BE%97%E5%A8%87%E5%B0%8F%E5%8F%AF%E4%BA%BA&no=3" class='a-carousel-poster' data-baishi="0">
 <img src="http://g.hiphotos.baidu.com/video/pic/item/cb8065380cd79123ca505f76a2345982b2b78004.jpg" alt="李现激动合影中国女排 网友：突然显得娇小可人" class=>
 <span class="icon-play"></span>
 </a>
-<a href="http://v.baidu.com/watch/07556053288643689740.html?fr=v.baidu.com/" target="_blank" class="a-title"  static="ti=%E6%9D%8E%E7%8E%B0%E6%BF%80%E5%8A%A8%E5%90%88%E5%BD%B1%E4%B8%AD%E5%9B%BD%E5%A5%B3%E6%8E%92+%E7%BD%91%E5%8F%8B%EF%BC%9A%E7%AA%81%E7%84%B6%E6%98%BE%E5%BE%97%E5%A8%87%E5%B0%8F%E5%8F%AF%E4%BA%BA&no=1">
+<a href="http://v.baidu.com/watch/07556053288643689740.html?fr=v.baidu.com/" target="_blank" class="a-title"  static="ti=%E6%9D%8E%E7%8E%B0%E6%BF%80%E5%8A%A8%E5%90%88%E5%BD%B1%E4%B8%AD%E5%9B%BD%E5%A5%B3%E6%8E%92+%E7%BD%91%E5%8F%8B%EF%BC%9A%E7%AA%81%E7%84%B6%E6%98%BE%E5%BE%97%E5%A8%87%E5%B0%8F%E5%8F%AF%E4%BA%BA&no=3">
 <p class="title">李现激动合影中国女排 网友：突然显得娇小可人</p>
-</a>
-</li>
-<li class='carousel-li'>
-<a href="http://v.baidu.com/watch/03303545835999716241.html?fr=v.baidu.com/" target="_blank" static="ti=%E5%BC%A0%E6%AD%86%E8%89%BA%E8%A2%81%E5%BC%98%E5%A9%9A%E5%90%8EAA%E5%88%B6%EF%BC%9F%E4%BA%8C%E5%A7%90%E7%BB%99%E5%AE%B6%E6%94%92%E9%92%B1&no=2" class='a-carousel-poster' data-baishi="0">
-<img src="http://f.hiphotos.baidu.com/video/pic/item/bd3eb13533fa828b05ef56e1f21f4134960a5ae0.jpg" alt="张歆艺袁弘婚后AA制？二姐给家攒钱" class=>
-<span class="icon-play"></span>
-</a>
-<a href="http://v.baidu.com/watch/03303545835999716241.html?fr=v.baidu.com/" target="_blank" class="a-title"  static="ti=%E5%BC%A0%E6%AD%86%E8%89%BA%E8%A2%81%E5%BC%98%E5%A9%9A%E5%90%8EAA%E5%88%B6%EF%BC%9F%E4%BA%8C%E5%A7%90%E7%BB%99%E5%AE%B6%E6%94%92%E9%92%B1&no=2">
-<p class="title">张歆艺袁弘婚后AA制？二姐给家攒钱</p>
-</a>
-</li>
-<li class='carousel-li'>
-<a href="http://v.baidu.com/watch/5745742219515694741.html?fr=v.baidu.com/" target="_blank" static="ti=%E8%B5%B5%E5%8F%88%E5%BB%B7%E5%A5%B3%E5%84%BF%E9%A6%96%E6%9B%9D%E5%85%89+%E9%AB%98%E5%9C%86%E5%9C%86%E5%B8%A6%E5%A5%B3%E6%8B%9C%E8%AE%BF%E5%A5%BD%E5%8F%8B&no=3" class='a-carousel-poster' data-baishi="0">
-<img src="http://g.hiphotos.baidu.com/video/pic/item/e4dde71190ef76c62493372a9216fdfaaf51676a.jpg" alt="赵又廷女儿首曝光 高圆圆带女拜访好友" class=>
-<span class="icon-play"></span>
-</a>
-<a href="http://v.baidu.com/watch/5745742219515694741.html?fr=v.baidu.com/" target="_blank" class="a-title"  static="ti=%E8%B5%B5%E5%8F%88%E5%BB%B7%E5%A5%B3%E5%84%BF%E9%A6%96%E6%9B%9D%E5%85%89+%E9%AB%98%E5%9C%86%E5%9C%86%E5%B8%A6%E5%A5%B3%E6%8B%9C%E8%AE%BF%E5%A5%BD%E5%8F%8B&no=3">
-<p class="title">赵又廷女儿首曝光 高圆圆带女拜访好友</p>
 </a>
 </li>
 </ul>
@@ -3077,12 +3077,12 @@ MV
 </li>
 <li class="li-carousel-item n3">
 <a href="http://v.baidu.com/show/23543.htm?frp=browse" target="_blank" class="a-carousel-item" static="subno=3&ti=%E5%81%9A%E5%AE%B6%E5%8A%A1%E7%9A%84%E7%94%B7%E4%BA%BA">
-<img src="http://f.hiphotos.baidu.com/video/pic/item/c75c10385343fbf21d42363cbf7eca8065388f47.jpg" target="_blank" class='img-carousel'>
+<img src="http://f.hiphotos.baidu.com/video/pic/item/cb8065380cd79123237d0677a2345982b2b78010.jpg" target="_blank" class='img-carousel'>
 <span class="img-mask"></span>
 <span class="txt-mask"></span>
 <i class="icon-play"></i>
 <h5 class='h5-title'>做家务的男人</h5>
-<p class="p-subtitle">魏大勋魏爸合作开荒犁地</p>
+<p class="p-subtitle">魏大勋彭昱畅兄弟比惨</p>
 </a>
 </li>
 <li class="li-carousel-item n4">
@@ -3110,13 +3110,13 @@ MV
 </div>
 </li>
 <li class="li-carousel-item n6">
-<a href="http://v.baidu.com/show/23536.htm?frp=browse" target="_blank" class="a-carousel-item" static="subno=6&ti=%E8%84%B1%E5%8F%A3%E7%A7%80%E5%A4%A7%E4%BC%9A">
-<img src="http://g.hiphotos.baidu.com/video/pic/item/203fb80e7bec54e7bbb4cb05b6389b504fc26a55.jpg" target="_blank" class='img-carousel'>
+<a href="http://v.baidu.com/show/23545.htm?frp=browse" target="_blank" class="a-carousel-item" static="subno=6&ti=%E5%90%84%E4%BD%8D%E6%B8%B8%E5%AE%A2%E8%AF%B7%E6%B3%A8%E6%84%8F">
+<img src="http://g.hiphotos.baidu.com/video/pic/item/6d81800a19d8bc3e47799bc98d8ba61ea8d34544.jpg" target="_blank" class='img-carousel'>
 <span class="img-mask"></span>
 <span class="txt-mask"></span>
 <i class="icon-play"></i>
-<h5 class='h5-title'>脱口秀大会</h5>
-<p class="p-subtitle">徐峥吐槽黄渤爆笑模仿沈腾</p>
+<h5 class='h5-title'>各位游客请注意</h5>
+<p class="p-subtitle">陈学冬撒娇被怼油腻</p>
 </a>
 </li>
 </ul>
@@ -3142,13 +3142,13 @@ MV
 </a>
 </li>
 <li class="li-carousel-item n2">
-<a href="http://v.baidu.com/tv/29194.htm?frp=browse" target="_blank" class="a-carousel-item" static="subno=2&ti=%E5%A4%96%E4%BA%A4%E9%A3%8E%E4%BA%91">
-<img src="http://e.hiphotos.baidu.com/video/pic/item/bba1cd11728b4710dfe59ad5cccec3fdfd0323e4.jpg" target="_blank" class='img-carousel'>
+<a href="http://v.baidu.com/tv/29216.htm?frp=browse" target="_blank" class="a-carousel-item" static="subno=2&ti=%E5%9B%BD%E5%AE%B6%E5%AD%A9%E5%AD%90">
+<img src="http://c.hiphotos.baidu.com/video/pic/item/d833c895d143ad4be4bddbc38d025aafa40f0625.jpg" target="_blank" class='img-carousel'>
 <span class="img-mask"></span>
 <span class="txt-mask"></span>
 <i class="icon-play"></i>
-<h5 class='h5-title'>外交风云</h5>
-<p class="p-subtitle">揭秘新中国外交</p>
+<h5 class='h5-title'>国家孩子</h5>
+<p class="p-subtitle">英雄母亲养育国家子女</p>
 </a>
 </li>
 <li class="li-carousel-item n3">
@@ -3162,13 +3162,13 @@ MV
 </a>
 </li>
 <li class="li-carousel-item n4">
-<a href="http://v.baidu.com/tv/29162.htm?frp=browse" target="_blank" class="a-carousel-item" static="subno=4&ti=%E9%99%86%E6%88%98%E4%B9%8B%E7%8E%8B">
-<img src="http://d.hiphotos.baidu.com/video/pic/item/e850352ac65c1038a32c9808bc119313b17e89ae.jpg" target="_blank" class='img-carousel'>
+<a href="http://v.baidu.com/tv/29194.htm?frp=browse" target="_blank" class="a-carousel-item" static="subno=4&ti=%E5%A4%96%E4%BA%A4%E9%A3%8E%E4%BA%91">
+<img src="http://e.hiphotos.baidu.com/video/pic/item/bba1cd11728b4710dfe59ad5cccec3fdfd0323e4.jpg" target="_blank" class='img-carousel'>
 <span class="img-mask"></span>
 <span class="txt-mask"></span>
 <i class="icon-play"></i>
-<h5 class='h5-title'>陆战之王</h5>
-<p class="p-subtitle">陈晓王雷勇夺兵王！</p>
+<h5 class='h5-title'>外交风云</h5>
+<p class="p-subtitle">揭秘新中国外交</p>
 </a>
 </li>
 <li class="li-carousel-item n5">
@@ -3202,13 +3202,13 @@ MV
 </ul>
 <ul class="carousel-item" static="stp=bd&no=2">
 <li class="li-carousel-item n0">
-<a href="http://v.baidu.com/movie/138532.htm?frp=browse" target="_blank" class="a-carousel-item" static="subno=0&ti=%E4%BF%9D%E6%8C%81%E6%B2%89%E9%BB%98">
-<img src="http://e.hiphotos.baidu.com/video/pic/item/5d6034a85edf8db1cfd2c2780623dd54564e7429.jpg" target="_blank" class='img-carousel'>
+<a href="http://v.baidu.com/movie/138103.htm?frp=browse" target="_blank" class="a-carousel-item" static="subno=0&ti=%E9%93%A4%E8%80%8C%E8%B5%B0%E9%99%A9">
+<img src="http://f.hiphotos.baidu.com/video/pic/item/d4628535e5dde71141a5dff5a8efce1b9d1661ba.jpg" target="_blank" class='img-carousel'>
 <span class="img-mask"></span>
 <span class="txt-mask"></span>
 <i class="icon-play"></i>
-<h5 class='h5-title'>保持沉默</h5>
-<p class="p-subtitle">周迅吴镇宇同台飚戏</p>
+<h5 class='h5-title'>铤而走险</h5>
+<p class="p-subtitle">大鹏欧豪高能开打</p>
 </a>
 </li>
 <li class="li-carousel-item n1">
@@ -3226,13 +3226,13 @@ MV
 </div>
 </li>
 <li class="li-carousel-item n2">
-<a href="http://v.baidu.com/movie/123753.htm?frp=browse" target="_blank" class="a-carousel-item" static="subno=2&ti=%E5%8D%B1%E5%9F%8E">
-<img src="http://a.hiphotos.baidu.com/video/pic/item/a08b87d6277f9e2f94975d101030e924b899f30c.jpg" target="_blank" class='img-carousel'>
+<a href="http://v.baidu.com/movie/138532.htm?frp=browse" target="_blank" class="a-carousel-item" static="subno=2&ti=%E4%BF%9D%E6%8C%81%E6%B2%89%E9%BB%98">
+<img src="http://e.hiphotos.baidu.com/video/pic/item/5d6034a85edf8db1cfd2c2780623dd54564e7429.jpg" target="_blank" class='img-carousel'>
 <span class="img-mask"></span>
 <span class="txt-mask"></span>
 <i class="icon-play"></i>
-<h5 class='h5-title'>危城</h5>
-<p class="p-subtitle">硬汉吴京再度上线啦！</p>
+<h5 class='h5-title'>保持沉默</h5>
+<p class="p-subtitle">周迅吴镇宇同台飚戏</p>
 </a>
 <div
                                             id='adv-carousel-item22'
@@ -3250,13 +3250,13 @@ MV
 </a>
 </li>
 <li class="li-carousel-item n4">
-<a href="http://v.baidu.com/movie/137624.htm?frp=browse" target="_blank" class="a-carousel-item" static="subno=4&ti=%E9%BC%A0%E8%83%86%E8%8B%B1%E9%9B%84">
-<img src="http://a.hiphotos.baidu.com/video/pic/item/aa18972bd40735fadf6fe1ac91510fb30f240803.jpg" target="_blank" class='img-carousel'>
+<a href="http://v.baidu.com/movie/123753.htm?frp=browse" target="_blank" class="a-carousel-item" static="subno=4&ti=%E5%8D%B1%E5%9F%8E">
+<img src="http://a.hiphotos.baidu.com/video/pic/item/a08b87d6277f9e2f94975d101030e924b899f30c.jpg" target="_blank" class='img-carousel'>
 <span class="img-mask"></span>
 <span class="txt-mask"></span>
 <i class="icon-play"></i>
-<h5 class='h5-title'>鼠胆英雄</h5>
-<p class="p-subtitle">小岳岳逆袭获丫丫芳心</p>
+<h5 class='h5-title'>危城</h5>
+<p class="p-subtitle">硬汉吴京再度上线啦！</p>
 </a>
 </li>
 <li class="li-carousel-item n5">
@@ -3379,7 +3379,7 @@ MV
 <div class="full-ad"  id="GoodblockAD4"></div>
 </div>
 <div class="section section-ad">
-<div id="channelBannerAdver_554468617"></div>
+<div id="channelBannerAdver_387302178"></div>
 </div>
 <div class="section">
 <div class="tv-block">
@@ -3990,7 +3990,7 @@ MV
 </div>
 
 <div class="section section-ad">
-<div id="channelBannerAdver_1670733493"></div>
+<div id="channelBannerAdver_1512019753"></div>
 </div>
 <div class="section">
 <div class="movie-block">
@@ -4718,7 +4718,7 @@ MV
 !function(){    BAIDU_VIDEO_ADM_FILL_ASYC("PCIndexPageCube", "PCIndexPageCube");
     }();
 !function(){        !function () {
-            var domId = 'channelBannerAdver_512185751';
+            var domId = 'channelBannerAdver_2013483701';
             var href = location.href;
             var adverPosition;
             if (href.match(/v\.baidu\.com/)) {
@@ -5269,7 +5269,7 @@ MV
         });
         }();
 !function(){        !function () {
-            var domId = 'channelBannerAdver_554468617';
+            var domId = 'channelBannerAdver_387302178';
             var href = location.href;
             var adverPosition;
             if (href.match(/v\.baidu\.com/)) {
@@ -5342,7 +5342,7 @@ MV
                             });
                         }();
 !function(){        !function () {
-            var domId = 'channelBannerAdver_1670733493';
+            var domId = 'channelBannerAdver_1512019753';
             var href = location.href;
             var adverPosition;
             if (href.match(/v\.baidu\.com/)) {
@@ -5589,7 +5589,7 @@ $.ajax({
 }();
 !function(){        require("videoChannelCommon:widget/backTop/backTop.js")();
     }();
-</script></html>
-<!--19811660141782622400100614-->
-<script> var _trace_page_logid = 1981166014; </script><!--19811642600240363712100614-->
-<script> var _trace_page_logid = 1981164260; </script>
+</script><script type="text/javascript">;(new Image()).src="http://static.tieba.baidu.com/tb/pms/img/st.gif?pid=242&v=2&fs=32086bd,8e08c13,a75ab61,cf51423,54efec7,0a501ea,f48420a,fc54430,75e928c,87a13aa,96b4f49,7aeb811,99ff861,200d9f8,596fd52,71949be,1aaa574,c0ad19c,90c6b5c,56ed1cd,b832bfb,3a4a861,10c6681,2801a8f,83f9c5e,d2f5de5,4c14060,55c0d0f,42698a1,5657d2e,b9970d5,07f8a80,6a570bf,17767e3,748e0d7,e8954b4&otherStr=&page=videoHome/page/home.tpl&sid=1570369898&hash=0872ffaea5&fid=video";</script></html>
+<!--30985035821782622400100621-->
+<script> var _trace_page_logid = 3098503582; </script><!--30984972130290695360100621-->
+<script> var _trace_page_logid = 3098497213; </script>

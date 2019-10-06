@@ -44,7 +44,7 @@
     <link rel="icon" sizes="any" mask href="//www.baidu.com/img/baidu.svg">
 
     <script src="https://ts.bdimg.com/libs/blueimp-md5/1-0-1/md5.min.js"></script>
-    <script>var token = '4b1f440365b2a9c1489b0351e01c1bb32809396a664072e38e4017bfe02d8015'</script>
+    <script>var token = '207901d670813f73857eb3ceb08a755c1297dbab717e60a44ebdadcf1228633d'</script>
     <title>百度学术-文献互助</title>
 
     
@@ -58,8 +58,8 @@ var bds = {
     util : {},
     //js通用数据
     comm : {
-        qid:'3911820050',
-        lid:'3911820050',
+        qid:'2247058536',
+        lid:'2247058536',
         bsToken: 'the fisrt two args should be string type:0,1!',
         user: '',
         username: '',
@@ -67,8 +67,8 @@ var bds = {
         currNav: 'help_hall',
         currStatus: '0,1',
         currType: '0',
-        serverTime: '1570343586',
-        serverIP: '10.176.140.149',
+        serverTime: '1570369888',
+        serverIP: '10.176.143.42',
         uploadDownHost: '//xueshupload.baidu.com',
         loginAction: [],
         host: window.location.host,
@@ -217,9 +217,9 @@ $.extend(bds.comm, {
         <script type="text/javascript">
 bds = bds || {};
 bds.cf = {};
-bds.cf.ts = "1570343586";
-bds.cf.token = "4b1f440365b2a9c1489b0351e01c1bb32809396a664072e38e4017bfe02d8015";
-bds.cf.sign = "d979efe129a737ada3b3ed3bbc3879f9";
+bds.cf.ts = "1570369888";
+bds.cf.token = "207901d670813f73857eb3ceb08a755c1297dbab717e60a44ebdadcf1228633d";
+bds.cf.sign = "26efcc7c3ea00f00ee1dd87431eb90e6";
 
 function getCfStr() {
     var ts = parseInt(new Date / 1000, 10);
@@ -438,8 +438,8 @@ function getCfObj() {
 <div id="lobby-left-container" class="c_font">
 <div class="lobby-paperlist-content">
 <ul class="nav-tabs LOG_WR" data-log="{'actblock':'lobby', 'type': 'tab'}">
-    <li class="help-paper-tab-resquest tab-item first-item lobby-left-helphall tab-seletcted" data-type="0" data-status="0,1">待应助(<span class="count">2067</span>)</li>
-    <li class="help-paper-tab-resquest tab-item " data-type="1" data-status="0,1">攻关栏(<span class="count">1338</span>)</li>
+    <li class="help-paper-tab-resquest tab-item first-item lobby-left-helphall tab-seletcted" data-type="0" data-status="0,1">待应助(<span class="count">2414</span>)</li>
+    <li class="help-paper-tab-resquest tab-item " data-type="1" data-status="0,1">攻关栏(<span class="count">1407</span>)</li>
     <li class="help-paper-tab-resquest tab-item " data-type="2">我要求助</li>
 </ul>
     <div class="lobby-left-content">
@@ -455,34 +455,39 @@ function getCfObj() {
         <td class="detail-col">
                 <div class="res-intro">
         <h2 class="res-title">
-                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=565036ecbb1c389c202cf3d7cc1c9f47&title=%27%E8%89%B2%E5%BD%A9%E5%9C%A8%E5%A4%A7%E5%AD%A6%E6%A0%A1%E5%9B%AD%E6%99%AF%E8%A7%82%E8%AE%BE%E8%AE%A1%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8%E7%A0%94%E7%A9%B6--%E4%BB%A5%E8%A1%A1%E9%98%B3%E9%AB%98%E6%A0%A1%E4%B8%BA%E4%BE%8B%27" target="_blank">&#039;色彩在大学校园景观设计中的应用研究--以衡阳高校为例&#039;</a>
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=5348e76ddcacdc45b6d295b710e59c17&title=%27%E2%80%9C%E5%9B%BD%E5%AD%A6%E7%83%AD%E2%80%9D%E6%B5%AA%E6%BD%AE%E4%B8%8B%E7%9A%84%E5%A4%A7%E5%AD%A6%E8%AF%AD%E6%96%87%E6%95%99%E5%AD%A6%E5%88%8D%E8%AE%AE%27" target="_blank">&#039;“国学热”浪潮下的大学语文教学刍议&#039;</a>
         </h2>
-                        <p><span class="res-label">全文链接：</span><span>&#039;http://cdmd.cnki.com.cn/Article/CDMD-82201-1014331781.htm&#039;</span></p>
-                                    <p><span class="res-label">求助者：</span><span>傻了吧唧的234</span></p>
-            <p><span class="res-label">求助时间：</span><span>2019-10-06 14:33</span></p>
+                        <p><span class="res-label">全文链接：</span><span>&#039;http://www.cqvip.com/QK/96927X/201133/674897676201133019.html&#039;</span></p>
+                                    <p><span class="res-label">求助者：</span><span>happy清风3</span></p>
+            <p><span class="res-label">求助时间：</span><span>2019-10-06 21:51</span></p>
             </div>
         </td>
         <td class="result-col">
-                <div class="res-status" data-id="13156633" data-selfsos="" data-fortune="3">
-                                    <span class="res-help-btn help-will-help">
-                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
-            </span>
-                        </div>
+                <div class="res-status" data-id="13158442" data-selfsos="" data-fortune="3">
+                        <p class="res-help-txt-org">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>
+                <span class="res-help-name">"yjp...j@163.com"</span>应助中...
+            </p>
+                                                
+                                                                                            <p class="res-help-tip">距应助截止还剩
+                <span class="res-help-time-tip" update-time="1570369881" data-time="1570370782"><em>14</em>分<em>54</em>秒</span>
+            </p>
+            </div>
         </td>
     </tr>
     <tr class=" help-res-list-item">
         <td class="detail-col">
                 <div class="res-intro">
         <h2 class="res-title">
-                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=6e3b259c91cc4cd80ddf5e830bcbca0d&title=%27%E5%86%9C%E6%9D%91%E5%B0%8F%E5%AD%A6%E7%94%9F%E8%A1%8C%E4%B8%BA%E4%B9%A0%E6%83%AF%E5%85%BB%E6%88%90%E6%95%99%E8%82%B2%E7%9A%84%E6%80%9D%E8%80%83%E5%8F%8A%E5%AF%B9%E7%AD%96%27" target="_blank">&#039;农村小学生行为习惯养成教育的思考及对策&#039;</a>
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=e7cc1e7c1366b469238cf5e9a6d10013&title=%27Standards%20of%20Medical%20Care%20in%20Diabetes%27" target="_blank">&#039;Standards of Medical Care in Diabetes&#039;</a>
         </h2>
-                        <p><span class="res-label">全文链接：</span><span>&#039;http://d.wanfangdata.com.cn/Periodical/xzk-a201730034&#039;</span></p>
-                                    <p><span class="res-label">求助者：</span><span>ZY911027传奇</span></p>
-            <p><span class="res-label">求助时间：</span><span>2019-10-06 14:32</span></p>
+                        <p><span class="res-label">全文链接：</span><span>&#039;http://www.thelancet.com/servlet/linkout?suffix=e_1_5_1_2_3_2&amp;amp;dbid=16&amp;amp;doi=10.1016/S0140-6736(05)67668-4&amp;amp;key=10.2337/diacare.28.suppl_1.S4&amp;amp;cf=&#039;</span></p>
+                                    <p><span class="res-label">求助者：</span><span>晨思的记忆</span></p>
+            <p><span class="res-label">求助时间：</span><span>2019-10-06 21:51</span></p>
             </div>
         </td>
         <td class="result-col">
-                <div class="res-status" data-id="13156632" data-selfsos="" data-fortune="5">
+                <div class="res-status" data-id="13158441" data-selfsos="" data-fortune="5">
                                     <span class="res-help-btn help-will-help">
                 <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">5</span>我来应助
             </span>
@@ -493,39 +498,15 @@ function getCfObj() {
         <td class="detail-col">
                 <div class="res-intro">
         <h2 class="res-title">
-                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=f6559e1e1d887f4e533ed3fd19182acf&title=%27%E9%98%90%E8%BF%B0%E6%96%BD%E5%B7%A5%E6%96%B0%E6%8A%80%E6%9C%AF%E5%9C%A8%E6%88%BF%E5%B1%8B%E5%BB%BA%E8%AE%BE%E5%B7%A5%E7%A8%8B%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8%27" target="_blank">&#039;阐述施工新技术在房屋建设工程中的应用&#039;</a>
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=ff4b8442179a61e192e542ce524d33e2&title=%27%E6%80%A5%E6%80%A7%E4%B8%8A%E5%91%BC%E5%90%B8%E9%81%93%E6%84%9F%E6%9F%93%E6%B2%BB%E7%96%97%E4%B8%AD%E6%8A%97%E7%94%9F%E7%B4%A0%E5%A4%84%E6%96%B9%E7%AD%96%E7%95%A5%E7%9A%84%E5%BA%94%E7%94%A8%E8%AF%84%E4%BB%B7%27" target="_blank">&#039;急性上呼吸道感染治疗中抗生素处方策略的应用评价&#039;</a>
         </h2>
-                        <p><span class="res-label">全文链接：</span><span>&#039;http://d.wanfangdata.com.cn/Periodical/zgfdxx201711118&#039;</span></p>
-                                    <p><span class="res-label">求助者：</span><span>zjw388018</span></p>
-            <p><span class="res-label">求助时间：</span><span>2019-10-06 14:31</span></p>
+                        <p><span class="res-label">全文链接：</span><span>&#039;http://www.cqvip.com/QK/71895X/201738/673173057.html&#039;</span></p>
+                                    <p><span class="res-label">求助者：</span><span>hyq693</span></p>
+            <p><span class="res-label">求助时间：</span><span>2019-10-06 21:50</span></p>
             </div>
         </td>
         <td class="result-col">
-                <div class="res-status" data-id="13156631" data-selfsos="" data-fortune="3">
-                        <p class="res-help-txt-org">
-                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>
-                <span class="res-help-name">"ghsd在路上"</span>应助中...
-            </p>
-                                                
-                                                                                            <p class="res-help-tip">距应助截止还剩
-                <span class="res-help-time-tip" update-time="1570343573" data-time="1570344474"><em>14</em>分<em>48</em>秒</span>
-            </p>
-            </div>
-        </td>
-    </tr>
-    <tr class=" help-res-list-item">
-        <td class="detail-col">
-                <div class="res-intro">
-        <h2 class="res-title">
-                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=31e0d5b072e122e73259b61bc89d63c6&title=%27%E6%96%B0%E5%9E%8B%E5%90%A1%E5%94%91%E7%B1%BB%E6%9D%80%E8%9E%A8%E5%89%82%E2%80%94%E2%80%94%E8%85%88%E5%90%A1%E8%9E%A8%E9%85%AF%27" target="_blank">&#039;新型吡唑类杀螨剂——腈吡螨酯&#039;</a>
-        </h2>
-                        <p><span class="res-label">全文链接：</span><span>&#039;http://d.wanfangdata.com.cn/Periodical_sjny201406024.aspx&#039;</span></p>
-                                    <p><span class="res-label">求助者：</span><span>百度用户#972142242</span></p>
-            <p><span class="res-label">求助时间：</span><span>2019-10-06 14:31</span></p>
-            </div>
-        </td>
-        <td class="result-col">
-                <div class="res-status" data-id="13156630" data-selfsos="" data-fortune="3">
+                <div class="res-status" data-id="13158440" data-selfsos="" data-fortune="3">
                                     <span class="res-help-btn help-will-help">
                 <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
             </span>
@@ -536,22 +517,217 @@ function getCfObj() {
         <td class="detail-col">
                 <div class="res-intro">
         <h2 class="res-title">
-                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=3bd9de560a667c347a3ac2a4b5dd4110&title=%27Media%20influence%20on%20drive%20for%20thinness%2C%20body%20satisfaction%2C%20and%20eating%20attitudes%20among%20young%20women%20in%20Hong%20Kong%20and%20China%27" target="_blank">&#039;Media influence on drive for thinness, body satisfaction, and eating attitudes among young women in Hong Kong and China&#039;</a>
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=9c1ce92e12bd8b502c06544b80a04918&title=%27%E8%A1%A3%E4%BB%AA%E5%A4%A9%E4%B8%8B%E2%80%94%E2%80%94%E6%B5%85%E8%B0%88%E4%B8%AD%E5%9B%BD%E5%B0%91%E6%95%B0%E6%B0%91%E6%97%8F%E6%9C%8D%E9%A5%B0%E6%96%87%E5%8C%96%E4%B8%8E%E5%9C%B0%E7%90%86%E7%8E%AF%E5%A2%83%E7%9A%84%E5%85%B3%E7%B3%BB%27" target="_blank">&#039;衣仪天下——浅谈中国少数民族服饰文化与地理环境的关系&#039;</a>
         </h2>
-                        <p><span class="res-label">全文链接：</span><span>&#039;http://www.tandfonline.com/doi/abs/10.1080/13548506.2016.1226507&#039;</span></p>
-                                    <p><span class="res-label">求助者：</span><span>冷清新77</span></p>
-            <p><span class="res-label">求助时间：</span><span>2019-10-06 14:31</span></p>
+                        <p><span class="res-label">全文链接：</span><span>&#039;http://www.cnki.com.cn/Article/CJFDTotal-HQDL201412012.htm&#039;</span></p>
+                                    <p><span class="res-label">求助者：</span><span>jmjiang_2006</span></p>
+            <p><span class="res-label">求助时间：</span><span>2019-10-06 21:50</span></p>
             </div>
         </td>
         <td class="result-col">
-                <div class="res-status" data-id="13156629" data-selfsos="" data-fortune="5">
+                <div class="res-status" data-id="13158439" data-selfsos="" data-fortune="3">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=1r2n0tk02g3u0x30sj1402c05v522346&title=%27%E5%85%B8%E5%9E%8B%E6%B5%B7%E6%B4%8B%E5%A4%A7%E6%B0%94%E7%8E%AF%E5%A2%83%E7%9A%84%E6%8E%A5%E8%A7%A6%E7%BD%91%E9%92%A2%E8%85%95%E8%87%82%E5%AE%9A%E4%BD%8D%E8%A3%85%E7%BD%AE%E8%A1%A8%E9%9D%A2%E9%98%B2%E6%8A%A4%E4%BD%93%E7%B3%BB%E8%AE%BE%E8%AE%A1%27" target="_blank">&#039;典型海洋大气环境的接触网钢腕臂定位装置表面防护体系设计&#039;</a>
+        </h2>
+                        <p><span class="res-label">全文链接：</span><span>&#039;http://www.wanfangdata.com.cn/details/detail.do?_type=perio&amp;id=tdbzsj201903026&#039;</span></p>
+                                    <p><span class="res-label">求助者：</span><span>gajkwwj</span></p>
+            <p><span class="res-label">求助时间：</span><span>2019-10-06 21:50</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="13158438" data-selfsos="" data-fortune="3">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=aad10bd35994818f4cbaf83dc4000321&title=%27%E8%A7%A3%E8%AF%BB%E6%9C%8D%E9%A5%B0%E6%96%87%E5%8C%96%E4%B8%AD%E7%9A%84%E6%B0%94%E5%80%99%E5%AF%86%E7%A0%81%27" target="_blank">&#039;解读服饰文化中的气候密码&#039;</a>
+        </h2>
+                        <p><span class="res-label">全文链接：</span><span>&#039;http://www.cnki.com.cn/Article/CJFDTotal-JYXD201752151.htm&#039;</span></p>
+                                    <p><span class="res-label">求助者：</span><span>jmjiang_2006</span></p>
+            <p><span class="res-label">求助时间：</span><span>2019-10-06 21:49</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="13158437" data-selfsos="" data-fortune="3">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=16a3ca1f259632cd923f14390e850a12&title=%27%E9%98%88%E4%B8%8B%E6%83%85%E6%84%9F%E5%90%AF%E5%8A%A8%E8%8C%83%E5%BC%8F%E4%B8%8B%E7%9A%84%E6%80%A7%E5%88%AB%E9%9D%A2%E5%AD%94%E6%83%85%E7%BB%AA%E5%88%BB%E6%9D%BF%E6%95%88%E5%BA%94%20Gender%20Facial%20Emotional%20Stereotype%20under%20the%20Paradigm%20of%20Subliminal%20Affective%20Priming%27" target="_blank">&#039;阈下情感启动范式下的性别面孔情绪刻板效应 Gender Facial Emotional Stereotype under the Paradigm of Subliminal Affective Priming&#039;</a>
+        </h2>
+                        <p><span class="res-label">全文链接：</span><span>&#039;http://www.doi.org/10.12677/ASS.2018.78172&#039;</span></p>
+                                    <p><span class="res-label">求助者：</span><span>羊是爱峰的蜜蜂</span></p>
+            <p><span class="res-label">求助时间：</span><span>2019-10-06 21:49</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="13158436" data-selfsos="" data-fortune="3">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=cb0142969bc9ce0cdb07c82a7d5e95fa&title=%27Effect%20of%20Cooking%20Temperature%20during%20Preparation%20on%20Properties%20of%20Instant%20Rice%27" target="_blank">&#039;Effect of Cooking Temperature during Preparation on Properties of Instant Rice&#039;</a>
+        </h2>
+                        <p><span class="res-label">全文链接：</span><span>&#039;http://en.cnki.com.cn/Article_en/CJFDTotal-SPKX201003017.htm&#039;</span></p>
+                                    <p><span class="res-label">求助者：</span><span>183*****539</span></p>
+            <p><span class="res-label">求助时间：</span><span>2019-10-06 21:49</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="13158435" data-selfsos="" data-fortune="3">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=7f8ac30b8c9edbbc9efce6801be99124&title=%27%E2%80%9C%E6%88%BF%E5%A5%B4%E6%95%88%E5%BA%94%E2%80%9D%E5%AF%BC%E8%87%B4%E5%B1%85%E6%B0%91%E6%B6%88%E8%B4%B9%E4%BD%8E%E8%BF%B7%E4%BA%86%E5%90%97%3F%27" target="_blank">&#039;“房奴效应”导致居民消费低迷了吗?&#039;</a>
+        </h2>
+                        <p><span class="res-label">全文链接：</span><span>&#039;http://www.cnki.com.cn/Article/CJFDTotal-JJXU201801016.htm&#039;</span></p>
+                                    <p><span class="res-label">求助者：</span><span>hssfxyhdxq</span></p>
+            <p><span class="res-label">求助时间：</span><span>2019-10-06 21:49</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="13158434" data-selfsos="" data-fortune="3">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=1v460p504v3s0a10pm470tw0nb386917&title=%27%E5%9F%BA%E4%BA%8EJAVA%E8%AE%BE%E8%AE%A1%E7%82%AE%E5%8F%B0%E6%89%93%E9%A3%9E%E6%9C%BA%E5%B0%8F%E6%B8%B8%E6%88%8F%E7%9A%84%E9%97%AE%E9%A2%98%E5%88%86%E6%9E%90%27" target="_blank">&#039;基于JAVA设计炮台打飞机小游戏的问题分析&#039;</a>
+        </h2>
+                        <p><span class="res-label">全文链接：</span><span>&#039;http://www.cnki.com.cn/Article/CJFDTotal-KJFT201830183.htm&#039;</span></p>
+                                    <p><span class="res-label">求助者：</span><span>泪水渲染离别丿</span></p>
+            <p><span class="res-label">求助时间：</span><span>2019-10-06 21:49</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="13158433" data-selfsos="" data-fortune="3">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=827922dc520d4e98cfe74ffc077ccbe0&title=%27Strategic%20Management%20of%20the%20Benefits%20and%20Challenges%20of%20HR%20Outsourcing%20in%20Effective%20Organizational%20Management%27" target="_blank">&#039;Strategic Management of the Benefits and Challenges of HR Outsourcing in Effective Organizational Management&#039;</a>
+        </h2>
+                        <p><span class="res-label">全文链接：</span><span>&#039;http://connection.ebscohost.com/c/articles/112207115/strategic-management-benefits-challenges-hr-outsourcing-effective-organizational-management&#039;</span></p>
+                                    <p><span class="res-label">求助者：</span><span>159*****884</span></p>
+            <p><span class="res-label">求助时间：</span><span>2019-10-06 21:48</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="13158432" data-selfsos="" data-fortune="3">
+                        <p class="res-help-txt-org">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>
+                <span class="res-help-name">"shh...3@163.com"</span>应助中...
+            </p>
+                                                
+                                                                                            <p class="res-help-tip">距应助截止还剩
+                <span class="res-help-time-tip" update-time="1570369710" data-time="1570370611"><em>12</em>分<em>3</em>秒</span>
+            </p>
+            </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=ce17d01509de596fafec5dd46c2b8304&title=%27PDCA%E5%BE%AA%E7%8E%AF%E7%AE%A1%E7%90%86%E6%B3%95%E5%9C%A8%E6%8A%A4%E7%90%86%E8%B4%A8%E9%87%8F%E6%8C%81%E7%BB%AD%E6%94%B9%E8%BF%9B%E5%B7%A5%E4%BD%9C%E4%B8%AD%E7%9A%84%E5%AE%9E%E9%99%85%E5%BA%94%E7%94%A8%E6%95%88%E6%9E%9C%E5%88%86%E6%9E%90%27" target="_blank">&#039;PDCA循环管理法在护理质量持续改进工作中的实际应用效果分析&#039;</a>
+        </h2>
+                        <p><span class="res-label">全文链接：</span><span>&#039;http://d.wanfangdata.com.cn/Periodical/zgyxcx201619024&#039;</span></p>
+                                    <p><span class="res-label">求助者：</span><span>jjixh</span></p>
+            <p><span class="res-label">求助时间：</span><span>2019-10-06 21:48</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="13158431" data-selfsos="" data-fortune="5">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">5</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=94e9d103b15b9d04a6abc7941d87edad&title=%27%E9%87%91%E8%9E%8D%E6%94%AF%E6%8C%81%E4%B9%A1%E6%9D%91%E6%8C%AF%E5%85%B4%E7%9A%84%E5%9B%BD%E5%A4%96%E7%BB%8F%E9%AA%8C%E4%B8%8E%E5%90%AF%E7%A4%BA%27" target="_blank">&#039;金融支持乡村振兴的国外经验与启示&#039;</a>
+        </h2>
+                        <p><span class="res-label">全文链接：</span><span>&#039;http://www.wanfangdata.com.cn/details/detail.do?_type=perio&amp;id=hbjr201805012&#039;</span></p>
+                                    <p><span class="res-label">求助者：</span><span>186******55</span></p>
+            <p><span class="res-label">求助时间：</span><span>2019-10-06 21:48</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="13158430" data-selfsos="" data-fortune="3">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=46b854ebb74bc237bd88e70dd05626d3&title=%27How%20To%20Build%20and%20Interpret%20a%20Nomogram%20for%20Cancer%20Prognosis%27" target="_blank">&#039;How To Build and Interpret a Nomogram for Cancer Prognosis&#039;</a>
+        </h2>
+                        <p><span class="res-label">全文链接：</span><span>&#039;http://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_PM18323559&#039;</span></p>
+                                    <p><span class="res-label">求助者：</span><span>农村人506</span></p>
+            <p><span class="res-label">求助时间：</span><span>2019-10-06 21:48</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="13158429" data-selfsos="" data-fortune="5">
                         <p class="res-help-txt-org">
                 <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">5</span>
-                <span class="res-help-name">"16n...c@163.com"</span>应助中...
+                <span class="res-help-name">"1lf...5@163.com"</span>应助中...
             </p>
                                                 
                                                                                             <p class="res-help-tip">距应助截止还剩
-                <span class="res-help-time-tip" update-time="1570343472" data-time="1570344373"><em>13</em>分<em>7</em>秒</span>
+                <span class="res-help-time-tip" update-time="1570369698" data-time="1570370599"><em>11</em>分<em>51</em>秒</span>
             </p>
             </div>
         </td>
@@ -560,22 +736,22 @@ function getCfObj() {
         <td class="detail-col">
                 <div class="res-intro">
         <h2 class="res-title">
-                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=dd50419f55ba2c70fba2c6163f6fda91&title=%27%E6%B5%85%E8%B0%88%E7%8F%AD%E4%B8%BB%E4%BB%BB%E7%9A%84%E5%9C%B0%E4%BD%8D%E5%92%8C%E4%BD%9C%E7%94%A8%27" target="_blank">&#039;浅谈班主任的地位和作用&#039;</a>
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=0e00a38783e7a21b192dd715a49baa20&title=%27Robust%20Network%20Hardening%20Strategy%20for%20Enhancing%20Resilience%20of%20Integrated%20Electricity%20and%20Natural%20Gas%20Distribution%20Systems%20Against%20Natural%20Disasters%27" target="_blank">&#039;Robust Network Hardening Strategy for Enhancing Resilience of Integrated Electricity and Natural Gas Distribution Systems Against Natural Disasters&#039;</a>
         </h2>
-                        <p><span class="res-label">全文链接：</span><span>&#039;http://d.wanfangdata.com.cn/Periodical/kwyd201205342&#039;</span></p>
-                                    <p><span class="res-label">求助者：</span><span>liyong9510</span></p>
-            <p><span class="res-label">求助时间：</span><span>2019-10-06 14:30</span></p>
+                        <p><span class="res-label">全文链接：</span><span>&#039;http://www.researchgate.net/publication/323993318_Robust_Network_Hardening_Strategy_for_Enhancing_Resilience_of_Integrated_Electricity_and_Natural_Gas_Distribution_Systems_Against_Natural_Disasters&#039;</span></p>
+                                    <p><span class="res-label">求助者：</span><span>Ccccc狗子</span></p>
+            <p><span class="res-label">求助时间：</span><span>2019-10-06 21:48</span></p>
             </div>
         </td>
         <td class="result-col">
-                <div class="res-status" data-id="13156627" data-selfsos="" data-fortune="3">
+                <div class="res-status" data-id="13158428" data-selfsos="" data-fortune="3">
                         <p class="res-help-txt-org">
                 <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>
-                <span class="res-help-name">"4xg...h@163.com"</span>应助中...
+                <span class="res-help-name">"大美神州大地"</span>应助中...
             </p>
                                                 
                                                                                             <p class="res-help-tip">距应助截止还剩
-                <span class="res-help-time-tip" update-time="1570343435" data-time="1570344336"><em>12</em>分<em>30</em>秒</span>
+                <span class="res-help-time-tip" update-time="1570369744" data-time="1570370645"><em>12</em>分<em>37</em>秒</span>
             </p>
             </div>
         </td>
@@ -584,15 +760,15 @@ function getCfObj() {
         <td class="detail-col">
                 <div class="res-intro">
         <h2 class="res-title">
-                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=6096bf978f17da7545522f39da0a633b&title=%27%E5%BA%9F%E6%97%A7%E7%BA%BA%E7%BB%87%E5%93%81%E9%AB%98%E5%80%BC%E5%8C%96%E5%88%A9%E7%94%A8%E7%9A%84%E7%8E%B0%E7%8A%B6%27" target="_blank">&#039;废旧纺织品高值化利用的现状&#039;</a>
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=d761cafced536648bcff9aa58114c12d&title=%27Factors%20associated%20with%20soft-%20and%20hard-tissue%20compromise%20of%20endosseous%20implants%27" target="_blank">&#039;Factors associated with soft- and hard-tissue compromise of endosseous implants&#039;</a>
         </h2>
-                        <p><span class="res-label">全文链接：</span><span>&#039;http://www.cnki.com.cn/Article/CJFDTOTAL-ZNGU201712016.htm&#039;</span></p>
-                                    <p><span class="res-label">求助者：</span><span>zby_978</span></p>
-            <p><span class="res-label">求助时间：</span><span>2019-10-06 14:30</span></p>
+                        <p><span class="res-label">全文链接：</span><span>&#039;http://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_PM2213310&#039;</span></p>
+                                    <p><span class="res-label">求助者：</span><span>xiaoyu帅帅哒</span></p>
+            <p><span class="res-label">求助时间：</span><span>2019-10-06 21:48</span></p>
             </div>
         </td>
         <td class="result-col">
-                <div class="res-status" data-id="13156626" data-selfsos="" data-fortune="3">
+                <div class="res-status" data-id="13158427" data-selfsos="" data-fortune="3">
                                     <span class="res-help-btn help-will-help">
                 <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
             </span>
@@ -603,15 +779,15 @@ function getCfObj() {
         <td class="detail-col">
                 <div class="res-intro">
         <h2 class="res-title">
-                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=2e2bace3d8af657acfd3755fcfd0bd62&title=%27An%20empirical%20analysis%20of%20bank%20interest%20rate%20swaps%27" target="_blank">&#039;An empirical analysis of bank interest rate swaps&#039;</a>
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=690087ae5e1f5919f5c4b9e69441e1b7&title=%27%E6%9F%90%E7%89%B9%E7%A7%8D%E5%8D%8A%E6%8C%82%E8%BD%A6%E8%BD%A6%E6%A1%A5%E7%96%B2%E5%8A%B3%E5%8F%AF%E9%9D%A0%E6%80%A7%E5%88%86%E6%9E%90%27" target="_blank">&#039;某特种半挂车车桥疲劳可靠性分析&#039;</a>
         </h2>
-                        <p><span class="res-label">全文链接：</span><span>&#039;http://link.springer.com/article/10.1007/BF01048340&#039;</span></p>
-                                    <p><span class="res-label">求助者：</span><span>专属我的小晴天</span></p>
-            <p><span class="res-label">求助时间：</span><span>2019-10-06 14:30</span></p>
+                        <p><span class="res-label">全文链接：</span><span>&#039;http://d.wanfangdata.com.cn/Thesis/Y1154602&#039;</span></p>
+                                    <p><span class="res-label">求助者：</span><span>素心如寂</span></p>
+            <p><span class="res-label">求助时间：</span><span>2019-10-06 21:47</span></p>
             </div>
         </td>
         <td class="result-col">
-                <div class="res-status" data-id="13156625" data-selfsos="" data-fortune="3">
+                <div class="res-status" data-id="13158426" data-selfsos="" data-fortune="3">
                                     <span class="res-help-btn help-will-help">
                 <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
             </span>
@@ -622,15 +798,15 @@ function getCfObj() {
         <td class="detail-col">
                 <div class="res-intro">
         <h2 class="res-title">
-                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=30ae75627491250b5691665ccb3e35e8&title=%27%E6%A1%A1%E5%8A%A8%E8%84%89%E5%8E%8B%E8%BF%AB%E6%AD%A2%E8%A1%80%E5%99%A8%27" target="_blank">&#039;桡动脉压迫止血器&#039;</a>
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=b5966ffe4a54f4e3c605a26f17767435&title=%27Effects%20of%20extraction%20methods%20on%20the%20yield%2C%20chemical%20structure%20and%20anti-tumor%20activity%20of%20polysaccharides%20from%20Cordyceps%20gunnii%20mycelia%27" target="_blank">&#039;Effects of extraction methods on the yield, chemical structure and anti-tumor activity of polysaccharides from Cordyceps gunnii mycelia&#039;</a>
         </h2>
-                        <p><span class="res-label">全文链接：</span><span>&#039;http://www.cqvip.com/QK/87937X/201713/672790460.html&#039;</span></p>
-                                    <p><span class="res-label">求助者：</span><span>作者夏雅</span></p>
-            <p><span class="res-label">求助时间：</span><span>2019-10-06 14:29</span></p>
+                        <p><span class="res-label">全文链接：</span><span>&#039;http://www.sciencedirect.com/science/article/pii/S014486171501231X&#039;</span></p>
+                                    <p><span class="res-label">求助者：</span><span>王慧敏Anna</span></p>
+            <p><span class="res-label">求助时间：</span><span>2019-10-06 21:47</span></p>
             </div>
         </td>
         <td class="result-col">
-                <div class="res-status" data-id="13156624" data-selfsos="" data-fortune="3">
+                <div class="res-status" data-id="13158425" data-selfsos="" data-fortune="3">
                                     <span class="res-help-btn help-will-help">
                 <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
             </span>
@@ -641,15 +817,15 @@ function getCfObj() {
         <td class="detail-col">
                 <div class="res-intro">
         <h2 class="res-title">
-                                                    <a href="//xueshu.baidu.com/s?wd=%27%E9%9F%B3%E4%B9%90%E7%94%B5%E9%92%88%E6%B2%BB%E7%96%97%E7%B3%96%E5%B0%BF%E7%97%85%E7%9A%84%E4%B8%B4%E5%BA%8A%E5%8F%8A%E5%9F%BA%E7%A1%80%E7%A0%94%E7%A9%B6%27&tn=SE_baiduxueshu_c1gjeupa&ie=utf-8" target="_blank">&#039;音乐电针治疗糖尿病的临床及基础研究&#039;</a>
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=2b3e7fcdc0496d6e5dea4021fbd22d29&title=%27Bilateral%20cleft%20lip%20and%20palate%20diagnosed%20sonographically%20at%2011%20weeks%20of%20pregnancy%27" target="_blank">&#039;Bilateral cleft lip and palate diagnosed sonographically at 11 weeks of pregnancy&#039;</a>
         </h2>
-                <p><span class="res-label">作者：</span><span>&#039;李志刚&#039;</span></p>
-                                            <p><span class="res-label">求助者：</span><span>雪域文思</span></p>
-            <p><span class="res-label">求助时间：</span><span>2019-10-06 14:29</span></p>
+                        <p><span class="res-label">全文链接：</span><span>&#039;http://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_PM16944485&#039;</span></p>
+                                    <p><span class="res-label">求助者：</span><span>BCHHIGH</span></p>
+            <p><span class="res-label">求助时间：</span><span>2019-10-06 21:47</span></p>
             </div>
         </td>
         <td class="result-col">
-                <div class="res-status" data-id="13156623" data-selfsos="" data-fortune="3">
+                <div class="res-status" data-id="13158424" data-selfsos="" data-fortune="3">
                                     <span class="res-help-btn help-will-help">
                 <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
             </span>
@@ -660,204 +836,17 @@ function getCfObj() {
         <td class="detail-col">
                 <div class="res-intro">
         <h2 class="res-title">
-                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=50cecab8499d988b4857ead6c7033674&title=%27Introduction%20to%20Seismic%20Inversion%20Methods%20%7C%7C%205.%20Part%205%20-%20Recursive%20Inversion%20-%20Practice%27" target="_blank">&#039;Introduction to Seismic Inversion Methods || 5. Part 5 - Recursive Inversion - Practice&#039;</a>
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=f6686ce1cb12ca70fecf6a176db4526a&title=%27%E4%BB%8E%E9%85%B1%E6%B2%B9%E6%B8%A3%E4%B8%AD%E5%9B%9E%E6%94%B6%E5%88%B6%E5%A4%87%E5%BC%82%E9%BB%84%E9%85%AE%E5%8F%8A%E5%A4%9A%E8%82%BD%E7%9A%84%E5%B7%A5%E8%89%BA%E7%A0%94%E7%A9%B6%27" target="_blank">&#039;从酱油渣中回收制备异黄酮及多肽的工艺研究&#039;</a>
         </h2>
-                        <p><span class="res-label">全文链接：</span><span>&#039;http://library.seg.org/doi/abs/10.1190/1.9781560802303.ch5&#039;</span></p>
-                                    <p><span class="res-label">求助者：</span><span>宝贝921022</span></p>
-            <p><span class="res-label">求助时间：</span><span>2019-10-06 14:29</span></p>
+                        <p><span class="res-label">全文链接：</span><span>&#039;http://cdmd.cnki.com.cn/Article/CDMD-10500-1013243509.htm&#039;</span></p>
+                                    <p><span class="res-label">求助者：</span><span>hpewater</span></p>
+            <p><span class="res-label">求助时间：</span><span>2019-10-06 21:47</span></p>
             </div>
         </td>
         <td class="result-col">
-                <div class="res-status" data-id="13156622" data-selfsos="" data-fortune="3">
+                <div class="res-status" data-id="13158423" data-selfsos="" data-fortune="3">
                                     <span class="res-help-btn help-will-help">
                 <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
-            </span>
-                        </div>
-        </td>
-    </tr>
-    <tr class=" help-res-list-item">
-        <td class="detail-col">
-                <div class="res-intro">
-        <h2 class="res-title">
-                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=1q6s00k0hs720x90yj4t0gb0ng551138&title=%27%E4%BF%9D%E7%BD%97%C2%B7%E7%BD%97%E9%BB%98%E7%9A%84%E5%AD%A6%E6%9C%AF%E6%80%9D%E6%83%B3%E5%92%8C%E6%94%BF%E7%AD%96%E5%90%AF%E7%A4%BA%27" target="_blank">&#039;保罗·罗默的学术思想和政策启示&#039;</a>
-        </h2>
-                        <p><span class="res-label">全文链接：</span><span>&#039;http://www.cqvip.com/QK/85766A/201821/676727877.html&#039;</span></p>
-                                    <p><span class="res-label">求助者：</span><span>独儿得得</span></p>
-            <p><span class="res-label">求助时间：</span><span>2019-10-06 14:29</span></p>
-            </div>
-        </td>
-        <td class="result-col">
-                <div class="res-status" data-id="13156621" data-selfsos="" data-fortune="3">
-                                    <span class="res-help-btn help-will-help">
-                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
-            </span>
-                        </div>
-        </td>
-    </tr>
-    <tr class=" help-res-list-item">
-        <td class="detail-col">
-                <div class="res-intro">
-        <h2 class="res-title">
-                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=f0fbd06657389c7160ecc99ba6bfee79&title=%27%3CFONT%20face%3DVerdana%3E%E5%86%9C%E7%94%B0%E7%94%9F%E6%80%81%E7%B3%BB%E7%BB%9F%E6%9C%8D%E5%8A%A1%E5%8A%9F%E8%83%BD%E5%8F%8A%E5%85%B6%E5%BD%A2%E6%88%90%E6%9C%BA%E5%88%B6%27" target="_blank">&#039;&lt;FONT face=Verdana&gt;农田生态系统服务功能及其形成机制&#039;</a>
-        </h2>
-                        <p><span class="res-label">全文链接：</span><span>&#039;http://www.cqvip.com/Main/Detail.aspx?id=21860694&#039;</span></p>
-                                    <p><span class="res-label">求助者：</span><span>dwringyyy</span></p>
-            <p><span class="res-label">求助时间：</span><span>2019-10-06 14:28</span></p>
-            </div>
-        </td>
-        <td class="result-col">
-                <div class="res-status" data-id="13156620" data-selfsos="" data-fortune="3">
-                        <p class="res-help-txt-org">
-                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>
-                <span class="res-help-name">"iup...e@163.com"</span>应助中...
-            </p>
-                                                
-                                                                                            <p class="res-help-tip">距应助截止还剩
-                <span class="res-help-time-tip" update-time="1570343339" data-time="1570344240"><em>10</em>分<em>54</em>秒</span>
-            </p>
-            </div>
-        </td>
-    </tr>
-    <tr class=" help-res-list-item">
-        <td class="detail-col">
-                <div class="res-intro">
-        <h2 class="res-title">
-                                                    <a href="//xueshu.baidu.com/s?wd=%27The%20Future%20of%20Anesthesiology%3A%20Artificial%20Intelligence%20Is%20Just%20Another%20%E2%80%98What%E2%80%99%20to%20Serve%20Our%20%E2%80%98Why%E2%80%99%20%27&tn=SE_baiduxueshu_c1gjeupa&ie=utf-8" target="_blank">&#039;The Future of Anesthesiology: Artificial Intelligence Is Just Another ‘What’ to Serve Our ‘Why’ &#039;</a>
-        </h2>
-                <p><span class="res-label">作者：</span><span>&#039;John C. Alexander, M.D., M.B.A.; Girish P. Joshi, M.B.B.S., M.D., FFARCSI &#039;</span></p>
-                        <p><span class="res-label">全文链接：</span><span>&#039;https://monitor.pubs.asahq.org/article.aspx?articleid=2705455&amp;resultClick=3&#039;</span></p>
-                                    <p><span class="res-label">求助者：</span><span>sunflower哦1</span></p>
-            <p><span class="res-label">求助时间：</span><span>2019-10-06 14:28</span></p>
-            </div>
-        </td>
-        <td class="result-col">
-                <div class="res-status" data-id="13156618" data-selfsos="" data-fortune="3">
-                        <p class="res-help-txt-org">
-                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>
-                <span class="res-help-name">"suibian_123458"</span>应助中...
-            </p>
-                                                
-                                                                                            <p class="res-help-tip">距应助截止还剩
-                <span class="res-help-time-tip" update-time="1570343527" data-time="1570344428"><em>14</em>分<em>2</em>秒</span>
-            </p>
-            </div>
-        </td>
-    </tr>
-    <tr class=" help-res-list-item">
-        <td class="detail-col">
-                <div class="res-intro">
-        <h2 class="res-title">
-                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=eb7ae5f4f8a05349d0d8467b31370989&title=%27%E4%BC%A0%E6%89%BF%E5%9B%BD%E5%AD%A6%E7%BB%8F%E5%85%B8%2C%E5%BC%98%E6%89%AC%E4%B8%AD%E5%8D%8E%E6%96%87%E5%8C%96%27" target="_blank">&#039;传承国学经典,弘扬中华文化&#039;</a>
-        </h2>
-                        <p><span class="res-label">全文链接：</span><span>&#039;http://www.cnki.com.cn/Article/CJFDTotal-DEYU201810011.htm&#039;</span></p>
-                                    <p><span class="res-label">求助者：</span><span>wy18805797199</span></p>
-            <p><span class="res-label">求助时间：</span><span>2019-10-06 14:28</span></p>
-            </div>
-        </td>
-        <td class="result-col">
-                <div class="res-status" data-id="13156617" data-selfsos="" data-fortune="3">
-                                    <span class="res-help-btn help-will-help">
-                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
-            </span>
-                        </div>
-        </td>
-    </tr>
-    <tr class=" help-res-list-item">
-        <td class="detail-col">
-                <div class="res-intro">
-        <h2 class="res-title">
-                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=e2f15d9bacb578319c34c24d7f0fd4b5&title=%27%E5%BF%83%E7%90%86%E5%AD%A6%E5%A4%A7%E8%BE%9E%E5%85%B8%27" target="_blank">&#039;心理学大辞典&#039;</a>
-        </h2>
-                                            <p><span class="res-label">求助者：</span><span>182******23</span></p>
-            <p><span class="res-label">求助时间：</span><span>2019-10-06 14:27</span></p>
-            </div>
-        </td>
-        <td class="result-col">
-                <div class="res-status" data-id="13156616" data-selfsos="" data-fortune="3">
-                                    <span class="res-help-btn help-will-help">
-                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
-            </span>
-                        </div>
-        </td>
-    </tr>
-    <tr class=" help-res-list-item">
-        <td class="detail-col">
-                <div class="res-intro">
-        <h2 class="res-title">
-                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=640a623200c0633919f8a881081a34af&title=%27%E6%88%91%E5%9B%BD%E4%B8%AD%E5%AD%A6%E7%94%9F%E7%89%A9%E5%AD%A6%E6%95%99%E5%AD%A6%E5%8F%B2%E7%95%A5%27" target="_blank">&#039;我国中学生物学教学史略&#039;</a>
-        </h2>
-                        <p><span class="res-label">全文链接：</span><span>&#039;http://www.cnki.com.cn/Article/CJFDTotal-DZRA199003032.htm&#039;</span></p>
-                                    <p><span class="res-label">求助者：</span><span>非尔的记忆</span></p>
-            <p><span class="res-label">求助时间：</span><span>2019-10-06 14:27</span></p>
-            </div>
-        </td>
-        <td class="result-col">
-                <div class="res-status" data-id="13156615" data-selfsos="" data-fortune="3">
-                        <p class="res-help-txt-org">
-                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>
-                <span class="res-help-name">"r5r...o@163.com"</span>应助中...
-            </p>
-                                                
-                                                                                            <p class="res-help-tip">距应助截止还剩
-                <span class="res-help-time-tip" update-time="1570343242" data-time="1570344143"><em>9</em>分<em>17</em>秒</span>
-            </p>
-            </div>
-        </td>
-    </tr>
-    <tr class=" help-res-list-item">
-        <td class="detail-col">
-                <div class="res-intro">
-        <h2 class="res-title">
-                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=20762e04741f7731a25aaf6c5d56f0a1&title=%27%E5%90%ABH_2S%E5%8F%AF%E7%87%83%E6%B0%94%E4%BD%93%E5%9C%A8%E5%B0%81%E9%97%AD%E5%BC%8F%E5%9C%B0%E9%9D%A2%E7%81%AB%E7%82%AC%E5%A4%84%E7%90%86%E6%97%B6%E7%9A%84%E6%89%A9%E6%95%A3%E6%A8%A1%E6%8B%9F%E4%B8%8E%E5%88%86%E6%9E%90%27" target="_blank">&#039;含H_2S可燃气体在封闭式地面火炬处理时的扩散模拟与分析&#039;</a>
-        </h2>
-                        <p><span class="res-label">全文链接：</span><span>&#039;http://www.cnki.com.cn/Article/CJFDTotal-LYSZ201608007.htm&#039;</span></p>
-                                    <p><span class="res-label">求助者：</span><span>guochaosun0</span></p>
-            <p><span class="res-label">求助时间：</span><span>2019-10-06 14:27</span></p>
-            </div>
-        </td>
-        <td class="result-col">
-                <div class="res-status" data-id="13156614" data-selfsos="" data-fortune="3">
-                                    <span class="res-help-btn help-will-help">
-                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
-            </span>
-                        </div>
-        </td>
-    </tr>
-    <tr class=" help-res-list-item">
-        <td class="detail-col">
-                <div class="res-intro">
-        <h2 class="res-title">
-                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=1p740g40rk3f0gc0qf050vh0pd755176&title=%27Inhibitory%20effect%20of%20different%20Dendrobium%20species%20on%20LPS-induced%20inflammation%20in%20macrophages%20via%20suppression%20of%20MAPK%20pathways%27" target="_blank">&#039;Inhibitory effect of different Dendrobium species on LPS-induced inflammation in macrophages via suppression of MAPK pathways&#039;</a>
-        </h2>
-                        <p><span class="res-label">全文链接：</span><span>&#039;http://www.cnki.com.cn/Article/CJFDTotal-ZGTR201807001.htm&#039;</span></p>
-                                    <p><span class="res-label">求助者：</span><span>咿哩咕</span></p>
-            <p><span class="res-label">求助时间：</span><span>2019-10-06 14:26</span></p>
-            </div>
-        </td>
-        <td class="result-col">
-                <div class="res-status" data-id="13156613" data-selfsos="" data-fortune="3">
-                                    <span class="res-help-btn help-will-help">
-                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
-            </span>
-                        </div>
-        </td>
-    </tr>
-    <tr class=" help-res-list-item">
-        <td class="detail-col">
-                <div class="res-intro">
-        <h2 class="res-title">
-                                                    <a href="//xueshu.baidu.com/s?wd=%27%E5%80%BE%E5%90%AC%E6%98%AF%E6%9C%80%E7%BE%8E%E7%9A%84%E6%95%99%E8%82%B2%E2%80%94%E2%80%94%E5%9F%BA%E4%BA%8E%E3%80%8A%E7%AA%97%E8%BE%B9%E7%9A%84%E5%B0%8F%E8%B1%86%E8%B1%86%E3%80%8B%E7%9A%84%E5%90%AF%E7%A4%BA%27&tn=SE_baiduxueshu_c1gjeupa&ie=utf-8" target="_blank">&#039;倾听是最美的教育——基于《窗边的小豆豆》的启示&#039;</a>
-        </h2>
-                <p><span class="res-label">作者：</span><span>&#039;胡伟&#039;</span></p>
-                        <p><span class="res-label">全文链接：</span><span>&#039;知网等&#039;</span></p>
-                                    <p><span class="res-label">求助者：</span><span>發江南</span></p>
-            <p><span class="res-label">求助时间：</span><span>2019-10-06 14:26</span></p>
-            </div>
-        </td>
-        <td class="result-col">
-                <div class="res-status" data-id="13156612" data-selfsos="" data-fortune="5">
-                                    <span class="res-help-btn help-will-help">
-                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">5</span>我来应助
             </span>
                         </div>
         </td>
@@ -876,7 +865,7 @@ function getCfObj() {
                                                                 <span class="res-page-number" data-num="4">4</span>
                                                                 <span class="res-page-number" data-num="5">5</span>
                                                                 <span class="res-page-more" data-num="...">...</span>
-                                                                <span class="res-page-number" data-num="104">104</span>
+                                                                <span class="res-page-number" data-num="121">121</span>
                         <a href="#" class="c-icon-page-next-hover res-page-next" data-num="2">
             <i class="c-icon c-icon-page-next"></i>
             </a>
@@ -890,7 +879,7 @@ function getCfObj() {
     <div class="base-info c_font">
                     <span class="right-tab-unresolved item4style">
             <span class="title">待应助</span>
-            <span class="count">3405</span>
+            <span class="count">3821</span>
         </span>
         
         <a class="right-tab-mysos item4style" href="/u/paperhelp?tab=my_sos">

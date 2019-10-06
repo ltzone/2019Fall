@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>网易严选餐厨篇 - </title>
+<meta name="keywords" content="网易严选,严选,电子商务,网购,居家,厨房,饮食,甄选家,有态度,一流制造商,匠心打造,源头把控,绿色,安全,舒适,健康,品质,严格甄选,出口品质" />
+<meta name="description" content="网易严选秉承网易一贯的严谨态度，深入世界各地，严格把关所有商品的产地、工艺、原材料，甄选居家、厨房、饮食等各类商品，力求给你最优质的商品。" />
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link rel="shortcut icon" href="/favicon.ico?r=gold" type="image/x-icon" />
+<meta property="qc:admins" content="365774662561636375" />
+<link rel="stylesheet" href="//yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/style/css/style-d695d58431.css" type="text/css" />
+<script type="text/javascript">
+(function(){
+var userAgent = window.navigator.userAgent;
+if(/windows|win32/i.test(userAgent)) {
+if(/Windows NT 5/.test(userAgent)) {
+document.writeln('<style type="text/css">' + 'body,button,input,select,textarea,code{font-family: tahoma,sans-serif;}' + '<' + '/style>');
+}
+} else if(/macintosh/i.test(userAgent)) {
+document.writeln('<style type="text/css">' + 'body,button,input,select,textarea,code{font-family: "Heiti SC","Lucida Grande","Hiragino Sans GB","Hiragino Sans GB W3",verdana;}' + '<' + '/style>');
+}
+})();
+</script><link rel="stylesheet" href="//yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/js/dist/item/list/index-85cdcdc9a0.page.css">
+<link rel="stylesheet" href="//yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/style/css/page/item/list-7abb0b0d5f.css">
+<link rel="stylesheet" type="text/css" href="//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.css?v=20191006221569506880849">
+<!--[if lt IE 9]>
+<script src="//yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/js/ie-692922fc2c.js"></script>
+<![endif]-->
+<!--[if lt IE 8]>
+<meta http-equiv="refresh" content="1;url=/error/lowVersionBrowser" />
+<script>top.window.location.href='/error/lowVersionBrowser';</script>
+<![endif]-->
+<script>
+var YXStat = {};
+YXStat.q = YXStat.q || [];
+//设置pageview的event_name
+window.CURRENTPAGE = 'catelev1';
+(function() {
+var done = false;
+var stat = document.createElement('script');
+stat.type = 'text/javascript';
+stat.async = true;
+stat.src = '//yanxuan-static.nosdn.127.net/hxm/yanxuan-analytics/common/js/stat.min.js?v=20191006221569506880849';
+stat.onload = stat.onreadystatechange = function(){
+if(!done && (!this.readyState ||this.readyState === "loaded" || this.readyState === "complete")){
+done = true;
+YXStat.init({
+client_type: "web",
+url: "//dc.you.163.com/main/a.js",
+isAgent:true
+});
+}
+};
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(stat, s);
+})();
+</script>
+<script>
+window.NRUM = window.NRUM || {};
+window.NRUM.config = {key:'fd5005d788d94e6ed70ce11df471b8b7',clientStart: +new Date()};
+(function() {var n = document.getElementsByTagName('script')[0],s = document.createElement('script');s.type = 'text/javascript';s.async = true;s.src = '//apmsdk.nosdn.127.net/napm-web-min-1.1.6.js';n.parentNode.insertBefore(s, n);})();
+</script>
+</head>
+<body>
+<div id="j-YXComponentTop"
+style="height:176px">
+</div>
+<div class="g-bd-list" id='j-freemarkerRender' style="display:none;">
+<div class="g-row">
+<!--面包屑-->
+<div class="m-crumbs " id="j-yx-crumbs" style="display:none;">
+<a href="/">首页</a>
+<span class="w-icon-arrow arrow-right-hollow"></span>
+<span class="z-cur">餐厨</span>
+</div>
+<!-- 轮播图 -->
+<!--<div class="m-focus">
+<div class="focus-bd">
+<div class="w-cateBanner" style="background-image: url(https://yanxuan.nosdn.127.net/f4ff8b3d5b0767d4e578575c1fd6b921.jpg?imageView&thumbnail=1090x360&quality=95)">
+</div>
+</div>
+</div>-->
+<!--商品展示区域-->
+<div id="j-goodsAreaWrap"></div>
+</div>
+<div id="j-cateSildeBar"></div>
+</div>
+<div id="j-YXComponentFoot"
+style="height:549px">
+</div>
+<script>
+window['yxCurrentPage'] = 'cate1005001';
+window['yxIsShowCategory'] = 'yes';
+window['yxIsShowFt'] = 'yes';
+window['yxIsShowFt2'] = 'yes';
+</script>
+<script src="//yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/js/vender-0ee4de3597.js"></script>
+<script src="//yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/js/common-cb02b4021a.js"></script>
+<script type="text/javascript">
+window["$global"] = {
+giftSwitch : "false",
+nickname : "",
+userNameFront : "",
+username : "",
+userid : "0",
+domain : "http://you.163.com", //举例：http://you.163.com
+environment : "online",
+leftCategorySaleRankConfig:[
+{
+"highlight": true,
+"text": "全站<br/>热销榜",
+"icon": "//yanxuan.nosdn.127.net/d83d6cc58589e7b9540e57809920d961.png",
+"url": "//you.163.com/item/saleRank"
+},
+{
+"highlight": false,
+"text": "居家<br/>生活榜",
+"icon": "//yanxuan.nosdn.127.net/288d84fe691240d9f87271b293f39b67.png",
+"url": "//you.163.com/item/saleRank?categoryId=1005000"
+},
+{
+"highlight": false,
+"text": "服饰<br/>鞋包榜",
+"icon": "//yanxuan.nosdn.127.net/2318b65e996e14bc0707880040dfabb0.png",
+"url": "//you.163.com/item/saleRank?categoryId=1010000"
+},
+{
+"highlight": false,
+"text": "美食<br/>酒水榜",
+"icon": "//yanxuan.nosdn.127.net/8ca4557361e2fff394a5a94d0b73f3c6.png",
+"url": "//you.163.com/item/saleRank?categoryId=1005002"
+},
+{
+"highlight": false,
+"text": "数码<br/>家电榜",
+"icon": "//yanxuan.nosdn.127.net/270bc2465ac7eed90ada40c92166678b.png",
+"url": "//you.163.com/item/saleRank?categoryId=1043000"
+},
+{
+"highlight": false,
+"text": "个护<br/>清洁榜",
+"icon": "//yanxuan.nosdn.127.net/4723267aef758a7d805bb7c1447fdc44.png",
+"url": "//you.163.com/item/saleRank?categoryId=1013001"
+},
+{
+"highlight": false,
+"text": "运动<br/>旅行榜",
+"icon": "//yanxuan.nosdn.127.net/eec3af53eb17a4b117043e18ae7c7418.png",
+"url": "//you.163.com/item/saleRank?categoryId=109243029"
+},
+{
+"highlight": false,
+"text": "母婴<br/>亲子榜",
+"icon": "//yanxuan.nosdn.127.net/a94b2f7f7ada813ae9c93f84d3d60d6f.png",
+"url": "//you.163.com/item/saleRank?categoryId=1011000"
+},
+{
+"highlight": false,
+"text": "全球<br/>特色榜",
+"icon": "//yanxuan.nosdn.127.net/9cb33f543dddd54c7cc157d29650dbf4.png",
+"url": "//you.163.com/item/saleRank?categoryId=1019000"
+}
+]
+};
+window["commonLibTimestamp"] = "20191006221569506880849";
+window["ABTEST_DIS"] = "";
+</script>
+<script type="text/javascript" src="//yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/js/dist/yxComponent.all.min.js?v=20191006221569506880849"></script>
+<div id="fixedTool"></div> <script>
+var json_Data={"currentCategory":{"showIndex":11,"superCategoryId":0,"level":"L1","bannerUrl":"https://yanxuan.nosdn.127.net/f4ff8b3d5b0767d4e578575c1fd6b921.jpg","name":"餐厨","subCateGroupList":[],"iconUrl":"https://yanxuan.nosdn.127.net/ad8b00d084cb7d0958998edb5fee9c0a.png","id":1005001,"frontDesc":"厨房","subCateList":[],"frontName":""},"deliveryAreaList":[],"focusList":[],"categoryItemList":[],"pathList":[{"showIndex":11,"superCategoryId":0,"level":"L1","bannerUrl":"https://yanxuan.nosdn.127.net/f4ff8b3d5b0767d4e578575c1fd6b921.jpg","name":"餐厨","subCateGroupList":[],"iconUrl":"https://yanxuan.nosdn.127.net/ad8b00d084cb7d0958998edb5fee9c0a.png","id":1005001,"frontDesc":"厨房","subCateList":[],"frontName":""}]};
+json_Data.currentTimestamp = 1570370888301;
+</script>
+<script src="//yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/js/dist/item/list/index-489550785d.page.js" crossorigin></script>
+<script type="text/javascript">
+var currentPageIsIndex = false;
+</script>
+</body>
+</html>

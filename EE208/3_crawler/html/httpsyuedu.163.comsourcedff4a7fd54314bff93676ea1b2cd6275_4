@@ -1,0 +1,613 @@
+
+
+<!--书籍详情-->
+
+<!-- 最近更新 -->
+
+<!-- 图书作者简介 -->
+
+<!-- 书籍评论 -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+		<meta name="applicable-device" content="pc">
+		<title>人人都能梦的解析-高铭-电子书-在线阅读-网易云阅读</title>
+		<meta name="keywords" content="人人都能梦的解析，高铭，心理学，心理学，在线阅读，电子书,电子版,下载,购买,阅读"/>
+		<meta property="qc:admins" content="13454603154561636375" />
+		<meta name="description" content="人人都能梦的解析，梦是最深的真实。关于自己，你了解多少？
+
+这是一本写梦的书，以心理学奠基之作《梦的解析》为蓝本，通俗解读了这部伟大作品的核心观点。经历二十年的热心钻研，高铭用自己充满趣味的文字和始终不曾消减的好奇心，一层一层揭示了这部不朽巨著的精神内核，并以自己的梦与弗洛伊德的观点两相印证，谨慎又深入地触碰梦形成、运作与演变的肌理。梦的解析，人人皆可。只是，唯有勇敢的人，才能深入潜意识的水底，揭开自己到底是谁的秘密。"/>
+		<meta property="wb:webmaster" content="0e2d310a7690a84c" />
+		<link rel="shortcut icon" href="//yuedust.yuedu.126.net/favicon.ico?a7500236" />
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="//yuedust.yuedu.126.net/images/apple-touch-icon-114x114-precomposed.png?cdd9208d">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="//yuedust.yuedu.126.net/images/apple-touch-icon-72x72-precomposed.png?5d1cd236">
+		<link rel="apple-touch-icon-precomposed" href="//yuedust.yuedu.126.net/images/apple-touch-icon-precomposed.png?0c3d0745">
+<link type="text/css" rel="stylesheet" href="//yuedust.yuedu.126.net/js/gen/gen_db1d64e286ab2aed26fb9ef03344c65d.css?bf137879" />
+		<style>
+			#m-login form[name=frmLogin]{
+				display: none;
+			}
+		</style>
+		<link type="text/css" rel="stylesheet" href="//yuedust.yuedu.126.net/js/gen/gen_db9bd6e4afe77b197186c60cb86999f9.css?a002d7da" />
+
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-25074971-1'],['_setLocalGifPath', '/UA-25074971-1/__utm.gif'],['_setLocalRemoteServerMode']);
+			_gaq.push(['_addOrganic','baidu','word']);
+			_gaq.push(['_addOrganic','soso','w']);
+			_gaq.push(['_addOrganic','youdao','q']);
+			_gaq.push(['_addOrganic','sogou','query']);
+			_gaq.push(['_addOrganic','so.360.cn','q']);
+			_gaq.push(['_trackPageview']);
+			_gaq.push(['_trackPageLoadTime']);
+			(function() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;ga.src = 'https://wr.da.netease.com/ga.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();
+		</script>
+
+		<!-- 哈勃打点 -->
+		<script type="text/javascript">
+			(function(document,datracker,root){function loadJsSDK(){var script,first_script;script=document.createElement("script");script.type="text/javascript";script.async=true;script.src="https://hubble-js-bucket.nosdn.127.net/DATracker.globals.1.6.9.js";first_script=document.getElementsByTagName("script")[0];first_script.parentNode.insertBefore(script,first_script)}if(!datracker["__SV"]){var win=window;var gen_fn,functions,i,lib_name="DATracker";window[lib_name]=datracker;datracker["_i"]=[];datracker["init"]=function(token,config,name){var target=datracker;if(typeof(name)!=="undefined"){target=datracker[name]=[]}else{name=lib_name}target["people"]=target["people"]||[];target["abtest"]=target["abtest"]||[];target["toString"]=function(no_stub){var str=lib_name;if(name!==lib_name){str+="."+name}if(!no_stub){str+=" (stub)"}return str};target["people"]["toString"]=function(){return target.toString(1)+".people (stub)"};function _set_and_defer(target,fn){var split=fn.split(".");if(split.length==2){target=target[split[0]];fn=split[1]}target[fn]=function(){target.push([fn].concat(Array.prototype.slice.call(arguments,0)))}}functions="get_user_id track_heatmap register_attributes register_attributes_once clear_attributes unregister_attributes current_attributes single_pageview disable time_event get_appStatus track set_userId track_pageview track_links track_forms register register_once alias unregister identify login logout signup name_tag set_config reset people.set people.set_once people.set_realname people.set_country people.set_province people.set_city people.set_age people.set_gender people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.set_populationWithAccount  people.set_location people.set_birthday people.set_region people.set_account abtest.get_variation abtest.async_get_variable".split(" ");for(i=0;i<functions.length;i++){_set_and_defer(target,functions[i])}datracker["_i"].push([token,config,name])};datracker["__SV"]=1.6;loadJsSDK()}})(document,window["DATracker"]||[],window);
+			// 初始化
+			// 注意： 在Hubble平台创建一个类型为`Web`应用，复制对应的appkey，替换下面的 `88888888`
+			// truncateLength:上报数据字段的长度设置
+			// persistence: 存储到本地的方式
+			// cross_subdomain_cookie : 若是存储到cookie，是否支持跨二级域
+			DATracker.init('MA-891C-BF35BECB05C1', {truncateLength: 255,persistence: "localStorage",cross_subdomain_cookie: false});
+			window.hubbleLogYd = function () {
+				var _arguements = Array.prototype.slice.apply(arguments)
+				var evetId = _arguements[0]
+				var props = {
+					category: _arguements[1]
+				}
+				var regkey = /^[^\s:]+/
+				var regValue = /^[^\s:]+:/
+				for(var j = 2,len=_arguements.length; j < len; j++) {
+					var _argument = _arguements[j]
+					var keyMatch = _argument.match(regkey)
+					if (keyMatch) {
+						props[keyMatch[0]] = _argument.replace(regValue, '')
+					}
+				}
+				console.log(props)
+				DATracker.track(evetId, props)
+			}
+		</script>
+
+		<script>
+			var defaultHeadUrl = 'https://yuedust.yuedu.126.net/images/txdefault.png?$IMG_V';
+		</script>
+		<!--[if lte IE 8]>
+		  	<script src="//yuedust.yuedu.126.net/js/vendor/json2.js?92acd921"></script>
+	    	<script src="//yuedust.yuedu.126.net/assets/js/es5/es5-shim-4.1.9.min.js?74a35b2f"></script>
+			<script src="//yuedust.yuedu.126.net/assets/js/es5/es5-sham-4.1.9.min.js?6bbb6d8d"></script>
+			<style>.ng-hide{display:none !important;}</style>
+	    <![endif]-->
+<script type="text/javascript" src="//yuedust.yuedu.126.net/js/gen/gen_8ed5e4ed3bae882339e2b745dfe253a8.js?7ca85954"></script>
+		<style>
+			.g-bdw{margin-bottom:40px;}
+		</style>
+	</head>
+
+	<body id="page-163-com"  class="page-bookSource ">
+		<noscript><a href="#">请使用支持脚本的浏览器！</a></noscript>
+    	<div style="display: none;"><input type="password" /></div>
+		<div class="g-doc">
+			<div id="J_FIXED" class="m-tipss" style="display:none;">
+				<div id="J_TIPS" class="inner"></div>
+			</div>
+
+<div class="g-hdw">
+	<div id="J_Header" class="g-hd">
+		<div class="m-topbar">
+			<div class="inner f-cb"></div>
+		</div>
+		<div class="m-headertop">
+			<div class="inner">
+				<h1 class="m-logo"><a href="/">网易阅读</a></h1>
+				<div class="m-sch">
+				</div>
+				<div class="m-clouds">
+					<a class="m-cloudsj" href="/shelf.do?operation=query_current" target="_blank">我的书架</a>
+				</div>
+			</div>
+		</div>
+		<div class="m-headerbottom">
+			<div class="inner">
+				<ul class="m-mianlist">
+					<li><a class="" href="/index" onclick="_gaq.push(['_trackEvent', 'navi', 'home']);">首页</a></li>
+					<li><a class="crt" href="/book" onclick="_gaq.push(['_trackEvent', 'navi', 'publish']);">出版图书</a></li>
+					<li><a class="" href="/yc" onclick="_gaq.push(['_trackEvent', 'navi', 'yc']);">国风中文网</a></li>
+					<li><a class="" href="/ycmm" onclick="_gaq.push(['_trackEvent', 'navi', 'ycmm']);">采薇书院</a></li>
+					<li><a class="" href="/rank" onclick="_gaq.push(['_trackEvent', 'navi', 'rank']);">排行榜</a></li>
+					<li class="fr"><a href="/client" target="_blank" onclick="_gaq.push(['_trackEvent', 'navi', 'client']);"><b class="icon-download"></b>客户端</a></li>
+					<li class="fr"><a class="" href="/recharge.do?operation=form" onclick="_gaq.push(['_trackEvent', 'navi', 'recharge']);"><b class="icon-recharge"></b>充值</a></li>
+					<li class="fr"><a href="http://open.yuedu.163.com/" target="_blank" onclick="_gaq.push(['_trackEvent', 'navi', 'open']);"><b class="icon-open"></b>作者中心</a></li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+	
+</div>
+
+    <div class="g-bdw g-bdw-1">
+        <div class="g-bd-large g-bd f-cb">
+    <div class="m-breadcrumbs">当前位置：
+        <a href="/book">出版图书</a><span class="sep">&gt;</span>
+                <a href="/book/category/category/2300">人文社科</a><span class="sep">&gt;</span>
+                <a href="/book/category/category/2300/2310">心理学</a><span class="sep">&gt;</span>
+    人人都能梦的解析
+    </div>
+        <div class="g-sd">
+            <!-- 书籍状态 -->
+    <div class="m-bookstatus">
+        <i class="angle-r"></i><i class="angle-inner-r"></i>
+        <div class="starlevel">
+            <div class="f-star">
+                        <span>&nbsp;</span>
+                        <span>&nbsp;</span>
+                        <span>&nbsp;</span>
+                        <span class="no">&nbsp;</span>
+                        <span class="no">&nbsp;</span>
+            </div>
+            <span class='score'>6.0</span>
+            <span class="num">2人评分</span>
+        </div>
+        <table>
+            <tr>
+                <td>字数：</td><td>18.7万</td>
+            </tr>
+            <tr>
+                <td>点击：</td><td>237.1万</td>
+            </tr>
+                <tr>
+                    <td>分类：</td>
+                    <td><a href="/book/category/category/2310">心理学</a></td>
+                </tr>
+            <tr>
+                <td valign="top">标签：</td>
+                <td>
+                    <div class="m-tags">
+                            <a class='u-tag' href="/search.do?key=%E5%BF%83%E7%90%86%E5%AD%A6&type=4" onclick="_gaq.push(['_trackEvent', 'booksource', 'tag','心理学']);">心理学</a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+            <!-- 作者相关信息 -->
+            <!-- 本书粉丝榜 -->
+            <!-- 编辑推荐 -->
+        </div>
+        <div class="g-mn">
+            <!-- 书籍信息 -->
+        <div class="m-bookdetail" id="identify" data-uuid="dff4a7fd54314bff93676ea1b2cd6275_4" data-partner=70731001 >
+            <a href="javascript:;" class="cover">
+                <img src="https://easyreadfs.nosdn.127.net/x6vjlKkQvQo-3INCJXNkcw==/8796093024714545562" width="172" height="237" alt="人人都能梦的解析"/>
+            </a>
+            <div class="f-fl" style="width:506px;">
+                <h3 title="人人都能梦的解析"><em>人人都能梦的解析</em><span><a href="/search.do?operation=exact&kind=author&type=4&word=%E9%AB%98%E9%93%AD">高铭</a>&nbsp;&nbsp;著</span></h3>
+                <div class="description j-desc">
+                        梦是最深的真实。关于自己，你了解多少？</br>这是一本写梦的书，以心理学奠基之作《梦的解析》为蓝本，通俗解读了这部伟大作品的核心观点。经历二十年的热心钻研，高铭用自己充满趣味的文字和始终不曾消减的好奇心，一层一层揭示了这部不朽巨著的精神内核，并以自己的梦与弗洛伊德的观点两相印证，谨慎又深入地触碰梦形成、运作与演变的肌理。梦的解析，人人皆可。只是，唯有勇敢的人，才能深入潜意识的水底，揭开自己到底是谁的秘密。
+                    <a class="btn btn-unfold j-desc-unfold" href="javascript:;"><b></b><em>[展开]</em></a>
+                    <a class="btn btn-fold j-desc-fold" href="javascript:;"><b></b><em>[收起]</em></a>
+                </div>
+                <div class="ops" id="J_ops">
+                        <a href="/book_reader/dff4a7fd54314bff93676ea1b2cd6275_4" class="btn btn-main-fill" id="J_readNow" target="_blank" onclick="_gaq.push(['_trackEvent', 'booksource', 'read']);">立即阅读</a>
+                             <a href="javascript:;" class="btn btn-main-stroke j-addSub" id="J_addSub" data-id="dff4a7fd54314bff93676ea1b2cd6275_4" data-imgsrc="https://easyreadfs.nosdn.127.net/x6vjlKkQvQo-3INCJXNkcw==/8796093024714545562" onclick="_gaq.push(['_trackEvent', 'booksource', 'add2bookrack']);">加入书架</a>
+                    
+                    
+                    <a href="javascript:;" class="op phone" onmouseover="_gaq.push(['_trackEvent', 'booksource', '  mobileread']); ">手机阅读
+                        <div class="QR">
+                            <em></em>
+                            <img src="https://yuedust.yuedu.126.net/assets/images/bookSource/QR_bsrc.png"/>
+                            <p>扫一扫下载客户端</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+            <!--原创的最近更新-->
+           <!-- 月票、打赏、章节赠送 -->
+<!--月票、打赏、章节赠送-->
+            <!--目录-->
+        <div class="m-directory m-directory-bookdetail">
+            <ul class="menu f-cb">
+                <li>目录<span>(58章)</span></li>
+                <!-- <li class="sep">|</li>
+                <li><a href="#J_CommentSection">评论<span class="J_ComtNum">(1条)</span></a></li> -->
+            </ul>
+            <div class="directory j-directory-wrap">
+                <ul class="f-cb">
+                </ul>
+            </div>
+        </div>
+    <script type="text/template" id="j-template-directory-bookdetail">
+        <% if(catalog.length){ %>
+            <ul class="f-cb<% if(book.showMore){ %> more<% } if(book.createBy != 1) { %> book<% } %>">
+            <% if(book.maxLevel > 1){ %>
+                <% for(var i = 0, length = catalog.length; i < length; i++){ %>
+                    <% if(!!catalog[i].grade && catalog[i].grade != book.maxLevel) { %>
+                        <% if(book.maxLevel == 2) {%>
+                            <li class="title-1<% if(catalog[i].needPay && !catalog[i].paid){ %> vip<% } if(catalog[i].oddFlag) { %> odd<% } else { %> even<% } %>">
+                            <a href="/book_reader/<%= book.sourceUuid %>/<%= catalog[i].uuid %>" target="_blank" title="<%= catalog[i].title %>" onclick="_gaq.push(['_trackEvent', 'booksource', 'category', 'list']);"><span><%= catalog[i].title %></span></a>
+                            <span class="sep<% if(catalog[i].needPay && !catalog[i].paid){ %> lock<% } %>"></span>
+                            </li>
+                        <%}else{%>
+                            <%if(catalog[i].grade == 1){%>
+                                <li class="title-1<% if(catalog[i].needPay && !catalog[i].paid){ %> vip<% } if(catalog[i].oddFlag) { %> odd<% } else { %> even<% } %>">
+                                <a href="/book_reader/<%= book.sourceUuid %>/<%= catalog[i].uuid %>" target="_blank" title="<%= catalog[i].title %>" onclick="_gaq.push(['_trackEvent', 'booksource', 'category', 'list']);"><span><%= catalog[i].title %></span></a>
+                                <span class="sep<% if(catalog[i].needPay && !catalog[i].paid){ %> lock<% } %>"></span>
+                                </li>
+                            <%}else{%>
+                                <li class="title-2<% if(catalog[i].needPay && !catalog[i].paid){ %> vip<% } if(catalog[i].oddFlag) { %> odd<% } else { %> even<% } %>">
+                                <a href="/book_reader/<%= book.sourceUuid %>/<%= catalog[i].uuid %>" target="_blank" title="<%= catalog[i].title %>" onclick="_gaq.push(['_trackEvent', 'booksource', 'category', 'list']);"><span><%= catalog[i].title %></span></a>
+                                <span class="sep<% if(catalog[i].needPay && !catalog[i].paid){ %> lock<% } %>"></span>
+                                </li>
+                            <% } %>
+                        <% } %>
+                    <% } else { %>
+                        <li class="item<% if(catalog[i].needPay && !catalog[i].paid){ %> vip<% } if(catalog[i].lastItem){ %> last<% } if(catalog[i].oddFlag) { %> odd<% } else { %> even<% } %>">
+                            <% if(catalog[i].emptyFlag != true) { %>
+                                <a href="/book_reader/<%= book.sourceUuid %>/<%= catalog[i].uuid %>" target="_blank" title="<%= catalog[i].title %>" onclick="_gaq.push(['_trackEvent', 'booksource', 'category', 'list']);">
+                                    <span class="title-2"><%= catalog[i].title %></span>
+                                    <span class="sep<% if(catalog[i].needPay && !catalog[i].paid){ %> lock<% } %>"></span>
+                                    <%if(book.createBy == 1) { %>
+                                        <span class="time"></i><%= catalog[i].publishTime %></span>
+                                    <% } %>
+                                </a>
+                            <% } %>
+                        </li>
+                    <% } %>
+                <% } %>
+            <% } else { %>
+                <% for(var i = 0, length = catalog.length; i < length; i++){ %>
+                    <li class="item<% if(catalog[i].needPay && !catalog[i].paid){ %> vip<% } if((i+1) % 2 == 0){ %> last<% } if(catalog[i].oddFlag) { %> odd<% } else { %> even<% } %>">
+                    <% if(catalog[i].emptyFlag != true) { %>
+                        <% if(book.bookType == 1) { %>
+                            <a href="/book_reader/<%= book.sourceUuid %>/<%= i %>" target="_blank" title="第<%= i %>页" onclick="_gaq.push(['_trackEvent', 'booksource', 'category', 'list']);">
+                            <span class="title-2">第<%= i %>页</span>
+                            <span class="sep<% if(catalog[i].needPay && !catalog[i].paid){ %> lock<% } %>"></span>
+                            </a>
+                        <% } else { %>
+                            <a href="/book_reader/<%= book.sourceUuid %>/<%= catalog[i].uuid %>" target="_blank" title="<%= catalog[i].title %>" onclick="_gaq.push(['_trackEvent', 'booksource', 'category', 'list']);">
+                            <span class="title-2"><%= catalog[i].title %></span>
+                            <span class="sep<% if(catalog[i].needPay && !catalog[i].paid){ %> lock<% } %>"></span>
+                            <span class="time"></i><%= catalog[i].publishTime %></span>
+                            </a>
+                        <% } %>
+                    <% } %>
+                    </li>
+                <% } %>
+            <% } %>
+        </ul>
+        <% if(book.showMore) { %>
+                <a <% if (book.createBy == 1) { %>href="/newBookReader.do?operation=catalog&sourceUuid=<%= book.sourceUuid %>" target="_blank" <% } %> class="morebtn<% if (book.createBy != 1) { %> j-showmore<% } %>" onclick="_gaq.push(['_trackEvent', 'booksource', 'category', 'all']);">更多目录<i class="arrow<% if (book.createBy == 1) { %> arrow-left<% } else { %> arrow-down<% } %>">&gt;</i>
+            </a><% } %>
+        <% }else{ %>
+            <div class="empty">
+            <img src="//yuedust.yuedu.126.net/assets/images/bookSource/empty.png?644fcb25" />
+            <p>暂无目录</p>
+            </div>
+        <% } %>
+    </script>
+<script type="text/javascript" src="//yuedust.yuedu.126.net/js/gen/gen_b30d4803296375e05e7f145dfc781000.js?e05af4e7"></script>
+    <script type="text/javascript">
+        directoryConfig = {
+            wrap:     '.j-directory-wrap',
+            type:     'directoryBookdetail',
+            module:     'book', // yc / book
+            maxLine:    15,
+            maxRow:     2,
+            templateId: 'j-template-directory-bookdetail',
+            getDataUrl: '/newBookReader.do?operation=info&sourceUuid=dff4a7fd54314bff93676ea1b2cd6275_4&catalogOnly=true' // 多级目录效果 （单级目录效果:directory2.json）
+        }
+        new Directory(directoryConfig);
+    </script>
+            <!--图书的作者简介-->
+        <div class="m-bookauthor">
+            <h4>作者简介</h4>
+            <div class="f-border detail">
+                <div class="txt">
+                    <p>
+                    高铭，男，汉族。生于20世纪70年代的北京。自认为死心眼一根筋，对于探索未知事物总是有无尽渴望。成年后沉迷于宗教、哲学、量子物理、非线性动力学、心理学、生物学和天体物理等学科。21世纪以来又开始对精神病患、心理障碍以及边缘人的内心世界产生了强烈好奇，就此开始深入研究精神分析和弗洛伊德，并颇有独特见地，最终着成此书。</p><br/><p>高铭著有畅销书《天才在左 疯子在右》，此书一经出版即引起各界关注和讨论，并对很多人的价值观造成深刻影响。
+                    </p>
+                </div>
+            </div>
+        </div>
+            <!--评论-->
+    <div id="J_CommentSection" class="m-detail-comments">
+        <h3>评论<span>0</span></h3>
+        <div class='comment_none'></div>
+        <p class='comment_text_none'>扫码下载网易云阅读</p>
+    </div>
+        </div>
+        </div>
+    </div>
+
+<script type="text/javascript" src="//yuedust.yuedu.126.net/js/gen/gen_d559604b6c10eec7f74685585fce833e.js?f4be8486"></script>
+
+
+				<div class="g-ftw">
+        <div class="g-ft" class="f-cb">
+            <div class="m-foot">
+                <p class="link">
+                    <a href="http://www.163.com" target="_blank">网易首页</a><span class="sep">|</span>
+                    <a href="http://gb.corp.163.com/gb/about/overview.html" target="_blank">公司简介</a><span class="sep">|</span>
+                    <a href="http://help.163.com/" target="_blank">客户服务</a><span class="sep">|</span>
+                    <a href="http://corp.163.com/gb/legal/legal.html" target="_blank">相关法律</a><span class="sep">|</span>
+                    <a href="http://sitemap.163.com/" target="_blank">网站导航</a><span class="sep">|</span>
+                    <a id="J_Service" href="javascript:void(0);">客服电话</a><span class="sep">|</span>
+                    <a href="/help" target="_blank">帮助中心</a><span class="sep">|</span>
+                    <a href="http://open.yuedu.163.com/" target="_blank">作者中心</a>
+                </p>
+            </div>
+            <div class="m-right"><p>网易公司版权所有&#169;1997-<span id="j-year">2017</span> &nbsp;&nbsp;网络出版服务许可证（总）网出证（粤）字第030号  &nbsp;&nbsp;信息网络传播视听节目许可证号1908260  &nbsp;&nbsp;增值电信业务经营许可证 粤B2-20090191</p></div>
+            <div class="m-share f-cb" >
+                <label>分享到：</label>
+                <div class="share"><a href="javascript:;" class="s2 j-wxwx" data-type="xo">微信</a></div>
+                <div class="share"><a href="javascript:;" class="s4 j-yxyx" data-type="xo">易信</a></div>
+                <div class="share"><a id="_share_b_tsina" href="javascript:(function(){window.open('http://v.t.sina.com.cn/share/share.php?appkey=1560988037&url='+encodeURIComponent('https://yuedu.163.com/')+'&title='+encodeURIComponent('网易云阅读内容丰富、操作便捷，适合作为平时阅读、充电的软件工具，推荐大家都来下载！')+'&pic='+encodeURIComponent('https://yuedust.yuedu.126.net/images/weibo_v3.jpg?2_20120731162723'),'_blank');})()" class="s1">微博</a></div>
+                <div class="share"><a href="javascript:(function(){window.open('http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?site='+encodeURIComponent('网易云阅读官方网站')+'&url='+encodeURIComponent('https://yuedu.163.com/')+'&title='+encodeURIComponent('网易云阅读--随时随地，品质阅读')+'&pics='+encodeURIComponent('https://yuedust.yuedu.126.net/images/weibo_v3.jpg?3_20131202100833')+'&summary='+encodeURIComponent('网易云阅读内容丰富、操作便捷，适合作为平时阅读、充电的软件工具，推荐大家都来下载！'),'_blank');})()" class="s3">QQ空间</a></div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="m-pop-qr ma" id="J_WXM" style="display:none;"><a class="close" href="javascript:;"></a></div>
+    <div class="m-pop-qr ma2" id="J_YXM" style="display:none;"><a class="close" href="javascript:;"></a></div>
+    <div class="m-pop-qr ma3" id="J_WBM" style="display:none;"><a class="close" href="javascript:;"></a></div>
+    <div id="J_ServiceNum" class="m-layer m-layer-5" style="display:none;">
+        <div class="inner">
+            <div class="up"><a href="javascript:void(0);"></a></div>
+            <div class="down">
+                <p>购买书籍后无法阅读等问题<br /></p>
+                <p>可拨打：0571-89853801</p>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript">
+ document.getElementById('j-year').innerText = new Date().getFullYear();
+</script>
+			
+			<div id="J_rightsidebar"></div>
+
+			<!--[if IE 6]>
+			<script type="text/javascript" src="//yuedust.yuedu.126.net/js/pngfix.js?d59ab621"></script>
+			<![endif]-->
+<script type="text/javascript" src="//yuedust.yuedu.126.net/js/gen/gen_e7cd1b5996feb5f3daa6abd18c3dd7a3.js?a32ec1bb"></script>
+				<script type="text/javascript">
+					new SearchWidget();
+				</script>
+			<script>
+				// YD.initZoom();
+				// logInfo.init();
+				// YD.Header.toggleFixHeader();
+				// YD.Header.toggleMoreHeaderMenu();
+			</script>
+			<script>
+				var G_USER = (function getLoginInfo(){
+				var e = {
+		          isLogin: !1,
+		          userId: null
+		      },
+		      t=$.cookie("P_INFO"),
+		      n=$.cookie("S_INFO");
+		      if(t){
+		        t=t.split("|"),
+		        e.userId=t[0];
+		        if(t[2]==1||t[2]==0&&n)
+		          e.isLogin=!0
+		      }
+		      return e;
+		    })();
+		    </script>
+
+		</div>
+
+		<div id="login-layer" class="m-login-layer m-login-layer-wy" style="display: none;">
+		    <div class="lytt yy"><a class="lyclose j-close" style="display:block;">关闭</a>
+		        <h4>网易邮箱登录</h4></div>
+		    <div class="content">
+		        <div class="m-loginwrap">
+		        	<div class="m-loginwrap__main">
+		        		<div class="m-login" id="login-container" style="width: 300px;">
+		        		    
+		        		</div>
+		        	</div>
+		            <div class="m-loginswitch">
+		                <h6>其他帐号登录：</h6>
+		                <ul>
+		                    <li class="sj"><a><span class="login-icon"></span><div>手机号</div></a></li>
+		                    <li class="xl xllogin"><a><span class="login-icon"></span><div>新浪微博</div></a></li>
+		                    <li class="wx wxlogin"><a><span class="login-icon"></span><div>微信</div></a></li>
+		                </ul>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+
+		<div id="eroTip" style="display:none;" class="m-layer m-layer-3">
+			<div class="lytt yy"><h4></h4><a href="#" class="lyclose j-close">关闭</a></div>
+			<div class="lyct">
+				<div class="m-actip">
+					<h3></h3>
+					<a href="#" class="btn j-close">我知道了</a>
+				</div>
+			</div>
+			<div class="lybt">
+				<button class="j-close">我知道了</button>
+			</div>
+		</div>
+		<div id="openFirst" class="m-open m-open-1 f-dn">
+			<div class="inner">
+			<h4>Hi，，</h4>
+			<div class="tx"><img src="//yuedust.yuedu.126.net/images/txdefault.png?9b117455" /></div>
+			<p class="id"></p>
+			<a class="ok closeit_first_login"></a>
+			<a class="clbtn closeit_first_login"></a>
+
+			</div>
+		</div>
+		<div id="layer4" class="m-newlayer m-newlayer-s3" style="display:none;">
+			<h2><span>订阅成功</span><a class="lyclose" href="javascript:void(0)"></a></h2>
+			<div class="inner">
+				<div class="m-addyuan">
+					<div class="m-inf">
+						<div class="w-img">
+							<img src="https://easyreadfs.nosdn.127.net/L7UMtMO6H4adgKkFh4SroQ==/3942338523811683680" alt="">
+							<div class="tick"></div>
+						</div>
+						<div class="txt">
+							<h4></h4>
+							<div class="w-star w-star1"></div>
+							<br>
+							<div class="has"><span></span>人订阅</div>
+						</div>
+					</div>
+					<div class="fromto"></div>
+					<div class="pmsg">
+						<p class="acn"></p>
+					</div>
+					<p class="tip">在客户端“资讯”首页刷新后,即可阅读此内容。</p>
+					<div class="button">
+						<a class="ok lyclose" href="javascript:;">我知道了</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="J_Success" class="m-newlayer m-booklayer-2 m-newlayer-s3" style="display:none;">
+		    <h2><span>放入书架</span><a class="lyclose j-close" href="javascript:void(0)"></a></h2>
+		    <div class="inner">
+		        <div class="m-addyuan">
+					<div class="m-bookele m-bookele-1" style="float:left;">
+						<div class="w-bimg w-bimg-m f-db2">
+							<a href="#"><img src="https://yuedust.yuedu.126.net/images/bookDefaultIcon.png?$IMG_V" alt=""></a>
+							<span class="tick"></span>
+						</div>
+						<div class="t-info">
+							<h3></h3>
+							<div class="w-star w-star1"></div>
+							<p></p>
+						</div>
+					</div>
+
+					<div class="fromto"></div>
+					<div class="pmsg">
+						<p class="acn"></p>
+					</div>
+					<p class="tip">在客户端“书籍”首页刷新后，即可阅读此书籍。</p>
+					<div class="button">
+						<a class="ok lyclose" href="javascript:;">我知道了</a>
+					</div>
+		        </div>
+		    </div>
+		</div>
+
+		<div id="layer7" style="display:none;" class="m-layer m-layer-2">
+		    <div class="lytt yy"><h4>订阅成功</h4><a href="#" class="lyclose j-close">关闭</a></div>
+		    <div class="lyct">
+		        <div class="m-steps">
+					<p>还差两步，你就能在客户端上阅读此内容。</p>
+					<div class="illus"></div>
+					<div class="bt">
+						<button class="j-close" type="button">知道了</button>
+					</div>
+		        </div>
+		    </div>
+		    <div class="lybt">
+		        <button class="j-close">我知道了</button>
+		    </div>
+		</div>
+		<div id="infoTip" style="display:none;" class="m-layer m-layer-2 m-layer-4">
+		    <div class="lytt yy"><h4>提示</h4><a href="#" class="lyclose j-close">关闭</a></div>
+		    <div class="lyct">
+		        <div class="m-removeyuan">
+					<h3 style="line-height:26px;height:71px;"></h3>
+					<div class="bt">
+						<button class="j-close">知道了</button>
+					</div>
+		        </div>
+		    </div>
+		    <div class="lybt">
+		        <button class="j-close">我知道了</button>
+		    </div>
+		</div>
+		<div id="sucTip" style="display:none;" class="m-layer m-layer-3">
+		    <div class="lytt yy"><h4></h4><a href="#" class="lyclose j-close">关闭</a></div>
+		    <div class="lyct">
+		        <div class="m-actip m-actip-1">
+		            <h3>排序保存成功！</h3>
+					<a href="#" class="btn j-close">我知道了</a>
+		        </div>
+		    </div>
+		    <div class="lybt">
+		        <button class="j-close">我知道了</button>
+		    </div>
+		</div>
+		<div id="J_IntroS1" class="m-newintro m-newintro-1" style="display:none;">
+			<div class="inner">
+				<a class="close-s" href="javascript:;"></a>
+				<a class="next" href="javascript:;"></a>
+			</div>
+		</div>
+		<div id="J_IntroS2" class="m-newintro m-newintro-2" style="display:none;">
+			<div class="inner">
+				<a class="close-s" href="javascript:;"></a>
+				<a class="close-s close-ss" href="javascript:;"></a>
+			</div>
+		</div>
+		<div id="blacklistcmtTip" class="m-newlayer m-newlayer-s2" style="display:none;">
+			<h2><span>提示</span><a href="javascript:void(0)" class="j-close"></a></h2>
+			<div class="inner">
+				<div class="content">
+					<p>您的帐号因发表不适宜的言论，评论已被禁止。</p>
+					<p>如有任何问题请邮件至reader@188.com反馈给我们。谢谢~</p>
+					<div class="f-cb">
+						<a class="j-close btn-cmt btn-primary-cmt">确定</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<input id="J_IFIE6" type="hidden" value="no"/>
+		<div class="m-mask f-dn"></div>
+		<script type="text/javascript">
+			jQuery(function() {
+
+				jQuery('.w-ding, .w-ding-has').live('click', function() {
+					var jq = jQuery(this);
+					var jqNum = jq.parent().parent().find('.has span');
+					onSubOrUnsubSource(jq, jqNum, null, 'w-ding-has');
+				});
+
+				jQuery('.w-ding, .w-ding-has, .o1, .o3').bind('mouseover', function() {
+					var jq = jQuery(this);
+					if (jq.hasClass('w-ding-has') || jq.hasClass('o3')) {
+						jq.text('取消订阅');
+					}
+				}).bind('mouseout', function() {
+					var jq = jQuery(this);
+					if (jq.hasClass('w-ding-has') || jq.hasClass('o3')) {
+						jq.text('已经订阅');
+					}
+				});
+
+				jQuery('.m_bksub').live('click', function() {
+					var jq = jQuery(this);
+					subscribeBook(jq, 's1', 's2');
+				});
+
+				jQuery('.m-share .share a, #get-yd').bind('click', function() {
+					if (this.id) {
+						logRequest(this.id);
+					}
+				});
+
+				var hideLog = function(){
+					$('#J_tb .options .ll').hide();
+					$('#J_tb .options').css({'height':'auto'})
+				};
+			});
+		</script>
+	</body>
+</html>

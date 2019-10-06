@@ -498,7 +498,7 @@ VIP福利专区</a>
 <a class="create-doc log-xsend" data-logxsend="[1, 101746,{index: 2}]" data-href="/user/browse/editordoc?fr=home">创建文档<span class="ui-bz-new-ic"></span></a>
 </div>
 </div>
-<p class="doc-num" id="total-docnum" data-docnum="577,410,480"></p>
+<p class="doc-num" id="total-docnum" data-docnum="577,524,147"></p>
 </div>
 <div class="mod loginMod login_tabs0" id="loginNew">
 
@@ -815,7 +815,7 @@ PDF/Word/Excel/PPT无限次转化
 </a>
 <div class="brief">
 <p>来自机构&nbsp;<a href="/org/view?org=lyqkw" target="_blank">龙源期刊网</a><b class="bg-index ic-vrfeh"></b></p>
-<p><span>贡献<b>7887556</b>篇文档</span></p>
+<p><span>贡献<b>7887553</b>篇文档</span></p>
 </div>
 </div>
 </div>
@@ -1408,6 +1408,43 @@ PDF/Word/Excel/PPT无限次转化
 </dl>
 <dl class="author-list">
 <dt class="clearfix">
+<a href="/p/%D7%E9%BE%ED%CD%F8" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/6159252dd42a2834391847fe59b5c9ea14cebf8c.jpg" title="张奉生" alt="张奉生" /></a>
+<div class="brief">
+<p><a href="/p/%D7%E9%BE%ED%CD%F8" target="_blank">张奉生</a><b class="bg-index ic-vrf"></b></p>
+<p title="一级教师">一级教师</p>
+<p>
+<span><b>313</b>篇文档</span>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index half"></b>
+4.1
+</p>
+</div>
+</dt>
+<dd>
+<ul>
+<li>
+<span class="score"><b>4.4</b>分</span>
+<span class="ic ic-doc"></span>
+<a href="/view/56d9936655270722182ef74b.html" target="_blank" title="辽宁省大连市第二十高级中学2014-2015学年高二上学期期末考试化学试题 Word版含答案">辽宁省大连市第二十高级中学...</a>
+</li>
+<li>
+<span class="score"><b>4.4</b>分</span>
+<span class="ic ic-doc"></span>
+<a href="/view/72f4326b4b35eefdc8d33376.html" target="_blank" title="高考理综化学 考场易丢分的30个小细节">高考理综化学 考场易丢分的3...</a>
+</li>
+<li>
+<span class="score"><b>4.4</b>分</span>
+<span class="ic ic-doc"></span>
+<a href="/view/5982bf9cf90f76c661371ac3.html" target="_blank" title="山东省实验中学2015届高三上学期第二次诊断性(期中)考试化学试题word版含答案">山东省实验中学2015届高三上...</a>
+</li>
+</ul>
+</dd>
+</dl>
+<dl class="author-list">
+<dt class="clearfix">
 <a href="/p/okdoor99999" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/d043ad4bd11373f011dd00f9a50f4bfbfaed04f1.jpg" title="王高翔" alt="王高翔" /></a>
 <div class="brief">
 <p><a href="/p/okdoor99999" target="_blank">王高翔</a><b class="bg-index ic-vrf"></b></p>
@@ -1445,55 +1482,18 @@ PDF/Word/Excel/PPT无限次转化
 </dl>
 <dl class="author-list">
 <dt class="clearfix">
-<a href="/p/zjy0111" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/34fae6cd7b899e5116d8c5cc40a7d933c9950d97.jpg" title="张建勇" alt="张建勇" /></a>
+<a href="/p/will_cyy" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/6f061d950a7b020808e4a7aa60d9f2d3572cc848.jpg" title="曹亚云" alt="曹亚云" /></a>
 <div class="brief">
-<p><a href="/p/zjy0111" target="_blank">张建勇</a><b class="bg-index ic-vrf"></b></p>
-<p title="一线教师">一线教师</p>
-<p>
-<span><b>29</b>篇文档</span>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index half"></b>
-4.4
-</p>
-</div>
-</dt>
-<dd>
-<ul>
-<li>
-<span class="score"><b>4.4</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/fd6b6900581b6bd97f19ea8e.html" target="_blank" title="历年中考碳金属 题目集">历年中考碳金属 题目集</a>
-</li>
-<li>
-<span class="score"><b>4.4</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/3e6d30b2fd0a79563c1e72bd.html" target="_blank" title="全国中考中考化学题目类型总结之--酸碱盐">全国中考中考化学题目类型总...</a>
-</li>
-<li>
-<span class="score"><b>2.1</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/d3076f184431b90d6c85c722.html" target="_blank" title="初中化学常见物质名称化学式及离子化学式">初中化学常见物质名称化学式...</a>
-</li>
-</ul>
-</dd>
-</dl>
-<dl class="author-list">
-<dt class="clearfix">
-<a href="/p/%B9%F9%BA%A3%D1%E0%CE%C4%BF%E2" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/960a304e251f95cacba63bb1cb177f3e67095261.jpg" title="郭海燕" alt="郭海燕" /></a>
-<div class="brief">
-<p><a href="/p/%B9%F9%BA%A3%D1%E0%CE%C4%BF%E2" target="_blank">郭海燕</a><b class="bg-index ic-vrf"></b></p>
+<p><a href="/p/will_cyy" target="_blank">曹亚云</a><b class="bg-index ic-vrf"></b></p>
 <p title="一级教师">一级教师</p>
 <p>
-<span><b>55</b>篇文档</span>
+<span><b>268</b>篇文档</span>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index half"></b>
-4.1
+4.7
 </p>
 </div>
 </dt>
@@ -1502,66 +1502,29 @@ PDF/Word/Excel/PPT无限次转化
 <li>
 <span class="score"><b>4.4</b>分</span>
 <span class="ic ic-doc"></span>
-<a href="/view/78a2d711bcd126fff7050b65.html" target="_blank" title="全国一等奖《摩擦力》教学设计">全国一等奖《摩擦力》教学设...</a>
+<a href="/view/af5fcd51eff9aef8941e06ba.html" target="_blank" title="3-7第七节 正弦定理、余弦定理应用举例练习题(2015年高考总复习)">3-7第七节 正弦定理、余弦定...</a>
 </li>
 <li>
-<span class="score"><b>4.5</b>分</span>
+<span class="score"><b>4.4</b>分</span>
 <span class="ic ic-doc"></span>
-<a href="/view/e2d7a305b90d6c85ec3ac6fe.html" target="_blank" title="省一等奖教学设计《浮力》">省一等奖教学设计《浮力》</a>
+<a href="/view/483ee481195f312b3169a57c.html" target="_blank" title="3-5第五节 三角恒等变换练习题(2015年高考总复习)">3-5第五节 三角恒等变换练习...</a>
 </li>
 <li>
-<span class="score"><b>2.1</b>分</span>
+<span class="score"><b>4.4</b>分</span>
 <span class="ic ic-doc"></span>
-<a href="/view/2139daa5172ded630a1cb648.html" target="_blank" title="中考物理易错点100例">中考物理易错点100例</a>
+<a href="/view/3c6a2819767f5acfa1c7cdd6.html" target="_blank" title="4-4第四节 数系的扩充与复数的引入练习题(2015年高考总复习)">4-4第四节 数系的扩充与复数...</a>
 </li>
 </ul>
 </dd>
 </dl>
 <dl class="author-list">
 <dt class="clearfix">
-<a href="/p/%D0%EC%C2%D7%CE%B0" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/908fa0ec08fa513de3aa328d3c6d55fbb2fbd965.jpg" title="徐伦伟" alt="徐伦伟" /></a>
+<a href="/p/hc_cxq" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/9a504fc2d562853574b8143493ef76c6a7ef634f.jpg" title="曹旭强" alt="曹旭强" /></a>
 <div class="brief">
-<p><a href="/p/%D0%EC%C2%D7%CE%B0" target="_blank">徐伦伟</a><b class="bg-index ic-vrf"></b></p>
-<p title="一线教师">一线教师</p>
-<p>
-<span><b>6058</b>篇文档</span>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index half"></b>
-4.1
-</p>
-</div>
-</dt>
-<dd>
-<ul>
-<li>
-<span class="score"><b>4.4</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/b69dae697375a417866f8fea.html" target="_blank" title="六级阅读理解100篇文本">六级阅读理解100篇文本</a>
-</li>
-<li>
-<span class="score"><b>4.4</b>分</span>
-<span class="ic ic-ppt"></span>
-<a href="/view/d170f830f242336c1eb95e99.html" target="_blank" title="国际金融第10讲：影响汇率的因素">国际金融第10讲：影响汇率的...</a>
-</li>
-<li>
-<span class="score"><b>4.5</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/1ee9ea612f60ddccda38a0fe.html" target="_blank" title="新课标人教版高中物理知识点汇编">新课标人教版高中物理知识点...</a>
-</li>
-</ul>
-</dd>
-</dl>
-<dl class="author-list">
-<dt class="clearfix">
-<a href="/p/gatb" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/faedab64034f78f08914dab17a310a55b3191c50.jpg" title="罗成" alt="罗成" /></a>
-<div class="brief">
-<p><a href="/p/gatb" target="_blank">罗成</a><b class="bg-index ic-vrf"></b></p>
+<p><a href="/p/hc_cxq" target="_blank">曹旭强</a><b class="bg-index ic-vrf"></b></p>
 <p title="一级教师">一级教师</p>
 <p>
-<span><b>60</b>篇文档</span>
+<span><b>2727</b>篇文档</span>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index full"></b>
@@ -1576,17 +1539,54 @@ PDF/Word/Excel/PPT无限次转化
 <li>
 <span class="score"><b>4.4</b>分</span>
 <span class="ic ic-doc"></span>
-<a href="/view/570a3f63581b6bd97e19ea4e.html" target="_blank" title="九年级解直角三角形经典习题汇编附答案(120分)">九年级解直角三角形经典习题...</a>
+<a href="/view/218e5f16eff9aef8941e06cc.html" target="_blank" title="气体的等容变化和等压变化">气体的等容变化和等压变化</a>
 </li>
 <li>
-<span class="score"><b>4.4</b>分</span>
+<span class="score"><b>4.5</b>分</span>
 <span class="ic ic-ppt"></span>
-<a href="/view/c46446641eb91a37f1115c2b.html" target="_blank" title="沪科4.5.2余角和补角">沪科4.5.2余角和补角</a>
+<a href="/view/967486c084254b35eefd3489.html" target="_blank" title="(3) 受力分析  共点力的平衡">(3) 受力分析  共点力的平衡</a>
 </li>
 <li>
 <span class="score"><b>4.4</b>分</span>
 <span class="ic ic-doc"></span>
-<a href="/view/02b85965a32d7375a41780e8.html" target="_blank" title="北师大版四年级数学下册列方程应用题专项训练">北师大版四年级数学下册列方...</a>
+<a href="/view/8b42fa1e5f0e7cd184253659.html" target="_blank" title="高中生物教学设计与反思新陈代谢与酶">高中生物教学设计与反思新陈...</a>
+</li>
+</ul>
+</dd>
+</dl>
+<dl class="author-list">
+<dt class="clearfix">
+<a href="/p/%CE%D213864907177" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/e4dde71190ef76c658cd42ee9d16fdfaae5167dc.jpg" title="王善文" alt="王善文" /></a>
+<div class="brief">
+<p><a href="/p/%CE%D213864907177" target="_blank">王善文</a><b class="bg-index ic-vrf"></b></p>
+<p title="政治历史教研组组长">政治历史教研组组长</p>
+<p>
+<span><b>82</b>篇文档</span>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index half"></b>
+4.1
+</p>
+</div>
+</dt>
+<dd>
+<ul>
+<li>
+<span class="score"><b>2.1</b>分</span>
+<span class="ic ic-doc"></span>
+<a href="/view/d5a11f46fe4733687e21aacd.html" target="_blank" title="太平中学政史组教研工作计划">太平中学政史组教研工作计划</a>
+</li>
+<li>
+<span class="score"><b>4.4</b>分</span>
+<span class="ic ic-doc"></span>
+<a href="/view/2c477b54ad02de80d4d84014.html" target="_blank" title="升本教育理念下的考点教学改革及反思">升本教育理念下的考点教学改...</a>
+</li>
+<li>
+<span class="score"><b>4.4</b>分</span>
+<span class="ic ic-doc"></span>
+<a href="/view/093b6a2869eae009581beca2.html" target="_blank" title="2015年七年级历史期末质量检测题(材料解析专项训练)">2015年七年级历史期末质量检...</a>
 </li>
 </ul>
 </dd>
@@ -1632,49 +1632,12 @@ PDF/Word/Excel/PPT无限次转化
 </dl>
 <dl class="author-list">
 <dt class="clearfix">
-<a href="/p/WKLZJ2008" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/35a85edf8db1cb131b8a4557dc54564e93584b96.jpg" title="王坤" alt="王坤" /></a>
+<a href="/p/zhangchen2397" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/b8389b504fc2d5627b5f635ce51190ef76c66c28.jpg" title="张臣" alt="张臣" /></a>
 <div class="brief">
-<p><a href="/p/WKLZJ2008" target="_blank">王坤</a><b class="bg-index ic-vrf"></b></p>
-<p title="网络信息技术总监">网络信息技术总监</p>
+<p><a href="/p/zhangchen2397" target="_blank">张臣</a><b class="bg-index ic-vrf"></b></p>
+<p title="百度文库前端开发工程师">百度文库前端开发工程师</p>
 <p>
-<span><b>124</b>篇文档</span>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index empty"></b>
-4.0
-</p>
-</div>
-</dt>
-<dd>
-<ul>
-<li>
-<span class="score"><b>4.5</b>分</span>
-<span class="ic ic-ppt"></span>
-<a href="/view/4599b9d976a20029bd642d26.html" target="_blank" title="项目3 用Linux命令行操作处理日常业务">项目3 用Linux命令行操作处理...</a>
-</li>
-<li>
-<span class="score"><b>4.5</b>分</span>
-<span class="ic ic-ppt"></span>
-<a href="/view/ab9e9dd8240c844768eaee02.html" target="_blank" title="第9章 Java web常用实用组件">第9章 Java web常用实用组件</a>
-</li>
-<li>
-<span class="score"><b>4.4</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/80f14d14b7360b4c2e3f6415.html" target="_blank" title="《Java Web程序设计》课程标准">《Java Web程序设计》课程标...</a>
-</li>
-</ul>
-</dd>
-</dl>
-<dl class="author-list">
-<dt class="clearfix">
-<a href="/p/%B3%D8%BD%A8%C7%BF" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/f603918fa0ec08fa6b60d2cc5bee3d6d55fbda7d.jpg" title="池建强" alt="池建强" /></a>
-<div class="brief">
-<p><a href="/p/%B3%D8%BD%A8%C7%BF" target="_blank">池建强</a><b class="bg-index ic-vrf"></b></p>
-<p title="《MacTalk·人生元编程》作者">《MacTalk·人生元编程》作者...</p>
-<p>
-<span><b>8</b>篇文档</span>
+<span><b>21</b>篇文档</span>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index full"></b>
@@ -1687,19 +1650,56 @@ PDF/Word/Excel/PPT无限次转化
 <dd>
 <ul>
 <li>
-<span class="score"><b>2.1</b>分</span>
-<span class="ic ic-pdf"></span>
-<a href="/view/20511739b52acfc789ebc9d5.html" target="_blank" title="写作与编程">写作与编程</a>
+<span class="score"><b>4.4</b>分</span>
+<span class="ic ic-doc"></span>
+<a href="/view/ce99e7c8ba0d4a7302763ab0.html" target="_blank" title="【调研报告】响应式布局">【调研报告】响应式布局</a>
 </li>
 <li>
 <span class="score"><b>4.5</b>分</span>
-<span class="ic ic-pdf"></span>
-<a href="/view/59dca6addd88d0d233d46a74.html" target="_blank" title="重读黑客与画家">重读黑客与画家</a>
+<span class="ic ic-ppt"></span>
+<a href="/view/09768c0d3968011ca3009182.html" target="_blank" title="前端单元测试基础介绍">前端单元测试基础介绍</a>
 </li>
 <li>
 <span class="score"><b>4.4</b>分</span>
+<span class="ic ic-doc"></span>
+<a href="/view/85c778bd71fe910ef12df8ea.html" target="_blank" title="javascript看qq中多事件绑定的执行顺序">javascript看qq中多事件绑定...</a>
+</li>
+</ul>
+</dd>
+</dl>
+<dl class="author-list">
+<dt class="clearfix">
+<a href="/p/elya%E6%A4" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/00e93901213fb80e539500b034d12f2eb9389414.jpg" title="陈莹-elya妞" alt="陈莹-elya妞" /></a>
+<div class="brief">
+<p><a href="/p/elya%E6%A4" target="_blank">陈莹-elya妞</a><b class="bg-index ic-vrf"></b></p>
+<p title="用户体验布道师">用户体验布道师</p>
+<p>
+<span><b>11</b>篇文档</span>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index half"></b>
+4.5
+</p>
+</div>
+</dt>
+<dd>
+<ul>
+<li>
+<span class="score"><b>4.5</b>分</span>
 <span class="ic ic-pdf"></span>
-<a href="/view/10bfba1b192e45361066f5d7.html" target="_blank" title="linux文件系统的权限王国(二)">linux文件系统的权限王国(二...</a>
+<a href="/view/f6f33312f18583d0496459cd.html" target="_blank" title="A5-交互设计体验日-用讲故事的方式来做手机产品交互设计">A5-交互设计体验日-用讲故事...</a>
+</li>
+<li>
+<span class="score"><b>4.4</b>分</span>
+<span class="ic ic-doc"></span>
+<a href="/view/2f35252c7375a417866f8f00.html" target="_blank" title="王义辉：如何量化用户体验">王义辉：如何量化用户体验</a>
+</li>
+<li>
+<span class="score"><b>4.4</b>分</span>
+<span class="ic ic-doc"></span>
+<a href="/view/c11fedd87f1922791688e803.html" target="_blank" title="《电子商务案例分析》教学方案">《电子商务案例分析》教学方...</a>
 </li>
 </ul>
 </dd>
@@ -1743,37 +1743,37 @@ PDF/Word/Excel/PPT无限次转化
 </dl>
 <dl class="author-list">
 <dt class="clearfix">
-<a href="/p/cl1360795" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/377adab44aed2e735766817e8501a18b86d6fad1.jpg" title="陈亮" alt="陈亮" /></a>
+<a href="/p/%C0%F8JEON" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/5882b2b7d0a20cf4373ea12c77094b36adaf9992.jpg" title="姜波" alt="姜波" /></a>
 <div class="brief">
-<p><a href="/p/cl1360795" target="_blank">陈亮</a><b class="bg-index ic-vrf"></b></p>
-<p title="计算机网络管理专家">计算机网络管理专家</p>
+<p><a href="/p/%C0%F8JEON" target="_blank">姜波</a><b class="bg-index ic-vrf"></b></p>
+<p title="优秀科研 研发人员">优秀科研 研发人员</p>
 <p>
-<span><b>33</b>篇文档</span>
+<span><b>46</b>篇文档</span>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index half"></b>
-4.3
+4.6
 </p>
 </div>
 </dt>
 <dd>
 <ul>
 <li>
-<span class="score"><b>4.5</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/aa516c80d4d8d15abe234e56.html" target="_blank" title="博物馆藏品信息指标体系规范">博物馆藏品信息指标体系规范</a>
-</li>
-<li>
 <span class="score"><b>4.4</b>分</span>
 <span class="ic ic-doc"></span>
-<a href="/view/4fe36c300b4c2e3f56276306.html" target="_blank" title="作风建设年活动实施方案1">作风建设年活动实施方案1</a>
+<a href="/view/9e11d31a482fb4daa58d4b81.html" target="_blank" title="基于FPGA的函数信号发生器设计-英文翻译">基于FPGA的函数信号发生器设...</a>
 </li>
 <li>
 <span class="score"><b>2.1</b>分</span>
 <span class="ic ic-doc"></span>
-<a href="/view/248358d349649b6648d7470f.html" target="_blank" title="资格证书登记表">资格证书登记表</a>
+<a href="/view/a8131d4ca417866fb84a8e72.html" target="_blank" title="电子密码锁的设计任务书">电子密码锁的设计任务书</a>
+</li>
+<li>
+<span class="score"><b>4.4</b>分</span>
+<span class="ic ic-doc"></span>
+<a href="/view/8fdb05f1f90f76c661371a15.html" target="_blank" title="广义时空相对论概述">广义时空相对论概述</a>
 </li>
 </ul>
 </dd>
@@ -2004,37 +2004,37 @@ PDF/Word/Excel/PPT无限次转化
 </dl>
 <dl class="author-list">
 <dt class="clearfix">
-<a href="/p/%D0%D2%B8%A3%D6%ED%B5%C4%BC%C7%D2%E4" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/f3d3572c11dfa9ecfd66d30460d0f703918fc15d.jpg" title="尹高明" alt="尹高明" /></a>
+<a href="/p/sdy361" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/5fdf8db1cb134954670bed69544e9258d1094aa1.jpg" title="桑东洋" alt="桑东洋" /></a>
 <div class="brief">
-<p><a href="/p/%D0%D2%B8%A3%D6%ED%B5%C4%BC%C7%D2%E4" target="_blank">尹高明</a><b class="bg-index ic-vrf"></b></p>
-<p title="嗨推社区创始人">嗨推社区创始人</p>
+<p><a href="/p/sdy361" target="_blank">桑东洋</a><b class="bg-index ic-vrf"></b></p>
+<p title="资深产品经理">资深产品经理</p>
 <p>
-<span><b>5</b>篇文档</span>
+<span><b>9</b>篇文档</span>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index half"></b>
 <b class="ic-star bg-index empty"></b>
-4.0
+3.9
 </p>
 </div>
 </dt>
 <dd>
 <ul>
 <li>
-<span class="score"><b>4.4</b>分</span>
+<span class="score"><b>4.5</b>分</span>
 <span class="ic ic-doc"></span>
-<a href="/view/276b42c79ec3d5bbfd0a7475.html" target="_blank" title="融合通信是什么">融合通信是什么</a>
+<a href="/view/245541305a8102d276a22f33.html" target="_blank" title="Windows 7无损分区Acronis Disk Director Suite V11.0.0.216+完整教程(修订版)">Windows 7无损分区Acronis D...</a>
+</li>
+<li>
+<span class="score"><b>4.4</b>分</span>
+<span class="ic ic-ppt"></span>
+<a href="/view/6e26e0fb770bf78a65295406.html" target="_blank" title="Alienware品牌介绍">Alienware品牌介绍</a>
 </li>
 <li>
 <span class="score"><b>4.5</b>分</span>
 <span class="ic ic-ppt"></span>
-<a href="/view/4324aafcaef8941ea76e0522.html" target="_blank" title="淘宝客推广需要什么样的思维模式—淘宝客培训课件">淘宝客推广需要什么样的思维...</a>
-</li>
-<li>
-<span class="score"><b>4.4</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/e4687a104431b90d6c85c771.html" target="_blank" title="融合通信产品是什么">融合通信产品是什么</a>
+<a href="/view/8fd0c9c7aa00b52acfc7ca25.html" target="_blank" title="切换与拥塞专题案例">切换与拥塞专题案例</a>
 </li>
 </ul>
 </dd>
@@ -2043,49 +2043,12 @@ PDF/Word/Excel/PPT无限次转化
 <li class="clearfix disabled">
 <dl class="author-list">
 <dt class="clearfix">
-<a href="/p/%C6%C6%CF%FE%B3%BF%D6%D3zyl" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/a044ad345982b2b7f64b448030adcbef77099b99.jpg" title="钟一黎" alt="钟一黎" /></a>
+<a href="/p/mickol" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/b7fd5266d0160924921a0ec3d80735fae6cd342e.jpg" title="邹工" alt="邹工" /></a>
 <div class="brief">
-<p><a href="/p/%C6%C6%CF%FE%B3%BF%D6%D3zyl" target="_blank">钟一黎</a><b class="bg-index ic-vrf"></b></p>
-<p title="建筑企业高管">建筑企业高管</p>
+<p><a href="/p/mickol" target="_blank">邹工</a><b class="bg-index ic-vrf"></b></p>
+<p title="国家一级建造师">国家一级建造师</p>
 <p>
-<span><b>55</b>篇文档</span>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index empty"></b>
-4.0
-</p>
-</div>
-</dt>
-<dd>
-<ul>
-<li>
-<span class="score"><b>4.4</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/38fe30217375a417866f8fd0.html" target="_blank" title="SN2.8塑料排水管伸缩器安装预留伸缩量记录">SN2.8塑料排水管伸缩器安装预...</a>
-</li>
-<li>
-<span class="score"><b>2.1</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/d653e509c5da50e2524d7f18.html" target="_blank" title="个人向单位申请工伤认定表">个人向单位申请工伤认定表</a>
-</li>
-<li>
-<span class="score"><b>2.1</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/5cb5614e336c1eb91a375dd7.html" target="_blank" title="SN2.5管道焊接检验记录">SN2.5管道焊接检验记录</a>
-</li>
-</ul>
-</dd>
-</dl>
-<dl class="author-list">
-<dt class="clearfix">
-<a href="/p/zwpxm123" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/b3b7d0a20cf431adc5f9143f4936acaf2edd9888.jpg" title="曾卫平" alt="曾卫平" /></a>
-<div class="brief">
-<p><a href="/p/zwpxm123" target="_blank">曾卫平</a><b class="bg-index ic-vrf"></b></p>
-<p title="一级建造师、高级工程师">一级建造师、高级工程师</p>
-<p>
-<span><b>23</b>篇文档</span>
+<span><b>9</b>篇文档</span>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index full"></b>
@@ -2099,18 +2062,18 @@ PDF/Word/Excel/PPT无限次转化
 <ul>
 <li>
 <span class="score"><b>2.1</b>分</span>
+<span class="ic ic-pdf"></span>
+<a href="/view/b3b7b92587c24028915fc357.html" target="_blank" title="浅谈建筑工程中土建的施工管理">浅谈建筑工程中土建的施工管...</a>
+</li>
+<li>
+<span class="score"><b>0.0</b>分</span>
 <span class="ic ic-doc"></span>
-<a href="/view/16fddff6bb4cf7ec4bfed004.html" target="_blank" title="1.3项目经理部组织机构及职责图">1.3项目经理部组织机构及职责...</a>
+<a href="/view/a69cee5f312b3169a451a44e.html" target="_blank" title="关于做好广州市农民工及非本市十城区居民户口的城镇户籍人员申请积分制入户计划生育情况审核的通知">关于做好广州市农民工及非本...</a>
 </li>
 <li>
 <span class="score"><b>2.1</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/0737e6b8680203d8cf2f2404.html" target="_blank" title="施工方案专篇审批表">施工方案专篇审批表</a>
-</li>
-<li>
-<span class="score"><b>4.5</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/57dd93f458f5f61fb736666f.html" target="_blank" title="泸州市城南大道景观工程施工组织设计">泸州市城南大道景观工程施工...</a>
+<span class="ic ic-xls"></span>
+<a href="/view/c9e34c313968011ca30091d0.html" target="_blank" title="机械设备检查维修保养记录表(人货梯)AQ2.6.13">机械设备检查维修保养记录表...</a>
 </li>
 </ul>
 </dd>
@@ -2154,18 +2117,18 @@ PDF/Word/Excel/PPT无限次转化
 </dl>
 <dl class="author-list">
 <dt class="clearfix">
-<a href="/p/%CD%F5%CA%C0%BF%A1466" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/6f061d950a7b02085dd9f0e560d9f2d3572cc8a6.jpg" title="王世俊" alt="王世俊" /></a>
+<a href="/p/%B3%C2%BD%A8%C3%F12013" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/a2cc7cd98d1001e92fbb427cba0e7bec54e79739.jpg" title="陈建民" alt="陈建民" /></a>
 <div class="brief">
-<p><a href="/p/%CD%F5%CA%C0%BF%A1466" target="_blank">王世俊</a><b class="bg-index ic-vrf"></b></p>
-<p title="南京一级建造师">南京一级建造师</p>
+<p><a href="/p/%B3%C2%BD%A8%C3%F12013" target="_blank">陈建民</a><b class="bg-index ic-vrf"></b></p>
+<p title="国家一级建造师">国家一级建造师</p>
 <p>
-<span><b>138</b>篇文档</span>
+<span><b>275</b>篇文档</span>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index half"></b>
-4.9
+4.1
 </p>
 </div>
 </dt>
@@ -2174,17 +2137,91 @@ PDF/Word/Excel/PPT无限次转化
 <li>
 <span class="score"><b>4.4</b>分</span>
 <span class="ic ic-doc"></span>
-<a href="/view/f663b434eff9aef8941e0683.html" target="_blank" title="高速公路半幅封闭交通导流方案">高速公路半幅封闭交通导流方...</a>
+<a href="/view/b52f5bdb4028915f804dc22a.html" target="_blank" title="基础底板砼浇筑技术交底">基础底板砼浇筑技术交底</a>
+</li>
+<li>
+<span class="score"><b>2.1</b>分</span>
+<span class="ic ic-doc"></span>
+<a href="/view/07e8f0f2172ded630b1cb64c.html" target="_blank" title="二次结构植筋技术交底">二次结构植筋技术交底</a>
 </li>
 <li>
 <span class="score"><b>4.4</b>分</span>
 <span class="ic ic-doc"></span>
-<a href="/view/c6adcb3cf12d2af90242e683.html" target="_blank" title="标准化施工措施(路面)">标准化施工措施(路面)</a>
+<a href="/view/e4baecf3998fcc22bcd10db4.html" target="_blank" title="地下室外墙防水施工技术交底">地下室外墙防水施工技术交底</a>
+</li>
+</ul>
+</dd>
+</dl>
+<dl class="author-list">
+<dt class="clearfix">
+<a href="/p/%B6%AB%B7%E7%B9%A4%B3%CC1234" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/060828381f30e9246fb4eb514e086e061d95f7ba.jpg" title="张暄" alt="张暄" /></a>
+<div class="brief">
+<p><a href="/p/%B6%AB%B7%E7%B9%A4%B3%CC1234" target="_blank">张暄</a><b class="bg-index ic-vrf"></b></p>
+<p title="二级建造师、爆破工程师">二级建造师、爆破工程师</p>
+<p>
+<span><b>43</b>篇文档</span>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index half"></b>
+4.3
+</p>
+</div>
+</dt>
+<dd>
+<ul>
+<li>
+<span class="score"><b>4.4</b>分</span>
+<span class="ic ic-doc"></span>
+<a href="/view/2d59feb2580216fc710afd64.html" target="_blank" title="安全生产事故应急救援预案">安全生产事故应急救援预案</a>
+</li>
+<li>
+<span class="score"><b>4.5</b>分</span>
+<span class="ic ic-doc"></span>
+<a href="/view/a67da4ac3169a4517723a3af.html" target="_blank" title="某居住小区D36#住宅楼安全防护方案">某居住小区D36#住宅楼安全防...</a>
 </li>
 <li>
 <span class="score"><b>4.4</b>分</span>
 <span class="ic ic-doc"></span>
-<a href="/view/bae43ffc0508763231121280.html" target="_blank" title="标准化施工措施(路基路面综合标)">标准化施工措施(路基路面综合...</a>
+<a href="/view/95e0ee4d69eae009581becf2.html" target="_blank" title="施工用电管理措施">施工用电管理措施</a>
+</li>
+</ul>
+</dd>
+</dl>
+<dl class="author-list">
+<dt class="clearfix">
+<a href="/p/%C0%CF%CF%E5%D1%F4%C9%E3%D3%B0%CA%A6" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/6a600c338744ebf84ea6a44ddbf9d72a6159a7e9.jpg" title="赵红宇" alt="赵红宇" /></a>
+<div class="brief">
+<p><a href="/p/%C0%CF%CF%E5%D1%F4%C9%E3%D3%B0%CA%A6" target="_blank">赵红宇</a><b class="bg-index ic-vrf"></b></p>
+<p title="高级建筑工程师">高级建筑工程师</p>
+<p>
+<span><b>23</b>篇文档</span>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index half"></b>
+4.4
+</p>
+</div>
+</dt>
+<dd>
+<ul>
+<li>
+<span class="score"><b>3.5</b>分</span>
+<span class="ic ic-doc"></span>
+<a href="/view/281245305a8102d276a22f72.html" target="_blank" title="深圳市建筑工程A类工程档案卷内目录">深圳市建筑工程A类工程档案卷...</a>
+</li>
+<li>
+<span class="score"><b>4.4</b>分</span>
+<span class="ic ic-pdf"></span>
+<a href="/view/cea357c45fbfc77da269b154.html" target="_blank" title="深圳市2011-06建筑材料信息价">深圳市2011-06建筑材料信息价...</a>
+</li>
+<li>
+<span class="score"><b>4.4</b>分</span>
+<span class="ic ic-doc"></span>
+<a href="/view/458520c59ec3d5bbfd0a7481.html" target="_blank" title="铁路工程预制管桩施工合同">铁路工程预制管桩施工合同</a>
 </li>
 </ul>
 </dd>
@@ -2222,43 +2259,6 @@ PDF/Word/Excel/PPT无限次转化
 <span class="score"><b>4.4</b>分</span>
 <span class="ic ic-ppt"></span>
 <a href="/view/2987c97448d7c1c708a145f0.html" target="_blank" title="铝模施工工艺流程-333333">铝模施工工艺流程-333333</a>
-</li>
-</ul>
-</dd>
-</dl>
-<dl class="author-list">
-<dt class="clearfix">
-<a href="/p/nxrsl" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/8ad4b31c8701a18b9130db449c2f07082938fee6.jpg" title="任胜龙" alt="任胜龙" /></a>
-<div class="brief">
-<p><a href="/p/nxrsl" target="_blank">任胜龙</a><b class="bg-index ic-vrf"></b></p>
-<p title="国家一级注册建筑师">国家一级注册建筑师</p>
-<p>
-<span><b>11</b>篇文档</span>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index half"></b>
-4.2
-</p>
-</div>
-</dt>
-<dd>
-<ul>
-<li>
-<span class="score"><b>2.2</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/8491ec210722192e4536f688.html" target="_blank" title="项目建议书">项目建议书</a>
-</li>
-<li>
-<span class="score"><b>4.5</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/06ef25ea102de2bd960588e5.html" target="_blank" title="医院项目建议书">医院项目建议书</a>
-</li>
-<li>
-<span class="score"><b>4.5</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/ec3e74d1c1c708a1284a445b.html" target="_blank" title="公共卫生中心可研">公共卫生中心可研</a>
 </li>
 </ul>
 </dd>
@@ -2341,49 +2341,12 @@ PDF/Word/Excel/PPT无限次转化
 </dl>
 <dl class="author-list">
 <dt class="clearfix">
-<a href="/p/xiaoma365" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/902397dda144ad34848b3662dca20cf431ad851b.jpg" title="老马" alt="老马" /></a>
+<a href="/p/rcmei99" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/32fa828ba61ea8d3964c0759960a304e251f5804.jpg" title="饶春梅" alt="饶春梅" /></a>
 <div class="brief">
-<p><a href="/p/xiaoma365" target="_blank">老马</a><b class="bg-index ic-vrf"></b></p>
-<p title="证券投资经理">证券投资经理</p>
+<p><a href="/p/rcmei99" target="_blank">饶春梅</a><b class="bg-index ic-vrf"></b></p>
+<p title="医药投资并购俱乐部创始人">医药投资并购俱乐部创始人</p>
 <p>
-<span><b>4324</b>篇文档</span>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index empty"></b>
-4.0
-</p>
-</div>
-</dt>
-<dd>
-<ul>
-<li>
-<span class="score"><b>4.3</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/79bc38eb0b1c59eef9c7b41f.html" target="_blank" title="电子商务：关联营销">电子商务：关联营销</a>
-</li>
-<li>
-<span class="score"><b>4.3</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/4b30bdbdeefdc8d376ee329b.html" target="_blank" title="宝贝标题与宝贝描述优化注意事项">宝贝标题与宝贝描述优化注意...</a>
-</li>
-<li>
-<span class="score"><b>4.5</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/46c69377f61fb7360b4c6581.html" target="_blank" title="电商基础知识  淘宝天猫58个专业名词解释">电商基础知识  淘宝天猫58个...</a>
-</li>
-</ul>
-</dd>
-</dl>
-<dl class="author-list">
-<dt class="clearfix">
-<a href="/p/bacerashanghai" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/0df431adcbef7609820805f32cdda3cc7cd99e5f.jpg" title="张永奎" alt="张永奎" /></a>
-<div class="brief">
-<p><a href="/p/bacerashanghai" target="_blank">张永奎</a><b class="bg-index ic-vrf"></b></p>
-<p title="国家注册一级黄金分析师">国家注册一级黄金分析师</p>
-<p>
-<span><b>24</b>篇文档</span>
+<span><b>18</b>篇文档</span>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index full"></b>
@@ -2396,68 +2359,31 @@ PDF/Word/Excel/PPT无限次转化
 <dd>
 <ul>
 <li>
-<span class="score"><b>2.1</b>分</span>
+<span class="score"><b>4.4</b>分</span>
 <span class="ic ic-pdf"></span>
-<a href="/view/0f66a2d03186bceb19e8bbac.html" target="_blank" title="4月25日现货黄金画图分析">4月25日现货黄金画图分析</a>
-</li>
-<li>
-<span class="score"><b>2.1</b>分</span>
-<span class="ic ic-pdf"></span>
-<a href="/view/95897603a6c30c2259019e9c.html" target="_blank" title="香港百汇金业交易规则介绍">香港百汇金业交易规则介绍</a>
+<a href="/view/d7e9ef16a76e58fafab0031c.html" target="_blank" title="中国卫生总费用及对财政压力的估算">中国卫生总费用及对财政压力...</a>
 </li>
 <li>
 <span class="score"><b>4.4</b>分</span>
 <span class="ic ic-pdf"></span>
-<a href="/view/d8ea60dbd15abe23482f4d68.html" target="_blank" title="选择香港百汇金业的十二大理由">选择香港百汇金业的十二大理...</a>
+<a href="/view/75b5b63f580216fc700afd3f.html" target="_blank" title="疼痛治疗药物发展动态及市场趋势">疼痛治疗药物发展动态及市场...</a>
+</li>
+<li>
+<span class="score"><b>4.4</b>分</span>
+<span class="ic ic-doc"></span>
+<a href="/view/999980d328ea81c758f57826.html" target="_blank" title="血脂异常管理和动脉粥样硬化预防指南">血脂异常管理和动脉粥样硬化...</a>
 </li>
 </ul>
 </dd>
 </dl>
 <dl class="author-list">
 <dt class="clearfix">
-<a href="/p/%D5%C5%BD%F2%C0%D8" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/9213b07eca8065382d93d41095dda144ad3482b3.jpg" title="张镭" alt="张镭" /></a>
+<a href="/p/qianlie08" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/d833c895d143ad4bb131f88083025aafa40f0656.jpg" title="钱烈" alt="钱烈" /></a>
 <div class="brief">
-<p><a href="/p/%D5%C5%BD%F2%C0%D8" target="_blank">张镭</a><b class="bg-index ic-vrf"></b></p>
-<p title="投资行业分析师">投资行业分析师</p>
+<p><a href="/p/qianlie08" target="_blank">钱烈</a><b class="bg-index ic-vrf"></b></p>
+<p title="注册资产评估师">注册资产评估师</p>
 <p>
-<span><b>167</b>篇文档</span>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index empty"></b>
-4.0
-</p>
-</div>
-</dt>
-<dd>
-<ul>
-<li>
-<span class="score"><b>2.1</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/06641b1c453610661ed9f47d.html" target="_blank" title="张津镭;非农周即将来临,竟看金银未来走向何方">张津镭;非农周即将来临,竟看...</a>
-</li>
-<li>
-<span class="score"><b>2.1</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/6bb6a01c0066f5335a8121a4.html" target="_blank" title="张津镭：市场难料,金银无还手之力">张津镭：市场难料,金银无还手...</a>
-</li>
-<li>
-<span class="score"><b>2.1</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/f016bc90f121dd36a32d8264.html" target="_blank" title="张津镭：美经济不景气,金银终提升">张津镭：美经济不景气,金银终...</a>
-</li>
-</ul>
-</dd>
-</dl>
-<dl class="author-list">
-<dt class="clearfix">
-<a href="/p/%B7%F0%B6%C8%D7%D4%B6%C8%D5%DF" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/2cf5e0fe9925bc319ba1e6015fdf8db1ca1370af.jpg" title="陈刚" alt="陈刚" /></a>
-<div class="brief">
-<p><a href="/p/%B7%F0%B6%C8%D7%D4%B6%C8%D5%DF" target="_blank">陈刚</a><b class="bg-index ic-vrf"></b></p>
-<p title="金融行业资深专家">金融行业资深专家</p>
-<p>
-<span><b>51</b>篇文档</span>
+<span><b>71</b>篇文档</span>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index full"></b>
@@ -2470,19 +2396,93 @@ PDF/Word/Excel/PPT无限次转化
 <dd>
 <ul>
 <li>
-<span class="score"><b>4.5</b>分</span>
-<span class="ic ic-ppt"></span>
-<a href="/view/cbe1e53da5e9856a561260fc.html" target="_blank" title="营销绩效管理表格使用指南">营销绩效管理表格使用指南</a>
-</li>
-<li>
-<span class="score"><b>2.1</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/82ba7a9d284ac850ad0242bc.html" target="_blank" title="企业贷款所需资料(清信合)">企业贷款所需资料(清信合)</a>
-</li>
-<li>
-<span class="score"><b>4.5</b>分</span>
+<span class="score"><b>4.4</b>分</span>
 <span class="ic ic-pdf"></span>
-<a href="/view/829792a2c77da26925c5b06b.html" target="_blank" title="汽车产品知识系列4">汽车产品知识系列4</a>
+<a href="/view/98abc502de80d4d8d15a4ffe.html" target="_blank" title="15美国金融评估管理体制">15美国金融评估管理体制</a>
+</li>
+<li>
+<span class="score"><b>4.4</b>分</span>
+<span class="ic ic-pdf"></span>
+<a href="/view/f8dfa4bff121dd36a32d82fe.html" target="_blank" title="7关于专业判断原则与资产评估方法的辨析-1200922001-2">7关于专业判断原则与资产评估...</a>
+</li>
+<li>
+<span class="score"><b>4.4</b>分</span>
+<span class="ic ic-xls"></span>
+<a href="/view/c268273f0912a21614792908.html" target="_blank" title="中信建投有色金属行业数据周报">中信建投有色金属行业数据周...</a>
+</li>
+</ul>
+</dd>
+</dl>
+<dl class="author-list">
+<dt class="clearfix">
+<a href="/p/Sakura_Adam" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/279759ee3d6d55fb2a97d84a6f224f4a20a4dd0d.jpg" title="唐泊尘" alt="唐泊尘" /></a>
+<div class="brief">
+<p><a href="/p/Sakura_Adam" target="_blank">唐泊尘</a><b class="bg-index ic-vrf"></b></p>
+<p title="TMT行业和VC/PE行业研究员">TMT行业和VC/PE行业研究员</p>
+<p>
+<span><b>19</b>篇文档</span>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index half"></b>
+4.2
+</p>
+</div>
+</dt>
+<dd>
+<ul>
+<li>
+<span class="score"><b>4.4</b>分</span>
+<span class="ic ic-pdf"></span>
+<a href="/view/f47c8fde172ded630b1cb6f5.html" target="_blank" title="解析国务院信息消费新政策">解析国务院信息消费新政策</a>
+</li>
+<li>
+<span class="score"><b>4.5</b>分</span>
+<span class="ic ic-xls"></span>
+<a href="/view/915b8a2d0066f5335a812180.html" target="_blank" title="CSMAR上市公司股票交易基本数据">CSMAR上市公司股票交易基本数...</a>
+</li>
+<li>
+<span class="score"><b>4.4</b>分</span>
+<span class="ic ic-pdf"></span>
+<a href="/view/547d4a65cf84b9d528ea7a91.html" target="_blank" title="中国可穿戴设备风暴来袭？">中国可穿戴设备风暴来袭？</a>
+</li>
+</ul>
+</dd>
+</dl>
+<dl class="author-list">
+<dt class="clearfix">
+<a href="/p/wj28324" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/0b46f21fbe096b63805ba4fa0d338744eaf8acde.jpg" title="魏坚" alt="魏坚" /></a>
+<div class="brief">
+<p><a href="/p/wj28324" target="_blank">魏坚</a><b class="bg-index ic-vrf"></b></p>
+<p title="股权激励领域咨询家">股权激励领域咨询家</p>
+<p>
+<span><b>50</b>篇文档</span>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index half"></b>
+4.1
+</p>
+</div>
+</dt>
+<dd>
+<ul>
+<li>
+<span class="score"><b>4.4</b>分</span>
+<span class="ic ic-doc"></span>
+<a href="/view/33d789dd6f1aff00bed51ece.html" target="_blank" title="核定征收转查账征收所得税优惠">核定征收转查账征收所得税优...</a>
+</li>
+<li>
+<span class="score"><b>4.4</b>分</span>
+<span class="ic ic-doc"></span>
+<a href="/view/a27e7e66aaea998fcc220ee3.html" target="_blank" title="绿地集团的混合所有制改革之员工持股">绿地集团的混合所有制改革之...</a>
+</li>
+<li>
+<span class="score"><b>4.4</b>分</span>
+<span class="ic ic-doc"></span>
+<a href="/view/89809062caaedd3383c4d303.html" target="_blank" title="固定资产折旧年限、折旧方法对所得税影响的分析">固定资产折旧年限、折旧方法...</a>
 </li>
 </ul>
 </dd>
@@ -2602,12 +2602,49 @@ PDF/Word/Excel/PPT无限次转化
 </dl>
 <dl class="author-list">
 <dt class="clearfix">
-<a href="/p/xsjhr" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/c2cec3fdfc039245d3c9126e8594a4c27d1e2556.jpg" title="黄亨煜" alt="黄亨煜" /></a>
+<a href="/p/mashaohuaruc" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/7c1ed21b0ef41bd52f7d8c7953da81cb39db3d14.jpg" title="马少华" alt="马少华" /></a>
 <div class="brief">
-<p><a href="/p/xsjhr" target="_blank">黄亨煜</a><b class="bg-index ic-vrf"></b></p>
-<p title="人力资源专家、心理学博士">人力资源专家、心理学博士</p>
+<p><a href="/p/mashaohuaruc" target="_blank">马少华</a><b class="bg-index ic-vrf"></b></p>
+<p title="人民大学新闻评论副教授">人民大学新闻评论副教授</p>
 <p>
-<span><b>113</b>篇文档</span>
+<span><b>11</b>篇文档</span>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index full"></b>
+<b class="ic-star bg-index half"></b>
+4.8
+</p>
+</div>
+</dt>
+<dd>
+<ul>
+<li>
+<span class="score"><b>2.1</b>分</span>
+<span class="ic ic-pdf"></span>
+<a href="/view/5d5e142e0b1c59eef8c7b4c4.html" target="_blank" title="批评不要虚设对象_马少华">批评不要虚设对象_马少华</a>
+</li>
+<li>
+<span class="score"><b>4.4</b>分</span>
+<span class="ic ic-pdf"></span>
+<a href="/view/cb6e0502fe4733687e21aaba.html" target="_blank" title="论点之后是什么_马少华">论点之后是什么_马少华</a>
+</li>
+<li>
+<span class="score"><b>2.1</b>分</span>
+<span class="ic ic-pdf"></span>
+<a href="/view/5975ce47bb68a98271fefad2.html" target="_blank" title="辨识评论语句间的层次关系_马少华">辨识评论语句间的层次关系_马...</a>
+</li>
+</ul>
+</dd>
+</dl>
+<dl class="author-list">
+<dt class="clearfix">
+<a href="/p/yangkuiwenku" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/024f78f0f736afc3af282a76b119ebc4b74512f8.jpg" title="杨奎" alt="杨奎" /></a>
+<div class="brief">
+<p><a href="/p/yangkuiwenku" target="_blank">杨奎</a><b class="bg-index ic-vrf"></b></p>
+<p title="北京市社科院科社研究所所长">北京市社科院科社研究所所长</p>
+<p>
+<span><b>10</b>篇文档</span>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index full"></b>
 <b class="ic-star bg-index full"></b>
@@ -2620,19 +2657,19 @@ PDF/Word/Excel/PPT无限次转化
 <dd>
 <ul>
 <li>
-<span class="score"><b>0.0</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/5d5897c4aa00b52acfc7ca9f.html" target="_blank" title="心理学中的十四个定律">心理学中的十四个定律</a>
+<span class="score"><b>4.4</b>分</span>
+<span class="ic ic-pdf"></span>
+<a href="/view/d66227c49e31433239689340.html" target="_blank" title="毛泽东合理分配思想及其当代启示">毛泽东合理分配思想及其当代...</a>
 </li>
 <li>
-<span class="score"><b>0.0</b>分</span>
+<span class="score"><b>4.4</b>分</span>
 <span class="ic ic-pdf"></span>
-<a href="/view/be07de708e9951e79b89277e.html" target="_blank" title="企业员工能力发展计划">企业员工能力发展计划</a>
+<a href="/view/f3a314c3f8c75fbfc77db2e8.html" target="_blank" title="试析当前首都市民社会主义核心价值观建设面临的机遇与挑战">试析当前首都市民社会主义核...</a>
 </li>
 <li>
-<span class="score"><b>0.0</b>分</span>
+<span class="score"><b>4.4</b>分</span>
 <span class="ic ic-pdf"></span>
-<a href="/view/19ab38583b3567ec102d8ae3.html" target="_blank" title="5步20法-年度经营计划">5步20法-年度经营计划</a>
+<a href="/view/edd0b36a33687e21af45a9c9.html" target="_blank" title="首都市民社会主义价值观建设">首都市民社会主义价值观建设</a>
 </li>
 </ul>
 </dd>
@@ -2674,43 +2711,6 @@ PDF/Word/Excel/PPT无限次转化
 </ul>
 </dd>
 </dl>
-<dl class="author-list">
-<dt class="clearfix">
-<a href="/p/%B5%AD%B9%F0%BD%F0" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/bba1cd11728b4710072ac090c2cec3fdfc032360.jpg" title="邹杰" alt="邹杰" /></a>
-<div class="brief">
-<p><a href="/p/%B5%AD%B9%F0%BD%F0" target="_blank">邹杰</a><b class="bg-index ic-vrf"></b></p>
-<p title="工程学博士">工程学博士</p>
-<p>
-<span><b>14</b>篇文档</span>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index full"></b>
-<b class="ic-star bg-index empty"></b>
-4.0
-</p>
-</div>
-</dt>
-<dd>
-<ul>
-<li>
-<span class="score"><b>4.4</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/33c7b718227916888486d725.html" target="_blank" title="《材料腐蚀与防护》习题与思考题">《材料腐蚀与防护》习题与思...</a>
-</li>
-<li>
-<span class="score"><b>4.4</b>分</span>
-<span class="ic ic-doc"></span>
-<a href="/view/41f16cf6ba0d4a7302763a1a.html" target="_blank" title="电力电子技术">电力电子技术</a>
-</li>
-<li>
-<span class="score"><b>4.5</b>分</span>
-<span class="ic ic-ppt"></span>
-<a href="/view/a16eb9d784254b35eefd3462.html" target="_blank" title="钢的分类及编号方法">钢的分类及编号方法</a>
-</li>
-</ul>
-</dd>
-</dl>
 </li>
 </ul>
 </div>
@@ -2722,58 +2722,279 @@ PDF/Word/Excel/PPT无限次转化
 <ul id="feed-list">
 <li>
 <div class="bg-index ic-dot"></div>
-<p class="ut bg-index">2秒前</p>
+<p class="ut bg-index">21秒前</p>
 <div class="author clearfix">
-<a href="/p/%B7%CA%CF%C8%C9%AD999" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/d009b3de9c82d158b00b72718e0a19d8bd3e4260.jpg" alt="黄盈翡" title="黄盈翡" />
+<a href="/p/%C4%B8%C5%AE%CD%AC%B7%F2" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/6609c93d70cf3bc73591f03ddf00baa1cc112a49.jpg" alt="陆壮榕" title="陆壮榕" />
 </a>
 <p class="name">
-<a href="/p/%B7%CA%CF%C8%C9%AD999" target="_blank" title="黄盈翡">黄盈翡</a>
+<a href="/p/%C4%B8%C5%AE%CD%AC%B7%F2" target="_blank" title="陆壮榕">陆壮榕</a>
 <b class="bg-index ic-ver"></b>
 </p>
-<p class="pro" title="衢州语文老师">衢州语文老师</p>
+<p class="pro" title="教师">教师</p>
 </div>
 <p class="newest-up">
-上传<a href="/view/e41ea895bfd5b9f3f90f76c66137ee06eff94ec8" target="_blank" title="新概念入门级aUnit-Unit-9">《新概念入门级aUnit-...》</a>
+上传<a href="/view/71a14b222dc58bd63186bceb19e8b8f67d1cefe1" target="_blank" title="(淄博专版)2019届中考语文 专题十六 专题性学习真题再现(含解析)">《(淄博专版)2019届中...》</a>
 </p>
 </li>
 <li>
 <div class="bg-index ic-dot"></div>
-<p class="ut bg-index">2秒前</p>
+<p class="ut bg-index">24秒前</p>
 <div class="author clearfix">
-<a href="/p/2018%C4%EA8%D4%C24%BA%C5" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/ca1349540923dd54c03e6c8bdf09b3de9d824880.jpg" alt="石雅芸" title="石雅芸" />
+<a href="/p/JXC112114" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/a8014c086e061d952b15f8907ef40ad163d9cac3.jpg" alt="纪熙成" title="纪熙成" />
 </a>
 <p class="name">
-<a href="/p/2018%C4%EA8%D4%C24%BA%C5" target="_blank" title="石雅芸">石雅芸</a>
+<a href="/p/JXC112114" target="_blank" title="纪熙成">纪熙成</a>
 <b class="bg-index ic-ver"></b>
 </p>
-<p class="pro" title="计算机信息高新技术办公软件操作员">计算机信息高新技术办...</p>
+<p class="pro" title="一级教师">一级教师</p>
 </div>
 <p class="newest-up">
-上传<a href="/view/79fc60b2a4e9856a561252d380eb6294dc882209" target="_blank" title="2020版高考历史一轮复习专题九走向世界的资本主义市场专题总结提升(九)课件人民版">《2020版高考历史一轮...》</a>
+上传<a href="/view/d29398f60a1c59eef8c75fbfc77da26924c59605" target="_blank" title="被钦点为状元,只因一对联">《被钦点为状元,只因一...》</a>
 </p>
 </li>
 <li>
 <div class="bg-index ic-dot"></div>
-<p class="ut bg-index">2秒前</p>
+<p class="ut bg-index">48秒前</p>
 <div class="author clearfix">
-<a href="/p/%D6%D0%BB%AA%D0%A1%CE%C4%BF%E20" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/8b13632762d0f703cbfb654406fa513d2797c5d9.jpg" alt="吴陈华" title="吴陈华" />
+<a href="/p/%D3%DA%D7%DA%D0%F1%C0%CF%CA%A6" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/4a36acaf2edda3cc882ffa470ce93901203f928a.jpg" alt="于宗旭" title="于宗旭" />
 </a>
 <p class="name">
-<a href="/p/%D6%D0%BB%AA%D0%A1%CE%C4%BF%E20" target="_blank" title="吴陈华">吴陈华</a>
+<a href="/p/%D3%DA%D7%DA%D0%F1%C0%CF%CA%A6" target="_blank" title="于宗旭">于宗旭</a>
+<b class="bg-index ic-ver"></b>
+</p>
+<p class="pro" title="质量工程师">质量工程师</p>
+</div>
+<p class="newest-up">
+上传<a href="/view/d39bc40d988fcc22bcd126fff705cc1754275ff1" target="_blank" title="初二数学二次根式提高题与常考题和培优题(含解析)-培训讲学">《初二数学二次根式提...》</a>
+</p>
+</li>
+<li>
+<div class="bg-index ic-dot"></div>
+<p class="ut bg-index">49秒前</p>
+<div class="author clearfix">
+<a href="/p/%B0%AE%BB%A8%BA%A3%CE%DE%B1%DF" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/09fa513d269759ee730a88e1bafb43166d22df46.jpg" alt="陈秀珍" title="陈秀珍" />
+</a>
+<p class="name">
+<a href="/p/%B0%AE%BB%A8%BA%A3%CE%DE%B1%DF" target="_blank" title="陈秀珍">陈秀珍</a>
+<b class="bg-index ic-ver"></b>
+</p>
+<p class="pro" title="工程师">工程师</p>
+</div>
+<p class="newest-up">
+上传<a href="/view/a5ea0d01dc88d0d233d4b14e852458fb770b38c7" target="_blank" title="【中小学资料】山西省忻州二中2017-2018学年高二化学下学期期中试题">《【中小学资料】山西...》</a>
+</p>
+</li>
+<li>
+<div class="bg-index ic-dot"></div>
+<p class="ut bg-index">58秒前</p>
+<div class="author clearfix">
+<a href="/p/guanyongbin6" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/37d12f2eb9389b50595ab5108b35e5dde6116ece.jpg" alt="官永斌" title="官永斌" />
+</a>
+<p class="name">
+<a href="/p/guanyongbin6" target="_blank" title="官永斌">官永斌</a>
+<b class="bg-index ic-ver"></b>
+</p>
+<p class="pro" title="教师">教师</p>
+</div>
+<p class="newest-up">
+上传<a href="/view/818aa163b8d528ea81c758f5f61fb7360a4c2bf9" target="_blank" title="九年级体育升学考试指导共20页文档">《九年级体育升学考试...》</a>
+</p>
+</li>
+<li>
+<div class="bg-index ic-dot"></div>
+<p class="ut bg-index">1分钟前</p>
+<div class="author clearfix">
+<a href="/p/123423746" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/f11f3a292df5e0fe710019d8576034a85fdf72cb.jpg" alt="王敏" title="王敏" />
+</a>
+<p class="name">
+<a href="/p/123423746" target="_blank" title="王敏">王敏</a>
 <b class="bg-index ic-ver"></b>
 </p>
 <p class="pro" title="主治医师">主治医师</p>
 </div>
 <p class="newest-up">
-上传<a href="/view/117a6e18f605cc1755270722192e453611665bc3" target="_blank" title="岩土工程勘察课件6.现场检验与监测">《岩土工程勘察课件6....》</a>
+上传<a href="/view/f19342228ad63186bceb19e8b8f67c1cfbd6ee6f" target="_blank" title="东纶集团-如何当好班组长-60页精选文档">《东纶集团-如何当好班...》</a>
 </p>
 </li>
 <li>
 <div class="bg-index ic-dot"></div>
-<p class="ut bg-index">2秒前</p>
+<p class="ut bg-index">1分钟前</p>
+<div class="author clearfix">
+<a href="/p/%D0%C1%BF%E0%B5%C4%C0%CF%B5%F9%D1%BD" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/a2cc7cd98d1001e959b92ceab60e7bec55e79749.jpg" alt="沟滢滢" title="沟滢滢" />
+</a>
+<p class="name">
+<a href="/p/%D0%C1%BF%E0%B5%C4%C0%CF%B5%F9%D1%BD" target="_blank" title="沟滢滢">沟滢滢</a>
+<b class="bg-index ic-ver"></b>
+</p>
+<p class="pro" title="教师">教师</p>
+</div>
+<p class="newest-up">
+上传<a href="/view/c28d11fe2379168884868762caaedd3382c4b56d" target="_blank" title="某石油设备公司预警机制方案(ppt 91页)">《某石油设备公司预警...》</a>
+</p>
+</li>
+<li>
+<div class="bg-index ic-dot"></div>
+<p class="ut bg-index">1分钟前</p>
+<div class="author clearfix">
+<a href="/p/yS0Zd75SpLa3" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/503d269759ee3d6d3f7e0e274d166d224e4adea6.jpg" alt="王建云" title="王建云" />
+</a>
+<p class="name">
+<a href="/p/yS0Zd75SpLa3" target="_blank" title="王建云">王建云</a>
+<b class="bg-index ic-ver"></b>
+</p>
+<p class="pro" title="教师">教师</p>
+</div>
+<p class="newest-up">
+上传<a href="/view/21e976b8302b3169a45177232f60ddccdb38e676" target="_blank" title="第4章第2节：光的反射">《第4章第2节：光的反...》</a>
+</p>
+</li>
+<li>
+<div class="bg-index ic-dot"></div>
+<p class="ut bg-index">1分钟前</p>
+<div class="author clearfix">
+<a href="/p/xiandaihua199" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/adaf2edda3cc7cd93803c0f03a01213fb80e91e9.jpg" alt="孙铁军" title="孙铁军" />
+</a>
+<p class="name">
+<a href="/p/xiandaihua199" target="_blank" title="孙铁军">孙铁军</a>
+<b class="bg-index ic-ver"></b>
+</p>
+<p class="pro" title="一级教师">一级教师</p>
+</div>
+<p class="newest-up">
+上传<a href="/view/ca7025d2effdc8d376eeaeaad1f34693dbef106d" target="_blank" title="打包下载(共25份)最新高考 数学(文) 三年高考 (共2016-2019)真题分项附解析(一份获满分)">《打包下载(共25份)最...》</a>
+</p>
+</li>
+<li>
+<div class="bg-index ic-dot"></div>
+<p class="ut bg-index">1分钟前</p>
+<div class="author clearfix">
+<a href="/p/linba6" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/b219ebc4b74543a93d4cffde11178a82b9011448.jpg" alt="林宜海" title="林宜海" />
+</a>
+<p class="name">
+<a href="/p/linba6" target="_blank" title="林宜海">林宜海</a>
+<b class="bg-index ic-ver"></b>
+</p>
+<p class="pro" title="乡村医生">乡村医生</p>
+</div>
+<p class="newest-up">
+上传<a href="/view/893d95205ebfc77da26925c52cc58bd6308693ea" target="_blank" title="圆点卡ppt课件">《圆点卡ppt课件》</a>
+</p>
+</li>
+<li>
+<div class="bg-index ic-dot"></div>
+<p class="ut bg-index">2分钟前</p>
+<div class="author clearfix">
+<a href="/p/lins0522" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/1e30e924b899a9017048bc2612950a7b0208f5a5.jpg" alt="林珊" title="林珊" />
+</a>
+<p class="name">
+<a href="/p/lins0522" target="_blank" title="林珊">林珊</a>
+<b class="bg-index ic-ver"></b>
+</p>
+<p class="pro" title="护师">护师</p>
+</div>
+<p class="newest-up">
+上传<a href="/view/2c429e84f08583d049649b6648d7c1c709a10b5b" target="_blank" title="地下连续墙成槽垂直度控制">《地下连续墙成槽垂直...》</a>
+</p>
+</li>
+<li>
+<div class="bg-index ic-dot"></div>
+<p class="ut bg-index">2分钟前</p>
+<div class="author clearfix">
+<a href="/p/1qwdesefq" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/2934349b033b5bb5eac732cc3ad3d539b600bceb.jpg" alt="裴静兰" title="裴静兰" />
+</a>
+<p class="name">
+<a href="/p/1qwdesefq" target="_blank" title="裴静兰">裴静兰</a>
+<b class="bg-index ic-ver"></b>
+</p>
+<p class="pro" title="教师">教师</p>
+</div>
+<p class="newest-up">
+上传<a href="/view/12dfb5085ff7ba0d4a7302768e9951e79a896962" target="_blank" title="九年级化学下册 第十单元 酸和碱 课题2 课时2 溶液的酸碱度——pH课件 (新版)新人教版">《九年级化学下册 第十...》</a>
+</p>
+</li>
+<li>
+<div class="bg-index ic-dot"></div>
+<p class="ut bg-index">2分钟前</p>
+<div class="author clearfix">
+<a href="/p/QFNBMNWGUY" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/838ba61ea8d3fd1f3eaeb1d03e4e251f94ca5fb0.jpg" alt="刘海涛" title="刘海涛" />
+</a>
+<p class="name">
+<a href="/p/QFNBMNWGUY" target="_blank" title="刘海涛">刘海涛</a>
+<b class="bg-index ic-ver"></b>
+</p>
+<p class="pro" title="教师">教师</p>
+</div>
+<p class="newest-up">
+上传<a href="/view/baab26f19a6648d7c1c708a1284ac850ac020441" target="_blank" title="第5课 文明的冲突与融合  课件">《第5课 文明的冲突与...》</a>
+</p>
+</li>
+<li>
+<div class="bg-index ic-dot"></div>
+<p class="ut bg-index">2分钟前</p>
+<div class="author clearfix">
+<a href="/p/phl805" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/adaf2edda3cc7cd9ff36ff9c3001213fb80e9158.jpg" alt="潘宏亮" title="潘宏亮" />
+</a>
+<p class="name">
+<a href="/p/phl805" target="_blank" title="潘宏亮">潘宏亮</a>
+<b class="bg-index ic-ver"></b>
+</p>
+<p class="pro" title="高级工程师">高级工程师</p>
+</div>
+<p class="newest-up">
+上传<a href="/view/7e3578f6cd7931b765ce0508763231126fdb7762" target="_blank" title="微电影剧本创作">《微电影剧本创作》</a>
+</p>
+</li>
+<li>
+<div class="bg-index ic-dot"></div>
+<p class="ut bg-index">2分钟前</p>
+<div class="author clearfix">
+<a href="/p/helingbaby666" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/a6efce1b9d16fdfae842c942ba8f8c5494ee7b6b.jpg" alt="何玲" title="何玲" />
+</a>
+<p class="name">
+<a href="/p/helingbaby666" target="_blank" title="何玲">何玲</a>
+<b class="bg-index ic-ver"></b>
+</p>
+<p class="pro" title="教师">教师</p>
+</div>
+<p class="newest-up">
+上传<a href="/view/438e998ab6360b4c2e3f5727a5e9856a57122641" target="_blank" title="第4单元-13 背影">《第4单元-13 背影》</a>
+</p>
+</li>
+<li>
+<div class="bg-index ic-dot"></div>
+<p class="ut bg-index">2分钟前</p>
+<div class="author clearfix">
+<a href="/p/%CC%EC%C2%ED%D0%D0%BF%D5ONEONE" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/95eef01f3a292df58614ba9ab2315c6035a8736d.jpg" alt="汪巧凤" title="汪巧凤" />
+</a>
+<p class="name">
+<a href="/p/%CC%EC%C2%ED%D0%D0%BF%D5ONEONE" target="_blank" title="汪巧凤">汪巧凤</a>
+<b class="bg-index ic-ver"></b>
+</p>
+<p class="pro" title="教师">教师</p>
+</div>
+<p class="newest-up">
+上传<a href="/view/f007d1f9640e52ea551810a6f524ccbff021ca7e" target="_blank" title="2019-2020年人教统编个险卓越人生新产品介绍课件">《2019-2020年人教统编...》</a>
+</p>
+</li>
+<li>
+<div class="bg-index ic-dot"></div>
+<p class="ut bg-index">2分钟前</p>
 <div class="author clearfix">
 <a href="/p/acengjing6800" target="_blank">
 <img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/3bf33a87e950352a200e7c035e43fbf2b2118b4a.jpg" alt="杨仁南" title="杨仁南" />
@@ -2785,450 +3006,220 @@ PDF/Word/Excel/PPT无限次转化
 <p class="pro" title="教师">教师</p>
 </div>
 <p class="newest-up">
-上传<a href="/view/74a020d0f011f18583d049649b6648d7c0c70851" target="_blank" title="九年级化学上册 空气第一课时名师精编课件 人教新课标版">《九年级化学上册 空气...》</a>
+上传<a href="/view/a2611c92a517866fb84ae45c3b3567ec112ddc62" target="_blank" title="九年级化学上册 第六单元 碳和碳的氧化物 课题1 金刚石、石墨和C60 课时2 碳单质的化学性质(小测本)名师">《九年级化学上册 第六...》</a>
 </p>
 </li>
 <li>
 <div class="bg-index ic-dot"></div>
-<p class="ut bg-index">4秒前</p>
+<p class="ut bg-index">2分钟前</p>
 <div class="author clearfix">
-<a href="/p/%C8%D5%B6%C8%C8%D5%B6%C8" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/0824ab18972bd407cf713a3870899e510eb30945.jpg" alt="梁庚" title="梁庚" />
+<a href="/p/%C6%AF%C1%C1%B5%C4%B6%FE%BD%E3%BD%E3%D1%BD" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/d439b6003af33a8785bad72fc95c10385343b534.jpg" alt="汪延吉" title="汪延吉" />
 </a>
 <p class="name">
-<a href="/p/%C8%D5%B6%C8%C8%D5%B6%C8" target="_blank" title="梁庚">梁庚</a>
-<b class="bg-index ic-ver"></b>
-</p>
-<p class="pro" title="技术助理工程师">技术助理工程师</p>
-</div>
-<p class="newest-up">
-上传<a href="/view/a0db1ce7a7c30c22590102020740be1e640eccfe" target="_blank" title="(新员工培训)GMP基础知识PPT学习课件">《(新员工培训)GMP基础...》</a>
-</p>
-</li>
-<li>
-<div class="bg-index ic-dot"></div>
-<p class="ut bg-index">5秒前</p>
-<div class="author clearfix">
-<a href="/p/mxxsg" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/42a98226cffc1e176cb5b72e4790f603738de9a3.jpg" alt="徐世刚" title="徐世刚" />
-</a>
-<p class="name">
-<a href="/p/mxxsg" target="_blank" title="徐世刚">徐世刚</a>
-<b class="bg-index ic-ver"></b>
-</p>
-<p class="pro" title="一级教师">一级教师</p>
-</div>
-<p class="newest-up">
-上传<a href="/view/15812f0b112de2bd960590c69ec3d5bbfc0adaca" target="_blank" title="部编八上历史第13课 五四运动教案">《部编八上历史第13课...》</a>
-</p>
-</li>
-<li>
-<div class="bg-index ic-dot"></div>
-<p class="ut bg-index">5秒前</p>
-<div class="author clearfix">
-<a href="/p/jfqiang007" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/a50f4bfbfbedab642639bae1fa36afc379311e43.jpg" alt="姜风强" title="姜风强" />
-</a>
-<p class="name">
-<a href="/p/jfqiang007" target="_blank" title="姜风强">姜风强</a>
-<b class="bg-index ic-ver"></b>
-</p>
-<p class="pro" title="一级教师">一级教师</p>
-</div>
-<p class="newest-up">
-上传<a href="/view/c615808d11a6f524ccbff121dd36a32d7275c7c4" target="_blank" title="(名师整理)道德与法治七年级上册第2单元第5课第1框《让友谊之树常青》省优质课获奖教案">《(名师整理)道德与法...》</a>
-</p>
-</li>
-<li>
-<div class="bg-index ic-dot"></div>
-<p class="ut bg-index">5秒前</p>
-<div class="author clearfix">
-<a href="/p/kattylinlin" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/cc11728b4710b9123cbe0559cdfdfc039245221e.jpg" alt="林秀娇" title="林秀娇" />
-</a>
-<p class="name">
-<a href="/p/kattylinlin" target="_blank" title="林秀娇">林秀娇</a>
+<a href="/p/%C6%AF%C1%C1%B5%C4%B6%FE%BD%E3%BD%E3%D1%BD" target="_blank" title="汪延吉">汪延吉</a>
 <b class="bg-index ic-ver"></b>
 </p>
 <p class="pro" title="教师">教师</p>
 </div>
 <p class="newest-up">
-上传<a href="/view/557da1ea6d85ec3a87c24028915f804d2a168762" target="_blank" title="第2章 第2节 自由落体运动规律">《第2章 第2节 自由落...》</a>
+上传<a href="/view/aa7e64ab2f3f5727a5e9856a561252d381eb207e" target="_blank" title="内部控制培训课程(ppt 127页)">《内部控制培训课程(p...》</a>
 </p>
 </li>
 <li>
 <div class="bg-index ic-dot"></div>
-<p class="ut bg-index">6秒前</p>
+<p class="ut bg-index">2分钟前</p>
 <div class="author clearfix">
-<a href="/p/%C7%DA%C0%CD%B5%C4%C8%CB552" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/eac4b74543a982261f493ca58782b9014b90ebac.jpg" alt="樊岩超" title="樊岩超" />
+<a href="/p/%D0%A1%BA%D3%D0%A1%CE%F7%B5%C4%BC%D2" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/b21bb051f8198618897f9a2347ed2e738bd4e659.jpg" alt="周乃君" title="周乃君" />
 </a>
 <p class="name">
-<a href="/p/%C7%DA%C0%CD%B5%C4%C8%CB552" target="_blank" title="樊岩超">樊岩超</a>
-<b class="bg-index ic-ver"></b>
-</p>
-<p class="pro" title="中级技工">中级技工</p>
-</div>
-<p class="newest-up">
-上传<a href="/view/6846c92059f5f61fb7360b4c2e3f5727a4e924c2" target="_blank" title="2019年小升初数学衔接专题练习卷有理数的乘除法专题">《2019年小升初数学衔...》</a>
-</p>
-</li>
-<li>
-<div class="bg-index ic-dot"></div>
-<p class="ut bg-index">6秒前</p>
-<div class="author clearfix">
-<a href="/p/%D6%AA%B5%C0%D7%A8%BC%D2RMB" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/9825bc315c6034a80a43c8d9c8134954082376c0.jpg" alt="冉崇兵" title="冉崇兵" />
-</a>
-<p class="name">
-<a href="/p/%D6%AA%B5%C0%D7%A8%BC%D2RMB" target="_blank" title="冉崇兵">冉崇兵</a>
+<a href="/p/%D0%A1%BA%D3%D0%A1%CE%F7%B5%C4%BC%D2" target="_blank" title="周乃君">周乃君</a>
 <b class="bg-index ic-ver"></b>
 </p>
 <p class="pro" title="教师">教师</p>
 </div>
 <p class="newest-up">
-上传<a href="/view/57e7f0e8a36925c52cc58bd63186bceb19e8edbc" target="_blank" title="(文科数学)高考真题分类训练  专题一  集合与常用逻辑用语第二讲  常用逻辑用语">《(文科数学)高考真题...》</a>
+上传<a href="/view/02410362ed3a87c24028915f804d2b160a4e8665" target="_blank" title="医学碱中毒代谢性和呼吸性专题课件">《医学碱中毒代谢性和...》</a>
 </p>
 </li>
 <li>
 <div class="bg-index ic-dot"></div>
-<p class="ut bg-index">7秒前</p>
+<p class="ut bg-index">2分钟前</p>
 <div class="author clearfix">
-<a href="/p/plm860108" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/9c16fdfaaf51f3de7b583ac298eef01f3b2979aa.jpg" alt="潘刘铭" title="潘刘铭" />
+<a href="/p/liyuyong66" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/7dd98d1001e93901b546627c75ec54e736d19628.jpg" alt="李育勇" title="李育勇" />
 </a>
 <p class="name">
-<a href="/p/plm860108" target="_blank" title="潘刘铭">潘刘铭</a>
+<a href="/p/liyuyong66" target="_blank" title="李育勇">李育勇</a>
 <b class="bg-index ic-ver"></b>
 </p>
-<p class="pro" title="机加工艺工程师">机加工艺工程师</p>
+<p class="pro" title="教师">教师</p>
 </div>
 <p class="newest-up">
-上传<a href="/view/4eeb80b7ac02de80d4d8d15abe23482fb5da02d9" target="_blank" title="高考生物大第三单元 细胞的能量供应和利用第10讲 光合作用课件 新人教版">《高考生物大第三单元...》</a>
+上传<a href="/view/6151ad66e43a580216fc700abb68a98270feac65" target="_blank" title="九章节压强复习共25页">《九章节压强复习共25...》</a>
 </p>
 </li>
 <li>
 <div class="bg-index ic-dot"></div>
-<p class="ut bg-index">7秒前</p>
+<p class="ut bg-index">1小时前</p>
 <div class="author clearfix">
-<a href="/p/%D1%F4%B9%E2%B5%C4%D0%F9%D0%F956" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/728da9773912b31b174daeb68a18367adab4e108.jpg" alt="张艳" title="张艳" />
+<a href="/p/%D0%A1%D0%DC%C5%B7%C4%E1abc" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/79f0f736afc37931c609accce5c4b74542a911f5.jpg" alt="郭浩钿" title="郭浩钿" />
 </a>
 <p class="name">
-<a href="/p/%D1%F4%B9%E2%B5%C4%D0%F9%D0%F956" target="_blank" title="张艳">张艳</a>
+<a href="/p/%D0%A1%D0%DC%C5%B7%C4%E1abc" target="_blank" title="郭浩钿">郭浩钿</a>
+<b class="bg-index ic-ver"></b>
+</p>
+<p class="pro" title="教师">教师</p>
+</div>
+<p class="newest-up">
+成功加入百度文库个人认证</p>
+</li>
+<li>
+<div class="bg-index ic-dot"></div>
+<p class="ut bg-index">1小时前</p>
+<div class="author clearfix">
+<a href="/p/09%D0%A1%CE%E223" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/5366d0160924ab185fa5df9339fae6cd7a890be6.jpg" alt="吴荣海" title="吴荣海" />
+</a>
+<p class="name">
+<a href="/p/09%D0%A1%CE%E223" target="_blank" title="吴荣海">吴荣海</a>
+<b class="bg-index ic-ver"></b>
+</p>
+<p class="pro" title="工程师">工程师</p>
+</div>
+<p class="newest-up">
+成功加入百度文库个人认证</p>
+</li>
+<li>
+<div class="bg-index ic-dot"></div>
+<p class="ut bg-index">2小时前</p>
+<div class="author clearfix">
+<a href="/p/danzhaojin" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/bf096b63f6246b60b3ac0587ecf81a4c500fa2a7.jpg" alt="胡雯" title="胡雯" />
+</a>
+<p class="name">
+<a href="/p/danzhaojin" target="_blank" title="胡雯">胡雯</a>
 <b class="bg-index ic-ver"></b>
 </p>
 <p class="pro" title="高级教师">高级教师</p>
 </div>
 <p class="newest-up">
-上传<a href="/view/3429ecb676232f60ddccda38376baf1ffd4fe376" target="_blank" title="打包下载(共6份)最新高三语文诗歌鉴赏题材 专项练习汇总">《打包下载(共6份)最新...》</a>
+成功加入百度文库个人认证</p>
+</li>
+<li>
+<div class="bg-index ic-dot"></div>
+<p class="ut bg-index">2小时前</p>
+<div class="author clearfix">
+<a href="/p/kenshibu" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/d009b3de9c82d15824c3d4d2880a19d8bc3e4214.jpg" alt="蔡绍刚" title="蔡绍刚" />
+</a>
+<p class="name">
+<a href="/p/kenshibu" target="_blank" title="蔡绍刚">蔡绍刚</a>
+<b class="bg-index ic-ver"></b>
+</p>
+<p class="pro" title="安全工程师">安全工程师</p>
+</div>
+<p class="newest-up">
+成功加入百度文库个人认证</p>
+</li>
+<li>
+<div class="bg-index ic-dot"></div>
+<p class="ut bg-index">2小时前</p>
+<div class="author clearfix">
+<a href="/p/2019%D1%A7%BB%E1%C1%CB%B0%B2%BE%B2" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/279759ee3d6d55fbdf67f87660224f4a20a4dd39.jpg" alt="邓万成" title="邓万成" />
+</a>
+<p class="name">
+<a href="/p/2019%D1%A7%BB%E1%C1%CB%B0%B2%BE%B2" target="_blank" title="邓万成">邓万成</a>
+<b class="bg-index ic-ver"></b>
+</p>
+<p class="pro" title="数学老师">数学老师</p>
+</div>
+<p class="newest-up">
+成功加入百度文库个人认证</p>
+</li>
+<li>
+<div class="bg-index ic-dot"></div>
+<p class="ut bg-index">2小时前</p>
+<div class="author clearfix">
+<a href="/p/zhangshuge11" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/b21bb051f81986188acd993047ed2e738ad4e6f8.jpg" alt="张书舸" title="张书舸" />
+</a>
+<p class="name">
+<a href="/p/zhangshuge11" target="_blank" title="张书舸">张书舸</a>
+<b class="bg-index ic-ver"></b>
+</p>
+<p class="pro" title="政工师">政工师</p>
+</div>
+<p class="newest-up">
+成功加入百度文库个人认证</p>
+</li>
+<li>
+<div class="bg-index ic-dot"></div>
+<p class="ut bg-index">2小时前</p>
+<div class="author clearfix">
+<a href="/p/%D1%A9%C2%E4%CE%C2%C7%E9" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/a044ad345982b2b766b4bf3d37adcbef76099b24.jpg" alt="田凤" title="田凤" />
+</a>
+<p class="name">
+<a href="/p/%D1%A9%C2%E4%CE%C2%C7%E9" target="_blank" title="田凤">田凤</a>
+<b class="bg-index ic-ver"></b>
+</p>
+<p class="pro" title="高级教师">高级教师</p>
+</div>
+<p class="newest-up">
+上传<a href="/view/bb4de9618662caaedd3383c4bb4cf7ec4bfeb6fc" target="_blank" title="【中小学资料】山西省平定县2018届九年级语文上学期12月月考试题(扫描版) 新人教版">《【中小学资料】山西...》</a>
 </p>
 </li>
 <li>
 <div class="bg-index ic-dot"></div>
-<p class="ut bg-index">8秒前</p>
+<p class="ut bg-index">2小时前</p>
 <div class="author clearfix">
-<a href="/p/dajhz82" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/96dda144ad34598234bc0c1400f431adcbef8406.jpg" alt="闫有成" title="闫有成" />
+<a href="/p/yy55chao" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/4ec2d5628535e5dd7af34d6478c6a7efcf1b62aa.jpg" alt="翁少华" title="翁少华" />
 </a>
 <p class="name">
-<a href="/p/dajhz82" target="_blank" title="闫有成">闫有成</a>
+<a href="/p/yy55chao" target="_blank" title="翁少华">翁少华</a>
 <b class="bg-index ic-ver"></b>
 </p>
 <p class="pro" title="教师">教师</p>
 </div>
 <p class="newest-up">
-上传<a href="/view/570d9b8254270722192e453610661ed9ad5155cc" target="_blank" title="第八课 《三国演义》：历史是由人书写的">《第八课 《三国演义》...》</a>
-</p>
+成功加入百度文库个人认证</p>
 </li>
 <li>
 <div class="bg-index ic-dot"></div>
-<p class="ut bg-index">8秒前</p>
+<p class="ut bg-index">3小时前</p>
 <div class="author clearfix">
-<a href="/p/zff09072" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/10dfa9ec8a136327d1a29dd49f8fa0ec09fac78e.jpg" alt="赵方方" title="赵方方" />
+<a href="/p/%CD%F5%B3%BF%CF%A32000" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/71cf3bc79f3df8dc905bc8a6c211728b471028a6.jpg" alt="焦凤德" title="焦凤德" />
 </a>
 <p class="name">
-<a href="/p/zff09072" target="_blank" title="赵方方">赵方方</a>
+<a href="/p/%CD%F5%B3%BF%CF%A32000" target="_blank" title="焦凤德">焦凤德</a>
+<b class="bg-index ic-ver"></b>
+</p>
+<p class="pro" title="医师">医师</p>
+</div>
+<p class="newest-up">
+成功加入百度文库个人认证</p>
+</li>
+<li>
+<div class="bg-index ic-dot"></div>
+<p class="ut bg-index">3小时前</p>
+<div class="author clearfix">
+<a href="/p/%E5%B0%8F%E8%8F%9F%E8%8F%9F%F0%9F%90" target="_blank">
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/b90e7bec54e736d11f12fa7a95504fc2d56269ba.jpg" alt="陆琳娟" title="陆琳娟" />
+</a>
+<p class="name">
+<a href="/p/%E5%B0%8F%E8%8F%9F%E8%8F%9F%F0%9F%90" target="_blank" title="陆琳娟">陆琳娟</a>
 <b class="bg-index ic-ver"></b>
 </p>
 <p class="pro" title="教师">教师</p>
 </div>
 <p class="newest-up">
-上传<a href="/view/add7f0ade55c3b3567ec102de2bd960591c6d9ce" target="_blank" title="八年级数学上册  分式方程及其解法">《八年级数学上册  分...》</a>
-</p>
-</li>
-<li>
-<div class="bg-index ic-dot"></div>
-<p class="ut bg-index">9秒前</p>
-<div class="author clearfix">
-<a href="/p/%B7%C9%CF%E8%B7%C9%CF%E859" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/960a304e251f95ca7cb05948c4177f3e66095283.jpg" alt="李学琪" title="李学琪" />
-</a>
-<p class="name">
-<a href="/p/%B7%C9%CF%E8%B7%C9%CF%E859" target="_blank" title="李学琪">李学琪</a>
-<b class="bg-index ic-ver"></b>
-</p>
-<p class="pro" title="高级讲师">高级讲师</p>
-</div>
-<p class="newest-up">
-上传<a href="/view/e1fb3e985bcfa1c7aa00b52acfc789eb162d9ecc" target="_blank" title="高考语文一轮全程复习方略配套课件：《寡人之于国也》《师说》新人教版必修3(山东专用)">《高考语文一轮全程复...》</a>
-</p>
-</li>
-<li>
-<div class="bg-index ic-dot"></div>
-<p class="ut bg-index">9秒前</p>
-<div class="author clearfix">
-<a href="/p/%C7%C7%C7%C7%D1%A7%CF%B0%B9%A4%D7%F7%CA%D2" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/d01373f082025aafd76f39eff0edab64034f1ab0.jpg" alt="乔金宁" title="乔金宁" />
-</a>
-<p class="name">
-<a href="/p/%C7%C7%C7%C7%D1%A7%CF%B0%B9%A4%D7%F7%CA%D2" target="_blank" title="乔金宁">乔金宁</a>
-<b class="bg-index ic-ver"></b>
-</p>
-<p class="pro" title="建筑（土木工程）工程师">建筑（土木工程）工程...</p>
-</div>
-<p class="newest-up">
-上传<a href="/view/eb3e7a3985254b35eefdc8d376eeaeaad0f31649" target="_blank" title="企业职工缴纳的大额医疗保险是否免征个人所得税.doc">《企业职工缴纳的大额...》</a>
-</p>
-</li>
-<li>
-<div class="bg-index ic-dot"></div>
-<p class="ut bg-index">9秒前</p>
-<div class="author clearfix">
-<a href="/p/%C7%E5%B8%E7%B8%E7%C0%CF%C1%F5" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/71cf3bc79f3df8dc069564b3c011728b4710286c.jpg" alt="刘清华" title="刘清华" />
-</a>
-<p class="name">
-<a href="/p/%C7%E5%B8%E7%B8%E7%C0%CF%C1%F5" target="_blank" title="刘清华">刘清华</a>
-<b class="bg-index ic-ver"></b>
-</p>
-<p class="pro" title="教师">教师</p>
-</div>
-<p class="newest-up">
-上传<a href="/view/521086db842458fb770bf78a6529647d26283408" target="_blank" title="八年级英语下册Module9FriendshipUnit1CouldIaskifyou’vementionedthistoher外研版">《八年级英语下册Modu...》</a>
-</p>
-</li>
-<li>
-<div class="bg-index ic-dot"></div>
-<p class="ut bg-index">10秒前</p>
-<div class="author clearfix">
-<a href="/p/shanhu6hao" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/4afbfbedab64034fe412a4fba9c379310b551d6b.jpg" alt="王清清" title="王清清" />
-</a>
-<p class="name">
-<a href="/p/shanhu6hao" target="_blank" title="王清清">王清清</a>
-<b class="bg-index ic-ver"></b>
-</p>
-<p class="pro" title="助理会计师">助理会计师</p>
-</div>
-<p class="newest-up">
-上传<a href="/view/a6541610bb0d4a7302768e9951e79b89690268f3" target="_blank" title="【中小学资料】新人教版初中数学七年级上册1.5.2科学记数法习题.doc">《【中小学资料】新人...》</a>
-</p>
-</li>
-<li>
-<div class="bg-index ic-dot"></div>
-<p class="ut bg-index">10秒前</p>
-<div class="author clearfix">
-<a href="/p/%CC%C6%CC%C6%CC%C6%CC%EF%D0%F1" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/2e2eb9389b504fc2203c067ae8dde71190ef6d6a.jpg" alt="唐田旭" title="唐田旭" />
-</a>
-<p class="name">
-<a href="/p/%CC%C6%CC%C6%CC%C6%CC%EF%D0%F1" target="_blank" title="唐田旭">唐田旭</a>
-<b class="bg-index ic-ver"></b>
-</p>
-<p class="pro" title="维修电工">维修电工</p>
-</div>
-<p class="newest-up">
-上传<a href="/view/b18e32bc657d27284b73f242336c1eb91a3733c8" target="_blank" title="2020粤教版地理八年级下册7.5《陕西省》ppt课件2">《2020粤教版地理八年...》</a>
-</p>
-</li>
-<li>
-<div class="bg-index ic-dot"></div>
-<p class="ut bg-index">10秒前</p>
-<div class="author clearfix">
-<a href="/p/%CC%EC%C9%FA%D7%EE%C3%C0" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/8ad4b31c8701a18be7808c66972f07082838feb4.jpg" alt="李国强" title="李国强" />
-</a>
-<p class="name">
-<a href="/p/%CC%EC%C9%FA%D7%EE%C3%C0" target="_blank" title="李国强">李国强</a>
-<b class="bg-index ic-ver"></b>
-</p>
-<p class="pro" title="二级教师">二级教师</p>
-</div>
-<p class="newest-up">
-上传<a href="/view/97c8624fa48da0116c175f0e7cd184254a351b2c" target="_blank" title="2020届名校学术联盟新高考原创仿真试卷(十三)生物">《2020届名校学术联盟...》</a>
-</p>
-</li>
-<li>
-<div class="bg-index ic-dot"></div>
-<p class="ut bg-index">10秒前</p>
-<div class="author clearfix">
-<a href="/p/%B3%AC%BC%B6%CE%D2%CA%C7%CB%AD1112" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/eaf81a4c510fd9f9c4294e05282dd42a2834a49b.jpg" alt="杨守明" title="杨守明" />
-</a>
-<p class="name">
-<a href="/p/%B3%AC%BC%B6%CE%D2%CA%C7%CB%AD1112" target="_blank" title="杨守明">杨守明</a>
-<b class="bg-index ic-ver"></b>
-</p>
-<p class="pro" title="二级教师">二级教师</p>
-</div>
-<p class="newest-up">
-上传<a href="/view/85a1849e30b765ce0508763231126edb6e1a76c6" target="_blank" title="精编常州市2019-2020学年苏教版八年级6月月考语文试卷">《精编常州市2019-202...》</a>
-</p>
-</li>
-<li>
-<div class="bg-index ic-dot"></div>
-<p class="ut bg-index">10秒前</p>
-<div class="author clearfix">
-<a href="/p/%CD%F5%EA%CC%8BZ" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/6c224f4a20a446233b2096109b22720e0df3d7dd.jpg" alt="张英坡" title="张英坡" />
-</a>
-<p class="name">
-<a href="/p/%CD%F5%EA%CC%8BZ" target="_blank" title="张英坡">张英坡</a>
-<b class="bg-index ic-ver"></b>
-</p>
-<p class="pro" title="教师">教师</p>
-</div>
-<p class="newest-up">
-上传<a href="/view/6052fc2f5ebfc77da26925c52cc58bd6308693f5" target="_blank" title="高中语文大题精做01林教头风雪山神庙含解析新人教版必修13">《高中语文大题精做01...》</a>
-</p>
-</li>
-<li>
-<div class="bg-index ic-dot"></div>
-<p class="ut bg-index">10秒前</p>
-<div class="author clearfix">
-<a href="/p/%D4%C3%BC%BA068" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/d6ca7bcb0a46f21fef688ecff8246b600d33aeca.jpg" alt="陈悦华" title="陈悦华" />
-</a>
-<p class="name">
-<a href="/p/%D4%C3%BC%BA068" target="_blank" title="陈悦华">陈悦华</a>
-<b class="bg-index ic-ver"></b>
-</p>
-<p class="pro" title="教师">教师</p>
-</div>
-<p class="newest-up">
-上传<a href="/view/cc28f40c18e8b8f67c1cfad6195f312b3069ebc7" target="_blank" title="2018版 专题4 2 就业维权之道">《2018版 专题4 2 就业...》</a>
-</p>
-</li>
-<li>
-<div class="bg-index ic-dot"></div>
-<p class="ut bg-index">11秒前</p>
-<div class="author clearfix">
-<a href="/p/%D6%D0452" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/8601a18b87d6277fff18aeed24381f30e824fcd9.jpg" alt="李辉" title="李辉" />
-</a>
-<p class="name">
-<a href="/p/%D6%D0452" target="_blank" title="李辉">李辉</a>
-<b class="bg-index ic-ver"></b>
-</p>
-<p class="pro" title="江苏药师">江苏药师</p>
-</div>
-<p class="newest-up">
-上传<a href="/view/3e8aa61ac9d376eeaeaad1f34693daef5ff713f7" target="_blank" title="新部编语文小学四年级上备课素材教案14 普罗米修斯教学实录">《新部编语文小学四年...》</a>
-</p>
-</li>
-<li>
-<div class="bg-index ic-dot"></div>
-<p class="ut bg-index">11秒前</p>
-<div class="author clearfix">
-<a href="/p/%C4%CF%CD%A8%B7%E6%C9%D9" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/7e3e6709c93d70cfe6dd4b04f6dcd100baa12b90.jpg" alt="沈关锋" title="沈关锋" />
-</a>
-<p class="name">
-<a href="/p/%C4%CF%CD%A8%B7%E6%C9%D9" target="_blank" title="沈关锋">沈关锋</a>
-<b class="bg-index ic-ver"></b>
-</p>
-<p class="pro" title="体系审核师">体系审核师</p>
-</div>
-<p class="newest-up">
-上传<a href="/view/ab93f7c9dc36a32d7375a417866fb84ae55cc345" target="_blank" title="材料买卖合同">《材料买卖合同》</a>
-</p>
-</li>
-<li>
-<div class="bg-index ic-dot"></div>
-<p class="ut bg-index">11秒前</p>
-<div class="author clearfix">
-<a href="/p/wuyq1314520" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/b64543a98226cffccfe1ab8db7014a90f703eac2.jpg" alt="吴云清" title="吴云清" />
-</a>
-<p class="name">
-<a href="/p/wuyq1314520" target="_blank" title="吴云清">吴云清</a>
-<b class="bg-index ic-ver"></b>
-</p>
-<p class="pro" title="IT顾问">IT顾问</p>
-</div>
-<p class="newest-up">
-上传<a href="/view/1a35d451ba4cf7ec4afe04a1b0717fd5360cb2cd" target="_blank" title="以阅读为话题的叙事作文600字">《以阅读为话题的叙事...》</a>
-</p>
-</li>
-<li>
-<div class="bg-index ic-dot"></div>
-<p class="ut bg-index">11秒前</p>
-<div class="author clearfix">
-<a href="/p/edu150" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/060828381f30e924fb0c64e147086e061c95f7b2.jpg" alt="郑康华" title="郑康华" />
-</a>
-<p class="name">
-<a href="/p/edu150" target="_blank" title="郑康华">郑康华</a>
-<b class="bg-index ic-ver"></b>
-</p>
-<p class="pro" title="教师">教师</p>
-</div>
-<p class="newest-up">
-上传<a href="/view/4fb5a71eaff8941ea76e58fafab069dc512247cb" target="_blank" title="致橡树PPT课件详解10 北师大版">《致橡树PPT课件详解1...》</a>
-</p>
-</li>
-<li>
-<div class="bg-index ic-dot"></div>
-<p class="ut bg-index">11秒前</p>
-<div class="author clearfix">
-<a href="/p/444%C4%E3%B0%A1" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/6f061d950a7b0208005590b96fd9f2d3562cc8ce.jpg" alt="程帅帅" title="程帅帅" />
-</a>
-<p class="name">
-<a href="/p/444%C4%E3%B0%A1" target="_blank" title="程帅帅">程帅帅</a>
-<b class="bg-index ic-ver"></b>
-</p>
-<p class="pro" title="教师">教师</p>
-</div>
-<p class="newest-up">
-上传<a href="/view/331ebdc3cdbff121dd36a32d7375a417876fc1ce" target="_blank" title="苏教版三年级上册数学：《乘数中间有0的乘法》课件">《苏教版三年级上册数...》</a>
-</p>
-</li>
-<li>
-<div class="bg-index ic-dot"></div>
-<p class="ut bg-index">11秒前</p>
-<div class="author clearfix">
-<a href="/p/%B3%BE%B0%A3%C2%E4%B6%A80922" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/4b90f603738da977d6beb85fbd51f8198618e335.jpg" alt="周静" title="周静" />
-</a>
-<p class="name">
-<a href="/p/%B3%BE%B0%A3%C2%E4%B6%A80922" target="_blank" title="周静">周静</a>
-<b class="bg-index ic-ver"></b>
-</p>
-<p class="pro" title="一级教师">一级教师</p>
-</div>
-<p class="newest-up">
-上传<a href="/view/2358f2ea4b7302768e9951e79b89680202d86bc7" target="_blank" title="高一上学期地理2019-2020学年第二单元地球上的大气双基训练金卷 (二) 学生版">《高一上学期地理2019...》</a>
-</p>
-</li>
-<li>
-<div class="bg-index ic-dot"></div>
-<p class="ut bg-index">11秒前</p>
-<div class="author clearfix">
-<a href="/p/%D7%CE%D1%D4%D7%CE%D3%EF2007" target="_blank">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/a044ad345982b2b7114dac203fadcbef77099b00.jpg" alt="沈敏琴" title="沈敏琴" />
-</a>
-<p class="name">
-<a href="/p/%D7%CE%D1%D4%D7%CE%D3%EF2007" target="_blank" title="沈敏琴">沈敏琴</a>
-<b class="bg-index ic-ver"></b>
-</p>
-<p class="pro" title="一级教师">一级教师</p>
-</div>
-<p class="newest-up">
-上传<a href="/view/2340f2ea4b7302768e9951e79b89680202d86bcf" target="_blank" title="中学生对城市环境保护满意率调查问卷">《中学生对城市环境保...》</a>
-</p>
+成功加入百度文库个人认证</p>
 </li>
 </ul>
 </div>
@@ -3259,16 +3250,16 @@ PDF/Word/Excel/PPT无限次转化
 <div class="related-doc">
 <ul>
 <li>
-<span class="ic ic-doc"></span>
-<a href="/view/d619470877a20029bd64783e0912a21615797f23.html" target="_blank" title="精编人教部编版2019三年级上册道德与法治教学设计-1学习伴我成长">精编人教部编版2019三年级上册道德...</a>
+<span class="ic ic-ppt"></span>
+<a href="/view/ad7769e83868011ca300a6c30c2259010302f371.html" target="_blank" title="精编人教部编版2019一年级上册道德与法治第一单元解析—我是小学生">精编人教部编版2019一年级上册道德...</a>
 </li>
 <li>
 <span class="ic ic-ppt"></span>
 <a href="/view/c7e4f033988fcc22bcd126fff705cc1754275fce.html" target="_blank" title="精编人教部编版-2019六年级上册道德与法治教学课件-2宪法是根本法-宪法具有最高法律效力">精编人教部编版-2019六年级上册道德...</a>
 </li>
 <li>
-<span class="ic ic-ppt"></span>
-<a href="/view/ad7769e83868011ca300a6c30c2259010302f371.html" target="_blank" title="精编人教部编版2019一年级上册道德与法治第一单元解析—我是小学生">精编人教部编版2019一年级上册道德...</a>
+<span class="ic ic-doc"></span>
+<a href="/view/d619470877a20029bd64783e0912a21615797f23.html" target="_blank" title="精编人教部编版2019三年级上册道德与法治教学设计-1学习伴我成长">精编人教部编版2019三年级上册道德...</a>
 </li>
 </ul>
 </div>
@@ -3294,15 +3285,15 @@ PDF/Word/Excel/PPT无限次转化
 <ul>
 <li>
 <span class="ic ic-doc"></span>
+<a href="/view/cdb2ad2305a1b0717fd5360cba1aa81145318f6d.html" target="_blank" title="南京离婚律师：2019年离婚需要准备的证据材料(高净值人群离婚必看)">南京离婚律师：2019年离婚需要准备...</a>
+</li>
+<li>
+<span class="ic ic-doc"></span>
 <a href="/view/8db09808370cba1aa8114431b90d6c85ed3a88ce.html" target="_blank" title="南京离婚律师：哪些内容属于婚前财产协议,怎么界定婚前财产的范围">南京离婚律师：哪些内容属于婚前财...</a>
 </li>
 <li>
 <span class="ic ic-doc"></span>
 <a href="/view/fa538b58ed3a87c24028915f804d2b160a4e866d.html" target="_blank" title="南京离婚律师：2019年离纠纷处理诉讼指南(江苏永衡昭辉律师事务所)">南京离婚律师：2019年离纠纷处理诉...</a>
-</li>
-<li>
-<span class="ic ic-doc"></span>
-<a href="/view/cdb2ad2305a1b0717fd5360cba1aa81145318f6d.html" target="_blank" title="南京离婚律师：2019年离婚需要准备的证据材料(高净值人群离婚必看)">南京离婚律师：2019年离婚需要准备...</a>
 </li>
 </ul>
 </div>
@@ -3327,16 +3318,16 @@ PDF/Word/Excel/PPT无限次转化
 <div class="related-doc">
 <ul>
 <li>
+<span class="ic ic-ppt"></span>
+<a href="/view/9610264c27fff705cc1755270722192e4536589e.html" target="_blank" title="新中国成立70周年建国70周年华诞国庆节主题课件ppt">新中国成立70周年建国70周年华诞国...</a>
+</li>
+<li>
 <span class="ic ic-doc"></span>
 <a href="/view/36fe0ccdc4da50e2524de518964bcf84b8d52d2a.html" target="_blank" title="习近平：人民对美好生活的向往就是我们的奋斗目标">习近平：人民对美好生活的向往就是...</a>
 </li>
 <li>
 <span class="ic ic-doc"></span>
 <a href="/view/f97b029dff4733687e21af45b307e87100f6f866.html" target="_blank" title="回首往昔 展望未来 机关单位歌颂建国70周年演讲稿">回首往昔 展望未来 机关单位歌颂建...</a>
-</li>
-<li>
-<span class="ic ic-ppt"></span>
-<a href="/view/9610264c27fff705cc1755270722192e4536589e.html" target="_blank" title="新中国成立70周年建国70周年华诞国庆节主题课件ppt">新中国成立70周年建国70周年华诞国...</a>
 </li>
 </ul>
 </div>
@@ -3396,15 +3387,15 @@ PDF/Word/Excel/PPT无限次转化
 <ul>
 <li>
 <span class="ic ic-doc"></span>
-<a href="/view/6015f904c67da26925c52cc58bd63186bdeb92df.html" target="_blank" title="2019年全国I卷语文高考真题">2019年全国I卷语文高考真题</a>
-</li>
-<li>
-<span class="ic ic-doc"></span>
-<a href="/view/4b3fd404c67da26925c52cc58bd63186bdeb92e5.html" target="_blank" title="2019年全国I卷理科数学高考真题">2019年全国I卷理科数学高考真题</a>
-</li>
-<li>
-<span class="ic ic-doc"></span>
 <a href="/view/db50406932d4b14e852458fb770bf78a64293ac2.html" target="_blank" title="2019年全国I卷英语高考真题">2019年全国I卷英语高考真题</a>
+</li>
+<li>
+<span class="ic ic-doc"></span>
+<a href="/view/84f9128882c4bb4cf7ec4afe04a1b0717ed5b342.html" target="_blank" title="2019年江苏卷数学高考真题">2019年江苏卷数学高考真题</a>
+</li>
+<li>
+<span class="ic ic-doc"></span>
+<a href="/view/6015f904c67da26925c52cc58bd63186bdeb92df.html" target="_blank" title="2019年全国I卷语文高考真题">2019年全国I卷语文高考真题</a>
 </li>
 </ul>
 </div>
@@ -3437,8 +3428,8 @@ PDF/Word/Excel/PPT无限次转化
 <a href="/view/d7b250bb51e2524de518964bcf84b9d529ea2c5f.html" target="_blank" title="2017年高考真题——文科综合(全国卷Ⅰ)">2017年高考真题——文科综合(全国卷...</a>
 </li>
 <li>
-<span class="ic ic-doc"></span>
-<a href="/view/e77975cdb8f3f90f76c66137ee06eff9aef849c0.html" target="_blank" title="2017高考试题理科数学">2017高考试题理科数学</a>
+<span class="ic ic-pdf"></span>
+<a href="/view/efe8d149a7c30c22590102020740be1e640ecc6f.html" target="_blank" title="2017年高考真题——数学(理)(北京卷)+Word版含解析(参考版)">2017年高考真题——数学(理)(北京卷...</a>
 </li>
 </ul>
 </div>
@@ -3464,7 +3455,7 @@ PDF/Word/Excel/PPT无限次转化
 <ul>
 <li>
 <span class="ic ic-doc"></span>
-<a href="/view/4d0873eba88271fe910ef12d2af90242a895abd7.html" target="_blank" title="2019年国家公务员考试行测模拟卷I(附答案解析)">2019年国家公务员考试行测模拟卷I(...</a>
+<a href="/view/e7e4a006ed3a87c24028915f804d2b160a4e863c.html" target="_blank" title="2018年国家公务员考试行测真题及答案解析(省级)">2018年国家公务员考试行测真题及答...</a>
 </li>
 <li>
 <span class="ic ic-pdf"></span>
@@ -3472,7 +3463,7 @@ PDF/Word/Excel/PPT无限次转化
 </li>
 <li>
 <span class="ic ic-doc"></span>
-<a href="/view/e7e4a006ed3a87c24028915f804d2b160a4e863c.html" target="_blank" title="2018年国家公务员考试行测真题及答案解析(省级)">2018年国家公务员考试行测真题及答...</a>
+<a href="/view/4d0873eba88271fe910ef12d2af90242a895abd7.html" target="_blank" title="2019年国家公务员考试行测模拟卷I(附答案解析)">2019年国家公务员考试行测模拟卷I(...</a>
 </li>
 </ul>
 </div>
@@ -3498,11 +3489,11 @@ PDF/Word/Excel/PPT无限次转化
 <ul>
 <li>
 <span class="ic ic-doc"></span>
-<a href="/view/5feacd4d767f5acfa0c7cd05.html" target="_blank" title="大学英语演讲稿范文">大学英语演讲稿范文</a>
+<a href="/view/6190b20103d8ce2f00662318.html" target="_blank" title="法制教育演讲稿">法制教育演讲稿</a>
 </li>
 <li>
 <span class="ic ic-doc"></span>
-<a href="/view/6190b20103d8ce2f00662318.html" target="_blank" title="法制教育演讲稿">法制教育演讲稿</a>
+<a href="/view/5feacd4d767f5acfa0c7cd05.html" target="_blank" title="大学英语演讲稿范文">大学英语演讲稿范文</a>
 </li>
 <li>
 <span class="ic ic-doc"></span>
@@ -3532,15 +3523,15 @@ PDF/Word/Excel/PPT无限次转化
 <ul>
 <li>
 <span class="ic ic-pdf"></span>
-<a href="/view/6b08a759aaea998fcd220e4a.html" target="_blank" title="基尔萨诺夫关于保祖国阵线发展前景与科拉罗夫和科斯托夫的谈话纪要">基尔萨诺夫关于保祖国阵线发展前景...</a>
-</li>
-<li>
-<span class="ic ic-pdf"></span>
 <a href="/view/105122c0fd0a79563d1e720b.html" target="_blank" title="赫沃伊尼克关于马列维奇的评价致斯维杰尔斯基的便函">赫沃伊尼克关于马列维奇的评价致斯...</a>
 </li>
 <li>
 <span class="ic ic-pdf"></span>
 <a href="/view/7dd7dfbe8bd63186bcebbc8b.html" target="_blank" title="库利克关于红军部队和兵团在西乌克兰的作战行动及该地区政治和经">库利克关于红军部队和兵团在西乌克...</a>
+</li>
+<li>
+<span class="ic ic-pdf"></span>
+<a href="/view/6b08a759aaea998fcd220e4a.html" target="_blank" title="基尔萨诺夫关于保祖国阵线发展前景与科拉罗夫和科斯托夫的谈话纪要">基尔萨诺夫关于保祖国阵线发展前景...</a>
 </li>
 </ul>
 </div>
@@ -3566,15 +3557,15 @@ PDF/Word/Excel/PPT无限次转化
 <ul>
 <li>
 <span class="ic ic-pdf"></span>
-<a href="/view/577aae6dee06eff9aff80713.html" target="_blank" title="应计盈余管理与真实盈余管理比较分析">应计盈余管理与真实盈余管理比较分...</a>
-</li>
-<li>
-<span class="ic ic-pdf"></span>
 <a href="/view/5b308859de80d4d8d15a4fbe.html" target="_blank" title="昆天科微电子推出低功耗可穿戴电子平台QN9020">昆天科微电子推出低功耗可穿戴电子...</a>
 </li>
 <li>
 <span class="ic ic-pdf"></span>
 <a href="/view/4b194b2d31b765ce05081459.html" target="_blank" title="黑果枸杞苗木快速繁育及建园技术">黑果枸杞苗木快速繁育及建园技术</a>
+</li>
+<li>
+<span class="ic ic-pdf"></span>
+<a href="/view/577aae6dee06eff9aff80713.html" target="_blank" title="应计盈余管理与真实盈余管理比较分析">应计盈余管理与真实盈余管理比较分...</a>
 </li>
 </ul>
 </div>
@@ -3600,15 +3591,15 @@ PDF/Word/Excel/PPT无限次转化
 <ul>
 <li>
 <span class="ic ic-ppt"></span>
-<a href="/view/a5a8fab2f605cc1755270722192e453610665b97.html" target="_blank" title="2018年全国宣传思想工作会议精神要点亮点九9个坚持5五个项使命任务党课讲稿ppt课件">2018年全国宣传思想工作会议精神要...</a>
-</li>
-<li>
-<span class="ic ic-ppt"></span>
 <a href="/view/ddbf6f2453d380eb6294dd88d0d233d4b04e3f5a.html" target="_blank" title="2018年宪法修正案详细解读党课培训ppt课件(精品原创)">2018年宪法修正案详细解读党课培训...</a>
 </li>
 <li>
 <span class="ic ic-ppt"></span>
 <a href="/view/b76021c8b1717fd5360cba1aa8114431b80d8e59.html" target="_blank" title="习近平主席2018新年贺词学习解读">习近平主席2018新年贺词学习解读</a>
+</li>
+<li>
+<span class="ic ic-pdf"></span>
+<a href="/view/cbad322330b765ce0508763231126edb6e1a7646.html" target="_blank" title="学习贯彻总书记广东考察视察重要讲话精神心得体会：不忘改革开放初心1335字">学习贯彻总书记广东考察视察重要讲...</a>
 </li>
 </ul>
 </div>
@@ -3667,8 +3658,8 @@ PDF/Word/Excel/PPT无限次转化
 <div class="related-doc">
 <ul>
 <li>
-<span class="ic ic-doc"></span>
-<a href="/view/d5009cb2bb4cf7ec4afed0ac.html" target="_blank" title="2015考研复试英语面试通关大全">2015考研复试英语面试通关大全</a>
+<span class="ic ic-pdf"></span>
+<a href="/view/cf0c2ce2dd88d0d232d46a58.html" target="_blank" title="赢在复试——考研复试必胜4堂课">赢在复试——考研复试必胜4堂课</a>
 </li>
 <li>
 <span class="ic ic-doc"></span>
@@ -3676,7 +3667,7 @@ PDF/Word/Excel/PPT无限次转化
 </li>
 <li>
 <span class="ic ic-doc"></span>
-<a href="/view/73a41f6aa300a6c30d229f47.html" target="_blank" title="2015考研复试调剂流程图">2015考研复试调剂流程图</a>
+<a href="/view/d5009cb2bb4cf7ec4afed0ac.html" target="_blank" title="2015考研复试英语面试通关大全">2015考研复试英语面试通关大全</a>
 </li>
 </ul>
 </div>
@@ -3706,11 +3697,11 @@ PDF/Word/Excel/PPT无限次转化
 </li>
 <li>
 <span class="ic ic-doc"></span>
-<a href="/view/e46d6fc8960590c69ec376b3.html" target="_blank" title="2015教资国考小学综合素质专家押题卷及答案解析5">2015教资国考小学综合素质专家押题...</a>
+<a href="/view/dc33164443323968001c923e.html" target="_blank" title="教师资格考试《幼儿教育学》模拟试题及答案(2)">教师资格考试《幼儿教育学》模拟试...</a>
 </li>
 <li>
 <span class="ic ic-doc"></span>
-<a href="/view/dc33164443323968001c923e.html" target="_blank" title="教师资格考试《幼儿教育学》模拟试题及答案(2)">教师资格考试《幼儿教育学》模拟试...</a>
+<a href="/view/1d9c21644431b90d6c85c7f9.html" target="_blank" title="2015年教师资格证考试幼儿心理学书本浓缩版">2015年教师资格证考试幼儿心理学书...</a>
 </li>
 </ul>
 </div>
@@ -3736,7 +3727,7 @@ PDF/Word/Excel/PPT无限次转化
 <ul>
 <li>
 <span class="ic ic-doc"></span>
-<a href="/view/1170207cf12d2af90342e604.html" target="_blank" title="2015小升初政策解读：面试常见问题">2015小升初政策解读：面试常见问题</a>
+<a href="/view/efd843fa84868762cbaed511.html" target="_blank" title="2015小学英语小升初备战辅导--英语考试中的必考点专项复习">2015小学英语小升初备战辅导--英语...</a>
 </li>
 <li>
 <span class="ic ic-doc"></span>
@@ -3804,7 +3795,7 @@ PDF/Word/Excel/PPT无限次转化
 <ul>
 <li>
 <span class="ic ic-doc"></span>
-<a href="/view/d34ed2d21a37f111f1855b8b.html" target="_blank" title="北京市半导体分立器件制造行业企业排名统计报告">北京市半导体分立器件制造行业企业...</a>
+<a href="/view/7a15dce384868762caaed5dd.html" target="_blank" title="2014年1-6月天津市塑料制品月度产量数据统计报告">2014年1-6月天津市塑料制品月度产量...</a>
 </li>
 <li>
 <span class="ic ic-doc"></span>
@@ -3812,7 +3803,7 @@ PDF/Word/Excel/PPT无限次转化
 </li>
 <li>
 <span class="ic ic-doc"></span>
-<a href="/view/7a15dce384868762caaed5dd.html" target="_blank" title="2014年1-6月天津市塑料制品月度产量数据统计报告">2014年1-6月天津市塑料制品月度产量...</a>
+<a href="/view/d34ed2d21a37f111f1855b8b.html" target="_blank" title="北京市半导体分立器件制造行业企业排名统计报告">北京市半导体分立器件制造行业企业...</a>
 </li>
 </ul>
 </div>
@@ -3838,15 +3829,15 @@ PDF/Word/Excel/PPT无限次转化
 <ul>
 <li>
 <span class="ic ic-doc"></span>
+<a href="/view/bc737dab19e8b8f67d1cb933.html" target="_blank" title="十种方法让您避免晕机">十种方法让您避免晕机</a>
+</li>
+<li>
+<span class="ic ic-doc"></span>
 <a href="/view/1fefe339168884868662d632.html" target="_blank" title="网上订机票流程">网上订机票流程</a>
 </li>
 <li>
 <span class="ic ic-doc"></span>
 <a href="/view/a0e6ad575f0e7cd185253632.html" target="_blank" title="携带行李小常识">携带行李小常识</a>
-</li>
-<li>
-<span class="ic ic-doc"></span>
-<a href="/view/bc737dab19e8b8f67d1cb933.html" target="_blank" title="十种方法让您避免晕机">十种方法让您避免晕机</a>
 </li>
 </ul>
 </div>
@@ -3871,16 +3862,16 @@ PDF/Word/Excel/PPT无限次转化
 <div class="related-doc">
 <ul>
 <li>
-<span class="ic ic-doc"></span>
-<a href="/view/04dde4aa58f5f61fb73666a1.html" target="_blank" title="2014年公司年度工作总结模板">2014年公司年度工作总结模板</a>
+<span class="ic ic-ppt"></span>
+<a href="/view/34dcf53c77232f60dccca127.html" target="_blank" title="2014年销售部门年度工作总结">2014年销售部门年度工作总结</a>
 </li>
 <li>
 <span class="ic ic-doc"></span>
 <a href="/view/78f661b928ea81c758f578da.html" target="_blank" title="2014年度财务主管工作总结">2014年度财务主管工作总结</a>
 </li>
 <li>
-<span class="ic ic-ppt"></span>
-<a href="/view/34dcf53c77232f60dccca127.html" target="_blank" title="2014年销售部门年度工作总结">2014年销售部门年度工作总结</a>
+<span class="ic ic-doc"></span>
+<a href="/view/04dde4aa58f5f61fb73666a1.html" target="_blank" title="2014年公司年度工作总结模板">2014年公司年度工作总结模板</a>
 </li>
 </ul>
 </div>
@@ -3906,15 +3897,15 @@ PDF/Word/Excel/PPT无限次转化
 <ul>
 <li>
 <span class="ic ic-doc"></span>
+<a href="/view/27e1d40e3c1ec5da51e27041.html" target="_blank" title="2014求职面试之半结构化面试试题大全">2014求职面试之半结构化面试试题大...</a>
+</li>
+<li>
+<span class="ic ic-doc"></span>
 <a href="/view/7fe2114e0b4e767f5bcfce0d.html" target="_blank" title="英文个人简历范文">英文个人简历范文</a>
 </li>
 <li>
 <span class="ic ic-ppt"></span>
 <a href="/view/aa103e7b2f60ddccda38a09c.html" target="_blank" title="ppt简历精美模板带范文">ppt简历精美模板带范文</a>
-</li>
-<li>
-<span class="ic ic-doc"></span>
-<a href="/view/27e1d40e3c1ec5da51e27041.html" target="_blank" title="2014求职面试之半结构化面试试题大全">2014求职面试之半结构化面试试题大...</a>
 </li>
 </ul>
 </div>
@@ -3940,15 +3931,15 @@ PDF/Word/Excel/PPT无限次转化
 <ul>
 <li>
 <span class="ic ic-ppt"></span>
-<a href="/view/80007188e009581b6bd9ebac.html" target="_blank" title="HTML5游戏开发实例分享-百度">HTML5游戏开发实例分享-百度</a>
-</li>
-<li>
-<span class="ic ic-ppt"></span>
 <a href="/view/39724a8cf8c75fbfc77db2d5.html" target="_blank" title="4-陆远-Web前端技术构建桌面应用的解决方案">4-陆远-Web前端技术构建桌面应用的...</a>
 </li>
 <li>
 <span class="ic ic-ppt"></span>
 <a href="/view/f1109fa04028915f804dc289.html" target="_blank" title="HTML5&amp;移动互联网-Cator">HTML5&amp;移动互联网-Cator</a>
+</li>
+<li>
+<span class="ic ic-ppt"></span>
+<a href="/view/80007188e009581b6bd9ebac.html" target="_blank" title="HTML5游戏开发实例分享-百度">HTML5游戏开发实例分享-百度</a>
 </li>
 </ul>
 </div>
@@ -3978,11 +3969,11 @@ PDF/Word/Excel/PPT无限次转化
 </li>
 <li>
 <span class="ic ic-pdf"></span>
-<a href="/view/3fc1d74bf7ec4afe04a1df08.html" target="_blank" title="准备适合旅游摄影的相关器材">准备适合旅游摄影的相关器材</a>
+<a href="/view/d3aed0ec19e8b8f67c1cb935.html" target="_blank" title="中国最美的滩涂霞浦">中国最美的滩涂霞浦</a>
 </li>
 <li>
 <span class="ic ic-pdf"></span>
-<a href="/view/d3aed0ec19e8b8f67c1cb935.html" target="_blank" title="中国最美的滩涂霞浦">中国最美的滩涂霞浦</a>
+<a href="/view/3fc1d74bf7ec4afe04a1df08.html" target="_blank" title="准备适合旅游摄影的相关器材">准备适合旅游摄影的相关器材</a>
 </li>
 </ul>
 </div>
@@ -4042,7 +4033,7 @@ PDF/Word/Excel/PPT无限次转化
 <ul>
 <li>
 <span class="ic ic-doc"></span>
-<a href="/view/f3ca5737783e0912a3162a32.html" target="_blank" title="保洁海飞丝营销策划书">保洁海飞丝营销策划书</a>
+<a href="/view/ceb0d3e465ce050877321319.html" target="_blank" title="腾讯竞争性市场营销战略分析">腾讯竞争性市场营销战略分析</a>
 </li>
 <li>
 <span class="ic ic-doc"></span>
@@ -4050,7 +4041,7 @@ PDF/Word/Excel/PPT无限次转化
 </li>
 <li>
 <span class="ic ic-doc"></span>
-<a href="/view/ceb0d3e465ce050877321319.html" target="_blank" title="腾讯竞争性市场营销战略分析">腾讯竞争性市场营销战略分析</a>
+<a href="/view/f3ca5737783e0912a3162a32.html" target="_blank" title="保洁海飞丝营销策划书">保洁海飞丝营销策划书</a>
 </li>
 </ul>
 </div>
@@ -4076,15 +4067,15 @@ PDF/Word/Excel/PPT无限次转化
 <ul>
 <li>
 <span class="ic ic-pdf"></span>
+<a href="/view/fbadaef669dc5022aaea0098.html" target="_blank" title="IxD2013_C5_跨PC和移动的设计_吴春松">IxD2013_C5_跨PC和移动的设计_吴春...</a>
+</li>
+<li>
+<span class="ic ic-pdf"></span>
 <a href="/view/b9b6045bc281e53a5902ff2b.html" target="_blank" title="GameUX_S15_交互设计的时间美学_王海银">GameUX_S15_交互设计的时间美学_王...</a>
 </li>
 <li>
 <span class="ic ic-pdf"></span>
 <a href="/view/24cc6a2daf1ffc4fff47ac3e.html" target="_blank" title="IxDC2013_S3_产品经理的3个局_陈镭">IxDC2013_S3_产品经理的3个局_陈镭</a>
-</li>
-<li>
-<span class="ic ic-pdf"></span>
-<a href="/view/fbadaef669dc5022aaea0098.html" target="_blank" title="IxD2013_C5_跨PC和移动的设计_吴春松">IxD2013_C5_跨PC和移动的设计_吴春...</a>
 </li>
 </ul>
 </div>
@@ -4114,11 +4105,11 @@ PDF/Word/Excel/PPT无限次转化
 </li>
 <li>
 <span class="ic ic-doc"></span>
-<a href="/view/7c8c17351711cc7931b716e3.html" target="_blank" title="“简洁大气”设计指南">“简洁大气”设计指南</a>
+<a href="/view/864d71a0172ded630b1cb6d3.html" target="_blank" title="七步打造卓越的移动网站">七步打造卓越的移动网站</a>
 </li>
 <li>
 <span class="ic ic-doc"></span>
-<a href="/view/864d71a0172ded630b1cb6d3.html" target="_blank" title="七步打造卓越的移动网站">七步打造卓越的移动网站</a>
+<a href="/view/7c8c17351711cc7931b716e3.html" target="_blank" title="“简洁大气”设计指南">“简洁大气”设计指南</a>
 </li>
 </ul>
 </div>
@@ -4144,11 +4135,11 @@ PDF/Word/Excel/PPT无限次转化
 <ul>
 <li>
 <span class="ic ic-doc"></span>
-<a href="/view/24fc2b8283d049649b6658f0.html" target="_blank" title="素食者4大注意事项">素食者4大注意事项</a>
+<a href="/view/c8c3f0fe0242a8956bece4f3.html" target="_blank" title="关于甜食的3大误区">关于甜食的3大误区</a>
 </li>
 <li>
 <span class="ic ic-doc"></span>
-<a href="/view/c8c3f0fe0242a8956bece4f3.html" target="_blank" title="关于甜食的3大误区">关于甜食的3大误区</a>
+<a href="/view/24fc2b8283d049649b6658f0.html" target="_blank" title="素食者4大注意事项">素食者4大注意事项</a>
 </li>
 <li>
 <span class="ic ic-doc"></span>
@@ -4212,15 +4203,15 @@ PDF/Word/Excel/PPT无限次转化
 <ul>
 <li>
 <span class="ic ic-ppt"></span>
-<a href="/view/483f6f36ec630b1c59eef8c75fbfc77da26997a1.html" target="_blank" title="最完整的商业计划书模板">最完整的商业计划书模板</a>
-</li>
-<li>
-<span class="ic ic-ppt"></span>
 <a href="/view/7a7fafd802020740bf1e9b32.html" target="_blank" title="行业分析报告模板(很全面_非常有用)">行业分析报告模板(很全面_非常有用...</a>
 </li>
 <li>
 <span class="ic ic-doc"></span>
 <a href="/view/37b1dd2af90f76c660371a38.html" target="_blank" title="可行性研究报告范本">可行性研究报告范本</a>
+</li>
+<li>
+<span class="ic ic-ppt"></span>
+<a href="/view/f10158441fd9ad51f01dc281e53a580216fc5008.html" target="_blank" title="通用商业计划书PPT模板(精品)">通用商业计划书PPT模板(精品)</a>
 </li>
 </ul>
 </div>
@@ -4234,32 +4225,22 @@ PDF/Word/Excel/PPT无限次转化
 <ul>
 <li class="clearfix">
 <div class="book-img">
-<a href="http://yuedu.baidu.com/ebook/841bdc81f71fb7360b4c2e3f5727a5e9846a2701" target="_blank"><img class="bg-index" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/abpic/item/bd3eb13533fa828bf45efa48f11f4134970a5a1f.jpg" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="亲爱的你" alt="亲爱的你" /></a>
-</div>
-<div class="book-info">
-<h6><a href="http://yuedu.baidu.com/ebook/841bdc81f71fb7360b4c2e3f5727a5e9846a2701" target="_blank" title="亲爱的你">亲爱的你</a></h6>
-<p class="author">黑玛亚免费</p>
-<p class="read-num"><span>1167</span>人读过</p>
-</div>
-</li>
-<li class="clearfix">
-<div class="book-img">
-<a href="http://yuedu.baidu.com/ebook/249837f9af45b307e97197cd" target="_blank"><img class="bg-index" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/abpic/item/562c11dfa9ec8a139f9544d2ff03918fa0ecc071.jpg" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="工厂男孩" alt="工厂男孩" /></a>
-</div>
-<div class="book-info">
-<h6><a href="http://yuedu.baidu.com/ebook/249837f9af45b307e97197cd" target="_blank" title="工厂男孩">工厂男孩</a></h6>
-<p class="author">丁燕免费</p>
-<p class="read-num"><span>9053</span>人读过</p>
-</div>
-</li>
-<li class="clearfix">
-<div class="book-img">
 <a href="http://yuedu.baidu.com/ebook/f623165a326c1eb91a37f111f18583d049640f38" target="_blank"><img class="bg-index" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/abpic/item/b812c8fcc3cec3fd31a76742df88d43f87942768.jpg" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="浮生六记" alt="浮生六记" /></a>
 </div>
 <div class="book-info">
 <h6><a href="http://yuedu.baidu.com/ebook/f623165a326c1eb91a37f111f18583d049640f38" target="_blank" title="浮生六记">浮生六记</a></h6>
 <p class="author">沈复免费</p>
 <p class="read-num"><span>38125</span>人读过</p>
+</div>
+</li>
+<li class="clearfix">
+<div class="book-img">
+<a href="http://yuedu.baidu.com/ebook/8c570c94168884868662d639" target="_blank"><img class="bg-index" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/abpic/item/377adab44aed2e734820f5928001a18b86d6fa47.jpg" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="北大历史课" alt="北大历史课" /></a>
+</div>
+<div class="book-info">
+<h6><a href="http://yuedu.baidu.com/ebook/8c570c94168884868662d639" target="_blank" title="北大历史课">北大历史课</a></h6>
+<p class="author">刘玉民免费</p>
+<p class="read-num"><span>10584</span>人读过</p>
 </div>
 </li>
 <li class="clearfix">
@@ -4274,12 +4255,22 @@ PDF/Word/Excel/PPT无限次转化
 </li>
 <li class="clearfix">
 <div class="book-img">
-<a href="http://yuedu.baidu.com/ebook/8c570c94168884868662d639" target="_blank"><img class="bg-index" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/abpic/item/377adab44aed2e734820f5928001a18b86d6fa47.jpg" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="北大历史课" alt="北大历史课" /></a>
+<a href="http://yuedu.baidu.com/ebook/792c6b0511a6f524ccbff121dd36a32d7375c7b2" target="_blank"><img class="bg-index" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/abpic/item/b3b7d0a20cf431ad3d4104cc4136acaf2fdd98b0.jpg" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="在他乡" alt="在他乡" /></a>
 </div>
 <div class="book-info">
-<h6><a href="http://yuedu.baidu.com/ebook/8c570c94168884868662d639" target="_blank" title="北大历史课">北大历史课</a></h6>
-<p class="author">刘玉民免费</p>
-<p class="read-num"><span>10581</span>人读过</p>
+<h6><a href="http://yuedu.baidu.com/ebook/792c6b0511a6f524ccbff121dd36a32d7375c7b2" target="_blank" title="在他乡">在他乡</a></h6>
+<p class="author">阮义忠免费</p>
+<p class="read-num"><span>2658</span>人读过</p>
+</div>
+</li>
+<li class="clearfix">
+<div class="book-img">
+<a href="http://yuedu.baidu.com/ebook/841bdc81f71fb7360b4c2e3f5727a5e9846a2701" target="_blank"><img class="bg-index" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/abpic/item/bd3eb13533fa828bf45efa48f11f4134970a5a1f.jpg" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="亲爱的你" alt="亲爱的你" /></a>
+</div>
+<div class="book-info">
+<h6><a href="http://yuedu.baidu.com/ebook/841bdc81f71fb7360b4c2e3f5727a5e9846a2701" target="_blank" title="亲爱的你">亲爱的你</a></h6>
+<p class="author">黑玛亚免费</p>
+<p class="read-num"><span>1168</span>人读过</p>
 </div>
 </li>
 </ul>
@@ -4311,81 +4302,48 @@ PDF/Word/Excel/PPT无限次转化
 <ul class="doc-list clearfix">
 <li>
 <div class="li-wrap">
-<a href="/view/3949c3103d1ec5da50e2524de518964bcf84d2db.html" target="_blank">
-<img class="doc-img bg-index " data-src="//wkretype.bdimg.com/img/e60f7ecbc1c708a1284a4480" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019年高考语文模拟试卷及答案" alt="2019年高考语文模拟试卷及答案" />
+<a href="/view/698351270a1c59eef8c75fbfc77da26925c596a2.html" target="_blank">
+<img class="doc-img bg-index " data-src="//wkretype.bdimg.com/img/8378bd3ca5e9856a56126066" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="人教版初中化学知识点总结(绝对全-中考必备)" alt="人教版初中化学知识点总结(绝对全-中考必备)" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
-<p class="title"><a href="/view/3949c3103d1ec5da50e2524de518964bcf84d2db.html" target="_blank" title="2019年高考语文模拟试卷及答案">2019年高考语文模拟试卷及...</a></p>
-<p class="read-num">43479人阅读</p>
+<p class="title"><a href="/view/698351270a1c59eef8c75fbfc77da26925c596a2.html" target="_blank" title="人教版初中化学知识点总结(绝对全-中考必备)">人教版初中化学知识点总结...</a></p>
+<p class="read-num">22361人阅读</p>
+<p class="author"><a href="/p/yuhangedcom" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/b7003af33a87e9507dfdcc971c385343faf2b466.jpg" title="yuhangedcom" /></a></p>
 </div>
 </li>
 <li>
 <div class="li-wrap">
-<a href="/view/f0852e52b5daa58da0116c175f0e7cd185251872.html" target="_blank">
-<img class="doc-img bg-index " data-src="//wkretype.bdimg.com/img/247347b66bec0975f465e250" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019年国家公务员考试行测真题及答案" alt="2019年国家公务员考试行测真题及答案" />
+<a href="/view/4da18e7e2379168884868762caaedd3383c4b5b1.html" target="_blank">
+<img class="doc-img bg-index " data-src="//wkretype.bdimg.com/img/7e4ce511844769eae009edb8" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="最新人教版五年级数学下册期末试卷及答案" alt="最新人教版五年级数学下册期末试卷及答案" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
-<p class="title"><a href="/view/f0852e52b5daa58da0116c175f0e7cd185251872.html" target="_blank" title="2019年国家公务员考试行测真题及答案">2019年国家公务员考试行测...</a></p>
-<p class="read-num">21333人阅读</p>
+<p class="title"><a href="/view/4da18e7e2379168884868762caaedd3383c4b5b1.html" target="_blank" title="最新人教版五年级数学下册期末试卷及答案">最新人教版五年级数学下册...</a></p>
+<p class="read-num">63763人阅读</p>
+<p class="author"><a href="/p/run394463118" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/50da81cb39dbb6fda3570fd00224ab18972b373c.jpg" title="run394463118" /></a></p>
 </div>
 </li>
 <li>
 <div class="li-wrap">
-<a href="/view/565e0e1682d049649b6648d7c1c708a1284a0ab2.html" target="_blank">
-<img class="doc-img bg-index " data-src="//wkretype.bdimg.com/img/4ef9916d6c85ec3a86c2c52d" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="85、95、00后人群洞察白皮书" alt="85、95、00后人群洞察白皮书" />
+<a href="/view/f712d61159fb770bf78a6529647d27284b7337c0.html" target="_blank">
+<img class="doc-img bg-index ppt-img" data-src="//wkretype.bdimg.com/img/e63a8806a300a6c30c229f68" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="垃圾分类我先行" alt="垃圾分类我先行" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
-<p class="title"><a href="/view/565e0e1682d049649b6648d7c1c708a1284a0ab2.html" target="_blank" title="85、95、00后人群洞察白皮书">85、95、00后人群洞察白皮...</a></p>
-<p class="read-num">388人阅读</p>
-<p class="author"><a href="/org/view?org=MobTech" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/3ac79f3df8dcd1006edf2c617c8b4710b9122f2b.jpg" title="MobData" /></a></p>
+<p class="title"><a href="/view/f712d61159fb770bf78a6529647d27284b7337c0.html" target="_blank" title="垃圾分类我先行">垃圾分类我先行</a></p>
+<p class="read-num">9587人阅读</p>
 </div>
 </li>
 <li>
 <div class="li-wrap">
-<a href="/view/9ebf8fd6f424ccbff121dd36a32d7375a517c649.html" target="_blank">
-<img class="doc-img bg-index " data-src="//wkretype.bdimg.com/img/2a9fcbfd524de518964b7d60" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="二元一次方程组习题及答案" alt="二元一次方程组习题及答案" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/9ebf8fd6f424ccbff121dd36a32d7375a517c649.html" target="_blank" title="二元一次方程组习题及答案">二元一次方程组习题及答案</a></p>
-<p class="read-num">18487人阅读</p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<b class="ic-hotdoc">精品</b>
 <a href="/view/8844f45e15791711cc7931b765ce0508763275cf.html" target="_blank">
 <img class="doc-img bg-index " data-src="//wkretype.bdimg.com/img/2924ba5c336c1eb91a375d70" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019年高考地理选择题专项练习(附答案及解析)" alt="2019年高考地理选择题专项练习(附答案及解析)" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/8844f45e15791711cc7931b765ce0508763275cf.html" target="_blank" title="2019年高考地理选择题专项练习(附答案及解析)">2019年高考地理选择题专项...</a></p>
-<p class="read-num">14420人阅读</p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/95f77616cc7931b765ce1590.html" target="_blank">
-<img class="doc-img bg-index " data-src="//wkretype.bdimg.com/img/c1293e93dd88d0d233d46acc" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="小学数学图形计算公式大全" alt="小学数学图形计算公式大全" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/95f77616cc7931b765ce1590.html" target="_blank" title="小学数学图形计算公式大全">小学数学图形计算公式大全</a></p>
-<p class="read-num">16089人阅读</p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/fe1e2ad0195f312b3169a50c.html" target="_blank">
-<img class="doc-img bg-index " data-src="//wkretype.bdimg.com/img/fe1e2ad0195f312b3169a50c" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="会计学知识点整理" alt="会计学知识点整理" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/fe1e2ad0195f312b3169a50c.html" target="_blank" title="会计学知识点整理">会计学知识点整理</a></p>
-<p class="read-num">26235人阅读</p>
+<p class="read-num">14434人阅读</p>
 </div>
 </li>
 <li>
@@ -4396,7 +4354,30 @@ PDF/Word/Excel/PPT无限次转化
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/df5cdc0bce84b9d528ea81c758f5f61fb73628d5.html" target="_blank" title="最新部编人教版二年级下册语文期末测试卷">最新部编人教版二年级下册...</a></p>
-<p class="read-num">25354人阅读</p>
+<p class="read-num">25370人阅读</p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<b class="ic-hotdoc">精品</b>
+<a href="/view/3949c3103d1ec5da50e2524de518964bcf84d2db.html" target="_blank">
+<img class="doc-img bg-index " data-src="//wkretype.bdimg.com/img/e60f7ecbc1c708a1284a4480" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019年高考语文模拟试卷及答案" alt="2019年高考语文模拟试卷及答案" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/3949c3103d1ec5da50e2524de518964bcf84d2db.html" target="_blank" title="2019年高考语文模拟试卷及答案">2019年高考语文模拟试卷及...</a></p>
+<p class="read-num">43526人阅读</p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/9ebf8fd6f424ccbff121dd36a32d7375a517c649.html" target="_blank">
+<img class="doc-img bg-index " data-src="//wkretype.bdimg.com/img/2a9fcbfd524de518964b7d60" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="二元一次方程组习题及答案" alt="二元一次方程组习题及答案" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/9ebf8fd6f424ccbff121dd36a32d7375a517c649.html" target="_blank" title="二元一次方程组习题及答案">二元一次方程组习题及答案</a></p>
+<p class="read-num">18523人阅读</p>
 </div>
 </li>
 <li>
@@ -4408,42 +4389,52 @@ PDF/Word/Excel/PPT无限次转化
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/cf262186f9c75fbfc77da26925c52cc58bd690f2.html" target="_blank" title="2018年高考语文真题分类汇编   论述类文本阅读">2018年高考语文真题分类汇...</a></p>
-<p class="read-num">15887人阅读</p>
+<p class="read-num">15898人阅读</p>
 </div>
 </li>
 <li>
 <div class="li-wrap">
-<a href="/view/4da18e7e2379168884868762caaedd3383c4b5b1.html" target="_blank">
-<img class="doc-img bg-index " data-src="//wkretype.bdimg.com/img/7e4ce511844769eae009edb8" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="最新人教版五年级数学下册期末试卷及答案" alt="最新人教版五年级数学下册期末试卷及答案" />
+<a href="/view/565e0e1682d049649b6648d7c1c708a1284a0ab2.html" target="_blank">
+<img class="doc-img bg-index " data-src="//wkretype.bdimg.com/img/4ef9916d6c85ec3a86c2c52d" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="85、95、00后人群洞察白皮书" alt="85、95、00后人群洞察白皮书" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
-<p class="title"><a href="/view/4da18e7e2379168884868762caaedd3383c4b5b1.html" target="_blank" title="最新人教版五年级数学下册期末试卷及答案">最新人教版五年级数学下册...</a></p>
-<p class="read-num">63743人阅读</p>
-<p class="author"><a href="/p/run394463118" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/50da81cb39dbb6fda3570fd00224ab18972b373c.jpg" title="run394463118" /></a></p>
+<p class="title"><a href="/view/565e0e1682d049649b6648d7c1c708a1284a0ab2.html" target="_blank" title="85、95、00后人群洞察白皮书">85、95、00后人群洞察白皮...</a></p>
+<p class="read-num">398人阅读</p>
+<p class="author"><a href="/org/view?org=MobTech" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/3ac79f3df8dcd1006edf2c617c8b4710b9122f2b.jpg" title="MobData" /></a></p>
 </div>
 </li>
 <li>
 <div class="li-wrap">
-<a href="/view/698351270a1c59eef8c75fbfc77da26925c596a2.html" target="_blank">
-<img class="doc-img bg-index " data-src="//wkretype.bdimg.com/img/8378bd3ca5e9856a56126066" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="人教版初中化学知识点总结(绝对全-中考必备)" alt="人教版初中化学知识点总结(绝对全-中考必备)" />
+<a href="/view/95f77616cc7931b765ce1590.html" target="_blank">
+<img class="doc-img bg-index " data-src="//wkretype.bdimg.com/img/c1293e93dd88d0d233d46acc" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="小学数学图形计算公式大全" alt="小学数学图形计算公式大全" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
-<p class="title"><a href="/view/698351270a1c59eef8c75fbfc77da26925c596a2.html" target="_blank" title="人教版初中化学知识点总结(绝对全-中考必备)">人教版初中化学知识点总结...</a></p>
-<p class="read-num">22348人阅读</p>
-<p class="author"><a href="/p/yuhangedcom" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/b7003af33a87e9507dfdcc971c385343faf2b466.jpg" title="yuhangedcom" /></a></p>
+<p class="title"><a href="/view/95f77616cc7931b765ce1590.html" target="_blank" title="小学数学图形计算公式大全">小学数学图形计算公式大全</a></p>
+<p class="read-num">16118人阅读</p>
 </div>
 </li>
 <li>
 <div class="li-wrap">
-<a href="/view/f712d61159fb770bf78a6529647d27284b7337c0.html" target="_blank">
-<img class="doc-img bg-index ppt-img" data-src="//wkretype.bdimg.com/img/e63a8806a300a6c30c229f68" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="垃圾分类我先行" alt="垃圾分类我先行" />
+<a href="/view/fe1e2ad0195f312b3169a50c.html" target="_blank">
+<img class="doc-img bg-index " data-src="//wkretype.bdimg.com/img/fe1e2ad0195f312b3169a50c" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="会计学知识点整理" alt="会计学知识点整理" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
-<p class="title"><a href="/view/f712d61159fb770bf78a6529647d27284b7337c0.html" target="_blank" title="垃圾分类我先行">垃圾分类我先行</a></p>
-<p class="read-num">9577人阅读</p>
+<p class="title"><a href="/view/fe1e2ad0195f312b3169a50c.html" target="_blank" title="会计学知识点整理">会计学知识点整理</a></p>
+<p class="read-num">26260人阅读</p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/f0852e52b5daa58da0116c175f0e7cd185251872.html" target="_blank">
+<img class="doc-img bg-index " data-src="//wkretype.bdimg.com/img/247347b66bec0975f465e250" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019年国家公务员考试行测真题及答案" alt="2019年国家公务员考试行测真题及答案" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/f0852e52b5daa58da0116c175f0e7cd185251872.html" target="_blank" title="2019年国家公务员考试行测真题及答案">2019年国家公务员考试行测...</a></p>
+<p class="read-num">21398人阅读</p>
 </div>
 </li>
 </ul>
@@ -4452,67 +4443,55 @@ PDF/Word/Excel/PPT无限次转化
 <ul class="doc-list clearfix">
 <li>
 <div class="li-wrap">
-<a href="/view/6f353451eef9aef8941ea76e58fafab069dc4408.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/f42bb8a0f121dd36a32d822b" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019知识产权法律服务协议." alt="2019知识产权法律服务协议." />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/6f353451eef9aef8941ea76e58fafab069dc4408.html" target="_blank" title="2019知识产权法律服务协议.">2019知识产权法律服务协议...</a></p>
-<p class="read-num">1267人阅读</p>
-<p class="author"><a href="/p/黄昏记忆沙漏" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/3ac79f3df8dcd100ddf3829c7f8b4710b9122f1b.jpg" title="黄昏记忆沙漏" /></a></p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/0c665ca0dc36a32d7375a417866fb84ae55cc30a.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/cf4f78840029bd64783e2cc6" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019年固定资产、无形资产委托管理合同协议书范本" alt="2019年固定资产、无形资产委托管理合同协议书范本" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/0c665ca0dc36a32d7375a417866fb84ae55cc30a.html" target="_blank" title="2019年固定资产、无形资产委托管理合同协议书范本">2019年固定资产、无形资产...</a></p>
-<p class="read-num">1432人阅读</p>
-<p class="author"><a href="/org/view?org=connectfun" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/34fae6cd7b899e51735d519f49a7d933c9950d6d.jpg" title="jkc898" /></a></p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/68424ab709a1284ac850ad02de80d4d8d05a0154.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/2aee86791ed9ad51f01df2fd" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019年法律服务委托合同协议书范本签约版" alt="2019年法律服务委托合同协议书范本签约版" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/68424ab709a1284ac850ad02de80d4d8d05a0154.html" target="_blank" title="2019年法律服务委托合同协议书范本签约版">2019年法律服务委托合同协...</a></p>
-<p class="read-num">1390人阅读</p>
-<p class="author"><a href="/org/view?org=connectfun" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/34fae6cd7b899e51735d519f49a7d933c9950d6d.jpg" title="jkc898" /></a></p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/f55b997bf68a6529647d27284b73f242326c3140.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/4d0b6ee008a1284ac9504306" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019房屋买卖合同范本【标准版】" alt="2019房屋买卖合同范本【标准版】" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/f55b997bf68a6529647d27284b73f242326c3140.html" target="_blank" title="2019房屋买卖合同范本【标准版】">2019房屋买卖合同范本【标...</a></p>
-<p class="read-num">5567人阅读</p>
-<p class="author"><a href="/p/fly主宰" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/279759ee3d6d55fb52810b4c60224f4a20a4dd11.jpg" title="fly主宰" /></a></p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
 <a href="/view/ddc27130ac02de80d4d8d15abe23482fb4da02b8.html" target="_blank">
 <img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/502811430b1c59eef8c7b423" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="个人借款合同范本2019" alt="个人借款合同范本2019" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/ddc27130ac02de80d4d8d15abe23482fb4da02b8.html" target="_blank" title="个人借款合同范本2019">个人借款合同范本2019</a></p>
-<p class="read-num">2372人阅读</p>
+<p class="read-num">2375人阅读</p>
 <p class="author"><a href="/p/确包租逊" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/9f2f070828381f304668e6e3a4014c086e06f003.jpg" title="确包租逊" /></a></p>
 </div>
 </li>
 <li>
 <div class="li-wrap">
+<a href="/view/6f353451eef9aef8941ea76e58fafab069dc4408.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/f42bb8a0f121dd36a32d822b" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019知识产权法律服务协议." alt="2019知识产权法律服务协议." />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/6f353451eef9aef8941ea76e58fafab069dc4408.html" target="_blank" title="2019知识产权法律服务协议.">2019知识产权法律服务协议...</a></p>
+<p class="read-num">1268人阅读</p>
+<p class="author"><a href="/p/黄昏记忆沙漏" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/3ac79f3df8dcd100ddf3829c7f8b4710b9122f1b.jpg" title="黄昏记忆沙漏" /></a></p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
 <b class="ic-hotdoc">精品</b>
+<a href="/view/68424ab709a1284ac850ad02de80d4d8d05a0154.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/2aee86791ed9ad51f01df2fd" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019年法律服务委托合同协议书范本签约版" alt="2019年法律服务委托合同协议书范本签约版" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/68424ab709a1284ac850ad02de80d4d8d05a0154.html" target="_blank" title="2019年法律服务委托合同协议书范本签约版">2019年法律服务委托合同协...</a></p>
+<p class="read-num">1391人阅读</p>
+<p class="author"><a href="/org/view?org=connectfun" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/34fae6cd7b899e51735d519f49a7d933c9950d6d.jpg" title="jkc898" /></a></p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/f16c5e10793e0912a21614791711cc7931b778eb.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/134c1041a98271fe910ef975" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="客户资源合作协议范本2019新" alt="客户资源合作协议范本2019新" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/f16c5e10793e0912a21614791711cc7931b778eb.html" target="_blank" title="客户资源合作协议范本2019新">客户资源合作协议范本2019...</a></p>
+<p class="read-num">1575人阅读</p>
+<p class="author"><a href="/org/view?org=ainantubiao" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/8694a4c27d1ed21bca6b196ca06eddc450da3f9c.jpg" title="nannan8023巨蟹" /></a></p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
 <a href="/view/0d00b7b666ec102de2bd960590c69ec3d5bbdbb1.html" target="_blank">
 <img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/05e35a5402768e9950e73810" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="经纪人合作协议范本2019" alt="经纪人合作协议范本2019" />
 <span class="bg-hover"></span>
@@ -4525,38 +4504,25 @@ PDF/Word/Excel/PPT无限次转化
 </li>
 <li>
 <div class="li-wrap">
-<a href="/view/b105d39b11a6f524ccbff121dd36a32d7275c722.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/dafcaf3114791711cd791710" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019企业劳动合同范本(小企业)(2019律师整理版)" alt="2019企业劳动合同范本(小企业)(2019律师整理版)" />
+<a href="/view/0c665ca0dc36a32d7375a417866fb84ae55cc30a.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/cf4f78840029bd64783e2cc6" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019年固定资产、无形资产委托管理合同协议书范本" alt="2019年固定资产、无形资产委托管理合同协议书范本" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
-<p class="title"><a href="/view/b105d39b11a6f524ccbff121dd36a32d7275c722.html" target="_blank" title="2019企业劳动合同范本(小企业)(2019律师整理版)">2019企业劳动合同范本(小企...</a></p>
-<p class="read-num">2413人阅读</p>
-<p class="author"><a href="/p/腿岭探寻垮倒" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/342ac65c1038534383046d049813b07ecb8088c8.jpg" title="腿岭探寻垮倒" /></a></p>
+<p class="title"><a href="/view/0c665ca0dc36a32d7375a417866fb84ae55cc30a.html" target="_blank" title="2019年固定资产、无形资产委托管理合同协议书范本">2019年固定资产、无形资产...</a></p>
+<p class="read-num">1433人阅读</p>
+<p class="author"><a href="/org/view?org=connectfun" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/34fae6cd7b899e51735d519f49a7d933c9950d6d.jpg" title="jkc898" /></a></p>
 </div>
 </li>
 <li>
 <div class="li-wrap">
-<a href="/view/1b25dd6acd7931b765ce0508763231126edb7786.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/04e1f30f915f804d2b16c14e" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="最新-劳动用工合同范本2019 精品" alt="最新-劳动用工合同范本2019 精品" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/1b25dd6acd7931b765ce0508763231126edb7786.html" target="_blank" title="最新-劳动用工合同范本2019 精品">最新-劳动用工合同范本201...</a></p>
-<p class="read-num">2006人阅读</p>
-<p class="author"><a href="/org/view?org=lirenshuju" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/b999a9014c086e062023dffb0f087bf40bd1cbf3.jpg" title="立人数据" /></a></p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<b class="ic-hotdoc">精品</b>
 <a href="/view/d4187adfac02de80d4d8d15abe23482fb4da02b3.html" target="_blank">
 <img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/a857242976c66137ee0619cf" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="网络销售合同范本2019" alt="网络销售合同范本2019" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/d4187adfac02de80d4d8d15abe23482fb4da02b3.html" target="_blank" title="网络销售合同范本2019">网络销售合同范本2019</a></p>
-<p class="read-num">1441人阅读</p>
+<p class="read-num">1443人阅读</p>
 <p class="author"><a href="/p/腿岭探寻垮倒" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/342ac65c1038534383046d049813b07ecb8088c8.jpg" title="腿岭探寻垮倒" /></a></p>
 </div>
 </li>
@@ -4568,20 +4534,45 @@ PDF/Word/Excel/PPT无限次转化
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/84ca5db359f5f61fb7360b4c2e3f5727a5e924c4.html" target="_blank" title="2019年公司股东合作合同协议书范本">2019年公司股东合作合同协...</a></p>
-<p class="read-num">2655人阅读</p>
+<p class="read-num">2662人阅读</p>
 <p class="author"><a href="/org/view?org=connectfun" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/34fae6cd7b899e51735d519f49a7d933c9950d6d.jpg" title="jkc898" /></a></p>
 </div>
 </li>
 <li>
 <div class="li-wrap">
-<a href="/view/f16c5e10793e0912a21614791711cc7931b778eb.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/134c1041a98271fe910ef975" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="客户资源合作协议范本2019新" alt="客户资源合作协议范本2019新" />
+<a href="/view/b105d39b11a6f524ccbff121dd36a32d7275c722.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/dafcaf3114791711cd791710" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019企业劳动合同范本(小企业)(2019律师整理版)" alt="2019企业劳动合同范本(小企业)(2019律师整理版)" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
-<p class="title"><a href="/view/f16c5e10793e0912a21614791711cc7931b778eb.html" target="_blank" title="客户资源合作协议范本2019新">客户资源合作协议范本2019...</a></p>
-<p class="read-num">1572人阅读</p>
-<p class="author"><a href="/org/view?org=ainantubiao" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/8694a4c27d1ed21bca6b196ca06eddc450da3f9c.jpg" title="nannan8023巨蟹" /></a></p>
+<p class="title"><a href="/view/b105d39b11a6f524ccbff121dd36a32d7275c722.html" target="_blank" title="2019企业劳动合同范本(小企业)(2019律师整理版)">2019企业劳动合同范本(小企...</a></p>
+<p class="read-num">2415人阅读</p>
+<p class="author"><a href="/p/腿岭探寻垮倒" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/342ac65c1038534383046d049813b07ecb8088c8.jpg" title="腿岭探寻垮倒" /></a></p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/f55b997bf68a6529647d27284b73f242326c3140.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/4d0b6ee008a1284ac9504306" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019房屋买卖合同范本【标准版】" alt="2019房屋买卖合同范本【标准版】" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/f55b997bf68a6529647d27284b73f242326c3140.html" target="_blank" title="2019房屋买卖合同范本【标准版】">2019房屋买卖合同范本【标...</a></p>
+<p class="read-num">5583人阅读</p>
+<p class="author"><a href="/p/fly主宰" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/279759ee3d6d55fb52810b4c60224f4a20a4dd11.jpg" title="fly主宰" /></a></p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<b class="ic-hotdoc">精品</b>
+<a href="/view/1b25dd6acd7931b765ce0508763231126edb7786.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/04e1f30f915f804d2b16c14e" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="最新-劳动用工合同范本2019 精品" alt="最新-劳动用工合同范本2019 精品" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/1b25dd6acd7931b765ce0508763231126edb7786.html" target="_blank" title="最新-劳动用工合同范本2019 精品">最新-劳动用工合同范本201...</a></p>
+<p class="read-num">2008人阅读</p>
+<p class="author"><a href="/org/view?org=lirenshuju" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/b999a9014c086e062023dffb0f087bf40bd1cbf3.jpg" title="立人数据" /></a></p>
 </div>
 </li>
 <li>
@@ -4592,7 +4583,7 @@ PDF/Word/Excel/PPT无限次转化
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/62c6bc382f3f5727a5e9856a561252d381eb2034.html" target="_blank" title="2019年公益项目合作合同协议书范本">2019年公益项目合作合同协...</a></p>
-<p class="read-num">1943人阅读</p>
+<p class="read-num">1944人阅读</p>
 <p class="author"><a href="/org/view?org=connectfun" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/34fae6cd7b899e51735d519f49a7d933c9950d6d.jpg" title="jkc898" /></a></p>
 </div>
 </li>
@@ -4602,25 +4593,25 @@ PDF/Word/Excel/PPT无限次转化
 <ul class="doc-list clearfix">
 <li>
 <div class="li-wrap">
-<b class="ic-hotdoc">精品</b>
-<a href="/view/3c14b986760bf78a6529647d27284b73f24236ff.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/f73345fad15abe23482f4dd0" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="宫颈癌2018年诊疗规范" alt="宫颈癌2018年诊疗规范" />
+<a href="/view/f280ca776d85ec3a87c24028915f804d2a16877d.html" target="_blank">
+<img class="doc-img bg-index ppt-img" data-tab-src="//wkretype.bdimg.com/img/602e0582b0717fd5360cdcf6" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2018年 第2期 防治流感(中医)" alt="2018年 第2期 防治流感(中医)" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
-<p class="title"><a href="/view/3c14b986760bf78a6529647d27284b73f24236ff.html" target="_blank" title="宫颈癌2018年诊疗规范">宫颈癌2018年诊疗规范</a></p>
-<p class="read-num">5288人阅读</p>
+<p class="title"><a href="/view/f280ca776d85ec3a87c24028915f804d2a16877d.html" target="_blank" title="2018年 第2期 防治流感(中医)">2018年 第2期 防治流感(中...</a></p>
+<p class="read-num">1324人阅读</p>
 </div>
 </li>
 <li>
 <div class="li-wrap">
-<a href="/view/b2acad37814d2b160b4e767f5acfa1c7aa0082bc.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/ade3ede26137ee06eef91815" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="高级病理学" alt="高级病理学" />
+<b class="ic-hotdoc">精品</b>
+<a href="/view/e297bf87e97101f69e3143323968011ca200f703.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/7724e759a26925c52cc5bfba" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="传染病防治试卷" alt="传染病防治试卷" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
-<p class="title"><a href="/view/b2acad37814d2b160b4e767f5acfa1c7aa0082bc.html" target="_blank" title="高级病理学">高级病理学</a></p>
-<p class="read-num">1409人阅读</p>
+<p class="title"><a href="/view/e297bf87e97101f69e3143323968011ca200f703.html" target="_blank" title="传染病防治试卷">传染病防治试卷</a></p>
+<p class="read-num">1103人阅读</p>
 </div>
 </li>
 <li>
@@ -4631,7 +4622,40 @@ PDF/Word/Excel/PPT无限次转化
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/629b9047b5daa58da0116c175f0e7cd185251870.html" target="_blank" title="中医科护士岗位职责">中医科护士岗位职责</a></p>
-<p class="read-num">1934人阅读</p>
+<p class="read-num">1935人阅读</p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/4e52b86680c758f5f61fb7360b4c2e3f56272545.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/0b735604af45b307e8719745" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="全科医生考试全套精选试题集" alt="全科医生考试全套精选试题集" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/4e52b86680c758f5f61fb7360b4c2e3f56272545.html" target="_blank" title="全科医生考试全套精选试题集">全科医生考试全套精选试题...</a></p>
+<p class="read-num">3511人阅读</p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/a6183871876fb84ae45c3b3567ec102de2bddf85.html" target="_blank">
+<img class="doc-img bg-index ppt-img" data-tab-src="//wkretype.bdimg.com/img/ac8ed724bed5b9f3f90f1cbd" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="病历书写规范2018ppt" alt="病历书写规范2018ppt" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/a6183871876fb84ae45c3b3567ec102de2bddf85.html" target="_blank" title="病历书写规范2018ppt">病历书写规范2018ppt</a></p>
+<p class="read-num">8654人阅读</p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/3c14b986760bf78a6529647d27284b73f24236ff.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/f73345fad15abe23482f4dd0" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="宫颈癌2018年诊疗规范" alt="宫颈癌2018年诊疗规范" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/3c14b986760bf78a6529647d27284b73f24236ff.html" target="_blank" title="宫颈癌2018年诊疗规范">宫颈癌2018年诊疗规范</a></p>
+<p class="read-num">5294人阅读</p>
 </div>
 </li>
 <li>
@@ -4642,7 +4666,7 @@ PDF/Word/Excel/PPT无限次转化
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/cf24abb581eb6294dd88d0d233d4b14e85243ecc.html" target="_blank" title="2018年中医康复科护理工作总结">2018年中医康复科护理工作...</a></p>
-<p class="read-num">2926人阅读</p>
+<p class="read-num">2927人阅读</p>
 </div>
 </li>
 <li>
@@ -4659,26 +4683,15 @@ PDF/Word/Excel/PPT无限次转化
 </li>
 <li>
 <div class="li-wrap">
+<b class="ic-hotdoc">精品</b>
 <a href="/view/aa614e2b842458fb770bf78a6529647d2628344a.html" target="_blank">
 <img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/94951b9d1a37f111f0855b18" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019年全科主治医师考试真题题库全科医学中级职称考试试题(3)" alt="2019年全科主治医师考试真题题库全科医学中级职称考试试题(3)" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/aa614e2b842458fb770bf78a6529647d2628344a.html" target="_blank" title="2019年全科主治医师考试真题题库全科医学中级职称考试试题(3)">2019年全科主治医师考试真...</a></p>
-<p class="read-num">4974人阅读</p>
+<p class="read-num">4975人阅读</p>
 <p class="author"><a href="/org/view?org=xbjy" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/7dd98d1001e939010901f5737cec54e736d1967f.jpg" title="向博教育" /></a></p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/bc0de58aeef9aef8941ea76e58fafab069dc4497.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/4ca17d7277232f60ddcca1e9" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="慢性病管理制度" alt="慢性病管理制度" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/bc0de58aeef9aef8941ea76e58fafab069dc4497.html" target="_blank" title="慢性病管理制度">慢性病管理制度</a></p>
-<p class="read-num">2276人阅读</p>
-<p class="author"><a href="/p/汉兰径伯刂訌" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/86d6277f9e2f0708f4df304de424b899a801f2a1.jpg" title="汉兰径伯刂訌" /></a></p>
 </div>
 </li>
 <li>
@@ -4689,52 +4702,30 @@ PDF/Word/Excel/PPT无限次转化
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/1a3fd782710abb68a98271fe910ef12d2af9a9ed.html" target="_blank" title="原发性肺癌诊疗规范(2018年版)">原发性肺癌诊疗规范(2018年...</a></p>
-<p class="read-num">7439人阅读</p>
+<p class="read-num">7442人阅读</p>
 </div>
 </li>
 <li>
 <div class="li-wrap">
-<a href="/view/4e52b86680c758f5f61fb7360b4c2e3f56272545.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/0b735604af45b307e8719745" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="全科医生考试全套精选试题集" alt="全科医生考试全套精选试题集" />
+<a href="/view/bc0de58aeef9aef8941ea76e58fafab069dc4497.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/4ca17d7277232f60ddcca1e9" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="慢性病管理制度" alt="慢性病管理制度" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
-<p class="title"><a href="/view/4e52b86680c758f5f61fb7360b4c2e3f56272545.html" target="_blank" title="全科医生考试全套精选试题集">全科医生考试全套精选试题...</a></p>
-<p class="read-num">3506人阅读</p>
+<p class="title"><a href="/view/bc0de58aeef9aef8941ea76e58fafab069dc4497.html" target="_blank" title="慢性病管理制度">慢性病管理制度</a></p>
+<p class="read-num">2278人阅读</p>
+<p class="author"><a href="/p/汉兰径伯刂訌" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/86d6277f9e2f0708f4df304de424b899a801f2a1.jpg" title="汉兰径伯刂訌" /></a></p>
 </div>
 </li>
 <li>
 <div class="li-wrap">
-<a href="/view/ed0ea415178884868762caaedd3383c4bb4cb4d5.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/96fd26ca5ef7ba0d4a733b91" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="流行病学习题与答案" alt="流行病学习题与答案" />
+<a href="/view/b2acad37814d2b160b4e767f5acfa1c7aa0082bc.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/ade3ede26137ee06eef91815" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="高级病理学" alt="高级病理学" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
-<p class="title"><a href="/view/ed0ea415178884868762caaedd3383c4bb4cb4d5.html" target="_blank" title="流行病学习题与答案">流行病学习题与答案</a></p>
-<p class="read-num">1994人阅读</p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/fe3b8280f68a6529647d27284b73f242326c311d.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/6f704a49561252d380eb6eb8" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="医院先进科室代表发言(精选多篇)" alt="医院先进科室代表发言(精选多篇)" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/fe3b8280f68a6529647d27284b73f242326c311d.html" target="_blank" title="医院先进科室代表发言(精选多篇)">医院先进科室代表发言(精选...</a></p>
-<p class="read-num">1722人阅读</p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<b class="ic-hotdoc">精品</b>
-<a href="/view/e297bf87e97101f69e3143323968011ca200f703.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/7724e759a26925c52cc5bfba" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="传染病防治试卷" alt="传染病防治试卷" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/e297bf87e97101f69e3143323968011ca200f703.html" target="_blank" title="传染病防治试卷">传染病防治试卷</a></p>
-<p class="read-num">1103人阅读</p>
+<p class="title"><a href="/view/b2acad37814d2b160b4e767f5acfa1c7aa0082bc.html" target="_blank" title="高级病理学">高级病理学</a></p>
+<p class="read-num">1409人阅读</p>
 </div>
 </li>
 </ul>
@@ -4743,6 +4734,30 @@ PDF/Word/Excel/PPT无限次转化
 <ul class="doc-list clearfix">
 <li>
 <div class="li-wrap">
+<a href="/view/16e6e9b7ac51f01dc281e53a580216fc700a53bf.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/98a7fcd9f705cc1755270999" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019年个税专项扣减详细表" alt="2019年个税专项扣减详细表" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/16e6e9b7ac51f01dc281e53a580216fc700a53bf.html" target="_blank" title="2019年个税专项扣减详细表">2019年个税专项扣减详细表</a></p>
+<p class="read-num">2953人阅读</p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/4df9187a78563c1ec5da50e2524de518964bd3e2.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/b69dc7305f0e7cd1842536b6" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019年江苏教师资格证面试时间" alt="2019年江苏教师资格证面试时间" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/4df9187a78563c1ec5da50e2524de518964bd3e2.html" target="_blank" title="2019年江苏教师资格证面试时间">2019年江苏教师资格证面试...</a></p>
+<p class="read-num">1914人阅读</p>
+<p class="author"><a href="/org/view?org=examwcom" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/d043ad4bd11373f0949e8cf9a60f4bfbfbed0436.jpg" title="examwcom" /></a></p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<b class="ic-hotdoc">精品</b>
 <a href="/view/9e206e5ee3bd960590c69ec3d5bbfd0a7856d511.html" target="_blank">
 <img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/b8384a36a76e58fafab003ed" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="调剂简历模板" alt="调剂简历模板" />
 <span class="bg-hover"></span>
@@ -4754,92 +4769,13 @@ PDF/Word/Excel/PPT无限次转化
 </li>
 <li>
 <div class="li-wrap">
-<b class="ic-hotdoc">精品</b>
-<a href="/view/61b743bf0a4c2e3f5727a5e9856a561253d32163.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/5b7a0e9369dc5022aaea00a6" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="大学生自荐信" alt="大学生自荐信" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/61b743bf0a4c2e3f5727a5e9856a561253d32163.html" target="_blank" title="大学生自荐信">大学生自荐信</a></p>
-<p class="read-num">2787人阅读</p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/1ec2901ef56527d3240c844769eae009581ba2cb.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/2fe0c3fc7f1922791788e824" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="赡养老人专项附加个税扣除分摊协议书" alt="赡养老人专项附加个税扣除分摊协议书" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/1ec2901ef56527d3240c844769eae009581ba2cb.html" target="_blank" title="赡养老人专项附加个税扣除分摊协议书">赡养老人专项附加个税扣除...</a></p>
-<p class="read-num">11702人阅读</p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/bfcfd0700622192e453610661ed9ad51f11d547e.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/056f5fde89eb172ded63b75a" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="学习贯彻党的十九大精神,强化“四个意识”、坚定“四个自信”、做到“四个服从”" alt="学习贯彻党的十九大精神,强化“四个意识”、坚定“四个自信”、做到“四个服从”" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/bfcfd0700622192e453610661ed9ad51f11d547e.html" target="_blank" title="学习贯彻党的十九大精神,强化“四个意识”、坚定“四个自信”、做到“四个服从”">学习贯彻党的十九大精神,强...</a></p>
-<p class="read-num">334835人阅读</p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/16e6e9b7ac51f01dc281e53a580216fc700a53bf.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/98a7fcd9f705cc1755270999" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019年个税专项扣减详细表" alt="2019年个税专项扣减详细表" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/16e6e9b7ac51f01dc281e53a580216fc700a53bf.html" target="_blank" title="2019年个税专项扣减详细表">2019年个税专项扣减详细表</a></p>
-<p class="read-num">2952人阅读</p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/a458709d534de518964bcf84b9d528ea80c72f50.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/a1b8886a2b160b4e777fcf0b" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019年新个税工资表" alt="2019年新个税工资表" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/a458709d534de518964bcf84b9d528ea80c72f50.html" target="_blank" title="2019年新个税工资表">2019年新个税工资表</a></p>
-<p class="read-num">10637人阅读</p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/4df9187a78563c1ec5da50e2524de518964bd3e2.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/b69dc7305f0e7cd1842536b6" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019年江苏教师资格证面试时间" alt="2019年江苏教师资格证面试时间" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/4df9187a78563c1ec5da50e2524de518964bd3e2.html" target="_blank" title="2019年江苏教师资格证面试时间">2019年江苏教师资格证面试...</a></p>
-<p class="read-num">1912人阅读</p>
-<p class="author"><a href="/org/view?org=examwcom" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/d043ad4bd11373f0949e8cf9a60f4bfbfbed0436.jpg" title="examwcom" /></a></p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
 <a href="/view/86e1d2343a3567ec102de2bd960590c69fc3d842.html" target="_blank">
 <img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/b8211c0058fb770bf78a5596" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="部门负责人岗位职责及任职资格" alt="部门负责人岗位职责及任职资格" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/86e1d2343a3567ec102de2bd960590c69fc3d842.html" target="_blank" title="部门负责人岗位职责及任职资格">部门负责人岗位职责及任职...</a></p>
-<p class="read-num">2354人阅读</p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/cd2d79db970590c69ec3d5bbfd0a79563c1ed436.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/41ba59da910ef12d2af9e758" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="员工绩效考核书及评分表" alt="员工绩效考核书及评分表" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/cd2d79db970590c69ec3d5bbfd0a79563c1ed436.html" target="_blank" title="员工绩效考核书及评分表">员工绩效考核书及评分表</a></p>
-<p class="read-num">5144人阅读</p>
+<p class="read-num">2355人阅读</p>
 </div>
 </li>
 <li>
@@ -4855,25 +4791,80 @@ PDF/Word/Excel/PPT无限次转化
 </li>
 <li>
 <div class="li-wrap">
-<b class="ic-hotdoc">精品</b>
+<a href="/view/61b743bf0a4c2e3f5727a5e9856a561253d32163.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/5b7a0e9369dc5022aaea00a6" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="大学生自荐信" alt="大学生自荐信" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/61b743bf0a4c2e3f5727a5e9856a561253d32163.html" target="_blank" title="大学生自荐信">大学生自荐信</a></p>
+<p class="read-num">2805人阅读</p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/1ec2901ef56527d3240c844769eae009581ba2cb.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/2fe0c3fc7f1922791788e824" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="赡养老人专项附加个税扣除分摊协议书" alt="赡养老人专项附加个税扣除分摊协议书" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/1ec2901ef56527d3240c844769eae009581ba2cb.html" target="_blank" title="赡养老人专项附加个税扣除分摊协议书">赡养老人专项附加个税扣除...</a></p>
+<p class="read-num">11703人阅读</p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/bfcfd0700622192e453610661ed9ad51f11d547e.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/056f5fde89eb172ded63b75a" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="学习贯彻党的十九大精神,强化“四个意识”、坚定“四个自信”、做到“四个服从”" alt="学习贯彻党的十九大精神,强化“四个意识”、坚定“四个自信”、做到“四个服从”" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/bfcfd0700622192e453610661ed9ad51f11d547e.html" target="_blank" title="学习贯彻党的十九大精神,强化“四个意识”、坚定“四个自信”、做到“四个服从”">学习贯彻党的十九大精神,强...</a></p>
+<p class="read-num">334856人阅读</p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/a458709d534de518964bcf84b9d528ea80c72f50.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/a1b8886a2b160b4e777fcf0b" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019年新个税工资表" alt="2019年新个税工资表" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/a458709d534de518964bcf84b9d528ea80c72f50.html" target="_blank" title="2019年新个税工资表">2019年新个税工资表</a></p>
+<p class="read-num">10638人阅读</p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/cd2d79db970590c69ec3d5bbfd0a79563c1ed436.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/41ba59da910ef12d2af9e758" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="员工绩效考核书及评分表" alt="员工绩效考核书及评分表" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/cd2d79db970590c69ec3d5bbfd0a79563c1ed436.html" target="_blank" title="员工绩效考核书及评分表">员工绩效考核书及评分表</a></p>
+<p class="read-num">5144人阅读</p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
 <a href="/view/2ce97b2b32687e21af45b307e87101f69f31fb42.html" target="_blank">
 <img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/f220eb34cc7931b765ce157a" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="零基础pr入门视频教程快速上手" alt="零基础pr入门视频教程快速上手" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/2ce97b2b32687e21af45b307e87101f69f31fb42.html" target="_blank" title="零基础pr入门视频教程快速上手">零基础pr入门视频教程快速...</a></p>
-<p class="read-num">4915人阅读</p>
+<p class="read-num">4920人阅读</p>
 </div>
 </li>
 <li>
 <div class="li-wrap">
+<b class="ic-hotdoc">精品</b>
 <a href="/view/8e1ada400812a21614791711cc7931b765ce7bad.html" target="_blank">
 <img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/7deb94cf4afe04a1b071dece" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="复旦大学自主招生面试攻略" alt="复旦大学自主招生面试攻略" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/8e1ada400812a21614791711cc7931b765ce7bad.html" target="_blank" title="复旦大学自主招生面试攻略">复旦大学自主招生面试攻略</a></p>
-<p class="read-num">14060人阅读</p>
+<p class="read-num">14061人阅读</p>
 </div>
 </li>
 </ul>
@@ -4882,14 +4873,14 @@ PDF/Word/Excel/PPT无限次转化
 <ul class="doc-list clearfix">
 <li>
 <div class="li-wrap">
-<a href="/view/75fba490ab00b52acfc789eb172ded630b1c98da.html" target="_blank">
-<img class="doc-img bg-index ppt-img" data-tab-src="//wkretype.bdimg.com/img/5b8fd1f6195f312b3169a5b6" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="古风文艺PPT模板" alt="古风文艺PPT模板" />
+<a href="/view/076d9d9909a1284ac850ad02de80d4d8d05a0149.html" target="_blank">
+<img class="doc-img bg-index ppt-img" data-tab-src="//wkretype.bdimg.com/img/84a504e76137ee06eff918ce" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019教育培训课件PPT模板" alt="2019教育培训课件PPT模板" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
-<p class="title"><a href="/view/75fba490ab00b52acfc789eb172ded630b1c98da.html" target="_blank" title="古风文艺PPT模板">古风文艺PPT模板</a></p>
-<p class="read-num">3637人阅读</p>
-<p class="author"><a href="/p/yqy492614687" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/1b4c510fd9f9d72a3b59cd3ad82a2834349bbbdc.jpg" title="yqy492614687" /></a></p>
+<p class="title"><a href="/view/076d9d9909a1284ac850ad02de80d4d8d05a0149.html" target="_blank" title="2019教育培训课件PPT模板">2019教育培训课件PPT模板</a></p>
+<p class="read-num">2769人阅读</p>
+<p class="author"><a href="/p/beibeifc" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/d833c895d143ad4be829d96b8b025aafa40f0611.jpg" title="beibeifc" /></a></p>
 </div>
 </li>
 <li>
@@ -4900,37 +4891,25 @@ PDF/Word/Excel/PPT无限次转化
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/d676715f182e453610661ed9ad51f01dc281579f.html" target="_blank" title="商业计划书ppt范文">商业计划书ppt范文</a></p>
-<p class="read-num">6864人阅读</p>
+<p class="read-num">6868人阅读</p>
 <p class="author"><a href="/p/ppt演示技术" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/a71ea8d3fd1f41344efae29f2c1f95cad0c85e06.jpg" title="ppt演示技术" /></a></p>
 </div>
 </li>
 <li>
 <div class="li-wrap">
+<a href="/view/7d1e9914326c1eb91a37f111f18583d049640f92.html" target="_blank">
+<img class="doc-img bg-index ppt-img" data-tab-src="//wkretype.bdimg.com/img/e99894e69ec3d5bbfd0a74b8" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019商务礼仪课件ppt演讲" alt="2019商务礼仪课件ppt演讲" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/7d1e9914326c1eb91a37f111f18583d049640f92.html" target="_blank" title="2019商务礼仪课件ppt演讲">2019商务礼仪课件ppt演讲</a></p>
+<p class="read-num">1868人阅读</p>
+<p class="author"><a href="/p/dy文友" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/7af40ad162d9f2d3fe696085a5ec8a136327cc64.jpg" title="dy文友" /></a></p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
 <b class="ic-hotdoc">精品</b>
-<a href="/view/8692d73dff4733687e21af45b307e87101f6f8ae.html" target="_blank">
-<img class="doc-img bg-index ppt-img" data-tab-src="//wkretype.bdimg.com/img/1282570ff18583d0496459d6" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="红黑大气商务ppt模板免费下载" alt="红黑大气商务ppt模板免费下载" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/8692d73dff4733687e21af45b307e87101f6f8ae.html" target="_blank" title="红黑大气商务ppt模板免费下载">红黑大气商务ppt模板免费下...</a></p>
-<p class="read-num">3105人阅读</p>
-<p class="author"><a href="/org/view?org=mvp200" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/279759ee3d6d55fb1d57387166224f4a21a4ddd0.jpg" title="想好教育" /></a></p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/076d9d9909a1284ac850ad02de80d4d8d05a0149.html" target="_blank">
-<img class="doc-img bg-index ppt-img" data-tab-src="//wkretype.bdimg.com/img/84a504e76137ee06eff918ce" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019教育培训课件PPT模板" alt="2019教育培训课件PPT模板" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/076d9d9909a1284ac850ad02de80d4d8d05a0149.html" target="_blank" title="2019教育培训课件PPT模板">2019教育培训课件PPT模板</a></p>
-<p class="read-num">2768人阅读</p>
-<p class="author"><a href="/p/beibeifc" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/d833c895d143ad4be829d96b8b025aafa40f0611.jpg" title="beibeifc" /></a></p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
 <a href="/view/bc09eb0032687e21af45b307e87101f69e31fbdc.html" target="_blank">
 <img class="doc-img bg-index ppt-img" data-tab-src="//wkretype.bdimg.com/img/ac9aac6d01f69e31433294bc" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019年党政党建主题通用PPT模板" alt="2019年党政党建主题通用PPT模板" />
 <span class="bg-hover"></span>
@@ -4943,51 +4922,39 @@ PDF/Word/Excel/PPT无限次转化
 </li>
 <li>
 <div class="li-wrap">
-<a href="/view/7d1e9914326c1eb91a37f111f18583d049640f92.html" target="_blank">
-<img class="doc-img bg-index ppt-img" data-tab-src="//wkretype.bdimg.com/img/e99894e69ec3d5bbfd0a74b8" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019商务礼仪课件ppt演讲" alt="2019商务礼仪课件ppt演讲" />
+<a href="/view/dfa75a70e97101f69e3143323968011ca200f70b.html" target="_blank">
+<img class="doc-img bg-index ppt-img" data-tab-src="//wkretype.bdimg.com/img/dcdedf3ec5da50e2524d7fac" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019年度工作会议汇报PPT模板" alt="2019年度工作会议汇报PPT模板" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
-<p class="title"><a href="/view/7d1e9914326c1eb91a37f111f18583d049640f92.html" target="_blank" title="2019商务礼仪课件ppt演讲">2019商务礼仪课件ppt演讲</a></p>
-<p class="read-num">1866人阅读</p>
-<p class="author"><a href="/p/dy文友" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/7af40ad162d9f2d3fe696085a5ec8a136327cc64.jpg" title="dy文友" /></a></p>
+<p class="title"><a href="/view/dfa75a70e97101f69e3143323968011ca200f70b.html" target="_blank" title="2019年度工作会议汇报PPT模板">2019年度工作会议汇报PPT模...</a></p>
+<p class="read-num">2876人阅读</p>
+<p class="author"><a href="/p/威尔士726" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/d53f8794a4c27d1e52df4bc016d5ad6eddc4383c.jpg" title="威尔士726" /></a></p>
 </div>
 </li>
 <li>
 <div class="li-wrap">
-<a href="/view/a36213e2dc88d0d233d4b14e852458fb770b38ae.html" target="_blank">
-<img class="doc-img bg-index ppt-img" data-tab-src="//wkretype.bdimg.com/img/67b0dac8b14e852458fb577a" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="医学PPT模板" alt="医学PPT模板" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/a36213e2dc88d0d233d4b14e852458fb770b38ae.html" target="_blank" title="医学PPT模板">医学PPT模板</a></p>
-<p class="read-num">4368人阅读</p>
-<p class="author"><a href="/p/王光明93821722" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/e61190ef76c6a7ef1ff23227f1faaf51f2de66df.jpg" title="王光明93821722" /></a></p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/b4f9c772effdc8d376eeaeaad1f34693dbef1072.html" target="_blank">
-<img class="doc-img bg-index ppt-img" data-tab-src="//wkretype.bdimg.com/img/f3875735bd64783e09122b44" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019年三八妇女节魅力女王节活动策划计划规划PPT模板" alt="2019年三八妇女节魅力女王节活动策划计划规划PPT模板" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/b4f9c772effdc8d376eeaeaad1f34693dbef1072.html" target="_blank" title="2019年三八妇女节魅力女王节活动策划计划规划PPT模板">2019年三八妇女节魅力女王...</a></p>
-<p class="read-num">1678人阅读</p>
-<p class="author"><a href="/p/qiuqiu831" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/bd3eb13533fa828bfdd3e067f01f4134960a5a45.jpg" title="qiuqiu831" /></a></p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<b class="ic-hotdoc">精品</b>
 <a href="/view/536610a86e1aff00bed5b9f3f90f76c661374cb6.html" target="_blank">
 <img class="doc-img bg-index ppt-img" data-tab-src="//wkretype.bdimg.com/img/3ad05edff705cc1755270924" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="最新工作总结2019ppt模板" alt="最新工作总结2019ppt模板" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/536610a86e1aff00bed5b9f3f90f76c661374cb6.html" target="_blank" title="最新工作总结2019ppt模板">最新工作总结2019ppt模板</a></p>
-<p class="read-num">3283人阅读</p>
+<p class="read-num">3288人阅读</p>
 <p class="author"><a href="/p/lanlin0911" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://edu-wenku.bdimg.com/v1/icms_transform/img/iknow/wenku/ugc/topic/65X65.jpg" title="lanlin0911" /></a></p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<b class="ic-hotdoc">精品</b>
+<a href="/view/b4f9c772effdc8d376eeaeaad1f34693dbef1072.html" target="_blank">
+<img class="doc-img bg-index ppt-img" data-tab-src="//wkretype.bdimg.com/img/f3875735bd64783e09122b44" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019年三八妇女节魅力女王节活动策划计划规划PPT模板" alt="2019年三八妇女节魅力女王节活动策划计划规划PPT模板" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/b4f9c772effdc8d376eeaeaad1f34693dbef1072.html" target="_blank" title="2019年三八妇女节魅力女王节活动策划计划规划PPT模板">2019年三八妇女节魅力女王...</a></p>
+<p class="read-num">1680人阅读</p>
+<p class="author"><a href="/p/qiuqiu831" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/bd3eb13533fa828bfdd3e067f01f4134960a5a45.jpg" title="qiuqiu831" /></a></p>
 </div>
 </li>
 <li>
@@ -4998,31 +4965,56 @@ PDF/Word/Excel/PPT无限次转化
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/43bf041449d7c1c708a1284ac850ad02df80071c.html" target="_blank" title="黑色欧美风PPT模板免费下载">黑色欧美风PPT模板免费下载...</a></p>
-<p class="read-num">3099人阅读</p>
+<p class="read-num">3100人阅读</p>
 <p class="author"><a href="/org/view?org=mvp200" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/279759ee3d6d55fb1d57387166224f4a21a4ddd0.jpg" title="想好教育" /></a></p>
 </div>
 </li>
 <li>
 <div class="li-wrap">
-<a href="/view/6b38efb8b04e852458fb770bf78a6529657d3506.html" target="_blank">
-<img class="doc-img bg-index ppt-img" data-tab-src="//wkretype.bdimg.com/img/3c3d4acc551810a6f524865c" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019新个税抵扣课件" alt="2019新个税抵扣课件" />
+<a href="/view/8692d73dff4733687e21af45b307e87101f6f8ae.html" target="_blank">
+<img class="doc-img bg-index ppt-img" data-tab-src="//wkretype.bdimg.com/img/1282570ff18583d0496459d6" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="红黑大气商务ppt模板免费下载" alt="红黑大气商务ppt模板免费下载" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
-<p class="title"><a href="/view/6b38efb8b04e852458fb770bf78a6529657d3506.html" target="_blank" title="2019新个税抵扣课件">2019新个税抵扣课件</a></p>
-<p class="read-num">4843人阅读</p>
+<p class="title"><a href="/view/8692d73dff4733687e21af45b307e87101f6f8ae.html" target="_blank" title="红黑大气商务ppt模板免费下载">红黑大气商务ppt模板免费下...</a></p>
+<p class="read-num">3107人阅读</p>
+<p class="author"><a href="/org/view?org=mvp200" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/279759ee3d6d55fb1d57387166224f4a21a4ddd0.jpg" title="想好教育" /></a></p>
 </div>
 </li>
 <li>
 <div class="li-wrap">
-<a href="/view/dfa75a70e97101f69e3143323968011ca200f70b.html" target="_blank">
-<img class="doc-img bg-index ppt-img" data-tab-src="//wkretype.bdimg.com/img/dcdedf3ec5da50e2524d7fac" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019年度工作会议汇报PPT模板" alt="2019年度工作会议汇报PPT模板" />
+<a href="/view/a36213e2dc88d0d233d4b14e852458fb770b38ae.html" target="_blank">
+<img class="doc-img bg-index ppt-img" data-tab-src="//wkretype.bdimg.com/img/67b0dac8b14e852458fb577a" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="医学PPT模板" alt="医学PPT模板" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
-<p class="title"><a href="/view/dfa75a70e97101f69e3143323968011ca200f70b.html" target="_blank" title="2019年度工作会议汇报PPT模板">2019年度工作会议汇报PPT模...</a></p>
-<p class="read-num">2873人阅读</p>
-<p class="author"><a href="/p/威尔士726" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/d53f8794a4c27d1e52df4bc016d5ad6eddc4383c.jpg" title="威尔士726" /></a></p>
+<p class="title"><a href="/view/a36213e2dc88d0d233d4b14e852458fb770b38ae.html" target="_blank" title="医学PPT模板">医学PPT模板</a></p>
+<p class="read-num">4372人阅读</p>
+<p class="author"><a href="/p/王光明93821722" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/e61190ef76c6a7ef1ff23227f1faaf51f2de66df.jpg" title="王光明93821722" /></a></p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/6acff334c67da26925c52cc58bd63186bceb92c5.html" target="_blank">
+<img class="doc-img bg-index ppt-img" data-tab-src="//wkretype.bdimg.com/img/f7e158a683d049649a665816" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019年总结与2019年计划PPT模板" alt="2019年总结与2019年计划PPT模板" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/6acff334c67da26925c52cc58bd63186bceb92c5.html" target="_blank" title="2019年总结与2019年计划PPT模板">2019年总结与2019年计划PP...</a></p>
+<p class="read-num">3293人阅读</p>
+<p class="author"><a href="/p/panzhi5518" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/fd039245d688d43f46f3a5b7701ed21b0ef43b18.jpg" title="panzhi5518" /></a></p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/75fba490ab00b52acfc789eb172ded630b1c98da.html" target="_blank">
+<img class="doc-img bg-index ppt-img" data-tab-src="//wkretype.bdimg.com/img/5b8fd1f6195f312b3169a5b6" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="古风文艺PPT模板" alt="古风文艺PPT模板" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/75fba490ab00b52acfc789eb172ded630b1c98da.html" target="_blank" title="古风文艺PPT模板">古风文艺PPT模板</a></p>
+<p class="read-num">3646人阅读</p>
+<p class="author"><a href="/p/yqy492614687" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/1b4c510fd9f9d72a3b59cd3ad82a2834349bbbdc.jpg" title="yqy492614687" /></a></p>
 </div>
 </li>
 </ul>
@@ -5031,37 +5023,26 @@ PDF/Word/Excel/PPT无限次转化
 <ul class="doc-list clearfix">
 <li>
 <div class="li-wrap">
-<a href="/view/246b86b0700abb68a982fbb3.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/80ce7a3d43323968011c9240" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="求职应聘表" alt="求职应聘表" />
+<a href="/view/ab7328b66e1aff00bed5b9f3f90f76c661374c9f.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/e30ccd23cc1755270622081c" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019人力资源公司年度工作计划" alt="2019人力资源公司年度工作计划" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
-<p class="title"><a href="/view/246b86b0700abb68a982fbb3.html" target="_blank" title="求职应聘表">求职应聘表</a></p>
-<p class="read-num">19683人阅读</p>
+<p class="title"><a href="/view/ab7328b66e1aff00bed5b9f3f90f76c661374c9f.html" target="_blank" title="2019人力资源公司年度工作计划">2019人力资源公司年度工作...</a></p>
+<p class="read-num">2011人阅读</p>
+<p class="author"><a href="/p/黄昏记忆沙漏" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/3ac79f3df8dcd100ddf3829c7f8b4710b9122f1b.jpg" title="黄昏记忆沙漏" /></a></p>
 </div>
 </li>
 <li>
 <div class="li-wrap">
-<b class="ic-hotdoc">精品</b>
-<a href="/view/8d03e32558fb770bf78a554b.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/c03d39dd28ea81c758f578c4" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="职场英语词汇" alt="职场英语词汇" />
+<a href="/view/a04f69840640be1e650e52ea551810a6f524c884.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/8a089dcff8c75fbfc77db233" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="最新经典2019我的职业生涯规划书范文范文" alt="最新经典2019我的职业生涯规划书范文范文" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
-<p class="title"><a href="/view/8d03e32558fb770bf78a554b.html" target="_blank" title="职场英语词汇">职场英语词汇</a></p>
-<p class="read-num">12549人阅读</p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/536a5006a98271fe910ef9ca.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/4a05b2d7ad51f01dc281f177" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="应届生求职,面试题目大全" alt="应届生求职,面试题目大全" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/536a5006a98271fe910ef9ca.html" target="_blank" title="应届生求职,面试题目大全">应届生求职,面试题目大全</a></p>
-<p class="read-num">2220人阅读</p>
-<p class="author"><a href="/org/view?org=zheyibu" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/29381f30e924b899ef6598bf6c061d950b7bf6d8.jpg" title="这一步校园招聘" /></a></p>
+<p class="title"><a href="/view/a04f69840640be1e650e52ea551810a6f524c884.html" target="_blank" title="最新经典2019我的职业生涯规划书范文范文">最新经典2019我的职业生涯...</a></p>
+<p class="read-num">9691人阅读</p>
+<p class="author"><a href="/p/panzhi5518" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/fd039245d688d43f46f3a5b7701ed21b0ef43b18.jpg" title="panzhi5518" /></a></p>
 </div>
 </li>
 <li>
@@ -5072,8 +5053,67 @@ PDF/Word/Excel/PPT无限次转化
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/01a77caeeffdc8d376eeaeaad1f34693dbef104c.html" target="_blank" title="【2019】个人简历模板下载">【2019】个人简历模板下载</a></p>
-<p class="read-num">1703人阅读</p>
+<p class="read-num">1706人阅读</p>
 <p class="author"><a href="/org/view?org=wondercv" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/5d6034a85edf8db125f8eb440723dd54564e7438.jpg" title="Abbey_媛媛" /></a></p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<b class="ic-hotdoc">精品</b>
+<a href="/view/536a5006a98271fe910ef9ca.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/4a05b2d7ad51f01dc281f177" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="应届生求职,面试题目大全" alt="应届生求职,面试题目大全" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/536a5006a98271fe910ef9ca.html" target="_blank" title="应届生求职,面试题目大全">应届生求职,面试题目大全</a></p>
+<p class="read-num">2221人阅读</p>
+<p class="author"><a href="/org/view?org=zheyibu" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/29381f30e924b899ef6598bf6c061d950b7bf6d8.jpg" title="这一步校园招聘" /></a></p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/95de0d8dbb1aa8114431b90d6c85ec3a87c28bdc.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/4d616eb16bec0975f465e24d" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019面试考官工作总结-最新整理" alt="2019面试考官工作总结-最新整理" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/95de0d8dbb1aa8114431b90d6c85ec3a87c28bdc.html" target="_blank" title="2019面试考官工作总结-最新整理">2019面试考官工作总结-最新...</a></p>
+<p class="read-num">2129人阅读</p>
+<p class="author"><a href="/p/cc蓝蓝的天空" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/ac345982b2b7d0a2c3e3a4bbc7ef76094b369aea.jpg" title="cc蓝蓝的天空" /></a></p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/364d13e40975f46527d3e1e4.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/0990ee80d0d233d4b14e6909" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="职场上最常见的职位英文简称" alt="职场上最常见的职位英文简称" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/364d13e40975f46527d3e1e4.html" target="_blank" title="职场上最常见的职位英文简称">职场上最常见的职位英文简...</a></p>
+<p class="read-num">14353人阅读</p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<b class="ic-hotdoc">精品</b>
+<a href="/view/8967ee039b6648d7c0c7461b.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/a1394bd7ad51f01dc281f16b" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="职场礼仪标准规范" alt="职场礼仪标准规范" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/8967ee039b6648d7c0c7461b.html" target="_blank" title="职场礼仪标准规范">职场礼仪标准规范</a></p>
+<p class="read-num">4501人阅读</p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/246b86b0700abb68a982fbb3.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/80ce7a3d43323968011c9240" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="求职应聘表" alt="求职应聘表" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/246b86b0700abb68a982fbb3.html" target="_blank" title="求职应聘表">求职应聘表</a></p>
+<p class="read-num">19693人阅读</p>
 </div>
 </li>
 <li>
@@ -5090,47 +5130,24 @@ PDF/Word/Excel/PPT无限次转化
 </li>
 <li>
 <div class="li-wrap">
-<a href="/view/364d13e40975f46527d3e1e4.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/0990ee80d0d233d4b14e6909" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="职场上最常见的职位英文简称" alt="职场上最常见的职位英文简称" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/364d13e40975f46527d3e1e4.html" target="_blank" title="职场上最常见的职位英文简称">职场上最常见的职位英文简...</a></p>
-<p class="read-num">14347人阅读</p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/ab7328b66e1aff00bed5b9f3f90f76c661374c9f.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/e30ccd23cc1755270622081c" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019人力资源公司年度工作计划" alt="2019人力资源公司年度工作计划" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/ab7328b66e1aff00bed5b9f3f90f76c661374c9f.html" target="_blank" title="2019人力资源公司年度工作计划">2019人力资源公司年度工作...</a></p>
-<p class="read-num">2009人阅读</p>
-<p class="author"><a href="/p/黄昏记忆沙漏" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/3ac79f3df8dcd100ddf3829c7f8b4710b9122f1b.jpg" title="黄昏记忆沙漏" /></a></p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/8967ee039b6648d7c0c7461b.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/a1394bd7ad51f01dc281f16b" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="职场礼仪标准规范" alt="职场礼仪标准规范" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/8967ee039b6648d7c0c7461b.html" target="_blank" title="职场礼仪标准规范">职场礼仪标准规范</a></p>
-<p class="read-num">4499人阅读</p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
 <a href="/view/57f15fe9aeaad1f346933f2c.html" target="_blank">
 <img class="doc-img bg-index ppt-img" data-tab-src="//wkretype.bdimg.com/img/57f15fe9aeaad1f346933f2c" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="职场礼仪完整版" alt="职场礼仪完整版" />
 <span class="bg-hover"></span>
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/57f15fe9aeaad1f346933f2c.html" target="_blank" title="职场礼仪完整版">职场礼仪完整版</a></p>
-<p class="read-num">13419人阅读</p>
+<p class="read-num">13427人阅读</p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/8d03e32558fb770bf78a554b.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/c03d39dd28ea81c758f578c4" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="职场英语词汇" alt="职场英语词汇" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/8d03e32558fb770bf78a554b.html" target="_blank" title="职场英语词汇">职场英语词汇</a></p>
+<p class="read-num">12552人阅读</p>
 </div>
 </li>
 <li>
@@ -5145,35 +5162,22 @@ PDF/Word/Excel/PPT无限次转化
 <p class="author"><a href="/org/view?org=gdtw" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/d833c895d143ad4b102d6da08f025aafa40f064a.jpg" title="格调图文" /></a></p>
 </div>
 </li>
-<li>
-<div class="li-wrap">
-<a href="/view/a04f69840640be1e650e52ea551810a6f524c884.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/8a089dcff8c75fbfc77db233" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="最新经典2019我的职业生涯规划书范文范文" alt="最新经典2019我的职业生涯规划书范文范文" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/a04f69840640be1e650e52ea551810a6f524c884.html" target="_blank" title="最新经典2019我的职业生涯规划书范文范文">最新经典2019我的职业生涯...</a></p>
-<p class="read-num">9688人阅读</p>
-<p class="author"><a href="/p/panzhi5518" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/fd039245d688d43f46f3a5b7701ed21b0ef43b18.jpg" title="panzhi5518" /></a></p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<b class="ic-hotdoc">精品</b>
-<a href="/view/95de0d8dbb1aa8114431b90d6c85ec3a87c28bdc.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/4d616eb16bec0975f465e24d" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019面试考官工作总结-最新整理" alt="2019面试考官工作总结-最新整理" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/95de0d8dbb1aa8114431b90d6c85ec3a87c28bdc.html" target="_blank" title="2019面试考官工作总结-最新整理">2019面试考官工作总结-最新...</a></p>
-<p class="read-num">2129人阅读</p>
-<p class="author"><a href="/p/cc蓝蓝的天空" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/ac345982b2b7d0a2c3e3a4bbc7ef76094b369aea.jpg" title="cc蓝蓝的天空" /></a></p>
-</div>
-</li>
 </ul>
 </li>
 <li class="disabled">
 <ul class="doc-list clearfix">
+<li>
+<div class="li-wrap">
+<a href="/view/5f12bd79854769eae009581b6bd97f192379bf66.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/8cc03241af1ffc4fff47ac27" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="新时代中国特色社会主义思想心得体会" alt="新时代中国特色社会主义思想心得体会" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/5f12bd79854769eae009581b6bd97f192379bf66.html" target="_blank" title="新时代中国特色社会主义思想心得体会">新时代中国特色社会主义思...</a></p>
+<p class="read-num">7323人阅读</p>
+<p class="author"><a href="/p/腿岭探寻垮倒" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/342ac65c1038534383046d049813b07ecb8088c8.jpg" title="腿岭探寻垮倒" /></a></p>
+</div>
+</li>
 <li>
 <div class="li-wrap">
 <a href="/view/dd93b581bb1aa8114431b90d6c85ec3a87c28b85.html" target="_blank">
@@ -5188,54 +5192,6 @@ PDF/Word/Excel/PPT无限次转化
 </li>
 <li>
 <div class="li-wrap">
-<a href="/view/9e278960988fcc22bcd126fff705cc1755275fde.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/1090f46c767f5acfa1c7cdac" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="学习改革开放40周年大会讲话有感8篇" alt="学习改革开放40周年大会讲话有感8篇" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/9e278960988fcc22bcd126fff705cc1755275fde.html" target="_blank" title="学习改革开放40周年大会讲话有感8篇">学习改革开放40周年大会讲...</a></p>
-<p class="read-num">6349人阅读</p>
-<p class="author"><a href="/p/我要吃柑橘" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/d009b3de9c82d158ec2210cb8c0a19d8bc3e4223.jpg" title="我要吃柑橘" /></a></p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/235ff397aff8941ea76e58fafab069dc50224796.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/4e6e9f37cc7931b765ce1538" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="《厉害了,我的国》观摩学习有感3篇" alt="《厉害了,我的国》观摩学习有感3篇" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/235ff397aff8941ea76e58fafab069dc50224796.html" target="_blank" title="《厉害了,我的国》观摩学习有感3篇">《厉害了,我的国》观摩学习...</a></p>
-<p class="read-num">1206人阅读</p>
-<p class="author"><a href="/p/软件外包介绍" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/8d5494eef01f3a297cacd7d79725bc315c607c46.jpg" title="软件外包介绍" /></a></p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/eac0481edc88d0d233d4b14e852458fb770b38e4.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/0e8f804e0b4e767f5bcfce1e" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="TalkingData行业报告-2019移动游戏行业营销趋势报告" alt="TalkingData行业报告-2019移动游戏行业营销趋势报告" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/eac0481edc88d0d233d4b14e852458fb770b38e4.html" target="_blank" title="TalkingData行业报告-2019移动游戏行业营销趋势报告">TalkingData行业报告-2019...</a></p>
-<p class="read-num">68人阅读</p>
-<p class="author"><a href="/org/view?org=TalkingData" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/962bd40735fae6cded2da18601b30f2443a70fbf.jpg" title="TD移动观象台" /></a></p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/7f5ce90882d049649b6648d7c1c708a1284a0a8b.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/844d4a44ddccda38376baf96" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="心灵导师林清玄去世后,他的这些话留给世人怎样的启示呢？" alt="心灵导师林清玄去世后,他的这些话留给世人怎样的启示呢？" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/7f5ce90882d049649b6648d7c1c708a1284a0a8b.html" target="_blank" title="心灵导师林清玄去世后,他的这些话留给世人怎样的启示呢？">心灵导师林清玄去世后,他的...</a></p>
-<p class="read-num">1197人阅读</p>
-<p class="author"><a href="/org/view?org=zhixingfy" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/32fa828ba61ea8d3cdac36fd9c0a304e241f58b8.jpg" title="知行翻译笔译" /></a></p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
 <b class="ic-hotdoc">精品</b>
 <a href="/view/4aa3a90359fafab069dc5022aaea998fcd22407b.html" target="_blank">
 <img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/77b39dd5f90f76c661371a89" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="新时代的干部要有新担当新作为——解读《关于进一步激励广大干部新时代新担当新作为的意见》" alt="新时代的干部要有新担当新作为——解读《关于进一步激励广大干部新时代新担当新作为的意见》" />
@@ -5243,55 +5199,7 @@ PDF/Word/Excel/PPT无限次转化
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/4aa3a90359fafab069dc5022aaea998fcd22407b.html" target="_blank" title="新时代的干部要有新担当新作为——解读《关于进一步激励广大干部新时代新担当新作为的意见》">新时代的干部要有新担当新...</a></p>
-<p class="read-num">12132人阅读</p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/5f12bd79854769eae009581b6bd97f192379bf66.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/8cc03241af1ffc4fff47ac27" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="新时代中国特色社会主义思想心得体会" alt="新时代中国特色社会主义思想心得体会" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/5f12bd79854769eae009581b6bd97f192379bf66.html" target="_blank" title="新时代中国特色社会主义思想心得体会">新时代中国特色社会主义思...</a></p>
-<p class="read-num">7312人阅读</p>
-<p class="author"><a href="/p/腿岭探寻垮倒" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/342ac65c1038534383046d049813b07ecb8088c8.jpg" title="腿岭探寻垮倒" /></a></p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/e6d3145fb5daa58da0116c175f0e7cd185251831.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/6a40a3080066f5335a8121ba" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="关于历史的散文_历史的散文欣赏" alt="关于历史的散文_历史的散文欣赏" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/e6d3145fb5daa58da0116c175f0e7cd185251831.html" target="_blank" title="关于历史的散文_历史的散文欣赏">关于历史的散文_历史的散文...</a></p>
-<p class="read-num">2215人阅读</p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/306aec97fe00bed5b9f3f90f76c66137ef064f6f.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/143a9fa3bceb19e8b9f6ba17" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="最新-2019两会精神心得1000字 精品" alt="最新-2019两会精神心得1000字 精品" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/306aec97fe00bed5b9f3f90f76c66137ef064f6f.html" target="_blank" title="最新-2019两会精神心得1000字 精品">最新-2019两会精神心得100...</a></p>
-<p class="read-num">22909人阅读</p>
-<p class="author"><a href="/org/view?org=lirenshuju" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/b999a9014c086e062023dffb0f087bf40bd1cbf3.jpg" title="立人数据" /></a></p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<b class="ic-hotdoc">精品</b>
-<a href="/view/d07a8bc6f021dd36a32d7375a417866fb84ac086.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/97185011580216fc700afdc0" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="电影《流浪地球》观后心得" alt="电影《流浪地球》观后心得" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/d07a8bc6f021dd36a32d7375a417866fb84ac086.html" target="_blank" title="电影《流浪地球》观后心得">电影《流浪地球》观后心得</a></p>
-<p class="read-num">6165人阅读</p>
-<p class="author"><a href="/p/腿岭探寻垮倒" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/342ac65c1038534383046d049813b07ecb8088c8.jpg" title="腿岭探寻垮倒" /></a></p>
+<p class="read-num">12138人阅读</p>
 </div>
 </li>
 <li>
@@ -5302,7 +5210,7 @@ PDF/Word/Excel/PPT无限次转化
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/ca1acabf0166f5335a8102d276a20029bc646303.html" target="_blank" title="Mob研究院  Z世代大学生图鉴">Mob研究院  Z世代大学生图...</a></p>
-<p class="read-num">534人阅读</p>
+<p class="read-num">535人阅读</p>
 <p class="author"><a href="/org/view?org=MobTech" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/3ac79f3df8dcd1006edf2c617c8b4710b9122f2b.jpg" title="MobData" /></a></p>
 </div>
 </li>
@@ -5314,8 +5222,92 @@ PDF/Word/Excel/PPT无限次转化
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/9b0f7779bb1aa8114431b90d6c85ec3a86c28b01.html" target="_blank" title="最新-笑对失败的至理名言 精品">最新-笑对失败的至理名言 ...</a></p>
-<p class="read-num">1317人阅读</p>
+<p class="read-num">1320人阅读</p>
 <p class="author"><a href="/org/view?org=lirenshuju" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/b999a9014c086e062023dffb0f087bf40bd1cbf3.jpg" title="立人数据" /></a></p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/306aec97fe00bed5b9f3f90f76c66137ef064f6f.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/143a9fa3bceb19e8b9f6ba17" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="最新-2019两会精神心得1000字 精品" alt="最新-2019两会精神心得1000字 精品" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/306aec97fe00bed5b9f3f90f76c66137ef064f6f.html" target="_blank" title="最新-2019两会精神心得1000字 精品">最新-2019两会精神心得100...</a></p>
+<p class="read-num">22912人阅读</p>
+<p class="author"><a href="/org/view?org=lirenshuju" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/b999a9014c086e062023dffb0f087bf40bd1cbf3.jpg" title="立人数据" /></a></p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/9e278960988fcc22bcd126fff705cc1755275fde.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/1090f46c767f5acfa1c7cdac" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="学习改革开放40周年大会讲话有感8篇" alt="学习改革开放40周年大会讲话有感8篇" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/9e278960988fcc22bcd126fff705cc1755275fde.html" target="_blank" title="学习改革开放40周年大会讲话有感8篇">学习改革开放40周年大会讲...</a></p>
+<p class="read-num">6356人阅读</p>
+<p class="author"><a href="/p/我要吃柑橘" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/d009b3de9c82d158ec2210cb8c0a19d8bc3e4223.jpg" title="我要吃柑橘" /></a></p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/235ff397aff8941ea76e58fafab069dc50224796.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/4e6e9f37cc7931b765ce1538" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="《厉害了,我的国》观摩学习有感3篇" alt="《厉害了,我的国》观摩学习有感3篇" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/235ff397aff8941ea76e58fafab069dc50224796.html" target="_blank" title="《厉害了,我的国》观摩学习有感3篇">《厉害了,我的国》观摩学习...</a></p>
+<p class="read-num">1209人阅读</p>
+<p class="author"><a href="/p/软件外包介绍" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/8d5494eef01f3a297cacd7d79725bc315c607c46.jpg" title="软件外包介绍" /></a></p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/eac0481edc88d0d233d4b14e852458fb770b38e4.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/0e8f804e0b4e767f5bcfce1e" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="TalkingData行业报告-2019移动游戏行业营销趋势报告" alt="TalkingData行业报告-2019移动游戏行业营销趋势报告" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/eac0481edc88d0d233d4b14e852458fb770b38e4.html" target="_blank" title="TalkingData行业报告-2019移动游戏行业营销趋势报告">TalkingData行业报告-2019...</a></p>
+<p class="read-num">69人阅读</p>
+<p class="author"><a href="/org/view?org=TalkingData" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/962bd40735fae6cded2da18601b30f2443a70fbf.jpg" title="TD移动观象台" /></a></p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<b class="ic-hotdoc">精品</b>
+<a href="/view/7f5ce90882d049649b6648d7c1c708a1284a0a8b.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/844d4a44ddccda38376baf96" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="心灵导师林清玄去世后,他的这些话留给世人怎样的启示呢？" alt="心灵导师林清玄去世后,他的这些话留给世人怎样的启示呢？" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/7f5ce90882d049649b6648d7c1c708a1284a0a8b.html" target="_blank" title="心灵导师林清玄去世后,他的这些话留给世人怎样的启示呢？">心灵导师林清玄去世后,他的...</a></p>
+<p class="read-num">1200人阅读</p>
+<p class="author"><a href="/org/view?org=zhixingfy" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/32fa828ba61ea8d3cdac36fd9c0a304e241f58b8.jpg" title="知行翻译笔译" /></a></p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/d07a8bc6f021dd36a32d7375a417866fb84ac086.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/97185011580216fc700afdc0" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="电影《流浪地球》观后心得" alt="电影《流浪地球》观后心得" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/d07a8bc6f021dd36a32d7375a417866fb84ac086.html" target="_blank" title="电影《流浪地球》观后心得">电影《流浪地球》观后心得</a></p>
+<p class="read-num">6174人阅读</p>
+<p class="author"><a href="/p/腿岭探寻垮倒" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/342ac65c1038534383046d049813b07ecb8088c8.jpg" title="腿岭探寻垮倒" /></a></p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/e6d3145fb5daa58da0116c175f0e7cd185251831.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/6a40a3080066f5335a8121ba" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="关于历史的散文_历史的散文欣赏" alt="关于历史的散文_历史的散文欣赏" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/e6d3145fb5daa58da0116c175f0e7cd185251831.html" target="_blank" title="关于历史的散文_历史的散文欣赏">关于历史的散文_历史的散文...</a></p>
+<p class="read-num">2220人阅读</p>
 </div>
 </li>
 </ul>
@@ -5324,6 +5316,19 @@ PDF/Word/Excel/PPT无限次转化
 <ul class="doc-list clearfix">
 <li>
 <div class="li-wrap">
+<a href="/view/f2bb3129a9956bec0975f46527d3240c8447a1ff.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/793c9c0b453610661ed9f441" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019关于小程序设计的3大原则有哪些" alt="2019关于小程序设计的3大原则有哪些" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/f2bb3129a9956bec0975f46527d3240c8447a1ff.html" target="_blank" title="2019关于小程序设计的3大原则有哪些">2019关于小程序设计的3大原...</a></p>
+<p class="read-num">2860人阅读</p>
+<p class="author"><a href="/org/view?org=thinkgo" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/ca1349540923dd54a522306fdc09b3de9c824860.jpg" title="原来善良叫傻" /></a></p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<b class="ic-hotdoc">精品</b>
 <a href="/view/c31e2d91f9c75fbfc77da26925c52cc58bd690d3.html" target="_blank">
 <img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/11f4d482b0717fd5360cdc2b" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019电大计算机网络技术专科历年试题和答案资料必考重点【精编打印版" alt="2019电大计算机网络技术专科历年试题和答案资料必考重点【精编打印版" />
 <span class="bg-hover"></span>
@@ -5342,20 +5347,7 @@ PDF/Word/Excel/PPT无限次转化
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/4dfa9ef3f61fb7360b4c6541.html" target="_blank" title="计算器上的M+什么意思">计算器上的M+什么意思</a></p>
-<p class="read-num">22960人阅读</p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<b class="ic-hotdoc">精品</b>
-<a href="/view/9ddfff9ef9c75fbfc77da26925c52cc58ad69065.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/21928905192e45361066f5d8" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="为什么要做微信小程序？" alt="为什么要做微信小程序？" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/9ddfff9ef9c75fbfc77da26925c52cc58ad69065.html" target="_blank" title="为什么要做微信小程序？">为什么要做微信小程序？</a></p>
-<p class="read-num">1833人阅读</p>
-<p class="author"><a href="/org/view?org=sbwl" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/a6efce1b9d16fdfa8a2eae7ab98f8c5495ee7be7.jpg" title="TPshop商城" /></a></p>
+<p class="read-num">22965人阅读</p>
 </div>
 </li>
 <li>
@@ -5366,55 +5358,8 @@ PDF/Word/Excel/PPT无限次转化
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/73a99b8d534de518964bcf84b9d528ea81c72fb2.html" target="_blank" title="如何下载网页视频的方法">如何下载网页视频的方法</a></p>
-<p class="read-num">5389人阅读</p>
+<p class="read-num">5398人阅读</p>
 <p class="author"><a href="/p/唐唐唐田旭" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/2e2eb9389b504fc2203c067ae8dde71190ef6d6a.jpg" title="唐唐唐田旭" /></a></p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/d0c840eecbaedd3383c4bb4cf7ec4afe04a1b18a.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/dc690f366edb6f1aff001f7a" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="上位机编程是什么" alt="上位机编程是什么" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/d0c840eecbaedd3383c4bb4cf7ec4afe04a1b18a.html" target="_blank" title="上位机编程是什么">上位机编程是什么</a></p>
-<p class="read-num">1873人阅读</p>
-<p class="author"><a href="/org/view?org=waznjs" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/6d81800a19d8bc3e363b2ac08f8ba61ea8d3458c.jpg" title="万安智能" /></a></p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/f2bb3129a9956bec0975f46527d3240c8447a1ff.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/793c9c0b453610661ed9f441" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="2019关于小程序设计的3大原则有哪些" alt="2019关于小程序设计的3大原则有哪些" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/f2bb3129a9956bec0975f46527d3240c8447a1ff.html" target="_blank" title="2019关于小程序设计的3大原则有哪些">2019关于小程序设计的3大原...</a></p>
-<p class="read-num">2856人阅读</p>
-<p class="author"><a href="/org/view?org=thinkgo" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/ca1349540923dd54a522306fdc09b3de9c824860.jpg" title="原来善良叫傻" /></a></p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/8fa47bb10408763231126edb6f1aff00bed570c3.html" target="_blank">
-<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/80a39d4b011ca300a6c390b0" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="有哪些好的可视化编程工具？" alt="有哪些好的可视化编程工具？" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/8fa47bb10408763231126edb6f1aff00bed570c3.html" target="_blank" title="有哪些好的可视化编程工具？">有哪些好的可视化编程工具...</a></p>
-<p class="read-num">3621人阅读</p>
-<p class="author"><a href="/org/view?org=jikestar" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/caef76094b36acafddf9d43570d98d1000e99cda.jpg" title="极客晨星编程" /></a></p>
-</div>
-</li>
-<li>
-<div class="li-wrap">
-<a href="/view/395f376fb42acfc789eb172ded630b1c58ee9b59.html" target="_blank">
-<img class="doc-img bg-index ppt-img" data-tab-src="//wkretype.bdimg.com/img/4c637aa602d276a200292e72" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="大学计算机基础课件完整版" alt="大学计算机基础课件完整版" />
-<span class="bg-hover"></span>
-<b class="ic-read bg-index">立即阅读</b>
-</a>
-<p class="title"><a href="/view/395f376fb42acfc789eb172ded630b1c58ee9b59.html" target="_blank" title="大学计算机基础课件完整版">大学计算机基础课件完整版</a></p>
-<p class="read-num">7245人阅读</p>
 </div>
 </li>
 <li>
@@ -5425,7 +5370,19 @@ PDF/Word/Excel/PPT无限次转化
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/e7b667aaba4cf7ec4afe04a1b0717fd5360cb2a5.html" target="_blank" title="计算机基础知识计">计算机基础知识计</a></p>
-<p class="read-num">2517人阅读</p>
+<p class="read-num">2522人阅读</p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/8fa47bb10408763231126edb6f1aff00bed570c3.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/80a39d4b011ca300a6c390b0" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="有哪些好的可视化编程工具？" alt="有哪些好的可视化编程工具？" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/8fa47bb10408763231126edb6f1aff00bed570c3.html" target="_blank" title="有哪些好的可视化编程工具？">有哪些好的可视化编程工具...</a></p>
+<p class="read-num">3622人阅读</p>
+<p class="author"><a href="/org/view?org=jikestar" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/caef76094b36acafddf9d43570d98d1000e99cda.jpg" title="极客晨星编程" /></a></p>
 </div>
 </li>
 <li>
@@ -5448,7 +5405,7 @@ PDF/Word/Excel/PPT无限次转化
 <b class="ic-read bg-index">立即阅读</b>
 </a>
 <p class="title"><a href="/view/ddf58131bf1e650e52ea551810a6f524cdbfcb38.html" target="_blank" title="网络技术练习题">网络技术练习题</a></p>
-<p class="read-num">1668人阅读</p>
+<p class="read-num">1670人阅读</p>
 </div>
 </li>
 <li>
@@ -5462,6 +5419,41 @@ PDF/Word/Excel/PPT无限次转化
 <p class="title"><a href="/view/ab1ae235bf23482fb4daa58da0116c175e0e1e60.html" target="_blank" title="2019年小程序如何推广">2019年小程序如何推广</a></p>
 <p class="read-num">2505人阅读</p>
 <p class="author"><a href="/org/view?org=tgg" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/0df3d7ca7bcb0a464a53c0a26663f6246b60af3c.jpg" title="吃瓜吃出瓜子来" /></a></p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/9ddfff9ef9c75fbfc77da26925c52cc58ad69065.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/21928905192e45361066f5d8" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="为什么要做微信小程序？" alt="为什么要做微信小程序？" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/9ddfff9ef9c75fbfc77da26925c52cc58ad69065.html" target="_blank" title="为什么要做微信小程序？">为什么要做微信小程序？</a></p>
+<p class="read-num">1833人阅读</p>
+<p class="author"><a href="/org/view?org=sbwl" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/a6efce1b9d16fdfa8a2eae7ab98f8c5495ee7be7.jpg" title="TPshop商城" /></a></p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/d0c840eecbaedd3383c4bb4cf7ec4afe04a1b18a.html" target="_blank">
+<img class="doc-img bg-index " data-tab-src="//wkretype.bdimg.com/img/dc690f366edb6f1aff001f7a" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="上位机编程是什么" alt="上位机编程是什么" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/d0c840eecbaedd3383c4bb4cf7ec4afe04a1b18a.html" target="_blank" title="上位机编程是什么">上位机编程是什么</a></p>
+<p class="read-num">1873人阅读</p>
+<p class="author"><a href="/org/view?org=waznjs" target="_blank"><img src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" data-tab-src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/6d81800a19d8bc3e363b2ac08f8ba61ea8d3458c.jpg" title="万安智能" /></a></p>
+</div>
+</li>
+<li>
+<div class="li-wrap">
+<a href="/view/395f376fb42acfc789eb172ded630b1c58ee9b59.html" target="_blank">
+<img class="doc-img bg-index ppt-img" data-tab-src="//wkretype.bdimg.com/img/4c637aa602d276a200292e72" src="//wkstatic.bdimg.com/static/wkcore/index/images/s_d42e3d2.gif" title="大学计算机基础课件完整版" alt="大学计算机基础课件完整版" />
+<span class="bg-hover"></span>
+<b class="ic-read bg-index">立即阅读</b>
+</a>
+<p class="title"><a href="/view/395f376fb42acfc789eb172ded630b1c58ee9b59.html" target="_blank" title="大学计算机基础课件完整版">大学计算机基础课件完整版</a></p>
+<p class="read-num">7267人阅读</p>
 </div>
 </li>
 </ul>
@@ -5611,7 +5603,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=eduky" target="_blank">青岛华研教育</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>910478</b>&nbsp;篇文档</span></p>
-<p><span><b>47073094</b>&nbsp;次浏览</span></p>
+<p><span><b>47079762</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -5656,7 +5648,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=99weike" target="_blank">99微课</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>1613</b>&nbsp;篇文档</span></p>
-<p><span><b>140463</b>&nbsp;次浏览</span></p>
+<p><span><b>140534</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -5701,7 +5693,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=zhishi" target="_blank">职仕教育</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>81296</b>&nbsp;篇文档</span></p>
-<p><span><b>5113317</b>&nbsp;次浏览</span></p>
+<p><span><b>5116028</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -5746,7 +5738,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=xinlinghang" target="_blank">新领航教育</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>18163</b>&nbsp;篇文档</span></p>
-<p><span><b>1811271</b>&nbsp;次浏览</span></p>
+<p><span><b>1811679</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -5791,7 +5783,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=tianli38tao" target="_blank">北京天利</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>6141</b>&nbsp;篇文档</span></p>
-<p><span><b>2279697</b>&nbsp;次浏览</span></p>
+<p><span><b>2279972</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -5836,7 +5828,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=dongaojiaoyujituan" target="_blank">东奥教育集团</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>4011</b>&nbsp;篇文档</span></p>
-<p><span><b>691682</b>&nbsp;次浏览</span></p>
+<p><span><b>691868</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -5883,7 +5875,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=TalkingData" target="_blank">TalkingData</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>147</b>&nbsp;篇文档</span></p>
-<p><span><b>1138</b>&nbsp;次浏览</span></p>
+<p><span><b>1161</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -5928,7 +5920,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=ruibo" target="_blank">锐博PPT总结助手</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>214</b>&nbsp;篇文档</span></p>
-<p><span><b>1090</b>&nbsp;次浏览</span></p>
+<p><span><b>1098</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -5973,7 +5965,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=MobTech" target="_blank">MobTech</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>100</b>&nbsp;篇文档</span></p>
-<p><span><b>30744</b>&nbsp;次浏览</span></p>
+<p><span><b>30820</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -6017,8 +6009,8 @@ PDF/Word/Excel/PPT无限次转化
 </a>
 <div class="brief">
 <p><a href="/org/view?org=slideppt" target="_blank">烟台斯莱德广告设计有限公司</a><b class="bg-index ic-vrfeh"></b></p>
-<p><span><b>15681</b>&nbsp;篇文档</span></p>
-<p><span><b>1402210</b>&nbsp;次浏览</span></p>
+<p><span><b>15699</b>&nbsp;篇文档</span></p>
+<p><span><b>1405269</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -6063,7 +6055,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=connectfun" target="_blank">连接科技</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>90802</b>&nbsp;篇文档</span></p>
-<p><span><b>17717735</b>&nbsp;次浏览</span></p>
+<p><span><b>17730851</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -6108,7 +6100,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=doyo" target="_blank">逗游网</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>125476</b>&nbsp;篇文档</span></p>
-<p><span><b>28583354</b>&nbsp;次浏览</span></p>
+<p><span><b>28610963</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -6155,7 +6147,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=zhonghuakuaijiwang" target="_blank">中华会计网校</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>17614</b>&nbsp;篇文档</span></p>
-<p><span><b>2318084</b>&nbsp;次浏览</span></p>
+<p><span><b>2317031</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -6200,7 +6192,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=gaodun" target="_blank">高顿财经</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>19933</b>&nbsp;篇文档</span></p>
-<p><span><b>3563064</b>&nbsp;次浏览</span></p>
+<p><span><b>3563712</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -6245,7 +6237,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=rdcy" target="_blank">中国人民大学重阳金融研究院</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>40</b>&nbsp;篇文档</span></p>
-<p><span><b>15820</b>&nbsp;次浏览</span></p>
+<p><span><b>15835</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -6290,7 +6282,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=bookcj" target="_blank">西南财经大学出版社</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>935</b>&nbsp;篇文档</span></p>
-<p><span><b>172598</b>&nbsp;次浏览</span></p>
+<p><span><b>167659</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -6335,7 +6327,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=thereport" target="_blank">吴晓波频道晓报告</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>27</b>&nbsp;篇文档</span></p>
-<p><span><b>25525</b>&nbsp;次浏览</span></p>
+<p><span><b>25530</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -6380,7 +6372,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=zgjinrongren" target="_blank">中公金融人</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>40311</b>&nbsp;篇文档</span></p>
-<p><span><b>8916958</b>&nbsp;次浏览</span></p>
+<p><span><b>8918283</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -6427,7 +6419,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=faniuwenda" target="_blank">法妞问答</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>25619</b>&nbsp;篇文档</span></p>
-<p><span><b>2471271</b>&nbsp;次浏览</span></p>
+<p><span><b>2471948</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -6471,8 +6463,8 @@ PDF/Word/Excel/PPT无限次转化
 </a>
 <div class="brief">
 <p><a href="/org/view?org=lvwen" target="_blank">律问</a><b class="bg-index ic-vrfeh"></b></p>
-<p><span><b>51147</b>&nbsp;篇文档</span></p>
-<p><span><b>24760211</b>&nbsp;次浏览</span></p>
+<p><span><b>51199</b>&nbsp;篇文档</span></p>
+<p><span><b>24768667</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -6517,7 +6509,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=legal51" target="_blank">易法通</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>1642</b>&nbsp;篇文档</span></p>
-<p><span><b>806031</b>&nbsp;次浏览</span></p>
+<p><span><b>806515</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -6562,7 +6554,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=lawdai" target="_blank">河源市律代法律服务有限公司</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>8356</b>&nbsp;篇文档</span></p>
-<p><span><b>1663170</b>&nbsp;次浏览</span></p>
+<p><span><b>1663750</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -6607,7 +6599,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=ttfw" target="_blank">天天法务</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>115</b>&nbsp;篇文档</span></p>
-<p><span><b>77258</b>&nbsp;次浏览</span></p>
+<p><span><b>77283</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -6652,7 +6644,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=fabangwang" target="_blank">法帮网</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>9252</b>&nbsp;篇文档</span></p>
-<p><span><b>5231357</b>&nbsp;次浏览</span></p>
+<p><span><b>5231979</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -6698,8 +6690,8 @@ PDF/Word/Excel/PPT无限次转化
 </a>
 <div class="brief">
 <p><a href="/org/view?org=tianyancha01" target="_blank">天眼查</a><b class="bg-index ic-vrfeh"></b></p>
-<p><span><b>18056477</b>&nbsp;篇文档</span></p>
-<p><span><b>107626471</b>&nbsp;次浏览</span></p>
+<p><span><b>18056476</b>&nbsp;篇文档</span></p>
+<p><span><b>107692551</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -6744,7 +6736,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=chinazhiku" target="_blank">深圳市盛世华研企业管理有限公司</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>116283</b>&nbsp;篇文档</span></p>
-<p><span><b>388445</b>&nbsp;次浏览</span></p>
+<p><span><b>389174</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -6789,7 +6781,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=slxsj" target="_blank">赛立信研究集团</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>13</b>&nbsp;篇文档</span></p>
-<p><span><b>1000</b>&nbsp;次浏览</span></p>
+<p><span><b>1008</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -6834,7 +6826,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=zhongbangshuju" target="_blank">重磅数据</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>30518</b>&nbsp;篇文档</span></p>
-<p><span><b>2217793</b>&nbsp;次浏览</span></p>
+<p><span><b>2218328</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -6879,7 +6871,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=olx" target="_blank">北京欧立信信息咨询有限公司</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>16380</b>&nbsp;篇文档</span></p>
-<p><span><b>1727989</b>&nbsp;次浏览</span></p>
+<p><span><b>1728302</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -6924,7 +6916,7 @@ PDF/Word/Excel/PPT无限次转化
 <div class="brief">
 <p><a href="/org/view?org=dexincheng" target="_blank">德信诚经济咨询</a><b class="bg-index ic-vrfeh"></b></p>
 <p><span><b>51601</b>&nbsp;篇文档</span></p>
-<p><span><b>31758513</b>&nbsp;次浏览</span></p>
+<p><span><b>31764146</b>&nbsp;次浏览</span></p>
 </div>
 </dt>
 <dd>
@@ -6977,49 +6969,49 @@ PDF/Word/Excel/PPT无限次转化
 <ul id="feed-back">
 <li>
 <div class="bg-index ic-dot"></div>
-<p class="ut bg-index">28分钟前</p>
+<p class="ut bg-index">36分钟前</p>
 <div class="author">
-<a href="/org/view?org=jiayuaninformation" target="_blank">
+<a href="/org/view?org=neimengguguanqi" target="_blank">
 <div class="aside-picsize">
 <div class="aside-pic-wrap">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/6a600c338744ebf82dfc56f9d4f9d72a6159a762.jpg" alt="珈源信息" title="珈源信息" />
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/c8177f3e6709c93d41514467913df8dcd00054fa.jpg" alt="内蒙古冠启教育信息咨询有限公司" title="内蒙古冠启教育信息咨询有限公司" />
 </div>
 </div>
 </a>
 <p class="name">
-<a href="/org/view?org=jiayuaninformation" title="珈源信息" target="_blank">珈源信息</a>
+<a href="/org/view?org=neimengguguanqi" title="内蒙古冠启教育信息咨询有限公司" target="_blank">内蒙古冠启教...</a>
 <b class="bg-index ic-ver"></b>
 </p>
 <p class="pro">
-上传<a href="/view/4283eccccdbff121dd36a32d7375a417876fc15c" target="_blank" title="《2019社区清明节活动总结3篇》">《2019社区清明...》</a></p>
+上传<a href="/view/7ec5e63b77eeaeaad1f34693daef5ef7bb0d1271" target="_blank" title="《春分饮食养生习俗 吃春菜和糕点》">《春分饮食养生...》</a></p>
 </div>
 <p class="newest-up">
 </p>
 </li>
 <li>
 <div class="bg-index ic-dot"></div>
-<p class="ut bg-index">32分钟前</p>
+<p class="ut bg-index">36分钟前</p>
 <div class="author">
-<a href="/org/view?org=mingyuantuwen" target="_blank">
+<a href="/org/view?org=haiyang" target="_blank">
 <div class="aside-picsize">
 <div class="aside-pic-wrap">
-<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/4b90f603738da97749953acabe51f8198718e39d.jpg" alt="明远图文" title="明远图文" />
+<img src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/1f178a82b9014a90dfd2be24a7773912b21beebf.jpg" alt="海洋文库" title="海洋文库" />
 </div>
 </div>
 </a>
 <p class="name">
-<a href="/org/view?org=mingyuantuwen" title="明远图文" target="_blank">明远图文</a>
+<a href="/org/view?org=haiyang" title="海洋文库" target="_blank">海洋文库</a>
 <b class="bg-index ic-ver"></b>
 </p>
 <p class="pro">
-上传<a href="/view/569589b7814d2b160b4e767f5acfa1c7ab0082f4" target="_blank" title="《LED焊线机如何选择瓷嘴金线》">《LED焊线机如何...》</a></p>
+上传<a href="/view/69fee446dc3383c4bb4cf7ec4afe04a1b171b0d4" target="_blank" title="《散伙协议》">《散伙协议》</a></p>
 </div>
 <p class="newest-up">
 </p>
 </li>
 <li>
 <div class="bg-index ic-dot"></div>
-<p class="ut bg-index">7天前</p>
+<p class="ut bg-index">1周前</p>
 <div class="author">
 <a href="/org/view?org=ggzykt" target="_blank">
 <div class="aside-picsize">
@@ -7040,7 +7032,7 @@ PDF/Word/Excel/PPT无限次转化
 </li>
 <li>
 <div class="bg-index ic-dot"></div>
-<p class="ut bg-index">7天前</p>
+<p class="ut bg-index">1周前</p>
 <div class="author">
 <a href="/org/view?org=jycx" target="_blank">
 <div class="aside-picsize">

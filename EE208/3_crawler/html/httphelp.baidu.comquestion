@@ -36,7 +36,7 @@
     <script type="text/javascript" src="/resources/pc/js/lib/tangram-2.0.2.1.min.js"></script>
     <!--[if (!IE)|(gte IE 9)]><!-->
     <script type="text/javascript" src="/resources/pc/js/lib/jquery-3.2.1.min.js"></script>
-        <script type="text/javascript" src="https://passport.baidu.com/passApi/js/uni_login_wrapper.js?cdnversion=201910061348"></script>
+        <script type="text/javascript" src="https://passport.baidu.com/passApi/js/uni_login_wrapper.js?cdnversion=201910062151"></script>
             <script type="text/javascript" src="/resources/pc/js/dist/common.min.js?timestamp=20181226"></script>
         <!--<![endif]-->
     <!--[if lt IE 9]>

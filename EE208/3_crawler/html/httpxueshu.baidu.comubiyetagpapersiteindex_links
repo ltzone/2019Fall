@@ -37,7 +37,7 @@
     <link rel="icon" sizes="any" mask href="//www.baidu.com/img/baidu.svg">
 
     <script src="https://ts.bdimg.com/libs/blueimp-md5/1-0-1/md5.min.js"></script>
-    <script>var token = '1355d4d74288c3961666263981783de698177e2622346c0c9626321b193d3432'</script>
+    <script>var token = '2faa2b527204c1a1a773cceb02202a7d3a604202d7d39c1ef6f16dc4faf09685'</script>
     <title>百度学术-论文助手</title>
 
     
@@ -53,7 +53,7 @@ var bds = {
     //js通用数据
     comm : {
         jiansou: '',
-        qid:'3912614917',
+        qid:'2247570390',
         isHome:false,
         bsToken: 'the fisrt two args should be string type:0,1!',
         user: '',
@@ -218,9 +218,9 @@ var get = function(url) {
         <script type="text/javascript">
 bds = bds || {};
 bds.cf = {};
-bds.cf.ts = "1570343594";
-bds.cf.token = "1355d4d74288c3961666263981783de698177e2622346c0c9626321b193d3432";
-bds.cf.sign = "35ed08a0670a1aa34d5a01206d18b421";
+bds.cf.ts = "1570369893";
+bds.cf.token = "2faa2b527204c1a1a773cceb02202a7d3a604202d7d39c1ef6f16dc4faf09685";
+bds.cf.sign = "8c17deb7affe8064d364b5638c04cc95";
 
 function getCfStr() {
     var ts = parseInt(new Date / 1000, 10);

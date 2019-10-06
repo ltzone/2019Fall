@@ -1,0 +1,369 @@
+<!DOCTYPE HTML>
+<!--[if IE 6 ]> <html class="ne_ua_ie6 ne_ua_ielte8"> <![endif]-->
+<!--[if IE 7 ]> <html class="ne_ua_ie7 ne_ua_ielte8"> <![endif]-->
+<!--[if IE 8 ]> <html class="ne_ua_ie8 ne_ua_ielte8"> <![endif]-->
+<!--[if IE 9 ]> <html class="ne_ua_ie9"> <![endif]-->
+<!--[if (gte IE 10)|!(IE)]><!--> <html phone="1"> <!--<![endif]-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk">
+<meta name="viewport" content="width=640 user-scalable=no"/>
+<meta name="model_url" content="http://ent.163.com/special/gsbjb/" />
+<title>稿事编辑部</title>
+<meta name="keywords" content="稿事编辑部,网易娱乐" />
+<meta name="description" content="稿事编辑部,网易娱乐" />
+
+<script>if((/_touchall=1/.test(location.search)||!/auto|house|home|bbs|blog/.test(location.host))&&!/\/dy.163.com\/v2/.test(location.href)&&!(document.documentElement&&document.documentElement.getAttribute("phone"))&&!/163.com\/keywords\//.test(location.href)&&/163\.com/.test(location.host)&&!/_pc=1/.test(location.search)&&/android.*?mobile|ipod|blackberry|bb\d+|phone/i.test(navigator.userAgent))document.write('<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/><div style="position:fixed;width:100%;height:100%;background:#fff"><div style="position:absolute;top:50%;left:0;width:100%;height:40px;margin-top:-40px;text-align:center;background:url(//static.ws.126.net/utf8/endpage/image/loading.gif) no-repeat top center;padding-top:40px;color:#666">页面加载中 ...</div></div><script src="//static.ws.126.net/f2e/system/touchall/collect/foot~M2Tn9VR49xqt.js"'+' defer><'+'/script><plaintext style="display:none">');</script>
+<script>
+if(/https:.*\.163.com\/keywords\//.test(window.location.href)){
+	window.location.href = window.location.href.replace("https://","http://")
+}
+</script>
+<link href="https://static.ws.126.net/f2e/ent/common/css/ent.fiDN0EwfhR0v.38.css" rel="stylesheet" type="text/css" />
+<script src="http://img1.cache.netease.com/cnews/js/ntes_jslib_1.x.js" type="text/javascript" charset="gb2312"></script>
+<script src="http://img1.cache.netease.com/f2e/lib/js/ne.js"></script>
+<link rel="stylesheet" href="http://static.ws.126.net/f2e/ent/caozhi_tmp_collect/caozhi_collect.1248054.css" />
+<script type="text/javascript">
+window.GlOBALAPI = "http://ent.163.com/special/00039975/ent_gsbjb_api.js"; //信息流读取栏目id
+window.GLOBALCURRENTPAGE = "http://ent.163.com/special/ylxxp/"; //当前页面地址
+window.GLOBALSHARE = {
+	 title: '稿事编辑部-网易',
+     desc: '网易娱乐原创策划',
+     img_url: 'http://cms-bucket.nosdn.127.net/6c8fbcc950cc4753a8e72834d7a70d1020180509172749.jpeg',
+};
+//测试接口：http://gov.163.com/special/00234M3J/wendu_collect_api.js
+</script>
+  <style>
+    .playbtn{display:none;}
+  </style>
+</head>
+<body>
+<div id="common-share">
+    <div style="display: none !important">
+        <div id="__newsapp_sharetext"></div>
+        <div id="__newsapp_sharephotourl"></div>
+        <div id="__newsapp_sharewxtitle"></div>
+        <div id="__newsapp_sharewxtext"></div>
+        <div id="__newsapp_sharewxthumburl"></div>
+        <div id="__newsapp_sharewxurl"></div>
+    </div>
+</div>
+<div class="caozhi_collect_wrap" id="caozhi_collect_wrap">
+<h1 class="hidden">网易娱乐</h1>
+    <div class="caozhi_collect_content">
+    	<div class="top_nav">
+			<ul class="left_nav">
+				<li><a href="http://www.163.com">网易首页</a></li>
+				<li><a href="http://ent.163.com">网易娱乐</a></li>
+			</ul>
+			<div class="search">
+				<form action id="fold_form" name="fold_form" target="_blank" onsubmit="return search_to();" target="_blank" method="post">
+					<input type="submit" class="fold_submit" value="">
+					<input type="text" name="q" id="fold_input" placeholder="输入你要搜索的内容">
+				</form>
+				<script type="text/javascript">
+					function search_to(){
+						if(document.getElementById('fold_input').value == "" || document.getElementById('fold_input').value == "输入你要搜索的内容"){
+							alert("输入你要搜索的内容");
+							return false;
+						}
+						document.getElementById('fold_form').action='http://cn.bing.com/search?q=site%3Aent.163.com+'+encodeURIComponent(document.getElementById('fold_input').value);
+						document.fold_form.submit();
+					}
+				</script>
+			</div>
+			<ul class="right_nav">
+			</ul>
+    	</div>
+    	<div class="top_banner">
+    		<!-- banner图  1920*199 -->
+    		<div class="banner_main" style="background-image: url(http://cms-bucket.nosdn.127.net/b5dbc7ded9e54714949dea8cdfe9772220180509180724.jpeg);"></div>
+    	</div>
+    	<div class="main">
+			<div class="wrap">
+				<div class="top_title"></div>
+				<ul class="content">
+				</ul>
+				<p class="load_more">点击加载更多...</p>
+			</div>
+			<!-- 往期回顾 -->
+			<div class="bottom">
+				<div class="wrap">
+					<div class="bottom_title"></div>
+					<ul>
+															<li>
+						<a href="https://ent.163.com/19/1002/11/EQFRUQLC00039867.html" target="_blank">
+						<span>01</span>
+						<h3>这部主旋律电影，看哭了亿万中国人</h3>
+						<p></p>
+						</a>
+					</li>
+										<li>
+						<a href="https://ent.163.com/19/0923/17/EPPC6MFC00039867.html" target="_blank">
+						<span>02</span>
+						<h3>这节目所有段子都在告诉你：笑是生活的解药</h3>
+						<p></p>
+						</a>
+					</li>
+										<li>
+						<a href="https://ent.163.com/19/0920/17/EPHJ65R100039867.html" target="_blank">
+						<span>03</span>
+						<h3>孟美岐关晓彤造型翻车？这届时装周我看不懂了</h3>
+						<p></p>
+						</a>
+					</li>
+										<li>
+						<a href="https://ent.163.com/19/0917/10/EP96KIDR00039867.html" target="_blank">
+						<span>04</span>
+						<h3>到头来，周杰伦还是最懂青春的那个人</h3>
+						<p></p>
+						</a>
+					</li>
+															</ul>
+				</div>		
+    		<div class="N-nav-bottom">
+    <div class="N-nav-bottom-main">
+    	<div class="ntes_foot_link">
+	<span class="N-nav-bottom-copyright"><span class="N-nav-bottom-copyright-icon">&copy;</span> 1997-2017 网易公司版权所有</span>
+	<a href="http://corp.163.com/">About NetEase</a> |
+	<a href="http://gb.corp.163.com/gb/about/overview.html">公司简介</a> |
+	<a href="http://gb.corp.163.com/gb/contactus.html">联系方法</a> |
+	<a href="http://corp.163.com/gb/job/job.html">招聘信息</a> |
+	<a href="http://help.163.com/ ">客户服务</a> |
+	<a href="http://gb.corp.163.com/gb/legal.html">隐私政策</a> |
+	<a href="http://emarketing.163.com/">广告服务</a> |
+	<a href="http://sitemap.163.com/">网站地图</a> |
+	<a href="http://www.163.com/special/0077450P/feedback_window.html" class="ne_foot_feedback_link">意见反馈</a> |
+	<a href="http://jubao.aq.163.com/">不良信息举报</a>
+</div>
+    </div>
+    	<style>
+	.N-nav-bottom-sub{width: 960px; margin:0 auto; position: relative; height: 0px; z-index: 1000; }
+	.ne_foot_feedback_box{width: 360px; height: 270px; position: absolute; z-index: 9999; bottom: 34px; right: 0; display: none; }
+	.ne_foot_feedback_box .feedback_close{width: 11px; height: 11px; background: url(http://static.ws.126.net/f2e/www/feedback/images/box_close.png) no-repeat; position: absolute; right: 8px; top: 7px; font-size: 0; overflow: hidden; text-indent: -9990em; }
+	.ne_foot_feedback_box .feedback_cor{width: 19px; height: 13px; background: url(http://static.ws.126.net/f2e/www/feedback/images/box_cor.png) no-repeat; position: absolute; left: 236px; top: 250px; }
+	.ne_foot_feedback_box .feedback_box{border:1px solid #cdcdcd; background: #fff; width: 358px; height: 250px; overflow: hidden; }
+	.ne_foot_feedback_box .feedback_box iframe{display: block; border: 0; width: 100%; height: 250px; overflow: hidden; }
+	</style>
+	<div class="N-nav-bottom-sub" id="N-nav-bottom-sub"></div>
+	<script>
+	(function(){
+		if(!window.NTES) return;
+		function showFeedbackBox(x,y){
+			var footmainNd = NTES('.N-nav-bottom-main')[0];
+			var feedbacklinkNd = NTES('.ne_foot_feedback_link')[0];
+			if(!footmainNd){
+				window.open(feedbacklinkNd.href);
+				return;
+			};
+			var x = x;
+			var y = y;
+			if(x){
+				NTES(".ne_foot_feedback_box")[0].style.top = x +"px";
+			}else{
+				x = feedbacklinkNd.offsetLeft - footmainNd.offsetLeft + (feedbacklinkNd.offsetWidth/2) - 246;
+				if(NTES.browser.msie && (parseInt(NTES.browser.version) == 7 ||parseInt(NTES.browser.version) == 6)){
+					x = feedbacklinkNd.offsetLeft + (feedbacklinkNd.offsetWidth/2) - 246;
+				}
+				NTES(".ne_foot_feedback_box")[0].style.left = x +"px";
+			}
+			if(y){
+				NTES(".ne_foot_feedback_box")[0].style.top = y +"px";
+			}
+			NTES(".ne_foot_feedback_box")[0].style.display = "block";
+		}
+		function bindFeedbackBoxClose(){
+			NTES(".ne_foot_feedback_box .feedback_close").addEvent("click",function(){
+				NTES(".ne_foot_feedback_box")[0].style.display = "none";
+				return false;
+			});
+		}
+		NTES(".ne_foot_feedback_link").addEvent("click",function(){
+			if(NTES("#ne_foot_feedback_box")){
+				showFeedbackBox();
+			}else{
+				var boxNd = document.createElement("div");
+				boxNd.className = "ne_foot_feedback_box";
+				boxNd.id = "ne_foot_feedback_box";
+				boxNd.innerHTML = '<a href="javascript:;" target="_self" class="feedback_close">关闭</a> <span class="feedback_cor"></span> <div class="feedback_box"> <iframe src="http://www.163.com/special/0077450P/feedback_window.html" frameborder="0" witdh="100%" height="290" scrolling="no"></iframe> </div>';
+				document.getElementById('N-nav-bottom-sub').appendChild(boxNd);
+				window.setTimeout(function(){
+					showFeedbackBox();
+					bindFeedbackBoxClose();
+				},500);
+			}
+			return false;
+		});
+	})();
+	</script>
+</div>
+			</div>
+    	</div>
+    </div>
+    <div class="caozhi_collect_mobile_content">
+    	<!-- banner图片 640*301 -->
+        <div class="top_banner" style="background-image: url(http://cms-bucket.nosdn.127.net/8722e58b8c524baaa197668ca5e5d79820180509174110.jpeg);">
+        </div>
+        <ul class="mobile_main">
+        </ul>
+		<div class="title hidden"></div>
+		<!-- 移动端往期回顾 -->
+        <ul class="new hidden">
+        										<li>
+						<a href="https://ent.163.com/19/1002/11/EQFRUQLC00039867.html">
+							<i>01</i>
+							<h4>这部主旋律电影，看哭了亿万中国人</h4>
+							<p></p>
+						</a>
+					</li>
+										<li>
+						<a href="https://ent.163.com/19/0923/17/EPPC6MFC00039867.html">
+							<i>02</i>
+							<h4>这节目所有段子都在告诉你：笑是生活的解药</h4>
+							<p></p>
+						</a>
+					</li>
+										<li>
+						<a href="https://ent.163.com/19/0920/17/EPHJ65R100039867.html">
+							<i>03</i>
+							<h4>孟美岐关晓彤造型翻车？这届时装周我看不懂了</h4>
+							<p></p>
+						</a>
+					</li>
+										        </ul>
+        <ul class="next_main">
+        </ul>
+    </div>
+</div>
+<script src="http://static.ws.126.net/f2e/libs/jquery.js"></script>
+<script src="http://static.ws.126.net/f2e/ent/caozhi_tmp_collect/TweenMax.1247927.min.js"></script>
+<script src="http://static.ws.126.net/f2e/ent/caozhi_tmp_collect/caozhi_collect.1247927.min.js"></script>
+
+<!--  -->
+
+<!-- STAT WRating v1.0 -->
+
+<!-- STAT NetEase Devilfish 2006 -->
+<script type="text/javascript" src="//analytics.163.com/ntes.js"></script>
+<script type="text/javascript">
+    _ntes_nacc = "ent"; //站点ID。
+    neteaseTracker();
+</script>
+<!-- big data statistics -->
+
+<!-- big data analysis 0628 -->
+<script src="https://static.ws.126.net/f2e/products/analysis/js/analysis0628.350ctAoOoFtN.1.js"></script>
+<script type="text/javascript" src="//img1.cache.netease.com/utf8/3g/util/antanalysis.min.js"></script>
+    <script>
+        //社交传播活动统计管理系统统计代码，projectid 需要填写 http://antnest.ws.netease.com/ - [活动管理] 中生成的 [活动ID]；
+        //除了页面分享统计，还可以自定义统计事件，如点击后发统计，区分方式是info字段内增加不同的参数，文档：https://g.hz.netease.com/dizhang/antnest-jdk
+        var rpathname = location.pathname; 
+		var news_reg=/(\/(\w+))+/g;
+		var channel_modelid=news_reg.exec(rpathname)[2];
+        var _modelid = "ent"+channel_modelid;
+        var _projectid = "NTM-KFGT6I8U-12";
+        NTESAntAnalysis.sendData({
+          projectid: _projectid,  // 项目id 必填项 在传播信息统计平台上生成
+          val_nm: "pageview"           // 统计事件名称
+        }) 
+        shareSetting();
+        //通用分享设置
+        function shareSetting() {
+            var $commonShare;
+            $commonShare = $('#common-share');
+            window.NewsAppShare = {
+                shareData: {
+                    title: '',
+                    desc: '',
+                    img_url: '',
+                    link: ''
+                },
+                update: function (data) {
+                    for (var i in data) {
+                        if (this.shareData.hasOwnProperty(i)) {
+                            this.shareData[i] = data[i];
+                        }
+                    }
+                    document.getElementById('__newsapp_sharetext').innerHTML = this.shareData.title + ' ' + this.shareData.link;
+                    document.getElementById('__newsapp_sharephotourl').innerHTML = this.shareData.img_url;
+                    document.getElementById('__newsapp_sharewxtitle').innerHTML = this.shareData.title;
+                    document.getElementById('__newsapp_sharewxtext').innerHTML = this.shareData.desc;
+                    document.getElementById('__newsapp_sharewxthumburl').innerHTML = this.shareData.img_url;
+                    document.getElementById('__newsapp_sharewxurl').innerHTML = this.shareData.link;
+                },
+                show: function () {
+                    if (NewsAppClient.isNewsApp()) {
+                        NewsAppClient.share();
+                    } else {
+                        $commonShare.fadeIn(300);
+                        setTimeout(function () {
+                            $commonShare.fadeOut(300);
+                        }, 2000);
+                    }
+                },
+                getAbsPath: function (url) {
+                    if (url) {
+                        var a = document.createElement('a');
+                        a.href = url;
+                        return a.href;
+                    } 
+                    var r = new RegExp(/(\?|#).*/);
+                    return location.href.replace(r, '');
+                }
+            };
+            //初始化分享数据
+            NewsAppShare.update({
+                title: window.GLOBALSHARE.title,
+                desc: window.GLOBALSHARE.desc,
+                img_url: window.GLOBALSHARE.img_url,
+                link: NTESAntAnalysis.getShareLink()
+            });
+            //微信分享设置
+            document.addEventListener('WeixinJSBridgeReady', function () {
+                window.WeixinJSBridge.on('menu:share:appmessage', function(argv) {
+                        return window.WeixinJSBridge.invoke('sendAppMessage',NewsAppShare.shareData, function(res) {
+                        // {"err_desc": "已确认分享", "err_msg": "send_app_msg:confirm"}
+                        // {"err_desc": "用户已经取消", "err_msg": "send_app_msg:cancel"}
+                        if(res.err_msg != "send_app_msg:confirm") return; 
+                        NTESAntAnalysis.sendData({
+                            projectid: _projectid,  // 项目id 必填项 在传播信息统计平台上生成
+                            val_nm: "share",       // 当前行为时间大类名称 【click/share/download/open etc】
+                            val_act: "sharedone",      // 子类用户行为名称 【open_smartBar】
+                            info: {                   //  扩展字段
+                              modelid:_modelid,   //  modelid 用来区分子项目名称
+                              title:document.title   //  对应modelid 的项目名称 一般推荐用
+                            }
+                        });
+                    });
+                }, false);
+                window.WeixinJSBridge.on('menu:share:timeline', function(argv) {
+                        return window.WeixinJSBridge.invoke('shareTimeline',NewsAppShare.shareData, function(res) {
+                        // {"err_desc": "已确认分享", "err_msg": "send_app_msg:confirm"}
+                        // {"err_desc": "用户已经取消", "err_msg": "send_app_msg:cancel"}
+                        if(res.err_msg != "share_timeline:ok") return;
+                        NTESAntAnalysis.sendData({
+                            projectid: _projectid,  // 项目id 必填项 在传播信息统计平台上生成
+                            val_nm: "share",       // 当前行为时间大类名称 【click/share/download/open etc】
+                            val_act: "sharedone",      // 子类用户行为名称 【open_smartBar】
+                            info: {                   //  扩展字段
+                              modelid:_modelid,   //  modelid 用来区分子项目名称
+                              title:document.title   //  对应modelid 的项目名称 一般推荐用
+                            }
+                        });
+                    });
+                }, false);
+                //易信分享设置
+                document.addEventListener('YixinJSBridgeReady', function () {
+                    YixinJSBridge.on('menu:share:timeline', function () {
+                        YixinJSBridge.invoke('shareTimeline', NewsAppShare.shareData, function () {
+                        });
+                    });
+                    YixinJSBridge.on('menu:share:appmessage', function () {
+                        YixinJSBridge.invoke('sendAppMessage', NewsAppShare.shareData, function () {
+                        });
+                    });
+                }, false);
+            });
+        }
+    </script>
+</body>
+</html>

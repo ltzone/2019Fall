@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="baidu-site-verification" content="m1imKvW1HK" />
+  <link rel="shortcut icon" href="/Public/img/favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no" />
+<!-- 删除默认的苹果工具栏和菜单栏 ： 即启用 WebApp 全屏模式  -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!-- 在web app应用下状态条（屏幕顶部条）的颜色；默认值为default（白色），可以定为black（黑色）和black-translucent（灰色半透明）若值为“black-translucent”将会占据页面px位置，浮在页面上方（会覆盖页面20px高度–iphone4和itouch4的Retina屏幕为40px）。 -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<!-- 忽略数字自动识别为电话号码 ,忽略识别邮箱 -->
+<meta name="format-detection" content="telephone=no, email=no" />
+<!-- 启用360浏览器的极速模式(webkit) -->
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- uc强制竖屏 -->
+<meta name="screen-orientation" content="portrait" />
+<!-- QQ强制竖屏 -->
+<meta name="x5-orientation" content="portrait">
+<!-- UC强制全屏 -->
+<meta name="full-screen" content="true" />
+<!-- QQ强制全屏 -->
+<meta name="x5-fullscreen" content="true" />
+<!-- 360强制全屏 -->
+<meta name="360-fullscreen" content="true" />
+<!-- 站内搜索站点验证 -->
+<meta name="baidu-site-verification" content="m1imKvW1HK" />
+<link rel="shortcut icon" href="/Public/img/favicon.ico" type="image/x-icon">
+<script src="/Public/js/fontbase.js?v=12"></script>
+<link href="/Public/css/lib/bootstrap.min.css?v=14" rel="stylesheet">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<link rel="stylesheet" href="/Public/css/common.css?v=16">
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fb9a77820b2fa17d7223b50a01ab1aa7a' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+  <link rel="stylesheet" href="/Public/css/slick.css?v=13">
+  <link rel="stylesheet" href="/Public/css/slick-theme.css?v=13">
+  <link rel="stylesheet" href="/Public/css/newsDetail.css?v=20">
+  <title>新闻动态</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="bd-content-nav nav-show J-bd-nav">
+  <div class="section nav-section">
+    <div class="nav-box">
+      <div class="row">
+        <div class="col-sm-2 col-xs-12">
+          <a href="/home/index">
+            <img src="/Public/img/logo.png?v=15" alt="" class="logo">
+          </a>
+        </div>
+        <div class="col-sm-10 col-xs-12">
+          <ul class="bd-nav">
+            <li class="nav-bd-link active"><a href="/home/index" target="_blank">关于百度</a></li>
+            <li class="nav-bd-link"><a href="//www.baidu.com/more/" target="_blank">关于产品</a></li>
+            <li class="nav-bd-link"><a href="/home/index/join_us" target="_blank">加入我们</a></li>
+            <li class="nav-bd-link"><a href="/home/index/contact_us" target="_blank">联系我们</a></li>
+            <div class="sideline"></div>
+          </ul>
+        </div>
+        <div class="bd-content-fun">
+          <div class="home-div">
+            <span class="cn-home-link">中文</span>|
+            <a href="//ir.baidu.com/phoenix.zhtml?c=188488&p=irol-irhome" class="en-home-link" target="_blank">EN</a>
+          </div>
+          <script type="text/javascript">(function(){document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E'));var bdcs = document.createElement('script');bdcs.type = 'text/javascript';bdcs.async = true;bdcs.src = 'http://znsv.baidu.com/customer_search/api/js?sid=6706059176758103565' + '&plate_url=' + encodeURIComponent(window.location.href) + '&t=' + Math.ceil(new Date()/3600000);var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bdcs, s);})();</script>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="h5-nav-bar J-bd-nav">
+  <!-- <div class="h5-nav-search-btn"></div> -->
+  <div class="logo-box">
+    <img src="/Public/img/logo.png?v=15" alt="" class="h5-nav-logo">
+  </div>
+  <svg id="list" class="h5-nav-toggle-box" width="44" height="44" viewBox="0, 0, 44, 44"></svg>
+  <div class="h5-nav-list">
+    <a href="/home/index" class="h5-nav h5-active" target="_blank">关于百度</a>
+    <a href="//www.baidu.com/more/" class="h5-nav" target="_blank">关于产品</a>
+    <a href="/home/index/join_us" class="h5-nav" target="_blank">加入我们</a>
+    <a href="/home/index/contact_us" class="h5-nav" target="_blank">联系我们</a>
+    <a href="//ir.baidu.com/phoenix.zhtml?c=188488&p=irol-irhome" class="h5-nav" target="_blank">ENGLISH</a>
+  </div>
+</div>
+<div class="h5-nav-mask"></div>
+
+    <div class="main-body"></div>
+    <div class="new">新闻动态</div>
+    <div class="content">
+      <div class="news-detail row">
+        <div class="news-title col-xs-11 col-md-11">百度发布6月信息安全综合治理月报：移动搜索广告也有“保”字标</div>
+        <div class="news-date-box visible-md visible-lg col-md-1">
+          <span class="date-item news-date-day">19</span>
+          <div class="date-bottom">
+            <span class="date-item news-date-month">07月</span>
+            <span class="date-item news-date-year">2019</span>
+          </div>
+        </div>
+        <div class="news-date-mol visible-xs-block">2019-07-19</div>
+                <div class="news-content news-oth-content col-md-11">
+          <p>保护网民安全上网，净化网络环境，是百度一直以来的责任。<br/></p><p>近日，百度发布了2019年上半年《百度信息安全综合治理报告》。半年时间里，百度内容安全中心通过全方面手段处置包括淫秽色情类、毒品类、赌博类、诈骗类、侵权类等11类有害信息共312.5亿条。<br/></p><p>为了持续向大家分享百度在处理网络虚假有害信息、保护网民权益方面的相关行动和信息，7月19日，百度发布6月信息安全综合治理月报，将今年6月份信息安全治理的成果向大家做个汇报。<br/> ————————————————————<br/></p><p>2019年6月，百度内容安全中心通过全方面手段，人工巡查侵权、色情等相关有害信息577.4万余条；利用人工智能技术挖掘打击色情、赌博等相关有害信息32亿余条。<br/></p><p>在网络推广方面，百度6月下线不合规广告2.23亿条，拒绝医疗变体词5000万个，比上月增长超过40%。<br/></p><p>此外，百度网民权益保障计划全面升级，在百度移动端（包括百度 APP 及其他手机浏览器）搜索结果中的广告内容新增“保”字标识。用户在登录百度账号后，点击广告如遭遇虚假、欺诈等情况，造成实际损失的，可向百度提供相关证据，申请权益保障。</p><p><img src="http://static.home.baidu.com/homebd/egkfhalcjdmibn1565602777.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-08-12T09%3A39%3A37Z%2F-1%2F%2F136f97b23aaaf6949873b2250bd67cd2165c135b5f7929157fc821547bb61a17" title="1565602777463326.jpg" alt="image001.jpg"/><br/></p><p>更多信息，请参阅以下长图。<br/></p><p><img src="http://static.home.baidu.com/homebd/mcfkadgbjihlen1565602787.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-08-12T09%3A39%3A47Z%2F-1%2F%2F7d9b059e28e22ba0eadf0bf6a09ce05911bc96002f6b051a2d5cb5452dc2ddc0" title="1565602787565265.jpg" alt="image002.jpg"/><img src="http://static.home.baidu.com/homebd/hbkeidncljgafm1565602797.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-08-12T09%3A39%3A58Z%2F-1%2F%2F28a19d72aab9a3a2e2a8825868205705f0e941425df674e359ee2d81c85bd64c" title="1565602797706732.jpg" alt="image003.jpg"/><img src="http://static.home.baidu.com/homebd/dmafhingljecbk1565602804.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-08-12T09%3A40%3A04Z%2F-1%2F%2F26d9b22750af17342e4405168cbd006464c8947bfafe2e1aba15743e73e98fd6" title="1565602803320936.jpg" alt="image004.jpg"/><img src="http://static.home.baidu.com/homebd/mncjfhbeidkagl1565602808.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-08-12T09%3A40%3A09Z%2F-1%2F%2Fe94db1a96e4025813b0b8980612db74baed449afa8f16b00dec086ab2298c3e5" title="1565602808450791.jpg" alt="image005.jpg"/><img src="http://static.home.baidu.com/homebd/clhnfbdgijkmae1565602813.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-08-12T09%3A40%3A13Z%2F-1%2F%2Ff30d9d7483ff978152066ebb8f8f647e3010025045f51b35ac54eb487ed86b12" title="1565602813779332.jpg" alt="image006.jpg"/><img src="http://static.home.baidu.com/homebd/gnmdefhcbkijal1565602817.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-08-12T09%3A40%3A18Z%2F-1%2F%2F08aa7f2dfb6f4d857c099c121d7f2ab19ed131ab5b42c55bf8e36ed73b062c06" title="1565602817157130.jpg" alt="image007.jpg"/></p>        </div>
+        <div class="news-footer-page hidden-xs col-xs-12 ">
+          <a class="prev-link" href="">
+          <span class="page-box prev-box">上一篇<span class="page-icon prev-icon"></span></span>
+          </a>
+          <a class="next-link" href=""> <span class="page-box next-box"><span class=
+          "page-icon next-icon"></span>下一篇</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="full-section bottom-section">
+  <div class="section">
+    <div class="bd-home-bottom">
+      <div class="bd-bottom-share">
+        <span>实时资讯请关注：</span>
+
+
+        <div class="share-wechat">
+                    <img src="http://static.home.baidu.com/homebd/canbfldghejikm1496932813.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A40%3A14Z%2F-1%2F%2Fa795f1f97d12e2a8c9da9862672bd4fec4a887237ec8883e8a3974e9a52b3624" class="share-wechat-img" alt="">
+                    <img src="http://static.home.baidu.com/homebd/djkgaclebfhnim1496932814.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A40%3A14Z%2F-1%2F%2F9dfa094e984958f1fefb4c3a95b5f8da3e60c759c30442b2479559bfbcdacf2c" class="share-wechat-qrcode">
+                  </div>
+                        <a href="http://weibo.com/baiduguanfang?refer_flag=1001030101_&amp;is_hot=1" target="_blank">
+                  <img src="http://static.home.baidu.com/homebd/fnejlmkaghcdib1496932842.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A40%3A43Z%2F-1%2F%2F5907b18db08f16dba8613f5117fa9c699a09ac79273e32ef0a1f114b7bdd6e55" alt="">
+                </a>                <a href="https://www.facebook.com/BaiduIncorporated" target="_blank">
+                  <img src="http://static.home.baidu.com/homebd/ldmfajnhcbkegi1496932864.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A41%3A05Z%2F-1%2F%2F2a180dd88df9a8a7af776fd7239773fab056d1af32cf701e234f5664133a559b" alt="">
+                </a>                <a href="https://twitter.com/Baidu_Inc" target="_blank">
+                  <img src="http://static.home.baidu.com/homebd/ldgjhfknbaicem1496932883.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A41%3A23Z%2F-1%2F%2F9ec183749754c187c58c2d5b66a8d2f4bd59f6258188aae327addba639a1631d" alt="">
+                </a>
+      </div>
+
+      <div class="bd-bottom-moremsg">
+        <div class="bd-more-msg">更多信息</div>
+        <a href="http://csr.baidu.com/" class="bd-more-duty bottom-cooperation" target="_blank">社会责任</a><a href="http://home.baidu.com/home/index/contact_us" class="bd-more-duty bottom-cooperation" target="_blank">联系我们</a>      </div><div class="bd-bottom-moremsg">
+        <div class="bd-more-msg">商业合作</div>
+        <a href="http://union.baidu.com/customerLogin.html?fromu=http%3A%2F%2Funion.baidu.com%2F" class="bd-more-duty bottom-cooperation" target="_blank">百度联盟</a><a href="http://e.baidu.com/?subsite=bj" class="bd-more-duty bottom-cooperation" target="_blank">百度推广</a><a href="http://pro.baidu.com/" class="bd-more-duty bottom-cooperation" target="_blank">营销中心</a>      </div><div class="bd-bottom-moremsg">
+        <div class="bd-more-msg">更多资源</div>
+        <a href="http://home.baidu.com/media_resource/" class="bd-more-duty bottom-cooperation" target="_blank">媒体资源库</a>      </div>      <div class="bd-bottom-icp">&copy; Baidu <a href="//www.baidu.com/duty/" target="_blank">使用百度前必读</a> 京ICP证030173号</div>
+    </div>
+  </div>
+</div>
+
+<div class="return-top">
+  <img src="/Public/img/return-top.png?v=12" alt="" class="return-img">
+</div>
+<div class="pc-return">
+  <img src="/Public/img/pc-backtop.png?v=12" alt="" class="pc-return-img">
+</div>
+<div class="mobile-bd-home-bottom">
+  <div class="bd-bottom-share">
+    <span>实时资讯请关注：</span>
+
+
+
+    <div class="share-wechat">
+                <img src="http://static.home.baidu.com/homebd/canbfldghejikm1496932813.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A40%3A14Z%2F-1%2F%2Fa795f1f97d12e2a8c9da9862672bd4fec4a887237ec8883e8a3974e9a52b3624" class="share-wechat-img" alt="">
+                <img src="http://static.home.baidu.com/homebd/djkgaclebfhnim1496932814.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A40%3A14Z%2F-1%2F%2F9dfa094e984958f1fefb4c3a95b5f8da3e60c759c30442b2479559bfbcdacf2c" class="m-share-wechat-qrcode">
+              </div>
+                     <a href="http://weibo.com/baiduguanfang?refer_flag=1001030101_&amp;is_hot=1" target="_blank">
+              <img src="http://static.home.baidu.com/homebd/fnejlmkaghcdib1496932842.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A40%3A43Z%2F-1%2F%2F5907b18db08f16dba8613f5117fa9c699a09ac79273e32ef0a1f114b7bdd6e55" alt="">
+            </a>           <a href="https://www.facebook.com/BaiduIncorporated" target="_blank">
+              <img src="http://static.home.baidu.com/homebd/ldmfajnhcbkegi1496932864.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A41%3A05Z%2F-1%2F%2F2a180dd88df9a8a7af776fd7239773fab056d1af32cf701e234f5664133a559b" alt="">
+            </a>           <a href="https://twitter.com/Baidu_Inc" target="_blank">
+              <img src="http://static.home.baidu.com/homebd/ldgjhfknbaicem1496932883.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A41%3A23Z%2F-1%2F%2F9ec183749754c187c58c2d5b66a8d2f4bd59f6258188aae327addba639a1631d" alt="">
+            </a>
+  </div>
+  <div class="mobile-flex">
+    <div class="mobile-bd-bottom-moremsg mobile-flex-box">
+           <div class="mobile-bd-bottom-content">公司介绍<img src="/Public/img/mobile-arrow-up.png?v=12" class="mobile-arrow-up"><img src="/Public/img/mobile-arrow-down.png?v=12" class="mobile-arrow-down"></div>
+           <ul class="mobile-bd-detail">
+            <li><a href="http://home.baidu.com/home/index/company_culture" target="_blank">核心价值观</a></li><li><a href="http://home.baidu.com/home/index/company" target="_blank">百度简介</a></li><li><a href="http://home.baidu.com/home/index/baidu_road" target="_blank">百度大事记</a></li><li><a href="http://home.baidu.com/home/index/management_team" target="_blank">管理团队</a></li>        </ul>
+      </div><div class="mobile-bd-bottom-moremsg mobile-flex-box">
+           <div class="mobile-bd-bottom-content">更多信息<img src="/Public/img/mobile-arrow-up.png?v=12" class="mobile-arrow-up"><img src="/Public/img/mobile-arrow-down.png?v=12" class="mobile-arrow-down"></div>
+           <ul class="mobile-bd-detail">
+            <li><a href="http://csr.baidu.com/" target="_blank">社会责任</a></li><li><a href="http://home.baidu.com/home/index/contact_us" target="_blank">联系我们</a></li>        </ul>
+      </div><div class="mobile-bd-bottom-moremsg mobile-flex-box">
+           <div class="mobile-bd-bottom-content">商业合作<img src="/Public/img/mobile-arrow-up.png?v=12" class="mobile-arrow-up"><img src="/Public/img/mobile-arrow-down.png?v=12" class="mobile-arrow-down"></div>
+           <ul class="mobile-bd-detail">
+            <li><a href="http://e.baidu.com/?subsite=bj" target="_blank">百度推广</a></li><li><a href="http://union.baidu.com/customerLogin.html?fromu=http%3A%2F%2Funion.baidu.com%2F" target="_blank">百度联盟</a></li><li><a href="http://pro.baidu.com/" target="_blank">营销中心</a></li>        </ul>
+      </div>
+  </div>
+  <div class="mobile-bd-bottom-icp">&copy; Baidu <a href="//www.baidu.com/duty/" target="_blank">使用百度前必读</a> 京ICP证030173号</div>
+</div>
+<div class="loading"></div>
+
+  </div>
+</body>
+<script src="/Public/js/lib/jquery.min.js?v=16"></script>
+<script src="/Public/js/rem.min.js?v=16"></script>
+<script src="/Public/js/lib/bootstrap.min.js?v=16"></script>
+<script src="/Public/js/lib/snap.svg-min.js?v=16"></script>
+<script src="/Public/js/lib/mustache.min.js?v=16"></script>
+<!-- <script src="/Public/js/scroll.js"></script> -->
+<script src="/Public/js/common.js?v=16"></script>
+<script>
+var width = $(window).width();
+if (width > 768) {
+  window._hmt && window._hmt.push(['_trackEvent', '入口统计','pc端']);
+  var height = $(window).height();
+  $(window).scroll(function() {
+    var top = $(window).scrollTop();
+    if (top > height) {
+      $(".pc-return").show();
+    } else {
+      $(".pc-return").hide();
+    }
+  });
+  $("body").on("click", ".pc-return", function() {
+    $('body,html').animate({
+      scrollTop: 0
+    }, 300);
+  });
+} else {
+  window._hmt && window._hmt.push(['_trackEvent', '入口统计','手机端']);
+  $(".main").on("click", ".return-img", function() {
+    $('body,html').animate({
+      scrollTop: 0
+    }, 300);
+  });
+}
+</script>
+<script type="text/javascript">
+var GV = {
+  ROOT: "/",
+};
+</script>
+
+<script src="/Public/js/slick.min.js?v=13"></script>
+<script>
+$(function() {
+  var prev = "17930";
+  var next = "17928";
+  if (prev) {
+    $('.prev-link').attr('href', "/home/index/news_detail/id/" + prev);
+  } else {
+    $('.prev-link').addClass('hide');
+  }
+
+  if (next) {
+    $('.next-link').attr('href', "/home/index/news_detail/id/" + next);
+  } else {
+    $('.next-link').addClass('hide');
+  }
+  // var content = '<p>保护网民安全上网，净化网络环境，是百度一直以来的责任。<br/></p><p>近日，百度发布了2019年上半年《百度信息安全综合治理报告》。半年时间里，百度内容安全中心通过全方面手段处置包括淫秽色情类、毒品类、赌博类、诈骗类、侵权类等11类有害信息共312.5亿条。<br/></p><p>为了持续向大家分享百度在处理网络虚假有害信息、保护网民权益方面的相关行动和信息，7月19日，百度发布6月信息安全综合治理月报，将今年6月份信息安全治理的成果向大家做个汇报。<br/> ————————————————————<br/></p><p>2019年6月，百度内容安全中心通过全方面手段，人工巡查侵权、色情等相关有害信息577.4万余条；利用人工智能技术挖掘打击色情、赌博等相关有害信息32亿余条。<br/></p><p>在网络推广方面，百度6月下线不合规广告2.23亿条，拒绝医疗变体词5000万个，比上月增长超过40%。<br/></p><p>此外，百度网民权益保障计划全面升级，在百度移动端（包括百度 APP 及其他手机浏览器）搜索结果中的广告内容新增“保”字标识。用户在登录百度账号后，点击广告如遭遇虚假、欺诈等情况，造成实际损失的，可向百度提供相关证据，申请权益保障。</p><p><img src="http://static.home.baidu.com/homebd/egkfhalcjdmibn1565602777.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-08-12T09%3A39%3A37Z%2F-1%2F%2F136f97b23aaaf6949873b2250bd67cd2165c135b5f7929157fc821547bb61a17" title="1565602777463326.jpg" alt="image001.jpg"/><br/></p><p>更多信息，请参阅以下长图。<br/></p><p><img src="http://static.home.baidu.com/homebd/mcfkadgbjihlen1565602787.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-08-12T09%3A39%3A47Z%2F-1%2F%2F7d9b059e28e22ba0eadf0bf6a09ce05911bc96002f6b051a2d5cb5452dc2ddc0" title="1565602787565265.jpg" alt="image002.jpg"/><img src="http://static.home.baidu.com/homebd/hbkeidncljgafm1565602797.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-08-12T09%3A39%3A58Z%2F-1%2F%2F28a19d72aab9a3a2e2a8825868205705f0e941425df674e359ee2d81c85bd64c" title="1565602797706732.jpg" alt="image003.jpg"/><img src="http://static.home.baidu.com/homebd/dmafhingljecbk1565602804.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-08-12T09%3A40%3A04Z%2F-1%2F%2F26d9b22750af17342e4405168cbd006464c8947bfafe2e1aba15743e73e98fd6" title="1565602803320936.jpg" alt="image004.jpg"/><img src="http://static.home.baidu.com/homebd/mncjfhbeidkagl1565602808.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-08-12T09%3A40%3A09Z%2F-1%2F%2Fe94db1a96e4025813b0b8980612db74baed449afa8f16b00dec086ab2298c3e5" title="1565602808450791.jpg" alt="image005.jpg"/><img src="http://static.home.baidu.com/homebd/clhnfbdgijkmae1565602813.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-08-12T09%3A40%3A13Z%2F-1%2F%2Ff30d9d7483ff978152066ebb8f8f647e3010025045f51b35ac54eb487ed86b12" title="1565602813779332.jpg" alt="image006.jpg"/><img src="http://static.home.baidu.com/homebd/gnmdefhcbkijal1565602817.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-08-12T09%3A40%3A18Z%2F-1%2F%2F08aa7f2dfb6f4d857c099c121d7f2ab19ed131ab5b42c55bf8e36ed73b062c06" title="1565602817157130.jpg" alt="image007.jpg"/></p>';
+  // var result = content.replace(/style=\".*?\"|width=\".*?\"|height=\".*?\"/g, '');
+  // $('.news-content').html(result);
+
+  // $('.m-bd-slick-box').hide();
+
+    $('.edui-upload-video').attr('preload',true);
+});
+$('.pic-slick').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      asNavFor: '.pic-slick-nav'
+      // autoplay: true,
+      // autoplaySpeed: 2000,
+    });
+  $('.pic-slick-nav').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      asNavFor: '.pic-slick'
+      // autoplay: true,
+      // autoplaySpeed: 2000,
+    });
+
+
+    $('.pic-left-arrow').click(function(){
+      $('.pic-slick').slick('slickPrev');
+    });
+    $('.pic-right-arrow').click(function(){
+      $('.pic-slick').slick('slickNext');
+    });
+
+    // 移动端
+    $('.m-pic-slick').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      asNavFor: '.m-pic-slick-nav'
+      // autoplay: true,
+      // autoplaySpeed: 2000,
+    });
+    $('.m-pic-slick-nav').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      asNavFor: '.m-pic-slick'
+      // autoplay: true,
+      // autoplaySpeed: 2000,
+    });
+
+    $('.m-pic-left-arrow').click(function(){
+      $('.m-pic-slick').slick('slickPrev');
+    });
+    $('.m-pic-right-arrow').click(function(){
+      $('.m-pic-slick').slick('slickNext');
+    });
+
+    $('.bd-content-slick ').hover(function(){
+      $('.pic-arrow').show();
+    },function(){
+      $('.pic-arrow').hide();
+    });
+</script>
+
+</html>

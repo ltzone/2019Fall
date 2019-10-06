@@ -68,26 +68,28 @@ def add_page_to_folder(page, content): #将网页存到文件夹里，将网址�
 
 def page_working():
     global COUNT
-    while COUNT < max_page:
-        page = tocrawl.get()
-        has_str = crawled.has_str(page)
+    while (True):
+        page = tocrawl.get(True, 5)
+        if varLock.acquire():
+            has_str = crawled.has_str(page)
+            if (COUNT>=max_page):
+                varLock.release()
+                break
+            varLock.release()
         if (not has_str):
-            print page
+            print COUNT,page
             content = get_page(page)
             if content:
+                crawled.add_str(page)
                 add_page_to_folder(page, content)
                 outlinks = get_all_links(content, page)
-                union(tocrawl, outlinks)
-                crawled.add_str(page)
-                graph[page] = outlinks
-                COUNT += 1
+                if varLock.acquire():
+                    union(tocrawl, outlinks)
+                    graph[page] = outlinks
+                    COUNT += 1
+                    varLock.release()
         tocrawl.task_done()
-    while True:
-        try:
-            tocrawl.get()
-            tocrawl.task_done()
-        except:
-            break
+    tocrawl.clear()
 
 
 
@@ -102,7 +104,7 @@ if __name__ == '__main__':
     graph = {}
     COUNT = 0
     varLock = threading.Lock()
-    NUM = 2
+    NUM = 5
 
 
     for i in range(NUM):

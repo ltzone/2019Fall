@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="baidu-site-verification" content="m1imKvW1HK" />
+  <link rel="shortcut icon" href="/Public/img/favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no" />
+<!-- 删除默认的苹果工具栏和菜单栏 ： 即启用 WebApp 全屏模式  -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!-- 在web app应用下状态条（屏幕顶部条）的颜色；默认值为default（白色），可以定为black（黑色）和black-translucent（灰色半透明）若值为“black-translucent”将会占据页面px位置，浮在页面上方（会覆盖页面20px高度–iphone4和itouch4的Retina屏幕为40px）。 -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<!-- 忽略数字自动识别为电话号码 ,忽略识别邮箱 -->
+<meta name="format-detection" content="telephone=no, email=no" />
+<!-- 启用360浏览器的极速模式(webkit) -->
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- uc强制竖屏 -->
+<meta name="screen-orientation" content="portrait" />
+<!-- QQ强制竖屏 -->
+<meta name="x5-orientation" content="portrait">
+<!-- UC强制全屏 -->
+<meta name="full-screen" content="true" />
+<!-- QQ强制全屏 -->
+<meta name="x5-fullscreen" content="true" />
+<!-- 360强制全屏 -->
+<meta name="360-fullscreen" content="true" />
+<!-- 站内搜索站点验证 -->
+<meta name="baidu-site-verification" content="m1imKvW1HK" />
+<link rel="shortcut icon" href="/Public/img/favicon.ico" type="image/x-icon">
+<script src="/Public/js/fontbase.js?v=12"></script>
+<link href="/Public/css/lib/bootstrap.min.css?v=14" rel="stylesheet">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<link rel="stylesheet" href="/Public/css/common.css?v=16">
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fb9a77820b2fa17d7223b50a01ab1aa7a' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+  <link rel="stylesheet" href="/Public/css/slick.css?v=14">
+  <link rel="stylesheet" href="/Public/css/slick-theme.css?v=14">
+  <link rel="stylesheet" href="/Public/css/newsDetail.css?v=16">
+  <title>专题</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="bd-content-nav nav-show J-bd-nav">
+  <div class="section nav-section">
+    <div class="nav-box">
+      <div class="row">
+        <div class="col-sm-2 col-xs-12">
+          <a href="/home/index">
+            <img src="/Public/img/logo.png?v=15" alt="" class="logo">
+          </a>
+        </div>
+        <div class="col-sm-10 col-xs-12">
+          <ul class="bd-nav">
+            <li class="nav-bd-link active"><a href="/home/index" target="_blank">关于百度</a></li>
+            <li class="nav-bd-link"><a href="//www.baidu.com/more/" target="_blank">关于产品</a></li>
+            <li class="nav-bd-link"><a href="/home/index/join_us" target="_blank">加入我们</a></li>
+            <li class="nav-bd-link"><a href="/home/index/contact_us" target="_blank">联系我们</a></li>
+            <div class="sideline"></div>
+          </ul>
+        </div>
+        <div class="bd-content-fun">
+          <div class="home-div">
+            <span class="cn-home-link">中文</span>|
+            <a href="//ir.baidu.com/phoenix.zhtml?c=188488&p=irol-irhome" class="en-home-link" target="_blank">EN</a>
+          </div>
+          <script type="text/javascript">(function(){document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E'));var bdcs = document.createElement('script');bdcs.type = 'text/javascript';bdcs.async = true;bdcs.src = 'http://znsv.baidu.com/customer_search/api/js?sid=6706059176758103565' + '&plate_url=' + encodeURIComponent(window.location.href) + '&t=' + Math.ceil(new Date()/3600000);var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bdcs, s);})();</script>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="h5-nav-bar J-bd-nav">
+  <!-- <div class="h5-nav-search-btn"></div> -->
+  <div class="logo-box">
+    <img src="/Public/img/logo.png?v=15" alt="" class="h5-nav-logo">
+  </div>
+  <svg id="list" class="h5-nav-toggle-box" width="44" height="44" viewBox="0, 0, 44, 44"></svg>
+  <div class="h5-nav-list">
+    <a href="/home/index" class="h5-nav h5-active" target="_blank">关于百度</a>
+    <a href="//www.baidu.com/more/" class="h5-nav" target="_blank">关于产品</a>
+    <a href="/home/index/join_us" class="h5-nav" target="_blank">加入我们</a>
+    <a href="/home/index/contact_us" class="h5-nav" target="_blank">联系我们</a>
+    <a href="//ir.baidu.com/phoenix.zhtml?c=188488&p=irol-irhome" class="h5-nav" target="_blank">ENGLISH</a>
+  </div>
+</div>
+<div class="h5-nav-mask"></div>
+
+    <div class="main-body"></div>
+    <div class="new">专题</div>
+    <div class="content">
+      <div class="news-detail row special-detail">
+        <div class="news-title col-xs-12 col-md-12">百度人工智能下乡记</div>
+                <div class="news-content">
+           <p>2019年1月10日下午，广东省肇庆市德庆县的人民医院门前人头攒动，场面一度难以控制。<br/></p><p><img src="http://static.home.baidu.com/homebd/elhbankcgjmdfi1551445629.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-03-01T13%3A07%3A09Z%2F-1%2F%2Ff8199bbcb51254588188355f690723629aa27b18bc6f847a8635add7c9462208" title="1551445629595161.jpg" alt="image001.jpg"/></p><p>五官科的何主任有些不知所措。他时而在现场维持秩序，时而跑上跑下分派人手。显然，这个场面有些出乎他的意料。<br/></p><p><img src="http://static.home.baidu.com/homebd/jieclafmbkhngd1551445635.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-03-01T13%3A07%3A15Z%2F-1%2F%2Fbab6d3553c8e49842fe0a5643eaeb62db6b4cb2f2ad1f26351ccde7cc7fef4ea" title="1551445635294615.jpg" alt="image002.jpg"/></p><p>在小小的德庆县城里，除了放学时分的校门口，应该没有哪一处地方像现在这样热闹。 <br/></p><p>人们聚集在这里，是因为医院门口那条写着“广东省眼科人工智能诊断系统下基层大型义诊活动”的横幅。<br/></p><p>这个义诊活动，集合了广东省10位优秀的眼科和糖尿病专家，还有两台百度AI眼底筛查一体机助阵。<br/></p><p><img src="http://static.home.baidu.com/homebd/beaichknfldgmj1551445641.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-03-01T13%3A07%3A21Z%2F-1%2F%2F82165b05a32bd24ea2eeb7f989b300d07da46c5e7233133d1bcc1d2da4b5b9d2" title="1551445641672785.jpg" alt="image003.jpg"/></p><p style="text-align: center;"><span style="color: rgb(0, 112, 192);"><strong>1</strong></span></p><p>从北京去往德庆县，总共需要花费将近7个小时。这其中一半的时间，都用在了从广州市驾车前往德庆县的200公里路程上。<br/></p><p>在清晨5点起床赶往首都机场坐第一班飞机前往广州、落地后不作片刻停留开车直奔德庆后，小编终于在下午3点看到了这个位于广东西部的小县城的全貌。<br/></p><p>它拥有典型中国乡镇的一切特征。县里的一小片核心地带被划为“新区”，观赏性的栈道、挂着巨型条幅的在售楼盘和零星的别墅，显得与周围有些格格不入。<br/></p><p>而在这之外，更多的区域还保留着这个县城最原始的样貌：狭窄的街道两旁，是接连不断的低矮砖房，一些是红砖，不少则是年代久远的青砖。<br/></p><p>大多数本地人选择用电动车出行，仅有的公共交通是用小巴改造而成的公交车。在相对繁华的地区也罕见像样的饭馆，唯一一家“麦肯基”门可罗雀。<br/></p><p><img src="http://static.home.baidu.com/homebd/iaklfdbjhmncge1551445648.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-03-01T13%3A07%3A28Z%2F-1%2F%2F307c6fe64f88d0fabef14989c532d994f22be9d8ecb4f706d16d6bbbe45db6b7" title="1551445648810409.jpg" alt="image004.jpg"/></p><p>德庆县人民医院坐落在县城西区。马路边的一块通道是医院的“大门”，往里走个三五米就到了门诊部大厅——屋顶由简陋的铁皮遮盖，面积不算大的空地上摆满了用于输液的椅子，零零散散坐着一些打盹的老人、抱孩子的父母和刚放学的学生。<br/></p><p>角落里的两张桌子后有一位护士，有时挂号接诊，有时去溜达一圈查看输液病人的情况。<br/></p><p><img src="http://static.home.baidu.com/homebd/eghcfkbndjlima1551445662.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-03-01T13%3A07%3A42Z%2F-1%2F%2Fedab444ed44a0d146dec7e78bff97313d8776005c5eca0f27c0d97dd120d99ec" title="1551445662791942.jpg" alt="image005.jpg"/></p><p><img src="http://static.home.baidu.com/homebd/cndifhlmkgjbea1551445667.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-03-01T13%3A07%3A47Z%2F-1%2F%2F114490e305b7d117ca00aec3ab837d9f5b5ca3d1fc37720dce6d67f94a3c5fc8" title="1551445667109561.jpg" alt="image006.jpg"/></p><p>五官科位于医院四楼，也是最高一楼。沿着仅有的楼梯上行，闯入眼帘的是一条逼仄的走廊。<br/></p><p>何主任的办公室和几个做检查的房间在走廊一侧一字排开，门外是一列长凳，患者们坐在这里排队、休息后，走廊里剩下的空间仅供一人通行。<br/></p><p><img src="http://static.home.baidu.com/homebd/majdflcbkheing1551445673.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-03-01T13%3A07%3A53Z%2F-1%2F%2Fdd680201c930e91cc0984ea665534e164ac8d7c15778abe0bb97534eb49e880c" title="1551445673437446.jpg" alt="image007.jpg"/></p><p>何主任一般是下午2点半来医院，而眼科患者们往往在2点就排起长队。<br/></p><p>“我们基层医院的医疗条件，确实比较落后。”何主任的普通话参杂着浓厚的德庆口音，“（这里的）眼科发展很困难，人才本来就不多，高端人才更是留不住。技术方面也跟不上，有时候很多病人看是看过了，但是分析不出啥样来，只能叫他们到上一级医院去看。”<br/></p><p>而在基层医院短缺的人才和技术背后，恰恰是最庞大的患者群体。 <br/></p><p>按照国家卫计委的官方数据，中国80%的病人集中在20%的大型公立医院完成就诊，公立医院一号难求，大多数病人却都来自于基层。<br/></p><p>如何解决“看病难”的问题？请大城市里的专家下基层、做义诊，一直以来被视为解决办法之一。</p><p style="text-align: center;"><span style="color: rgb(0, 112, 192);"><strong>2</strong></span></p><p>义诊开始前一个小时，德庆县人民医院门前的大棚内，十几位老人一字排开坐下，早早开始排队等候。<br/></p><p>陈阿婆也在队列之中。她吃完午饭就过来了，不想错过今天的义诊。今年63岁的陈阿婆，有8年糖尿病病史，前段时间开始看不清东西。但县里的医院连眼科都没有，只有五官科，要想好好检查眼睛还要到百公里外的肇庆市里的医院，所以她一拖再拖。<br/></p><p>不过一个星期前，她在县电视台看到今天这里要举行大型的眼科义诊活动。前来义诊的医生不仅有县里的、市里的，还有广东省三甲医院中山大学中山眼科中心的专家——那可是全中国排名第一的眼科医院。<br/></p><p><img src="http://static.home.baidu.com/homebd/gjckbflhmeidna1551445682.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-03-01T13%3A08%3A02Z%2F-1%2F%2Fe9ffb19da8872b6c3197b6afb8e59a9466a1a501e8aa3e51ae935cca91b810a2" title="1551445682521871.jpg" alt="image008.jpg"/></p><p>好不容易有专家来，大家当然都希望能抓紧机会多看一看。原定5点半结束的义诊活动，持续到6点半还不断有人前来，短短几小时内，共有300余名市民接受了免费的眼科检查。<br/></p><p>能接受大医院的专家问诊，市民们很是开心，但中山大学中山眼科中心的袁进教授感到心有余而力不足。<br/></p><p>“我们今天可以解决一部分病人的问题，但是我们走了之后呢？”<br/></p><p><img src="http://static.home.baidu.com/homebd/iehlngamkfjcdb1551445688.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-03-01T13%3A08%3A08Z%2F-1%2F%2F83560f66e12d9845ac52a9d6009eec70b4a86ced556a1d711af2832d46716d51" title="1551445688946322.jpg" alt="image009.jpg"/></p><p>这也是一直以来困扰着中国医疗现状的巨大难题。解决办法不是没有，医疗改革提出分级诊疗、建立医联体等方案和措施，都是力争把优质资源下沉。 <br/></p><p>“但什么叫优质的？优质的一定是少数的。让少数医生去覆盖中国这么庞大的基层患者，说起来容易做起来难。”<br/></p><p>德庆县人民医院的环境是中国基层医疗的真实体现。以眼科为例，全国专业眼科医生仅有3万名左右，具有阅片能力的眼科医生更是只有数千人，而且大多集中在三甲医院里。<br/></p><p><img src="http://static.home.baidu.com/homebd/bminkelhfjagdc1551445694.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-03-01T13%3A08%3A14Z%2F-1%2F%2Fbfe20a57bb68e2a660905e155138060877bdb912c5bb3c382afc56d317038040" title="1551445694146100.jpg" alt="image010.jpg"/></p><p>与此同时，87%的糖网（糖尿病视网膜病变）患者却只能在县级及以下医疗机构就诊。最迫切的患者，却往往最难得到治疗。医疗资源的“错位”，导致全中国有数不清的陈阿婆们，正在慢慢错过最佳治疗时期。<br/></p><p>这种困境，直到去年10月才得到了转机。<br/></p><p style="text-align: center;"><strong><span style="color: rgb(0, 112, 192);">3</span></strong><br/></p><p>2018年6月，刚成立不久的「百度灵医」团队开始思考这样一个问题：单凭协调人力难以克服的基层医疗问题，是否可以交由人工智能（AI）来解决？<br/></p><p>实际上，在2018年的统计数据中，最被大家看好的 AI 应用方向，一个是自动驾驶，另一个就是 AI 医疗。 <br/></p><p>从 AI 的视角来看，基层医疗问题迎刃而解：如果能通过对专业医生诊疗数据的深度学习，训练出一个比肩优秀医生诊疗水平的 AI 诊疗系统，再把这套系统落地到基层，就相当于为基层分配了一批不知劳累的专业“医生”，能大大提高基层医院的医疗能力。 <br/></p><p>“我们做这件事的初心很简单，就是希望用 AI 赋能基层医疗，让更多患者能在基层看病，让基层医院也能共享先进的医疗技术。”「百度灵医」负责人黄艳说。 <br/></p><p>5个月后，百度 AI 眼底筛查一体机由此诞生。2018年11月，百度 CEO 李彦宏宣布，将向中国的贫困县捐赠 AI 眼底筛查一体机，并在首批接受捐赠的500个全国贫困县医疗点优先试点推广，该计划将覆盖5600万眼疾风险人群。<br/></p><p><img src="http://static.home.baidu.com/homebd/hjfbcnaigkmdel1551445701.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-03-01T13%3A08%3A21Z%2F-1%2F%2F2f81fb2df26bc4ef2ea147d82c760e71692ba82b19ca3d2aa0112b8670a1f87e" title="1551445701500051.jpg" alt="image011.jpg"/></p><p>“虽然从2013年初开始，百度就在 AI 方面积累了强大的算力，但这次做 AI 眼底筛查一体机，还是需要攻克不少难关。”「百度灵医」医疗影像主任架构师许言午说，“首先，我们要找到中山眼科这样的权威医疗团队，帮助构建医学标注标准，进行严格标注，形成扎实、合规的数据基础。只有原始的学习数据够精准，AI学习出来的能力才会够优异。”<br/></p><p><img src="http://static.home.baidu.com/homebd/amfchgjlknideb1551445706.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-03-01T13%3A08%3A26Z%2F-1%2F%2Fd7604d455166cc1e2d9d21aa1adf1b9bd5e99aa2ae2730719e02e8a1b0d88dd4" title="1551445706129206.jpg" alt="image012.jpg"/></p><p>（眼底影像识别技术流程）<br/></p><p>“其次，我们需要构建一套 AI 算法模型，而这个架构不仅要在统计学上有意义，还要在临床上被接受。所以在设计算法时，我们会找出医疗上的一些证据，根据医学机制去解读，这样机器不仅能判断出是否患病，还能告诉你为什么。”<br/></p><p style="text-align:center"><video class="edui-upload-video  vjs-default-skin video-js" controls="" preload="none" width="701" height="541" src="http://static.home.baidu.com/homebd/小版百度AI眼底筛查一体机技术解析视频－Final－1031－字幕更新.mp4" data-setup="{}"><source src="http://static.home.baidu.com/homebd/小版百度AI眼底筛查一体机技术解析视频－Final－1031－字幕更新.mp4" type="video/mp4"/></video></p><p>（百度 AI 眼底筛查一体机原理）<br/></p><p>这给「百度灵医」的工程师们带来极大挑战，从数据的采集、标注，到后面的算法构架，它的复杂度和那些用公开的数据和算法的公司相比，完全不在一个等级。<br/></p><p>但这个最初只有一人的团队，全凭一腔热血，克服重重困难，仅仅花了5个月的时间，就拿出了一份像样的成绩单——<br/></p><p>研发期间，百度团队将实体机送至驻场在北京同仁医院的国家防盲办，让专家们进行检测。结果显示，它的灵敏性和特异性都达到94%，已经超过大多数阅片医生，接近三甲医院主任医师的水平。 <br/></p><p style="text-align: center;"><span style="color: rgb(0, 112, 192);"><strong>4</strong></span></p><p>何主任是第一批体验「百度灵医」团队成果的基层医生。<br/></p><p>至今为止，百度 AI 眼底筛查一体机到德庆县人民医院“上岗”已有三个多月，平均每天都要“服务”几十位前来就诊的眼疾患者。<br/></p><p>“这台机器太方便了。”去德庆医院拜访何主任时，他正在用眼底相机给一位老奶奶做筛查，示意要稍等一会儿。本以为要等个十来分钟，没想到一分钟后就完成了检查。<br/></p><p><img src="http://static.home.baidu.com/homebd/bdafnhlmcekijg1551445712.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-03-01T13%3A08%3A32Z%2F-1%2F%2F589a850fd72e922eecdc8dc7354f2ab83273799df64d175bde6d22b3114aff53" title="1551445712156481.jpg" alt="image013.jpg"/></p><p>“以前看一个病人差不多要半个钟头，因为做眼底检查前，需要起码20分钟的散瞳过程。但百度这台机器不需要散瞳，筛查时间缩短了很多，病人不用等那么久，医生也没那么辛苦了。” <br/></p><p>他还表示，有了人工智能自动分析眼底影像的技术能力，10秒钟就能自动输出诊断结果，大大提升了医生们的工作效率，“因为便捷准确，病人接受程度很高。”<br/></p><p>何主任不善言辞，说到这里有些激动，当被问及这台机器如何智能时，他能想到的唯一类比是「智能手机」——“全自动的，不用手工操作，在屏幕上点几下就能对焦、拍照、自动分析、出图文报告。”<br/></p><p><img src="http://static.home.baidu.com/homebd/efghjndbcimalk1551445717.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-03-01T13%3A08%3A38Z%2F-1%2F%2F256a6d4b1d396525116bd7d348932681a82f701c1c602bb517e628327023e2ea" title="1551445717918894.jpg" alt="image014.jpg"/></p><p>这也是「百度灵医」团队早有准备的功能：如果一台机器到了基层，却还是只能为专业医生所用，那从根本上还是没有解决基层医生匮乏的问题。<br/></p><p>于是，百度的工程师们特意将 AI 眼底筛查一体机改造成了能进行“傻瓜式操作”的机器。</p><p>它不需要医生在旁协助，即使没有医学背景，经过几分钟培训就可以上手，操作非常简便，极大程度弥补了基层医疗力量的不足。<br/></p><p>工程师们还将 AI 阅片程序与设备直接在本地端相连，无需联网也能得出阅片报告，让没有网络条件的基层医疗机构也能使用百度的 AI 眼底筛查一体机。</p><p><img src="http://static.home.baidu.com/homebd/leachmkdjgbfni1551445726.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-03-01T13%3A08%3A46Z%2F-1%2F%2F123ae75c3a8a8bca139b67dd048c142d6fd968255df6b6cdf00ad79f629b97b2" title="1551445726191718.jpg" alt="image015.jpg"/></p><p> 在一项 AI 技术的首次落地应用中，这样的细节考虑甚至有些过于“周到”，但这也正体现了「百度灵医」在 AI 医疗领域踏实落地的决心。<br/></p><p>而现实的案例也证明了这种决心的可行性：在义诊现场，2名糖尿病患者被百度 AI 眼底筛查一体机筛查出疑似糖尿病视网膜病变，并最终被现场专家确诊。<br/></p><p style="text-align: center;"><span style="color: rgb(0, 112, 192);"><strong>5</strong></span><br/></p><p>像德庆县的这种机器，目前在整个肇庆市已经有4台。预计到3月底，这个数字在广东省范围内将会增加到14台。<br/></p><p>据统计，我国糖尿病患者数量约1.1亿人，其中约2700万患者会出现糖网，早期发现和干预将会避免这些病人失明，如果到了中后期出现大片出血和网脱，即使做手术也要丧失视力。<br/></p><p><img src="http://static.home.baidu.com/homebd/bijhdlngfekmca1551445744.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-03-01T13%3A09%3A05Z%2F-1%2F%2Ffebf50affab4a2edbad065898506dbac5182ec499ddf8bb5cf85b3103e072db3" title="1551445744508001.jpg" alt="image016.jpg"/></p><p>我国还有1600万青光眼患者，致盲率约30%。白内障患者通过手术植入人工晶体可以复明，但青光眼则是不可逆的，后期再怎么做手术和用药，视力都不能恢复。<br/></p><p>我国正在步入老龄化社会，黄斑病变是老年人最具代表性的眼疾，目前患者已经超过3000万，致盲率接近40%。<br/></p><p>糖网、青光眼和黄斑病变，是中国发病人群最多、对视力损害严重，需要早期发现、早期干预、早期介入的三种眼疾，百度 AI 眼底筛查一体机针对的就是这些疾病的前期筛查。<br/></p><p>但此前，很多人都忽视了我国存在的这个数量巨大、致盲风险极高的眼底病患者群体。即使患者本身，大多数早期也不知道自己已经患病，错过了最佳治疗时期。<br/></p><p><img src="http://static.home.baidu.com/homebd/jgbmhlfincekad1551445753.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-03-01T13%3A09%3A14Z%2F-1%2F%2F5687468d1e17668a514453e07d9f31353a854febfd6f3200fa2e5421035fe250" title="1551445753459682.jpg" alt="image017.jpg"/></p><p>百度的 AI 眼底筛查一体机，正在开始改变这种现状。“我们国家有4.4亿的病患人群需要进行眼底疾病的筛查，但以前并没有很好的设备来进行操作。现在，更多患者能在初期就得到眼底筛查的机会，提前避免致盲。”「百度灵医」医疗影像产品负责人王冰说。<br/></p><p><img src="http://static.home.baidu.com/homebd/ilegcakdfbjnmh1551445762.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-03-01T13%3A09%3A22Z%2F-1%2F%2F5ebddc6c48ac0e737087f6ad0899f762a60b272fa29498f25a92a6495bdb461b" title="1551445762549640.jpg" alt="image018.jpg"/> 这种改变，从广东肇庆开始生根发芽。“肇庆是广东的缩影，广东是全国的缩影。肇庆属于国家重点开发地区，但是也有像德庆、封开这样的贫困地区；广东有非常发达的珠三角地区，也有非常贫困的粤北、粤东、粤西地区。而中国的情况与广东、肇庆都十分类似。”袁进教授说，“ AI 在医学上的落地，我们想把肇庆模式做成广东模式，把广东模式做成中国模式。”<br/></p><p><img src="http://static.home.baidu.com/homebd/gelhkbimafcnjd1551445769.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2019-03-01T13%3A09%3A29Z%2F-1%2F%2Fef0796cafef1b41a0e31b24be23989c3f7892798568a1f69cb3866397ca38045" title="1551445769189619.jpg" alt="image019.jpg"/></p><p>（参与义诊的万医生对 AI 医疗抱有极大的期待）<br/></p><p>在不同层级、不同地区，AI 的介入会给当地医疗、诊疗生态带来怎样的变化，现在仍是一个未知的答案。但可以肯定的是，百度 AI 眼底筛查一体机会在这个过程中不断“打怪升级”，完善诊断系统，扩大筛查范围，形成新的飞跃。<br/></p><p>未来，「百度灵医」还将孵化出更多产品，通过 AI 技术将最顶级的医疗水平带到基层，让更多患者对自己的病情早发现、早治疗，真正做到“大病不出县”。 <br/></p><p>希望今后，德庆县的陈阿婆在眼睛不舒服的时候，首先想到的是“拍一拍”，而不再是“忍一忍”了。</p>        </div>
+      </div>
+    </div>
+    <div class="full-section bottom-section">
+  <div class="section">
+    <div class="bd-home-bottom">
+      <div class="bd-bottom-share">
+        <span>实时资讯请关注：</span>
+
+
+        <div class="share-wechat">
+                    <img src="http://static.home.baidu.com/homebd/canbfldghejikm1496932813.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A40%3A14Z%2F-1%2F%2Fa795f1f97d12e2a8c9da9862672bd4fec4a887237ec8883e8a3974e9a52b3624" class="share-wechat-img" alt="">
+                    <img src="http://static.home.baidu.com/homebd/djkgaclebfhnim1496932814.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A40%3A14Z%2F-1%2F%2F9dfa094e984958f1fefb4c3a95b5f8da3e60c759c30442b2479559bfbcdacf2c" class="share-wechat-qrcode">
+                  </div>
+                        <a href="http://weibo.com/baiduguanfang?refer_flag=1001030101_&amp;is_hot=1" target="_blank">
+                  <img src="http://static.home.baidu.com/homebd/fnejlmkaghcdib1496932842.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A40%3A43Z%2F-1%2F%2F5907b18db08f16dba8613f5117fa9c699a09ac79273e32ef0a1f114b7bdd6e55" alt="">
+                </a>                <a href="https://www.facebook.com/BaiduIncorporated" target="_blank">
+                  <img src="http://static.home.baidu.com/homebd/ldmfajnhcbkegi1496932864.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A41%3A05Z%2F-1%2F%2F2a180dd88df9a8a7af776fd7239773fab056d1af32cf701e234f5664133a559b" alt="">
+                </a>                <a href="https://twitter.com/Baidu_Inc" target="_blank">
+                  <img src="http://static.home.baidu.com/homebd/ldgjhfknbaicem1496932883.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A41%3A23Z%2F-1%2F%2F9ec183749754c187c58c2d5b66a8d2f4bd59f6258188aae327addba639a1631d" alt="">
+                </a>
+      </div>
+
+      <div class="bd-bottom-moremsg">
+        <div class="bd-more-msg">更多信息</div>
+        <a href="http://csr.baidu.com/" class="bd-more-duty bottom-cooperation" target="_blank">社会责任</a><a href="http://home.baidu.com/home/index/contact_us" class="bd-more-duty bottom-cooperation" target="_blank">联系我们</a>      </div><div class="bd-bottom-moremsg">
+        <div class="bd-more-msg">商业合作</div>
+        <a href="http://union.baidu.com/customerLogin.html?fromu=http%3A%2F%2Funion.baidu.com%2F" class="bd-more-duty bottom-cooperation" target="_blank">百度联盟</a><a href="http://e.baidu.com/?subsite=bj" class="bd-more-duty bottom-cooperation" target="_blank">百度推广</a><a href="http://pro.baidu.com/" class="bd-more-duty bottom-cooperation" target="_blank">营销中心</a>      </div><div class="bd-bottom-moremsg">
+        <div class="bd-more-msg">更多资源</div>
+        <a href="http://home.baidu.com/media_resource/" class="bd-more-duty bottom-cooperation" target="_blank">媒体资源库</a>      </div>      <div class="bd-bottom-icp">&copy; Baidu <a href="//www.baidu.com/duty/" target="_blank">使用百度前必读</a> 京ICP证030173号</div>
+    </div>
+  </div>
+</div>
+
+<div class="return-top">
+  <img src="/Public/img/return-top.png?v=12" alt="" class="return-img">
+</div>
+<div class="pc-return">
+  <img src="/Public/img/pc-backtop.png?v=12" alt="" class="pc-return-img">
+</div>
+<div class="mobile-bd-home-bottom">
+  <div class="bd-bottom-share">
+    <span>实时资讯请关注：</span>
+
+
+
+    <div class="share-wechat">
+                <img src="http://static.home.baidu.com/homebd/canbfldghejikm1496932813.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A40%3A14Z%2F-1%2F%2Fa795f1f97d12e2a8c9da9862672bd4fec4a887237ec8883e8a3974e9a52b3624" class="share-wechat-img" alt="">
+                <img src="http://static.home.baidu.com/homebd/djkgaclebfhnim1496932814.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A40%3A14Z%2F-1%2F%2F9dfa094e984958f1fefb4c3a95b5f8da3e60c759c30442b2479559bfbcdacf2c" class="m-share-wechat-qrcode">
+              </div>
+                     <a href="http://weibo.com/baiduguanfang?refer_flag=1001030101_&amp;is_hot=1" target="_blank">
+              <img src="http://static.home.baidu.com/homebd/fnejlmkaghcdib1496932842.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A40%3A43Z%2F-1%2F%2F5907b18db08f16dba8613f5117fa9c699a09ac79273e32ef0a1f114b7bdd6e55" alt="">
+            </a>           <a href="https://www.facebook.com/BaiduIncorporated" target="_blank">
+              <img src="http://static.home.baidu.com/homebd/ldmfajnhcbkegi1496932864.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A41%3A05Z%2F-1%2F%2F2a180dd88df9a8a7af776fd7239773fab056d1af32cf701e234f5664133a559b" alt="">
+            </a>           <a href="https://twitter.com/Baidu_Inc" target="_blank">
+              <img src="http://static.home.baidu.com/homebd/ldgjhfknbaicem1496932883.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A41%3A23Z%2F-1%2F%2F9ec183749754c187c58c2d5b66a8d2f4bd59f6258188aae327addba639a1631d" alt="">
+            </a>
+  </div>
+  <div class="mobile-flex">
+    <div class="mobile-bd-bottom-moremsg mobile-flex-box">
+           <div class="mobile-bd-bottom-content">公司介绍<img src="/Public/img/mobile-arrow-up.png?v=12" class="mobile-arrow-up"><img src="/Public/img/mobile-arrow-down.png?v=12" class="mobile-arrow-down"></div>
+           <ul class="mobile-bd-detail">
+            <li><a href="http://home.baidu.com/home/index/company_culture" target="_blank">核心价值观</a></li><li><a href="http://home.baidu.com/home/index/company" target="_blank">百度简介</a></li><li><a href="http://home.baidu.com/home/index/baidu_road" target="_blank">百度大事记</a></li><li><a href="http://home.baidu.com/home/index/management_team" target="_blank">管理团队</a></li>        </ul>
+      </div><div class="mobile-bd-bottom-moremsg mobile-flex-box">
+           <div class="mobile-bd-bottom-content">更多信息<img src="/Public/img/mobile-arrow-up.png?v=12" class="mobile-arrow-up"><img src="/Public/img/mobile-arrow-down.png?v=12" class="mobile-arrow-down"></div>
+           <ul class="mobile-bd-detail">
+            <li><a href="http://csr.baidu.com/" target="_blank">社会责任</a></li><li><a href="http://home.baidu.com/home/index/contact_us" target="_blank">联系我们</a></li>        </ul>
+      </div><div class="mobile-bd-bottom-moremsg mobile-flex-box">
+           <div class="mobile-bd-bottom-content">商业合作<img src="/Public/img/mobile-arrow-up.png?v=12" class="mobile-arrow-up"><img src="/Public/img/mobile-arrow-down.png?v=12" class="mobile-arrow-down"></div>
+           <ul class="mobile-bd-detail">
+            <li><a href="http://e.baidu.com/?subsite=bj" target="_blank">百度推广</a></li><li><a href="http://union.baidu.com/customerLogin.html?fromu=http%3A%2F%2Funion.baidu.com%2F" target="_blank">百度联盟</a></li><li><a href="http://pro.baidu.com/" target="_blank">营销中心</a></li>        </ul>
+      </div>
+  </div>
+  <div class="mobile-bd-bottom-icp">&copy; Baidu <a href="//www.baidu.com/duty/" target="_blank">使用百度前必读</a> 京ICP证030173号</div>
+</div>
+<div class="loading"></div>
+
+  </div>
+</body>
+<script src="/Public/js/lib/jquery.min.js?v=16"></script>
+<script src="/Public/js/rem.min.js?v=16"></script>
+<script src="/Public/js/lib/bootstrap.min.js?v=16"></script>
+<script src="/Public/js/lib/snap.svg-min.js?v=16"></script>
+<script src="/Public/js/lib/mustache.min.js?v=16"></script>
+<!-- <script src="/Public/js/scroll.js"></script> -->
+<script src="/Public/js/common.js?v=16"></script>
+<script>
+var width = $(window).width();
+if (width > 768) {
+  window._hmt && window._hmt.push(['_trackEvent', '入口统计','pc端']);
+  var height = $(window).height();
+  $(window).scroll(function() {
+    var top = $(window).scrollTop();
+    if (top > height) {
+      $(".pc-return").show();
+    } else {
+      $(".pc-return").hide();
+    }
+  });
+  $("body").on("click", ".pc-return", function() {
+    $('body,html').animate({
+      scrollTop: 0
+    }, 300);
+  });
+} else {
+  window._hmt && window._hmt.push(['_trackEvent', '入口统计','手机端']);
+  $(".main").on("click", ".return-img", function() {
+    $('body,html').animate({
+      scrollTop: 0
+    }, 300);
+  });
+}
+</script>
+<script type="text/javascript">
+var GV = {
+  ROOT: "/",
+};
+</script>
+
+<script src="/Public/js/slick.min.js?v=12"></script>
+<script>
+$(function() {
+   $('.edui-upload-video').attr('preload',true);
+});
+
+$('.pic-slick').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      asNavFor: '.pic-slick-nav'
+      // autoplay: true,
+      // autoplaySpeed: 2000,
+    });
+  $('.pic-slick-nav').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      asNavFor: '.pic-slick'
+      // autoplay: true,
+      // autoplaySpeed: 2000,
+    });
+
+
+    $('.pic-left-arrow').click(function(){
+      $('.pic-slick').slick('slickPrev');
+    });
+    $('.pic-right-arrow').click(function(){
+      $('.pic-slick').slick('slickNext');
+    });
+
+    // 移动端
+    $('.m-pic-slick').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      asNavFor: '.m-pic-slick-nav'
+      // autoplay: true,
+      // autoplaySpeed: 2000,
+    });
+    $('.m-pic-slick-nav').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      asNavFor: '.m-pic-slick'
+      // autoplay: true,
+      // autoplaySpeed: 2000,
+    });
+
+    $('.m-pic-left-arrow').click(function(){
+      $('.m-pic-slick').slick('slickPrev');
+    });
+    $('.m-pic-right-arrow').click(function(){
+      $('.m-pic-slick').slick('slickNext');
+    });
+
+    $('.bd-content-slick ').hover(function(){
+      $('.pic-arrow').show();
+    },function(){
+      $('.pic-arrow').hide();
+    });
+</script>
+
+</html>

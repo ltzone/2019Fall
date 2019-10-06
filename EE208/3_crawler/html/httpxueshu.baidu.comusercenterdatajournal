@@ -34,7 +34,7 @@
     <link rel="icon" sizes="any" mask href="//www.baidu.com/img/baidu.svg">
 
     <script src="https://ts.bdimg.com/libs/blueimp-md5/1-0-1/md5.min.js"></script>
-    <script>var token = '92a45f9687ceb88c72ad94634ff3a55f897d0605dd0a8b6e68ed862d64ee6172'</script>
+    <script>var token = '76fb8fa5ccba1cb455e3d78637813403e3136da61657f945fa7def55a89746c4'</script>
     <title>百度学术-期刊</title>
 
     
@@ -50,7 +50,7 @@ var bds = {
     //js通用数据
     comm : {
         gj: '1',
-        qid:'3912489535',
+        qid:'2247428278',
         bsToken: 'the fisrt two args should be string type:0,1!',
         entity_id: '',
         mergeAuthorId: '',
@@ -237,9 +237,9 @@ var get = function(url) {
         <script type="text/javascript">
 bds = bds || {};
 bds.cf = {};
-bds.cf.ts = "1570343593";
-bds.cf.token = "92a45f9687ceb88c72ad94634ff3a55f897d0605dd0a8b6e68ed862d64ee6172";
-bds.cf.sign = "ebf5f7c1983e87cb6d93529ac65ac4a6";
+bds.cf.ts = "1570369892";
+bds.cf.token = "76fb8fa5ccba1cb455e3d78637813403e3136da61657f945fa7def55a89746c4";
+bds.cf.sign = "b3f6f34baddd18be90d2034ab2093977";
 
 function getCfStr() {
     var ts = parseInt(new Date / 1000, 10);

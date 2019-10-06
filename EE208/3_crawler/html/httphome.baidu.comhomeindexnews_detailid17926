@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="baidu-site-verification" content="m1imKvW1HK" />
+  <link rel="shortcut icon" href="/Public/img/favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no" />
+<!-- 删除默认的苹果工具栏和菜单栏 ： 即启用 WebApp 全屏模式  -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!-- 在web app应用下状态条（屏幕顶部条）的颜色；默认值为default（白色），可以定为black（黑色）和black-translucent（灰色半透明）若值为“black-translucent”将会占据页面px位置，浮在页面上方（会覆盖页面20px高度–iphone4和itouch4的Retina屏幕为40px）。 -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<!-- 忽略数字自动识别为电话号码 ,忽略识别邮箱 -->
+<meta name="format-detection" content="telephone=no, email=no" />
+<!-- 启用360浏览器的极速模式(webkit) -->
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- uc强制竖屏 -->
+<meta name="screen-orientation" content="portrait" />
+<!-- QQ强制竖屏 -->
+<meta name="x5-orientation" content="portrait">
+<!-- UC强制全屏 -->
+<meta name="full-screen" content="true" />
+<!-- QQ强制全屏 -->
+<meta name="x5-fullscreen" content="true" />
+<!-- 360强制全屏 -->
+<meta name="360-fullscreen" content="true" />
+<!-- 站内搜索站点验证 -->
+<meta name="baidu-site-verification" content="m1imKvW1HK" />
+<link rel="shortcut icon" href="/Public/img/favicon.ico" type="image/x-icon">
+<script src="/Public/js/fontbase.js?v=12"></script>
+<link href="/Public/css/lib/bootstrap.min.css?v=14" rel="stylesheet">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<link rel="stylesheet" href="/Public/css/common.css?v=16">
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fb9a77820b2fa17d7223b50a01ab1aa7a' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+  <link rel="stylesheet" href="/Public/css/slick.css?v=13">
+  <link rel="stylesheet" href="/Public/css/slick-theme.css?v=13">
+  <link rel="stylesheet" href="/Public/css/newsDetail.css?v=20">
+  <title>新闻动态</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="bd-content-nav nav-show J-bd-nav">
+  <div class="section nav-section">
+    <div class="nav-box">
+      <div class="row">
+        <div class="col-sm-2 col-xs-12">
+          <a href="/home/index">
+            <img src="/Public/img/logo.png?v=15" alt="" class="logo">
+          </a>
+        </div>
+        <div class="col-sm-10 col-xs-12">
+          <ul class="bd-nav">
+            <li class="nav-bd-link active"><a href="/home/index" target="_blank">关于百度</a></li>
+            <li class="nav-bd-link"><a href="//www.baidu.com/more/" target="_blank">关于产品</a></li>
+            <li class="nav-bd-link"><a href="/home/index/join_us" target="_blank">加入我们</a></li>
+            <li class="nav-bd-link"><a href="/home/index/contact_us" target="_blank">联系我们</a></li>
+            <div class="sideline"></div>
+          </ul>
+        </div>
+        <div class="bd-content-fun">
+          <div class="home-div">
+            <span class="cn-home-link">中文</span>|
+            <a href="//ir.baidu.com/phoenix.zhtml?c=188488&p=irol-irhome" class="en-home-link" target="_blank">EN</a>
+          </div>
+          <script type="text/javascript">(function(){document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E'));var bdcs = document.createElement('script');bdcs.type = 'text/javascript';bdcs.async = true;bdcs.src = 'http://znsv.baidu.com/customer_search/api/js?sid=6706059176758103565' + '&plate_url=' + encodeURIComponent(window.location.href) + '&t=' + Math.ceil(new Date()/3600000);var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bdcs, s);})();</script>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="h5-nav-bar J-bd-nav">
+  <!-- <div class="h5-nav-search-btn"></div> -->
+  <div class="logo-box">
+    <img src="/Public/img/logo.png?v=15" alt="" class="h5-nav-logo">
+  </div>
+  <svg id="list" class="h5-nav-toggle-box" width="44" height="44" viewBox="0, 0, 44, 44"></svg>
+  <div class="h5-nav-list">
+    <a href="/home/index" class="h5-nav h5-active" target="_blank">关于百度</a>
+    <a href="//www.baidu.com/more/" class="h5-nav" target="_blank">关于产品</a>
+    <a href="/home/index/join_us" class="h5-nav" target="_blank">加入我们</a>
+    <a href="/home/index/contact_us" class="h5-nav" target="_blank">联系我们</a>
+    <a href="//ir.baidu.com/phoenix.zhtml?c=188488&p=irol-irhome" class="h5-nav" target="_blank">ENGLISH</a>
+  </div>
+</div>
+<div class="h5-nav-mask"></div>
+
+    <div class="main-body"></div>
+    <div class="new">新闻动态</div>
+    <div class="content">
+      <div class="news-detail row">
+        <div class="news-title col-xs-11 col-md-11">百度发布信息安全治理半年报：上半年处理312.5亿条有害信息</div>
+        <div class="news-date-box visible-md visible-lg col-md-1">
+          <span class="date-item news-date-day">11</span>
+          <div class="date-bottom">
+            <span class="date-item news-date-month">07月</span>
+            <span class="date-item news-date-year">2019</span>
+          </div>
+        </div>
+        <div class="news-date-mol visible-xs-block">2019-07-11</div>
+                <div class="news-content news-oth-content col-md-11">
+          <p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">互联网的飞速发展带来了丰富的信息，同时也让网络环境日益复杂。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">为网民安全上网保驾护航，是百度的长期责任所在。此前，百度就5月份的信息安全治理成果，发布了《百度信息安全综合治理月报》</span><a href="http://news.family.baidu.com/newsDetail?articleId=201747" target="_blank"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"></span></a><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">近日，百度发布了2019年上半年《百度信息安全综合治理报告》。我们将这半年来信息安全治理的阶段性成果，向大家做个汇报。</span></p><p style="text-align: left;"><img src="http://file.family.baidu.com/portal-console/5bb828f5-53fc-42b8-aefc-e8aec7fcffed_1562833079340.png" title="1.png" alt="1.png" style="width: 400px; height: 86px;" width="400" vspace="0" height="86" border="0"/></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">2019年上半年，百度内容安全中心通过全方面手段处置有害信息共312.5亿条，包括淫秽色情类、毒品类、赌博类、诈骗类、侵权类等11类。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">我们主要通过三种手段来处理有害信息。</span></p><p style="text-align: left;"><img src="http://file.family.baidu.com/portal-console/fe5df7b6-50c6-4192-bd49-3da4c27dc7b8_1562833191439.png" title="2.png" alt="2.png" style="width: 400px; height: 53px;" width="400" vspace="0" height="53" border="0"/></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">第一关卡是技术干预。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">今年上半年，百度利用 AI 人工智能技术清理有害图片、文字、视频、音频等共计312.2余亿条，约占上半年清理的有害信息总量的99.9%。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">其中，淫秽色情类信息是重点打击对象，占比46.97%，其后依次是赌博类、制假贩假类，分别占拦截总量的37.92%、2.93%。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"><img src="http://file.family.baidu.com/portal-console/280fbe97-f883-45fe-820c-ef10f7fedd4b_1562833225712.jpg" title="3.jpg" alt="3.jpg" style="width: 600px; height: 422px;" width="600" vspace="0" height="422" border="0"/></span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"><img src="http://file.family.baidu.com/portal-console/ca8568eb-d600-4de9-a9f7-627a2c77be78_1562833319620.png" title="4.png" alt="4.png" style="width: 400px; height: 52px;" width="400" vspace="0" height="52" border="0"/></span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">第二重关卡是自主巡查，它是更加细致的人工干预手段。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">今年上半年，百度通过自主巡查共处置有害信息3439余万条。淫秽色情类信息仍是主要的清理对象，占全年有害信息清理量的58.87%；其次为赌博类、侵权类，分别占清理总量的24.35%、6.86%。</span></p><p style="text-align: left;"><img src="http://file.family.baidu.com/portal-console/ad38afe0-4cef-48d4-b436-c79ece9d3af7_1562833264236.jpg" title="5.jpg" alt="5.jpg" style="width: 600px; height: 411px;" width="600" vspace="0" height="411" border="0"/></p><p><br/></p><p style="text-align: left;"><img src="http://file.family.baidu.com/portal-console/cfef82e6-8075-4177-a91e-b9eef55717f2_1562833354859.png" title="6.png" alt="6.png" style="width: 400px; height: 53px;" width="400" vspace="0" height="53" border="0"/></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">除了以上两种手段，我们也在全产品范围内开放了多种渠道，以接入来自个人、企业、政府职能部门等第三方帮助的反馈。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">2019年上半年共接收第三方反馈的有效举报为137余万条，其中各类有害信息分布情况如下。</span></p><p><br/></p><p style="text-align: left;"><img src="http://file.family.baidu.com/portal-console/5e7ea1fc-9f76-46a4-b977-b095eeec7064_1562833388343.jpg" title="7.jpg" alt="7.jpg" style="width: 600px; height: 366px;" width="600" vspace="0" height="366" border="0"/></p><p><br/></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"></span><img src="http://file.family.baidu.com/portal-console/505dfd5c-5bf5-4a82-bdbe-c5a9bb1cf1e6_1562833412498.png" title="8.png" alt="8.png" style="width: 400px; height: 85px;" width="400" vspace="0" height="85" border="0"/></p><p style="text-align: left;"><img src="http://file.family.baidu.com/portal-console/a03fbad7-ee58-4ea6-96ef-37d267599692_1562833435227.png" title="9.png" alt="9.png" style="width: 400px; height: 54px;" width="400" vspace="0" height="54" border="0"/></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">今年1月初，百度内容安全中心全面开展了“网络生态治理2019”专项工作，进一步细化有害类别、提升打击能力、扩大覆盖范围，牢筑网络安全屏障。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">除了传统的屏蔽、清理技术外，此次专项还引入了多种 AI 智能识别技术，比如自然语言甄别、音视频智能识别、内容智能挖掘等，穷尽一切手段阻断有害信息的产生、传播。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">这次工作中，百度打击了数亿条有害信息，同时强化溯源能力，从源头彻底消灭有害信息。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"><img src="http://file.family.baidu.com/portal-console/5e77d173-22ef-4d7e-abfc-208105bf7d7b_1562833506176.png" title="10.png" alt="10.png" style="width: 300px; height: 47px;" width="300" vspace="0" height="47" border="0"/></span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">为了维护互联网空间的秩序，我们在今年4月开展了剑网2019”专项清理工作，集中治理网络侵权问题。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">这次专项重点进行了四方面的整治：</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">o严打未经授权转载主流媒体新闻作品的侵权行为，严厉查处通过“标题党”“洗稿”方式剽窃、篡改、删减主流媒体新闻作品的行为。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">o严打影院偷拍盗录及通过网络分享盗版影视作品的行为。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">o对短视频、知识分享、网络直播等平台进行版权化治理。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">o上线“剑网2019”等侵权保护的正向公告。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">专项期间，百度共打击侵权、盗版等有害信息近90万条。</span></p><p style="text-align: left;"><img src="http://file.family.baidu.com/portal-console/ec567883-17c8-48d3-85fc-4a6fcaf0cbbc_1562833647346.png" title="11.png" alt="11.png" style="width: 300px; height: 47px;" width="300" vspace="0" height="47" border="0"/></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">为了保护少年儿童健康成长，我们在今年开展的“护苗2019”专项中做出了更多努力。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">专项期间，百度共打击涉未成年人有害信息3000余万条。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">此外，我们将现在的部分工作重点转移到了挖掘、梳理涉及儿童的色情信息上。对此，百度贴吧、网盘等产品主动提供线索、主动报案，积极配合北京属地公安机关打击涉儿童色情案件。</span></p><p style="text-align: left;"><img src="http://file.family.baidu.com/portal-console/fc9e6c27-80ae-4f49-a031-c3f3d1c89c96_1562834132984.png" title="12.png" alt="12.png" style="width: 300px; height: 41px;" width="300" vspace="0" height="41" border="0"/></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">为了全方位、多领域地打击有害信息，百度与北京属地公安机关在线索摸排上建立了长期合作。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">从2019年1月至今，百度内容安全中心配置专人7*24小时在线摸排，提供色情淫秽、赌博、制假贩假等各类有害线索50余万条；同时提供网络中的自杀线索近百余条。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">不论是封堵有害信息还是保护部分人群，我们都全力支持、积极配合。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"></span><img src="http://file.family.baidu.com/portal-console/eef6fdda-22a3-44dd-9291-5740341fc899_1562833779944.png" title="13.png" alt="13.png" style="width: 400px; height: 86px;" width="400" vspace="0" height="86" border="0"/></p><p style="text-align: left;"><img src="http://file.family.baidu.com/portal-console/1d1f9eb5-76af-44f3-9bb3-cbcba66a011f_1562833821057.png" title="14.png" alt="14.png" style="width: 260px; height: 56px;" width="260" vspace="0" height="56" border="0"/><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"></span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">为了避免用户遭遇恶性欺诈，我们在百度搜索上线了“便民寻址”项目。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">在外部合作方面，百度联合公安部接入29省公检法数据，筛选出省市级公检法单位官方联系方式400余条。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">在内部工作上，我们整合了内部资源，为社会公共服务部门官网增加“官网蓝色加V认证”标识。认证标识覆盖公积金类1300余个；社保类1800余个。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"><img src="http://file.family.baidu.com/portal-console/9062f465-42e4-430a-89c2-45642e1dc361_1562834176785.png" title="15.png" alt="15.png" style="width: 600px; height: 181px;" width="600" vspace="0" height="181" border="0"/></span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">(百度搜索中“成都公积金”的官网标识)</span></p><p style="text-align: left;"><img src="http://file.family.baidu.com/portal-console/39e701aa-08b0-40ea-a4bc-db0afbd3a44e_1562834226026.jpg" title="16.jpg" alt="16.jpg" style="width: 600px; height: 217px;" width="600" vspace="0" height="217" border="0"/></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">(百度搜索中“安徽海关客服”的官网标识)</span></p><p><br/></p><p style="text-align: left;"><img src="http://file.family.baidu.com/portal-console/c5ce1d35-6c2e-4498-88ec-6acf65616e1c_1562834307121.png" title="17.png" alt="17.png" style="width: 300px; height: 55px;" width="300" vspace="0" height="55" border="0"/></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">2017年至今，每年群众被骗取的经济损失高达百亿元，其中电话诈骗占一半以上。打击电信诈骗、保护民众的财产安全势在必行。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">今年1月起，百度启动“电信诈骗预警”项目。项目首批已与广东警方合作，引入广东公安诈骗电话库4万号码，并在百度搜索中上线预警卡片，防止用户受骗。这次卡片上线可降低4万人次用户的受骗概率。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">接下来，百度还将与公安部及各省警方合作，全面引入反欺诈号码库。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"></span><img src="http://file.family.baidu.com/portal-console/b478943a-72db-4f83-b143-7d2b13d7bf5a_1562834340682.jpg" title="18.jpg" alt="18.jpg" style="width: 600px; height: 206px;" width="600" vspace="0" height="206" border="0"/></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">(百度搜索的诈骗电话识别卡片)</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">目前，伴随着 AI 人工智能技术的运用，百度在网络内容安全领域取得了一些成果。但这条道路依旧漫长。未来，我们将更智能和精准地打击有害信息，守护网络安全。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">如果大家在上网过程中发现任何非法、虚假和有害信息，都可以根据百度举报平台（<a href="http://jubao.baidu.com" target="_blank">http://jubao.baidu.com</a>）的提示进行举报。我们将在第一时间进行核实处理。<br/></span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">让我们共同营造更加安全健康的网络环境！<br/></span></p>        </div>
+        <div class="news-footer-page hidden-xs col-xs-12 ">
+          <a class="prev-link" href="">
+          <span class="page-box prev-box">上一篇<span class="page-icon prev-icon"></span></span>
+          </a>
+          <a class="next-link" href=""> <span class="page-box next-box"><span class=
+          "page-icon next-icon"></span>下一篇</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="full-section bottom-section">
+  <div class="section">
+    <div class="bd-home-bottom">
+      <div class="bd-bottom-share">
+        <span>实时资讯请关注：</span>
+
+
+        <div class="share-wechat">
+                    <img src="http://static.home.baidu.com/homebd/canbfldghejikm1496932813.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A40%3A14Z%2F-1%2F%2Fa795f1f97d12e2a8c9da9862672bd4fec4a887237ec8883e8a3974e9a52b3624" class="share-wechat-img" alt="">
+                    <img src="http://static.home.baidu.com/homebd/djkgaclebfhnim1496932814.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A40%3A14Z%2F-1%2F%2F9dfa094e984958f1fefb4c3a95b5f8da3e60c759c30442b2479559bfbcdacf2c" class="share-wechat-qrcode">
+                  </div>
+                        <a href="http://weibo.com/baiduguanfang?refer_flag=1001030101_&amp;is_hot=1" target="_blank">
+                  <img src="http://static.home.baidu.com/homebd/fnejlmkaghcdib1496932842.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A40%3A43Z%2F-1%2F%2F5907b18db08f16dba8613f5117fa9c699a09ac79273e32ef0a1f114b7bdd6e55" alt="">
+                </a>                <a href="https://www.facebook.com/BaiduIncorporated" target="_blank">
+                  <img src="http://static.home.baidu.com/homebd/ldmfajnhcbkegi1496932864.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A41%3A05Z%2F-1%2F%2F2a180dd88df9a8a7af776fd7239773fab056d1af32cf701e234f5664133a559b" alt="">
+                </a>                <a href="https://twitter.com/Baidu_Inc" target="_blank">
+                  <img src="http://static.home.baidu.com/homebd/ldgjhfknbaicem1496932883.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A41%3A23Z%2F-1%2F%2F9ec183749754c187c58c2d5b66a8d2f4bd59f6258188aae327addba639a1631d" alt="">
+                </a>
+      </div>
+
+      <div class="bd-bottom-moremsg">
+        <div class="bd-more-msg">更多信息</div>
+        <a href="http://csr.baidu.com/" class="bd-more-duty bottom-cooperation" target="_blank">社会责任</a><a href="http://home.baidu.com/home/index/contact_us" class="bd-more-duty bottom-cooperation" target="_blank">联系我们</a>      </div><div class="bd-bottom-moremsg">
+        <div class="bd-more-msg">商业合作</div>
+        <a href="http://union.baidu.com/customerLogin.html?fromu=http%3A%2F%2Funion.baidu.com%2F" class="bd-more-duty bottom-cooperation" target="_blank">百度联盟</a><a href="http://e.baidu.com/?subsite=bj" class="bd-more-duty bottom-cooperation" target="_blank">百度推广</a><a href="http://pro.baidu.com/" class="bd-more-duty bottom-cooperation" target="_blank">营销中心</a>      </div><div class="bd-bottom-moremsg">
+        <div class="bd-more-msg">更多资源</div>
+        <a href="http://home.baidu.com/media_resource/" class="bd-more-duty bottom-cooperation" target="_blank">媒体资源库</a>      </div>      <div class="bd-bottom-icp">&copy; Baidu <a href="//www.baidu.com/duty/" target="_blank">使用百度前必读</a> 京ICP证030173号</div>
+    </div>
+  </div>
+</div>
+
+<div class="return-top">
+  <img src="/Public/img/return-top.png?v=12" alt="" class="return-img">
+</div>
+<div class="pc-return">
+  <img src="/Public/img/pc-backtop.png?v=12" alt="" class="pc-return-img">
+</div>
+<div class="mobile-bd-home-bottom">
+  <div class="bd-bottom-share">
+    <span>实时资讯请关注：</span>
+
+
+
+    <div class="share-wechat">
+                <img src="http://static.home.baidu.com/homebd/canbfldghejikm1496932813.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A40%3A14Z%2F-1%2F%2Fa795f1f97d12e2a8c9da9862672bd4fec4a887237ec8883e8a3974e9a52b3624" class="share-wechat-img" alt="">
+                <img src="http://static.home.baidu.com/homebd/djkgaclebfhnim1496932814.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A40%3A14Z%2F-1%2F%2F9dfa094e984958f1fefb4c3a95b5f8da3e60c759c30442b2479559bfbcdacf2c" class="m-share-wechat-qrcode">
+              </div>
+                     <a href="http://weibo.com/baiduguanfang?refer_flag=1001030101_&amp;is_hot=1" target="_blank">
+              <img src="http://static.home.baidu.com/homebd/fnejlmkaghcdib1496932842.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A40%3A43Z%2F-1%2F%2F5907b18db08f16dba8613f5117fa9c699a09ac79273e32ef0a1f114b7bdd6e55" alt="">
+            </a>           <a href="https://www.facebook.com/BaiduIncorporated" target="_blank">
+              <img src="http://static.home.baidu.com/homebd/ldmfajnhcbkegi1496932864.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A41%3A05Z%2F-1%2F%2F2a180dd88df9a8a7af776fd7239773fab056d1af32cf701e234f5664133a559b" alt="">
+            </a>           <a href="https://twitter.com/Baidu_Inc" target="_blank">
+              <img src="http://static.home.baidu.com/homebd/ldgjhfknbaicem1496932883.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A41%3A23Z%2F-1%2F%2F9ec183749754c187c58c2d5b66a8d2f4bd59f6258188aae327addba639a1631d" alt="">
+            </a>
+  </div>
+  <div class="mobile-flex">
+    <div class="mobile-bd-bottom-moremsg mobile-flex-box">
+           <div class="mobile-bd-bottom-content">公司介绍<img src="/Public/img/mobile-arrow-up.png?v=12" class="mobile-arrow-up"><img src="/Public/img/mobile-arrow-down.png?v=12" class="mobile-arrow-down"></div>
+           <ul class="mobile-bd-detail">
+            <li><a href="http://home.baidu.com/home/index/company_culture" target="_blank">核心价值观</a></li><li><a href="http://home.baidu.com/home/index/company" target="_blank">百度简介</a></li><li><a href="http://home.baidu.com/home/index/baidu_road" target="_blank">百度大事记</a></li><li><a href="http://home.baidu.com/home/index/management_team" target="_blank">管理团队</a></li>        </ul>
+      </div><div class="mobile-bd-bottom-moremsg mobile-flex-box">
+           <div class="mobile-bd-bottom-content">更多信息<img src="/Public/img/mobile-arrow-up.png?v=12" class="mobile-arrow-up"><img src="/Public/img/mobile-arrow-down.png?v=12" class="mobile-arrow-down"></div>
+           <ul class="mobile-bd-detail">
+            <li><a href="http://csr.baidu.com/" target="_blank">社会责任</a></li><li><a href="http://home.baidu.com/home/index/contact_us" target="_blank">联系我们</a></li>        </ul>
+      </div><div class="mobile-bd-bottom-moremsg mobile-flex-box">
+           <div class="mobile-bd-bottom-content">商业合作<img src="/Public/img/mobile-arrow-up.png?v=12" class="mobile-arrow-up"><img src="/Public/img/mobile-arrow-down.png?v=12" class="mobile-arrow-down"></div>
+           <ul class="mobile-bd-detail">
+            <li><a href="http://e.baidu.com/?subsite=bj" target="_blank">百度推广</a></li><li><a href="http://union.baidu.com/customerLogin.html?fromu=http%3A%2F%2Funion.baidu.com%2F" target="_blank">百度联盟</a></li><li><a href="http://pro.baidu.com/" target="_blank">营销中心</a></li>        </ul>
+      </div>
+  </div>
+  <div class="mobile-bd-bottom-icp">&copy; Baidu <a href="//www.baidu.com/duty/" target="_blank">使用百度前必读</a> 京ICP证030173号</div>
+</div>
+<div class="loading"></div>
+
+  </div>
+</body>
+<script src="/Public/js/lib/jquery.min.js?v=16"></script>
+<script src="/Public/js/rem.min.js?v=16"></script>
+<script src="/Public/js/lib/bootstrap.min.js?v=16"></script>
+<script src="/Public/js/lib/snap.svg-min.js?v=16"></script>
+<script src="/Public/js/lib/mustache.min.js?v=16"></script>
+<!-- <script src="/Public/js/scroll.js"></script> -->
+<script src="/Public/js/common.js?v=16"></script>
+<script>
+var width = $(window).width();
+if (width > 768) {
+  window._hmt && window._hmt.push(['_trackEvent', '入口统计','pc端']);
+  var height = $(window).height();
+  $(window).scroll(function() {
+    var top = $(window).scrollTop();
+    if (top > height) {
+      $(".pc-return").show();
+    } else {
+      $(".pc-return").hide();
+    }
+  });
+  $("body").on("click", ".pc-return", function() {
+    $('body,html').animate({
+      scrollTop: 0
+    }, 300);
+  });
+} else {
+  window._hmt && window._hmt.push(['_trackEvent', '入口统计','手机端']);
+  $(".main").on("click", ".return-img", function() {
+    $('body,html').animate({
+      scrollTop: 0
+    }, 300);
+  });
+}
+</script>
+<script type="text/javascript">
+var GV = {
+  ROOT: "/",
+};
+</script>
+
+<script src="/Public/js/slick.min.js?v=13"></script>
+<script>
+$(function() {
+  var prev = "17927";
+  var next = "17923";
+  if (prev) {
+    $('.prev-link').attr('href', "/home/index/news_detail/id/" + prev);
+  } else {
+    $('.prev-link').addClass('hide');
+  }
+
+  if (next) {
+    $('.next-link').attr('href', "/home/index/news_detail/id/" + next);
+  } else {
+    $('.next-link').addClass('hide');
+  }
+  // var content = '<p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">互联网的飞速发展带来了丰富的信息，同时也让网络环境日益复杂。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">为网民安全上网保驾护航，是百度的长期责任所在。此前，百度就5月份的信息安全治理成果，发布了《百度信息安全综合治理月报》</span><a href="http://news.family.baidu.com/newsDetail?articleId=201747" target="_blank"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"></span></a><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">近日，百度发布了2019年上半年《百度信息安全综合治理报告》。我们将这半年来信息安全治理的阶段性成果，向大家做个汇报。</span></p><p style="text-align: left;"><img src="http://file.family.baidu.com/portal-console/5bb828f5-53fc-42b8-aefc-e8aec7fcffed_1562833079340.png" title="1.png" alt="1.png" style="width: 400px; height: 86px;" width="400" vspace="0" height="86" border="0"/></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">2019年上半年，百度内容安全中心通过全方面手段处置有害信息共312.5亿条，包括淫秽色情类、毒品类、赌博类、诈骗类、侵权类等11类。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">我们主要通过三种手段来处理有害信息。</span></p><p style="text-align: left;"><img src="http://file.family.baidu.com/portal-console/fe5df7b6-50c6-4192-bd49-3da4c27dc7b8_1562833191439.png" title="2.png" alt="2.png" style="width: 400px; height: 53px;" width="400" vspace="0" height="53" border="0"/></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">第一关卡是技术干预。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">今年上半年，百度利用 AI 人工智能技术清理有害图片、文字、视频、音频等共计312.2余亿条，约占上半年清理的有害信息总量的99.9%。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">其中，淫秽色情类信息是重点打击对象，占比46.97%，其后依次是赌博类、制假贩假类，分别占拦截总量的37.92%、2.93%。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"><img src="http://file.family.baidu.com/portal-console/280fbe97-f883-45fe-820c-ef10f7fedd4b_1562833225712.jpg" title="3.jpg" alt="3.jpg" style="width: 600px; height: 422px;" width="600" vspace="0" height="422" border="0"/></span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"><img src="http://file.family.baidu.com/portal-console/ca8568eb-d600-4de9-a9f7-627a2c77be78_1562833319620.png" title="4.png" alt="4.png" style="width: 400px; height: 52px;" width="400" vspace="0" height="52" border="0"/></span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">第二重关卡是自主巡查，它是更加细致的人工干预手段。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">今年上半年，百度通过自主巡查共处置有害信息3439余万条。淫秽色情类信息仍是主要的清理对象，占全年有害信息清理量的58.87%；其次为赌博类、侵权类，分别占清理总量的24.35%、6.86%。</span></p><p style="text-align: left;"><img src="http://file.family.baidu.com/portal-console/ad38afe0-4cef-48d4-b436-c79ece9d3af7_1562833264236.jpg" title="5.jpg" alt="5.jpg" style="width: 600px; height: 411px;" width="600" vspace="0" height="411" border="0"/></p><p><br/></p><p style="text-align: left;"><img src="http://file.family.baidu.com/portal-console/cfef82e6-8075-4177-a91e-b9eef55717f2_1562833354859.png" title="6.png" alt="6.png" style="width: 400px; height: 53px;" width="400" vspace="0" height="53" border="0"/></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">除了以上两种手段，我们也在全产品范围内开放了多种渠道，以接入来自个人、企业、政府职能部门等第三方帮助的反馈。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">2019年上半年共接收第三方反馈的有效举报为137余万条，其中各类有害信息分布情况如下。</span></p><p><br/></p><p style="text-align: left;"><img src="http://file.family.baidu.com/portal-console/5e7ea1fc-9f76-46a4-b977-b095eeec7064_1562833388343.jpg" title="7.jpg" alt="7.jpg" style="width: 600px; height: 366px;" width="600" vspace="0" height="366" border="0"/></p><p><br/></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"></span><img src="http://file.family.baidu.com/portal-console/505dfd5c-5bf5-4a82-bdbe-c5a9bb1cf1e6_1562833412498.png" title="8.png" alt="8.png" style="width: 400px; height: 85px;" width="400" vspace="0" height="85" border="0"/></p><p style="text-align: left;"><img src="http://file.family.baidu.com/portal-console/a03fbad7-ee58-4ea6-96ef-37d267599692_1562833435227.png" title="9.png" alt="9.png" style="width: 400px; height: 54px;" width="400" vspace="0" height="54" border="0"/></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">今年1月初，百度内容安全中心全面开展了“网络生态治理2019”专项工作，进一步细化有害类别、提升打击能力、扩大覆盖范围，牢筑网络安全屏障。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">除了传统的屏蔽、清理技术外，此次专项还引入了多种 AI 智能识别技术，比如自然语言甄别、音视频智能识别、内容智能挖掘等，穷尽一切手段阻断有害信息的产生、传播。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">这次工作中，百度打击了数亿条有害信息，同时强化溯源能力，从源头彻底消灭有害信息。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"><img src="http://file.family.baidu.com/portal-console/5e77d173-22ef-4d7e-abfc-208105bf7d7b_1562833506176.png" title="10.png" alt="10.png" style="width: 300px; height: 47px;" width="300" vspace="0" height="47" border="0"/></span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">为了维护互联网空间的秩序，我们在今年4月开展了剑网2019”专项清理工作，集中治理网络侵权问题。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">这次专项重点进行了四方面的整治：</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">o严打未经授权转载主流媒体新闻作品的侵权行为，严厉查处通过“标题党”“洗稿”方式剽窃、篡改、删减主流媒体新闻作品的行为。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">o严打影院偷拍盗录及通过网络分享盗版影视作品的行为。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">o对短视频、知识分享、网络直播等平台进行版权化治理。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">o上线“剑网2019”等侵权保护的正向公告。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">专项期间，百度共打击侵权、盗版等有害信息近90万条。</span></p><p style="text-align: left;"><img src="http://file.family.baidu.com/portal-console/ec567883-17c8-48d3-85fc-4a6fcaf0cbbc_1562833647346.png" title="11.png" alt="11.png" style="width: 300px; height: 47px;" width="300" vspace="0" height="47" border="0"/></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">为了保护少年儿童健康成长，我们在今年开展的“护苗2019”专项中做出了更多努力。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">专项期间，百度共打击涉未成年人有害信息3000余万条。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">此外，我们将现在的部分工作重点转移到了挖掘、梳理涉及儿童的色情信息上。对此，百度贴吧、网盘等产品主动提供线索、主动报案，积极配合北京属地公安机关打击涉儿童色情案件。</span></p><p style="text-align: left;"><img src="http://file.family.baidu.com/portal-console/fc9e6c27-80ae-4f49-a031-c3f3d1c89c96_1562834132984.png" title="12.png" alt="12.png" style="width: 300px; height: 41px;" width="300" vspace="0" height="41" border="0"/></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">为了全方位、多领域地打击有害信息，百度与北京属地公安机关在线索摸排上建立了长期合作。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">从2019年1月至今，百度内容安全中心配置专人7*24小时在线摸排，提供色情淫秽、赌博、制假贩假等各类有害线索50余万条；同时提供网络中的自杀线索近百余条。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">不论是封堵有害信息还是保护部分人群，我们都全力支持、积极配合。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"></span><img src="http://file.family.baidu.com/portal-console/eef6fdda-22a3-44dd-9291-5740341fc899_1562833779944.png" title="13.png" alt="13.png" style="width: 400px; height: 86px;" width="400" vspace="0" height="86" border="0"/></p><p style="text-align: left;"><img src="http://file.family.baidu.com/portal-console/1d1f9eb5-76af-44f3-9bb3-cbcba66a011f_1562833821057.png" title="14.png" alt="14.png" style="width: 260px; height: 56px;" width="260" vspace="0" height="56" border="0"/><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"></span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">为了避免用户遭遇恶性欺诈，我们在百度搜索上线了“便民寻址”项目。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">在外部合作方面，百度联合公安部接入29省公检法数据，筛选出省市级公检法单位官方联系方式400余条。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">在内部工作上，我们整合了内部资源，为社会公共服务部门官网增加“官网蓝色加V认证”标识。认证标识覆盖公积金类1300余个；社保类1800余个。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"><img src="http://file.family.baidu.com/portal-console/9062f465-42e4-430a-89c2-45642e1dc361_1562834176785.png" title="15.png" alt="15.png" style="width: 600px; height: 181px;" width="600" vspace="0" height="181" border="0"/></span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">(百度搜索中“成都公积金”的官网标识)</span></p><p style="text-align: left;"><img src="http://file.family.baidu.com/portal-console/39e701aa-08b0-40ea-a4bc-db0afbd3a44e_1562834226026.jpg" title="16.jpg" alt="16.jpg" style="width: 600px; height: 217px;" width="600" vspace="0" height="217" border="0"/></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">(百度搜索中“安徽海关客服”的官网标识)</span></p><p><br/></p><p style="text-align: left;"><img src="http://file.family.baidu.com/portal-console/c5ce1d35-6c2e-4498-88ec-6acf65616e1c_1562834307121.png" title="17.png" alt="17.png" style="width: 300px; height: 55px;" width="300" vspace="0" height="55" border="0"/></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">2017年至今，每年群众被骗取的经济损失高达百亿元，其中电话诈骗占一半以上。打击电信诈骗、保护民众的财产安全势在必行。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">今年1月起，百度启动“电信诈骗预警”项目。项目首批已与广东警方合作，引入广东公安诈骗电话库4万号码，并在百度搜索中上线预警卡片，防止用户受骗。这次卡片上线可降低4万人次用户的受骗概率。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">接下来，百度还将与公安部及各省警方合作，全面引入反欺诈号码库。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"></span><img src="http://file.family.baidu.com/portal-console/b478943a-72db-4f83-b143-7d2b13d7bf5a_1562834340682.jpg" title="18.jpg" alt="18.jpg" style="width: 600px; height: 206px;" width="600" vspace="0" height="206" border="0"/></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">(百度搜索的诈骗电话识别卡片)</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">目前，伴随着 AI 人工智能技术的运用，百度在网络内容安全领域取得了一些成果。但这条道路依旧漫长。未来，我们将更智能和精准地打击有害信息，守护网络安全。</span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">如果大家在上网过程中发现任何非法、虚假和有害信息，都可以根据百度举报平台（<a href="http://jubao.baidu.com" target="_blank">http://jubao.baidu.com</a>）的提示进行举报。我们将在第一时间进行核实处理。<br/></span></p><p style="text-align: left;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">让我们共同营造更加安全健康的网络环境！<br/></span></p>';
+  // var result = content.replace(/style=\".*?\"|width=\".*?\"|height=\".*?\"/g, '');
+  // $('.news-content').html(result);
+
+  // $('.m-bd-slick-box').hide();
+
+    $('.edui-upload-video').attr('preload',true);
+});
+$('.pic-slick').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      asNavFor: '.pic-slick-nav'
+      // autoplay: true,
+      // autoplaySpeed: 2000,
+    });
+  $('.pic-slick-nav').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      asNavFor: '.pic-slick'
+      // autoplay: true,
+      // autoplaySpeed: 2000,
+    });
+
+
+    $('.pic-left-arrow').click(function(){
+      $('.pic-slick').slick('slickPrev');
+    });
+    $('.pic-right-arrow').click(function(){
+      $('.pic-slick').slick('slickNext');
+    });
+
+    // 移动端
+    $('.m-pic-slick').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      asNavFor: '.m-pic-slick-nav'
+      // autoplay: true,
+      // autoplaySpeed: 2000,
+    });
+    $('.m-pic-slick-nav').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      asNavFor: '.m-pic-slick'
+      // autoplay: true,
+      // autoplaySpeed: 2000,
+    });
+
+    $('.m-pic-left-arrow').click(function(){
+      $('.m-pic-slick').slick('slickPrev');
+    });
+    $('.m-pic-right-arrow').click(function(){
+      $('.m-pic-slick').slick('slickNext');
+    });
+
+    $('.bd-content-slick ').hover(function(){
+      $('.pic-arrow').show();
+    },function(){
+      $('.pic-arrow').hide();
+    });
+</script>
+
+</html>

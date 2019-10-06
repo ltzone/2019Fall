@@ -13,7 +13,7 @@
             window.wpo={start:new Date*1,pid:109,page:'passport'};
             var _hmt = _hmt || [];
         </script>
-<link href="/static/passpc-base/css/base.css?cdnversion=1570343585" type="text/css" rel="stylesheet" />        <link href="/static/passpc-base/css/ui/ui.css?cdnversion=1570343585" type="text/css" rel="stylesheet" />                        
+<link href="/static/passpc-base/css/base.css?cdnversion=1570367393" type="text/css" rel="stylesheet" />        <link href="/static/passpc-base/css/ui/ui.css?cdnversion=1570367393" type="text/css" rel="stylesheet" />                        
 <link href="/static/passpc-account/css/boot_login_7e48d99.css" type="text/css" rel="stylesheet" />
 <!--[if lte IE 9]>
 <style style="text/javascript">
@@ -77,9 +77,9 @@
 </div>
                 </div>
 </div>
-        <script type="text/javascript" src="/passApi/js/uni_wrapper.js?cdnversion=1570343585"></script>
-<script type="text/javascript" src="/static/passpc-base/js/core.js?cdnversion=1570343585"></script>                            <script type="text/javascript" src="/static/passpc-base/js/ui/ui.js?cdnversion=1570343585"></script>
-        <script type="text/javascript" src="https://passport.baidu.com/passApi/js/wrapper.js?v=1570343585"></script>
+        <script type="text/javascript" src="/passApi/js/uni_wrapper.js?cdnversion=1570367393"></script>
+<script type="text/javascript" src="/static/passpc-base/js/core.js?cdnversion=1570367393"></script>                            <script type="text/javascript" src="/static/passpc-base/js/ui/ui.js?cdnversion=1570367393"></script>
+        <script type="text/javascript" src="https://passport.baidu.com/passApi/js/wrapper.js?v=1570367393"></script>
 <script>function getVal(e){var t=document.getElementById(e).value;return t}var jsU=getVal("jsU"),jsProduct=getVal("jsProduct"),jsIdc=getVal("jsIdc"),jsSubpro=getVal("jsSubpro"),jsNorealU=getVal("jsNorealU"),jsAuthsiteAct=getVal("jsAuthsiteAct"),jsOverseas=getVal("jsOverseas"),jsSms=getVal("jsSms"),jsUserPwdLogin=getVal("jsUserPwdLogin"),_config={u:jsU,product:jsProduct,idc:jsIdc,subpro:jsSubpro,noreal_u:jsNorealU,staticpage:document.location.protocol+"//"+document.location.host+"/static/passpc-account/html/v3Jump.html",authsiteLogin:["qzone","tsina","weixin"],authsiteCfgLogin:{act:jsAuthsiteAct,display:"popup"},sms:jsSms,overseas:jsOverseas,qrcode:!0,qrcode_animation:1};document.charset&&-1==document.charset.toLowerCase().indexOf("utf")&&navigator.userAgent.indexOf("MSIE")>0&&(location.href=location.href+(location.href.indexOf("?")>-1?"&nocache=1":"?nocache=1"));var _accountValue=document.getElementById("jsAccountValue").value,current_city=document.getElementById("jsCurrentCity").value;</script>
 <script type="text/javascript" src="/static/passpc-account/js/boot_login_1e30d1a.js"></script>                                        <script type="text/javascript">
         _hmt.push(['_setAutoPageview', false]);
@@ -104,9 +104,9 @@
         var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); 
         document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F90056b3f84f90da57dc0f40150f005d5' type='text/javascript'%3E%3C/script%3E"));
         </script>
-<script src="https://wappass.baidu.com/static/waplib/moonshad.js?cdnversion=1570343585"></script>
+<script src="https://wappass.baidu.com/static/waplib/moonshad.js?cdnversion=1570367393"></script>
 <script type="text/javascript">wpo.tti=new Date*1;</script>
 </body>
 </html>
-<!--19851693770891408138100614-->
-<script> var _trace_page_logid = 1985169377; </script>
+<!--05939076230908054282100621-->
+<script> var _trace_page_logid = 0593907623; </script>

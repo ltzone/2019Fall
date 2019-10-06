@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="baidu-site-verification" content="m1imKvW1HK" />
+  <link rel="shortcut icon" href="/Public/img/favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no" />
+<!-- 删除默认的苹果工具栏和菜单栏 ： 即启用 WebApp 全屏模式  -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!-- 在web app应用下状态条（屏幕顶部条）的颜色；默认值为default（白色），可以定为black（黑色）和black-translucent（灰色半透明）若值为“black-translucent”将会占据页面px位置，浮在页面上方（会覆盖页面20px高度–iphone4和itouch4的Retina屏幕为40px）。 -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<!-- 忽略数字自动识别为电话号码 ,忽略识别邮箱 -->
+<meta name="format-detection" content="telephone=no, email=no" />
+<!-- 启用360浏览器的极速模式(webkit) -->
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- uc强制竖屏 -->
+<meta name="screen-orientation" content="portrait" />
+<!-- QQ强制竖屏 -->
+<meta name="x5-orientation" content="portrait">
+<!-- UC强制全屏 -->
+<meta name="full-screen" content="true" />
+<!-- QQ强制全屏 -->
+<meta name="x5-fullscreen" content="true" />
+<!-- 360强制全屏 -->
+<meta name="360-fullscreen" content="true" />
+<!-- 站内搜索站点验证 -->
+<meta name="baidu-site-verification" content="m1imKvW1HK" />
+<link rel="shortcut icon" href="/Public/img/favicon.ico" type="image/x-icon">
+<script src="/Public/js/fontbase.js?v=12"></script>
+<link href="/Public/css/lib/bootstrap.min.css?v=14" rel="stylesheet">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<link rel="stylesheet" href="/Public/css/common.css?v=16">
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fb9a77820b2fa17d7223b50a01ab1aa7a' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+  <link rel="stylesheet" href="/Public/css/company.css?v=21">
+  <title>百度介绍</title>
+  <meta name="description" content="百度是一家持续创新的,以“用科技让复杂世界更简单”为使命的高科技公司。">
+  <meta name="keywords" content="百度介绍、百度公司介绍、百度集团介绍、百度简介、百度公司简介、百度集团简介">
+</head>
+<body>
+  <div class="main">
+    <div class="bd-content-nav nav-show J-bd-nav">
+  <div class="section nav-section">
+    <div class="nav-box">
+      <div class="row">
+        <div class="col-sm-2 col-xs-12">
+          <a href="/home/index">
+            <img src="/Public/img/logo.png?v=15" alt="" class="logo">
+          </a>
+        </div>
+        <div class="col-sm-10 col-xs-12">
+          <ul class="bd-nav">
+            <li class="nav-bd-link active"><a href="/home/index" target="_blank">关于百度</a></li>
+            <li class="nav-bd-link"><a href="//www.baidu.com/more/" target="_blank">关于产品</a></li>
+            <li class="nav-bd-link"><a href="/home/index/join_us" target="_blank">加入我们</a></li>
+            <li class="nav-bd-link"><a href="/home/index/contact_us" target="_blank">联系我们</a></li>
+            <div class="sideline"></div>
+          </ul>
+        </div>
+        <div class="bd-content-fun">
+          <div class="home-div">
+            <span class="cn-home-link">中文</span>|
+            <a href="//ir.baidu.com/phoenix.zhtml?c=188488&p=irol-irhome" class="en-home-link" target="_blank">EN</a>
+          </div>
+          <script type="text/javascript">(function(){document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E'));var bdcs = document.createElement('script');bdcs.type = 'text/javascript';bdcs.async = true;bdcs.src = 'http://znsv.baidu.com/customer_search/api/js?sid=6706059176758103565' + '&plate_url=' + encodeURIComponent(window.location.href) + '&t=' + Math.ceil(new Date()/3600000);var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bdcs, s);})();</script>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="h5-nav-bar J-bd-nav">
+  <!-- <div class="h5-nav-search-btn"></div> -->
+  <div class="logo-box">
+    <img src="/Public/img/logo.png?v=15" alt="" class="h5-nav-logo">
+  </div>
+  <svg id="list" class="h5-nav-toggle-box" width="44" height="44" viewBox="0, 0, 44, 44"></svg>
+  <div class="h5-nav-list">
+    <a href="/home/index" class="h5-nav h5-active" target="_blank">关于百度</a>
+    <a href="//www.baidu.com/more/" class="h5-nav" target="_blank">关于产品</a>
+    <a href="/home/index/join_us" class="h5-nav" target="_blank">加入我们</a>
+    <a href="/home/index/contact_us" class="h5-nav" target="_blank">联系我们</a>
+    <a href="//ir.baidu.com/phoenix.zhtml?c=188488&p=irol-irhome" class="h5-nav" target="_blank">ENGLISH</a>
+  </div>
+</div>
+<div class="h5-nav-mask"></div>
+
+    <div class="main-body">
+      <div class="top-banner">
+        <p class="my-company">我们的公司</p>
+      </div>
+      <div class="content">
+        <div class="company-introduce">
+          <p class="introduce-title">公司介绍</p>
+          <p class="introduce-bar"></p>
+                 <p style="text-align: center;"><span style="font-size: 24px;"><span style="font-family: &quot;Microsoft Yahei&quot;,Arial,Helvetica,sans-serif,serif; text-align: center; background-color: rgb(255, 255, 255);">百度的使命：用科技让复杂的世界更简单</span><br style="box-sizing: border-box; font-family: &quot;Microsoft Yahei&quot;, Arial, Helvetica, sans-serif, serif; font-size: 20px; text-align: center; white-space: normal; background-color: rgb(255, 255, 255);"/><span style="font-family: &quot;Microsoft Yahei&quot;,Arial,Helvetica,sans-serif,serif; text-align: center; background-color: rgb(255, 255, 255);">百度的愿景：成为最懂用户，并能帮助人们成长的全球顶级高科技公司</span></span></p><p><span style="font-size: 24px;"><span style="font-family: &quot;Microsoft Yahei&quot;,Arial,Helvetica,sans-serif,serif; text-align: center; background-color: rgb(255, 255, 255);"><br/></span></span></p>        <div class="introduce-detail">
+          <div class="shadow">
+            <p class="introduce-detail-p"><span style="font-size: 14px;">百度——全球最大的中文搜索引擎及最大的中文网站，全球领先的人工智能公司。2000年1月1日创立于中关村，公司创始人李彦宏拥有“超链分析”技术专利，使中国成为美国、俄罗斯、韩国之外，全球仅有的四个拥有独立搜索引擎核心技术的国家之一。基于对人工智能的多年布局与长期积累，百度在深度学习领域领先世界，并在2016年被《财富》杂志称为全球AI四巨头之一。<br/></span></p><p class="introduce-detail-p"><span style="font-size: 14px;">每天，百度响应来自百余个国家和地区的数十亿次搜索请求，是网民获取中文信息的最主要入口。百度以“用科技让复杂的世界更简单”为使命，不断坚持技术创新，致力于提供更懂用户的产品及服务。百度移动应用月活跃设备数超过11亿。<br/></span></p><p class="introduce-detail-p"><span style="font-size: 14px;">百度以技术为信仰，在技术研发、人才引进等方面坚持长期持续的投入。根据中国专利保护协会2018年统计，百度以2368件的申请量成为中国人工智能专利领头羊。<br/></span></p><p class="introduce-detail-p"><span style="font-size: 14px;">在“夯实移动基础，决胜AI时代”的战略指导下，百度移动生态更加繁荣强大， AI加速推进产业智能化，AI生态不断拓展完善。<br/></span></p><p class="introduce-detail-p"><span style="font-size: 14px;">得益于AI驱动，百度移动形成了“一超多强”的产品矩阵，并构建起以“百家号”和“智能小程序”为核心的移动生态。2019年3月份，百度App日活跃用户达1.74亿，同比增长28%；好看视频日活跃用<span style="font-size: 14px; color: rgb(0, 0, 0);">户达2200万，同比增长768%；百度App和短视频信息流总用户时长同比增长83%；百家号内容创作者达到210万；智能小程序月活跃用户达到1.81亿，环比增长23%。</span></span></p><p class="introduce-detail-p"><span style="font-size: 14px; color: rgb(0, 0, 0);">作为AI生态的重要组成，百度已拥有Apollo自动驾驶开放平台和小度助手（DuerOS）对话式人工智能操作系统两大开放生态。截至2019年1月，Apollo已迭代至3.5版本，合作伙伴突破135家。目前，百度已获得超过50张智能网联汽车道路测试牌照，在国内遥遥领先。在对话式人工智能领域，小度助手继续在中国保持领先地位。截至2019年3月，搭载小度助手的智能设备达到2.75亿，同比增长279％；3月份语音交互次数达到23.7亿次，同比增长817％。根据IDC、Canalys、Strategy
+ Analytics等权威机构发布的报告，2019年第一季度小度智能音箱出货量位居国内市场第一，全球第三。</span></p><p><br/></p>          </div>
+        </div>
+        <div class="full-section introduce-message-wrap">
+          <div class="section introduce-message">
+            <div class="message-left">
+              <img src="/Public/img/phonebaidu.png?v=12" alt="" class="phone-baidu">
+            </div>
+            <div class="message-right">
+              <div class="right-scroll">
+              <p><span style="font-size: 14px; color: rgb(89, 89, 89);"><br/></span></p><p><span style="font-size: 14px; color: rgb(89, 89, 89);">百度智能云是面向企业及开发者的智能云计算服务平台，基于百度多年技术积累，面向未来，提出ABC（AI、Big Data、Cloud Computing）三位一体发展战略，为各行业智能化转型提供解决方案，促进数字中国建设。IDC发布的2018年下半年中国公有云服务市场报告显示，百度智能云首次进入中国IaaS+PaaS云服务商前五名，在2018年全年PaaS层面，百度智能云营收在所有厂商中同比增速最快。<br/></span></p><p><span style="font-size: 14px; color: rgb(89, 89, 89);"><br/></span></p><p><span style="font-size: 14px; color: rgb(89, 89, 89);">百度大脑是百度技术多年积累和业务实践的集大成，包括视觉、语音、自然语言处理、知识图谱、深度学习等 AI 核心技术和 AI 开放平台。百度大脑为百度所有业务提供AI能力和底层支撑，并赋能产业和开发者。截止2019年7月，百度大脑已经开放了210项领先的AI技术能力，开发者数量达到130万，平台上开发者的日均调用次数同比增长108%，定制化平台模型的数量也在飞速增长。来自不同行业，拥有不同背景的开发者们，都在借助百度大脑快速地获得AI能力。</span><span style="font-size: 14px;"><br/></span></p>              </div>
+            </div>
+          </div>
+        </div>
+         <div class="introduce-bottom"></div>
+        <div class="full-section">
+          <div class="section">
+            <div class="introduce-bottom-message">
+              <div class="shadow">
+                <p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; font-size: 14px; color: rgb(84, 84, 84); word-wrap: break-word; text-align: justify; word-break: break-all; font-family: &quot;Microsoft Yahei&quot;, Arial, Helvetica, sans-serif, serif; white-space: normal; background-color: rgb(255, 255, 255); line-height: 2em;"><span style="font-size: 14px; font-family: 微软雅黑, Microsoft YaHei;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">“爱奇艺”和“度小满”是百度旗下两大独立业务。爱奇艺在中国互联网视频行业处于领先地位，2018年3月底，爱奇艺在美国纳斯达克挂牌上市。爱奇艺是百度新移动业务的重要组成，并与百度在内容、云服务、人工智能技术等领域有着深度协同。2019年第一季度，爱奇艺订阅会员规模创下历史新高，达到9680万，实现了包括广告、内容分发以及IP价值开发等多元化收入快速增长。“度小满金融”是百度旗下金融服务事业群组拆分后形成的全新品牌，是百度在金融领域的关键布局。作为一家金融科技公司，度小满致力于利用百度的AI优势和技术实力，用科技为更多人提供值得信赖的金融服务。</span></span></p><p style="box-sizing: border-box; margin-top: 40px; margin-bottom: 0px; font-size: 14px; color: rgb(84, 84, 84); word-wrap: break-word; text-align: justify; word-break: break-all; font-family: &quot;Microsoft Yahei&quot;, Arial, Helvetica, sans-serif, serif; white-space: normal; background-color: rgb(255, 255, 255); line-height: 2em;"><span style="font-size: 14px; font-family: 微软雅黑, Microsoft YaHei;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">百度商业服务整合了搜索、资讯、视频、线下场景屏、联盟流量等资源，形成全场景全用户覆盖的媒体矩阵，并依托AI技术和大数据能力提供消费者洞察、自动化创意、商家小程序等一整套智能营销解决方案。为企业提供品牌建设、效果推广及消费者运营的全方位商业服务。2019年数字营销将进入以AI智能营销为核心的4.0时代，百度商业服务将实现新连接、新场景、新流量、新品牌的&quot;四新合力&quot;升级，并全面应用于搜索推广、信息流广告、品牌营销、商品推广等核心商业产品。此外，经过17年发展，百度联盟已经从PC时代的搜索联盟、广告联盟进化到今天的新型生态联盟，涵盖终端厂商、运营商、网站、移动APP、软件、百家号创作者等多种类型的近百万合作伙伴。作为国内最具实力的联盟体系之一，百度联盟始终致力于“让伙伴更强”。基于后移动时代的挑战和机遇，百度联盟正在从流量联盟向“用户联盟”升级，为伙伴构筑更加开源的移动互联网生态，深度理解和服务用户，共生共荣共赢。<br/></span></span></p><p style="box-sizing: border-box; margin-top: 40px; margin-bottom: 0px; font-size: 14px; color: rgb(84, 84, 84); word-wrap: break-word; text-align: justify; word-break: break-all; font-family: &quot;Microsoft Yahei&quot;, Arial, Helvetica, sans-serif, serif; white-space: normal; background-color: rgb(255, 255, 255); line-height: 2em;"><span style="font-size: 14px; font-family: 微软雅黑, Microsoft YaHei;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">百度一直秉承着“科技为更好”的社会责任理念，坚持运用创新技术，联合共益伙伴，聚焦于解决社会问题，履行企业公民的社会责任。为了帮助流浪走失人员找到“回家的路”，2016年底，百度“AI寻人”项目与民政部进行合作，两年时间内即实现了6493次走失人员的对比成功；为了让社区更有智慧，百度推出“AI公园”项目，让AI技术直接融入到当地居民的生活场景中，与社会一同分享技术发展带来的全新体验；为了让盲人按摩师的生活与工作更加便利，百度工程师“爆改”盲人按摩店，让盲人师傅通过语音唤醒了“没有光明的生活”；为了让老百姓更有安全感，百度推出了
+ 
+“城市盾牌”，人脸识别系统对警察的加持，让罪犯无处可逃。此外，百度将继续向弱势群体、社会公益服务、社会信息化发展等更多社会责任领域进行探索，不断为用户美好生活的创造提供强大支持。百度还捐赠成立了百度基金会，围绕知识教育、环境保护、灾难救助等议题，联合社会各公益组织机构，赋予百度产品更多公益属性，更加系统规范地管理和践行公益事业。目前，百度是联合国全球契约组织的一员，正在积极地为全球的可持续发展贡献力量。<span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"><br/></span></span></span></span></p><p style="box-sizing: border-box; margin-top: 40px; margin-bottom: 0px; font-size: 14px; color: rgb(84, 84, 84); word-wrap: break-word; text-align: justify; word-break: break-all; font-family: &quot;Microsoft Yahei&quot;, Arial, Helvetica, sans-serif, serif; white-space: normal; background-color: rgb(255, 255, 255); line-height: 2em;"><span style="font-size: 14px; font-family: 微软雅黑, Microsoft YaHei;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;">未来，百度将继续坚持“夯实移动基础，决胜AI时代”战略，不断提升用户体验，推动AI应用与落地加速发展，为实现“成为最懂用户，并能帮助人们成长的全球顶级高科技公司”的愿景而不断努力。</span></span></span></span></p><p><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"><br/></span></span></p><p><span style="font-family: 微软雅黑, Microsoft YaHei; font-size: 14px;"><br/><br/><br/></span></p><p><br/></p>              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="full-section bottom-section">
+  <div class="section">
+    <div class="bd-home-bottom">
+      <div class="bd-bottom-share">
+        <span>实时资讯请关注：</span>
+
+
+        <div class="share-wechat">
+                    <img src="http://static.home.baidu.com/homebd/canbfldghejikm1496932813.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A40%3A14Z%2F-1%2F%2Fa795f1f97d12e2a8c9da9862672bd4fec4a887237ec8883e8a3974e9a52b3624" class="share-wechat-img" alt="">
+                    <img src="http://static.home.baidu.com/homebd/djkgaclebfhnim1496932814.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A40%3A14Z%2F-1%2F%2F9dfa094e984958f1fefb4c3a95b5f8da3e60c759c30442b2479559bfbcdacf2c" class="share-wechat-qrcode">
+                  </div>
+                        <a href="http://weibo.com/baiduguanfang?refer_flag=1001030101_&amp;is_hot=1" target="_blank">
+                  <img src="http://static.home.baidu.com/homebd/fnejlmkaghcdib1496932842.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A40%3A43Z%2F-1%2F%2F5907b18db08f16dba8613f5117fa9c699a09ac79273e32ef0a1f114b7bdd6e55" alt="">
+                </a>                <a href="https://www.facebook.com/BaiduIncorporated" target="_blank">
+                  <img src="http://static.home.baidu.com/homebd/ldmfajnhcbkegi1496932864.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A41%3A05Z%2F-1%2F%2F2a180dd88df9a8a7af776fd7239773fab056d1af32cf701e234f5664133a559b" alt="">
+                </a>                <a href="https://twitter.com/Baidu_Inc" target="_blank">
+                  <img src="http://static.home.baidu.com/homebd/ldgjhfknbaicem1496932883.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A41%3A23Z%2F-1%2F%2F9ec183749754c187c58c2d5b66a8d2f4bd59f6258188aae327addba639a1631d" alt="">
+                </a>
+      </div>
+
+      <div class="bd-bottom-moremsg">
+        <div class="bd-more-msg">更多信息</div>
+        <a href="http://csr.baidu.com/" class="bd-more-duty bottom-cooperation" target="_blank">社会责任</a><a href="http://home.baidu.com/home/index/contact_us" class="bd-more-duty bottom-cooperation" target="_blank">联系我们</a>      </div><div class="bd-bottom-moremsg">
+        <div class="bd-more-msg">商业合作</div>
+        <a href="http://union.baidu.com/customerLogin.html?fromu=http%3A%2F%2Funion.baidu.com%2F" class="bd-more-duty bottom-cooperation" target="_blank">百度联盟</a><a href="http://e.baidu.com/?subsite=bj" class="bd-more-duty bottom-cooperation" target="_blank">百度推广</a><a href="http://pro.baidu.com/" class="bd-more-duty bottom-cooperation" target="_blank">营销中心</a>      </div><div class="bd-bottom-moremsg">
+        <div class="bd-more-msg">更多资源</div>
+        <a href="http://home.baidu.com/media_resource/" class="bd-more-duty bottom-cooperation" target="_blank">媒体资源库</a>      </div>      <div class="bd-bottom-icp">&copy; Baidu <a href="//www.baidu.com/duty/" target="_blank">使用百度前必读</a> 京ICP证030173号</div>
+    </div>
+  </div>
+</div>
+
+<div class="return-top">
+  <img src="/Public/img/return-top.png?v=12" alt="" class="return-img">
+</div>
+<div class="pc-return">
+  <img src="/Public/img/pc-backtop.png?v=12" alt="" class="pc-return-img">
+</div>
+<div class="mobile-bd-home-bottom">
+  <div class="bd-bottom-share">
+    <span>实时资讯请关注：</span>
+
+
+
+    <div class="share-wechat">
+                <img src="http://static.home.baidu.com/homebd/canbfldghejikm1496932813.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A40%3A14Z%2F-1%2F%2Fa795f1f97d12e2a8c9da9862672bd4fec4a887237ec8883e8a3974e9a52b3624" class="share-wechat-img" alt="">
+                <img src="http://static.home.baidu.com/homebd/djkgaclebfhnim1496932814.jpg?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A40%3A14Z%2F-1%2F%2F9dfa094e984958f1fefb4c3a95b5f8da3e60c759c30442b2479559bfbcdacf2c" class="m-share-wechat-qrcode">
+              </div>
+                     <a href="http://weibo.com/baiduguanfang?refer_flag=1001030101_&amp;is_hot=1" target="_blank">
+              <img src="http://static.home.baidu.com/homebd/fnejlmkaghcdib1496932842.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A40%3A43Z%2F-1%2F%2F5907b18db08f16dba8613f5117fa9c699a09ac79273e32ef0a1f114b7bdd6e55" alt="">
+            </a>           <a href="https://www.facebook.com/BaiduIncorporated" target="_blank">
+              <img src="http://static.home.baidu.com/homebd/ldmfajnhcbkegi1496932864.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A41%3A05Z%2F-1%2F%2F2a180dd88df9a8a7af776fd7239773fab056d1af32cf701e234f5664133a559b" alt="">
+            </a>           <a href="https://twitter.com/Baidu_Inc" target="_blank">
+              <img src="http://static.home.baidu.com/homebd/ldgjhfknbaicem1496932883.png?authorization=bce-auth-v1%2Fe6803def36ae467f81ebdb4bdc75f119%2F2017-06-08T14%3A41%3A23Z%2F-1%2F%2F9ec183749754c187c58c2d5b66a8d2f4bd59f6258188aae327addba639a1631d" alt="">
+            </a>
+  </div>
+  <div class="mobile-flex">
+    <div class="mobile-bd-bottom-moremsg mobile-flex-box">
+           <div class="mobile-bd-bottom-content">公司介绍<img src="/Public/img/mobile-arrow-up.png?v=12" class="mobile-arrow-up"><img src="/Public/img/mobile-arrow-down.png?v=12" class="mobile-arrow-down"></div>
+           <ul class="mobile-bd-detail">
+            <li><a href="http://home.baidu.com/home/index/company_culture" target="_blank">核心价值观</a></li><li><a href="http://home.baidu.com/home/index/company" target="_blank">百度简介</a></li><li><a href="http://home.baidu.com/home/index/baidu_road" target="_blank">百度大事记</a></li><li><a href="http://home.baidu.com/home/index/management_team" target="_blank">管理团队</a></li>        </ul>
+      </div><div class="mobile-bd-bottom-moremsg mobile-flex-box">
+           <div class="mobile-bd-bottom-content">更多信息<img src="/Public/img/mobile-arrow-up.png?v=12" class="mobile-arrow-up"><img src="/Public/img/mobile-arrow-down.png?v=12" class="mobile-arrow-down"></div>
+           <ul class="mobile-bd-detail">
+            <li><a href="http://csr.baidu.com/" target="_blank">社会责任</a></li><li><a href="http://home.baidu.com/home/index/contact_us" target="_blank">联系我们</a></li>        </ul>
+      </div><div class="mobile-bd-bottom-moremsg mobile-flex-box">
+           <div class="mobile-bd-bottom-content">商业合作<img src="/Public/img/mobile-arrow-up.png?v=12" class="mobile-arrow-up"><img src="/Public/img/mobile-arrow-down.png?v=12" class="mobile-arrow-down"></div>
+           <ul class="mobile-bd-detail">
+            <li><a href="http://e.baidu.com/?subsite=bj" target="_blank">百度推广</a></li><li><a href="http://union.baidu.com/customerLogin.html?fromu=http%3A%2F%2Funion.baidu.com%2F" target="_blank">百度联盟</a></li><li><a href="http://pro.baidu.com/" target="_blank">营销中心</a></li>        </ul>
+      </div>
+  </div>
+  <div class="mobile-bd-bottom-icp">&copy; Baidu <a href="//www.baidu.com/duty/" target="_blank">使用百度前必读</a> 京ICP证030173号</div>
+</div>
+<div class="loading"></div>
+
+  </div>
+  <script src="/Public/js/lib/jquery.min.js?v=16"></script>
+<script src="/Public/js/rem.min.js?v=16"></script>
+<script src="/Public/js/lib/bootstrap.min.js?v=16"></script>
+<script src="/Public/js/lib/snap.svg-min.js?v=16"></script>
+<script src="/Public/js/lib/mustache.min.js?v=16"></script>
+<!-- <script src="/Public/js/scroll.js"></script> -->
+<script src="/Public/js/common.js?v=16"></script>
+<script>
+var width = $(window).width();
+if (width > 768) {
+  window._hmt && window._hmt.push(['_trackEvent', '入口统计','pc端']);
+  var height = $(window).height();
+  $(window).scroll(function() {
+    var top = $(window).scrollTop();
+    if (top > height) {
+      $(".pc-return").show();
+    } else {
+      $(".pc-return").hide();
+    }
+  });
+  $("body").on("click", ".pc-return", function() {
+    $('body,html').animate({
+      scrollTop: 0
+    }, 300);
+  });
+} else {
+  window._hmt && window._hmt.push(['_trackEvent', '入口统计','手机端']);
+  $(".main").on("click", ".return-img", function() {
+    $('body,html').animate({
+      scrollTop: 0
+    }, 300);
+  });
+}
+</script>
+<script type="text/javascript">
+var GV = {
+  ROOT: "/",
+};
+</script>
+
+  <script src="/Public/js/jquery.min.js?v=12"></script>
+  <script src="/Public/js/company.js?v=12"></script>
+</body>
+
+</html>
