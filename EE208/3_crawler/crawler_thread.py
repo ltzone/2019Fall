@@ -28,7 +28,7 @@ def URL_set_uniform(URLset,page):
     urlseg = urlparse.urlparse(page)
     uniURLs = set()
     for i in URLset:
-        j = j = i['href'].split('#')[0]
+        j = i['href'].split('#')[0]
         if re.match('^//',j):         #case 1: relative-protocal URL
             uniURLs.add(urlseg.scheme+ ':'+j)
         elif (not re.match('://',j)): #case 2: relative path
@@ -67,19 +67,31 @@ def add_page_to_folder(page, content): #将网页存到文件夹里，将网址�
 
 
 def page_working():
-    while tocrawl and (count < int(max_page)):
-        page = tocrawl.get()
-        if crawled.has_str(page):
+    global COUNT
+    while True:
+        varLock.acquire()
+        try:
+            if (COUNT < int(max_page)):
+                break
+            page = tocrawl.get()
+            has_str = crawled.has_str(page)
+        finally:
+            varLock.release()
+        if (not has_str):
             print page
             content = get_page(page)
             if content:
                 add_page_to_folder(page, content)
                 outlinks = get_all_links(content, page)
-                globals()['union_%s' % method](tocrawl, outlinks)
-                crawled.add_str(page)
-                graph[page] = outlinks
-                count += 1
-        tocrawl.task_done()
+                union(tocrawl, outlinks)
+                varLock.acquire()
+                try:
+                    crawled.add_str(page)
+                    graph[page] = outlinks
+                    COUNT += 1
+                finally:
+                    varLock.release()
+            tocrawl.task_done()
 
 
 if __name__ == '__main__':
@@ -91,7 +103,7 @@ if __name__ == '__main__':
     tocrawl.put(seed)
     crawled = Bitarray(20*max_page)
     graph = {}
-    count = 0
+    COUNT = 0
     varLock = threading.Lock()
     NUM = 2
 

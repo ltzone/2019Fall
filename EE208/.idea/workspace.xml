@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d1aead1-d0c6-4835-a16e-3e028f4cccc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_crawler/Bitarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/Bitarray.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3_crawler/crawler_thread.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/crawler_thread.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -178,9 +176,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.crawler_thread" />
+        <item itemvalue="Python.crawler_sample_thread" />
         <item itemvalue="Python.Bitarray" />
         <item itemvalue="Python.crawler" />
-        <item itemvalue="Python.crawler_sample_thread" />
         <item itemvalue="Python.crawler_sample (1)" />
       </list>
     </recent_temporary>
@@ -266,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570337078027</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="CODE 3.2 basic structure of threading finished, varlock expected">
+      <created>1570339809806</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1570339809806</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -304,6 +309,7 @@
     <MESSAGE value="CODE 2.4 init" />
     <MESSAGE value="CODE 3.1 bitarray" />
     <MESSAGE value="CODE 3.1 bitarray better packaged" />
-    <option name="LAST_COMMIT_MESSAGE" value="CODE 3.1 bitarray better packaged" />
+    <MESSAGE value="CODE 3.2 basic structure of threading finished, varlock expected" />
+    <option name="LAST_COMMIT_MESSAGE" value="CODE 3.2 basic structure of threading finished, varlock expected" />
   </component>
 </project>
