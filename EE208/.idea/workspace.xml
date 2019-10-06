@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d1aead1-d0c6-4835-a16e-3e028f4cccc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_crawler/html/httpwww.baidu.com" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/Bitarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/GeneralHashFunctions_-_Python/GeneralHashFunctions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/GeneralHashFunctions_-_Python/HashTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/crawler_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/crawler_sample_thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/hashtable_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/parrel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/textprocessing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_crawler/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_crawler/crawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Parser/res1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1_Parser/res1.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +49,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.crawler_sample">
+  <component name="RunManager" selected="Python.Bitarray">
+    <configuration name="Bitarray" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EE208" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_crawler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_crawler/Bitarray.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="IMG" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,27 +134,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="EE208" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_crawler" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_crawler/login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="myparser" type="PythonConfigurationType" factoryName="Python">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="try" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="textprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,11 +163,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1_Parser" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_crawler" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_Parser/try.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_crawler/textprocessing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Bitarray" />
+        <item itemvalue="Python.textprocessing" />
         <item itemvalue="Python.crawler_sample" />
         <item itemvalue="Python.Zhihu" />
         <item itemvalue="Python.IMG" />
-        <item itemvalue="Python.try" />
-        <item itemvalue="Python.login" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569312757112</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="CODE 2.4 init">
+      <created>1569316779818</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1569316779818</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -275,6 +288,7 @@
     <MESSAGE value="URL v2.0" />
     <MESSAGE value="IMG v2.0" />
     <MESSAGE value="CODE 2.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="CODE 2.3" />
+    <MESSAGE value="CODE 2.4 init" />
+    <option name="LAST_COMMIT_MESSAGE" value="CODE 2.4 init" />
   </component>
 </project>
