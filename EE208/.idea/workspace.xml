@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d1aead1-d0c6-4835-a16e-3e028f4cccc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/3_crawler/crawler_thread.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/crawler_thread.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_crawler/html/httphome.baidu.com" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httphome.baidu.com" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpmap.baidu.com" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpmap.baidu.com" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpmap.baidu.commwordfrps01000" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpmap.baidu.commwordfrps01000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpsoffice.live.comstartExcel.aspxWT.mc_idO16_BingHP" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpsoffice.live.comstartExcel.aspxWT.mc_idO16_BingHP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpsoffice.live.comstartPowerPoint.aspxWT.mc_idO16_BingHP" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpsoffice.live.comstartPowerPoint.aspxWT.mc_idO16_BingHP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpswww.hao123.com" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpswww.hao123.com" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_crawler/html/httptieba.baidu.comfkwfrwwwt" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httptieba.baidu.comfkwfrwwwt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpwww.baidu.com" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpwww.baidu.com" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpwww.bing.com" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpwww.bing.com" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpxueshu.baidu.com" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpxueshu.baidu.com" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comqct17pn0tnikaslistrn10wordfrwwwt" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comqct17pn0tnikaslistrn10wordfrwwwt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpssports.163.com19100621EQRA43NN0005877V.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_crawler/crawler_thread_join.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/crawler_thread_join.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpesf.house.163.combjsearch1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-12-0-0-0-0-0-0-0-1-0.htmlqstr" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpesf.house.163.combjsearch1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-12-0-0-0-0-0-0-0-1-0.htmlqstr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpsauto.163.com19100609EQPVEQHR000884MM.html" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpsauto.163.com19100609EQPVEQHR000884MM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpsgov.163.com19100610EQQ2GKQ00023995U.html" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpsgov.163.com19100610EQQ2GKQ00023995U.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpsvip.open.163.comcourses3597pws_yc" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpsvip.open.163.comcourses3597pws_yc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpwww.163.com" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpwww.163.com" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/3_crawler" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -57,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.crawler_thread">
+  <component name="RunManager" selected="Python.crawler_thread_join">
     <configuration name="Bitarray" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,27 +66,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_crawler/Bitarray.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="crawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="EE208" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_crawler" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_crawler/crawler.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,6 +108,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_crawler/crawler_thread.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="crawler_thread_join" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EE208" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_crawler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_crawler/crawler_thread_join.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.crawler_thread_join" />
         <item itemvalue="Python.crawler_thread" />
         <item itemvalue="Python.crawler_sample_thread" />
         <item itemvalue="Python.parrel" />
         <item itemvalue="Python.Bitarray" />
-        <item itemvalue="Python.crawler" />
       </list>
     </recent_temporary>
   </component>
