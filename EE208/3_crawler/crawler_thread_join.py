@@ -94,7 +94,7 @@ def page_working():
 
 if __name__ == '__main__':
 
-    seed = 'http://www.d163.com'
+    seed = 'http://www.163.com'
     max_page = 100
 
     tocrawl = Queue.Queue() # tocrawl is a global working queue
