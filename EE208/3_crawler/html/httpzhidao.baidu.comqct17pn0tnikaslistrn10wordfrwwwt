@@ -166,7 +166,7 @@
 
 									
 			            F.context('isQuality', false);
-            F.context('now', 1570346155);
+            F.context('now', 1570347110);
 		</script>
 <script>F.context('sysTaskAutoInit', 1);</script>
 
@@ -1263,7 +1263,7 @@
         month: '10',
         day: '06'
     });
-    F.context('realTimeData',{"finishCount":"551990136","onlineUserCount":"77198","onlineDoctorCount":"17951","zhimaCount":"11744208","partnerCount":"65975","teamCount":"11419","uadminCount":"8042","mavinCount":"22313"});
+    F.context('realTimeData',{"finishCount":"551990308","onlineUserCount":"85175","onlineDoctorCount":"16837","zhimaCount":"11744238","partnerCount":"65975","teamCount":"11419","uadminCount":"8042","mavinCount":"22313"});
 
 	require.async(['home:widget/slogan/slogan'],function(slogan){
 		slogan.init();

@@ -69,10 +69,8 @@ def add_page_to_folder(page, content): #将网页存到文件夹里，将网址�
 def page_working():
     global COUNT
     while COUNT < max_page:
-        if varLock.acquire():
-            page = tocrawl.get()
-            has_str = crawled.has_str(page)
-            varLock.release()
+        page = tocrawl.get()
+        has_str = crawled.has_str(page)
         if (not has_str):
             print page
             content = get_page(page)
@@ -80,19 +78,23 @@ def page_working():
                 add_page_to_folder(page, content)
                 outlinks = get_all_links(content, page)
                 union(tocrawl, outlinks)
-                if varLock.acquire():
-                    crawled.add_str(page)
-                    graph[page] = outlinks
-                    COUNT += 1
-                    varLock.release()
+                crawled.add_str(page)
+                graph[page] = outlinks
+                COUNT += 1
+        tocrawl.task_done()
+    while True:
+        try:
+            tocrawl.get()
             tocrawl.task_done()
+        except:
+            break
 
 
 
 if __name__ == '__main__':
 
-    seed = 'http://www.bing.com'
-    max_page = 3
+    seed = 'http://www.baidu.com'
+    max_page = 10
 
     tocrawl = Queue.Queue() # tocrawl is a global working queue
     tocrawl.put(seed)
@@ -100,13 +102,14 @@ if __name__ == '__main__':
     graph = {}
     COUNT = 0
     varLock = threading.Lock()
-    NUM = 1
+    NUM = 2
 
 
     for i in range(NUM):
         t = threading.Thread(target=page_working)
         t.setDaemon(True)
         t.start()
+
 
 
     tocrawl.join()
