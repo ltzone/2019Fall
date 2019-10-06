@@ -2,6 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d1aead1-d0c6-4835-a16e-3e028f4cccc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpe.baidu.comrefer888" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httphelp.baidu.comquestion" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httphelp.baidu.comquestionprod_enzhidaoclass320" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httphelp.baidu.comquestionprod_enzhidaoclass320id1525" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httphelp.baidu.comquestionprod_id9class320" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httphelp.baidu.comquestionprod_id9class337id1513" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httphome.baidu.com" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpikefu.baidu.comwebzhishisousuo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpimage.baidu.com" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpimage.baidu.comsearchindextnbaiduimageps1ct201326592lm-1cl2nc1ieutf-8word" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpir.baidu.com" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpjianyi.baidu.com" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpmap.baidu.com" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpmap.baidu.commwordfrps01000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpmusic.baidu.com" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpmusic.taihe.comsearchfrpsieutf-8key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpnews.baidu.com" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpsb2b.baidu.com" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpscalendar.live.comWT.mc_idO16_BingHP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpsiwenjuan.baidu.comcodegs7fq3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpsoffice.live.comstartExcel.aspxWT.mc_idO16_BingHP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpsoffice.live.comstartPowerPoint.aspxWT.mc_idO16_BingHP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpspassport.baidu.comv2logintplmnuhttp3A2F2Fwww.baidu.com2F" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpspassport.baidu.comv2logintplxueshuuhttp3A2F2Fxueshu.baidu.com2F" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpspassport.baidu.comv2regregType1tplxueshuuhttp3A2F2Fxueshu.baidu.com2F" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpspassport.baidu.comv2regtplikcolorgreenu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpswww.hao123.com" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpszhidao.baidu.combusinessprofileid14857" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpszhidao.baidu.combusinessprofileid21078" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpszhidao.baidu.combusinessprofileid2491" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpszhidao.baidu.comdailyviewid174863" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpszhidao.baidu.comdailyviewid178605" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpszhidao.baidu.comquestion34923744" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpszhidao.baidu.comquestion717825756184869045" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpszhidao.baidu.comspecialtopicviewnametcsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpszhidao.baidu.comspecialtopicviewnamezhishi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httptieba.baidu.com" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httptieba.baidu.comfkwfrwwwt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpv.baidu.com" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpv.baidu.comvct301989888rn20pn0db0s25ieutf-8word" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpwenku.baidu.com" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpwenku.baidu.comsearchwordlm0od0ieutf-8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpwww.baidu.com" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpwww.baidu.comcachesethelphelp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpwww.baidu.comduty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpwww.baidu.comdutyindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpwww.baidu.comgaojipreferences.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpwww.baidu.commore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpwww.baidu.comsrtt1bsst1cl2tnnewsword" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpwww.beian.gov.cnportalregisterSystemInforecordcode11000002000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpwww.bing.com" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpxueshu.baidu.com" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpxueshu.baidu.comduty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpxueshu.baidu.comubiyetagpapersiteindex_links" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpxueshu.baidu.comupaperhelp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpxueshu.baidu.comuppvsiteindex_links" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpxueshu.baidu.comusercenter" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpxueshu.baidu.comusercenterdataauthorchannelcmdfrontpage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpxueshu.baidu.comusercenterdatajournal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpxueshu.baidu.comusercenterpapercheckindextagcheckupload1siteindex_links" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpxueshu.baidu.comusercentershowbaiducascmdpage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpxueshu.baidu.comusercentertabcollect" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.com" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comactivitycommactnameguoqing" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comactivitysimpleindexacttplNamenareplacetypepc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.combusinessinfoapplytypebusiness " afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.combusinessinfoapplytypegoverment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comdailyauthorunB9D6C2DEBFC6C6D5iegbk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comdailyauthorunBFC6D1A7B9ABD4B0iegbk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comdailyauthorunC1FAD4B4C6DABFAFCDF8iegbk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comdailyauthorunD6D3C3FAC1C4BFC6D1A7iegbk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comdailyfrdaohang" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comhomepartnerhome" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comhomepartnerhomefrdaohang" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comlistcid101frdaohang" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comlistcid102frdaohang" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comlistcid103frdaohang" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comlistcid104frdaohang" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comlistcid105frdaohang" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comlistcid106frdaohang" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comlistcid110frdaohang" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comlistcid115frdaohang" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.commiscappeal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comnewentryhome_unlogin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.compcszhimatuanindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comqct17pn0tnikaslistrn10wordfrwwwt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comquestion1708965351159880020entryhome_discuss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comquestion1772773766892472620entryhome_discuss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comquestion1803116193756561187entryhome_discuss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comshi-qualityindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comshop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comusercenteruid60784069236f25705e79e864" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comusercenteruid85484069236f25705e79b848" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comusercenteruidb5924069236f25705e79722a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comusercenteruide2ab4069236f25705e79dc14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comuteamfrdaohang" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comuteamviewteamId102208" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comuteamviewteamId102257" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comuteamviewteamId22932" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comuteamviewteamId4092" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_crawler/Bitarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/Bitarray.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3_crawler/crawler_thread.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/crawler_thread.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,27 +190,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="crawler_sample (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="EE208" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_crawler" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_crawler/crawler_sample.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="crawler_sample_thread" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,13 +253,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="parrel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EE208" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_crawler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_crawler/parrel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.crawler_thread" />
         <item itemvalue="Python.crawler_sample_thread" />
+        <item itemvalue="Python.parrel" />
         <item itemvalue="Python.Bitarray" />
         <item itemvalue="Python.crawler" />
-        <item itemvalue="Python.crawler_sample (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570339809806</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="CODE 3.2 problem with varlock">
+      <created>1570340750772</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1570340750772</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -310,6 +418,7 @@
     <MESSAGE value="CODE 3.1 bitarray" />
     <MESSAGE value="CODE 3.1 bitarray better packaged" />
     <MESSAGE value="CODE 3.2 basic structure of threading finished, varlock expected" />
-    <option name="LAST_COMMIT_MESSAGE" value="CODE 3.2 basic structure of threading finished, varlock expected" />
+    <MESSAGE value="CODE 3.2 problem with varlock" />
+    <option name="LAST_COMMIT_MESSAGE" value="CODE 3.2 problem with varlock" />
   </component>
 </project>

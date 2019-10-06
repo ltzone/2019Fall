@@ -35,7 +35,7 @@ class Bitarray:
     def add_str(self, str):
         """ Add the str into the bitarray """
         strhash = self.get_hashstr(str)
-        add_hashstr(strhash)
+        self.add_hashstr(strhash)
         return 0
 
     def add_hashstr(self, strhash):

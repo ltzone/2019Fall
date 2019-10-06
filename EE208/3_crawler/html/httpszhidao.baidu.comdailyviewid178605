@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<!--STATUS OK-->
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta http-equiv="content-type" content="text/html;charset=gbk" />
+<meta property="wb:webmaster" content="3aababe5ed22e23c" />
+<meta name="referrer" content="always" />
+<title>谁是世界第二长城？_地球知识局_知道日报_百度知道</title>
+<link rel="shortcut icon" href="//www.baidu.com/favicon.ico?t=20171027" type="image/x-icon" />
+<link rel="icon" sizes="any" mask href="//www.baidu.com/img/baidu.svg" />
+
+<script>
+    window.alogObjectConfig = {
+        product: '102',
+        page: '', 
+        monkey_page: '',
+        speed_page: '',
+        speed: {
+            sample: ''
+        },
+        monkey: {
+            sample: ''
+        },
+        exception: { 
+            sample: ''
+        },
+        feature: {
+            sample: ''
+        },
+        cus: {
+            sample: '',
+            custom_metrics: []
+        },
+        csp: {
+            sample: '',
+            'default-src': [
+                {match: '*bae.baidu.com', target: 'Accept,Warn'},
+                {match: '*.baidu.com,*.bdstatic.com,*.bdimg.com,localhost,*.hao123.com,*.hao123img.com', target: 'Accept'},
+                {match: /^(127|172|192|10)(\.\d+){3}$/, target: 'Accept'},
+                {match: '*', target: 'Accept,Warn'}
+            ]
+        }
+    };
+ 
+    void function(a,b,c,d,e,f,g){a.alogObjectName=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=a[e].l||+new Date,d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d;var h=!0;if(a.alogObjectConfig&&a.alogObjectConfig.sample){var i=Math.random();a.alogObjectConfig.rand=i,i>a.alogObjectConfig.sample&&(h=!1)}h&&(f=b.createElement(c),f.async=!0,f.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),g=b.getElementsByTagName(c)[0],g.parentNode.insertBefore(f,g))}(window,document,"script","/hunter/alog/alog.min.js","alog"),void function(){function a(){}window.PDC={mark:function(a,b){alog("speed.set",a,b||+new Date),alog.fire&&alog.fire("mark")},init:function(a){alog("speed.set","options",a)},view_start:a,tti:a,page_ready:a}}();
+    void function(n){var o=!1;n.onerror=function(n,e,t,c){var i=!0;return!e&&/^script error/i.test(n)&&(o?i=!1:o=!0),i&&alog("exception.send","exception",{msg:n,js:e,ln:t,col:c}),!1},alog("exception.on","catch",function(n){alog("exception.send","exception",{msg:n.msg,js:n.path,ln:n.ln,method:n.method,flag:"catch"})})}(window);
+</script>
+
+<script>
+	!function(document, window){
+		var log = {
+			list: [],
+			host: 'https://' + location.host + '/api/httpscheck',
+			log: function(param) {
+				var a = [];
+		    	for(var k in param) {
+		    		a.push(k + '=' + param[k]);
+		    	}
+		    	var msg = a.join('&');
+		    	if(~this.list.indexOf(msg)){
+		    		return;
+		    	}
+		    	this.list.push(msg);
+		  		var img = new Image();
+		    	var key = '_ik_log_' + (Math.random()*2147483648 ^ 0).toString(36);
+		    	window[key] = img;
+		    		img.onload = img.onerror = img.onabort = function() {
+		        		img.onload = img.onerror = img.onabort = null;
+		        		window[key] = null;
+			    		img = null;
+		    	};
+		  		img.src = this.host + '?' + msg;
+			}
+		};
+
+		function HTTPSWarningLog(){
+			this.selector = [
+				'link',
+				'script',
+				'img',
+				'embed',
+				'iframe'
+			];
+			this.warningCounter = 0;
+			this.init();
+		};
+
+		HTTPSWarningLog.prototype = {
+			init: function(){
+				this.fetch();
+			},
+
+			fetch: function(){
+				for(var tags = this.selector, i =0, len = tags.length; i < len;i++) {
+					this.getTag(tags[i]);
+				}
+			},
+
+			getTag: function(tag) {
+				var domList = document.getElementsByTagName(tag);
+				if(!domList.length) {
+					return;
+				}
+				for(var i = 0,len = domList.length;i<len;i++) {
+					var el = domList[i];
+					var url = el.getAttribute(el.tagName==='LINK' ? 'href' : 'src');
+                    if(el.getAttribute('rel') === 'canonical') {
+                        continue;
+                    }
+					if(url && 'https:' === location.protocol && !url.indexOf('http:')){
+						this.sendLog(el, el.tagName.toLowerCase(),url);
+						this.warningCounter++;
+					}
+				}
+			},
+			
+			sendLog: function(el, type, url){
+				log.log({
+					url: location.href,
+					wtype: type,
+					wurl: url
+				});
+			}
+		};
+
+		function domReady(fn){
+		    if(document.addEventListener) {
+		        document.addEventListener('DOMContentLoaded', function() {
+		            document.removeEventListener('DOMContentLoaded',arguments.callee, false);
+		            fn();
+		        }, false);
+		    }else if(document.attachEvent) {
+		        document.attachEvent('onreadystatechange', function() {
+		            if(document.readyState == 'complete') {
+		                document.detachEvent('onreadystatechange', arguments.callee);
+		                fn();
+		            }
+		        });
+		    }
+		};
+
+		domReady(function(){
+			new HTTPSWarningLog();
+			for(var i=1; i<6; i++) {
+				!function(i){
+					setTimeout(function(){
+						new HTTPSWarningLog();
+					}, i*i*i*1000);
+				}(i);
+			}
+		});
+	}(document, window);
+</script>
+
+<meta name="keywords" content=" 地球知识局 知道日报 百度知道 zhidao" />
+<meta name="description" content='用城墙分割帝国和蛮族并不是中国人的专属，在世界其他地方也有因同样需求而建立起的防御性建筑。罗马帝国也在英国修建长城以区隔异族，耶路撒冷周围的城墙更是见证了历代的利益争夺。' />
+
+<script type="text/javascript">
+			!function(){var n={},t={};n.context=function(n,e){var i=arguments.length;if(i>1)t[n]=e;else if(1==i){if("object"!=typeof n)return t[n];for(var o in n)n.hasOwnProperty(o)&&(t[o]=n[o])}},"F"in window||(window.F=n)}();;
+			
+            
+																																														
+			F.context('user', {"isLogin":"","isRealName":"","stoken":"","name":"","imId":"","id":"","euid":"","wealth":"","gradeIndex":"","isMavin":"","encryptedBDUSS":"a36dmJ\/Aydemue2uvdHBy1GTTM+EqoOvUrcTyX8"});
+			F.context('user')['internalAdmin'] = null;
+
+									
+			            F.context('isQuality', false);
+            F.context('now', 1570340962);
+		</script>
+<script>F.context('sysTaskAutoInit', 1);</script>
+<!--[if lte IE 8]>
+<script>
+                (function(){
+                    var e="abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(","),
+                    i=e.length;
+                    while(i--){document.createElement(e[i])}
+                 })();
+            </script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="https://iknowpc.bdimg.com/static/common/pkg/common.2e57416.css" /><link rel="stylesheet" type="text/css" href="https://iknowpc.bdimg.com/static/common/widget/header-metis/header.39c9ddf.css" /><link rel="stylesheet" type="text/css" href="https://iknowpc.bdimg.com/static/daily/pkg/module.bd1979a.css" /><link rel="stylesheet" type="text/css" href="https://gss0.bdstatic.com/7051cy792sgCpNKfpU_Y_D3/static/com-brand/pkg/com-brand_f83454b.css" /></head>
+
+<script> alog('speed.set', 'ht', +new Date()); </script>
+
+<body class="daily-view">
+
+<div id="userbar" class="userbar userbar-renew" data="">
+<ul class="aside-list">
+<li>
+<a href="http://www.baidu.com/" class="toindex">百度首页</a>
+</li>
+<li><a rel="nofollow" alog-alias="usrbar-login" href="javascript:;" id="userbar-login" log="type:2026,pname:account,mod:login,action:show,pos:pop">登录</a></li>
+<li><a rel="nofollow" alog-alias="usrbar-reg" id="userbar-reg" href="https://passport.baidu.com/v2/?reg&tpl=ik&color=green&u=" target="_blank">注册</a></li>
+<li class="shop-entrance">
+<a href="/shop" title="知道商城" log="type:2026,pos:top-right,target:shop-entrance">商城<i class="i-house" style="display: none;"></i></a>
+<span class="lucky-try"></span>
+</li>
+</ul>
+</div>
+
+
+
+<div class="head-wrap">
+<header id="header" class="container">
+
+<div class="daily-search-box-wp fixed">
+<div class="daily-search-box container-wide">
+<div class="logo-wp">
+<a href="/" class="zhidao-logo"></a><span>|</span><a href="/daily/" class="daily-logo"></a>
+</div>
+<form action="/daily/search" name="search-form" method="get" id="search-form" class="search-form">
+<input class="hdi" id="kw" maxlength="256" tabindex="1" size="46" name="word" value="" autocomplete="off" placeholder="输入关键字或作者名"/>
+<input type="hidden" name="ie" value="gbk">
+<button alog-action="g-search-anwser" type="submit" id="search-btn" hidefocus="true"  tabindex="2" class="btn-global">搜索日报</button>
+<a href="#" alog-action="g-i-ask" class="i-ask-link" id="ask-btn">我要提问</a>
+</form>
+</div>
+</div>
+
+</header>
+</div>
+<div id="body" class="container">
+
+
+<div class="menu-wp">
+<div id="menu" class="menu">
+<div class="main-menu">
+<a href="/daily" class="" data-index="1" data-log="type:2060,action:click,area:main-menu-0,page:daily-all">精选</a><a href="/daily/square" class=" menu-found" data-index="2" data-log="type:2060,action:click,area:main-menu-1,page:daily-all">发现<i class="found-tip" title="有新文章，等你来读"></i></a><a href="/daily/focusdaily" class="" data-index="3" data-log="type:2060,action:click,area:main-menu-2,page:daily-all">收藏/关注</a><a href="/daily/authorcenter" class="authorcenter " data-index="4" data-log="type:2060,action:click,area:main-menu-3,page:daily-all">
+<i></i>
+作者中心</a>
+</div>
+</div>
+</div>
+<div class="container-wide content">
+<div class="row clearfix">
+<div class="main grid">
+<div class="detail-wp">
+<div class="detail" id="j-daily-union-dom">
+<div class="figure">
+<img id="daily-img" src="https://iknow-pic.cdn.bcebos.com/b999a9014c086e067f90a4510d087bf40ad1cbf4@w_800,h_450" alt="谁是世界第二长城？的头图">
+</div>
+<h1 id="daily-title" class="title">
+谁是世界第二长城？
+</h1>
+<div class="info">
+<span>2019-09-25</span>
+<span class="text-line">&nbsp;|&nbsp;</span>
+<a href="/daily/author?un=地球知识局&amp;ie=gbk" target="_blank" data-log="type:2060,action:click,area:detail-author,page:daily-view"><span class="name">地球知识局</span></a>
+<span class="original">原创</span>
+<input type="text" id="author-id" style="display: none" value="9203">
+<a href="#" class="focus unfocus" data-log="type:2060,action:click,area:detail-focus,page:daily-view">
+<b></b>
+收藏(10)</a>
+<span class="text-line text-line2">&nbsp;|&nbsp;</span>
+<span id="pv" class="pv"></span>
+</div>
+<div id="daily-cont" class="cont">
+<p><img src="https://iknow-pic.cdn.bcebos.com/4bed2e738bd4b31cd1920ca188d6277f9e2ff87a@w_450,h_600"><span style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在国人的心目中，长城显然是古代帝国留下的最具有代表性的遗产。这是一处从西周就开始修筑的世界文化遗产，人为地分割了古代农耕文明和游牧势力，保障了历代中央帝国的安全，也是帝国和北方游牧民族交流贸易的前线。</span></p><p>关内和关外曾经是两个世界</p><p>（图片@图虫·创意）▼</p><p><img src="https://iknow-pic.cdn.bcebos.com/7acb0a46f21fbe09e19e5a0e64600c338644adec@w_450,h_600"><span style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;但用城墙分割帝国和蛮族并不是中国人的专属，在世界其他地方也有因同样需求而建立起的防御性建筑。朝鲜高丽王朝曾筑起高墙抵挡契丹人，罗马帝国也在英国修建长城以区隔异族，耶路撒冷周围的城墙更是见证了历代不同民族、不同信仰者之间的利益争夺。</span></p><p>英国哈德良长城遗址</p><p>（图片来自wikimedia）▼</p><p><img src="https://iknow-pic.cdn.bcebos.com/b21c8701a18b87d67eec3305080828381f30fd7a@w_450,h_600"><span style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这都是人们耳熟能详的世界长城，但很少有人知道，今天的伊朗境内有一座长度上堪称世界第二的长城，在漫长的历史演进中却逐渐被人们遗忘。一直到1990年，生活在附近几英里的伊朗人也还不知道祖先留下了这么一座遗产。这是怎么回事呢？</span></p><p>长城就位于今天伊朗的东北边疆附近▼</p><p><img src="https://iknow-pic.cdn.bcebos.com/6c224f4a20a44623890a3c789722720e0df3d7ec@w_450,h_600"><span style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为抵御强敌而巧妙设计</span></p><p>这座长城因位于戈尔甘（Gorgon）地区而得名“戈尔甘长城”，又因其翻新后的墙块颜色为红色被称为“红蛇墙”，是由泥砖、烧砖、石膏、砂浆以及粘土筑成。</p><p>戈尔甘长城遗址，可以明显的看到用到的材料</p><p>（图片来自wikimedia@Amir Ali Razzaghi）▼</p><p><img src="https://iknow-pic.cdn.bcebos.com/d788d43f8794a4c268617f3101f41bd5ad6e396d@w_450,h_600"><span style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大体上来看，戈尔甘长城绵延近200公里，宽10米，高3米，西起里海一直延伸到东边的皮什卡马山脉，是英格兰北部哈德良长城的三倍多，而且每10-50公里处就有一个防御要塞，整座长城沿线有30多座，防御非常严密。</span></p><p>戈尔甘长城（Great Wall of Gorgan）的大致线路</p><p>在今天伊朗和土库曼斯坦边界以南</p><p>（戈尔甘长城北边那条清晰的合理会就是伊土边界大致走向）▼</p><p><img src="https://iknow-pic.cdn.bcebos.com/96dda144ad34598200ff7d8803f431adcbef84b7@w_450,h_600"><span style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从长度和军事作用来看，全世界只有中国长城的墙体系统才能超越它。</span></p><p>这是一座成型于公元5—6世纪之间，帮助伊朗萨珊波斯王朝抵御外敌入侵而建的城墙。</p><p>帝国虽然最终亡于阿拉伯人之手</p><p>却是波斯人历史记忆中永远的正统</p><p>（图片来自wikipedia@Fabienkhan）▼</p><p><img src="https://iknow-pic.cdn.bcebos.com/0df431adcbef7609f37e018521dda3cc7cd99eb7@w_450,h_600"><span style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;那时候的波斯帝国，正是如日中天的年代，一再西征虚弱的东罗马帝国，试图开疆拓土。但同时，帝国自己也有无法击败的敌人，那就是他们北方强悍的白匈奴人。</span></p><p>当然，萨珊波斯最大的敌人还是西边的东罗马帝国</p><p>但白匈奴的南下可能令萨珊腹背受敌，不可不防</p><p>（当时的阿拉伯民族还在诸部混战之时，不成气候）▼</p><p><img src="https://iknow-pic.cdn.bcebos.com/21a4462309f790521932df2403f3d7ca7bcbd5ff@w_450,h_600"><span style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这时候紧邻匈奴人、靠近里海的戈尔甘地区的战略地位就凸现了。这里全年气候温和且土壤肥沃，适合农业种植和游牧业的发展，拥有数量庞大的居住人口，一直以来是二者激烈争夺的焦点。为了一劳永逸地抵挡白匈奴南下，波斯国王下令在戈尔甘地区修起城墙，并驻扎了大约3万名士兵来保卫它。</span></p><p>在干旱的中亚草原与干旱的伊朗内陆之间</p><p>在里海与厄尔布尔士山脉之间这块土地</p><p>可以说是难得的气候湿润水源充裕的地方了</p><p>如果被白匈奴占领，将成为进攻整个伊朗高原的跳板▼</p><p><img src="https://iknow-pic.cdn.bcebos.com/9922720e0cf3d7cafedba76cfd1fbe096b63a9ff@w_450,h_600"><span style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从墙体的设计来看，建造者充分考虑了建设速度和实用性：墙面较为粗糙但排列整齐，砖块的尺寸和形状也几乎固定，偏差很小，如此便可以按照标准流水线建设这座屏障，也可以准备大量备用件快速修补某处的损坏。</span></p><p>（图片来自mehrnews.com/news/3664743）▼</p><p><img src="https://iknow-pic.cdn.bcebos.com/1e30e924b899a9012d9bc32c12950a7b0208f57a@w_450,h_600"><span style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;考古学家发现，戈尔甘长城附近还有窑炉的残骸。这说明砖块就是在现场生产的，以减少运输的消耗。</span></p><p>当然从另一个角度来看，这也说明波斯帝国并没有像中央帝国一样拥有充足的时间精雕细刻，一切工程都必须以最快的速度完成，戈尔甘长城具有很高的军事属性。</p><p>里海水域的存在则为快速修墙提供了便利。在戈尔甘长城南面，波斯人开掘了一些运河来方便后勤运输，其中一条长约50公里长的运河专门将戈甘鲁德河里的水引到长城内。</p><p>一方面，将水引入作为长城防卫的附属品，成为骑兵难以跨越的障碍；另一方面，发达的水路也可以将内地的粮食和士兵源源不断的运往戈尔甘长城要塞，不仅解决了物资保障问题，也方便了人们的生活用水，甚至为砖窑供水。</p><p>这一地带其实有着众多天然河流</p><p>相比呼罗珊地区更加依赖人造灌溉系统（坎儿井）</p><p>这里恐怕才是东伊朗最好的土地吧（其实也比较冷）</p><p>（图像来自google map）▼</p><p><img src="https://iknow-pic.cdn.bcebos.com/6a63f6246b600c330a5446d2154c510fd9f9a1ff@w_450,h_600"><span style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当时帝国工程师的技术水平也很高。他们为靠近运河的长城设计了一个持续的坡度，以确保墙体不会因暴雨天气而被水流冲断。</span></p><p>虽然和中国的长城一样，戈尔甘长城也不能完全吓退勇猛的蛮族骑兵，但高大雄伟的建筑再加上湍急的运河辅助，还是起到了很大的威慑作用，而这背后则是萨珊波斯强大的国力和发达的工程技术的支持。</p><p>当然，波斯人先进的工程技术也不止用于军事方面</p><p>这个相当缺水的国家在水利工程方面也有诸多壮举</p><p>（胡齐斯坦灌溉系统，图片来自wikipedia@Darafsh）▼</p><p><img src="https://iknow-pic.cdn.bcebos.com/e7cd7b899e510fb3255bef8dd633c895d1430c6d@w_450,h_600"><span style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;守卫长城的士兵不容易</span></p><p>和大多数戍守边疆的古代世界将士们一样，守卫戈尔甘长城的波斯士兵也不容易。</p><p>虽然长城周边有运河，可以装载士兵在边境和内地来回穿梭，但白匈奴人的马上机动力显然比运河船只更高。他们经常在长城各部进行突如其来的武力骚扰，攻其一点，随后又撤离，让守军疲于奔命，苦不堪言。</p><p>英国博物馆内的白匈奴人御马者</p><p>（图片来自wikimedia@PHGCOM）▼</p><p><img src="https://iknow-pic.cdn.bcebos.com/908fa0ec08fa513d5304f4c4326d55fbb2fbd97a@w_450,h_600"><span style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有时候，白匈奴还会进行波段攻击，以多人、多批次、多地点发动进攻，这又大大增加了守城士兵的机动难度。而如果士兵们稍一疏忽，错判了进攻人数和进攻地点，在波斯帝国严苛的军法下，又会被长官严厉训斥甚至鞭打。</span></p><p>即使白匈奴人不来，疾病也经常折磨着这些士兵。</p><p>长城所在的里海边缘气温较低，冬天的夜晚更是寒冷。很多士兵从帝国内地而来，并不适应这样寒冷的气候，长城上的巡逻又日夜不能停止，很多人因此染上了伤寒。</p><p>一直感觉《亚尔斯兰战记》讲述的就是萨珊波斯帝国</p><p>北部的海是里海，东北方的游牧入侵者就包括白匈奴</p><p>图片来自漫画《亚尔斯兰战记》▼</p><p><img src="https://iknow-pic.cdn.bcebos.com/a6efce1b9d16fdfa7c195ef4bb8f8c5494ee7bb7@w_450,h_600"><span style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在当时医疗水平下，即使是轻微的感冒也不容易康复，很多士兵服药一两个月才能见好，如果处理不当甚至还会变成重度呼吸道感染，那可就神仙难救了。</span></p><p>但由于北方戍边人手有限，战士们必须坚持轻伤不下火线。在匈奴人到来时，很多士兵都是抱病上战场，非战斗减员比例极高。</p><p>公元644年，守卫戈尔甘长城的士兵共有2万3千人，而当年冬天北方游牧民族进攻时，四分之一的士兵都因药物和粮食无法及时运达，而在饥病交迫的窘境中与敌人交锋。这些身体虚弱的守军自然不是有备而来的匈奴人的对手，最终惨死在敌人的刀下。</p><p>（图片来自mehrnews.com/news/3664743）▼</p><p><img src="https://iknow-pic.cdn.bcebos.com/503d269759ee3d6d2d681fd14c166d224f4ade7a@w_450,h_600"><span style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;即使没有战争，士兵们也饱受相思之苦的困扰。</span></p><p>萨珊波斯王朝仍然是一个琐罗亚斯德教国家，生儿育女、重视家庭是教徒们的主要善行之一。可戍守长城的人中只有少数有身份的非士兵人员可以携带家眷，大多数士兵只能期待国家有重大节日时才能通过轮值形式回家看看。如果遇到匈奴人进攻的高峰期，这样的梦想也只能是一个奢望，边疆的生活总是很辛苦的。</p><p>记忆中壮丽首都的模样，也已逐渐模糊</p><p>（图片来自wikimedia）▼</p><p><img src="https://iknow-pic.cdn.bcebos.com/10dfa9ec8a1363270d435a299e8fa0ec08fac77a@w_450,h_600"><span style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;可就是这样，国家也没有为这些战士准备足以安抚内心的军人福利。由于戍守长城是一个防御行为，并没有多少主动出击的机会，建立功勋的机会很少。甚至那些在战事频繁的西线战场的士兵，还会看不起这些没有机会立功的同袍。</span></p><p>西线和北线同样有戍边，同样的寒冷和同样的辛苦</p><p>不过帝国在西面投入的精力和资源总体上更大</p><p>（达吉斯坦境内的萨珊堡垒）</p><p>（图片来自wikimedia）▼</p><p><img src="https://iknow-pic.cdn.bcebos.com/ae51f3deb48f8c5443a65d3535292df5e0fe7fb7@w_450,h_600"><span style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;没有军功，就没有额外的福利和收入，长城守军的收入水平在帝国内始终是最低的。而且当统治者认为北方的威胁减弱之时，还会减少对戍守长城士兵的物质补给和财政支持。与此同时，随着帝国的扩张，留守内地的人收入却与日俱增，物价也一天一个样，戍边士兵逐渐变成了穷人。</span></p><p>为了讨个生活，不少士兵最终擅离岗位，进山做了强盗，甚至有些人投敌做了奸细。</p><p>长城上的生活很浪漫，但也比什么都现实。</p><p>伟大工程却最终被人遗忘</p><p>根据考古发掘，戈尔甘长城的使用时间可能只有200多年，就被莫名其妙地抛弃了。后来由于时代变迁、王朝更替，了解戈尔甘长城故事的人也越来越少，直到近现代竟然完全被人遗忘。</p><p>花费了巨大人力物力建成的长城，怎么就一夜之间被废弃了呢？</p><p>整体的规模虽然比较长</p><p>但是建造强度和中国长城比确实没法比</p><p>（图片来自mehrnews.com/news/3664743）▼</p><p><img src="https://iknow-pic.cdn.bcebos.com/5fdf8db1cb134954ed6b707e594e9258d1094ab7@w_450,h_600"><span style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是北方敌人消失的一个必然结果。</span></p><p>公元558年，萨珊波斯和当时中亚新兴的游牧政权突厥人联盟，在布哈拉之战中彻底击败了白匈奴，让帝国北方最近的敌人从此一蹶不振。虽然此后匈奴人仍很频繁地骚扰戈尔甘边塞，但在突厥人的挤压下，他们的总体发展方向已偏向西部，帝国正北方的长城战略价值锐减，士兵数量和财政支持越来越少，最终废止。</p><p>在两大势力的挤压之下</p><p>中间地带已经没有白匈奴的生存空间了▼</p><p><img src="https://iknow-pic.cdn.bcebos.com/8b82b9014a90f6033af2045d3612b31bb051ed6e@w_450,h_600"><span style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;虽然之后阿拉伯帝国用武力和伊斯兰教重新统一了古代伊朗地区，但威胁已经不再，重修城墙并没有实际意义了。</span></p><p>自然条件的变化则加速了戈尔甘长城被人遗忘的速度。</p><p>里海的海平面曾因为气候周期变化而逐渐变高，水流带来的沙土将巍巍戈尔甘长城埋没在地下。到1979年伊斯兰革命爆发之时，绝大部分戈尔甘长城被埋藏在几米高的泥土和沙子之下，只留下一些凸起的土墩。村民们不知历史，把这些古代士兵奋战过的遗址作为农民的田地或现代村庄的分界线，其背后的故事则完全被人们遗忘，淹没在现代世界的大众生活中。</p><p>现存的样子，不太能看出是长城遗址</p><p>也不能怪农民们会在这里种田</p><p>（图片来自wikipedia@Lars Holmer）▼</p><p><img src="https://iknow-pic.cdn.bcebos.com/14ce36d3d539b600a56097ade650352ac65cb77a@w_450,h_600"><span style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;直到1999年，考古学家们才重新发现了戈尔甘长城的全部范围。可惜的是，大部分遗骸在地面上根本无法辨别，只有从空中才可以看到比较清晰的轮廓。</span></p><p>遗址的鸟瞰图，还可以看出其轮廓▼</p><p><img src="https://iknow-pic.cdn.bcebos.com/c8ea15ce36d3d53929fd96d93587e950342ab0ec@w_450,h_600"><span style="text-indent: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;但这仍然不失为现代考古学的一大发现，伊朗考古学家公布了这次报告后立刻引起了全世界的巨大轰动。大家都公认，这座长城见证了古波斯国家的强大，是现代考古学家与历史学家观察古伊朗历史变迁和时代特征的最好材料。</span></p><p>为了增强今日伊朗国内的凝聚力和旅游业吸引力，伊朗伊斯兰共和国政府也采取了大量措施保护该历史遗产，戈尔甘这座世界第二长城的大名也开始越来越多地出现在媒体上，前去探秘的学者和游客也越来越多。</p><p>戈尔甘长城又从黄沙掩埋的历史中，又复活了。</p><p>*本文内容为作者提供，不代表地球知识局立场</p><p>封面图片来自wikipedia@showBritish Museum</p><p>END</p><p>每天一篇全球人文与地理</p><p>NO.1179-世界第二长城</p><p>作者：深眸</p><p>制图：孙绿 / 校稿：猫斯图 / 编辑：养乐多</p>
+<div class="detail_statement article-source">
+<p class="tit clearfix"><span class="left"></span><span class="center">特别声明</span><span class="right"></span></p>
+<p class="cont">
+本文为自媒体、作者等在百度知道日报上传并发布，仅代表作者观点，不代表百度知道日报的观点或立场，知道日报仅提供信息发布平台。合作及供稿请联系zdribao@baidu.com。</p>
+</div>
+</div>
+<div class="wgt-bottom-union line">
+<h2>为您推荐：</h2>
+<script type="text/javascript">
+        /*百度派－日报－为您推荐*/
+        var cpro_id = "u3120033";
+    </script>
+<script type="text/javascript" src="//cpro.baidustatic.com/cpro/ui/c.js"></script>
+</div>
+<div class="opt clearfix">
+<div class="share grid">
+<span class="grid share-text">分享到：</span>
+<div class="bdsharebuttonbox">
+<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博" log="type:2060,action:click,area:share,page:daily-view,to:weibo"></a>
+<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间" log="type:2060,action:click,area:share,page:daily-view,to:qzone"></a>
+<a href="#" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧" log="type:2060,action:click,area:share,page:daily-view,to:tieba"></a>
+<a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网" log="type:2060,action:click,area:share,page:daily-view,to:douban"></a>
+<a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网" log="type:2060,action:click,area:share,page:daily-view,to:renren"></a>
+<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信" log="type:2060,action:click,area:share,page:daily-view,to:weixin"></a>
+<a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ" data-log="type:2060,action:click,area:share,page:daily-view,to:qq"></a>
+</div>
+</div>
+<div class="spt grid-r">
+<span id="spt-add" class="spt-add">+1</span>
+<span id="spt-btn" class="spt-icon">
+<span>点个赞吧</span>
+</span>
+<span id="spt-num" class="spt-num">赞(<em>0</em>)</span>
+</div>
+</div>
+<div class="author">
+<h3>关注作者</h3>
+<div class="author-info clearfix">
+<a href="/daily/author?un=地球知识局&amp;ie=gbk" target="_blank" data-log="type:2060,action:click,area:detail-author2,page:daily-view">
+<img src="https://gss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/80cb39dbb6fd526693018531a618972bd40736e8.jpg" alt="头像" width="80" height="80">
+</a>
+<dl>
+<dt>
+<a href="/daily/author?un=地球知识局&amp;ie=gbk" target="_blank" data-log="type:2060,action:click,area:detail-author2,page:daily-view">地球知识局</a>
+</dt>
+<dd>人文+地理+设计=全球视野新三观</dd>
+</dl>
+<a class="follow unfollow" data-log="type:2060,action:click,area:detail-follow,page:daily-view">
+<b></b>
+关注</a>
+</div>
+</div>
+</div>
+</div>
+<div class="hot-daily-wp">
+<div class="hot-daily">
+<div class="header clearfix">
+<h3 class="grid">知道日报热门文章</h3>
+<div class="slide-wp grid">
+<a href="javascript:;" class="slide-arrow slide-arrow-l"></a>
+<a href="javascript:;" class="slide-dot slide-dot-a"></a>
+<a href="javascript:;" class="slide-dot"></a>
+<a href="javascript:;" class="slide-dot"></a>
+<a href="javascript:;" class="slide-arrow slide-arrow-r"></a>
+</div>
+</div>
+<div class="hot-list-wp">
+<ul class="hot-list">
+<li class="clearfix " data-id="179562">
+<a class="img-wp" href="/daily/view?id=179562" target="_blank"
+			    	log="module:daily,page:daily-view,area:hot-list,id:179562,idx:0,referId:178605">
+<img src="https://gss0.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D800%2C450/sign=297a46eea6ec8a13144f5fe8c733bdbb/d50735fae6cd7b89e0075882002442a7d9330e43.jpg" alt="最强分列式是怎样炼成的？" title="最强分列式是怎样炼成的？" width="214" height="120">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=179562" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:179562,idx:0,referId:178605">
+最强分列式是怎样炼成的？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=179562" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:179562,idx:0,referId:178605">
+从队列、动作和步速，最强的分列式是这样炼成的。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="fr"><a href="/daily/author?un=%B4%F3%CF%F3%B9%AB%BB%E1&ie=gbk">大象公会</a></span>
+<span class="browse-count">阅读(54668)</span>
+</div>
+</div>
+</li>
+<li class="clearfix " data-id="178926">
+<a class="img-wp" href="/daily/view?id=178926" target="_blank"
+			    	log="module:daily,page:daily-view,area:hot-list,id:178926,idx:1,referId:178605">
+<img src="https://iknow-pic.cdn.bcebos.com/fcfaaf51f3deb48fe48a8fc3ff1f3a292cf578cf@w_800,h_450" alt="男人更看重对方身材是为了下一代？" title="男人更看重对方身材是为了下一代？" width="214" height="120">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=178926" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:178926,idx:1,referId:178605">
+男人更看重对方身材是为了下一代？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=178926" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:178926,idx:1,referId:178605">
+男人喜欢“沙漏身材”的女人，可能因为下身脂肪富含DHA有助宝宝脑部发育；身材体现一个人的健康状况和生殖力，被异性大脑无意识地检测到而产生爱。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="fr"><a href="/daily/author?un=%BF%C6%D1%A7%B9%AB%D4%B0&ie=gbk">科学公园</a></span>
+<span class="browse-count">阅读(52457)</span>
+</div>
+</div>
+</li>
+<li class="clearfix " data-id="179553">
+<a class="img-wp" href="/daily/view?id=179553" target="_blank"
+			    	log="module:daily,page:daily-view,area:hot-list,id:179553,idx:2,referId:178605">
+<img src="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D800%2C450/sign=b0b5cb9303f431adbc874b317b06809b/a8ec8a13632762d0f5018abeafec08fa513dc6f7.jpg" alt="颜色真的存在么？还是人类的幻觉？" title="颜色真的存在么？还是人类的幻觉？" width="214" height="120">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=179553" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:179553,idx:2,referId:178605">
+颜色真的存在么？还是人类的幻觉？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=179553" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:179553,idx:2,referId:178605">
+世界上其实不存在颜色。颜色某种程度上我们可以理解成是人的一种幻觉，是神经系统和视锥系统共同作用的结果。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="fr"><a href="/daily/author?un=%D6%D3%C3%FA%C1%C4%BF%C6%D1%A7&ie=gbk">钟铭聊科学</a></span>
+<span class="browse-count">阅读(35823)</span>
+</div>
+</div>
+</li>
+<li class="clearfix " data-id="176633">
+<a class="img-wp" href="/daily/view?id=176633" target="_blank"
+			    	log="module:daily,page:daily-view,area:hot-list,id:176633,idx:3,referId:178605">
+<img src="https://iknow-pic.cdn.bcebos.com/f11f3a292df5e0fe77be2720536034a85edf7269@w_800,h_450" alt="沙漠的鱼儿从何来？" title="沙漠的鱼儿从何来？" width="214" height="120">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=176633" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:176633,idx:3,referId:178605">
+沙漠的鱼儿从何来？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=176633" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:176633,idx:3,referId:178605">
+鱼儿在沙漠里欢蹦乱跳？别开玩笑了！沙漠里滴雨不下，水源绝迹，寸草不生，怎么会有鱼儿生存呢？
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="fr"><a href="/daily/author?un=%C1%FA%D4%B4%C6%DA%BF%AF%CD%F8&ie=gbk">龙源期刊网</a></span>
+<span class="browse-count">阅读(34192)</span>
+</div>
+</div>
+</li>
+<li class="clearfix " data-id="178308">
+<a class="img-wp" href="/daily/view?id=178308" target="_blank"
+			    	log="module:daily,page:daily-view,area:hot-list,id:178308,idx:4,referId:178605">
+<img src="https://iknow-pic.cdn.bcebos.com/5d6034a85edf8db18ea8037c0623dd54564e7427@w_800,h_450" alt="除了浪费钱，益生菌饮品对人真的有益吗？" title="除了浪费钱，益生菌饮品对人真的有益吗？" width="214" height="120">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=178308" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:178308,idx:4,referId:178605">
+除了浪费钱，益生菌饮品对人真的有益吗？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=178308" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:178308,idx:4,referId:178605">
+益生菌产品，当你健康时不会对你造成危害，但是同样也不会有什么益处；当你不健康时或许会造成危害。只有在极少数情况下，它才会给你提供帮助。因此，健康人使用益生菌产品不过是在浪费钱。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="fr"><a href="/daily/author?un=%BF%C6%D1%A7%B9%AB%D4%B0&ie=gbk">科学公园</a></span>
+<span class="browse-count">阅读(29205)</span>
+</div>
+</div>
+</li>
+<li class="clearfix last" data-id="178910">
+<a class="img-wp" href="/daily/view?id=178910" target="_blank"
+			    	log="module:daily,page:daily-view,area:hot-list,id:178910,idx:5,referId:178605">
+<img src="https://iknow-pic.cdn.bcebos.com/b17eca8065380cd7ed4349f1ae44ad3459828149@w_800,h_450" alt="身体分男女，大脑是否存在性别差异？" title="身体分男女，大脑是否存在性别差异？" width="214" height="120">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=178910" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:178910,idx:5,referId:178605">
+身体分男女，大脑是否存在性别差异？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=178910" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:178910,idx:5,referId:178605">
+大脑并不落入“基因-性腺-生殖器”的生理性别模型，也不是本质论的科学证据。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="fr"><a href="/daily/author?un=%C9%F1%BE%AD%CF%D6%CA%B5&ie=gbk">神经现实</a></span>
+<span class="browse-count">阅读(28776)</span>
+</div>
+</div>
+</li>
+</ul>
+<ul class="hot-list" style="display:none;">
+<li class="clearfix " data-id="178605">
+<a class="img-wp" href="/daily/view?id=178605" target="_blank"
+					log="module:daily,page:daily-view,area:hot-list,id:178605,idx:0,referId:178605">
+<img src="https://iknow-pic.cdn.bcebos.com/b999a9014c086e067f90a4510d087bf40ad1cbf4@w_800,h_450" alt="谁是世界第二长城？" title="谁是世界第二长城？" width="214" height="120">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=178605" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:178605,idx:0,referId:178605">
+谁是世界第二长城？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=178605" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:178605,idx:0,referId:178605">
+用城墙分割帝国和蛮族并不是中国人的专属，在世界其他地方也有因同样需求而建立起的防御性建筑。罗马帝国也在英国修建长城以区隔异族，耶路撒冷周围的城墙更是见证了历代的利益争夺。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="fr"><a href="/daily/author?un=%B5%D8%C7%F2%D6%AA%CA%B6%BE%D6&ie=gbk" >地球知识局</a></span>
+<span class="browse-count">阅读(26633)</span>
+</div>
+</div>
+</li>
+<li class="clearfix " data-id="176638">
+<a class="img-wp" href="/daily/view?id=176638" target="_blank"
+					log="module:daily,page:daily-view,area:hot-list,id:176638,idx:1,referId:178605">
+<img src="https://iknow-pic.cdn.bcebos.com/9a504fc2d562853532b746009fef76c6a7ef63b8@w_800,h_450" alt="聪明人为何总是孤独的 ？" title="聪明人为何总是孤独的 ？" width="214" height="120">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=176638" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:176638,idx:1,referId:178605">
+聪明人为何总是孤独的 ？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=176638" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:176638,idx:1,referId:178605">
+现代观点认为，我们与社会交往越多，幸福感就越强。然而，心理学家却发现了一种与此理论相背离的现象。他们发现，聪明的人往往不太合群，过多的朋友和过于广泛的社交活动会让他们感觉很痛苦。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="fr"><a href="/daily/author?un=%C1%FA%D4%B4%C6%DA%BF%AF%CD%F8&ie=gbk" >龙源期刊网</a></span>
+<span class="browse-count">阅读(26269)</span>
+</div>
+</div>
+</li>
+<li class="clearfix " data-id="179303">
+<a class="img-wp" href="/daily/view?id=179303" target="_blank"
+					log="module:daily,page:daily-view,area:hot-list,id:179303,idx:2,referId:178605">
+<img src="https://gss0.bdstatic.com/7051cy89Q1gCncy6lo7D0j9wexYrbOWh7c50/zhidaoribao/2019/1002/diqiu-top1.png" alt="为什么地球会诞生生命？有哪些相关的理论？" title="为什么地球会诞生生命？有哪些相关的理论？" width="214" height="120">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=179303" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:179303,idx:2,referId:178605">
+为什么地球会诞生生命？有哪些相关的理论？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=179303" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:179303,idx:2,referId:178605">
+关于“生命的起源”问题，一直以来都有很多很多的说法，也有很多很多的争论。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="fr"><a href="/daily/author?un=%D6%D3%C3%FA%C1%C4%BF%C6%D1%A7&ie=gbk" >钟铭聊科学</a></span>
+<span class="browse-count">阅读(25385)</span>
+</div>
+</div>
+</li>
+<li class="clearfix " data-id="175872">
+<a class="img-wp" href="/daily/view?id=175872" target="_blank"
+					log="module:daily,page:daily-view,area:hot-list,id:175872,idx:3,referId:178605">
+<img src="https://iknow-pic.cdn.bcebos.com/8718367adab44aeda5eefd2abd1c8701a08bfb58@w_800,h_450" alt="战国时候人们有多讲究“吃”？" title="战国时候人们有多讲究“吃”？" width="214" height="120">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=175872" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:175872,idx:3,referId:178605">
+战国时候人们有多讲究“吃”？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=175872" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:175872,idx:3,referId:178605">
+在很多人的印象中，战国时期似乎是一个硝烟四起、民不聊生的年代，似乎那时的人们只想着如何打胜仗，如何能在乱世中存活，日常则像我们石器时代的祖先一样过着茹毛饮血、衣不蔽体的生活。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="fr"><a href="/daily/author?un=%C1%FA%D4%B4%C6%DA%BF%AF%CD%F8&ie=gbk" >龙源期刊网</a></span>
+<span class="browse-count">阅读(25381)</span>
+</div>
+</div>
+</li>
+<li class="clearfix " data-id="178399">
+<a class="img-wp" href="/daily/view?id=178399" target="_blank"
+					log="module:daily,page:daily-view,area:hot-list,id:178399,idx:4,referId:178605">
+<img src="https://gss0.bdstatic.com/7051cy89Q1gCncy6lo7D0j9wexYrbOWh7c50/zhidaoribao/2019/1004/bailing-top1.png" alt="2019年中国白领夜间消费调研报告发布：8成白领夜间其实都宅在家？" title="2019年中国白领夜间消费调研报告发布：8成白领夜间其实都宅在家？" width="214" height="120">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=178399" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:178399,idx:4,referId:178605">
+2019年中国白领夜间消费调研报告发布：8成白领夜间其实都宅在家？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=178399" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:178399,idx:4,referId:178605">
+近日，智联招聘与美团平台联合做了一项调查，调查显示，8成白领夜间宅在家，仅5%白领习惯外出娱乐，宅一族男性偏爱游戏直播，女性钟爱追剧和网购。小龙虾成为各个年龄段白领的宵夜必选。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="fr"><a href="/daily/author?un=%C2%B9%B1%AA%D7%F9&ie=gbk" >鹿豹座</a></span>
+<span class="browse-count">阅读(24519)</span>
+</div>
+</div>
+</li>
+<li class="clearfix last" data-id="176121">
+<a class="img-wp" href="/daily/view?id=176121" target="_blank"
+					log="module:daily,page:daily-view,area:hot-list,id:176121,idx:5,referId:178605">
+<img src="https://iknow-pic.cdn.bcebos.com/b2de9c82d158ccbfbe70480816d8bc3eb1354130@w_800,h_450" alt="为什么高铁座位没有&quot;E&quot;？万万没想到，竟是因为…" title="为什么高铁座位没有&quot;E&quot;？万万没想到，竟是因为…" width="214" height="120">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=176121" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:176121,idx:5,referId:178605">
+为什么高铁座位没有&quot;E&quot;？万万没想到，竟是因为…
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=176121" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:176121,idx:5,referId:178605">
+坐高铁出行，你比较喜欢靠窗的座位还是靠过道的座位呢？其实高铁的座位分布是很有规律的，不过你有没有发现？高铁座位其实是没有“E”的。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="fr"><a href="/daily/author?un=%BF%C6%C6%D5%D6%D0%B9%FA%CD%F8&ie=gbk" >科普中国网</a></span>
+<span class="browse-count">阅读(23907)</span>
+</div>
+</div>
+</li>
+</ul><ul class="hot-list" style="display:none;">
+<li class="clearfix " data-id="174815">
+<a class="img-wp" href="/daily/view?id=174815" target="_blank"
+				log="module:daily,page:daily-view,area:hot-list,id:174815,idx:0,referId:178605">
+<img src="https://gss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D800%2C450%3B/sign=652dc923f31f4134e0620d76152fb9fe/a1ec08fa513d26979add5c9d5bfbb2fb4216d8e0.jpg" alt="中国货币是如何进化的？" title="中国货币是如何进化的？" width="214" height="120">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=174815" target="_blank"
+							log="module:daily,page:daily-view,area:hot-list,id:174815,idx:0,referId:178605">
+中国货币是如何进化的？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=174815" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:174815,idx:0,referId:178605">
+从珠、玉、黄金、白银等贵重载体到普遍通行适合百姓民生的铜钱、铁钱，再到创新、完善为现在的纸币，中国货币的进化遵循着“形式由低级向高级发展，自身价值则由实至虚”的规律。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="fr"><a href="/daily/author?un=%C1%FA%D4%B4%C6%DA%BF%AF%CD%F8&ie=gbk" >龙源期刊网</a></span>
+<span class="browse-count">阅读(22947)</span>
+</div>
+</div>
+</li>
+<li class="clearfix " data-id="178980">
+<a class="img-wp" href="/daily/view?id=178980" target="_blank"
+				log="module:daily,page:daily-view,area:hot-list,id:178980,idx:1,referId:178605">
+<img src="https://iknow-pic.cdn.bcebos.com/cc11728b4710b912a5978fe3ccfdfc039245225c@w_800,h_450" alt="那些年，中国人吃掉了多少恐龙？" title="那些年，中国人吃掉了多少恐龙？" width="214" height="120">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=178980" target="_blank"
+							log="module:daily,page:daily-view,area:hot-list,id:178980,idx:1,referId:178605">
+那些年，中国人吃掉了多少恐龙？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=178980" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:178980,idx:1,referId:178605">
+吃猫、吃狗、吃保护动物？这些都是小儿科。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="fr"><a href="/daily/author?un=%B4%F3%CF%F3%B9%AB%BB%E1&ie=gbk" >大象公会</a></span>
+<span class="browse-count">阅读(22433)</span>
+</div>
+</div>
+</li>
+<li class="clearfix " data-id="175718">
+<a class="img-wp" href="/daily/view?id=175718" target="_blank"
+				log="module:daily,page:daily-view,area:hot-list,id:175718,idx:2,referId:178605">
+<img src="https://gss0.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D800%2C450%3B/sign=cb8e1fe0e5c4b74534c1bf1effcc3223/a2cc7cd98d1001e9f8da8dc6b60e7bec55e79711.jpg" alt="为什么北美家庭喜欢生很多孩子？" title="为什么北美家庭喜欢生很多孩子？" width="214" height="120">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=175718" target="_blank"
+							log="module:daily,page:daily-view,area:hot-list,id:175718,idx:2,referId:178605">
+为什么北美家庭喜欢生很多孩子？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=175718" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:175718,idx:2,referId:178605">
+导语：最近国内“单独二胎”政策的出台再度引发对多子女家庭的热议。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="fr"><a href="/daily/author?un=%C1%FA%D4%B4%C6%DA%BF%AF%CD%F8&ie=gbk" >龙源期刊网</a></span>
+<span class="browse-count">阅读(21988)</span>
+</div>
+</div>
+</li>
+<li class="clearfix " data-id="175727">
+<a class="img-wp" href="/daily/view?id=175727" target="_blank"
+				log="module:daily,page:daily-view,area:hot-list,id:175727,idx:3,referId:178605">
+<img src="https://gss0.baidu.com/7Po3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D800%2C450%3B/sign=c8a777ee713e6709be554df70bf7b309/6c224f4a20a4462366d62eab9622720e0df3d7df.jpg" alt="汉语能取代英语的统治地位吗？" title="汉语能取代英语的统治地位吗？" width="214" height="120">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=175727" target="_blank"
+							log="module:daily,page:daily-view,area:hot-list,id:175727,idx:3,referId:178605">
+汉语能取代英语的统治地位吗？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=175727" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:175727,idx:3,referId:178605">
+2025年人类说什么语言？
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="fr"><a href="/daily/author?un=%C1%FA%D4%B4%C6%DA%BF%AF%CD%F8&ie=gbk" >龙源期刊网</a></span>
+<span class="browse-count">阅读(21607)</span>
+</div>
+</div>
+</li>
+<li class="clearfix " data-id="175830">
+<a class="img-wp" href="/daily/view?id=175830" target="_blank"
+				log="module:daily,page:daily-view,area:hot-list,id:175830,idx:4,referId:178605">
+<img src="https://iknow-pic.cdn.bcebos.com/f31fbe096b63f624678e21cd8944ebf81b4ca328@w_800,h_450" alt="军用机器人都能干啥？" title="军用机器人都能干啥？" width="214" height="120">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=175830" target="_blank"
+							log="module:daily,page:daily-view,area:hot-list,id:175830,idx:4,referId:178605">
+军用机器人都能干啥？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=175830" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:175830,idx:4,referId:178605">
+自20世纪50年代诞生以来，现代实用机器人早已风靡全球。据称，目前世界上机器人数量已达20万，并且每年还在以35%的速度递增。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="fr"><a href="/daily/author?un=%C1%FA%D4%B4%C6%DA%BF%AF%CD%F8&ie=gbk" >龙源期刊网</a></span>
+<span class="browse-count">阅读(19389)</span>
+</div>
+</div>
+</li>
+<li class="clearfix last" data-id="176524">
+<a class="img-wp" href="/daily/view?id=176524" target="_blank"
+				log="module:daily,page:daily-view,area:hot-list,id:176524,idx:5,referId:178605">
+<img src="https://gss0.bdstatic.com/7051cy89Q1gCncy6lo7D0j9wexYrbOWh7c50/zhidaoribao/2019/1002/jiujinshan.png" alt="旧金山唐人街经历了怎样的170年风雨之路？" title="旧金山唐人街经历了怎样的170年风雨之路？" width="214" height="120">
+</a>
+<div class="daily-cont">
+<div class="daily-cont-top">
+<h2>
+<a href="/daily/view?id=176524" target="_blank"
+							log="module:daily,page:daily-view,area:hot-list,id:176524,idx:5,referId:178605">
+旧金山唐人街经历了怎样的170年风雨之路？
+</a>
+</h2>
+<div class="summer">
+<a href="/daily/view?id=176524" target="_blank"
+						    log="module:daily,page:daily-view,area:hot-list,id:176524,idx:5,referId:178605">
+说起海外的唐人街，美国旧金山是不得 不提的一个地方。这里是近代以来中 国人走向美洲大陆的第一个聚集点， 见证着早期华人经受的曲折、艰辛乃至奴役。
+</a>
+</div>
+</div>
+<div class="daily-info">
+<span class="fr"><a href="/daily/author?un=%C1%FA%D4%B4%C6%DA%BF%AF%CD%F8&ie=gbk" >龙源期刊网</a></span>
+<span class="browse-count">阅读(19156)</span>
+</div>
+</div>
+</li>
+</ul></div>
+</div>
+</div>
+<div class="comment-wp">
+<div class="comment">
+<div id="comment-header" class="header"></div>
+<div id="comment-list" class="comment-list"></div></div>
+</div>
+</div>
+<aside class="aside-wp grid-r">
+<div class="wgt-view-replier aside-box">
+<dl>
+<dt><a href="/daily/author?un=%B5%D8%C7%F2%D6%AA%CA%B6%BE%D6&ie=gbk" target="_blank">地球知识局</a></dt>
+<dd class="intro">人文+地理+设计=全球视野新三观</dd>
+<dd class="face">
+<a href="/daily/author?un=%B5%D8%C7%F2%D6%AA%CA%B6%BE%D6&ie=gbk" target="_blank">
+<img src="https://gss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/80cb39dbb6fd526693018531a618972bd40736e8.jpg" alt="知道日报作者地球知识局的头像" width="80" height="80">
+</a>
+</dd>
+</dl>
+<aside class="info">
+<ul>
+<li><span>8511</span>粉丝</li>
+<li class="li2"><span>408</span>文章</li>
+<li><span id="replier-pv"></span>阅读量</li>
+</ul>
+</aside>
+</div>
+<div class="aside">
+<div class="ad-wp">
+</div>
+<div class="recommend-author-wp">
+<div class="recommend-author">
+<h3>热门作者推荐</h3>
+<ul>
+<li class="clearfix"><dl>
+<dt><a href="/daily/author?un=%B4%F3%CF%F3%B9%AB%BB%E1&ie=gbk" data-log="type:2060,action:click,area:rec-author,page:daily-view" target="_blank">大象公会</a></dt>
+<dd class="intro">知识、见识、见闻，给你最好的饭桌谈资，知道分子的进修基地。官方微信号idxgh201...</dd>
+<dd class="face"><a href="/daily/author?un=%B4%F3%CF%F3%B9%AB%BB%E1&ie=gbk" data-log="type:2060,action:click,area:rec-author,page:daily-view" target="_blank"><img src="https://gss0.bdstatic.com/7051cy89Q1gCncy6lo7D0j9wexYrbOWh7c50/zhidaoribao/2019/headphoto/daxianggongshe/daxiang.png" alt="知道日报作者大象公会的头像" width="80" height="80"/></a></dd>
+</dl>
+</li>
+<li class="clearfix"><dl>
+<dt><a href="/daily/author?un=%C2%ED%C2%B7%C7%E0%C4%EA&ie=gbk" data-log="type:2060,action:click,area:rec-author,page:daily-view" target="_blank">马路青年</a></dt>
+<dd class="intro">老不正经青年聚集地</dd>
+<dd class="face"><a href="/daily/author?un=%C2%ED%C2%B7%C7%E0%C4%EA&ie=gbk" data-log="type:2060,action:click,area:rec-author,page:daily-view" target="_blank"><img src="https://gss0.bdstatic.com/7051cy89Q1gCncy6lo7D0j9wexYrbOWh7c50/zhidaoribao/2019/headphoto/maluqingnian/WechatIMG133.jpeg" alt="知道日报作者马路青年的头像" width="80" height="80"/></a></dd>
+</dl>
+</li>
+<li class="clearfix"><dl>
+<dt><a href="/daily/author?un=%D0%C7%B3%BD%B4%F3%BA%A3%C2%B7%C9%CF%B5%C4%D6%D6%BB%A8%BC%D2&ie=gbk" data-log="type:2060,action:click,area:rec-author,page:daily-view" target="_blank">星辰大海路上的种花家</a></dt>
+<dd class="intro">种花家的征途在于星辰大海，偶将上下求索.........</dd>
+<dd class="face"><a href="/daily/author?un=%D0%C7%B3%BD%B4%F3%BA%A3%C2%B7%C9%CF%B5%C4%D6%D6%BB%A8%BC%D2&ie=gbk" data-log="type:2060,action:click,area:rec-author,page:daily-view" target="_blank"><img src="https://gss0.baidu.com/-vo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/63d9f2d3572c11df1c23ef566d2762d0f603c2d1.jpg" alt="知道日报作者星辰大海路上的种花家的头像" width="80" height="80"/></a></dd>
+</dl>
+</li>
+<li class="clearfix"><dl>
+<dt><a href="/daily/author?un=%C1%FA%D4%B4%C6%DA%BF%AF%CD%F8&ie=gbk" data-log="type:2060,action:click,area:rec-author,page:daily-view" target="_blank">龙源期刊网</a></dt>
+<dd class="intro">龙源利用最新的互联网和数字化手段提升中国期刊的竞争力，优质版权内容的聚合平台</dd>
+<dd class="face"><a href="/daily/author?un=%C1%FA%D4%B4%C6%DA%BF%AF%CD%F8&ie=gbk" data-log="type:2060,action:click,area:rec-author,page:daily-view" target="_blank"><img src="https://gss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/72f082025aafa40f48e61a28a664034f78f01926.jpg" alt="知道日报作者龙源期刊网的头像" width="80" height="80"/></a></dd>
+</dl>
+</li>
+<li class="clearfix"><dl>
+<dt><a href="/daily/author?un=%BF%C6%D1%A7%B9%AB%D4%B0&ie=gbk" data-log="type:2060,action:click,area:rec-author,page:daily-view" target="_blank">科学公园</a></dt>
+<dd class="intro">一个致力于传播主流科学信息、揭露伪科学骗局、推广理性科学精神的科普平台。</dd>
+<dd class="face"><a href="/daily/author?un=%BF%C6%D1%A7%B9%AB%D4%B0&ie=gbk" data-log="type:2060,action:click,area:rec-author,page:daily-view" target="_blank"><img src="https://gss0.bdstatic.com/70cFsj3f_gcX8t7mm9GUKT-xh_/zhidaoribao2014/authors/scipark.png" alt="知道日报作者科学公园的头像" width="80" height="80"/></a></dd>
+</dl>
+</li>
+<li class="clearfix last"><dl>
+<dt><a href="/daily/author?un=%BB%EC%C2%D2%B2%A9%CE%EF%B9%DD&ie=gbk" data-log="type:2060,action:click,area:rec-author,page:daily-view" target="_blank">混乱博物馆</a></dt>
+<dd class="intro">全是你不知道的</dd>
+<dd class="face"><a href="/daily/author?un=%BB%EC%C2%D2%B2%A9%CE%EF%B9%DD&ie=gbk" data-log="type:2060,action:click,area:rec-author,page:daily-view" target="_blank"><img src="https://iknow-pic.cdn.bcebos.com/4a36acaf2edda3ccfdba65360ee93901213f924e" alt="知道日报作者混乱博物馆的头像" width="80" height="80"/></a></dd>
+</dl>
+</li>
+</ul></div>
+</div>
+<div class="ad-app-wp">
+</div>
+</div>
+<div id="rel-daily" class="rel-daily">
+<header>
+<h3><a href="/daily/?period=2229" target="_blank">第<span>2229</span>期</a></h3>
+</header><div class="body">
+<ul>
+<li class="cur">
+<a href="/daily/view?id=179059" target="_blank" data-log="type:2060,action:click,area:reldaily,page:daily-view,referId:178605,idx:0">
+<img src="https://iknow-pic.cdn.bcebos.com/962bd40735fae6cda6e0697c00b30f2442a70f53@w_800,h_450" alt="国家辣酱地理：中国哪里的辣酱最好吃？的头图" width="251" height="185">
+<p class="title"><b></b>国家辣酱地理：中国哪里的辣酱最好吃？</p>
+</a></li>
+<li class="">
+<a href="/daily/view?id=178605" target="_blank" data-log="type:2060,action:click,area:reldaily,page:daily-view,referId:178605,idx:1">
+<img src="https://iknow-pic.cdn.bcebos.com/b999a9014c086e067f90a4510d087bf40ad1cbf4@w_800,h_450" alt="谁是世界第二长城？的头图" width="251" height="185">
+<p class="title"><b></b>谁是世界第二长城？</p>
+</a></li>
+<li class="">
+<a href="/daily/view?id=175718" target="_blank" data-log="type:2060,action:click,area:reldaily,page:daily-view,referId:178605,idx:2">
+<img src="https://gss0.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D800%2C450%3B/sign=cb8e1fe0e5c4b74534c1bf1effcc3223/a2cc7cd98d1001e9f8da8dc6b60e7bec55e79711.jpg" alt="为什么北美家庭喜欢生很多孩子？的头图" width="251" height="185">
+<p class="title"><b></b>为什么北美家庭喜欢生很多孩子？</p>
+</a></li>
+<li class="">
+<a href="/daily/view?id=178212" target="_blank" data-log="type:2060,action:click,area:reldaily,page:daily-view,referId:178605,idx:3">
+<img src="https://iknow-pic.cdn.bcebos.com/78310a55b319ebc48b5af28e8d26cffc1e171682@w_800,h_450" alt="维吾尔族真的更擅长踢足球吗？的头图" width="251" height="185">
+<p class="title"><b></b>维吾尔族真的更擅长踢足球吗？</p>
+</a></li>
+<li class="">
+<a href="/daily/view?id=179379" target="_blank" data-log="type:2060,action:click,area:reldaily,page:daily-view,referId:178605,idx:4">
+<img src="https://gss0.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D800%2C450/sign=448098a44810b912bf94fef6f3cdd037/7aec54e736d12f2e30a9717f40c2d56285356805.jpg" alt="《猫和老鼠》为什么那么耐看？的头图" width="251" height="185">
+<p class="title"><b></b>《猫和老鼠》为什么那么耐看？</p>
+</a></li>
+<li class="">
+<a href="/daily/view?id=179084" target="_blank" data-log="type:2060,action:click,area:reldaily,page:daily-view,referId:178605,idx:5">
+<img src="https://iknow-pic.cdn.bcebos.com/35a85edf8db1cb13c1fb010dd254564e92584b19@w_800,h_450" alt="午睡为什么最好别超过1小时？当心越睡越累...的头图" width="251" height="185">
+<p class="title"><b></b>午睡为什么最好别超过1小时？当心越睡越累...</p>
+</a></li>
+<li class="">
+<a href="/daily/view?id=174863" target="_blank" data-log="type:2060,action:click,area:reldaily,page:daily-view,referId:178605,idx:6">
+<img src="https://gss0.baidu.com/7Po3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D800%2C450%3B/sign=1bd842a9c2bf6c81f76224e08c0e9d01/63d9f2d3572c11df2eb619e26d2762d0f603c288.jpg" alt="清朝太监真实的生活是什么样的？的头图" width="251" height="185">
+<p class="title"><b></b>清朝太监真实的生活是什么样的？</p>
+</a></li>
+<li class="last">
+<a href="/daily/view?id=166521" target="_blank" data-log="type:2060,action:click,area:reldaily,page:daily-view,referId:178605,idx:7">
+<img src="https://gss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D800%2C450%3B/sign=46ca7946bcfb43161a4a727210946a17/a9d3fd1f4134970a4be909a29bcad1c8a6865da0.jpg" alt="据说“逛夜市”是认识一座城市的最好方式？的头图" width="251" height="185">
+<p class="title"><b></b>据说“逛夜市”是认识一座城市的最好方式？</p>
+</a></li>
+</ul>
+</div></div>
+</aside>
+</div>
+</div>
+
+<div class="f-contact">合作及供稿请联系：zdribao@baidu.com</div>
+
+</div>
+
+
+<footer id="footer" class="wgt-footer">
+<p>
+<a target="_blank" rel="nofollow" href="http://help.baidu.com/question?prod_id=9&class=337">帮助</a>
+&nbsp;|&nbsp;<a target="_blank" rel="nofollow" href="javascript:;" id="footer-feedback">意见反馈</a>
+&nbsp;|&nbsp;<a target="_blank" rel="nofollow" href="http://help.baidu.com/newadd?prod_id=9&category=1">投诉举报</a>
+</p>
+<p>
+京ICP证030173号-1&nbsp;&nbsp;&nbsp;京网文【2013】0934-983号&nbsp;&nbsp;&nbsp;&nbsp;    &copy;2019Baidu&nbsp;&nbsp;<a rel="nofollow" href="http://www.baidu.com/duty/" target="_blank">使用百度前必读</a>&nbsp;|&nbsp;<a rel="nofollow" href="http://help.baidu.com/question?prod_id=9&class=325&id=2760" target="_blank">知道协议</a>&nbsp;</p>
+</footer>
+
+
+
+<script type="text/javascript">
+window.baidu_hh_hotword={
+    id: ['daily-cont'],
+    page_url: 'http://zhidao.' + 'baidu.com' + location.pathname + location.search,
+    di: "u2374312",
+    maxword: 10,
+    frequency: 2
+}
+</script>
+<script src="//su.bdimg.com/static/dspui/js/sw.js?v=1"></script>
+
+
+
+<script>
+    void function(a,b,c,d,e,f){function g(b){a.attachEvent?a.attachEvent("onload",b,!1):a.addEventListener&&a.addEventListener("load",b)}function h(a,c,d){d=d||15;var e=new Date;e.setTime((new Date).getTime()+1e3*d),b.cookie=a+"="+escape(c)+";path=/;expires="+e.toGMTString()}function i(a){var c=b.cookie.match(new RegExp("(^| )"+a+"=([^;]*)(;|$)"));return null!=c?unescape(c[2]):null}function j(){var a=i("PMS_JT");if(a){h("PMS_JT","",-1);try{a=a.match(/{["']s["']:(\d+),["']r["']:["']([\s\S]+)["']}/),a=a&&a[1]&&a[2]?{s:parseInt(a[1]),r:a[2]}:{}}catch(c){a={}}a.r&&b.referrer.replace(/#.*/,"")!=a.r||alog("speed.set","wt",a.s)}}if(a.alogObjectConfig){var k=a.alogObjectConfig.sample,l=a.alogObjectConfig.rand;d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d,k&&l&&l>k||(g(function(){alog("speed.set","lt",+new Date),e=b.createElement(c),e.async=!0,e.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),f=b.getElementsByTagName(c)[0],f.parentNode.insertBefore(e,f)}),j())}}(window,document,"script","/hunter/alog/dp.min.js");
+    </script>
+
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?92f9337283b8a859284c612d2cfeb037";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+</body><script type="text/javascript" src="https://iknowpc.bdimg.com/static/common/lib/mod.75d1f98.js"></script><script type="text/javascript">(window.__IKNOW_GLOBAL__ || window).require.resourceMap({"res":{"common:widget\/lib\/jquery\/jquery.origin.js":{"pkg":"common:p3"},"common:widget\/js\/util\/https\/https.js":{"pkg":"common:p6"},"common:widget\/bottom-ask\/bottom-ask.js":{"pkg":"common:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/util\/log\/log.js"]},"common:widget\/css\/fonts\/iconfont.js":{"pkg":"common:p0"},"common:widget\/css\/fonts\/iconfont.min.js":{"pkg":"common:p0"},"common:widget\/footer-new\/footer-new.js":{"pkg":"common:p0","deps":["common:widget\/lib\/jquery\/jquery.js","common:widget\/js\/util\/event\/event.js"]},"common:widget\/footer\/footer.js":{"pkg":"common:p0"},"common:widget\/header-metis\/header.js":{"pkg":"common:p0","deps":["common:widget\/lib\/jquery\/jquery.js","common:widget\/js\/ui\/dialog\/dialog.js","common:widget\/js\/util\/template\/template.js","common:widget\/js\/ui\/scrollbar-new\/scrollbar-new.js","common:widget\/js\/util\/store\/store.js"]},"common:widget\/menu\/menu.js":{"pkg":"common:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/log\/log.js"]},"common:widget\/search-box-new\/search-box-new.js":{"pkg":"common:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/ui\/suggestion-new\/suggestion-new.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/util\/form\/form.js","common:widget\/js\/util\/log\/log.js","common:widget\/js\/ui\/dialog\/dialog.js","common:widget\/lib\/jquery.placeholder\/jquery.placeholder.js"]},"common:widget\/userbar-renew\/userbar-renew.js":{"pkg":"common:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/logic\/login\/login.js","common:widget\/js\/util\/log\/log.js","common:widget\/js\/util\/store\/store.js"]},"com-brand:widget\/js\/ueditor\/ueditor.config.js":{"pkg":"com-brand:p0"},"daily:widget\/detail\/decorate-img.js":{"pkg":"daily:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js"]}},"pkg":{"common:p0":{"url":"https:\/\/iknowpc.bdimg.com\/static\/common\/pkg\/more.22db732.js","has":["common:widget\/bottom-ask\/bottom-ask.js","common:widget\/css\/fonts\/iconfont.js","common:widget\/css\/fonts\/iconfont.min.js","common:widget\/footer-new\/footer-new.js","common:widget\/footer\/footer.js","common:widget\/header-metis\/header.js","common:widget\/menu\/menu.js","common:widget\/search-box-new\/search-box-new.js","common:widget\/userbar-renew\/userbar-renew.js"]}}});</script><script type="text/javascript" src="https://iknowpc.bdimg.com/static/common/pkg/lib.33719ed.js"></script><script type="text/javascript" src="https://iknowpc.bdimg.com/static/common/pkg/commonjs.0285675.js"></script><script type="text/javascript" src="https://iknowpc.bdimg.com/static/daily/pkg/module.ee47c97.js"></script><script type="text/javascript" src="https://gss0.bdstatic.com/7051cy792sgCpNKfpU_Y_D3/static/com-brand/pkg/editor_c813b7f.js"></script><script type="text/javascript" src="https://gss0.bdstatic.com/7051cy792sgCpNKfpU_Y_D3/static/com-brand/widget/js/uploader/uploader_b149a46.js"></script><script type="text/javascript">
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;			window['__abbaidu_2016_subidgetf'] = function () {
+				if (window.location.href.indexOf("/question") == 0) {
+					return 'iknow-pc-qb';
+				}
+				return 'iknow-pc-other';
+			}
+			window['__abbaidu_2016_cb'] = function (responseData) {
+        		
+   			};
+		}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require.async(['common:widget/userbar-renew/userbar-renew']);
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require.async(['daily:widget/search-box/search-box'], function(o) {
+        o.init(1);
+    });
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require.async(['daily:widget/menu/menu'], function (o) {
+        o.init(1);
+    });
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require.async(['daily:widget/share/share']);
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;	require('daily:widget/detail/decorate-img');
+
+    require.async(['daily:widget/detail/support'], function(ap){
+        ap.init({
+            id: 178605
+        });
+    });
+
+    require.async(['daily:widget/detail/detail'], function (obj) {
+		obj.init({
+			id: 178605,
+			title: '谁是世界第二长城？',
+			aid: 9203,
+			focusNum: 10,
+			isPreview: 0
+		});
+	});
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require.async(['daily:widget/hot-daily/hot-daily']);
+    require.async(['daily:widget/hot-daily/hot-get']);
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    // 初始化 comment
+    require.async(['common:widget/js/logic/comment/comment'], function(Comment){
+      new Comment({
+        threadId: '178605',
+        target: '#comment-header',
+        targetCon: '#comment-list',
+        hasAuthcode: true,
+        pageType: 'daily'
+      });
+    });
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require.async(['daily:widget/view-replier/view-replier'], function (obj) {
+        obj.init({
+            id: 9203
+        });
+    });
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require.async(['daily:widget/rel-daily/rel-daily'], function(obj) {
+        obj.init();
+    });
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require.async(['common:widget/js/util/log/log'], function(log){
+    	log.init({
+    		query: 'body',
+    		action: 'click'
+    	});
+    });
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require('common:widget/js/logic/ie-prompt/ie-prompt');
+    require.async(['common:widget/footer/footer']);
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require.async(['common:widget/js/util/tangram/tangram','common:widget/js/util/log/log'], function($, log){
+        log.send({
+            page: 'daily-view',
+            area: 'daily-view',
+            action: 'pv',
+            id: '178605',
+            title: '谁是世界第二长城？',
+            hasRead: 0,
+            sharesource: $.url.getQueryValue(location.href, 'sharesource') || ''
+        });
+    });
+    }();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;								                				require.async(['common:widget/js/logic/dom-ready/dom-ready'], function(D){ D.init([]) });
+            }();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;        require.async(["common:widget/js/logic/duration/duration"],function(dur){
+            dur.init();
+        });
+    }();
+</script>
+<script type="text/javascript">
+    require.async(['common:widget/lib/jquery/jquery'], function ($) {
+        if (!/chrome|firefox|safari|msie 10|rsv:11|msie [89]/i.test(navigator.userAgent)) {
+            return;
+        }
+
+        window.BaiduHttps = window.BaiduHttps || {};
+        window.BaiduHttps.callbacks = function (data) {
+            if (data && data.s === 0) {
+                window.supportHttps = 1;
+                setTimeout(function () {
+                    $('a[href^="http://www.baidu.com/s?"]').each(function (index, item) {
+                        var link = $(item).attr('href');
+                        if (~link.indexOf('?wd=') || ~link.indexOf('&wd=')) {
+                            link = link.replace(/^http/, 'https');
+                            $(item).attr('href', link);
+                        }
+                    });
+                }, 2000);
+            }
+        };
+
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://www.baidu.com/con?from=zhidao';
+        document.body.appendChild(script);
+    });
+</script>
+
+
+<script async="" src="https://dlswbr.baidu.com/heicha/mw/abclite-2016-s.js"></script>
+</html>

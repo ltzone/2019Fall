@@ -48,8 +48,7 @@ def get_all_links(content,page):
 
 def union(a,b):
     for e in b:
-        if e not in a:
-            a.put(0,e)
+        a.put(e)
 
        
 def add_page_to_folder(page, content): #将网页存到文件夹里，将网址和对应的文件名写入index.txt中
@@ -66,16 +65,13 @@ def add_page_to_folder(page, content): #将网页存到文件夹里，将网址�
     f.close()
 
 
+
 def page_working():
     global COUNT
-    while True:
-        varLock.acquire()
-        try:
-            if (COUNT < int(max_page)):
-                break
+    while COUNT < max_page:
+        if varLock.acquire():
             page = tocrawl.get()
             has_str = crawled.has_str(page)
-        finally:
             varLock.release()
         if (not has_str):
             print page
@@ -84,20 +80,19 @@ def page_working():
                 add_page_to_folder(page, content)
                 outlinks = get_all_links(content, page)
                 union(tocrawl, outlinks)
-                varLock.acquire()
-                try:
+                if varLock.acquire():
                     crawled.add_str(page)
                     graph[page] = outlinks
                     COUNT += 1
-                finally:
                     varLock.release()
             tocrawl.task_done()
 
 
+
 if __name__ == '__main__':
 
-    seed = 'http://www.baidu.com'
-    max_page = 100
+    seed = 'http://www.bing.com'
+    max_page = 3
 
     tocrawl = Queue.Queue() # tocrawl is a global working queue
     tocrawl.put(seed)
@@ -105,10 +100,13 @@ if __name__ == '__main__':
     graph = {}
     COUNT = 0
     varLock = threading.Lock()
-    NUM = 2
+    NUM = 1
+
 
     for i in range(NUM):
         t = threading.Thread(target=page_working)
         t.setDaemon(True)
         t.start()
+
+
     tocrawl.join()

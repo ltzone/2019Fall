@@ -1,0 +1,106 @@
+<!DOCTYPE html><html><head><meta http-equiv="X-UA-Compatible" content="IE=10" /><meta name="apple-itunes-app" content="app-id=586683407" /><link rel='stylesheet' type='text/css' href='https://c1-odc-15.cdn.office.net:443/start/s/161220433700_resources/1033/landing.css'/><link rel='stylesheet' type='text/css' href='https://c1-odc-15.cdn.office.net:443/start/s/161220433700_resources/1033/sharedheaderwithfonts.css'/><style>.UnifiedHeaderUIFont { font-size: 14px; font-family: 'Segoe UI','Segoe UI Web','Segoe UI Web Regular','Segoe UI Symbol','Helvetica Neue','BBAlpha Sans','S60 Sans',Arial,sans-serif; }.FooterUIFont { font-size: 9pt; font-family: 'Segoe UI Semi Light','Segoe UI Light','Segoe UI Web Light','Segoe UI','Segoe UI Web',Arial,Verdana,sans-serif }</style><style>.AppTileUIFont { font-size: 9pt; font-family: 'Segoe UI','Segoe UI Web','Segoe UI Web Regular','Segoe UI Symbol','Helvetica Neue','BBAlpha Sans','S60 Sans',Arial,sans-serif; }</style><style>.swLoadingText, .swLoadingErrorText{  font-family: 'Segoe UI Light','Segoe UI Web Light','Segoe UI','Segoe UI Web',Arial,Verdana,sans-serif; }</style><style>body { font-family: 'Segoe UI Light','Segoe UI Web Light','Segoe UI','Segoe UI Web',Arial,Verdana,sans-serif;;}.largeblurbtitlefont { font-size: 37pt }.mediumblurbtitlefont {font-size: 32pt }.taglinefont { font-size: 19pt }.blurblinkfont { font-size: 11pt }.uifont { font-size: 10pt; font-family: 'Segoe UI','Segoe UI Web','Segoe UI Web Regular','Segoe UI Symbol','Helvetica Neue','BBAlpha Sans','S60 Sans',Arial,sans-serif; }.uifontsmall { font-size: 8pt; font-family: 'Segoe UI','Segoe UI Web','Segoe UI Web Regular','Segoe UI Symbol','Helvetica Neue','BBAlpha Sans','S60 Sans',Arial,sans-serif; }.uifontlarge { font-size: 12pt; font-family: 'Segoe UI','Segoe UI Web','Segoe UI Web Regular','Segoe UI Symbol','Helvetica Neue','BBAlpha Sans','S60 Sans',Arial,sans-serif; }.uifonttemplatecard { font-size: 11px; font-family: 'Segoe UI', 'Arial', sans-serif, Arial; font-weight: normal }.uifontcarouselheader { font-size: 16px; font-weight: 600 }.uifonttemplatecontent { font-size: 12px; font-weight: 600 }.uifontheadsection { font-size: 22px; font-weight: 600 }.uifontheadercontainer { font-size: 28px; font-weight: 600 }</style><script type='text/javascript' src='https://c1-odc-15.cdn.office.net:443/start/s/161220433700_App_Scripts/home.js'></script><script type='text/javascript' src='https://c1-odc-15.cdn.office.net:443/start/s/161220433700_App_Scripts/DefaultSignIn.min.js'></script><script type='text/javascript' src='https://c1-odc-15.cdn.office.net:443/start/s/161220433700_App_Scripts/jquery.min.js'></script><script type='text/javascript'>var g_signupUrl = "https://signup.live.com/signup.aspx?mkt=en%2DUS\u0026wreply=https%3A%2F%2Foffice%2Elive%2Ecom%2Fstart%2FExcel%2Easpx%3FWT%2Emc%5Fid%3DO16%5FBingHP%26s%3D2%26auth%3D1%26nf%3D1\u0026wa=wsignin1.0\u0026lw=1\u0026id=257526";var g_msaPasswordResetUrl = "https://account.live.com/ResetPassword.aspx?mkt=en%2DUS\u0026wreply=https%3A%2F%2Foffice%2Elive%2Ecom%2Fstart%2FExcel%2Easpx%3FWT%2Emc%5Fid%3DO16%5FBingHP%26s%3D3%26auth%3D1%26nf%3D1";var g_msaLoginUrl = "https://login.live.com/login.srf?wa=wsignin1.0\u0026rpsnv=13\u0026ct=1570346334\u0026rver=7.0.6731.0\u0026wp=MBI_SSL_SHARED_SHORT\u0026wreply=https:%2F%2Foffice.live.com:443%2Fstart%2FExcel.aspx%3FWT.mc_id%3DO16_BingHP%26s%3D1%26auth%3D1%26nf%3D1\u0026lc=1033\u0026id=257526\u0026lw=1\u0026fl=easi2\u0026cbcxt=1";var g_hrdIframeUrl = "https://odc.officeapps.live.com/odc/v2.0/hrd?lcid=1033\u0026syslcid=1033\u0026uilcid=1033\u0026app=1\u0026a=1\u0026p=11\u0026hm=0\u0026ver=16\u0026fpEnabled=1";var g_orgIdLoginUrl = "https://login.windows.net/common/oauth2/authorize?response_mode=form_post\u0026response_type=id_token\u0026scope=openid\u0026msafed=0\u0026nonce=3377daf7-eeac-41be-ab94-916b684b3463.637059431346281427\u0026state=https%3a%2f%2foffice.live.com%2fstart%2fExcel.aspx%3fWT.mc_id%3dO16_BingHP%26s%3d4%26auth%3d2%26nf%3d1\u0026client_id=4b233688-031c-404b-9a80-a4f3f2351f90\u0026redirect_uri=https%3a%2f%2foffice.live.com%2fstart%2fauth%2fsignin";var g_authType = "NotAuthenticated";var g_fullScreenHrd = "true";var g_hrdOverride = null;var g_useNewRedirectUrlOverride = true;var g_preferredIdpForDefaultSignIn = 1;var g_appId = "4b233688-031c-404b-9a80-a4f3f2351f90";var g_defaultSignInEnabled = true;var g_defaultSignInAadHost = "https://login.microsoftonline.com";var g_staticAssetUrl = "https://excel.officeapps.live.com/x/StaticLoad.aspx?wx=x\u0026wv=e\u0026ui=en%2DUS\u0026usescript=1";var g_dnsWarmupUrls = ["https://onedrive.live.com/version.htm","https://word-edit.officeapps.live.com/we/blank.ashx","https://excel.officeapps.live.com/x/blank.ashx","https://powerpoint.officeapps.live.com/p/blank.ashx"];var g_dnsWarmupDelay = 500;var g_canary = "";var g_createNewHandlerPath = "/start/CreateNewDocument.aspx?dest=OneDrive\u0026app=ExcelWAC\u0026lcid=1033\u0026so=5\u0026tpl=blank\u0026usid=59454b17%2D5e79%2D4f0d%2D86ce%2D4425db8c9ce0";var g_createNewErrorPage = "https://office.live.com/start/Excel.aspx?WT.mc_id=O16_BingHP\u0026ec=2\u0026originalauth=0\u0026auth=0";var g_createNewTimeout = "15000";var g_uploadTargetUrl = "/start/UploadLocalToHost.ashx?fn={FILENAME}\u0026dest={HOST}";var g_instantCreateNewIsEnabled = "";var g_signedOutUrl = "https://office.live.com/start/Excel.aspx?WT.mc_id=O16_BingHP\u0026auth=0";var g_strK1ErrorHeader = "Sorry, you can\u0027t create documents this way";var g_strK1ErrorMessage = "Create new documents from a SharePoint site you have access to.";var g_strK1TeamSiteButtonText = "Go to your team site";var g_strK1OfficeDotComButtonText = "Go back";var g_sessionIdString = "Session ID: {0}";RegisterHRDListener();</script><script type='text/javascript'>var g_PageName = "Excel";</script><script type='text/javascript'>var g_sid = "59454b17-5e79-4f0d-86ce-4425db8c9ce0";var g_cid = "59454b17-5e79-4f0d-86ce-4425db8c9ce0";</script><script type='text/javascript' src='https://c1-odc-15.cdn.office.net:443/start/s/161220433700_App_Scripts/commondiagnostics.js'></script><script type='text/javascript' src='https://c1-odc-15.cdn.office.net:443/start/s/161220433700_App_Scripts/clicklogging.js'></script><link rel='shortcut icon' href='https://c1-odc-15.cdn.office.net:443/start/s/161220433700_resources\favicon_excel.ico' /><title>
+	Microsoft Excel - Work together on Excel spreadsheets
+</title><meta name="description" content="Collaborate for free with an online version of Microsoft Excel. Save spreadsheets in OneDrive. Share them with others and work together at the same time." /><meta name="keywords" content="Microsoft Excel for the web, Free Excel, Spreadsheets, Excel browser app, Excel templates" /></head><body class="excel HrdFullScreen" dir="ltr" onload = "InitializeLogging();ShowPersistentSignInControl();" onunload = "DisposeLogging();" ><style>.headLogo, .UnifiedHeader .headTLC {background-color:#217346;}.headBar a.headLogo:hover {background-color:#005024;}.headChevLink {background-color:#217346;}.headBar .headChevLink:hover {background-color:#005024;}</style>
+<div id='h_bar' class='headBar UnifiedHeaderUIFont UnifiedHeader ' style='' role='navigation'>
+	
+	<div class='headTLC' style=''>
+		<a onclick='ExpandHeader()' onkeydown='OnSwitcherLauncherKeyDown(event)' id='h_logoChev' class='headChevLink' href='#' style='' title='List of Microsoft Services' aria-label='List of Microsoft Services' role='button'>
+				<img src='https://c1-odc-15.cdn.office.net:443/start/s/161220433700_resources/1033/App_Switcher_Waffle.50x50x32.png?b=1601220433700' style='width:50px;height:50px;' role='presentation'/>
+		</a><span class='headLogoPipe' style='' role='presentation' aria-hidden='true'>&#160;</span><span class='headLogo' id='h_logoLink' role='heading' aria-level='1'>
+				<span class='headBrand'>Excel</span>
+			</span>
+		
+	</div>
+	<div class='headTRC'>
+	
+		<div class='headXLinks'><a href='//go.microsoft.com/fwlink/?linkid=862405&amp;pc=32'  id='h_prodExcel' class='headXLink ' target='_self'>Get Excel for your device</a></div><span class='headMeContainer' style='display:none;'></span>
+	</div>
+	<div class='headerMenusContainer'>
+		
+	</div>
+</div><div class='headerOverlay' id='h_overlay'></div>
+<div class='headerBlurbpanel fullscreen' id='h_signincntrl' role='main'>
+	<iframe id= 'h_signiniframe' class='signinframe iframeloading' frameBorder='0' src=''></iframe>
+</div><div id='sw_bar' class='swBar  UnifiedHeader' style='display:none;top:30px;' onclick='CollapseHeader()'>
+	<ul id='sw_tileList' class='swTileList'>
+		<li class='swTile '>
+	<a class='swTileLink' id='sw_Outlook' href='https://office.live.com/start/Outlook.aspx?ui=en%2DUS&amp;rs=US' style='background-color:#0072c6;border-color:#0072c6;' target='_blank'>
+		<span class='clip110x110 ci '><img src='https://c1-odc-15.cdn.office.net:443/start/s/161220433700_resources/1033/wapsw.png?b=1601220433700' class='wapsw_ODC_TileOutlook_110x110x32' role='presentation' title=''></span>
+		<span class='swTileText AppTileUIFont'>Outlook.com</span>
+	</a>
+</li><li class='swTile '>
+	<a class='swTileLink' id='sw_People' href='https://office.live.com/start/People.aspx?ui=en%2DUS&amp;rs=US' style='background-color:#d24726;border-color:#d24726;' target='_blank'>
+		<span class='clip110x110 ci '><img src='https://c1-odc-15.cdn.office.net:443/start/s/161220433700_resources/1033/wapsw.png?b=1601220433700' class='wapsw_ODC_TilePeople_110x110x32' role='presentation' title=''></span>
+		<span class='swTileText AppTileUIFont'>People</span>
+	</a>
+</li><li class='swTile '>
+	<a class='swTileLink' id='sw_Calendar' href='https://office.live.com/start/Calendar.aspx?ui=en%2DUS&amp;rs=US' style='background-color:#5133ab;border-color:#5133ab;' target='_blank'>
+		<span class='clip110x110 ci '><img src='https://c1-odc-15.cdn.office.net:443/start/s/161220433700_resources/1033/wapsw.png?b=1601220433700' class='wapsw_ODC_TileCalendar_110x110x32' role='presentation' title=''></span>
+		<span class='swTileText AppTileUIFont'>Calendar</span>
+	</a>
+</li><li class='swTile '>
+	<a class='swTileLink' id='sw_PartnerLink' href='https://office.live.com/start/OneDrive.aspx?ui=en%2DUS&amp;rs=US' style='background-color:#094ab2;border-color:#094ab2;' target='_blank'>
+		<span class='clip110x110 ci '><img src='https://c1-odc-15.cdn.office.net:443/start/s/161220433700_resources/1033/wapsw.png?b=1601220433700' class='wapsw_ODC_TileCloudLogo_110x110x32' role='presentation' title=''></span>
+		<span class='swTileText AppTileUIFont'>OneDrive</span>
+	</a>
+</li><li class='swTile '>
+	<a class='swTileLink' id='sw_Word' href='https://office.live.com/start/Word.aspx?ui=en%2DUS&amp;rs=US' style='background-color:#2b579a;border-color:#2b579a;' target='_blank'>
+		<span class='clip110x110 ci '><img src='https://c1-odc-15.cdn.office.net:443/start/s/161220433700_resources/1033/wapsw.png?b=1601220433700' class='wapsw_ODC_TileWord_110x110x32' role='presentation' title=''></span>
+		<span class='swTileText AppTileUIFont'>Word</span>
+	</a>
+</li><li class='swTile '>
+	<a class='swTileLink' id='sw_Excel' href='https://office.live.com/start/Excel.aspx?ui=en%2DUS&amp;rs=US' style='background-color:#217346;border-color:#217346;' target='_blank'>
+		<span class='clip110x110 ci '><img src='https://c1-odc-15.cdn.office.net:443/start/s/161220433700_resources/1033/wapsw.png?b=1601220433700' class='wapsw_ODC_TileExcel_110x110x32' role='presentation' title=''></span>
+		<span class='swTileText AppTileUIFont'>Excel</span>
+	</a>
+</li><li class='swTile '>
+	<a class='swTileLink' id='sw_PowerPoint' href='https://office.live.com/start/PowerPoint.aspx?ui=en%2DUS&amp;rs=US' style='background-color:#d24726;border-color:#d24726;' target='_blank'>
+		<span class='clip110x110 ci '><img src='https://c1-odc-15.cdn.office.net:443/start/s/161220433700_resources/1033/wapsw.png?b=1601220433700' class='wapsw_ODC_TilePowerPoint_110x110x32' role='presentation' title=''></span>
+		<span class='swTileText AppTileUIFont'>PowerPoint</span>
+	</a>
+</li><li class='swTile '>
+	<a class='swTileLink' id='sw_OneNote' href='https://www.onenote.com/notebooks?ui=en%2DUS&amp;rs=US' style='background-color:#7719aa;border-color:#7719aa;' target='_blank'>
+		<span class='clip110x110 ci '><img src='https://c1-odc-15.cdn.office.net:443/start/s/161220433700_resources/1033/wapsw.png?b=1601220433700' class='wapsw_ODC_TileOneNote_110x110x32' role='presentation' title=''></span>
+		<span class='swTileText AppTileUIFont'>OneNote</span>
+	</a>
+</li><li class='swTile '>
+	<a class='swTileLink' id='sw_Sway' href='https://sway.com?ui=en%2DUS&amp;rs=US' style='background-color:#008272;border-color:#008272;' target='_blank'>
+		<span class='clip110x110 ci '><img src='https://c1-odc-15.cdn.office.net:443/start/s/161220433700_resources/1033/wapsw.png?b=1601220433700' class='wapsw_ODC_TileSway_110x110x32' role='presentation' title=''></span>
+		<span class='swTileText AppTileUIFont'>Sway</span>
+	</a>
+</li><li class='swTile '>
+	<a class='swTileLink' id='sw_Skype' href='https://web.skype.com/?source=wac&amp;ui=en%2DUS&amp;rs=US' style='background-color:#0095cc;border-color:#0095cc;' target='_blank'>
+		<span class='clip110x110 ci '><img src='https://c1-odc-15.cdn.office.net:443/start/s/161220433700_resources/1033/wapsw.png?b=1601220433700' class='wapsw_ODC_TileSkype_110x110x32' role='presentation' title=''></span>
+		<span class='swTileText AppTileUIFont'>Skype</span>
+	</a>
+</li><li class='swTile '>
+	<a class='swTileLink' id='sw_OfficeDotCom' href='https://www.office.com?ui=en%2DUS&amp;rs=US' style='background-color:#E83F24;border-color:#E83F24;' target='_blank'>
+		<span class='clip110x110 ci '><img src='https://c1-odc-15.cdn.office.net:443/start/s/161220433700_resources/1033/wapsw.png?b=1601220433700' class='wapsw_ODC_TileOfficeOnline_110x110x32' role='presentation' title=''></span>
+		<span class='swTileText AppTileUIFont'>Office</span>
+	</a>
+</li><li class='swTile '>
+	<a class='swTileLink' id='sw_Flow' href='https://flow.microsoft.com/manage/?utm_source=consumer_office&amp;utm_medium=app_launcher&amp;utm_campaign=consumer_referrals&amp;ui=en%2DUS&amp;rs=US' style='background-color:#0077FF;border-color:#0077FF;' target='_blank'>
+		<span class='clip110x110 ci '><img src='https://c1-odc-15.cdn.office.net:443/start/s/161220433700_resources/1033/wapsw.png?b=1601220433700' class='wapsw_ODC_TileFlow_110x110x32' role='presentation' title=''></span>
+		<span class='swTileText AppTileUIFont'>Flow</span>
+	</a>
+</li>
+	</ul>
+	<span class='border-arrow arrow'></span>
+	<span class='arrow'></span>
+</div>
+<div id='sw_barBG' class='headerBarBG' onclick='CollapseHeader()'></div><div class='bodyContainer'><div class='bodyContent ' id='b_content'><div class="toprow"><div class="topleft"></div></div><div class="toprow2"><div class="functionbar"></div><div class="columnlabels"></div></div><iframe id="preloadframe" class="hiddenframe" src=""></iframe><iframe id="prewarmauthframe" class="hiddenframe" src=""></iframe></div></div><div id='f_bar' class='footerContainer FooterUIFont  DarkColorPalette' style='' role='footer'>
+	<div class='footerBLC'>
+	<a href='//store.office.com/worldwide.aspx?rs=en%2DUS&amp;returnURL=https%3A%2F%2Foffice%2Elive%2Ecom%2Fstart%2FExcel%2Easpx%3FWT%2Emc%5Fid%3DO16%5FBingHP&amp;cmapid=2' id='f_ww'>
+		<img class='footerGlobe' src='https://c1-odc-15.cdn.office.net:443/start/s/161220433700_resources/1033/Globe_Light.20x20x32.png?b=1601220433700' role='presentation'/>
+		<span>Change language</span>
+	</a>
+</div>
+	<div class='footerBRC' style=''>
+		<div class='footerBRCoutercell'>
+			<div class='footerBRCinnerrow'>
+				<a href='//go.microsoft.com/fwlink/p/?LinkId=316963'  id='f_link0' class=' ' target='_self'>Accessibility</a><a href='//go.microsoft.com/fwlink/p/?LinkId=316968'  id='f_link1' class=' ' target='_self'>Privacy and Cookies</a><a href='//go.microsoft.com/fwlink/p/?LinkId=316967'  id='f_link2' class=' ' target='_self'>Legal</a><a href='//go.microsoft.com/fwlink/p/?LinkId=316970'  id='f_link3' class=' ' target='_self'>Trademarks</a><a href='//go.microsoft.com/fwlink/p/?LinkId=316971'  id='f_link4' class=' ' target='_self'>&#169; 2019 Microsoft</a>
+			</div>
+		</div>
+	</div>
+	<div style='clear: both'></div>
+</div></body></html> 

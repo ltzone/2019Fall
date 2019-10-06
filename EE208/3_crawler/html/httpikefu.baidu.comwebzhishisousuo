@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html ng-controller="ChatCtrl">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--[if lte IE 8]>
+    <script>
+        document.createElement('service-record');
+        document.createElement('user-record');
+        document.createElement('system-notice');
+    </script>
+    <![endif]-->
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width, height=device-height">
+    <link rel="stylesheet" type="text/css" href="pkg/lib.min_936f60a.css" />
+</head>
+
+<body>
+    <div class="eui-cover" ng-show="isLoading">
+        <span class="eui-loading"></span>
+    </div>
+    <div class="web-wrapper">
+        <div class="web-main-hd-bd">
+            <div class="web-main-header">
+                <span class="web-header-logo"></span>
+                <div class="web-header-info">
+                    <h1 class="title">{{systemTitle}}</h1>
+                    <p class="describe">{{systemInfo}}</p>
+                </div>
+            </div>
+            <div class="web-main-body">
+                <div class="web-main-content">
+                    <div class="web-record-box">
+                        <div ng-controller="ChatRecordCtrl">
+                            <div conversation-msg items="chatRecordHistories"></div>
+                        </div>
+                        <div class="chat-msgs">
+                            <div conversation-msg items="talkItems"></div>
+                        </div>
+                    </div>
+                    <div uy-editor="ueditorOptions"></div>
+                </div>
+                <div class="web-main-sidebar">
+                    <div class="web-main-sidebar-inner">
+                        <div class="eui-tab-01 web-sidebar-con">
+                            <ul class="tab-tt-01" >
+                                <li class="cur">热点问题</li>
+                            </ul>
+                            <div class="tab-cc-01" ng-class="{true: 'active'}[isShowHotQuestion]">
+                                <ul class="eui-txt-list-01 fs12">
+                                    <li class="list-item" ng-repeat="question in questions">
+                                        <i class="no">{{$index + 1 }}.</i>
+                                        <p class="cw">
+                                            <a class="c" title="{{question}}" ng-click="sendQuestionMsg(question)">{{question}}</a>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="web-main-footer">
+            ©2016 Baidu
+        </div>
+    </div>
+    <div ng-show="isShowImg">
+        <div class="eui-mask"></div>
+        <div class="eui-pic-zoom-container" ng-click="closeImg()">
+            <div class="eui-pic-zoom web-pic-zoom">
+                <div class="table-row">
+                    <div class="table-cell">
+                        <img ng-src="{{imgSrc}}">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div ng-show="isShowEs">
+        <div class="eui-mask"></div>
+        <div class="estimate-container" ng-class="{'estimate-container-five': (estimateType === 5)}">
+            <h4 class="estimate-title">评价</h4>
+            <div class="estimate-con">
+                <img class="es-emotion-img" ng-src="img/{{estimateFocusGif}}.gif">
+                <p class="es">
+                    <a class="estimate"
+                       ng-repeat="estimateContent in estimateContents"
+                       ng-mouseover="changeEstimateState(estimateContent.label)"
+                       ng-class="{true: 'estimate-active'}[estimateFocusLabel == estimateContent.label]"
+                       ng-click="sendEstimate(estimateContent.href)"
+                       value="{{estimateContent.href}}">{{estimateContent.label}}
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div ng-show="userInfo.isShowUserInfoDialog">
+        <div class="eui-mask"></div>
+        <div class="user-info-dialog">
+            <div class="user-info-title">请留下您的联系方式,以便为您提供更好的服务</div>
+            <form name="userInfoForm" class="user-info-form" novalidate>
+                <div class="user-form-top">
+                    <input name="userInfoQQ" class="form-ipt-w2" type="text" ng-model="userInfo.user_qq"  placeholder="QQ号"
+                           ng-pattern="/^[1-9][0-9]{4,10}$/" required>
+                    <div class="user-form-tip" ng-show="userInfoForm.userInfoQQ.$error.pattern">
+                        您输入的qq号不合法
+                    </div>
+                </div>
+                <div class="user-form-bottom">
+                    <input name="userInfoPhone" class="form-ipt-w2" type="text" ng-model="userInfo.user_phone" placeholder="手机号"
+                           ng-pattern="/^((13[0-9])|(14[5|7])|(15([0-3]|[5-9]))|(17[6-8])|(18[0-9]))\d{8}$/" required>
+                    <div class="user-form-tip" ng-show="userInfoForm.userInfoPhone.$error.pattern">
+                        您输入的手机号不合法
+                    </div>
+                </div>
+                <div class="user-form-tip">
+                    <input class="user-btn-01" type="submit" value="确定" ng-click="submitUserInfo()" ng-disabled="userInfoForm.$invalid">
+                </div>
+            </form>
+        </div>
+    </div>
+<script type="text/javascript" src="config.js"></script> <script type="text/javascript" language="javascript" id="configjs"></script>
+<script type="text/javascript"></script>
+<script type="text/javascript" src="pkg/lib.min_b1835b0.js"></script>
+<script type="text/javascript" src="ueditor/ueditor.all.js"></script>
+<script type="text/javascript" src="pkg/ngl.min_15c4732.js"></script>
+<script type="text/javascript" src="pkg/ngl1.min_5c65dce.js"></script>
+<script type="text/javascript">
+    window.setTimeout(function () {
+        angular.bootstrap(document, ['yeying.web']);
+    }, 300);
+    </script>
+</body>
+</html>
