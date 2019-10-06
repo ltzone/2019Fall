@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<!--STATUS OK-->
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta http-equiv="content-type" content="text/html;charset=gbk" />
+<meta property="wb:webmaster" content="3aababe5ed22e23c" />
+<meta name="referrer" content="always" />
+<title>知道个人页</title>
+<link rel="shortcut icon" href="//www.baidu.com/favicon.ico?t=20171027" type="image/x-icon" />
+<link rel="icon" sizes="any" mask href="//www.baidu.com/img/baidu.svg" />
+
+<script>
+    window.alogObjectConfig = {
+        product: '102',
+        page: '', 
+        monkey_page: '',
+        speed_page: '',
+        speed: {
+            sample: ''
+        },
+        monkey: {
+            sample: ''
+        },
+        exception: { 
+            sample: ''
+        },
+        feature: {
+            sample: ''
+        },
+        cus: {
+            sample: '',
+            custom_metrics: []
+        },
+        csp: {
+            sample: '',
+            'default-src': [
+                {match: '*bae.baidu.com', target: 'Accept,Warn'},
+                {match: '*.baidu.com,*.bdstatic.com,*.bdimg.com,localhost,*.hao123.com,*.hao123img.com', target: 'Accept'},
+                {match: /^(127|172|192|10)(\.\d+){3}$/, target: 'Accept'},
+                {match: '*', target: 'Accept,Warn'}
+            ]
+        }
+    };
+ 
+    void function(a,b,c,d,e,f,g){a.alogObjectName=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=a[e].l||+new Date,d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d;var h=!0;if(a.alogObjectConfig&&a.alogObjectConfig.sample){var i=Math.random();a.alogObjectConfig.rand=i,i>a.alogObjectConfig.sample&&(h=!1)}h&&(f=b.createElement(c),f.async=!0,f.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),g=b.getElementsByTagName(c)[0],g.parentNode.insertBefore(f,g))}(window,document,"script","/hunter/alog/alog.min.js","alog"),void function(){function a(){}window.PDC={mark:function(a,b){alog("speed.set",a,b||+new Date),alog.fire&&alog.fire("mark")},init:function(a){alog("speed.set","options",a)},view_start:a,tti:a,page_ready:a}}();
+    void function(n){var o=!1;n.onerror=function(n,e,t,c){var i=!0;return!e&&/^script error/i.test(n)&&(o?i=!1:o=!0),i&&alog("exception.send","exception",{msg:n,js:e,ln:t,col:c}),!1},alog("exception.on","catch",function(n){alog("exception.send","exception",{msg:n.msg,js:n.path,ln:n.ln,method:n.method,flag:"catch"})})}(window);
+</script>
+
+<script>
+	!function(document, window){
+		var log = {
+			list: [],
+			host: 'https://' + location.host + '/api/httpscheck',
+			log: function(param) {
+				var a = [];
+		    	for(var k in param) {
+		    		a.push(k + '=' + param[k]);
+		    	}
+		    	var msg = a.join('&');
+		    	if(~this.list.indexOf(msg)){
+		    		return;
+		    	}
+		    	this.list.push(msg);
+		  		var img = new Image();
+		    	var key = '_ik_log_' + (Math.random()*2147483648 ^ 0).toString(36);
+		    	window[key] = img;
+		    		img.onload = img.onerror = img.onabort = function() {
+		        		img.onload = img.onerror = img.onabort = null;
+		        		window[key] = null;
+			    		img = null;
+		    	};
+		  		img.src = this.host + '?' + msg;
+			}
+		};
+
+		function HTTPSWarningLog(){
+			this.selector = [
+				'link',
+				'script',
+				'img',
+				'embed',
+				'iframe'
+			];
+			this.warningCounter = 0;
+			this.init();
+		};
+
+		HTTPSWarningLog.prototype = {
+			init: function(){
+				this.fetch();
+			},
+
+			fetch: function(){
+				for(var tags = this.selector, i =0, len = tags.length; i < len;i++) {
+					this.getTag(tags[i]);
+				}
+			},
+
+			getTag: function(tag) {
+				var domList = document.getElementsByTagName(tag);
+				if(!domList.length) {
+					return;
+				}
+				for(var i = 0,len = domList.length;i<len;i++) {
+					var el = domList[i];
+					var url = el.getAttribute(el.tagName==='LINK' ? 'href' : 'src');
+                    if(el.getAttribute('rel') === 'canonical') {
+                        continue;
+                    }
+					if(url && 'https:' === location.protocol && !url.indexOf('http:')){
+						this.sendLog(el, el.tagName.toLowerCase(),url);
+						this.warningCounter++;
+					}
+				}
+			},
+			
+			sendLog: function(el, type, url){
+				log.log({
+					url: location.href,
+					wtype: type,
+					wurl: url
+				});
+			}
+		};
+
+		function domReady(fn){
+		    if(document.addEventListener) {
+		        document.addEventListener('DOMContentLoaded', function() {
+		            document.removeEventListener('DOMContentLoaded',arguments.callee, false);
+		            fn();
+		        }, false);
+		    }else if(document.attachEvent) {
+		        document.attachEvent('onreadystatechange', function() {
+		            if(document.readyState == 'complete') {
+		                document.detachEvent('onreadystatechange', arguments.callee);
+		                fn();
+		            }
+		        });
+		    }
+		};
+
+		domReady(function(){
+			new HTTPSWarningLog();
+			for(var i=1; i<6; i++) {
+				!function(i){
+					setTimeout(function(){
+						new HTTPSWarningLog();
+					}, i*i*i*1000);
+				}(i);
+			}
+		});
+	}(document, window);
+</script>
+
+
+<script type="text/javascript">
+			!function(){var n={},t={};n.context=function(n,e){var i=arguments.length;if(i>1)t[n]=e;else if(1==i){if("object"!=typeof n)return t[n];for(var o in n)n.hasOwnProperty(o)&&(t[o]=n[o])}},"F"in window||(window.F=n)}();;
+			
+            
+																																							
+			F.context('user', {"isLogin":"","isRealName":"","stoken":"","name":"","imId":"","id":"","euid":"","wealth":"","gradeIndex":"","isMavin":""});
+			F.context('user')['internalAdmin'] = null;
+
+									
+			            F.context('isQuality', false);
+            F.context('now', 1570340973);
+		</script>
+<script>F.context('sysTaskAutoInit', 1);</script>
+<!--[if lte IE 8]>
+<script>
+                (function(){
+                    var e="abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(","),
+                    i=e.length;
+                    while(i--){document.createElement(e[i])}
+                 })();
+            </script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="https://iknowpc.bdimg.com/static/common/pkg/common.2e57416.css" /><link rel="stylesheet" type="text/css" href="https://iknowpc.bdimg.com/static/usercenter/pkg/module.7301228.css" /><link rel="stylesheet" type="text/css" href="https://iknowpc.bdimg.com/static/common/widget/header-metis/header.39c9ddf.css" /></head>
+
+<script> alog('speed.set', 'ht', +new Date()); </script>
+
+<body class="user-center">
+
+<div id="userbar" class="userbar userbar-renew" data="">
+<ul class="aside-list">
+<li>
+<a href="http://www.baidu.com/" class="toindex">百度首页</a>
+</li>
+<li><a rel="nofollow" alog-alias="usrbar-login" href="javascript:;" id="userbar-login" log="type:2026,pname:account,mod:login,action:show,pos:pop">登录</a></li>
+<li><a rel="nofollow" alog-alias="usrbar-reg" id="userbar-reg" href="https://passport.baidu.com/v2/?reg&tpl=ik&color=green&u=" target="_blank">注册</a></li>
+<li class="shop-entrance">
+<a href="/shop" title="知道商城" log="type:2026,pos:top-right,target:shop-entrance">商城<i class="i-house" style="display: none;"></i></a>
+<span class="lucky-try"></span>
+</li>
+</ul>
+</div>
+
+
+
+<div class="wgt-page-head">
+<header class="page-head">
+<a class="zhidao-logo" href="http://zhidao.baidu.com/"></a>
+</header>
+</div><div class="u-content-container">
+<div class="u-content-wp">
+<div class="u-content">
+
+<div class="u-banner-wp">
+<div class="u-banner">
+<div class="circle-first">
+<i class="circle-round i-answer"><span class="right">回答数<em>2.5万</em></span></i>
+</div>
+<div class="circle-second">
+<i class="circle-round i-help"><span class="right">帮助的人<em>811.2万</em></span></i>
+<i class="circle-round i-pop"><span class="left"><em>1.2万</em>点赞数</span></i>
+</div>
+<div class="influ">
+<p>影响力</p>
+<p class="num">0</p>
+<div class="influ-tips">
+<i class="tri"></i>
+影响力代表一个用户在百度的贡献力度、被认可度，以及可信度。影响力的影响因素：用户回答问题数、用户活跃程度、用户被点赞情况、用户专业认证、用户作弊情况等因素。</div>
+</div>
+<div class="circle-wp">
+<div class="pie-container"></div>
+</div>
+</div>
+<div class="extra-button-group">
+<div class="follow-button"  data-uid="712151733">
+<i class="iconfont add"><span>关注</span></i>
+</div>
+<a href="/ichat/chatlist?concats=%C1%F7%D0%C7%D3%EA%D6%D0%B5%C4%D2%B0%BA%D7&encodeUid=b5924069236f25705e79722a" target="_blank" class="msg-button">
+<i class="iconfont mail"><span>私信</span></i>
+</a>
+</div>
+<div class="u-img"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/b592c1f7d0c7d3ead6d0b5c4d2b0bad7722a.jpg?20191006014933"/>
+<span class="level">LV16</span>
+</div>
+<div class="u-info">
+<div class="u-info-name">
+<div class="name-wp">
+<span>
+流星雨中的野鹤
+</span>
+<div class="auth-apply-wp">
+<i class="iconfont male"></i>
+</div>
+</div>
+</div>
+<div class="u-info-sign">
+<span>
+扁舟闯四方
+</span>
+</div>
+<div class="u-info-tag-wp">
+<div class="u-info-auth" style="border:none">
+<span>知道团长</span>
+</div>
+<div class="u-info-tag-show">
+</div>
+</div>
+</div>
+</div>
+<div class="middle line">
+<div class="grid main-content">
+<div class="menu-wp">
+<div class="menu-tab active" data-type="answer">TA的回答</div>
+<div class="sep"></div>
+<div class="menu-tab" data-type="article">TA的文章</div>
+</div>
+<div class="list-wp">
+</div>
+<div class="pager">
+<div id="pager">
+</div>
+</div>
+<script type="text/html" id="t:article-list-modal">
+    <#if(list.length === 0){#>
+        <div class="no-text-big"><#=noContent#></div>
+    <#}else{#>
+        <ul class="article-list-wp">
+            <#for (var i = 0; i < list.length; i++) {#>
+                <li class="article-list-item line" data-id="<#=list[i].articleId#>">
+                    <a href="<#if(list[i].status == 0 || list[i].status == 1){#>/special/view<#}else{#>/special/reedit<#}#>?id=<#=list[i].articleId#><#if (list[i].status == 0) {#>&preview=1<#}#>" class="article-item-alink" target="_blank">
+                        <#if (list[i].mainPic != '') {#>
+                            <div class="article-img-wp">
+                                <img src="<#:=list[i].mainPic#>" alt="" class="article-img">
+                            </div>
+                        <#}#>
+                        <div class="article-info-wp">
+                            <span class="article-title"><#=list[i].title#></span>
+                            <p class="article-brief"><#=list[i].content#></p>
+                            <div class="article-opt">
+                                <span class="publish-time"><#=list[i].publishTime#></span>
+                                <span class="review-num"><#=list[i].viewCount#>浏览</span>
+                                <span class="thumb-num"><#=list[i].thumbCount#>赞</span>
+                            </div>
+                            <#if (isme == 1) {#>
+                                <span class="article-opt-btn"><#if (list[i].status == 0 || list[i].status === 6) {#>待审核<#}#><#if (list[i].status == 1) {#>已发布<#}#><#if (list[i].status == 2 || list[i].status == 7) {#>待修改<#}#></span>
+                            <#}#>
+                            <#if (isme == 1) {#>
+                                <div class="article-opt-wp">
+                                    <#if (list[i].status == 0 || list[i].status == 1 || list[i].status == 2 || list[i].status == 6 || list[i].status == 7) {#>
+                                        <span class="article-opt article-opt-mdf">修改</span>
+                                    <#}#>
+                                    
+                                    <#if (list[i].status == 0 || list[i].status == 1 || list[i].status == 2 || list[i].status == 6 || list[i].status == 7) {#>
+                                        <span class="article-opt article-opt-del">删除</span>
+                                    <#}#>
+                                </div>
+                            <#}#>
+                        </div>
+                    </a>
+                </li>
+            <#}#>
+        </ul>
+    <#}#>
+</script>
+<script type="text/html" id="t:list-modal">
+
+    <#if(list.length === 0){#>
+        <div class="no-text-big"><#=noContent#></div>
+    <#}else{#>
+
+    <#if(type == 'answer'){#>
+    <#for(var i = 0, len = Math.min(list.length, rn); i<len; i++){#>
+        <a href="/question/<#=list[i].qid#>" target="_blank" class="list-item">
+            <#if(list[i].isRecommended === 1 || list[i].isBest === 1){#>
+                <div class="title-info-wp line">
+                    <div class="item-title grid">
+                        <#if (type==='needModify') {#>
+                            <em style="color:orange">未认证原因：</em>
+                            <#=list[i].reason#>
+                        <#}else{#>
+                            <#if(list[i].replyContent != ''){#><#:=list[i].replyContent#><#}else{#>您的回答内容不含文字<#}#>
+                        <#}#>
+
+                    </div>
+                    <span class="item-adopt grid">
+                        <i class="iconfont adopt"></i>已采纳
+                    </span>
+                </div>
+            <#}else{#>
+                <div class="title-info-wp">
+                    <div class="item-title">
+                        <#if (type==='needModify') {#>
+                            <em style="color:orange">未认证原因：</em>
+                            <#=list[i].reason#>
+                        <#}else{#>
+                            <#if(list[i].replyContent != ''){#><#:=list[i].replyContent#><#}else{#>您的回答内容不含文字<#}#>
+                        <#}#>
+                    </div>
+                </div>
+            <#}#>
+            
+            <div class="ask-info-wp">
+                <i class="tri"></i>
+                <span><#:=list[i].title#></span>
+            </div>
+            <div class="extra-info-wp line">
+                <i class="iconfont praise grid"><#=list[i].reward#></i>
+                <span class="time grid"><#=list[i].createTime#></span>
+            </div>
+        </a>
+    <#}#>
+    <#}else if(type == 'ask'){#>
+    <#for(var i = 0, len = Math.min(list.length, rn); i<len; i++){#>
+        <#if(list[i].isDoctor && list[i].isDoctor == 1){#>
+            <a href="http://muzhi.baidu.com/question/<#=list[i].qid#>.html" target="_blank" class="list-item">
+        <#}else{#>
+            <a href="/question/<#=list[i].qid#>.html" target="_blank" class="list-item">
+        <#}#>
+        
+            <div class="title-info-wp">
+                <div class="item-title">
+                    <#:=list[i].title#>
+                </div>
+            </div>
+            <div class="extra-info-wp line">
+                <span class="reply-num grid"><#=list[i].answerCount#>条回答</span>
+                <#if(list[i].tags && list[i].tags.length > 0){#>
+                    <div class="reply-tag-wp grid"><i class="iconfont tag"><#for(var j = 0; j < list[i].tags.length; j++){#><em><#=list[i].tags[j]#></em><#}#></i></div>
+                <#}#>
+                
+                <span class="time grid"><#=list[i].createTime#></span>
+            </div>
+        </a>
+    <#}#>
+    <#}#>
+    <#}#>
+
+</script>
+</div>
+<div class="grid aside">
+<div class="menu-aside-wp">
+<div class="menu-tab active">TA的关注(35)</div>
+<a class="more follow" href="javascript:void(0)">更多</a></div>
+<div class="follow-list-aside-wp">
+<div class="follow-list-item first">
+<div class="follow-title-line">
+<a target="_blank" href="/usercenter?uid=a9324069236f25705e797a0e"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/a932cdf5d0a1c4be313937317a0e.jpg?201910060149" alt="" class="follow-img"></a>
+<div class="follow-title-r">
+<div class="follow-name-line">
+<i class="iconfont male"></i>
+<a target="_blank" href="/usercenter?uid=a9324069236f25705e797a0e" class="follow-name-a">王小木1971</a>
+</div>
+<div class="follow-extra line">
+<div class="follow-follow-num grid">57关注</div>
+<div class="follow-sep grid"></div>
+<div class="follow-fans-num grid">13粉丝</div>
+</div>
+</div>
+</div>
+<div class="follow-tag">
+<a href="javascript:void(0)" class="follow-tag-item">我思故我在</a>
+</div>
+</div>
+<div class="follow-list-item">
+<div class="follow-title-line">
+<a target="_blank" href="/usercenter?uid=6e4a4069236f25705e798255"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/6e4ac6b7c2e4bba8d2e2c1f7cbaec7e98255.jpg?201910060149" alt="" class="follow-img"></a>
+<div class="follow-title-r">
+<div class="follow-name-line">
+<i class="iconfont female"></i>
+<a target="_blank" href="/usercenter?uid=6e4a4069236f25705e798255" class="follow-name-a">品落花意流水情</a>
+</div>
+<div class="follow-extra line">
+<div class="follow-follow-num grid">43关注</div>
+<div class="follow-sep grid"></div>
+<div class="follow-fans-num grid">29粉丝</div>
+</div>
+</div>
+</div>
+<div class="follow-tag">
+<a href="javascript:void(0)" class="follow-tag-item">读书达人</a>
+</div>
+</div>
+<div class="follow-list-item">
+<div class="follow-title-line">
+<a target="_blank" href="/usercenter?uid=bcb34069236f25705e7901eb"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/bcb3d0a4b6f7caf301eb.jpg?201910060149" alt="" class="follow-img"></a>
+<div class="follow-title-r">
+<div class="follow-name-line">
+<i class="iconfont male"></i>
+<a target="_blank" href="/usercenter?uid=bcb34069236f25705e7901eb" class="follow-name-a">肖恩鼠</a>
+</div>
+<div class="follow-extra line">
+<div class="follow-follow-num grid">17关注</div>
+<div class="follow-sep grid"></div>
+<div class="follow-fans-num grid">16粉丝</div>
+</div>
+</div>
+</div>
+<div class="follow-tag">
+</div>
+</div>
+</div>
+<div class="menu-aside-wp">
+<div class="menu-tab active">TA的粉丝(217)</div>
+<a class="more fans" href="javascript:void(0)">更多</a></div>
+<div class="fans-list-wp line">
+<a target="_blank" href="/usercenter?uid=46bb4069236f25705e799747"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/46bbb7d8b3a1b1c4b5cfc4d6b9ed9747.jpg?201910060149" class="fans-img grid"></a>
+<a target="_blank" href="/usercenter?uid=ba004069236f25705e799a50"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/ba0066687868636a6468636864679a50.jpg?201910060149" class="fans-img grid"></a>
+<a target="_blank" href="/usercenter?uid=a7994069236f25705e7923ac"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/a799beb268cbae79d3c466c7e923ac.jpg?201910060149" class="fans-img grid"></a>
+<a target="_blank" href="/usercenter?uid=eee84069236f25705e7936cb"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/eee83137372a2a2a2a2a2a303336cb.jpg?201910060149" class="fans-img grid"></a>
+<a target="_blank" href="/usercenter?uid=c4a44069236f25705e794b79"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/c4a43133382a2a2a2a2a3733394b79.jpg?201910060149" class="fans-img grid"></a>
+<a target="_blank" href="/usercenter?uid=db704069236f25705e7993b7"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/db70636e23474c426142707547425693b7.jpg?201910060149" class="fans-img grid"></a>
+<a target="_blank" href="/usercenter?uid=d9944069236f25705e7939e9"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/d994636e23474770564275516b6b6139e9.jpg?201910060149" class="fans-img grid"></a>
+<a target="_blank" href="/usercenter?uid=8d9e4069236f25705e79fa44"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/8d9ebba2bba26c6f7665f6a9f6a9fa44.jpg?201910060149" class="fans-img grid"></a>
+<a target="_blank" href="/usercenter?uid=bcb34069236f25705e7901eb"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/bcb3d0a4b6f7caf301eb.jpg?201910060149" class="fans-img grid"></a>
+<a target="_blank" href="/usercenter?uid=f7614069236f25705e794ea9"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/f761486563626964634ea9.jpg?201910060149" class="fans-img grid"></a>
+<a target="_blank" href="/usercenter?uid=e9ab4069236f25705e7950ea"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/e9ab3133382a2a2a2a2a2a333650ea.jpg?201910060149" class="fans-img grid"></a>
+<a target="_blank" href="/usercenter?uid=68b04069236f25705e7977cd"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/68b03135302a2a2a2a2a2a323077cd.jpg?201910060149" class="fans-img grid"></a>
+</div></div>
+</div>
+
+<div style="display:none;">
+<script>
+
+        F.context('user').uid   =  0;
+        F.context('user').isMe  =  0;
+        F.context('user').uname = '0';
+        F.context('user').encodeUid  = '0';
+        F.context('act', {});
+        F.context('act').uid    =  712151733;
+        F.context('act').encodeUid   = 'b5924069236f25705e79722a';
+        F.context('act').uname  = '流星雨中的野鹤';
+
+        F.context('act').power = 76;
+    </script>
+</div>
+
+</div>
+</div>
+</div>
+
+<footer id="footer" class="wgt-footer">
+<p>
+<a target="_blank" rel="nofollow" href="http://help.baidu.com/question?prod_id=9&class=337">帮助</a>
+&nbsp;|&nbsp;<a target="_blank" rel="nofollow" href="javascript:;" id="footer-feedback">意见反馈</a>
+&nbsp;|&nbsp;<a target="_blank" rel="nofollow" href="http://help.baidu.com/newadd?prod_id=9&category=1">投诉举报</a>
+</p>
+<p>
+京ICP证030173号-1&nbsp;&nbsp;&nbsp;京网文【2013】0934-983号&nbsp;&nbsp;&nbsp;&nbsp;    &copy;2019Baidu&nbsp;&nbsp;<a rel="nofollow" href="http://www.baidu.com/duty/" target="_blank">使用百度前必读</a>&nbsp;|&nbsp;<a rel="nofollow" href="http://help.baidu.com/question?prod_id=9&class=325&id=2760" target="_blank">知道协议</a>&nbsp;</p>
+</footer>
+
+
+
+
+
+
+
+<script>
+    void function(a,b,c,d,e,f){function g(b){a.attachEvent?a.attachEvent("onload",b,!1):a.addEventListener&&a.addEventListener("load",b)}function h(a,c,d){d=d||15;var e=new Date;e.setTime((new Date).getTime()+1e3*d),b.cookie=a+"="+escape(c)+";path=/;expires="+e.toGMTString()}function i(a){var c=b.cookie.match(new RegExp("(^| )"+a+"=([^;]*)(;|$)"));return null!=c?unescape(c[2]):null}function j(){var a=i("PMS_JT");if(a){h("PMS_JT","",-1);try{a=a.match(/{["']s["']:(\d+),["']r["']:["']([\s\S]+)["']}/),a=a&&a[1]&&a[2]?{s:parseInt(a[1]),r:a[2]}:{}}catch(c){a={}}a.r&&b.referrer.replace(/#.*/,"")!=a.r||alog("speed.set","wt",a.s)}}if(a.alogObjectConfig){var k=a.alogObjectConfig.sample,l=a.alogObjectConfig.rand;d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d,k&&l&&l>k||(g(function(){alog("speed.set","lt",+new Date),e=b.createElement(c),e.async=!0,e.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),f=b.getElementsByTagName(c)[0],f.parentNode.insertBefore(e,f)}),j())}}(window,document,"script","/hunter/alog/dp.min.js");
+    </script>
+
+<script>
+				var _hmt = _hmt || [];
+				(function() {
+					var hm = document.createElement("script");
+					hm.src = "https://hm.baidu.com/hm.js?6859ce5aaf00fb00387e6434e4fcc925";
+					var s = document.getElementsByTagName("script")[0];
+					s.parentNode.insertBefore(hm, s);
+				})();
+			</script>
+
+</body><script type="text/javascript" src="https://iknowpc.bdimg.com/static/common/lib/mod.75d1f98.js"></script><script type="text/javascript">(window.__IKNOW_GLOBAL__ || window).require.resourceMap({"res":{"common:widget\/lib\/jquery\/jquery.origin.js":{"pkg":"common:p3"},"common:widget\/js\/util\/event\/event.js":{"pkg":"common:p6","deps":["common:widget\/lib\/jquery\/jquery.js"]},"common:widget\/bottom-ask\/bottom-ask.js":{"pkg":"common:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/util\/log\/log.js"]},"common:widget\/css\/fonts\/iconfont.js":{"pkg":"common:p0"},"common:widget\/css\/fonts\/iconfont.min.js":{"pkg":"common:p0"},"common:widget\/footer-new\/footer-new.js":{"pkg":"common:p0","deps":["common:widget\/lib\/jquery\/jquery.js","common:widget\/js\/util\/event\/event.js"]},"common:widget\/footer\/footer.js":{"pkg":"common:p0"},"common:widget\/header-metis\/header.js":{"pkg":"common:p0","deps":["common:widget\/lib\/jquery\/jquery.js","common:widget\/js\/ui\/dialog\/dialog.js","common:widget\/js\/util\/template\/template.js","common:widget\/js\/ui\/scrollbar-new\/scrollbar-new.js","common:widget\/js\/util\/store\/store.js"]},"common:widget\/menu\/menu.js":{"pkg":"common:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/log\/log.js"]},"common:widget\/search-box-new\/search-box-new.js":{"pkg":"common:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/ui\/suggestion-new\/suggestion-new.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/util\/form\/form.js","common:widget\/js\/util\/log\/log.js","common:widget\/js\/ui\/dialog\/dialog.js","common:widget\/lib\/jquery.placeholder\/jquery.placeholder.js"]},"common:widget\/userbar-renew\/userbar-renew.js":{"pkg":"common:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/logic\/login\/login.js","common:widget\/js\/util\/log\/log.js","common:widget\/js\/util\/store\/store.js"]},"usercenter:widget\/follow\/follow.js":{"pkg":"usercenter:p1","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/util\/log\/log.js","common:widget\/js\/ui\/dialog\/dialog.js","common:widget\/js\/logic\/submit\/submit.js"]},"usercenter:widget\/banner\/banner.js":{"pkg":"usercenter:p1","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/util\/tangram\/browser.js","common:widget\/js\/ui\/pie\/pie.js","common:widget\/js\/util\/log\/log.js","common:widget\/js\/ui\/dialog\/dialog.js","usercenter:widget\/follow\/follow.js"]},"usercenter:widget\/follow-list\/follow-list.js":{"pkg":"usercenter:p1","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/template\/template.js","common:widget\/js\/ui\/base\/base.js","common:widget\/js\/util\/event\/event.js","usercenter:widget\/follow\/follow.js","common:widget\/js\/ui\/dialog\/dialog.js","common:widget\/js\/util\/https\/https.js"]},"usercenter:widget\/pager\/customPager.js":{"pkg":"usercenter:p1","deps":["common:widget\/lib\/jquery\/jquery.js","common:widget\/js\/ui\/pager\/pagerBase.js","common:widget\/lib\/juicer\/juicer.js"]},"usercenter:widget\/pager\/pager.js":{"pkg":"usercenter:p1","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/template\/template.js","common:widget\/js\/ui\/base\/base.js","usercenter:widget\/pager\/customPager.js"]},"usercenter:widget\/follow-list\/logic.js":{"pkg":"usercenter:p1","deps":["common:widget\/js\/util\/tangram\/tangram.js","usercenter:widget\/follow-list\/follow-list.js","usercenter:widget\/pager\/pager.js"]},"usercenter:widget\/follow\/parabola.js":{"pkg":"usercenter:p1"},"usercenter:widget\/reply-list\/js\/list.js":{"pkg":"usercenter:p1","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/ui\/base\/base.js","common:widget\/js\/util\/template\/template.js","common:widget\/js\/ui\/pager\/normalPager.js","common:widget\/js\/ui\/dialog\/dialog.js"]},"usercenter:widget\/reply-list\/logic.js":{"pkg":"usercenter:p1","deps":["common:widget\/js\/util\/tangram\/tangram.js","usercenter:widget\/reply-list\/js\/list.js","usercenter:widget\/pager\/pager.js","common:widget\/js\/util\/event\/event.js"]}},"pkg":{"common:p0":{"url":"https:\/\/iknowpc.bdimg.com\/static\/common\/pkg\/more.22db732.js","has":["common:widget\/bottom-ask\/bottom-ask.js","common:widget\/css\/fonts\/iconfont.js","common:widget\/css\/fonts\/iconfont.min.js","common:widget\/footer-new\/footer-new.js","common:widget\/footer\/footer.js","common:widget\/header-metis\/header.js","common:widget\/menu\/menu.js","common:widget\/search-box-new\/search-box-new.js","common:widget\/userbar-renew\/userbar-renew.js"]},"usercenter:p1":{"url":"https:\/\/iknowpc.bdimg.com\/static\/usercenter\/pkg\/module.326a174.js","has":["usercenter:widget\/follow\/follow.js","usercenter:widget\/banner\/banner.js","usercenter:widget\/follow-list\/follow-list.js","usercenter:widget\/pager\/customPager.js","usercenter:widget\/pager\/pager.js","usercenter:widget\/follow-list\/logic.js","usercenter:widget\/follow\/parabola.js","usercenter:widget\/reply-list\/js\/list.js","usercenter:widget\/reply-list\/logic.js"]}}});</script><script type="text/javascript" src="https://iknowpc.bdimg.com/static/common/pkg/lib.33719ed.js"></script><script type="text/javascript" src="https://iknowpc.bdimg.com/static/common/pkg/commonjs.0285675.js"></script><script type="text/javascript">
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;			window['__abbaidu_2016_subidgetf'] = function () {
+				if (window.location.href.indexOf("/question") == 0) {
+					return 'iknow-pc-qb';
+				}
+				return 'iknow-pc-other';
+			}
+			window['__abbaidu_2016_cb'] = function (responseData) {
+        		
+   			};
+		}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require.async(['common:widget/userbar-renew/userbar-renew']);
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;
+    F.context('user').closure = {
+        optime: '',
+        days: ''
+    };
+    require.async(['usercenter:widget/banner/banner'], function(){
+
+    });
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    F.context('usercenter', {});
+            F.context('usercenter').listtype = 'answer';
+            require.async(['usercenter:widget/reply-list/logic'],function(l){
+        l.init();
+    });
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;            require.async(['common:widget/lib/jquery/jquery','common:widget/js/util/log/log'], function($, log) {
+                var params = {
+                    module: "usercenter",
+                    page: "index",
+                    action: "pv",
+                    area: "page-onload",
+                    isme: '0'
+                }
+                log.send(params);
+            });
+        }();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require('common:widget/js/logic/ie-prompt/ie-prompt');
+    require.async(['common:widget/footer/footer']);
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;								                				require.async(['common:widget/js/logic/dom-ready/dom-ready'], function(D){ D.init([]) });
+            }();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;        require.async(["common:widget/js/logic/duration/duration"],function(dur){
+            dur.init();
+        });
+    }();
+</script>
+<script type="text/javascript">
+    require.async(['common:widget/lib/jquery/jquery'], function ($) {
+        if (!/chrome|firefox|safari|msie 10|rsv:11|msie [89]/i.test(navigator.userAgent)) {
+            return;
+        }
+
+        window.BaiduHttps = window.BaiduHttps || {};
+        window.BaiduHttps.callbacks = function (data) {
+            if (data && data.s === 0) {
+                window.supportHttps = 1;
+                setTimeout(function () {
+                    $('a[href^="http://www.baidu.com/s?"]').each(function (index, item) {
+                        var link = $(item).attr('href');
+                        if (~link.indexOf('?wd=') || ~link.indexOf('&wd=')) {
+                            link = link.replace(/^http/, 'https');
+                            $(item).attr('href', link);
+                        }
+                    });
+                }, 2000);
+            }
+        };
+
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://www.baidu.com/con?from=zhidao';
+        document.body.appendChild(script);
+    });
+</script>
+
+
+<script async="" src="https://dlswbr.baidu.com/heicha/mw/abclite-2016-s.js"></script>
+</html>

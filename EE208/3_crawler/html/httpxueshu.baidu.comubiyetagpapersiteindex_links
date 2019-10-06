@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="zh">
+<head>
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    
+    <link rel="dns-prefetch" href="//s1.bdstatic.com"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" sizes="any" mask href="//www.baidu.com/img/baidu.svg">
+
+    <script src="https://ts.bdimg.com/libs/blueimp-md5/1-0-1/md5.min.js"></script>
+    <script>var token = '1355d4d74288c3961666263981783de698177e2622346c0c9626321b193d3432'</script>
+    <title>百度学术-论文助手</title>
+
+    
+    <link rel="stylesheet" href="/lib/static/scholar/cache/biye/css/common_40d192d.css">
+
+    
+    <script>
+var _hmt = _hmt || [];
+
+var bds = {
+    se : {},
+    util : {},
+    //js通用数据
+    comm : {
+        jiansou: '',
+        qid:'3912614917',
+        isHome:false,
+        bsToken: 'the fisrt two args should be string type:0,1!',
+        user: '',
+        username: '',
+        isRealName: 1,
+        loginAction: [],
+        host: window.location.host,
+        subpro: 'xueshu_proposal',
+        wd:'',
+        uploadDownHost: '//xueshupload.baidu.com',
+        query: '',
+        queryMd5: '',
+        typeLanguage: '',
+        searchAct: '//xueshu.baidu.com/s',
+        onlineshow:(+new Date() > +new Date("2016/04/01")?1:0),
+                site:'index_links',
+                                scUrlComponent: '&tn=SE_baiduxueshu_c1gjeupa&ie=utf-8',
+        topBannerInfo: {
+            startDate: "2017/11/20",
+            endDate: "2017/12/01",
+            width: "150",
+            height: "150",
+            id: "egg_delay",
+            imgUrl: "/lib/static/scholar/cache/biye/img/banner/delay.png",
+            jumpUrl: "https://www.baidu.com/baidu?tn=monline_3_dg&ie=utf-8&wd=%E6%8B%AF%E6%95%91%E6%A0%A1%E5%9B%AD%E6%8B%96%E5%BB%B6%E7%97%87&fr=paper"
+        }
+    }
+};
+
+A = {};
+A.ui = {};
+
+var supportCanvas = !!document.createElement('canvas').getContext;
+var isIE6 = navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion .split(";")[1].replace(/[ ]/g,"")=="MSIE6.0";
+
+function G (id) {
+    return document.getElementById(id);
+}
+// 发送统计
+function c (data) {
+    if (!data['type'] || !data['actblock']) {
+        return;
+    }
+    data['category'] = 'kaiti';
+    _hmt.push(['_trackEvent', data['category'], data['actblock'], data['type']]);
+}
+ function ns_c_xs(q){
+    var p = encodeURIComponent(window.document.location.href), sQ = '',wd="", sV = '', mu='', img = window["BD_PS_C" + (new Date()).getTime()] = new Image();
+    for (v in q) {
+        switch (v) {
+            case "title":
+                sV = encodeURIComponent(q[v].replace(/<[^<>]+>/g, ""));
+                break;
+            case "url":
+                sV = encodeURIComponent(q[v]);
+                break;
+            default:
+                sV = q[v]
+        }
+        sQ += v + "=" + sV + "&";
+    }
+    mu= "&mu=" + p;
+    img.src = "http://nsclick.baidu.com/v.gif?pid=201&pj=mp_xueshu&qid=" + bds.comm.qid + "&" + sQ + "site=index_links&path=" + p + "&tn=ae_xueshu_activity&t=" + new Date().getTime();
+    return true;
+}
+</script><script type="text/javascript">
+
+
+	var list = {
+        "graph.baidu.com": "http://graph.baidu.com",
+		"p.qiao.baidu.com":"http://p.qiao.baidu.com",
+		"vse.baidu.com":"http://vse.baidu.com",
+		"hdpreload.baidu.com":"http://hdpreload.baidu.com",
+		"lcr.open.baidu.com":"http://lcr.open.baidu.com",
+		"kankan.baidu.com":"http://kankan.baidu.com",
+		"xapp.baidu.com":"http://xapp.baidu.com",
+		"dr.dh.baidu.com":"http://dr.dh.baidu.com",
+		"xiaodu.baidu.com":"http://xiaodu.baidu.com",
+		"sensearch.baidu.com":"http://sensearch.baidu.com",
+		"s1.bdstatic.com":"http://s1.bdstatic.com",
+		"olime.baidu.com":"http://olime.baidu.com",
+		"app.baidu.com":"http://app.baidu.com",
+		"i.baidu.com":"http://i.baidu.com",
+		"c.baidu.com":"http://c.baidu.com",
+		"sclick.baidu.com":"http://sclick.baidu.com",
+		"nsclick.baidu.com":"http://nsclick.baidu.com",
+		"sestat.baidu.com":"http://sestat.baidu.com",
+		"eclick.baidu.com":"http://eclick.baidu.com",
+		"api.map.baidu.com":"http://api.map.baidu.com",
+		"ecma.bdimg.com":"http://ecma.bdimg.com",
+		"ecmb.bdimg.com":"http://ecmb.bdimg.com",
+        "t1.baidu.com":"http://t1.baidu.com",
+        "t2.baidu.com":"http://t2.baidu.com",
+        "t3.baidu.com":"http://t3.baidu.com",
+		"t10.baidu.com":"http://t10.baidu.com",
+		"t11.baidu.com":"http://t11.baidu.com",
+		"t12.baidu.com":"http://t12.baidu.com",
+		"i7.baidu.com":"http://i7.baidu.com",
+		"i8.baidu.com":"http://i8.baidu.com",
+		"i9.baidu.com":"http://i9.baidu.com",
+		"b1.bdstatic.com":"http://b1.bdstatic.com",
+		"ss.bdimg.com":"http://ss.bdimg.com",
+		"opendata.baidu.com":"http://opendata.baidu.com",
+		"api.open.baidu.com":"http://api.open.baidu.com",
+		"tag.baidu.com":"http://tag.baidu.com",
+		"f3.baidu.com":"http://f3.baidu.com",
+		"s.share.baidu.com":"http://s.share.baidu.com",
+		"bdimg.share.baidu.com":"http://bdimg.share.baidu.com",
+        "1.su.bdimg.com":"http://1.su.bdimg.com",
+        "2.su.bdimg.com":"http://2.su.bdimg.com",
+        "3.su.bdimg.com":"http://3.su.bdimg.com",
+        "4.su.bdimg.com":"http://4.su.bdimg.com",
+        "5.su.bdimg.com":"http://5.su.bdimg.com",
+        "6.su.bdimg.com":"http://6.su.bdimg.com",
+        "7.su.bdimg.com":"http://7.su.bdimg.com",
+        "8.su.bdimg.com":"http://8.su.bdimg.com",
+        "hiphotos.baidu.com":"http://hiphotos.baidu.com",
+        "xueshu.baidu.com":"http://xueshu.baidu.com",
+        "baidu.bigan.net":"http://baidu.bigan.net",
+        "a.xueshu.baidu.com":"http://a.xueshu.baidu.com"
+	};
+//https域名转换工具
+bds.util = bds.util || {};
+bds.util.domain = (function(){
+
+
+var get = function(url) {
+		if(location.protocol === "http") {
+			return url;
+		}
+		var reg = /^(http[s]?:\/\/)?([^\/]+)(.*)/,
+			reg2 = /^(http[s]?:\/\/)?(s1.bdstatic.com\/r\/www\/cache\/mid\/static)(.*)/,
+		matches = url.match(reg),
+		//s1.bdstatic.com静态域名特殊处理
+		matches2 = url.match(reg2);
+		if(matches2){
+			url = "https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/mid/static/protocol/https"+ matches2[3];
+			return url;
+		}else{
+			//判断传入参数是域名还是地址，分别做处理
+			url = list.hasOwnProperty(matches[2])&&(list[matches[2]] + matches[3]) || url;
+			return url;
+		}
+	},
+	set = function(kdomain,vdomain) {
+		list[kdomain] = vdomain;
+	};
+	return {
+		get : get,
+		set : set
+	}
+})();
+</script>
+
+
+    <script src="/lib/static/scholar/cache/jquery/jquery-1.10.2.min_45ac1eb.js"></script>
+    <script src="/lib/static/scholar/cache/biye/js/echarts.min_8b3f7a5.js"></script>
+    <script src="/lib/static/scholar/cache/global/js/history_7bb2f04.js"></script>
+    <!--[if IE]><script type="text/javascript" src="/lib/static/scholar/cache/ui/js/extcanvas_627aaf2.js"></script><![endif]-->
+
+    
+        <script type="text/javascript">
+bds = bds || {};
+bds.cf = {};
+bds.cf.ts = "1570343594";
+bds.cf.token = "1355d4d74288c3961666263981783de698177e2622346c0c9626321b193d3432";
+bds.cf.sign = "35ed08a0670a1aa34d5a01206d18b421";
+
+function getCfStr() {
+    var ts = parseInt(new Date / 1000, 10);
+    return "&_ts=" + ts
+        + "&_token=" + bds.cf.token 
+        + "&_sign=" + md5(ts +  bds.cf.token + '3b6e2e87fcce6eea8337eeac83b478f5');
+}
+
+function getCfObj() {
+    var ts = parseInt(new Date / 1000, 10);
+    return {
+            '_ts' : ts,
+            '_token' : bds.cf.token,
+            '_sign' : md5(ts +  bds.cf.token + '3b6e2e87fcce6eea8337eeac83b478f5')
+        }
+}
+</script>
+    
+</head>
+
+<body>
+    
+<div id="wrapper" class="front_page">
+
+        
+                                                                                
+
+<div id="head_wr" class=" "><div id="head" class="LOG_WR  " data-log="{'actblock': 'head'}"><div class="headCont lightBg"><div id="u" class=" "><span id="setting"><a class="settingicon" href="javascript:;"><i style="font-size:18px;" class="iconfont  head-icon-set-gray">&#xe61b;</i></a><div class="menuarrow"><i class="head-icon head-icon-menu-triangle"></i></div><div id="setMenu" class="menuDropList"><div><a href="javascript:;" class="feedback">意见反馈</a></div></div></span><a id="lb" href="https://passport.baidu.com/v2/?login&tpl=xueshu&u=http%3A%2F%2Fxueshu.baidu.com%2F">登录</a><a href="https://passport.baidu.com/v2/?reg&regType=1&tpl=xueshu&u=http%3A%2F%2Fxueshu.baidu.com%2F" target="_blank" class="reg">注册</a></div>
+
+                            <div class="headtags">
+                <a href="//xueshu.baidu.com" class="home" target="_blank">                                            <img src="/lib/static/scholar/cache/global/img/logo_light_4c30b67.png" width="110" height="35" border="0">
+                                    </a>                </div>
+                <div class="s_form_wr">
+                    <form class="fm" action="//xueshu.baidu.com/s" target="_blank">
+                        <input name="wd" autocomplete="off" id="kw" value="" maxlength="256">
+                        <input type="submit" class="head-icon head-icon-search-g s_btn" value="">
+                        <input type="hidden" name="ie" value="utf-8">
+                        <input type="hidden" name="tn" value="SE_baiduxueshu_c1gjeupa">
+                    </form>
+                </div>
+                    </div>
+    </div>
+</div>
+
+
+
+
+        <div id="container">
+            
+                
+                <div id="left_menu_content" class="LOG_WR " data-log="{'actblock':'menu'}">
+    <div class="left_menu_logo">
+        <a href="/">
+                <img class="sologan onlyOn"  width="144" src="/lib/static/scholar/cache/global_30/img/sologan_876dc43.png" />
+                <i class="iconfont onlyOff logosim">&#xe607;</i>
+        </a>
+    </div>
+    <div class="main_menu_wr">
+        <div class="sch_main_menu">
+                        <p class="onlyOn">搜索</p>
+                        <div class="menu_listitem">
+                <a href="/" class=""  data-log="{'type':'xueshu_sch'}" target="_blank">
+                    <i class="iconfont i-wx">&#xe602;</i><span>文献</span>
+                </a>
+            </div>
+            <div class="menu_listitem">
+                <a href="/usercenter/journal/navigation?language=1" class="" data-log="{'type':'journal'}">
+                <i class="iconfont i-qk">&#xe604;</i><span>期刊</span>
+                </a>
+            </div>
+            <div class="menu_listitem dotPromote">
+                <a href="/usercenter/data/authorchannel?cmd=frontpage" data-log="{'type':'authorchannel'}" class="">
+                <i class="iconfont i-xz">&#xe600;</i><span>学者</span>
+                </a>
+            </div>
+                        <p class="onlyOn">服务</p>
+                        <div class="menu_listitem">
+                <a href="/usercenter" data-log="{'type':'mycollect'}" class="need-login ">
+                    <i class="iconfont i-dy">&#xe60b;</i><span>订阅</span><i id="msimsg"></i>
+                </a>
+            </div>
+
+            <div class="menu_listitem">
+                <a href="/usercenter/?tab=collect" data-log="{'type':'mycollect'}" class="need-login ">
+                    <i class="iconfont i-sc">&#xe601;</i><span>收藏</span>
+                </a>
+            </div>
+
+            <div class="menu_listitem">
+                <a href="/usercenter/papercheck/index?tag=check&upload=1" data-log="{'type':'authorchannel'}" class="paperCheck ">
+                    <i class="iconfont i-lwck">&#xe60a;</i><span>论文查重</span>
+                </a>
+            </div>
+            <div class="menu_listitem">
+                <a href="/u/biye/?tag=paper" class="" data-log="{'type':'journal'}">
+                    <i class="iconfont i-ktfx">&#xe606;</i><span>开题分析</span>
+                </a>
+            </div>
+            <div class="menu_listitem">
+                <a href="/u/ppv" data-log="{'type':'ppv'}" class="">
+                    <i class="iconfont i-dpgm">&#xe62d;</i><span>单篇购买</span>
+                </a>
+            </div>
+            <div class="menu_listitem">
+                <a href="/u/paperhelp" data-log="{'type':'paperhelp'}" class="">
+                    <i class="iconfont i-wxhz">&#xe603;</i><span>文献互助</span>
+                </a>
+            </div>
+                        <p class="onlyOn">账户</p>
+                        <div class="menu_listitem">
+                <a href="/u/user" class="need-login " data-log="{'type':'user'}">
+                    <i class="iconfont i-yhzx">&#xe605;</i><span>用户中心</span><i id="ucimsg"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+                
+                <div id="right_content" class="content_wr">
+                
+                    <div class="right_content_main">
+                    
+<div class="pagecontent">
+  <div class="home_page c-clearfix">
+  </div>
+  <div class="paper_page c-clearfix" style="display:block">
+    <div class="head paperHead">
+    <div class="mask">
+        <p style="font-size: 50px;margin-top: 120px;">研究领域可视化分析，相关文献深度挖掘</p>
+    </div>
+</div>
+<div class="topcontent">
+    <div class="paper_page_input_wrapper">
+        <form name="paper" autocomplete="off" action="/usercenter/data/paperreco">
+            <input type="text" class="title" name="title" value="" placeholder="请输入标题" onfocus="this.placeholder=''" onblur="this.placeholder='请输入标题'"/>
+            <input type="text" class="keyword" name="keyword" value="" placeholder="请输入关键字并用 ; 隔开，最多15个" onfocus="this.placeholder=''" onblur="this.placeholder='请输入关键字并用 ; 隔开，最多15个'"/>
+            <div class="page_input_error">*暂未找到任何关键词，请修改标题或直接输入关键词。</div>
+            <a class="search_btn disabled" href="javascript:;"><i class="icon iconfont">&#xe609;</i></a>
+        </form>
+    </div>
+    <p class="hide">收起 <i class="icon iconfont">&#xe60d;</i></p>
+    <p class="show">重新输入标题或关键词 <i class="icon iconfont">&#xe60c;</i></p>
+</div>
+<div class="maincontent">
+	<div class="leftcontent">
+		<div class="paper-error"><i class="iconfont">&#xe615;</i>暂无相关内容，请尝试调整右侧关键词集合。</div>
+		<div class="charttap"></div>
+		<div class="chartsection"></div>
+		<div class="papersection"></div>
+	</div>
+	<div class="rightcontent">
+		<div class="kwContent">
+			<input class="keyword" name="keyword" type="text" autocomplete="off" placeholder="     添加关键词" maxlength="32"/>
+			<span class="wordLen"></span>
+			<span class="tips">按回车 <i class="enter"></i> 添加</span>
+		</div>
+		<div class="kwList c-clearfix"></div>
+		<p>推荐关键词（点击直接添加）</p>
+		<div class="recomList c-clearfix"></div>
+	</div>
+</div>
+  </div>
+
+</div>
+
+                    </div>
+                
+                </div>
+                
+                
+                
+<div class="pagefoot"><div class="footcon"><span class="lawinfo"><h4>版权说明</h4><p>论文助手由百度学术推出，旨在辅助用户完成定题-写作-查重-答辩的一系列过程，内容仅供参考，百度学术不承担因数据准确性引起的任何法律责任。维权渠道：<a href="http://wpa.qq.com/msgrd?v=3&uin=2166226183&site=qq&menu=yes" style="color: #38f;" target="_blank"">联系百度学术客服</a></p></span><span class="contact"><h4>联系我们</h4><div class="innerCont"><a href="http://weibo.com/baiduxueshu" target="_blank"><p class="wb"><span class=""></span></p></a><p class="wx"><span class="qrcode weixincode biye_bg"></span></p><a href="mailto:xueshu_support@baidu.com" target="_blank"><p class="help"></p></a></div></span><span class="productManual"> <a href="http://static.open.baidu.com/media/ch10/pdf/BaiduScholar-Manual.pdf" target="_blank">下载产品手册</a> &nbsp;&nbsp;&nbsp;|</span><span class="suggest"><a href="javascript:;" class="feedback">意见反馈</a></span></div><p class="foottext">©2019 Baidu 百度学术声明 <a href="https://www.baidu.com/duty/" target="_blank">使用百度前必读</a></p></div>
+
+            
+        </div>
+        <div class="dialog_bg hover-screen"></div>
+    </div>
+
+    
+  <script src="/lib/static/scholar/cache/biye/js/kaiticommon_1a3ab85.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="//zhifu.baidu.com/static/js/pc/iframe/lbscashier-iframe.js?t=20161010"></script>
+  <script type="text/javascript">
+      showPage("paper")
+    </script>
+
+    
+<div style="display:none;">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?43172395c04763d0c12e2fae5ce63540";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+
+</body>
+</html>

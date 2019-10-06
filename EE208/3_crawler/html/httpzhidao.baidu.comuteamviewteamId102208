@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<!--STATUS OK-->
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta http-equiv="content-type" content="text/html;charset=gbk" />
+<meta property="wb:webmaster" content="3aababe5ed22e23c" />
+<meta name="referrer" content="always" />
+<title>星星之火_知道团队_百度知道</title>
+<link rel="shortcut icon" href="//www.baidu.com/favicon.ico?t=20171027" type="image/x-icon" />
+<link rel="icon" sizes="any" mask href="//www.baidu.com/img/baidu.svg" />
+
+<script>
+    window.alogObjectConfig = {
+        product: '102',
+        page: '', 
+        monkey_page: '',
+        speed_page: '',
+        speed: {
+            sample: ''
+        },
+        monkey: {
+            sample: ''
+        },
+        exception: { 
+            sample: ''
+        },
+        feature: {
+            sample: ''
+        },
+        cus: {
+            sample: '',
+            custom_metrics: []
+        },
+        csp: {
+            sample: '',
+            'default-src': [
+                {match: '*bae.baidu.com', target: 'Accept,Warn'},
+                {match: '*.baidu.com,*.bdstatic.com,*.bdimg.com,localhost,*.hao123.com,*.hao123img.com', target: 'Accept'},
+                {match: /^(127|172|192|10)(\.\d+){3}$/, target: 'Accept'},
+                {match: '*', target: 'Accept,Warn'}
+            ]
+        }
+    };
+ 
+    void function(a,b,c,d,e,f,g){a.alogObjectName=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=a[e].l||+new Date,d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d;var h=!0;if(a.alogObjectConfig&&a.alogObjectConfig.sample){var i=Math.random();a.alogObjectConfig.rand=i,i>a.alogObjectConfig.sample&&(h=!1)}h&&(f=b.createElement(c),f.async=!0,f.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),g=b.getElementsByTagName(c)[0],g.parentNode.insertBefore(f,g))}(window,document,"script","/hunter/alog/alog.min.js","alog"),void function(){function a(){}window.PDC={mark:function(a,b){alog("speed.set",a,b||+new Date),alog.fire&&alog.fire("mark")},init:function(a){alog("speed.set","options",a)},view_start:a,tti:a,page_ready:a}}();
+    void function(n){var o=!1;n.onerror=function(n,e,t,c){var i=!0;return!e&&/^script error/i.test(n)&&(o?i=!1:o=!0),i&&alog("exception.send","exception",{msg:n,js:e,ln:t,col:c}),!1},alog("exception.on","catch",function(n){alog("exception.send","exception",{msg:n.msg,js:n.path,ln:n.ln,method:n.method,flag:"catch"})})}(window);
+</script>
+
+<script>
+	!function(document, window){
+		var log = {
+			list: [],
+			host: 'https://' + location.host + '/api/httpscheck',
+			log: function(param) {
+				var a = [];
+		    	for(var k in param) {
+		    		a.push(k + '=' + param[k]);
+		    	}
+		    	var msg = a.join('&');
+		    	if(~this.list.indexOf(msg)){
+		    		return;
+		    	}
+		    	this.list.push(msg);
+		  		var img = new Image();
+		    	var key = '_ik_log_' + (Math.random()*2147483648 ^ 0).toString(36);
+		    	window[key] = img;
+		    		img.onload = img.onerror = img.onabort = function() {
+		        		img.onload = img.onerror = img.onabort = null;
+		        		window[key] = null;
+			    		img = null;
+		    	};
+		  		img.src = this.host + '?' + msg;
+			}
+		};
+
+		function HTTPSWarningLog(){
+			this.selector = [
+				'link',
+				'script',
+				'img',
+				'embed',
+				'iframe'
+			];
+			this.warningCounter = 0;
+			this.init();
+		};
+
+		HTTPSWarningLog.prototype = {
+			init: function(){
+				this.fetch();
+			},
+
+			fetch: function(){
+				for(var tags = this.selector, i =0, len = tags.length; i < len;i++) {
+					this.getTag(tags[i]);
+				}
+			},
+
+			getTag: function(tag) {
+				var domList = document.getElementsByTagName(tag);
+				if(!domList.length) {
+					return;
+				}
+				for(var i = 0,len = domList.length;i<len;i++) {
+					var el = domList[i];
+					var url = el.getAttribute(el.tagName==='LINK' ? 'href' : 'src');
+                    if(el.getAttribute('rel') === 'canonical') {
+                        continue;
+                    }
+					if(url && 'https:' === location.protocol && !url.indexOf('http:')){
+						this.sendLog(el, el.tagName.toLowerCase(),url);
+						this.warningCounter++;
+					}
+				}
+			},
+			
+			sendLog: function(el, type, url){
+				log.log({
+					url: location.href,
+					wtype: type,
+					wurl: url
+				});
+			}
+		};
+
+		function domReady(fn){
+		    if(document.addEventListener) {
+		        document.addEventListener('DOMContentLoaded', function() {
+		            document.removeEventListener('DOMContentLoaded',arguments.callee, false);
+		            fn();
+		        }, false);
+		    }else if(document.attachEvent) {
+		        document.attachEvent('onreadystatechange', function() {
+		            if(document.readyState == 'complete') {
+		                document.detachEvent('onreadystatechange', arguments.callee);
+		                fn();
+		            }
+		        });
+		    }
+		};
+
+		domReady(function(){
+			new HTTPSWarningLog();
+			for(var i=1; i<6; i++) {
+				!function(i){
+					setTimeout(function(){
+						new HTTPSWarningLog();
+					}, i*i*i*1000);
+				}(i);
+			}
+		});
+	}(document, window);
+</script>
+<script type="text/javascript">
+			!function(){var n={},t={};n.context=function(n,e){var i=arguments.length;if(i>1)t[n]=e;else if(1==i){if("object"!=typeof n)return t[n];for(var o in n)n.hasOwnProperty(o)&&(t[o]=n[o])}},"F"in window||(window.F=n)}();;
+			
+            
+																																							
+			F.context('user', {"isLogin":"","isRealName":"","stoken":"","name":"","imId":"","id":"","euid":"","wealth":"","gradeIndex":"","isMavin":""});
+			F.context('user')['internalAdmin'] = null;
+
+									
+			            F.context('isQuality', false);
+            F.context('now', 1570340957);
+		</script>
+
+<script>
+        F.context('sysTaskAutoInit', 0);
+    </script>
+
+<script type="text/javascript">
+        F.context('team', {
+            encodeTime: '',
+            encodeStr: ''
+        });
+        
+        F.context("teamInfo",{"teamName":"\u661f\u661f\u4e4b\u706b","teamId":"102208","leaderUid":"3192353368","imUid":"58724069236f25705e7947be","leaderUname":"\u957f\u97ad\u65e0\u654c\u9707\u4e5d\u9704","createTime":"1549702443","userNum":"507","answerNum":"135451","resolveNum":"75991","wealth":"1277071","renZhengNum":"0","type":"3","monthAnswerNum":"4906","monthResolveNum":"2752","needAnswerNum":"5000","needResolveNum":"2000","upAnswerNum":"8000","upResolveNum":"4000","tagList":["\u5b66\u4e60","\u53e4\u8bd7\u8bcd","\u767e\u79d1\u77e5\u8bc6","\u6210\u8bed","\u79d1\u666e","\u6559\u80b2","\u8bed\u6587","\u6c49\u8bed","\u53e4\u8bd7\u6587","\u4eb2\u5b50","\u6587\u79d1","\u81ea\u7136\u5730\u7406","\u6570\u5b66","\u4eba\u6587","\u4e2d\u6587","\u6587\u5b57","\u5730\u7406","\u751f\u7269\u5b66","\u5c0f\u5b66\u751f","\u8bed\u6587\u6559\u5b66","\u4eba\u6587\u5730\u7406","\u690d\u7269\u5b66","\u6587\u8a00\u6587\u7ffb\u8bd1","\u6d77\u6d0b","\u65f6\u4e8b\u70ed\u70b9"],"tiebaUrl":"","declaration":"\u6709\u7f18\u5343\u91cc\u6765\u76f8\u4f1a","notice":"\u5404\u4f4d\u56e2\u4eb2\uff0c\u5927\u5bb6\u597d\uff01\n\nAPP\u6253\u5361\u5956\u52b1100\u8d22\u5bcc\u503c\u5929\u5929\u6709\uff01\u91c7\u7eb3\u53cc\u500d\u5956\u52b1\u5929\u5929\u6709\uff01\u7ea2\u5305\u5929\u5929\u6709\uff01\n\n\u6bcf\u5468\u56e2\u85aa\u5956\u52b1 : \n\u5468\u91c7\u7eb35\u4e2a\u4ee5\u4e0b    \u611f\u8c22\u8d21\u732e\n6\u4e0050      \u6bcf\u4e2a\u91c7\u7eb320\u8d22\u5bcc\u503c\n51\u4e00100  \u6bcf\u4e2a\u91c7\u7eb330\u8d22\u5bcc\u503c\n101\u4e00200 \u6bcf\u4e2a\u91c7\u7eb335\u8d22\u5bcc\u503c\n201\u4e00400 \u6bcf\u4e2a\u91c7\u7eb340\u8d22\u5bcc\u503c\n400\u4ee5\u4e0a    \u6bcf\u4e2a\u91c7\u7eb345\u8d22\u5bcc\u503c\n\n\u6bcf\u6708\u6708\u5956 : \u6bcf\u6708\u4e00\u65e5\uff0c\u5bf9\u56e2\u961f\u524d\u5341\u540d\u518d\u6b21\u5609\u5956\u3002\n\n\u6bcf\u6708\u5e95\uff0c\u5728\u672c\u56e2\u5f53\u6708\u91c7\u7eb3\u6570\u6392\u540d\u524d\u4e09\u7684\u56e2\u4eb2\uff0c\u53ef\u664b\u5347\u4e3a\u526f\u56e2\u957f\u3002\n\n\u5c81\u6708\u5982\u68ad\uff0c\u767d\u9a79\u8fc7\u9699\uff0c\u6709\u7f18\u76f8\u805a\uff01","picUrl":"https:\/\/gss0.baidu.com\/-fo3dSag_xI4khGko9WTAnF6hhy\/zhidao\/wh%3D221%2C221%3B\/sign=4485bdfb6663f6241c083101b575c7ca\/d000baa1cd11728bf18abae0c5fcc3cec2fd2c48.jpg","specialType":"0","IMGroup":[{"type":"QQ","id":"982413652"}],"QQGroup":[{"id":"QQ||982413652"}],"class":"\u79d1\u5b66\u6559\u80b2","cid":"105","othersView":"0","memberSetting":{"level":"2","resRat":"5","resNum":"1","deleteDays":"0"},"star":"0","isBirthday":"0","year":"0","leaderNum":"6","rand":[],"rank":[{"teamId":"7745","teamName":"\u673a\u68b0\u52a0\u5de5","type":"3","picUrl":"https:\/\/gss0.baidu.com\/9fo3dSag_xI4khGko9WTAnF6hhy\/zhidao\/wh%3D450%2C600\/sign=6de5b1a8a3ec8a13144f5fe4c233bdb9\/d50735fae6cd7b89a498afc4052442a7d8330e84.jpg","leaderUid":"3425484162","leaderUName":"\u6bdb\u91cc\u6c42\u662f88","userNum":"666","answerNum":"185003","resolveNum":"105998","wealth":"543238","createTime":"1280540664","monthAnswerNum":"7228","monthResolveNum":"3995","contribute":"3995","monthRenZheng":"0","num":"666","index":"1"},{"teamId":"102208","teamName":"\u661f\u661f\u4e4b\u706b","type":"3","picUrl":"https:\/\/gss0.baidu.com\/-fo3dSag_xI4khGko9WTAnF6hhy\/zhidao\/wh%3D221%2C221%3B\/sign=4485bdfb6663f6241c083101b575c7ca\/d000baa1cd11728bf18abae0c5fcc3cec2fd2c48.jpg","leaderUid":"3192353368","leaderUName":"\u957f\u97ad\u65e0\u654c\u9707\u4e5d\u9704","userNum":"507","answerNum":"135451","resolveNum":"75991","wealth":"1277071","createTime":"1549702443","monthAnswerNum":"4906","monthResolveNum":"2752","contribute":"2752","monthRenZheng":"0","num":"507","index":"2"},{"teamId":"82083","teamName":"AUDIT","type":"3","picUrl":"https:\/\/gss0.baidu.com\/94o3dSag_xI4khGko9WTAnF6hhy\/album\/abpic\/item\/95eef01f3a292df5f940e4dabd315c6035a87379.jpg","leaderUid":"1576811203","leaderUName":"\u84dd\u5929\u53ef\u8fbe","userNum":"358","answerNum":"386664","resolveNum":"268315","wealth":"688802","createTime":"1380116592","monthAnswerNum":"2294","monthResolveNum":"1788","contribute":"1788","monthRenZheng":"0","num":"358","index":"3"},{"teamId":"36134","teamName":"\u6570\u5b66\u8f85\u5bfc\u56e2","type":"3","picUrl":"https:\/\/gss0.baidu.com\/7Po3dSag_xI4khGko9WTAnF6hhy\/zhidao\/wh%3D221%2C221%3B\/sign=78cc52f5a6345982c5dfed903ec51d9f\/c995d143ad4bd1139ce171b351afa40f4bfb0507.jpg","leaderUid":"11501877","leaderUName":"zbhmzh","userNum":"527","answerNum":"4504589","resolveNum":"2893605","wealth":"3340190","createTime":"1307926949","monthAnswerNum":"3015","monthResolveNum":"1774","contribute":"1774","monthRenZheng":"0","num":"527","index":"4"},{"teamId":"55040","teamName":"\u91d1\u699c\u9898\u540d\u65f6","type":"3","picUrl":"https:\/\/gss0.baidu.com\/94o3dSag_xI4khGko9WTAnF6hhy\/zhidao\/wh%3D221%2C221%3B\/sign=d8bc60cb9ecad1c8d0eef4254d0f4b3b\/54fbb2fb43166d22a7b865704d2309f79152d203.jpg","leaderUid":"293616792","leaderUName":"518\u59da\u5cf0\u5cf0","userNum":"332","answerNum":"1277940","resolveNum":"864180","wealth":"1668654","createTime":"1332637525","monthAnswerNum":"2958","monthResolveNum":"1499","contribute":"1499","monthRenZheng":"0","num":"332","index":"5"}]});
+
+        F.context('myStatus', {"teamUtype":"0"});
+    </script>
+
+<!--[if lte IE 8]>
+<script>
+                (function(){
+                    var e="abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(","),
+                    i=e.length;
+                    while(i--){document.createElement(e[i])}
+                 })();
+            </script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="https://iknowpc.bdimg.com/static/common/pkg/common.2e57416.css" /><link rel="stylesheet" type="text/css" href="https://iknowpc.bdimg.com/static/team/pkg/module.9be4aac.css" /><link rel="stylesheet" type="text/css" href="https://iknowpc.bdimg.com/static/common/widget/header-metis/header.39c9ddf.css" /><link rel="stylesheet" type="text/css" href="https://iknowpc.bdimg.com/static/common/widget/ihome-header/ihome-header.5233dc2.css" /><link rel="stylesheet" type="text/css" href="https://iknowpc.bdimg.com/static/common/widget/js/logic/editor/addon/addon.7d393c9.css" /><link rel="stylesheet" type="text/css" href="https://iknowpc.bdimg.com/static/common/widget/js/logic/editor/editor.d8189af.css" /></head>
+
+<script> alog('speed.set', 'ht', +new Date()); </script>
+
+<body class="layout-center">
+
+
+
+<header id="ihome-header">
+<div class="search-box">
+<div class="search-box-main container line">
+<a href="/" class="zhidao-logo grid" title="百度知道"></a>
+<a class="zhidao-title grid" href="/uteam">芝麻团</a>
+<form action="/search" name="search-form" method="get" id="search-form" class="search-form grid">
+<input class="hdi" id="kw" maxlength="256" tabindex="1" size="46" name="word" value="" autocomplete="off" placeholder="请在此输入问题" />
+<input type="submit" id="search-btn" hidefocus="true" tabindex="2" value="搜索答案" class="btn-global" />
+<a href="#" id="ask-btn" class="ask-btn">我要提问</a>
+</form>
+<div id="userbar" class="userbar userbar-renew" data="">
+<ul class="aside-list">
+<li>
+<a href="http://www.baidu.com/" class="toindex">百度首页</a>
+</li>
+<li><a rel="nofollow" alog-alias="usrbar-login" href="javascript:;" id="userbar-login" log="type:2026,pname:account,mod:login,action:show,pos:pop">登录</a></li>
+<li><a rel="nofollow" alog-alias="usrbar-reg" id="userbar-reg" href="https://passport.baidu.com/v2/?reg&tpl=ik&color=green&u=" target="_blank">注册</a></li>
+<li class="shop-entrance">
+<a href="/shop" title="知道商城" log="type:2026,pos:top-right,target:shop-entrance">商城<i class="i-house" style="display: none;"></i></a>
+<span class="lucky-try"></span>
+</li>
+</ul>
+</div>
+
+</div>
+</div>
+</header>
+
+
+<div id="team-header" class="team-header w1100 line ">
+<div class="team-logo">
+<img class="team-logo-img" src="https://gss0.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D221%2C221%3B/sign=4485bdfb6663f6241c083101b575c7ca/d000baa1cd11728bf18abae0c5fcc3cec2fd2c48.jpg" />
+</div>
+<img class="team-logo-mask h-o-w" src="https://iknowpc.bdimg.com/static/team/widget/uteam/header/img/mask.954d61f.png" />
+<div class="info-item join-team" id="join-team-btn">
+<span class="join-team-btn join-btn"><strong>+</strong>加入团队</span>
+</div>
+<h1 class="team-name">星星之火
+</h1>
+<ul class="header-small-status header-small-info">
+<li>类型：<span class="cate">科学教育</span></li>
+<li>507人加入</li>
+</ul>
+<div class="team-info header-big-status">
+<ul class="team-info-list">
+<li><span class="label">类型：</span><span class="cate">科学教育</span><span class="label">创建时间：</span>2019-02-09</li>
+<li><span class="label">宣言：</span>有缘千里来相会</li>
+<li><span class="label">团长：</span><a class="leader-name-limit" href="/usercenter?uid=58724069236f25705e7947be">长鞭无敌震九霄</a>
+<span class="label ml30">副团长：</span><span class="vice-leader-name-limit"><a href="/usercenter?uid=e8e1b9e2d2f5b5c4b1cabce2f4e9" target="_blank">光阴的笔尖</a>、<a href="/usercenter?uid=78abcebac9b3383004a4" target="_blank">魏沙80</a></span>等5人</li>
+</ul>
+<div class="team-info-bottom line">
+<ul class="team-leader-list line">
+<li><a href="/usercenter?uid=659dd0a1d2af32303135fe5b"  target="_blank"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/659dd0a1d2af32303135fe5b.jpg" /></a><a class="ico-mask h-o-w" href="/usercenter?uid=659dd0a1d2af32303135fe5b"></a></li>
+<li><a href="/usercenter?uid=684261695f7368656e675f68b0e9"  target="_blank"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/684261695f7368656e675f68b0e9.jpg" /></a><a class="ico-mask h-o-w" href="/usercenter?uid=684261695f7368656e675f68b0e9"></a></li>
+<li><a href="/usercenter?uid=421bc8cbb6e0c9c65fc9edd0c4bfb58949"  target="_blank"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/421bc8cbb6e0c9c65fc9edd0c4bfb58949.jpg" /></a><a class="ico-mask h-o-w" href="/usercenter?uid=421bc8cbb6e0c9c65fc9edd0c4bfb58949"></a></li>
+<li><a href="/usercenter?uid=52cad985"  target="_blank"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/52cad985.jpg" /></a><a class="ico-mask h-o-w" href="/usercenter?uid=52cad985"></a></li>
+<li><a href="/uteam/member?teamId=102208" class="more-leader"></a></li>
+</ul>
+<p class="join-num">已有507人加入</p>
+</div>
+</div>
+<div class="team-stat-info header-big-status"></div>
+<div class="open-share-box" id="open-share-box">
+<div class="op-share-box">
+<span class="open-share"></span>
+<div class="share-box">
+<div class="arrow-ico up-arrow-ico"></div>
+<div class="share-box-content">
+<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+<a class="bds_tsina"></a>
+<a class="bds_tqq"></a>
+<a class="bds_qzone"></a>
+<a class="bds_renren"></a>
+<a class="bds_tieba"></a>
+<span class="bds_more"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="team-slogan"><img class="team-slogan-img" src="https://gss0.bdstatic.com/7051cy89RcgCncy6lo7D0j9wexYrbOWh7c50/team/team-new-medal-3-0.png" /></div>
+<div class="rz-count"><span>认证数0</span></div>
+<ul class="team-stat">
+<li class="first-item"><span>回答数</span><strong>135451</strong></li>
+<li><span>采纳数</span><strong>75991</strong></li>
+<li class="last-item"><span>财富值</span><strong>1277071</strong></li>
+</ul>
+<span class="header-toggle-btn header-open-btn" id="header-toggle-btn">收起</span></div>
+<script type="text/template" id="t:joined-team">
+<div class="switch-team-title line">
+    <strong>我加入的团队</strong>
+    <span class="st-tip">拖动设置团队优先级哦~</span>
+    <span class="st-bg"></span>
+</div>
+<div class="d-team-box">
+    <ul class="d-team-list line">
+        <#for(var i=0;i<joinedTeamList.length;i++){#>
+            <li data-teamid="<#=joinedTeamList[i].teamId#>">
+                <div class="d-team-pic"><img src="<#-__2ssl__(joinedTeamList[i].picUrl)#>"></div>
+                <div class="d-team-name"><#=joinedTeamList[i].teamName#></div>
+            </li>
+        <#}#>
+    </ul>
+    <#if (joinedTeamList.length>1){#>
+        <em></em>
+    <#}#>
+    <#if (joinedTeamList.length>2){#>
+        <em class="r2"></em>
+    <#}#>
+</div>
+</script>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=281447" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+
+<section id="body" class="w1100 team-content line">
+<div class="main-content">
+
+<section class="team-notice-wrap">
+<div class="notice-title">团队公告</div>
+<div class="notice-wrap">
+<p class="notice-content js-notice-content">
+各位团亲，大家好！<br />
+<br />
+APP打卡奖励100财富值天天有！采纳双倍奖励天天有！红包天天有！<br />
+<br />
+每周团薪奖励 : <br />
+周采纳5个以下    感谢贡献<br />
+6一50      每个采纳20财富值<br />
+51一100  每个采纳30财富值<br />
+101一200 每个采纳35财富值<br />
+201一400 每个采纳40财富值<br />
+400以上    每个采纳45财富值<br />
+<br />
+每月月奖 : 每月一日，对团队前十名再次嘉奖。<br />
+<br />
+每月底，在本团当月采纳数排名前三的团亲，可晋升为副团长。<br />
+<br />
+岁月如梭，白驹过隙，有缘相聚！
+</p>
+</div>
+<div class="notice-more js-content-more">查看更多</div>
+</section>
+<ul class="team-tab">
+<li class="team-tab-task"><a class="active" href="/uteam/view?teamId=102208"><em></em>团队任务<span></span></a></li>
+<li class="team-tab-con"><a  href="/uteam/contribute?teamId=102208"><em></em>团队贡献库<span></span></a></li>
+<li class="team-tab-member"><a  href="/uteam/member?teamId=102208"><em></em>团队成员<span></span></a></li>
+</ul><div class="team-task-card-section">
+<h2 class="task-card-title">
+<span class="task-card-point"></span>
+如果对团队感兴趣，就加入团队吧</h2>
+<div class="team-task-card-wp">
+<div class="left-arr-wp arr-wp">
+<div class="left-arr arr"></div>
+</div>
+<div class="task-list-wp">
+<div class="task-list-container">
+<ul class="task-list">
+<li class=" task-item-5 list-item normal-task-item normal-task-star-2 new-man-status- normal-task-bar-ing  ">
+<span class="task-status-new">
+</span>
+<p class="task-name">
+科学教育任务包
+</p>
+<p class="task-question-count">
+1000题/每个采纳</p>
+<p class="task-per-resolve">
+29
+</p>
+<p class="task-progress-num">
+0%</p>
+<div class="task-people-count ">
+124人参与答题</div>
+<div class="task-time-left">
+<span class="time-left-logo"></span>
+剩余6天1小时
+</div>
+<div class="circle-bar-container">
+</div>
+<span class="task-action ">
+开始答题</span>
+<a href="/uteam/question?taskId=5&teamId=102208" class="task-link"></a>
+</li>
+<li class=" task-item-331 list-item normal-task-item normal-task-star-3 new-man-status- normal-task-bar-ing normal-task-type-5 ">
+<p class="task-name">
+科学教育高质任务包
+</p>
+<p class="task-question-count">
+3000题/每个采纳</p>
+<p class="task-per-resolve">
+160
+</p>
+<p class="task-progress-num">
+0%</p>
+<div class="task-people-count ">
+1人参与答题</div>
+<div class="task-time-left">
+<span class="time-left-logo"></span>
+剩余2天
+</div>
+<div class="circle-bar-container">
+</div>
+<span class="task-action ">
+开始答题</span>
+<a href="/uteam/question?taskId=331&teamId=102208" class="task-link"></a>
+</li>
+<li class=" task-item-5 list-item normal-task-item normal-task-star-2 new-man-status- normal-task-bar-finish  ">
+<p class="task-name">
+科学教育任务包
+</p>
+<p class="task-question-count">
+1000题/每个采纳</p>
+<p class="task-per-resolve">
+29
+</p>
+<p class="task-progress-num">
+0%</p>
+<div class="task-time-left">
+<span class="time-left-logo"></span>
+正在核算中</div>
+<div class="circle-bar-container">
+</div>
+<span class="task-action ">
+开始答题</span>
+<div class="task-hover-cover task-finish-cover">
+<p class="hover-cover-top">
+当前成绩</p>
+<div class="hover-cover-body">
+<div class="finish-info">
+<div class="finish-info-part finish-info-resolve">
+<p class="finish-info-num">
+585
+</p>
+<p class="finish-info-title">
+采纳数</p>
+</div>
+<div class="finish-info-part">
+<p class="finish-info-num">
+1000
+</p>
+<p class="finish-info-title">
+回答数</p>
+</div>
+</div>
+<p class="already-resolve-finish">
+可获得<span class="coin-logo"></span><span class="real-coin-count">16965</span>
+</p>
+</div>
+<p class="hover-cover-bottom">
+正在核算最终财富值</p>
+</div>
+<a href="/uteam/question?taskId=5&teamId=102208" class="task-link"></a>
+</li>
+<li class=" task-item-5 list-item normal-task-item normal-task-star-2 new-man-status- normal-task-bar-success  ">
+<p class="task-name">
+科学教育任务包
+</p>
+<p class="task-question-count">
+1000题/每个采纳</p>
+<p class="task-per-resolve">
+29
+</p>
+<p class="task-progress-num">
+0%</p>
+<span class="task-bonus">
+<span>获得财富值</span><em></em>15747
+</span>
+<div class="circle-bar-container">
+</div>
+<span class="task-action ">
+开始答题</span>
+<div class="task-hover-cover task-success-cover">
+<p class="hover-cover-top">
+任务完成</p>
+<div class="hover-cover-body">
+<div class="finish-info">
+<div class="finish-info-part finish-info-resolve">
+<p class="finish-info-num">
+543
+</p>
+<p class="finish-info-title">
+采纳数</p>
+</div>
+<div class="finish-info-part">
+<p class="finish-info-num">
+1000
+</p>
+<p class="finish-info-title">
+回答数</p>
+</div>
+</div>
+<div class="top-member">
+<div class="avatar-container">
+<img class="top-avatar" src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/659dd0a1d2af32303135fe5b.jpg" alt="top-member-avatar">
+</div>
+<div class="top-info">
+<p class="top-name">
+小爷2015
+</p>
+<p class="top-answer">
+采纳数：152
+</p>
+<p class="top-wealth">
+回答数：180
+</p>
+</div>
+</div>
+</div>
+</div>
+<a href="/uteam/question?taskId=5&teamId=102208" class="task-link"></a>
+</li>
+</ul>
+</div>
+</div>
+<div class="right-arr-wp arr-wp">
+<div class="right-arr arr"></div>
+</div>
+</div>
+</div>
+<div class="team-dynamic-box">
+<div class="row-title mt30">
+<ul class="month-answer-title tab-title line">
+<li class="disabled-tab"><em></em>团队动态</li>
+</ul>
+<a href="/uteam/contribute?teamId=102208" class="more">更多</a>
+</div>
+<div id="team-dynamic" class="m25"></div>
+</div>
+<script type="text/template" id="tpl-answer-list">
+{@each monthlyAnswerList as item,index}
+<div class="daily-answer-content">
+<h3>${item.date}</h3>
+<ul class="daily-answer-list">
+{@each item.list as listItem,listIndex}
+    {@if listItem.fType==1 || listItem.fType==2}
+    <li data-qid="${listItem.qid}">
+        <span class="pa time">${listItem.time}</span><em class="pa{@if listIndex==0} first-em{@/if}"></em>
+        <span class="pa usr-ico usr-ico-pos"><a target="_blank" href="/usercenter?uid=${listItem.imId}"><img src="${__2ssl__(listItem.imgUrl)}" /></a></span>
+        <span class="pa usr-ico-mask h-o-w"></span>
+        <span class="pa usr-name"><a target="_blank" href="/usercenter?uid=${listItem.imId}">${listItem.rUName}</a>{@if listItem.fType==1}回答了问题{@else}的回答被采纳{@/if}</span>
+        <div class="ask"><span class="green">问：</span>${listItem.qtitle}</div>
+        <div class="ans"><span class="orange">答：</span>${listItem.rContent}</div>
+        {@if listItem.fType==2}
+            {@if listItem.rAuthentic==undefined || listItem.rAuthentic==0}
+                {@if listItem.isGood==3}<span class="pa q-ico q-adopt2 q-adopt3"></span><span class="pa q-ico q-adopt1"></span>{@else}<span class="pa q-ico q-adopt${listItem.isGood}"></span>{@/if}
+            {@else}
+                {@if listItem.rAuthentic==2}<span class="pa ico-auth ico-auth-2">专业回答</span>{@else}<span class="pa ico-auth ico-auth-1">认证中</span>{@/if}
+            {@/if}
+        {@/if}
+    </li>
+    {@else}
+    <li class="sp-list">
+        <span class="pa time">${listItem.time}</span><em class="pa{@if listIndex==0} first-em{@/if}"></em>
+        {@if listItem.fType==3}
+        <span class="pa usr-ico usr-ico-pos join-team-ico"></span>
+        <span class="pa usr-name"><a target="_blank" href="/usercenter?uid=${listItem.imId}">${listItem.username}</a>加入了团队</span>
+        {@else if listItem.fType==4}
+        <span class="pa usr-ico usr-ico-pos task-finish-ico"></span>
+        <span class="pa usr-name">“${listItem.taskName}”完成，共获得<span class="orange">${listItem.adoptNum}</span>采纳，<span class="orange">${listItem.wealth}</span>财富值</span>
+        {@else if listItem.fType==5}
+        <span class="pa usr-ico usr-ico-pos task-get-ico"></span>
+        <span class="pa usr-name">团队抢到了“${listItem.taskName}”</span>
+        {@/if}
+    </li>
+    {@/if}
+{@/each}
+</ul>
+<em class="pa pa-line top-line"></em><em class="pa pa-line bom-line"></em>
+</div>
+{@/each}
+</script>
+<div class="message-board-wp" id="J_messageBoardWp">
+<h2 class="message-board-title">
+<span class="message-board-point"></span>留言板</h2>
+<div class="message-board-input-wp">
+<div class="message-textarea-wp">
+<textarea class="message-textarea" placeholder="输入评论内容.."></textarea>
+<div class="message-operate-section"><span class="message-tip"></span><button class="message-deliver-btn">
+留言</button></div>
+</div>
+<div class="avatar-section">
+<div class="avatar-wp">
+<img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/.jpg">
+</div>
+</div>
+</div>
+<div class="message-list-wp">
+<ul class="message-list">
+</ul>
+</div>
+<div id="J_messagePaper" class="normalPager">
+</div>
+</div>
+<script type="text/template" id="J_messageBoardTpl">
+    {@each list as item}
+        <li class="message-item" data-reply-Id="${item.replyId}">
+            <div class="message-info">
+                <a class="avatar-wp" href="/usercenter?uid=${item.imId}" target="_blank">
+                    <img src="${__2ssl__(item.imgUrl)}" />
+                </a>
+                <a href="/usercenter?uid=${item.imId}" target="_blank" class="message-username">
+                        ${item.username}
+                </a>
+                {@if basicSet}
+                    <a class="delete-comment" href="javascript:;">
+                        删除
+                    </a>
+                {@/if}
+                <span class="message-time">
+                    ${item.createTimeStr}
+                </span>
+            </div>
+            <div class="message-content-wp">
+                <span class="message-triangle"></span>
+                <p class="message-content">
+                    ${item.content}
+                </p>
+            </div>
+        </li>
+    {@/each}
+</script>
+</div>
+<div class="sidebar" id="sidebar">
+
+<div class="team-monthly-score sidebar-item">
+<div class="item-title-wp">
+<div class="item-title monthly-score">
+本月成绩</div>
+<div class="item-title-side">
+<span class="title-side-item title-side-item-active team-monthly-score-tabs" data-tab="team-score-team">
+团队</span>
+</div>
+</div>
+<div class="item-content">
+<div class="bar-format-info team-score-team team-score-info clearfix">
+<div class="team-score-pie">
+<div class="team-pie-con" id="team-adopt-pie"></div>
+<div class="team-exam-con">
+<div id="team-adopt-exam">
+<span class="t-rn">2752</span>
+<span class="t-st">采纳数</span>
+</div>
+<div class="ho-tip">
+<h4 class="c-bu">已经顺利保级</h4>
+<p>保级标准<em class="c-bu">2000采纳</em></p><p>晋级标准<em class="c-og">4000采纳</em></p>
+</div>
+</div>
+</div>
+<span class="team-score-pie-split"></span>
+<div class="team-score-pie">
+<div class="team-pie-con" id="team-answer-pie"></div>
+<div class="team-exam-con">
+<div id="team-answer-exam">
+<span class="t-rn">4906</span>
+<span class="t-st">回答数</span>
+</div>
+<div class="ho-tip">
+<h4>暂未达到保级标准</h4>
+<p>保级标准<em class="c-bu">5000回答</em></p><p>晋级标准<em class="c-og">8000回答</em></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="sidebar-item"><a href="http://zhidao.baidu.com/activity/commact?name=guoqing" target="_blank"><img style="display:block;" src="https://iknow-base.bj.bcebos.com/zhimatuanhuodong/shiyituanyou290x180x2.jpg" width="290" height="180" /></a></div>
+<div class="team-month-star sidebar-item">
+<div class="item-title-wp">
+<div class="item-title">本月团队之星</div>
+</div>
+<div class="item-content" id="month-star-box">
+<div class="carousel-inner" style="display: none">
+<div class="star-item">
+<div class="info"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/659dd0a1d2af32303135fe5b.jpg" />
+<strong>小爷2015</strong>
+<div class="dt">本月：采纳5492<span>|</span>回答6678</div>
+</div>
+<div class="intro"><em></em>团队之星</div>
+</div>
+<div class="star-item">
+<div class="info"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/684261695f7368656e675f68b0e9.jpg" />
+<strong>ai_sheng_h</strong>
+<div class="dt">本月：采纳749<span>|</span>回答971</div>
+</div>
+<div class="intro"><em></em>团队之星</div>
+</div>
+<div class="star-item">
+<div class="info"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/421bc8cbb6e0c9c65fc9edd0c4bfb58949.jpg" />
+<strong>人多善_身心康</strong>
+<div class="dt">本月：采纳887<span>|</span>回答1463</div>
+</div>
+<div class="intro"><em></em>团队之星</div>
+</div>
+<div class="star-item">
+<div class="info"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/52cad985.jpg" />
+<strong>cn#aQfBaBLuGB</strong>
+<div class="dt">本月：采纳244<span>|</span>回答546</div>
+</div>
+<div class="intro"><em></em>团队之星</div>
+</div>
+<div class="star-item">
+<div class="info"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/e81eb2c2b3c7b7ecbad78a95.jpg" />
+<strong>猜城缝鹤</strong>
+<div class="dt">本月：采纳1737<span>|</span>回答3061</div>
+</div>
+<div class="intro"><em></em>团队之星</div>
+</div>
+<div class="star-item">
+<div class="info"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/a1af56414c4f52313939399d4f.jpg" />
+<strong>VALOR1999</strong>
+<div class="dt">本月：采纳2754<span>|</span>回答3632</div>
+</div>
+<div class="intro"><em></em>团队之星</div>
+</div>
+<div class="star-item">
+<div class="info"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/23dd43524c5848ed75.jpg" />
+<strong>CRLXH</strong>
+<div class="dt">本月：采纳1188<span>|</span>回答1406</div>
+</div>
+<div class="intro"><em></em>团队之星</div>
+</div>
+<div class="star-item">
+<div class="info"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/633bd0a1bac6bac6313038f462.jpg" />
+<strong>小浩浩108</strong>
+<div class="dt">本月：采纳259<span>|</span>回答371</div>
+</div>
+<div class="intro"><em></em>团队之星</div>
+</div>
+<div class="star-item">
+<div class="info"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/ba47b6c0bdc7cade31303031cc0e.jpg" />
+<strong>独角兽1001</strong>
+<div class="dt">本月：采纳492<span>|</span>回答995</div>
+</div>
+<div class="intro"><em></em>团队之星</div>
+</div>
+<div class="star-item">
+<div class="info"><img src="https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/2263d1d3.jpg" />
+<strong>cn#GfaQLQQkVL</strong>
+<div class="dt">本月：采纳896<span>|</span>回答1555</div>
+</div>
+<div class="intro"><em></em>团队之星</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="team-social-info sidebar-item">
+<div class="item-title-wp">
+<div class="item-title">
+交流地带</div>
+</div>
+<div class="item-content">
+<p class="qq-group-item">
+QQ群：982413652
+</p>
+<p><a class="tieba-link" href="http://tieba.baidu.com/p/3496570321" target="_blank">进入团队贴吧&gt;&gt;</a></p>
+</div>
+</div>
+<div class="team-ranking-list sidebar-item">
+<div class="item-title-wp">
+<div class="item-title">
+本月等级团队榜</div>
+<a class="more" target="_blank" href="/uteam/rankdetail?cid=105&type=3">更多&gt;&gt;</a>
+</div>
+<div class="item-content">
+<ul class="ranking-list-ul">
+<li class="ranking-list-item">
+<a href="/uteam/view?teamId=7745" class="team-link" log="page:team,area:right_ads,action:click">
+<p class="rank-index">
+1
+</p>
+<span class="team-avatar-wp">
+<img src="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D450%2C600/sign=6de5b1a8a3ec8a13144f5fe4c233bdb9/d50735fae6cd7b89a498afc4052442a7d8330e84.jpg">
+</span>
+<div class="team-info">
+<p class="team-name">
+机械加工
+</p>
+<p class="team-data">
+<span>
+贡献量3995
+</span>
+<span>
+回答数7228
+</span>
+</p>
+</div>
+</a>
+</li>
+<li class="ranking-list-item">
+<a href="/uteam/view?teamId=102208" class="team-link" log="page:team,area:right_ads,action:click">
+<p class="rank-index">
+2
+</p>
+<span class="team-avatar-wp">
+<img src="https://gss0.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D221%2C221%3B/sign=4485bdfb6663f6241c083101b575c7ca/d000baa1cd11728bf18abae0c5fcc3cec2fd2c48.jpg">
+</span>
+<div class="team-info">
+<p class="team-name">
+星星之火
+</p>
+<p class="team-data">
+<span>
+贡献量2752
+</span>
+<span>
+回答数4906
+</span>
+</p>
+</div>
+</a>
+</li>
+<li class="ranking-list-item">
+<a href="/uteam/view?teamId=82083" class="team-link" log="page:team,area:right_ads,action:click">
+<p class="rank-index">
+3
+</p>
+<span class="team-avatar-wp">
+<img src="https://gss0.baidu.com/94o3dSag_xI4khGko9WTAnF6hhy/album/abpic/item/95eef01f3a292df5f940e4dabd315c6035a87379.jpg">
+</span>
+<div class="team-info">
+<p class="team-name">
+AUDIT
+</p>
+<p class="team-data">
+<span>
+贡献量1788
+</span>
+<span>
+回答数2294
+</span>
+</p>
+</div>
+</a>
+</li>
+<li class="ranking-list-item">
+<a href="/uteam/view?teamId=36134" class="team-link" log="page:team,area:right_ads,action:click">
+<p class="rank-index">
+4
+</p>
+<span class="team-avatar-wp">
+<img src="https://gss0.baidu.com/7Po3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D221%2C221%3B/sign=78cc52f5a6345982c5dfed903ec51d9f/c995d143ad4bd1139ce171b351afa40f4bfb0507.jpg">
+</span>
+<div class="team-info">
+<p class="team-name">
+数学辅导团
+</p>
+<p class="team-data">
+<span>
+贡献量1774
+</span>
+<span>
+回答数3015
+</span>
+</p>
+</div>
+</a>
+</li>
+<li class="ranking-list-item">
+<a href="/uteam/view?teamId=55040" class="team-link" log="page:team,area:right_ads,action:click">
+<p class="rank-index">
+5
+</p>
+<span class="team-avatar-wp">
+<img src="https://gss0.baidu.com/94o3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D221%2C221%3B/sign=d8bc60cb9ecad1c8d0eef4254d0f4b3b/54fbb2fb43166d22a7b865704d2309f79152d203.jpg">
+</span>
+<div class="team-info">
+<p class="team-name">
+金榜题名时
+</p>
+<p class="team-data">
+<span>
+贡献量1499
+</span>
+<span>
+回答数2958
+</span>
+</p>
+</div>
+</a>
+</li>
+</ul>
+</div>
+</div>
+
+</div>
+</section>
+
+
+
+<div class="wgt-footer-new">
+<div class="footer-wp">
+<ul class="footer-list clearfix">
+<li class="footer-list-item footer-list-guide">
+<div class="footer-title"><span class="icon-guide"></span>新手帮助</div>
+<ul class="footer-link clearfix">
+<li><a href="http://help.baidu.com/question?prod_en=zhidao&class=320&id=1525" target="_blank">如何答题</a></li>
+<li><a href="http://help.baidu.com/question?prod_id=9&class=320&id=1526" target="_blank">获取采纳</a></li>
+<li><a href="http://help.baidu.com/question?prod_id=9&class=337&id=1513" target="_blank">使用财富值</a></li>
+</ul>
+</li>
+<li class="footer-list-item footer-list-intro">
+<div class="footer-title"><span class="icon-intro"></span>玩法介绍</div>
+<ul class="footer-link clearfix">
+<li><a href="/shop" target="_blank">知道商城</a></li>
+<li><a href="http://zhidao.baidu.com/pcs/zhimatuan/index.html" target="_blank">知道团队</a></li>
+<li><a href="/home/partnerhome" target="_blank">合伙人认证</a></li>
+<li><a href="http://zhidao.baidu.com/s/hi-quality/index.html" target="_blank">高质量问答</a></li>
+</ul>
+</li>
+<li class="footer-list-item footer-list-sug">
+<div class="user-tip" id="js-footer-user-tip" style="display: none;">
+<p class="title">您的帐号状态正常</p>
+<p class="desc">感谢您对我们的支持</p>
+</div>
+<div class="footer-title"><span class="icon-sug"></span>投诉建议</div>
+<ul class="footer-link clearfix">
+<li><a href="javascript:;" log="module:common,action:click,area:footer_feedback" target="_blank" id="footer-feedback">意见反馈</a></li>
+<li><a href="/misc/appeal" log="module:common,action:click,area:footer_appeal" target="_blank" id="js-footer-appeal">账号申诉</a></li>
+<li><a href="http://ikefu.baidu.com/web/zhishisousuo#" log="module:common,action:click,area:footer_consult" target="_blank">智能咨询</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="footer-new">
+<p class="jt1128">
+京ICP证030173号-1&nbsp;&nbsp;&nbsp;京网文【2013】0934-983号&nbsp;&nbsp;&nbsp;&nbsp;        &copy;2019Baidu&nbsp;&nbsp;<a rel="nofollow" href="http://www.baidu.com/duty/" target="_blank">使用百度前必读</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a rel="nofollow" href="http://help.baidu.com/question?prod_id=9&class=325&id=2760" target="_blank">知道协议</a>&nbsp;&nbsp;</p>
+</div>
+</div>
+
+
+<div class="jump-to-top-notice">
+<div  class="open-notice-list" >
+官方公告<span class="open-notice-list-hot"></span>
+<div class="notice-container">
+<h2 class="notice-container-title">官方公告</h2>
+<ul class="notice-content">
+<li><a href="http://zhidao.baidu.com/activity/commact?name=datikuanghuan">“团结一新”2018年答题趴火热进行中</a></li>
+<li><a href="http://zhidao.baidu.com/activity/commact?name=datikuanghuan">99999财富值等你领！</a></li>
+</ul>
+<div class="notice-triangle">
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<script>
+    void function(a,b,c,d,e,f){function g(b){a.attachEvent?a.attachEvent("onload",b,!1):a.addEventListener&&a.addEventListener("load",b)}function h(a,c,d){d=d||15;var e=new Date;e.setTime((new Date).getTime()+1e3*d),b.cookie=a+"="+escape(c)+";path=/;expires="+e.toGMTString()}function i(a){var c=b.cookie.match(new RegExp("(^| )"+a+"=([^;]*)(;|$)"));return null!=c?unescape(c[2]):null}function j(){var a=i("PMS_JT");if(a){h("PMS_JT","",-1);try{a=a.match(/{["']s["']:(\d+),["']r["']:["']([\s\S]+)["']}/),a=a&&a[1]&&a[2]?{s:parseInt(a[1]),r:a[2]}:{}}catch(c){a={}}a.r&&b.referrer.replace(/#.*/,"")!=a.r||alog("speed.set","wt",a.s)}}if(a.alogObjectConfig){var k=a.alogObjectConfig.sample,l=a.alogObjectConfig.rand;d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d,k&&l&&l>k||(g(function(){alog("speed.set","lt",+new Date),e=b.createElement(c),e.async=!0,e.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),f=b.getElementsByTagName(c)[0],f.parentNode.insertBefore(e,f)}),j())}}(window,document,"script","/hunter/alog/dp.min.js");
+    </script>
+
+<script>
+				var _hmt = _hmt || [];
+				(function() {
+					var hm = document.createElement("script");
+					hm.src = "https://hm.baidu.com/hm.js?6859ce5aaf00fb00387e6434e4fcc925";
+					var s = document.getElementsByTagName("script")[0];
+					s.parentNode.insertBefore(hm, s);
+				})();
+			</script>
+
+</body><script type="text/javascript" src="https://iknowpc.bdimg.com/static/common/lib/mod.75d1f98.js"></script><script type="text/javascript">(window.__IKNOW_GLOBAL__ || window).require.resourceMap({"res":{"common:widget\/lib\/jquery\/jquery.origin.js":{"pkg":"common:p3"},"common:widget\/js\/util\/https\/https.js":{"pkg":"common:p6"},"common:widget\/bottom-ask\/bottom-ask.js":{"pkg":"common:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/util\/log\/log.js"]},"common:widget\/css\/fonts\/iconfont.js":{"pkg":"common:p0"},"common:widget\/css\/fonts\/iconfont.min.js":{"pkg":"common:p0"},"common:widget\/footer-new\/footer-new.js":{"pkg":"common:p0","deps":["common:widget\/lib\/jquery\/jquery.js","common:widget\/js\/util\/event\/event.js"]},"common:widget\/footer\/footer.js":{"pkg":"common:p0"},"common:widget\/header-metis\/header.js":{"pkg":"common:p0","deps":["common:widget\/lib\/jquery\/jquery.js","common:widget\/js\/ui\/dialog\/dialog.js","common:widget\/js\/util\/template\/template.js","common:widget\/js\/ui\/scrollbar-new\/scrollbar-new.js","common:widget\/js\/util\/store\/store.js"]},"common:widget\/menu\/menu.js":{"pkg":"common:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/log\/log.js"]},"common:widget\/search-box-new\/search-box-new.js":{"pkg":"common:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/ui\/suggestion-new\/suggestion-new.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/util\/form\/form.js","common:widget\/js\/util\/log\/log.js","common:widget\/js\/ui\/dialog\/dialog.js","common:widget\/lib\/jquery.placeholder\/jquery.placeholder.js"]},"common:widget\/userbar-renew\/userbar-renew.js":{"pkg":"common:p0","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/js\/util\/event\/event.js","common:widget\/js\/logic\/login\/login.js","common:widget\/js\/util\/log\/log.js","common:widget\/js\/util\/store\/store.js"]},"common:widget\/ihome-header\/ihome-header.js":{"url":"https:\/\/iknowpc.bdimg.com\/static\/common\/widget\/ihome-header\/ihome-header.d58531c.js","deps":["common:widget\/js\/util\/tangram\/tangram.js","common:widget\/search-box-new\/search-box-new.js","common:widget\/js\/util\/log\/log.js"]}},"pkg":{"common:p0":{"url":"https:\/\/iknowpc.bdimg.com\/static\/common\/pkg\/more.22db732.js","has":["common:widget\/bottom-ask\/bottom-ask.js","common:widget\/css\/fonts\/iconfont.js","common:widget\/css\/fonts\/iconfont.min.js","common:widget\/footer-new\/footer-new.js","common:widget\/footer\/footer.js","common:widget\/header-metis\/header.js","common:widget\/menu\/menu.js","common:widget\/search-box-new\/search-box-new.js","common:widget\/userbar-renew\/userbar-renew.js"]}}});</script><script type="text/javascript" src="https://iknowpc.bdimg.com/static/common/pkg/lib.33719ed.js"></script><script type="text/javascript" src="https://iknowpc.bdimg.com/static/common/pkg/commonjs.0285675.js"></script><script type="text/javascript" src="https://iknowpc.bdimg.com/static/common/pkg/editor.716dff2.js"></script><script type="text/javascript" src="https://iknowpc.bdimg.com/static/team/pkg/module.b13bec9.js"></script><script type="text/javascript">
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;			window['__abbaidu_2016_subidgetf'] = function () {
+				if (window.location.href.indexOf("/question") == 0) {
+					return 'iknow-pc-qb';
+				}
+				return 'iknow-pc-other';
+			}
+			window['__abbaidu_2016_cb'] = function (responseData) {
+        		
+   			};
+		}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require.async(['common:widget/userbar-renew/userbar-renew']);
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;	require.async(['common:widget/ihome-header/ihome-header']);
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;   require.async(['team:widget/uteam/header/header'],function(header){
+        header.init();
+   });
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;require.async(['team:widget/uteam/team-notice/team-notice'], function (notice) {
+notice.init();
+});
+
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    F.context("taskList",[{"id":"4619562","taskId":"5","createTime":"1570258890","finishTime":"0","userNum":"124","answerNum":"964","finishAnswerNum":"1000","resolveNum":"413","finishResolveNum":"250","wealth":"11977","type":"1","status":"1","extpack":"","taskEndTimeForNa":"522734","time":"6\u59291\u5c0f\u65f6","isNew":"1","progress":"96","qNum":"1000","cid1":"0","cid2":"0","answerAuth":"1","taskName":"\u79d1\u5b66\u6559\u80b2\u4efb\u52a1\u5305","eachWealth":"29","star":"2"},{"id":"4614482","taskId":"331","createTime":"1569910620","finishTime":"0","userNum":"1","answerNum":"1","finishAnswerNum":"3000","resolveNum":"0","finishResolveNum":"1200","wealth":"0","type":"5","status":"1","extpack":"","taskEndTimeForNa":"174464","time":"2\u5929","isNew":"0","progress":"0","qNum":"3000","cid1":"0","cid2":"0","answerAuth":"1","taskName":"\u79d1\u5b66\u6559\u80b2\u9ad8\u8d28\u4efb\u52a1\u5305","eachWealth":"160","star":"3"},{"id":"4618288","taskId":"5","createTime":"1570168197","finishTime":"1570258890","userNum":"158","answerNum":"1000","finishAnswerNum":"1000","resolveNum":"585","finishResolveNum":"250","wealth":"16965","type":"1","status":"5","extpack":"","progress":"100","qNum":"1000","cid1":"0","cid2":"0","answerAuth":"1","taskName":"\u79d1\u5b66\u6559\u80b2\u4efb\u52a1\u5305","eachWealth":"29","star":"2"},{"id":"4616978","taskId":"5","createTime":"1570078563","finishTime":"1570254597","userNum":"126","answerNum":"1000","finishAnswerNum":"1000","resolveNum":"543","finishResolveNum":"250","wealth":"15747","type":"1","status":"3","extpack":{"uid":"1543413093","answerNum":"180","resolveNum":"152","userName":"\u5c0f\u72372015","imId":"659dd0a1d2af32303135fe5b"},"progress":"100","qNum":"1000","cid1":"0","cid2":"0","answerAuth":"1","taskName":"\u79d1\u5b66\u6559\u80b2\u4efb\u52a1\u5305","eachWealth":"29","star":"2"}]);
+    require.async(['team:widget/uteam/task-card/task-card'], function(TaskCard){
+        new TaskCard;
+    });
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;F.context("nowTime",1570340957);
+
+require.async(['team:widget/uteam/team-dynamic/team-dynamic'], function(teamDynamic){
+    teamDynamic.init('#team-dynamic',[{"qid":"1889063377279172908","aid":"3102850447","uid":"2236577985","time":"1570340895","fType":"1","qtitle":"\u62119\u670830\u53f7\u4e70\u7684\u5f69\u7968\uff0c\u7ed3\u679c\u4e00\u76f4\u6ca1\u5f00\u5956\uff0c\u5982\u679c\u660e\u5929\u5f00\u5956\uff0c\u6211\u4e70\u7684\u8fd8\u80fd\u5151\u5956\u5417","qUName":"cn#kkBpGfLLpk","qUid":"4177372543","qTime":"1570337183","rid":"3102850447","rTime":"1570340895","rUName":"\u5e73\u5b89acs","rContent":"\u5f69\u7968\u5151\u5956\uff0c\u5f00\u5956\u622a\u81f36O\u5929\u7684\u65e5\u671f\uff0c\u53ea\u8981\u4e2d\u5c31\u53ef\u4ee5\u5151\u3002","rUid":"2236577985","isGood":"0","imId":"c178c6bdb0b26163734f85"},{"qid":"375015841146906244","aid":"3102850049","uid":"712151733","time":"1570340824","fType":"1","qtitle":"\u5341\u4e00\u6708\u9ad8\u8003\u62a5\u540d\uff0c\u8eab\u4efd\u8bc1\u660e\u5e74\u4e8c\u6708\u8fc7\u671f\uff0c\u53ef\u4ee5\u7528\u6765\u62a5\u540d\u4e0d\uff1f\uff1f","qUName":"cn#GaLVQVLkBQ","qUid":"3622122910","qTime":"1570339498","rid":"3102850049","rTime":"1570340824","rUName":"\u6d41\u661f\u96e8\u4e2d\u7684\u91ce\u9e64","rContent":"\u4f60\u597d  \u5f88\u9ad8\u5174\u4e3a\u4f60\u89e3\u7b54\n\n\u4f30\u8ba1\u662f\u53ef\u4ee5\u62a5\u540d\u7684\u5427\n\n\u62a5\u597d\u540d\u540e\u53ef\u4ee5\u9a6c\u4e0a\u53bb\u6362\u8eab\u4efd\u8bc1\u7684\n\n\u4e0d\u7136\u53ef\u80fd\u662f\u4f1a\u5f71\u54cd\u9ad8\u8003\u7684","rUid":"712151733","isGood":"0","imId":"b592c1f7d0c7d3ead6d0b5c4d2b0bad7722a"},{"qid":"1738807658144760067","aid":"3102811195","uid":"255616599","time":"1570340812","fType":"2","qtitle":"Ppt\u91cc\u9ecf\u8d34\u7684\u6587\u5b57\u81ea\u52a8\u8df3\u4e0b\u4e00\u884c\u600e\u4e48\u8c03\uff1f","qUName":"\u526a\u4e0d\u65ad\u7684\u6d41\u661fR","qUid":"1335401844","qTime":"1570332020","rid":"3102811195","rTime":"1570333606","rUName":"xjxing213","rContent":"\u9009\u4e2d\u6240\u6709\u6587\u5b57\uff0c\u5de6\u4e0a\u89d2\u5f00\u59cb\u4e0b\u9762\u6709\u4e2a\u6e05\u9664\u683c\u5f0f\u6309\u94ae\uff0c\u7136\u540e\u8bbe\u7f6e\u4e3a\u5de6\u5bf9\u9f50\u5373\u53ef\u3002","rUid":"255616599","isGood":"1","imId":"5766786a78696e673231333c0f"},{"qid":"1675191657729712867","aid":"3102793828","uid":"1191510198","time":"1570340811","fType":"2","qtitle":"\u8bb0\u4e00\u6b21\u6709\u610f\u4e49\u7684\u6d3b\u52a8\u7684\u4f5c\u6587\u600e\u4e48\u5199\uff1f\u6025\u7528\uff01","qUName":"cn#aBppLukkLG","qUid":"2417768909","qTime":"1570328055","rid":"3102793828","rTime":"1570330709","rUName":"\u7fe0\u67f3\u6e05\u8336","rContent":"\u8981\u6ce8\u610f\u5ba1\u9898\uff0c\n\u53ea\u80fd\u5199\u4e00\u6b21\u7684\u6d3b\u52a8\uff0c\n\u8981\u628a\u9898\u773c\u201c\u6709\u610f\u4e49\u201d\u5145\u5206\u4f53\u73b0\u51fa\u6765\uff0c\n\u9009\u6750\u8981\u65b0\u9896\uff0c\u8bed\u8a00\u8981\u751f\u52a8\uff0c\u5c42\u6b21\u8981\u5206\u660e\uff0c\u624d\u80fd\u5199\u597d\u6b64\u6587\u3002","rUid":"1191510198","isGood":"1","imId":"b600b4e4c1f8c7e5b2e80547"},{"qid":"2081191437173956268","aid":"3102826014","uid":"1048215343","time":"1570340804","fType":"2","qtitle":"\u4e50\u81f3\u53bf\u6559\u80b2\u6276\u8d2b\u6551\u52a9\u57fa\u91d1\u7533\u8bf7\u8868\u7684\u7ed3\u5bf9\u5e2e\u6276\u8be5\u600e\u4e48\u586b\uff1f","qUName":"cn#kQBGVQGkGf","qUid":"4271011932","qTime":"1570269249","rid":"3102826014","rTime":"1570336315","rUName":"\u6c89\u7761\u7684\u7b14\u6746","rContent":"\u4f60\u4e0d\u628a\u8868\u683c\u53d1\u4e0a\u6765\uff0c\u6211\u4eec\u600e\u4e48\u80fd\u5e2e\u5230\u4f60\u5462\uff1f\u800c\u4e14\u636e\u6211\u6240\u77e5\uff0c\u8fd9\u4e9b\u8868\u683c\u7684\u586b\u5199\u90fd\u4e0d\u662f\u5f88\u56f0\u96be\uff0c\u76f4\u63a5\u6309\u7167\u8981\u6c42\u586b\u5199\u5c31\u662f\u4e86\uff0c\u7136\u540e\u9010\u7ea7\u7b7e\u5b57\u76d6\u7ae0\u3002","rUid":"1048215343","isGood":"1","imId":"2f7fb3c1cbafb5c4b1cab8cb7a3e"},{"qid":"1888743313051475588","aid":"3102802807","uid":"1233722178","time":"1570340794","fType":"2","qtitle":"\u56fd\u5916\u771f\u7684\u90a3\u4e48\u597d\u5417\uff0c\u4e3a\u4ec0\u4e48\u6709\u90a3\u4e48\u591a\u5077\u6e21\u7684\uff1f","qUName":"\u6e05\u6e05Naomi_li_","qUid":"4064941134","qTime":"1570332055","rid":"3102802807","rTime":"1570332154","rUName":"\u4eba\u591a\u5584_\u8eab\u5fc3\u5eb7","rContent":"\u73b0\u5728\u5f88\u5c11\u5f88\u5c11\u4e86\uff0c\u73b0\u5728\u56fd\u5185\uff0c\u4e0d\u6bd4\u56fd\u5916\u5dee\uff0c\u53cd\u800c\u6bd4\u56fd\u5916\u8fd8\u597d\uff0c\u5e94\u8be5\u6765\u4e2d\u56fd\u7684\u4eba\u591a\u4e86\uff0c\u4f60\u8bf4\u7684\u8fd9\u4e9b\uff0c\u8fd9\u662f\u5f88\u591a\u5e74\u4ee5\u524d\u7684\u4e8b\u4e86","rUid":"1233722178","isGood":"1","imId":"421bc8cbb6e0c9c65fc9edd0c4bfb58949"},{"qid":"1580785283313428940","aid":"3102815838","uid":"1543413093","time":"1570340789","fType":"2","qtitle":"\u82f9\u679c\u5e94\u7528\u5206\u8eab\u600e\u4e48\u6253\u5f00\uff1f","qUName":"cn#kLGpBfLVQQ","qUid":"4067872060","qTime":"1570332977","rid":"3102815838","rTime":"1570334443","rUName":"\u5c0f\u72372015","rContent":"\u60a8\u597d\uff0c\u82f9\u679c\u5e94\u7528\u5206\u8eab\u7684\u8bdd\uff0c\r\n\u4e0d\u5efa\u8bae\u4f7f\u7528\uff0c\r\n\u5982\u679c\u4f7f\u7528\u7684\u8bdd\uff0c\r\n\u4f1a\u88ab\u5224\u5b9a\u8fdd\u89c4\u64cd\u4f5c\uff0c\r\n\u5f88\u5bb9\u6613\u5c01\u53f7\u7684\u3002\r\n\u671b\u91c7\u7eb3\uff0c\u8c22\u8c22","rUid":"1543413093","isGood":"1","imId":"659dd0a1d2af32303135fe5b"},{"qid":"1580912707449354860","aid":"3102815348","uid":"3937740074","time":"1570340788","fType":"2","qtitle":"\u5e7c\u513f\u56ed\u6709\u51e0\u4e2a\u73ed","qUName":"cn#BLBBGVBLuu","qUid":"1075326526","qTime":"1570334091","rid":"3102815348","rTime":"1570334348","rUName":"cn#GGVpLBfVVB","rContent":"\u90a3\u662f\u56e0\u5e7c\u513f\u56ed\u5b69\u5b50\u7684\u591a\u5c11\uff0c\n\u800c\u786e\u5b9a\u73ed\u7ea7\u7684\uff0c\n\u4e0d\u662f\u56fa\u5b9a\u51e0\u4e2a\u73ed\u7684\uff0c\n\u4f9d\u636e\u5e7c\u513f\u56ed\u5177\u4f53\u60c5\u51b5\u5b9a\u7684\u51e0\u4e2a\u73ed\u5427\uff01\n\u6240\u4ee5\u8bf4\u5e7c\u513f\u56ed\u6709\u51e0\u4e2a\u73ed\uff0c\n\u8fd9\u4e2a\u662f\u4e0d\u786e\u5b9a\u7684\u3002","rUid":"3937740074","isGood":"1","imId":"2a25b5ea"},{"qid":"311015711407581044","aid":"3102786422","uid":"2508857064","time":"1570340785","fType":"2","qtitle":"\u4e94\u5e74\u7ea7\u7684\u5b69\u5b50\u52a8\u4e0d\u52a8\u5c31\u54ed\u662f\u600e\u4e48\u56de\u4e8b\u5462\uff1f\u8981\u662f\u7537\u5b69\u7684\u8bdd","qUName":"ooeidhf","qUid":"2945068046","qTime":"1570329211","rid":"3102786422","rTime":"1570329311","rUName":"\u731c\u57ce\u7f1d\u9e64","rContent":"\u6709\u4e9b\u5230\u521d\u4e2d\u8fd8\u7ecf\u5e38\u773c\u6cea\u6d9f\u6d9f\u7684\u5462\uff0c\u8fd9\u4e2a\u4e0d\u5fc5\u62c5\u5fc3\uff0c\u8fd8\u4e0d\u6210\u719f\uff0c\u957f\u5927\u4e9b\u5c31\u597d\u4e86\u3002","rUid":"2508857064","isGood":"1","imId":"e81eb2c2b3c7b7ecbad78a95"},{"qid":"1517104706691020780","aid":"3102784531","uid":"1233722178","time":"1570340785","fType":"2","qtitle":"\u4eca\u5e74\u4e70\u7684\u6728\u8033\u83cc\u79cd\u660e\u5e74\u53ef\u4ee5\u7528\u5417\uff1f","qUName":"cn#kLBfaQapfk","qUid":"4076615153","qTime":"1570327072","rid":"3102784531","rTime":"1570328960","rUName":"\u4eba\u591a\u5584_\u8eab\u5fc3\u5eb7","rContent":"\u4eca\u5e74\u4e70\u7684\u83cc\u79cd\uff0c\u5fc5\u987b\u4eca\u5e74\u79cd\u690d\uff0c\u660e\u5e74\u79cd\u690d\uff0c\u6210\u6d3b\u7387\u4f1a\u51cf\u5c11\u5f88\u591a\uff0c\u800c\u4e14\u8d28\u91cf\u6ca1\u6709\u5f53\u7136\u7684\u597d","rUid":"1233722178","isGood":"1","imId":"421bc8cbb6e0c9c65fc9edd0c4bfb58949"}]);
+});
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require.async(['team:widget/uteam/message-board/message-board'], function(List){
+        new List();
+    });
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;        window.Hunter = window.Hunter || {};
+        Hunter.userConfig = Hunter.userConfig || [];
+        Hunter.userConfig.push({
+            hid:'62608'
+        });
+    }();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require.async(['team:widget/uteam/sidebar/team-score/team-score'], function(teamScore){
+        teamScore.init({
+            'monthAnswerNum':4906,
+            'monthResolveNum':2752,
+            'needAnswerNum': 5000,
+            'needResolveNum': 2000,
+            'upAnswerNum':8000,
+            'upResolveNum':4000
+        });
+    });
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;require.async(['team:widget/uteam/sidebar/month-star/month-star'],function(star){
+    star.init();
+});
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require.async(['team:widget/uteam/sidebar/sidebar'], function(sidebar){
+        new sidebar();
+    });
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;    require('common:widget/js/logic/ie-prompt/ie-prompt');
+    require.async(['common:widget/footer-new/footer-new'], function(footer) {
+        footer.init();
+    });
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;require.async(['team:widget/notice/notice.es'], function(notice) {
+    notice.init({time: {"start":"1509883200","end":"1514649600"}});
+});
+}();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;								                				require.async(['common:widget/js/logic/dom-ready/dom-ready'], function(D){ D.init([]) });
+            }();
+!function(){var F = (window.__IKNOW_GLOBAL__ || window).F;var require = (window.__IKNOW_GLOBAL__ || window).require;        require.async(["common:widget/js/logic/duration/duration"],function(dur){
+            dur.init();
+        });
+    }();
+</script>
+
+
+<script type="text/javascript">
+    require.async(['common:widget/lib/jquery/jquery'], function ($) {
+        if (!/chrome|firefox|safari|msie 10|rsv:11|msie [89]/i.test(navigator.userAgent)) {
+            return;
+        }
+
+        window.BaiduHttps = window.BaiduHttps || {};
+        window.BaiduHttps.callbacks = function (data) {
+            if (data && data.s === 0) {
+                window.supportHttps = 1;
+                setTimeout(function () {
+                    $('a[href^="http://www.baidu.com/s?"]').each(function (index, item) {
+                        var link = $(item).attr('href');
+                        if (~link.indexOf('?wd=') || ~link.indexOf('&wd=')) {
+                            link = link.replace(/^http/, 'https');
+                            $(item).attr('href', link);
+                        }
+                    });
+                }, 2000);
+            }
+        };
+
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://www.baidu.com/con?from=zhidao';
+        document.body.appendChild(script);
+    });
+</script>
+
+
+<script async="" src="https://dlswbr.baidu.com/heicha/mw/abclite-2016-s.js"></script>
+</html>

@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="zh">
+<head>
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    
+    <link rel="dns-prefetch" href="//s1.bdstatic.com"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" sizes="any" mask href="//www.baidu.com/img/baidu.svg">
+
+    <script src="https://ts.bdimg.com/libs/blueimp-md5/1-0-1/md5.min.js"></script>
+    <script>var token = 'e14aea8a9f5d2f0549cfa832c73402b7ff1ee1bd51f2e4b33a3c08cfaa2023b0'</script>
+    <title>百度学术-论文查重</title>
+
+    
+<link rel="stylesheet" href="/lib/static/scholar/cache/biye/css/common_40d192d.css">
+
+    
+<script>
+var _hmt = _hmt || [];
+
+var bds = {
+    se : {},
+    util : {},
+    //js通用数据
+    comm : {
+        jiansou: '0',
+        qid:'3912566221',
+        isHome:false,
+        bsToken: 'the fisrt two args should be string type:0,1!',
+        user: '',
+        username: '',
+        isRealName: 1,
+        loginAction: [],
+        host: window.location.host,
+        subpro: 'xueshu_proposal',
+        wd:'',
+        uploadDownHost: '//xueshupload.baidu.com',
+        query: '',
+        queryMd5: '',
+        typeLanguage: '',
+        searchAct: '//xueshu.baidu.com/s',
+        onlineshow:(+new Date() > +new Date("2016/04/01")?1:0),
+                site:'index_links',
+                                scUrlComponent: '&tn=SE_baiduxueshu_c1gjeupa&ie=utf-8',
+        topBannerInfo: {
+            startDate: "2017/11/20",
+            endDate: "2017/12/01",
+            width: "150",
+            height: "150",
+            id: "egg_delay",
+            imgUrl: "/lib/static/scholar/cache/biye/img/banner/delay.png",
+            jumpUrl: "https://www.baidu.com/baidu?tn=monline_3_dg&ie=utf-8&wd=%E6%8B%AF%E6%95%91%E6%A0%A1%E5%9B%AD%E6%8B%96%E5%BB%B6%E7%97%87&fr=paper"
+        }
+    }
+};
+
+A = {};
+A.ui = {};
+
+var supportCanvas = !!document.createElement('canvas').getContext;
+var isIE6 = navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion .split(";")[1].replace(/[ ]/g,"")=="MSIE6.0";
+
+function G (id) {
+    return document.getElementById(id);
+}
+// 发送统计
+function c (data) {
+    if (!data['type'] || !data['actblock']) {
+        return;
+    }
+    data['category'] = 'kaiti';
+    _hmt.push(['_trackEvent', data['category'], data['actblock'], data['type']]);
+}
+ function ns_c_xs(q){
+    var p = encodeURIComponent(window.document.location.href), sQ = '',wd="", sV = '', mu='', img = window["BD_PS_C" + (new Date()).getTime()] = new Image();
+    for (v in q) {
+        switch (v) {
+            case "title":
+                sV = encodeURIComponent(q[v].replace(/<[^<>]+>/g, ""));
+                break;
+            case "url":
+                sV = encodeURIComponent(q[v]);
+                break;
+            default:
+                sV = q[v]
+        }
+        sQ += v + "=" + sV + "&";
+    }
+    mu= "&mu=" + p;
+    img.src = "http://nsclick.baidu.com/v.gif?pid=201&pj=mp_xueshu&qid=" + bds.comm.qid + "&" + sQ + "site=index_links&path=" + p + "&tn=ae_xueshu_activity&t=" + new Date().getTime();
+    return true;
+}
+</script><script type="text/javascript">
+
+
+	var list = {
+        "graph.baidu.com": "http://graph.baidu.com",
+		"p.qiao.baidu.com":"http://p.qiao.baidu.com",
+		"vse.baidu.com":"http://vse.baidu.com",
+		"hdpreload.baidu.com":"http://hdpreload.baidu.com",
+		"lcr.open.baidu.com":"http://lcr.open.baidu.com",
+		"kankan.baidu.com":"http://kankan.baidu.com",
+		"xapp.baidu.com":"http://xapp.baidu.com",
+		"dr.dh.baidu.com":"http://dr.dh.baidu.com",
+		"xiaodu.baidu.com":"http://xiaodu.baidu.com",
+		"sensearch.baidu.com":"http://sensearch.baidu.com",
+		"s1.bdstatic.com":"http://s1.bdstatic.com",
+		"olime.baidu.com":"http://olime.baidu.com",
+		"app.baidu.com":"http://app.baidu.com",
+		"i.baidu.com":"http://i.baidu.com",
+		"c.baidu.com":"http://c.baidu.com",
+		"sclick.baidu.com":"http://sclick.baidu.com",
+		"nsclick.baidu.com":"http://nsclick.baidu.com",
+		"sestat.baidu.com":"http://sestat.baidu.com",
+		"eclick.baidu.com":"http://eclick.baidu.com",
+		"api.map.baidu.com":"http://api.map.baidu.com",
+		"ecma.bdimg.com":"http://ecma.bdimg.com",
+		"ecmb.bdimg.com":"http://ecmb.bdimg.com",
+        "t1.baidu.com":"http://t1.baidu.com",
+        "t2.baidu.com":"http://t2.baidu.com",
+        "t3.baidu.com":"http://t3.baidu.com",
+		"t10.baidu.com":"http://t10.baidu.com",
+		"t11.baidu.com":"http://t11.baidu.com",
+		"t12.baidu.com":"http://t12.baidu.com",
+		"i7.baidu.com":"http://i7.baidu.com",
+		"i8.baidu.com":"http://i8.baidu.com",
+		"i9.baidu.com":"http://i9.baidu.com",
+		"b1.bdstatic.com":"http://b1.bdstatic.com",
+		"ss.bdimg.com":"http://ss.bdimg.com",
+		"opendata.baidu.com":"http://opendata.baidu.com",
+		"api.open.baidu.com":"http://api.open.baidu.com",
+		"tag.baidu.com":"http://tag.baidu.com",
+		"f3.baidu.com":"http://f3.baidu.com",
+		"s.share.baidu.com":"http://s.share.baidu.com",
+		"bdimg.share.baidu.com":"http://bdimg.share.baidu.com",
+        "1.su.bdimg.com":"http://1.su.bdimg.com",
+        "2.su.bdimg.com":"http://2.su.bdimg.com",
+        "3.su.bdimg.com":"http://3.su.bdimg.com",
+        "4.su.bdimg.com":"http://4.su.bdimg.com",
+        "5.su.bdimg.com":"http://5.su.bdimg.com",
+        "6.su.bdimg.com":"http://6.su.bdimg.com",
+        "7.su.bdimg.com":"http://7.su.bdimg.com",
+        "8.su.bdimg.com":"http://8.su.bdimg.com",
+        "hiphotos.baidu.com":"http://hiphotos.baidu.com",
+        "xueshu.baidu.com":"http://xueshu.baidu.com",
+        "baidu.bigan.net":"http://baidu.bigan.net",
+        "a.xueshu.baidu.com":"http://a.xueshu.baidu.com"
+	};
+//https域名转换工具
+bds.util = bds.util || {};
+bds.util.domain = (function(){
+
+
+var get = function(url) {
+		if(location.protocol === "http") {
+			return url;
+		}
+		var reg = /^(http[s]?:\/\/)?([^\/]+)(.*)/,
+			reg2 = /^(http[s]?:\/\/)?(s1.bdstatic.com\/r\/www\/cache\/mid\/static)(.*)/,
+		matches = url.match(reg),
+		//s1.bdstatic.com静态域名特殊处理
+		matches2 = url.match(reg2);
+		if(matches2){
+			url = "https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/mid/static/protocol/https"+ matches2[3];
+			return url;
+		}else{
+			//判断传入参数是域名还是地址，分别做处理
+			url = list.hasOwnProperty(matches[2])&&(list[matches[2]] + matches[3]) || url;
+			return url;
+		}
+	},
+	set = function(kdomain,vdomain) {
+		list[kdomain] = vdomain;
+	};
+	return {
+		get : get,
+		set : set
+	}
+})();
+</script>
+
+
+<script src="/lib/static/scholar/cache/jquery/jquery-1.10.2.min_45ac1eb.js"></script>
+<script src="/lib/static/scholar/cache/biye/js/echarts.min_8b3f7a5.js"></script>
+<script src="/lib/static/scholar/cache/global/js/history_7bb2f04.js"></script>
+<!--[if IE]><script type="text/javascript" src="/lib/static/scholar/cache/ui/js/extcanvas_627aaf2.js"></script><![endif]-->
+
+    
+        <script type="text/javascript">
+bds = bds || {};
+bds.cf = {};
+bds.cf.ts = "1570343593";
+bds.cf.token = "e14aea8a9f5d2f0549cfa832c73402b7ff1ee1bd51f2e4b33a3c08cfaa2023b0";
+bds.cf.sign = "9ba484706d82c0620b1210be8391904f";
+
+function getCfStr() {
+    var ts = parseInt(new Date / 1000, 10);
+    return "&_ts=" + ts
+        + "&_token=" + bds.cf.token 
+        + "&_sign=" + md5(ts +  bds.cf.token + '3b6e2e87fcce6eea8337eeac83b478f5');
+}
+
+function getCfObj() {
+    var ts = parseInt(new Date / 1000, 10);
+    return {
+            '_ts' : ts,
+            '_token' : bds.cf.token,
+            '_sign' : md5(ts +  bds.cf.token + '3b6e2e87fcce6eea8337eeac83b478f5')
+        }
+}
+</script>
+    
+</head>
+
+<body>
+    
+<div id="wrapper" class="front_page">
+    
+        
+                                                                                    
+
+<div id="head_wr" class=" "><div id="head" class="LOG_WR  " data-log="{'actblock': 'head'}"><div class="headCont lightBg"><div id="u" class=" "><span id="setting"><a class="settingicon" href="javascript:;"><i style="font-size:18px;" class="iconfont  head-icon-set-gray">&#xe61b;</i></a><div class="menuarrow"><i class="head-icon head-icon-menu-triangle"></i></div><div id="setMenu" class="menuDropList"><div><a href="javascript:;" class="feedback">意见反馈</a></div></div></span><a id="lb" href="https://passport.baidu.com/v2/?login&tpl=xueshu&u=http%3A%2F%2Fxueshu.baidu.com%2F">登录</a><a href="https://passport.baidu.com/v2/?reg&regType=1&tpl=xueshu&u=http%3A%2F%2Fxueshu.baidu.com%2F" target="_blank" class="reg">注册</a></div>
+
+                            <div class="headtags">
+                <a href="//xueshu.baidu.com" class="home" target="_blank">                                            <img src="/lib/static/scholar/cache/global/img/logo_light_4c30b67.png" width="110" height="35" border="0">
+                                    </a>                </div>
+                <div class="s_form_wr">
+                    <form class="fm" action="//xueshu.baidu.com/s" target="_blank">
+                        <input name="wd" autocomplete="off" id="kw" value="" maxlength="256">
+                        <input type="submit" class="head-icon head-icon-search-g s_btn" value="">
+                        <input type="hidden" name="ie" value="utf-8">
+                        <input type="hidden" name="tn" value="SE_baiduxueshu_c1gjeupa">
+                    </form>
+                </div>
+                    </div>
+    </div>
+</div>
+
+
+        
+
+        <div id="container">
+            
+                
+        <div id="left_menu_content" class="LOG_WR " data-log="{'actblock':'menu'}">
+    <div class="left_menu_logo">
+        <a href="/">
+                <img class="sologan onlyOn"  width="144" src="/lib/static/scholar/cache/global_30/img/sologan_876dc43.png" />
+                <i class="iconfont onlyOff logosim">&#xe607;</i>
+        </a>
+    </div>
+    <div class="main_menu_wr">
+        <div class="sch_main_menu">
+                        <p class="onlyOn">搜索</p>
+                        <div class="menu_listitem">
+                <a href="/" class=""  data-log="{'type':'xueshu_sch'}" target="_blank">
+                    <i class="iconfont i-wx">&#xe602;</i><span>文献</span>
+                </a>
+            </div>
+            <div class="menu_listitem">
+                <a href="/usercenter/journal/navigation?language=1" class="" data-log="{'type':'journal'}">
+                <i class="iconfont i-qk">&#xe604;</i><span>期刊</span>
+                </a>
+            </div>
+            <div class="menu_listitem dotPromote">
+                <a href="/usercenter/data/authorchannel?cmd=frontpage" data-log="{'type':'authorchannel'}" class="">
+                <i class="iconfont i-xz">&#xe600;</i><span>学者</span>
+                </a>
+            </div>
+                        <p class="onlyOn">服务</p>
+                        <div class="menu_listitem">
+                <a href="/usercenter" data-log="{'type':'mycollect'}" class="need-login ">
+                    <i class="iconfont i-dy">&#xe60b;</i><span>订阅</span><i id="msimsg"></i>
+                </a>
+            </div>
+
+            <div class="menu_listitem">
+                <a href="/usercenter/?tab=collect" data-log="{'type':'mycollect'}" class="need-login ">
+                    <i class="iconfont i-sc">&#xe601;</i><span>收藏</span>
+                </a>
+            </div>
+
+            <div class="menu_listitem">
+                <a href="/usercenter/papercheck/index?tag=check&upload=1" data-log="{'type':'authorchannel'}" class="paperCheck ">
+                    <i class="iconfont i-lwck">&#xe60a;</i><span>论文查重</span>
+                </a>
+            </div>
+            <div class="menu_listitem">
+                <a href="/u/biye/?tag=paper" class="" data-log="{'type':'journal'}">
+                    <i class="iconfont i-ktfx">&#xe606;</i><span>开题分析</span>
+                </a>
+            </div>
+            <div class="menu_listitem">
+                <a href="/u/ppv" data-log="{'type':'ppv'}" class="">
+                    <i class="iconfont i-dpgm">&#xe62d;</i><span>单篇购买</span>
+                </a>
+            </div>
+            <div class="menu_listitem">
+                <a href="/u/paperhelp" data-log="{'type':'paperhelp'}" class="">
+                    <i class="iconfont i-wxhz">&#xe603;</i><span>文献互助</span>
+                </a>
+            </div>
+                        <p class="onlyOn">账户</p>
+                        <div class="menu_listitem">
+                <a href="/u/user" class="need-login " data-log="{'type':'user'}">
+                    <i class="iconfont i-yhzx">&#xe605;</i><span>用户中心</span><i id="ucimsg"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+        
+                <div id="right_content" class="content_wr">
+                
+                    <div class="right_content_main">
+                    
+    <div class="pagecontent">
+        <div class="check_page c-clearfix" style="display:block">
+            <div class="head">
+    <div class="mask">
+    	<div class="head_content">
+	    	<div class="">
+				<ul>
+					<li class="head_plantform_list">
+													<div class="head_plantform_list_item" data-index="2">
+								<div class="plantform_logo" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public/papercheck/paperpass-b.png)"></div>
+								<p>PAPERPASS</p>
+							</div>
+													<div class="head_plantform_list_item" data-index="5">
+								<div class="plantform_logo" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public/papercheck/bigan-b.png)"></div>
+								<p>笔杆</p>
+							</div>
+													<div class="head_plantform_list_item" data-index="6">
+								<div class="plantform_logo" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public/papercheck/paperright-b.png)"></div>
+								<p>PaperRight</p>
+							</div>
+													<div class="head_plantform_list_item" data-index="7">
+								<div class="plantform_logo" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public/papercheck/paperfree-b.png)"></div>
+								<p>PaperFree</p>
+							</div>
+													<div class="head_plantform_list_item" data-index="8">
+								<div class="plantform_logo" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public/papercheck/writecheck-b.png)"></div>
+								<p>WriteCheck</p>
+							</div>
+													<div class="head_plantform_list_item" data-index="9">
+								<div class="plantform_logo" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public/papercheck/daya-b.png)"></div>
+								<p>大雅</p>
+							</div>
+													<div class="head_plantform_list_item" data-index="10">
+								<div class="plantform_logo" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public/papercheck/paperyy-b.png)"></div>
+								<p>paperYY</p>
+							</div>
+													<div class="head_plantform_list_item" data-index="11">
+								<div class="plantform_logo" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public/papercheck/wanfang-b.png)"></div>
+								<p>万方</p>
+							</div>
+													<div class="head_plantform_list_item" data-index="13">
+								<div class="plantform_logo" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public%2Fpapercheck%2Fcopycheck-b.png)"></div>
+								<p>CopyCheck</p>
+							</div>
+													<div class="head_plantform_list_item" data-index="14">
+								<div class="plantform_logo" style="background-image:url(http://www.papertime.cn/resources/images/ptbaidu.jpg)"></div>
+								<p>PaperTime</p>
+							</div>
+												<div class="counter">
+							<div class="diff_nums">
+								<div>访问量</div>
+								<div class="nums c-clearfix"></div>
+							</div>
+							<div class="zan_nums">
+								<div>点赞数</div>
+								<div class="nums c-clearfix"></div>
+								<a class="zan" href="javascript:;"><i class="iconfont">&#xe616;</i></a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+    </div>
+</div>
+<div class="check_page_wrapper c-clearfix">
+	<div class="leftContent" >
+		<a herf="javascript:;" class="paper_upload_btn selected">提交论文</a>
+		<a herf="javascript:;" class="my_paper_btn ">我的报告</a>
+		<a herf="javascript:;" class="my_coupon_btn ">我的优惠</a>
+		<a herf="javascript:;" class="diff_btn ">品牌介绍</a>
+		<a herf="javascript:;" class="notice_btn ">常见问题</a>
+	</div>
+	<div class="rightContent" >
+		<div class="paper_upload" >
+			<form name="upload" submit-action="//xueshupload.baidu.com/usercenter/data/papercheck?" class="upload" upload-action="//xueshupload.baidu.com/usercenter/papercheck/upload?" enctype="multipart/form-data" method="post" autocomplete="off">
+				<div class="paper_upload_input">
+					<div class="paper_upload_input_row">
+						<label for="title"><em>*</em>题目</label>
+						<input type="text" id="title" name="title" placeholder="最多输入30个字" maxlength="30" />
+					</div>
+					<div class="paper_upload_input_row">
+						<label for="author">&nbsp;作者</label>
+						<input type="text" id="author" name="exclude_author" placeholder="最多输入15个字" maxlength="15" />
+					</div>
+					<div class="paper_upload_input_row paper_upload_input_row_mode">
+						<label for="mode"><em>*</em>方式</label>
+						<div class="mode_btn c-clearfix"><a href="javascript:;" class="selected">粘贴文本</a><a class="mode_btn_upload" href="javascript:;">上传文档</a>
+						</div>
+						<div class="mode1 selected">
+							<textarea name="paper_text1" placeholder="内容字数1000字~10万字。提交内容建议去除封面、目录、附录，仅提交正文。" maxlength="300000"></textarea>
+							<p class="price">
+								<span class="price_text">共<em>0</em>字 </span>
+								<span class="tips">(不足千字按千字计费)</span>
+							</p>
+						</div>
+						<div class="mode2">
+							<p class="document_type">
+								<span class="file_upload_btn">上传文档</span>
+								<input type="file" class="file_upload" name="paper_file" value="上传文档" />
+								<span class="filename"></span>
+								<span class="resulttips"></span>
+								<span class="info">支持txt、doc、docx格式，上限15M.<br/>
+								<em>上传内容建议去除封面、目录、附录，仅上传正文。</em>
+								</span>
+							</p>
+							<textarea name="paper_text2" maxlength="300000" readonly="readonly"></textarea>
+							<input type="hidden" name="paper_id" class="paper_id" value="">
+							<p class="price">
+								<span class="price_text">共<em>0</em>字</span>
+								<span class="tips"> (不足千字按千字计费)</span>
+							</p>
+						</div>
+					</div>
+					<div class="choose_plantform">
+						<label>选择查重系统:</label>
+
+															<p class="plantform_group_type">权威大牌</p>
+								<ul class="plantform_list c-clearfix">
+																<li
+									id="plantform_11"
+									data-index="11"
+																											class="">
+									<div class="plantform_logo" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public/papercheck/wanfang-s.png)">
+										<div class="outoff">单量告罄</div>
+																			</div>
+									<div class="priceInfo">查重单价：2元/千字<br><span class="showPrice">查重总价：<span class="plantform_price">0元</span><br></span>预期耗时：<span>5</span>分钟</div>
+								</li>
+																<li
+									id="plantform_2"
+									data-index="2"
+																											class="">
+									<div class="plantform_logo" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public/papercheck/paperpass-s.png)">
+										<div class="outoff">单量告罄</div>
+																			</div>
+									<div class="priceInfo">查重单价：1.8元/千字<br><span class="showPrice">查重总价：<span class="plantform_price">0元</span><br></span>预期耗时：<span>7</span>分钟</div>
+								</li>
+																</ul>
+															<p class="plantform_group_type">优选品牌</p>
+								<ul class="plantform_list c-clearfix">
+																<li
+									id="plantform_5"
+									data-index="5"
+																											class="">
+									<div class="plantform_logo" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public/papercheck/bigan-s.png)">
+										<div class="outoff">单量告罄</div>
+																			</div>
+									<div class="priceInfo">查重单价：1.5元/千字<br><span class="showPrice">查重总价：<span class="plantform_price">0元</span><br></span>预期耗时：<span>6</span>分钟</div>
+								</li>
+																<li
+									id="plantform_6"
+									data-index="6"
+																											class="">
+									<div class="plantform_logo" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public/papercheck/paperright-s.png)">
+										<div class="outoff">单量告罄</div>
+																			</div>
+									<div class="priceInfo">查重单价：1.2元/千字<br><span class="showPrice">查重总价：<span class="plantform_price">0元</span><br></span>预期耗时：<span>6</span>分钟</div>
+								</li>
+																<li
+									id="plantform_9"
+									data-index="9"
+																											class="">
+									<div class="plantform_logo" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public/papercheck/daya-s.png)">
+										<div class="outoff">单量告罄</div>
+																			</div>
+									<div class="priceInfo">查重单价：1.5元/千字<br><span class="showPrice">查重总价：<span class="plantform_price">0元</span><br></span>预期耗时：<span>6</span>分钟</div>
+								</li>
+																<li
+									id="plantform_13"
+									data-index="13"
+																											class="">
+									<div class="plantform_logo" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public%2Fpapercheck%2Fcopycheck-s.png)">
+										<div class="outoff">单量告罄</div>
+																			</div>
+									<div class="priceInfo">查重单价：1元/千字<br><span class="showPrice">查重总价：<span class="plantform_price">0元</span><br></span>预期耗时：<span>4</span>分钟</div>
+								</li>
+																<li
+									id="plantform_7"
+									data-index="7"
+																											class="">
+									<div class="plantform_logo" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public/papercheck/paperfree-s.png)">
+										<div class="outoff">单量告罄</div>
+																			</div>
+									<div class="priceInfo">查重单价：1.5元/千字<br><span class="showPrice">查重总价：<span class="plantform_price">0元</span><br></span>预期耗时：<span>7</span>分钟</div>
+								</li>
+																</ul>
+															<p class="plantform_group_type">惠享品牌</p>
+								<ul class="plantform_list c-clearfix">
+																<li
+									id="plantform_8"
+									data-index="8"
+									data-free='1'																		class="">
+									<div class="plantform_logo" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public/papercheck/writecheck-s.png)">
+										<div class="outoff">单量告罄</div>
+																				<div class="first-free">首单免费</div>
+																			</div>
+									<div class="priceInfo">查重单价：1元/千字<br><span class="showPrice">查重总价：<span class="plantform_price">0元</span><br></span>预期耗时：<span>6</span>分钟</div>
+								</li>
+																<li
+									id="plantform_10"
+									data-index="10"
+																		data-remain="2"									class="">
+									<div class="plantform_logo" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public/papercheck/paperyy-s.png)">
+										<div class="outoff">单量告罄</div>
+																			</div>
+									<div class="priceInfo">查重单价：免费<br>剩余单量：<span class="todayNum"> 2</span><br>预期耗时：<span>3</span>分钟</div>
+								</li>
+																<li
+									id="plantform_14"
+									data-index="14"
+									data-free='1'																		class="">
+									<div class="plantform_logo" style="background-image:url(http://www.papertime.cn/resources/images/ptbaidu.jpg)">
+										<div class="outoff">单量告罄</div>
+																				<div class="first-free">首单免费</div>
+																			</div>
+									<div class="priceInfo">查重单价：1.5元/千字<br><span class="showPrice">查重总价：<span class="plantform_price">0元</span><br></span>预期耗时：<span>7</span>分钟</div>
+								</li>
+																<li
+									id="plantform_17"
+									data-index="17"
+									data-free='1'																		class="">
+									<div class="plantform_logo" style="background-image:url(http://www.xueshujia.com/logo/2019/05/07/201905072101540869159.jpg)">
+										<div class="outoff">单量告罄</div>
+																				<div class="first-free">首单免费</div>
+																			</div>
+									<div class="priceInfo">查重单价：1元/千字<br><span class="showPrice">查重总价：<span class="plantform_price">0元</span><br></span>预期耗时：<span>7</span>分钟</div>
+								</li>
+																</ul>
+							
+						<a href="javascript:;">查看各系统对比 &gt;&gt;</a>
+						<input type="hidden" name="checker_brand" class="checker_brand" value="">
+					</div>
+					<div class="check_activity_enter">
+						<div>
+							<label>优惠券:</label>
+															<div class="logintip">
+								<a href="javascript:;" class="login">登录</a>后可使用查重优惠券
+								</div>
+													</div>
+					</div>
+					<div class="jiansou-qrcode" style="display:none;">
+						<div>
+							<label>获取优惠券:</label>
+							<div class="jiansou-qrcode-content"></div>
+						</div>
+					</div>
+					<div class="paper_upload_input_row input_submit">
+						<div class="input_submit_price">
+							<p>原价：<span class="origin-price">￥<em>0.00</em></span></p>
+							<p>折扣额度：<span class="discount-price">- ￥<em>0.00</em></span></p>
+							<p>应付总额：<span class="pay-price">￥<em>0.00</em></span></p>
+						</div>
+						<a class="disabled" href="javascript:;">提交订单</a>
+					</div>
+				</div>
+									<input type="hidden" name="site" value="index_links">
+							</form>
+			<form name="uploadsubmit" submit-action="//xueshupload.baidu.com/usercenter/papercheck/order/create?" class="uploadsubmit" enctype="multipart/form-data" method="post" autocomplete="off">
+			</form>
+		</div>
+		<div class="my_paper" >
+			<div class="listcontent"></div>
+		</div>
+		<div class="notice" >
+			<ol class="QandA">
+				<li>
+					<h4>论文查重检测耗时多久？</h4>
+					<p>
+					一般情况下检测耗时1-2分钟，高峰期可能5-10分钟。若超过1小时未检测完，请联系人工客服。
+					</p>
+				</li>
+				<li>
+					<h4>论文查重的检测范围有哪些？</h4>
+					<p>
+					论文查重的检测范围包括：学术期刊总库，学位（博士，硕士，学士）论文全文数据库，会议论文全文数据库，报纸全文数据库，图书全文数据库，专利全文数据库，博客全文数据库，网络文档数据库，互联网文献数据库，英文数据库，年鉴数据库，标准库，用户共享库等。
+					</p>
+				</li>
+				<li>
+					<h4>论文的摘要，目录，附录需要参与检测吗？</h4>
+					<p>
+					检测的时候建议去除封面，目录，附录，图片，表格，公式等内容，这些内容不包含在学校查重项之中。
+					</p>
+				</li>
+				<li>
+					<h4>重复比例达到多少可以通过？</h4>
+					<p>
+					各学校比例限制不一，只要保证检测比例低于学校要求的最高比例即可。我们的检测结果比学校严格。
+					</p>
+				</li>
+				<li>
+					<h4>检测如何收费？</h4>
+					<p>
+					系统按千字计费，不足1千字按1千字算。如上传1023字，系统将按照2千字计费。
+					</p>
+				</li>
+				<li>
+					<h4>上传文章字数如何计算？</h4>
+					<p>
+					按字符数计算，空格及不可见字符除外。例如：一个汉字算一个字符，一个字母算一个字符，空格不算。
+					</p>
+				</li>
+				<li>
+					<h4>为什么引用的内容被标红？</h4>
+					<p>
+					未被系统识别为参考文献。文档后部按照参考文献标准格式注明的文献才能被系统识别为参考文献。
+					</p>
+				</li>
+				<li>
+					<h4>为什么我列出了很多参考文献，却识别不到？</h4>
+					<p>参考文献必须使用GBT 7714-2005格式来书写，否则系统无法识别。</p>
+				</li>
+
+				<li>
+					<h4>为什么参考文献按标准格式书写了，但是检测的时候还是没有识别引用？</h4>
+					<p>检测系统检测的相似来源中如果包含了标注的参考文献，才可以被正确识别。</p>
+				</li>
+				<li>
+					<h4>报告上面有很多复制比，以哪一个为准？</h4>
+					<p>
+						一般学校以右上角的“红章”里面显示的总复制比为准。<br>
+						去除引用文献复制比：去除了作者在文中标明的引用文献后，计算出来的重合文字在该检测文献中所占比例。<br>
+						去除本人已发表文献复制比：去除作者本人已发表文献后，所计算出来的重合文字在该检测文献中所占比例。<br>
+						单篇最大文字复制比：被检测文献与所有相似文献比对后，重合字数在占比最高的单篇文献中的文字复制比。
+					</p>
+				</li>
+				<li>
+					<h4>全文标明引文报告中的不同颜色表示什么？</h4>
+					<p>
+					红色标注部分为相似内容，黄色标注部分为标明了引文的引用内容
+					</p>
+				</li>
+				<li>
+					<h4>系统是否能检测出图书内容？</h4>
+					<p>
+					能。检测范围包含图书全文数据。
+					</p>
+				</li>
+				<li>
+					<h4>我自己写的内容为什么也会标红？</h4>
+					<p>
+					检测系统的算法是根据文字相似度计算的，不论是否有抄袭，只要与其他文献内容雷同，即判定为相似。
+					</p>
+				</li>
+				<li>
+					<h4>检测的论文安全吗，会被泄漏吗？</h4>
+					<p>
+					不会。整个过程系统完全自助，无人工干预，检测完成后系统自动删除原文，定期清理报告。
+					</p>
+				</li>
+				<li>
+					<h4>检测会留痕迹吗，学校会不会发现已检测过的论文？</h4>
+					<p>
+					该检测系统不会保留用户论文，更不会标识用户论文，也不会注明每篇论文到底是第几次检测。
+					</p>
+				</li>
+				<li>
+					<h4>该系统可以检测哪些类型文章？</h4>
+					<p>
+					所有文字内容的文献都可以使用该系统检测。
+					</p>
+				</li>
+				<li>
+					<h4 class="feedback">反馈其他问题？</h4>
+				</li>
+			</ol>
+			<div class="law">
+			<h2>法律声明</h2>
+			<h3 style="margin-top: 0;">一. 免责声明</h3>
+			<ol>
+				<li>用户在使用百度提供的服务时，不得故意或者过失的损害本网站的各类合法权益，不得利用本网站直接或者间接的从事违反中华人民共和国法律、国际公约以及社会公德的行为。
+				<li>百度用来进行文献检测的数据全部来自互联网公开（OA）和相关合作机构，由数据版权引起的问题，百度不承担任何负责。
+				<li>检测报告基于大数据技术自动生成，检测结果仅供用户论文撰写参考之用，不作为最终论文发表、毕业查重等的最终依据，由此引起的相关问题百度不承担任何责任。
+				<li>对于因不可抗力造成的网络服务中断或其它问题，百度不承担任何责任。
+				<li>百度尊重作者知识产权，用户上传论文进行检测时，默认你就是原创作者或是已经征得著作权人的同意并与著作权人就相关问题作出了妥善处理，由此引发的纠纷，百度不承担任何责任。
+				<li>任何单位或个人认为本网站网页内容可能涉嫌侵犯其著作权，应该及时向我们提出书面权利通知，并提供身份证明、权属证明及详细侵权情况证明。我们收到上述法律文件后，将会依法尽快处理。
+			</ol>
+
+			<h3>二. 权利声明</h3>
+			<ol>
+			<p>
+				百度高度重视知识产权保护并遵守中国各项知识产权法律、法规和具有约束力的规范性文件。根据法律、法规和规范性文件要求，百度制定了旨在保护权利人的合法权益的措施和步骤，当权利人发现在百度侵犯其合法权益时，权利人应事先向百度发出“权利通知”，百度将根据中国法律法规和政府规范性文件采取相应措施。<br />
+				具体措施和步骤如下：<br />
+				邮寄书面权利通知书--->百度按规定审核--->反馈审核通知
+			</p>
+			<br />
+			权利通知书包含内容：
+				<li>被控侵权信息的文档名称；</li>
+				<li>被控侵权信息的文档在本网站的对应的网络地址或信息出现的页面截图（为了及时处理，请提供作品的网络地址而不是文档名称的搜索地址，最好附带发现侵权信息的详细操作步骤，方便我们的工作人员准确定位）；</li>
+				<li>本人的电话、传真和电子邮件地址；</li>
+				<li>通知人或者通知人所在机构拥有版权的相关信息说明和权属/资质证明，包括：
+					<ol style="display:block">
+						<li>若涉及单位请提供贵单位营业执照复印件并加盖公章；</li>
+						<li>若涉及个人的请提供身份证复印件或护照复印件；</li>
+						<li>若您由律师代理，请同时提供对代理律师事务所的授权书。（可以附件的形式呈现）</li>
+					</ol>
+				</li>
+				<li>内容真实性声明，包括：
+					<ol style="display:block">
+						<li>我本人为所投诉内容的合法权利人； </li>
+						<li>在我举报的第三方网页上登载的内容侵犯了本人相应的合法权益； </li>
+						<li>本人确认：如果本权利通知内容不完全属实，本人将承担由此产生的一切法律责任。</li>
+					</ol>
+				</li>
+				<li>请在权利通知书最后写上以下陈述：“本公司（本人）保证，本通知中所述信息是充分、真实、准确的，本公司（本人）是该投诉内容的合法权利人（合法权利授权人），有权行使该权利。由此引起的一切法律纠纷，与百度无关，由我本身承担。</li>
+				<li>自然人签字或者单位加盖公章。</li>
+
+
+			<p>特殊说明：<br />
+			书面权利通知提交者应对其陈述之真实性负责，如果权利通知的陈述失实，对应提交者将承担由此造成的全部法律责任（包括但不限于赔偿各种费用及律师费）。如果不确定网络上可获取的资料是否侵犯了其合法权益，百度建议该个人或单位首先咨询专业人士。
+			</p>
+
+			<p>请您把以上资料和联络方式书面发往以下地址：</p>
+			<address>
+			北京市海淀区上地十街10号 <br />
+			北京百度网讯科技有限公司 法务部 <br />
+			邮政编码：100085<br />
+			</address>
+			</ol>
+
+			<h3>三. 隐私保护</h3>
+			<ol>
+				<li>百度尊重并保护所有百度用户的个人隐私权，您注册的用户名、电子邮件地址等个人资料，非经您亲自许可或根据相关法律、法规的强制性规定，百度不会主动地泄露给第三方。</li>
+				<li>百度尊重并保护用户的知识产权，您提交的待查重文献，仅用来查重，百度不会以任何手段保存、篡改、传播您的文献。</li>
+			</ol>
+			</div>
+		</div>
+		<div class="diff" >
+			<table>
+				<tr>
+					<td width="55"></td>
+					<td width="60">原价</td>
+					<td width="60">耗时</td>
+					<td width="185">数据库量级</td>
+					<td width="60">语种</td>
+					<td width="105">检测技术</td>
+					<td width="180">报告特点</td>
+					<td>更多</td>
+				</tr>
+								<tr>
+					<td><div class="plantform_logo" data-index="2" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public/papercheck/paperpass-b.png)"></div></td>
+					<td>1.8元/千字</td>
+					<td>5万字以内，平均5分钟</td>
+					<td>9000万学术期刊和学位论文；10亿互联网网络库
+</td>
+					<td>简体中文
+</td>
+					<td>动态指纹越级扫描
+</td>
+					<td>提供修改意见,结果准确，来源详细
+</td>
+					<td><div class="goPlantformDetail" data-index="2">&gt;&gt;</div></td>
+				</tr>
+								<tr>
+					<td><div class="plantform_logo" data-index="5" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public/papercheck/bigan-b.png)"></div></td>
+					<td>1.5元/千字</td>
+					<td>5分钟左右；
+高峰期有延时</td>
+					<td>图书，期刊，会议论文，学位论文，标准，专利，互联网网页，报纸库，个人自建库；300亿比对指纹
+</td>
+					<td>简体中文、英文
+</td>
+					<td>分布式检测集群、检测快速稳定
+</td>
+					<td>重复片段对照，引文标引，去除本人已发表，去除引用，重复来源显示
+</td>
+					<td><div class="goPlantformDetail" data-index="5">&gt;&gt;</div></td>
+				</tr>
+								<tr>
+					<td><div class="plantform_logo" data-index="6" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public/papercheck/paperright-b.png)"></div></td>
+					<td>1.2元/千字</td>
+					<td>5万字以内，平均5分钟；5万字以上，每万字平均1分钟。</td>
+					<td>1亿+中外文数据库和小语种数据库：JASINO论文库；中国学术期刊、学位论文、专利、会议论文数据库；港澳台学术文献库； PaperRight云论文库；多国外文资源库；小语种（日、俄、法等）资源库；世界名校资源库； 专有500万+法律数据库。
+</td>
+					<td>中文（汉语）、英语、日语、西班牙语、法语及其他小语种。
+</td>
+					<td>利用SimHash文档指纹比对、动态语义分析、E-MapReduce等技术为用户提供海量论</td>
+					<td>查重报告格式丰富多样，设计精美，符合用户使用体验，便于修改查看。提供网页报告（适合在线查阅）、ZIP离线报告（不限时间、地点，随时随地查看）、PDF简明打印版报告（适合打印提交学校）。智能分析，提供修改建议和参考。
+</td>
+					<td><div class="goPlantformDetail" data-index="6">&gt;&gt;</div></td>
+				</tr>
+								<tr>
+					<td><div class="plantform_logo" data-index="7" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public/papercheck/paperfree-b.png)"></div></td>
+					<td>1.5元/千字</td>
+					<td>5-10分钟	</td>
+					<td>学位论文库，中文期刊库，互联网资源，共享资源库，自建数据库，以及 9000多万篇学术期刊，5000多万篇学位论文，超10亿互联网资源；
+</td>
+					<td>中文（汉语）、英语、日语、西班牙语、法语及其他小语种
+</td>
+					<td>PaperFree系统采用自主研发的动态指纹越级扫描技术检测的主要步骤有：文本预处理、语义挖掘、深度识别并且检测准确率高达99%以上
+</td>
+					<td>网页报告、ZIP离线报告和PDF简洁报告，支持本地下载和打印；
+</td>
+					<td><div class="goPlantformDetail" data-index="7">&gt;&gt;</div></td>
+				</tr>
+								<tr>
+					<td><div class="plantform_logo" data-index="8" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public/papercheck/writecheck-b.png)"></div></td>
+					<td>1元/千字</td>
+					<td>5万字以内，平均5分钟；
+5万字以上，每万字平均1分钟。</td>
+					<td>5000多万期刊数据，1000多万学位论文数据，1000万佳信诺论文库，数十亿互联网数据。
+</td>
+					<td>中文（汉语）、英语、日语、西班牙语、法语及其他小语种
+</td>
+					<td>利用SimHash文档指纹比对、动态语义分析、E-MapReduce等技术为用户提供海量论文数据处理，达到精准检测的目的。
+</td>
+					<td>1. 检测报告格式丰富多样，设计精美，符合用户使用体验，便于修改查看。提供网页报告、ZIP离线报告、PDF简明打印版报告；2. 提供片段修改建议、修改提醒和修改参考；3. 检测报告指标详细，提供原创率、抄袭率、引用率、字数统计、参考文献字数统计等数据，给用户最直观的展现；
+</td>
+					<td><div class="goPlantformDetail" data-index="8">&gt;&gt;</div></td>
+				</tr>
+								<tr>
+					<td><div class="plantform_logo" data-index="9" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public/papercheck/daya-b.png)"></div></td>
+					<td>1.5元/千字</td>
+					<td>5分钟以内	</td>
+					<td>图书约300多万种；期刊3万多种（近5000万篇；学位论文200多万篇；会议论文200多万篇；报纸1800多种（1.3亿余篇还有海量的互联网资源，外文文献等其他资源）
+</td>
+					<td>中文、英文
+</td>
+					<td>公司独立研发的指纹对比分析技术,综合分析字词句段的情况
+</td>
+					<td>1. 大雅相似度分析通过对上传文献的详细分析后自动生成检测报告，包括网页报告、全文报告、简单报告和详细报告；2. 网页报告主要体现了待检文章的文献相似度，重复文字以及重复的相似段落；3. 简单报告主要体现了待检测文章的主要基本信息以及相似文献的详细列表；4. 详细报告不但包含了简单报告里的内容，同时也详细列出了文章中具体的相似段落情况；5. 全文报告主要体现了待检文章的文献相似度，重复文字以及重复的相似段落，并且按照上传论文的全貌，标出文献中相似的部分
+</td>
+					<td><div class="goPlantformDetail" data-index="9">&gt;&gt;</div></td>
+				</tr>
+								<tr>
+					<td><div class="plantform_logo" data-index="10" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public/papercheck/paperyy-b.png)"></div></td>
+					<td>免费</td>
+					<td>5-10分钟，高峰期有延时</td>
+					<td>1200亿指纹对比库，覆盖图书，期刊，学位论文，会议论文，互联网数据
+</td>
+					<td>中文
+</td>
+					<td>哈希指纹快速对比
+</td>
+					<td>与学校知网检测系统对应，四个报告，各类查重参数齐全；检测速度快；安全无痕迹，可自主删除检测记录和报告。
+</td>
+					<td><div class="goPlantformDetail" data-index="10">&gt;&gt;</div></td>
+				</tr>
+								<tr>
+					<td><div class="plantform_logo" data-index="11" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public/papercheck/wanfang-b.png)"></div></td>
+					<td>2元/千字</td>
+					<td>五千字20s左右；高峰期有延时</td>
+					<td>中国学术期刊数据库，中国学术会议论文数据库，中国学位论文全文数据库，中国学术网页数据库，中国专利全文数据库，亿级比对数据
+</td>
+					<td>中文
+</td>
+					<td>公司自主研发的“句子级正交软聚类倒排语义” 算法，检测更精准，对于长短句、长句、短句均能准确识别
+</td>
+					<td>提供简明报告和全文比对报告的在线查看和下载，检测报告包含多维度检测指标
+</td>
+					<td><div class="goPlantformDetail" data-index="11">&gt;&gt;</div></td>
+				</tr>
+								<tr>
+					<td><div class="plantform_logo" data-index="13" style="background-image:url(http://ps-scholar-static.bj.bcebos.com/public%2Fpapercheck%2Fcopycheck-b.png)"></div></td>
+					<td>1元/千字</td>
+					<td>5万字以内，平均3-5分钟；5万字以上，平均10分钟</td>
+					<td>基于亿级学术期刊、学位论文和互联网数据</td>
+					<td>简体中文</td>
+					<td>采用自主研发的大数据文本指纹比对技术</td>
+					<td>简洁、全面、多样式</td>
+					<td><div class="goPlantformDetail" data-index="13">&gt;&gt;</div></td>
+				</tr>
+								<tr>
+					<td><div class="plantform_logo" data-index="14" style="background-image:url(http://www.papertime.cn/resources/images/ptbaidu.jpg)"></div></td>
+					<td>1.5元/千字</td>
+					<td>5分钟左右； 高峰时段有延时</td>
+					<td>9000多万篇学术期刊和学位论文，超10亿互联网网页资源</td>
+					<td>简体中文、英文</td>
+					<td>自主研发的动态指纹多级扫描技术</td>
+					<td>网页报告、ZIP离线报告和PDF简洁报告，支持本地下载和打印</td>
+					<td><div class="goPlantformDetail" data-index="14">&gt;&gt;</div></td>
+				</tr>
+								<tr>
+					<td><div class="plantform_logo" data-index="17" style="background-image:url(http://www.xueshujia.com/logo/2019/05/07/201905072101540869159.jpg)"></div></td>
+					<td>1元/千字</td>
+					<td>5分钟</td>
+					<td>500亿篇对比资源</td>
+					<td>中文(简体)、中文(繁体)、英语、日语、韩语及其他小语种</td>
+					<td>动态多级指纹对比技术；深度语义发掘识别比对</td>
+					<td>支持手机端查看报告，提供word标红文档，提供四份不同维度查重报告</td>
+					<td><div class="goPlantformDetail" data-index="17">&gt;&gt;</div></td>
+				</tr>
+							</table>
+		</div>
+		<div class="coupon">
+			<p>已有优惠券:</p>
+			<div class="couponList c-clearfix"></div>
+			<!-- 0为手百，1为简搜，2为微信 -->
+							<div class="get-jiansou-coupon">
+					<p>获取优惠券</p>
+					<div class="get-jiansou-coupon-content"></div>
+				</div>
+						<p>兑换优惠券：</p>
+			<div><input type="text" class="exchange" placeholder="请输入优惠码"></div>
+			<input type="button" class="confirmExchange" value="确认兑换">
+		</div>
+	</div>
+	</div>
+<div class="check_paper_pay" >
+	<div class="paper_title">
+		<span class="price"></span>
+		<h2></h2>
+	</div>
+	<div id="lbscashier"></div>
+	<div class="check_pay_btn c-clearfix">
+		<a class="back" href="javascript:;" >稍后支付</a>
+	</div>
+</div>
+        </div>
+    </div>
+    
+                    </div>
+                
+                </div>
+                
+                
+                
+        <div class="pagefoot"><div class="footcon"><span class="lawinfo"><h4>版权说明</h4><p>论文助手由百度学术推出，旨在辅助用户完成定题-写作-查重-答辩的一系列过程，内容仅供参考，百度学术不承担因数据准确性引起的任何法律责任。维权渠道：<a href="http://wpa.qq.com/msgrd?v=3&uin=2166226183&site=qq&menu=yes" style="color: #38f;" target="_blank"">联系百度学术客服</a></p></span><span class="contact"><h4>联系我们</h4><div class="innerCont"><a href="http://weibo.com/baiduxueshu" target="_blank"><p class="wb"><span class=""></span></p></a><p class="wx"><span class="qrcode weixincode biye_bg"></span></p><a href="mailto:xueshu_support@baidu.com" target="_blank"><p class="help"></p></a></div></span><span class="productManual"> <a href="http://static.open.baidu.com/media/ch10/pdf/BaiduScholar-Manual.pdf" target="_blank">下载产品手册</a> &nbsp;&nbsp;&nbsp;|</span><span class="suggest"><a href="javascript:;" class="feedback">意见反馈</a></span></div><p class="foottext">©2019 Baidu 百度学术声明 <a href="https://www.baidu.com/duty/" target="_blank">使用百度前必读</a></p></div>
+        
+            
+        </div>
+        <div class="dialog_bg hover-screen"></div>
+    </div>
+
+    
+    <script type="text/javascript">
+    var BrandList = {
+                                2: {
+                price: 180,
+                unit: 1000,
+                qq: 'http://800099321',
+                name: 'PAPERPASS'
+                },                                            5: {
+                price: 150,
+                unit: 1000,
+                qq: '3326465801,2188468457,3377146727,2736568074 ',
+                name: '笔杆'
+                },                                            6: {
+                price: 120,
+                unit: 1000,
+                qq: '1786978119',
+                name: 'PaperRight'
+                },                                            7: {
+                price: 150,
+                unit: 1000,
+                qq: '800823158',
+                name: 'PaperFree'
+                },                                            8: {
+                price: 100,
+                unit: 1000,
+                qq: '2586118857,2568249317',
+                name: 'WriteCheck'
+                },                                            9: {
+                price: 150,
+                unit: 1000,
+                qq: '3029085518',
+                name: '大雅'
+                },                                            10: {
+                price: 0,
+                unit: 1000,
+                qq: '3326465801,3377146727,2188468457,2736568074',
+                name: 'paperYY'
+                },                                            11: {
+                price: 200,
+                unit: 1000,
+                qq: '1947328549,2811729953',
+                name: '万方'
+                },                                            13: {
+                price: 100,
+                unit: 1000,
+                qq: '325314451',
+                name: 'CopyCheck'
+                },                                            14: {
+                price: 150,
+                unit: 1000,
+                qq: '2468001441',
+                name: 'PaperTime'
+                },                                            17: {
+                price: 100,
+                unit: 1000,
+                qq: '2714763941,1469029923,2646858178,2986117731',
+                name: '学术家'
+                }                        };
+
+
+    </script>
+    <script src="/lib/static/scholar/cache/biye/js/common_0dd1a7f.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="//zhifu.baidu.com/static/js/pc/iframe/lbscashier-iframe.js?t=20161010"></script>
+    <script type="text/javascript">
+                showPage("check")
+            </script>
+    
+    
+    <div style="display:none;">
+        <script>
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?7a3dd266cf4c6f9d4c23054171b652b8";
+                var s = document.getElementsByTagName("script")[0]; 
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+    </div>
+
+</body>
+</html>

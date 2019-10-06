@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d1aead1-d0c6-4835-a16e-3e028f4cccc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Parser/IMG.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Parser/IMG.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Parser/Zhihu.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_Parser/Zhihu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Parser/res3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1_Parser/res3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_crawler/crawler_thread.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/crawler_thread.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_crawler/html/httphome.baidu.com" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httphome.baidu.com" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpmap.baidu.com" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpmap.baidu.com" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpmap.baidu.commwordfrps01000" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpmap.baidu.commwordfrps01000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpsoffice.live.comstartExcel.aspxWT.mc_idO16_BingHP" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpsoffice.live.comstartExcel.aspxWT.mc_idO16_BingHP" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpsoffice.live.comstartPowerPoint.aspxWT.mc_idO16_BingHP" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpsoffice.live.comstartPowerPoint.aspxWT.mc_idO16_BingHP" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpswww.hao123.com" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpswww.hao123.com" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_crawler/html/httptieba.baidu.comfkwfrwwwt" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httptieba.baidu.comfkwfrwwwt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpwww.baidu.com" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpwww.baidu.com" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpwww.bing.com" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpwww.bing.com" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpxueshu.baidu.com" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpxueshu.baidu.com" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comqct17pn0tnikaslistrn10wordfrwwwt" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpzhidao.baidu.comqct17pn0tnikaslistrn10wordfrwwwt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +37,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/3_crawler" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/3_crawler" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -43,8 +57,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Zhihu">
-    <configuration name="IMG" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.crawler_thread">
+    <configuration name="Bitarray" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -52,11 +66,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1_Parser" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_crawler" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_Parser/IMG.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_crawler/Bitarray.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -65,28 +79,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Zhihu" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="EE208" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1_Parser" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_Parser/Zhihu.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="crawler_sample" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="crawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,7 +91,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_crawler/crawler_sample.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_crawler/crawler.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="crawler_sample_thread" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,11 +108,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_crawler" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_crawler" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_crawler/login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_crawler/crawler_sample_thread.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="crawler_thread" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EE208" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_crawler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_crawler/crawler_thread.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,7 +163,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="try" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="parrel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,11 +171,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1_Parser" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_crawler" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_Parser/try.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_crawler/parrel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Zhihu" />
-        <item itemvalue="Python.IMG" />
-        <item itemvalue="Python.try" />
-        <item itemvalue="Python.crawler_sample" />
-        <item itemvalue="Python.login" />
+        <item itemvalue="Python.crawler_thread" />
+        <item itemvalue="Python.crawler_sample_thread" />
+        <item itemvalue="Python.parrel" />
+        <item itemvalue="Python.Bitarray" />
+        <item itemvalue="Python.crawler" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +247,56 @@
       <option name="project" value="LOCAL" />
       <updated>1569121371893</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="CODE 2.3">
+      <created>1569312757112</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1569312757112</updated>
+    </task>
+    <task id="LOCAL-00008" summary="CODE 2.4 init">
+      <created>1569316779818</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1569316779818</updated>
+    </task>
+    <task id="LOCAL-00009" summary="CODE 3.1 bitarray">
+      <created>1570330289970</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1570330289970</updated>
+    </task>
+    <task id="LOCAL-00010" summary="CODE 3.1 bitarray better packaged">
+      <created>1570337078027</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1570337078027</updated>
+    </task>
+    <task id="LOCAL-00011" summary="CODE 3.2 basic structure of threading finished, varlock expected">
+      <created>1570339809806</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1570339809806</updated>
+    </task>
+    <task id="LOCAL-00012" summary="CODE 3.2 problem with varlock">
+      <created>1570340750772</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1570340750772</updated>
+    </task>
+    <task id="LOCAL-00013" summary="CODE 3.2 strill can't exit">
+      <created>1570346577729</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1570346577729</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -267,6 +330,13 @@
     <MESSAGE value="code 2.1" />
     <MESSAGE value="URL v2.0" />
     <MESSAGE value="IMG v2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="IMG v2.0" />
+    <MESSAGE value="CODE 2.3" />
+    <MESSAGE value="CODE 2.4 init" />
+    <MESSAGE value="CODE 3.1 bitarray" />
+    <MESSAGE value="CODE 3.1 bitarray better packaged" />
+    <MESSAGE value="CODE 3.2 basic structure of threading finished, varlock expected" />
+    <MESSAGE value="CODE 3.2 problem with varlock" />
+    <MESSAGE value="CODE 3.2 strill can't exit" />
+    <option name="LAST_COMMIT_MESSAGE" value="CODE 3.2 strill can't exit" />
   </component>
 </project>
