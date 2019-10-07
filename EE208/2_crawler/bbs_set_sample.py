@@ -18,8 +18,9 @@ def bbs_login(id, pw):
     })
     req = urllib2.Request(url='https://bbs.sjtu.edu.cn/bbslogin', data=postdata)
     response = urllib2.urlopen(req)  # POST方式发出请求
-    response = urllib2.urlopen('https://bbs.sjtu.edu.cn/bbsleftnew')  # 打开BBS欢迎页，查看ID是否显示在欢迎页中。
-    return id in response.read()  # True则成功
+    response = urllib2.urlopen('https://bbs.sjtu.edu.cn/bbsleftnew')  
+                                     # 打开BBS欢迎页，查看ID是否显示在欢迎页中。
+    return id in response.read()     # True则成功
 
 
 def bbs_write(text):
