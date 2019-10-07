@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d1aead1-d0c6-4835-a16e-3e028f4cccc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_crawler/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_crawler/crawler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_crawler/crawler_thread_join.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/crawler_thread_join.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_crawler/Bitarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/Bitarray.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +61,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_crawler/Bitarray.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="crawler_sample" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EE208" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_crawler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_crawler/crawler_sample.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,34 +174,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="parrel" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="EE208" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_crawler" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_crawler/parrel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.crawler_thread_join" />
+        <item itemvalue="Python.Bitarray" />
+        <item itemvalue="Python.crawler_sample" />
         <item itemvalue="Python.crawler_thread" />
         <item itemvalue="Python.crawler_sample_thread" />
-        <item itemvalue="Python.parrel" />
-        <item itemvalue="Python.Bitarray" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570376701313</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="EX2 EX3 Final version after report">
+      <created>1570435088244</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1570435088244</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -344,6 +349,7 @@
     <MESSAGE value="CODE 3.2 problem with varlock" />
     <MESSAGE value="CODE 3.2 strill can't exit" />
     <MESSAGE value="EX2 EX3 code Final version" />
-    <option name="LAST_COMMIT_MESSAGE" value="EX2 EX3 code Final version" />
+    <MESSAGE value="EX2 EX3 Final version after report" />
+    <option name="LAST_COMMIT_MESSAGE" value="EX2 EX3 Final version after report" />
   </component>
 </project>

@@ -58,7 +58,7 @@ class Bitarray:
             hash = (hash * seed) + ord(key[i])
         return hash
 
-def main(txt,bitlength):
+def test(txt,bitlength):
     """a testing main function for counting fp-rate"""
     fp_count = 0
     total_count = 0
@@ -79,4 +79,5 @@ def main(txt,bitlength):
     return
 
 if __name__ == "__main__":
-    main('test.txt',700000)
+    test('test.txt',200000)
+    test('test.txt',700000)
