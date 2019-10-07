@@ -25,7 +25,7 @@ def URL_set_uniform(URLset,page):
     urlseg = urlparse.urlparse(page)
     uniURLs = set()
     for i in URLset:
-        j = j = i['href'].split('#')[0]
+        j = i['href'].split('#')[0]
         if re.match('^//',j):         #case 1: relative-protocal URL
             uniURLs.add(urlseg.scheme+ ':'+j)
         elif (not re.match('://',j)): #case 2: relative path
