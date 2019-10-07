@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d1aead1-d0c6-4835-a16e-3e028f4cccc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3_crawler/html/httpssports.163.com19100621EQRA43NN0005877V.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_crawler/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_crawler/crawler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3_crawler/crawler_thread_join.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/crawler_thread_join.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpesf.house.163.combjsearch1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-12-0-0-0-0-0-0-0-1-0.htmlqstr" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpesf.house.163.combjsearch1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-12-0-0-0-0-0-0-0-1-0.htmlqstr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpsauto.163.com19100609EQPVEQHR000884MM.html" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpsauto.163.com19100609EQPVEQHR000884MM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpsgov.163.com19100610EQQ2GKQ00023995U.html" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpsgov.163.com19100610EQQ2GKQ00023995U.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpsvip.open.163.comcourses3597pws_yc" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpsvip.open.163.comcourses3597pws_yc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_crawler/html/httpwww.163.com" beforeDir="false" afterPath="$PROJECT_DIR$/3_crawler/html/httpwww.163.com" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -291,7 +288,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570346577729</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="EX2 EX3 code Final version">
+      <created>1570376678148</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1570376678149</updated>
+    </task>
+    <task id="LOCAL-00015" summary="EX2 EX3 code Final version">
+      <created>1570376701313</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1570376701313</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -332,6 +343,7 @@
     <MESSAGE value="CODE 3.2 basic structure of threading finished, varlock expected" />
     <MESSAGE value="CODE 3.2 problem with varlock" />
     <MESSAGE value="CODE 3.2 strill can't exit" />
-    <option name="LAST_COMMIT_MESSAGE" value="CODE 3.2 strill can't exit" />
+    <MESSAGE value="EX2 EX3 code Final version" />
+    <option name="LAST_COMMIT_MESSAGE" value="EX2 EX3 code Final version" />
   </component>
 </project>

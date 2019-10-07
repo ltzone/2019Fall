@@ -110,7 +110,6 @@ if __name__ == '__main__':
         t = threading.Thread(target=page_working)
         t.setDaemon(True)
         threads.append(t)
-    for t in threads:
         t.start()
     for t in threads:
         t.join()
