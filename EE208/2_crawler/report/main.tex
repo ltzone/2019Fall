@@ -62,7 +62,7 @@ In this exercise, our goal is to simulate a POST request to the SJTU BBS informa
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=9.5cm]{img/flowchart.png}
+\includegraphics[width=13.5cm]{img/flowchart.png}
 \label{fig:flowchart}
 \caption{Flow Chart of the Exercise 1}
 \end{figure}
@@ -131,14 +131,14 @@ The test results can be found at graph \ref{img:1.1} and \ref{img:1.2}.
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=9.5cm]{img/test1_1.png}
+\includegraphics[width=13.5cm]{img/test1_1.png}
 \caption{parseURL in PyCharm}
 \label{img:1.1}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=9.5cm]{img/test1_2.png}
+\includegraphics[width=13.5cm]{img/test1_2.png}
 \caption{parseURL in console}
 \label{img:1.2}
 \end{figure}
@@ -175,21 +175,15 @@ return graph, crawled
 
 \subsubsection{Results}
 
-The test results can be found at graph \ref{img:2.1} and \ref{img:2.2}.
+The test results can be found at graph \ref{img:2.1}.
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=9.5cm]{img/test2_1.png}
-\caption{parseIMG in PyCharm}
+\includegraphics[width=13.5cm]{img/test2_1.png}
+\caption{Crawl results}
 \label{img:2.1}
 \end{figure}
 
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=9.5cm]{img/test2_2.png}
-\caption{parseIMG in console}
-\label{img:2.2}
-\end{figure}
 
 
 
@@ -248,19 +242,19 @@ def URL_set_uniform(URLset,page):
 
 \subsubsection{Results}
 
-In Exercise 4, no parameter in console is required. So whether in IDE or in console, the script will have the same effect. The test results can be found at graph \ref{img:3.1} and \ref{img:3.2}.
+Graph \ref{img:3.1} and \ref{img:3.2} serve as examples to test our crawling program. One thing to remark is that some websites of c.open.163.com in Graph \ref{img:3.1} were out of service when we are testing. So theses pages are skipped when DFS crawling.
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=9.5cm]{img/test3_1.png}
-\caption{parseZhihuPic in PyCharm}
+\includegraphics[width=13.5cm]{img/test3_1.png}
+\caption{DFS crawling of http://www.163.com}
 \label{img:3.1}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=9.5cm]{img/test3_2.png}
-\caption{parseZhihuPic in console}
+\includegraphics[width=13.5cm]{img/test3_2.png}
+\caption{BFS crawling of http://www.baidu.com}
 \label{img:3.2}
 \end{figure}
 
@@ -273,6 +267,8 @@ It has already been known that dividing a big program into several sub-functions
 
 \paragraph{Innovations}
 In this lab, besides the given function structure, I've written several auxiliary functions for the sake of readability of the program. For example, in Exercise 1, I've divided the whole process into several parts such as cookie initialization, login, and information updating. Another example in Exercise 2 is that I wrote a URL\_set\_uniform function (in fact, copied from my Lab 1) to process the URLs into their standard format. The auxiliary functions can not only simplify our program, they also help make our program more portable to further applications.
+
+Moreover, when we are getting the page contents, I wrote a try-except structure to skip bad links and print a `unable to access' message, which can enhance the robustness of our program.
 
 
 \paragraph{Problems \& Solution}
