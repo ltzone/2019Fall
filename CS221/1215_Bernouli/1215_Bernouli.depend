@@ -1,4 +1,4 @@
 # depslib dependency file v1.0
-1570897752 source:d:\git\2019fall\cs221\1215_bernouli\main.cpp
-	<iostream>
+1570900019 source:d:\git\2019fall\cs221\1215_bernouli\main.cpp
+	<stdio.h>
 
