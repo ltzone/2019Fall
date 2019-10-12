@@ -11,7 +11,7 @@
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/httpads.sina.com.cn" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/httpah.sina.com.cn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_lucene/HtmlToDoc.py" beforeDir="false" afterPath="$PROJECT_DIR$/4_lucene/HtmlToDoc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_lucene/IndexFiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/4_lucene/IndexFiles.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/samples4/.goutputstream-RDUBQZ" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/samples4/.goutputstream-RDUBQZ 2019-10-08 03_23_25" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/samples4/FacetExample 2019-10-08 03_23_19.py" beforeDir="false" />
@@ -117,6 +117,9 @@
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/seg/test_finalseg.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/seg/test_jieba.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/seg/test_mmseg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_lucene/docs/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_lucene/index/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/4_lucene/index/segments.gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_lucene/index/segments_2" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.IndexFiles">
     <configuration name="HtmlToDoc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,8 +186,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="IndexFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EE208" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4_lucene" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4_lucene/IndexFiles.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.IndexFiles" />
         <item itemvalue="Python.HtmlToDoc" />
         <item itemvalue="Python.HtmlToDoc" />
       </list>
@@ -327,7 +352,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570870005065</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="HTML TO DOC extract contents successfully">
+      <created>1570872230100</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1570872230100</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Completed version of htmltodoc">
+      <created>1570872512551</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1570872512551</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -371,6 +410,8 @@
     <MESSAGE value="EX2 EX3 code Final version" />
     <MESSAGE value="EX4 code4 on the way" />
     <MESSAGE value="EX2 EX3 Final version after report" />
-    <option name="LAST_COMMIT_MESSAGE" value="EX2 EX3 Final version after report" />
+    <MESSAGE value="HTML TO DOC extract contents successfully" />
+    <MESSAGE value="Completed version of htmltodoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed version of htmltodoc" />
   </component>
 </project>

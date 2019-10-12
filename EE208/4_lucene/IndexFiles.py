@@ -7,7 +7,7 @@ sys.setdefaultencoding('utf-8')
 
 from java.io import File
 from org.apache.lucene.analysis.miscellaneous import LimitTokenCountAnalyzer
-from org.apache.lucene.analysis.standard import StandardAnalyzer
+from org.apache.lucene.analysis.core import WhitespaceAnalyzer
 from org.apache.lucene.document import Document, Field, FieldType
 from org.apache.lucene.index import FieldInfo, IndexWriter, IndexWriterConfig
 from org.apache.lucene.store import SimpleFSDirectory
@@ -35,8 +35,7 @@ class IndexFiles(object):
             os.mkdir(storeDir)
 
         store = SimpleFSDirectory(File(storeDir))
-        analyzer = StandardAnalyzer(Version.LUCENE_CURRENT)
-        analyzer = LimitTokenCountAnalyzer(analyzer, 1048576)
+        analyzer = WhitespaceAnalyzer(Version.LUCENE_CURRENT)
         config = IndexWriterConfig(Version.LUCENE_CURRENT, analyzer)
         config.setOpenMode(IndexWriterConfig.OpenMode.CREATE)
         writer = IndexWriter(store, config)
@@ -71,15 +70,13 @@ class IndexFiles(object):
 
         for root, dirnames, filenames in os.walk(root):
             for filename in filenames:
-                if not filename.endswith('.txt'):
-                    continue
                 print "adding", filename
                 try:
                     path = os.path.join(root, filename)
                     file = open(path)
                     title = file.readline()
                     print title
-                    contents = unicode(file.read(), 'gbk')
+                    contents = unicode(file.read())
                     file.close()
                     doc = Document()
                     doc.add(Field("name", filename, t1))
