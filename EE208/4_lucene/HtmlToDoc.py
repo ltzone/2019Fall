@@ -17,13 +17,18 @@ def HtmlToDoc(root,storeDir):
             try:
                 path = os.path.join(root, filename)
                 content = open(path)
-                soup = BeautifulSoup(content,features='html.parser')
+                soup = BeautifulSoup(content,features='lxml')
                 content.close()
-                print ((os.path.join(storeDir, filename)))
-                output = open(os.path.join(storeDir, filename),'a')
+                output = open(os.path.join(storeDir, filename),'w')
                 title = soup.title.string
                 output.write(title+'\n')
-                output.write(soup.get_text())
+
+                # kill all script and style elements
+                for script in soup.find_all(["script","style"]):
+                    script.extract()  # rip it out
+
+                text = soup.get_text(strip=True)
+                output.write(text)
                 output.close()
             except Exception, e:
                 print "Failed in indexDocs:", e

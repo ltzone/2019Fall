@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d1aead1-d0c6-4835-a16e-3e028f4cccc8" name="Default Changelist" comment="EX2 EX3 Final version after report">
+    <list default="true" id="4d1aead1-d0c6-4835-a16e-3e028f4cccc8" name="Default Changelist" comment="primary version of htmltodoc">
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/http2018.sina.com.cn" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/http5g.sina.com.cn" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/http91.jiaju.sina.com.cn" afterDir="false" />
@@ -10,7 +10,6 @@
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/httpact.sx.sina.com.cn2349" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/httpads.sina.com.cn" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/httpah.sina.com.cn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/EE208.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EE208.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/HtmlToDoc.py" beforeDir="false" afterPath="$PROJECT_DIR$/4_lucene/HtmlToDoc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/samples4/.goutputstream-RDUBQZ" beforeDir="false" />
@@ -142,7 +141,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/4_lucene/testdir" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -186,6 +185,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.HtmlToDoc" />
         <item itemvalue="Python.HtmlToDoc" />
       </list>
     </recent_temporary>
@@ -320,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570859184016</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="EX2 EX3 Final version after report">
+      <created>1570870005065</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1570870005065</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -362,8 +369,8 @@
     <MESSAGE value="CODE 3.2 problem with varlock" />
     <MESSAGE value="CODE 3.2 strill can't exit" />
     <MESSAGE value="EX2 EX3 code Final version" />
-    <MESSAGE value="EX2 EX3 Final version after report" />
     <MESSAGE value="EX4 code4 on the way" />
-    <option name="LAST_COMMIT_MESSAGE" value="EX4 code4 on the way" />
+    <MESSAGE value="EX2 EX3 Final version after report" />
+    <option name="LAST_COMMIT_MESSAGE" value="EX2 EX3 Final version after report" />
   </component>
 </project>
