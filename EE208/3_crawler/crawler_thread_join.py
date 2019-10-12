@@ -94,8 +94,8 @@ def page_working():
 
 if __name__ == '__main__':
 
-    seed = 'http://www.163.com'
-    max_page = 100
+    seed = 'http://www.sina.com'
+    max_page = 10000
 
     tocrawl = Queue.Queue() # tocrawl is a global working queue
     tocrawl.put(seed)
@@ -103,7 +103,7 @@ if __name__ == '__main__':
     graph = {}
     COUNT = 0
     varLock = threading.Lock()
-    NUM = 5
+    NUM = 10
     threads =[]
 
     for i in range(NUM):
