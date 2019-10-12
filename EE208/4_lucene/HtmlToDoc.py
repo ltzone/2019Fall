@@ -1,7 +1,6 @@
 #encoding=utf-8
 import jieba
 import sys, os
-import re
 from bs4 import BeautifulSoup
 
 reload(sys)
@@ -28,10 +27,10 @@ def HtmlToDoc(root,storeDir):
                     script.extract()  # rip it out
 
                 text = soup.get_text(strip=True)
-                output.write(text)
+                seg_list = jieba.cut(text)
+                output.write(" ".join(seg_list))
                 output.close()
             except Exception, e:
                 print "Failed in indexDocs:", e
-
 
 HtmlToDoc("testdir","docs")
