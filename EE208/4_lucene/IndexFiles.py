@@ -63,10 +63,10 @@ class IndexFiles(object):
         t2.setIndexOptions(FieldInfo.IndexOptions.DOCS_AND_FREQS_AND_POSITIONS)
 
         t3 = FieldType() #t3 is used to index titles
-        t2.setIndexed(True)
-        t2.setStored(True)
-        t2.setTokenized(True)
-        t2.setIndexOptions(FieldInfo.IndexOptions.DOCS_AND_FREQS_AND_POSITIONS)
+        t3.setIndexed(True)
+        t3.setStored(True)
+        t3.setTokenized(True)
+        t3.setIndexOptions(FieldInfo.IndexOptions.DOCS_AND_FREQS_AND_POSITIONS)
 
         for root, dirnames, filenames in os.walk(root):
             for filename in filenames:
