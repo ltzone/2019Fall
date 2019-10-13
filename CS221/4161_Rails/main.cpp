@@ -15,10 +15,8 @@ int main()
     {
         if (rail[j]<rail[j-1] && !(previnstack))
             {previnstack = true; head = rail[j-1];}
-        if (rail[j]>rail[j-1] && !(previnstack))
-            {previnstack = false; if (rail[j]<head) {valid=false;break;} }
         if (rail[j]>rail[j-1] && (previnstack))
-            {valid = false; break;}
+            {previnstack = false; if (rail[j]<head) {valid=false;break;} }
     }
     if (valid) cout << "Yes";
     else cout << "No";
