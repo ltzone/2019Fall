@@ -33,4 +33,4 @@ def HtmlToDoc(root,storeDir):
             except Exception, e:
                 print "Failed in indexDocs:", e
 
-HtmlToDoc("testdir","docs")
+HtmlToDoc("html","docs")

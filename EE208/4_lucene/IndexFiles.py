@@ -6,7 +6,6 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 from java.io import File
-from org.apache.lucene.analysis.miscellaneous import LimitTokenCountAnalyzer
 from org.apache.lucene.analysis.core import WhitespaceAnalyzer
 from org.apache.lucene.document import Document, Field, FieldType
 from org.apache.lucene.index import FieldInfo, IndexWriter, IndexWriterConfig
@@ -29,7 +28,8 @@ class Ticker(object):
 class IndexFiles(object):
     """Usage: python IndexFiles <doc_directory>"""
 
-    def __init__(self, root, storeDir):
+    def __init__(self, root, storeDir, f):
+        self.filedir = f
 
         if not os.path.exists(storeDir):
             os.mkdir(storeDir)
@@ -68,34 +68,47 @@ class IndexFiles(object):
         t3.setTokenized(True)
         t3.setIndexOptions(FieldInfo.IndexOptions.DOCS_AND_FREQS_AND_POSITIONS)
 
-        for root, dirnames, filenames in os.walk(root):
-            for filename in filenames:
-                print "adding", filename
-                try:
-                    path = os.path.join(root, filename)
-                    file = open(path)
-                    title = file.readline()
-                    print title
-                    contents = unicode(file.read())
-                    file.close()
-                    doc = Document()
-                    doc.add(Field("name", filename, t1))
-                    doc.add(Field("path", path, t1))
-                    doc.add(Field("title",title, t3))
-                    if len(contents) > 0:
-                        doc.add(Field("contents", contents, t2))
-                    else:
-                        print "warning: no content in %s" % filename
-                    writer.addDocument(doc)
-                except Exception, e:
-                    print "Failed in indexDocs:", e
+        indextxt = open(self.filedir, 'r')
+
+
+        while True:
+            t = indextxt.readline()
+            if (len(t) == 0):
+                indextxt.close()
+                return
+            t = t.split()
+            filename = t[1]
+            URL = t[0]
+#        for root, dirnames, filenames in os.walk(root):
+#            for filename in filenames:
+            print "adding", filename
+            try:
+                path = os.path.join(root, filename)
+                file = open(path)
+                title = file.readline()
+                print title
+                contents = unicode(file.read())
+                file.close()
+                doc = Document()
+                doc.add(Field("name", filename, t1))
+                doc.add(Field("path", path, t1))
+                doc.add(Field("url", URL, t1))
+                doc.add(Field("title",title, t3))
+                if len(contents) > 0:
+                    doc.add(Field("contents", contents, t2))
+                else:
+                    print "warning: no content in %s" % filename
+                writer.addDocument(doc)
+            except Exception, e:
+                print "Failed in indexDocs:", e
+
 
 if __name__ == '__main__':
     lucene.initVM(vmargs=['-Djava.awt.headless=true'])
     print 'lucene', lucene.VERSION
     start = datetime.now()
     try:
-        IndexFiles('docs', "index")
+        IndexFiles('docs', "index", "index.txt")
         end = datetime.now()
         print end - start
     except Exception, e:
