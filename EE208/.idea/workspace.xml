@@ -2,8 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d1aead1-d0c6-4835-a16e-3e028f4cccc8" name="Default Changelist" comment="indexfiles completed">
-      <change afterPath="$PROJECT_DIR$/4_lucene/SearchFiles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_lucene/index.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/BoolSearchFiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/UpdateFiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/FacetExample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/IndexFiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/IndexUpdate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/PorterStemmerAnalyzer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/SearchFiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/TermPositionVector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/ThreadIndexFiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/index/_1.cfe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/index/_1.cfs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/index/_1.si" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/index/_1_1.del" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/index/segments.gen" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/index/write.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/manindex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/mansearch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/37279-0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg10135.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg10947.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg1122.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg1212.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg1342.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg13771.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg141.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg142.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg1422.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg1464.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg15303.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg1534.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg1535.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg1644.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg1661.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg17565.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg1791.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg19987.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg20188.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg22760.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg2343.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg2344.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg2345.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg2346.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg2347.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg2349.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg25667.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg30890.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg3179.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg3187.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg32536.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg33388.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg675.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg6990.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg7276.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg74.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg76.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg810.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/testfolder/pg946.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/http2018.sina.com.cn" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/http5g.sina.com.cn" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/http91.jiaju.sina.com.cn" afterDir="false" />
@@ -14,8 +69,6 @@
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/httpah.sina.com.cn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/EE208.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EE208.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_lucene/HtmlToDoc.py" beforeDir="false" afterPath="$PROJECT_DIR$/4_lucene/HtmlToDoc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_lucene/IndexFiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/4_lucene/IndexFiles.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/samples4/.goutputstream-RDUBQZ" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/samples4/.goutputstream-RDUBQZ 2019-10-08 03_23_25" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/samples4/FacetExample 2019-10-08 03_23_19.py" beforeDir="false" />
@@ -121,8 +174,8 @@
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/seg/test_finalseg.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/seg/test_jieba.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/seg/test_mmseg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_lucene/SearchFiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/4_lucene/SearchFiles.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/index/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/4_lucene/index/segments.gen" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_lucene/index/segments_2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/samples4/index/_8.cfe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/samples4/index/_8.cfs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/samples4/index/_8.si" beforeDir="false" />
@@ -173,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.HtmlToDoc">
+  <component name="RunManager" selected="Python.SearchFiles (1)">
     <configuration name="HtmlToDoc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,27 +248,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="IndexFiles (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="EE208" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4_lucene/samples4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4_lucene/samples4/IndexFiles.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="IndexFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,6 +261,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4_lucene/IndexFiles.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="IndexUpdate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EE208" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4_lucene/sample_code" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4_lucene/sample_code/IndexUpdate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SearchFiles (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EE208" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4_lucene/sample_code" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4_lucene/sample_code/SearchFiles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -260,11 +334,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.HtmlToDoc" />
-        <item itemvalue="Python.IndexFiles" />
-        <item itemvalue="Python.IndexFiles (1)" />
+        <item itemvalue="Python.SearchFiles (1)" />
+        <item itemvalue="Python.IndexUpdate" />
         <item itemvalue="Python.SearchFiles" />
         <item itemvalue="Python.HtmlToDoc" />
+        <item itemvalue="Python.IndexFiles" />
       </list>
     </recent_temporary>
   </component>
@@ -433,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570873573946</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="docs ready">
+      <created>1571063585404</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1571063585404</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -481,6 +562,7 @@
     <MESSAGE value="Completed version of htmltodoc" />
     <MESSAGE value="primary version of indexfiles" />
     <MESSAGE value="indexfiles completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="indexfiles completed" />
+    <MESSAGE value="docs ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs ready" />
   </component>
 </project>

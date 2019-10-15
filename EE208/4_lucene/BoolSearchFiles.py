@@ -8,13 +8,39 @@ sys.setdefaultencoding('utf-8')
 
 from java.io import File
 from org.apache.lucene.analysis.core import WhitespaceAnalyzer
-from org.apache.lucene.analysis.standard import StandardAnalyzer
 from org.apache.lucene.index import DirectoryReader
 from org.apache.lucene.queryparser.classic import QueryParser
 from org.apache.lucene.store import SimpleFSDirectory
 from org.apache.lucene.search import IndexSearcher
 from org.apache.lucene.util import Version
+from org.apache.lucene.search import BooleanQuery
+from org.apache.lucene.search import BooleanClause
 import jieba
+
+def parseCommand(command):
+    '''
+    input: C title:T author:A language:L
+    output: {'contents':C, 'title':T, 'author':A, 'language':L}
+
+    Sample:
+    input:'contenance title:henri language:french author:william shakespeare'
+    output:{'author': ' william shakespeare',
+                   'language': ' french',
+                   'contents': ' contenance',
+                   'title': ' henri'}
+    '''
+    allowed_opt = ['site']
+    command_dict = {}
+    opt = 'contents'
+    for i in command.split(' '):
+        if ':' in i:
+            opt, value = i.split(':')[:2]
+            opt = opt.lower()
+            if opt in allowed_opt and value != '':
+                command_dict[opt] = command_dict.get(opt, '') + ' ' + value
+        else:
+            command_dict[opt] = command_dict.get(opt, '') + ' ' + i
+    return command_dict
 
 def run(searcher, analyzer):
     while True:
@@ -22,15 +48,26 @@ def run(searcher, analyzer):
         print "Hit enter with no input to quit."
         command = raw_input("Query:")
         command = unicode(command)
-        seg_list = jieba.cut(command)
-        command = (" ".join(seg_list))
+
         if command == '':
             return
 
+        command_dict = parseCommand(command)
+
+        seg_list = jieba.cut(command_dict['contents'])
+        command = (" ".join(seg_list))
+        site = command_dict['site']
+
+        querys = BooleanQuery()
+
         print
-        print "Searching for:", command
-        query = QueryParser(Version.LUCENE_CURRENT, "contents",
+        print "Searching for:", command, " in ", site
+        query_content = QueryParser(Version.LUCENE_CURRENT, "contents",
                             analyzer).parse(command)
+        query_site = QueryParser(Version.LUCENE_CURRENT, "site",
+                            analyzer).parse(site)
+        querys.add(query_content, BooleanClause.Occur.MUST)
+        querys.add(query_site, BooleanClause.Occur.MUST)
         scoreDocs = searcher.search(query, 50).scoreDocs
         print "%s total matching documents." % len(scoreDocs)
 
