@@ -7,11 +7,18 @@ sys.setdefaultencoding('utf-8')
 
 from java.io import File
 from org.apache.lucene.analysis.core import WhitespaceAnalyzer
+from org.apache.lucene.analysis.core import SimpleAnalyzer
 from org.apache.lucene.document import Document, Field, FieldType
-from org.apache.lucene.index import FieldInfo, IndexWriter, IndexWriterConfig
+from org.apache.lucene.index import FieldInfo, IndexWriter, IndexReader ,IndexWriterConfig, Term, DirectoryReader
 from org.apache.lucene.store import SimpleFSDirectory
 from org.apache.lucene.util import Version
 from org.apache.lucene.search import IndexSearcher, TermQuery
+from urlparse import urlparse
+
+def get_site(url):
+    return urlparse(url).netloc
+
+
 
 class Ticker(object):
 
@@ -35,7 +42,8 @@ class IndexFiles(object):
             os.mkdir(storeDir)
 
         store = SimpleFSDirectory(File(storeDir))
-        analyzer = WhitespaceAnalyzer(Version.LUCENE_CURRENT)
+        # analyzer = WhitespaceAnalyzer(Version.LUCENE_CURRENT)
+        analyzer = SimpleAnalyzer(Version.LUCENE_CURRENT)
         config = IndexWriterConfig(Version.LUCENE_CURRENT, analyzer)
         config.setOpenMode(IndexWriterConfig.OpenMode.CREATE)
         writer = IndexWriter(store, config)
@@ -71,7 +79,7 @@ class IndexFiles(object):
         t4 = FieldType() #t3 is used to index sites
         t4.setIndexed(True)
         t4.setStored(True)
-        t4.setTokenized(False)
+        t4.setTokenized(True)
         t4.setIndexOptions(FieldInfo.IndexOptions.DOCS_AND_FREQS_AND_POSITIONS)
 
 
@@ -102,7 +110,7 @@ class IndexFiles(object):
                 doc.add(Field("path", path, t1))
                 doc.add(Field("url", URL, t1))
                 doc.add(Field("title",title, t3))
-                doc.add(Field("site", site, t4))
+                doc.add(Field("site", get_site(URL), t4))
                 if len(contents) > 0:
                     doc.add(Field("contents", contents, t2))
                 else:

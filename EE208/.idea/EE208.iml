@@ -6,6 +6,7 @@
       <excludeFolder url="file://$MODULE_DIR$/4_lucene/html" />
       <excludeFolder url="file://$MODULE_DIR$/4_lucene/index" />
       <excludeFolder url="file://$MODULE_DIR$/4_lucene/sample_code" />
+      <excludeFolder url="file://$MODULE_DIR$/4_lucene/samples4" />
       <excludePattern pattern="4_lucene/html" />
     </content>
     <orderEntry type="jdk" jdkName="Python 2.7" jdkType="Python SDK" />

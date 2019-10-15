@@ -7,7 +7,7 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 from java.io import File
-from org.apache.lucene.analysis.core import WhitespaceAnalyzer
+from org.apache.lucene.analysis.core import SimpleAnalyzer
 from org.apache.lucene.index import DirectoryReader
 from org.apache.lucene.queryparser.classic import QueryParser
 from org.apache.lucene.store import SimpleFSDirectory
@@ -55,20 +55,17 @@ def run(searcher, analyzer):
         command_dict = parseCommand(command)
 
         seg_list = jieba.cut(command_dict['contents'])
-        command = (" ".join(seg_list))
-        site = command_dict['site']
-
+        command_dict['contents'] = (" ".join(seg_list))
         querys = BooleanQuery()
+        for k,v in command_dict.iteritems():
+            query = QueryParser(Version.LUCENE_CURRENT, k,
+                                analyzer).parse(v)
+            querys.add(query, BooleanClause.Occur.MUST)
 
         print
-        print "Searching for:", command, " in ", site
-        query_content = QueryParser(Version.LUCENE_CURRENT, "contents",
-                            analyzer).parse(command)
-        query_site = QueryParser(Version.LUCENE_CURRENT, "site",
-                            analyzer).parse(site)
-        querys.add(query_content, BooleanClause.Occur.MUST)
-        querys.add(query_site, BooleanClause.Occur.MUST)
-        scoreDocs = searcher.search(query, 50).scoreDocs
+        print "Searching for:", command
+
+        scoreDocs = searcher.search(querys, 50).scoreDocs
         print "%s total matching documents." % len(scoreDocs)
 
         for i, scoreDoc in enumerate(scoreDocs):
@@ -76,7 +73,8 @@ def run(searcher, analyzer):
             print 'path:', doc.get("path"), \
                 '\nname:', doc.get("name"), \
                 '\ntitle:', doc.get("title"), \
-                "url:",doc.get("url"),"\n"
+                "url:",doc.get("url"), \
+                "\nsite:",doc.get("site"), "\n"
             # print 'explain:', searcher.explain(query, scoreDoc.doc)
 
 
@@ -87,6 +85,6 @@ if __name__ == '__main__':
     #base_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
     directory = SimpleFSDirectory(File(STORE_DIR))
     searcher = IndexSearcher(DirectoryReader.open(directory))
-    analyzer = WhitespaceAnalyzer(Version.LUCENE_CURRENT)
+    analyzer = SimpleAnalyzer(Version.LUCENE_CURRENT)
     run(searcher, analyzer)
     del searcher
