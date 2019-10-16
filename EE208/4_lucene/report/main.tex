@@ -1,0 +1,272 @@
+\documentclass{article}
+\usepackage{pythonhighlight}
+\usepackage{graphicx}
+\usepackage{ctex}
+\usepackage[left=3cm,top=3cm,right=3cm]{geometry}
+\usepackage{hyperref}
+% TITLE PAGE CONTENT %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\labno}{04}
+\newcommand{\labtitle}{EE208 Lucene}
+\newcommand{\authorname}{周李韬}
+\newcommand{\studentno}{518030910407}
+\newcommand{\classno}{F1803016}
+% END TITLE PAGE CONTENT %%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+{\LARGE \textsc{Laboratory No. \labno:} \\ \vspace{4pt}}
+{\Large \textsc{\labtitle} \\ \vspace{4pt}} 
+\rule[13pt]{\textwidth}{1pt} \\ \vspace{15pt}
+{\large By: \authorname \\ \vspace{10pt}
+No. \studentno \\ \vspace{10pt}
+SJTU \classno \\ \vspace{10pt}
+\today \vspace{20pt}}
+\end{center}
+
+
+
+\section{实验准备}
+
+\subsection{实验环境}
+\begin{itemize}
+\item\textbf{Environment} Ubuntu 16.04 (on Virtual Machine)
+\item\textbf{Language} Python 2.7.16 with packages as follows
+	\begin{itemize}
+	\item urllib 1.24.2
+	\item beautifulsoup4 4.8.0
+	\end{itemize}
+\item\textbf{Tools} PyCharm 2019.2, Virtual Box
+\end{itemize}
+Python脚本在Windows 10上也通过了测试.
+
+\subsection{实验目的}
+本实验中我们要实现一个中文网页的索引与搜索程序。实验分为两部分。在第一部分，我们需要对此前爬取的网页建立索引。在第二部分，根据此前建立的索引，我们要实现一个搜索程序，要求能够分析用户输入的查询QUERY，并返回相应的搜索结果。
+
+\subsection{实验原理}
+\label{sec:principle}
+
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=12.5cm]{img/flowchart.png}
+\label{fig:flowchart}
+\caption{中文网页的建立索引与搜索过程}
+\end{figure}
+
+如图\ref{fig:flowchart}所示，本实验的实现分为3个部分。首先，针对中文网页的特点，我们需要对已爬取的中文网页进行解析，利用BeautifulSoup库提取出网页中的文本信息，随后，我们利用现有的中文分词库将中文文本信息进行分词，经过分词后的网页会以文本文档的形式存储下来。在第二部分，我们为这些文档建立索引，建立索引的过程用到了lucene库，可以通过修改样例代码实现。最后，对用户输入的查询语句，我们用同样的中文分词库进行分词，利用lucene库的样例代码从已建立的索引中进行检索、打分、排名，实现中文网页的索引和搜索。
+
+
+\section{实验步骤}
+\subsection{索引的建立}
+
+
+\subsubsection{Solution}
+
+实验所给的样例代码中，已给出了英文文本的分词和建立索引的实现。在本部分中，我们需要从网页中提取文本内容，并对中文文本进行分词，根据实验的要求建立合适的索引。
+
+\paragraph{提取文本内容}
+BeautifulSoup中内置了一个get\_text()函数，能够提取出被解析网页中的所有文本。但get\_text函数还会将javascipt、CSS代码等内容一并返回，针对这一问题，我们在调用get\_text函数之前，先利用BeautifulSoup将HTML树中的script、style标签删除（extract）\footnote{参考：https://stackoverflow.com/questions/22799990/beatifulsoup4-get-text-still-has-javascript}，随后再对HTML树调用get\_text函数，我们可以得到较为纯净的中文文本。主要代码如下所示。在提取文本内容时，为方便后续建立索引时为索引文档添加页面标题、url等附属信息，我们还将HTML树中的title标签提取出来，输出在文本文档的第一行。
+
+\begin{python}
+path = os.path.join(root, filename)
+content = open(path)                                # 获取页面HTML文档
+soup = BeautifulSoup(content,features='lxml')       # 解析文档
+content.close()
+output = open(os.path.join(storeDir, filename),'w')
+title = soup.title.string
+output.write(title+'\n')                            # 在文本文档第一行输出标题
+for script in soup.find_all(["script","style"]):
+    script.extract()                                # 删除页面中的js、CSS代码      
+text = soup.get_text(strip=True)                    # 提取文本，strip=True表明去除空格、换行符
+\end{python}
+
+\paragraph{中文分词}
+在Lucene中，虽然提供了针对中文文本的分词analyzer，但其功能较为单一，仅根据相邻文字进行分词，索引效果较为不理想。为此我们利用了“结巴中文分词器”\footnote{https://github.com/fxsjy/jieba},该分词器能够将连续的中文文本按照词语语义分割成一个连续的词语列表。我们将分词的结果以空格间隔的方式输出到文本文档中。在建立索引的过程中，利用Lucene中的WhiteSpaceAnalyzer，索引器能够直接利用中文分词的结果建立倒排索引，并按我们的需求统计中文单词的词频和位置。在HtmltoDoc.py中，中文分词的相关代码如下所示。
+
+\begin{python}
+def HtmlToDoc(root,storeDir):
+    if not os.path.exists(storeDir):
+        os.mkdir(storeDir)
+    for root, dirnames, filenames in os.walk(root):
+        for filename in filenames:
+            try:
+                output = open(os.path.join(storeDir, filename),'w')
+                ...
+                seg_list = jieba.cut(text)          # 中文分词
+                output.write(" ".join(seg_list))    # 将分词结果以空格间隔输出
+                output.close()
+            except Exception, e:
+                print "Failed in indexDocs:", e
+
+HtmlToDoc("html","docs")
+\end{python}
+
+
+\paragraph{索引的配置和建立}
+
+
+
+
+
+
+
+
+\subsubsection{Test}
+如图\ref{fig:flowchart}所示，BloomFilter的建立和测试流程如下。测试集我们采用了公版电子书“The Adventures of Sherlock Holmes”，首先我们对该文本进行了去重处理（见textprocessing.py)，将去重后的文档（test.txt)每一行看做一个字符串，用于BloomFilter的测试。每一次测试中，我们首先获取当前行的哈希映射列，进而检查它是否已“存在”在BloomFilter中，由于已经过去重处理，因此凡是“存在”的情况都表明BloomFilter出现了混淆的情况，因此将该行的输入标记为false positive。最后通过统计false positive的出现次数，我们可以检验BloomFilter的可靠性。
+
+
+
+\subsubsection{Results}
+测试的结果图\ref{img:1}所示：
+
+
+测试表明，对我们采用的测试集，当我们取10个哈希函数，位数组大小为200000，大约为字符串个数的20倍时，10003行数据中出现了7次false positive，发生概率约为万分之七，与\href{http://pages.cs.wisc.edu/~cao/papers/summary-cache/node8.html}{BloomFilters-the math}的结论相符，表明我们搭建的BloomFilter基本能满足爬虫的需求。进一步，当位数组大小提高到700000时，对该测试集则没有false positive出现了。
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=13.5cm]{img/test1.png}
+\caption{BloomFilter Testing}
+\label{img:1}
+\end{figure}
+
+\subsection{Exercise 2}
+
+\subsubsection{Solution}
+
+在该部分实验中，我们需要将Lab2中的爬虫改为并行式。
+
+\paragraph{多线程实现}
+要将原本单线程运行的crawler改成并行式，我们需要做以下工作。
+
+首先，我们将待爬取的队列改为一个工作队列，Python中Queue库可以提供这一功能，且其中的task\_done等函数可以保证多线程运行时的锁安全性。每一个队列中的URL都代表了一个任务，每个线程运行时，会从Queue中获得一个URL，完成操作后，将这一任务结束。
+
+其次，对于线程间公用的数据，如已被爬取的URL集合crawled、已爬取的网站计数器COUNT、图结构graph，以及最初传入的参数，如种子网页seed、目标爬取网页数max\_page、线程数NUM等，我们需要将其设置为全局变量。
+
+接下来，我们根据用户设定的线程NUM，建立相应的线程。建立代码如下：
+
+\begin{python}
+threads =[]                   # 线程列表
+for i in range(NUM):
+    t = threading.Thread(target=page_working)
+                              # 每一个线程中，执行page_working函数
+    t.setDaemon(True)         # 线程被设置为守护进程，随着主线程的退出而退出
+    threads.append(t)         # 将线程加入线程列表中，方便管理
+for t in threads:
+    t.start()                 # 开始线程
+\end{python}
+
+对每一个线程具体的工作，将在page\_working函数中进行实现。我们为page\_working函数设置了退出条件，保证每一个线程会在总爬取数大于预设值时退出。在主函数中，我们用join函数等待子线程的完成，即可完成主程序的退出。
+
+\begin{python}
+for t in threads:
+    t.join()
+\end{python}
+
+\paragraph{工作函数}
+根据前文的设定，我们的工作函数需要从队列中获取新的URL任务，爬取存储网页内容、提取该页面上的所有URL并加入接下来的队列中。此外，当已爬取的页面大于设定时，结束循环。工作函数与单线程爬虫基本类似，不同之处在于此处我们在往工作队列添加新的URL时，需要用队列的方法（即union函数），其本质是与BFS一致的。以下的代码为不带变量锁时的工作函数。
+
+\begin{python}
+def page_working():
+    while (COUNT < int(max_page)):
+        page = tocrawl.get()        # 从工作队列获取URL
+        if crawled.has_str(page):   # 若URL未被访问过
+            print page
+            content = get_page(page)
+            if content:             # 保存网页信息、获取网页中的URL
+                add_page_to_folder(page, content)
+                outlinks = get_all_links(content, page)
+                union(tocrawl, outlinks)
+                crawled.add_str(page)
+                graph[page] = outlinks
+                COUNT += 1
+        tocrawl.task_done()         # 队列中完成当前任务
+def union(a,b):
+    for e in b:
+        a.put(e)
+\end{python}
+
+\paragraph{Crawled集合的BloomFilter实现}
+在本部分实验中，我们可以将前一部分实验中构造的BloomFilter加入其中，根据此前的实验结果，我们采用20倍max\_page长度的BitMap用于创建crawled对象。在工作函数中，我们可以直接调用Bitarray类中的has\_str()函数作为当前页面是否被访问过的条件判断，调用add\_str()函数作为将新访问的页面加入crawled集合的操作实现。在主函数中的创建crawled实例的代码如下，工作函数中的crawled成员函数的调用可见上一段代码。
+
+\begin{python}
+from Bitarray import Bitarray
+
+seed = 'http://www.163.com'
+max_page = 100
+crawled = Bitarray(20*max_page)
+\end{python}
+
+\paragraph{变量锁}
+在多线程中，同时操作全局变量将造成不必要的冲突和麻烦，为此我们在操作全局变量时加上变量锁。varLock是我们在主函数中建立的一个thread库中的Lock实例。注意到工作函数中，判断条件中涉及了全局变量COUNT，因此加变量锁时，我们改用break结构，将判断放入函数体中，方便我们能在涉及全局变量时，统一进行变量锁的操作。我们最终版本的工作函数代码如下。
+\begin{python}
+def page_working():
+    global COUNT
+    while (True):
+        page = tocrawl.get()
+        if varLock.acquire():   # ---- begin of varlock -----
+            has_str = crawled.has_str(page)
+                           # has_str是一个确认当前页面是否被访问过的布尔值
+            if (COUNT>=max_page):
+                varLock.release()
+                break      # 退出条件
+            varLock.release()   # ----- end of varlock ------
+        if (not has_str):
+            print COUNT,page
+            content = get_page(page)
+            if content:    # 保存网页信息、获取网页中的URL
+                crawled.add_str(page)
+                add_page_to_folder(page, content)
+                outlinks = get_all_links(content, page)
+                if varLock.acquire():  # -- begin of varlock --
+                    union(tocrawl, outlinks)
+                    graph[page] = outlinks
+                    COUNT += 1
+                    varLock.release()  # --- end of varlock ---
+        tocrawl.task_done()    # 队列中完成当前任务
+\end{python}
+
+
+
+\subsubsection{Results}
+
+以爬取从网易首页(http://www.163.com)出发的100条网页为例，测试结果如图\ref{img:2.1}所示，完整的console输出可以查看consoleoutput.txt文件，爬取的内容可在index.txt和html文件夹中找到。
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=13.5cm]{img/test2.png}
+\caption{Crawler Testing}
+\label{img:2.1}
+\end{figure}
+
+
+\section{实验总结}
+\paragraph{概述}
+通过本次实验的学习，我了解了哈希函数的工作原理。通过实现一个BloomFilter的实例和一个并行化爬虫的实例，我学习到了许多优化爬虫项目效率的理论知识和实践技巧。
+
+\paragraph{感想}
+在本次实验中，我花了较多的时间在并行化爬虫的搭建上。遇到的主要问题是主函数不能在子线程完成后自动退出。经过反复的试错、排查，我才慢慢理解了什么是工作队列的join()函数，并且认识到对于本实验中到达一定数目后，通过break退出的子线程结构是不适合用工作队列的join函数的，而应该使用线程的join。因此，本次实验带给我的经验是，在实验开始前仔细理解实验原理非常重要，这会减少很多不必要的时间、精力的浪费。
+
+\paragraph{创新}
+在本实验中，我将第一部分通过Bitarray类实现的BloomFilter用于了第二部分的crawled集合实现。这一方面进一步提高了并行化爬虫的效率，另一方面也检验了第一部分BloomFilter的实践可行性、可靠性。
+
+
+\paragraph{问题}
+本实验中遇到的主要问题是并行化实现时，join函数无法正常结束主线程。最初我使用了Queue.queue.clear()函数，但经过实践表明仅仅清空队列的元素不能达到标记工作队列任务完成的效果，join函数依然不能通过。随后我写了一个循环，如下所示，在达到目标爬取数，退出循环后，该工作函数中的循环会将剩余队列的所有元素进行批量task\_done()操作，虽然它能保证线程的join成功，但时不时会造成不同线程之间产生冲突报错。
+
+\begin{python}
+# 尝试通过批量task_done解决队列的join问题
+while True:
+    try:
+        tocrawl.get()
+        tocrawl.task_done()
+    except:
+        break
+\end{python}
+
+经过以上失败的尝试，我意识到队列的join函数是不适合本项目的实现的，因此我改用thread的join函数，既保证了程序能正常退出，也维持了代码的可读性，最终的代码版本在正文中作了详细的阐述。此前失败的尝试可以参考文件crawl\_thread.py或者GitHub上本项目的版本库\href{https://github.com/ltzone/2019Fall/tree/dev/EE208/3_crawler}{\underline{ltzone/2019Fall/EE208/3\_crawler}}。
+
+\end{document}
+
