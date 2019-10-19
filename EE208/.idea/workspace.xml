@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d1aead1-d0c6-4835-a16e-3e028f4cccc8" name="Default Changelist" comment="indexfiles completed">
+    <list default="true" id="4d1aead1-d0c6-4835-a16e-3e028f4cccc8" name="Default Changelist" comment="pagetodoc finished">
       <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/FacetExample.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/IndexFiles.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4_lucene/sample_code/IndexUpdate.py" afterDir="false" />
@@ -65,62 +65,8 @@
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/httpact.sx.sina.com.cn2349" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/httpads.sina.com.cn" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/httpah.sina.com.cn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/Bitarray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/crawler_thread_join.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/5_lucene_pict/docindex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpmovie.douban.com" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpmovie.douban.comchart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpmovie.douban.comcinemanowplaying" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpmovie.douban.comexplore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpmovie.douban.comtv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comannual2018" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comcinemanowplaying" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comreview9582829" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject1434172" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject1483218" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject23774847" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject24852545" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject26235346" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject26426056" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject26709258" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject26729867" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject26794435" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject26889955" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject26929010" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject27002635" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject27119724" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject27163278" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject27202818" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30135113" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30210700" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30225296" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30232732" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30250669" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30261964" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30329892" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30345265" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30372377" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30376977" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30390185" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30390922" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30459575" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30470184" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject3097572" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject3147497" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject32659890" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject33479277" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject34802201" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject34845343" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject6041200" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comtag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comtrailer254098" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comtrailer254147" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comtrailer254178" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/5_lucene_pict/index.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/EE208.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EE208.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/samples4/.goutputstream-RDUBQZ" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/samples4/.goutputstream-RDUBQZ 2019-10-08 03_23_25" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/samples4/FacetExample 2019-10-08 03_23_19.py" beforeDir="false" />
@@ -231,6 +177,7 @@
       <change beforePath="$PROJECT_DIR$/4_lucene/samples4/index/_8.si" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/samples4/index/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/4_lucene/samples4/index/segments.gen" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/samples4/index/segments_a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_lucene_pict/PagetoDocs.py" beforeDir="false" afterPath="$PROJECT_DIR$/5_lucene_pict/PagetoDocs.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -582,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571131397732</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="pagetodoc finished">
+      <created>1571455962894</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1571455962894</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -633,6 +587,7 @@
     <MESSAGE value="docs ready" />
     <MESSAGE value="EX5 init" />
     <MESSAGE value="site search finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="site search finished" />
+    <MESSAGE value="pagetodoc finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="pagetodoc finished" />
   </component>
 </project>

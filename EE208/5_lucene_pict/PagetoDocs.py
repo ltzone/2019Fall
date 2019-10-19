@@ -110,13 +110,13 @@ def PagesToDocs(root,index,storeDir):
 
 COUNT = 0
 PagesToDocs("html","index.txt","docs")
-
+print "total images collected", COUNT
 
 
 #content = open('html/httpsmovie.douban.comcelebrity1274500')
 #soup = BeautifulSoup(content, features='lxml')
 #output = open('1.txt','w')
 #extract_celebrity(soup,output)
-#print "total images collected", COUNT
+
 
 
