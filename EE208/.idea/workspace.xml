@@ -182,10 +182,7 @@
       <change beforePath="$PROJECT_DIR$/4_lucene/samples4/index/_8.si" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/samples4/index/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/4_lucene/samples4/index/segments.gen" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/samples4/index/segments_a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_web.py/HighlightSearchFiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/6_web.py/HighlightSearchFiles.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6_web.py/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/6_web.py/code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_web.py/templates/formtest.html" beforeDir="false" afterPath="$PROJECT_DIR$/6_web.py/templates/formtest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_web.py/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/6_web.py/templates/result.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -236,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.HighlightSearchFiles">
+  <component name="RunManager" selected="Python.code">
     <configuration name="HighlightSearchFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -281,8 +278,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.HighlightSearchFiles" />
         <item itemvalue="Python.code" />
+        <item itemvalue="Python.HighlightSearchFiles" />
       </list>
     </recent_temporary>
   </component>
@@ -493,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571498921724</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="highlightsearch integrated but with lucene problem">
+      <created>1571501980015</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1571501980015</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -546,6 +550,7 @@
     <MESSAGE value="site search finished" />
     <MESSAGE value="pagetodoc finished" />
     <MESSAGE value="EX6 a highlight searcher is built" />
-    <option name="LAST_COMMIT_MESSAGE" value="EX6 a highlight searcher is built" />
+    <MESSAGE value="highlightsearch integrated but with lucene problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="highlightsearch integrated but with lucene problem" />
   </component>
 </project>

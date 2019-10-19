@@ -121,8 +121,8 @@ def running(command):
 
 
 
-def func(query):
-    result_seg = running(query)
+def func(command):
+    result_seg = running(command)
     output = ''
     count = 0
     for item in result_seg:
@@ -145,7 +145,7 @@ class s:
         user_data = web.input()
         vm_env.attachCurrentThread()
         f = login()
-        kw = func(user_data.keyword)
+        kw = user_data.keyword
         contents = func(kw)
         return render.result(f,kw,contents)
 
