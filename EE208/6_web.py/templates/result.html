@@ -1,9 +1,10 @@
 $def with(form)
-$def with(query)
+$def with(kw)
+$def with(contents)
 
 
 <h1>Search Results</h1>
-<h2>for $query</h2>
+<h2>for $kw</h2>
 
 <form action="/s" method="GET">
     $:form.render()
@@ -11,9 +12,10 @@ $def with(query)
 
 
 
-
-
-$if name:
-    I just wanted to say <em>hello</em> to $name.
+<div>
+$if kw:
+    $contents
 $else:
-    <em>Hello</em>, world!
+    No results for $kw
+</div>
+
