@@ -65,9 +65,62 @@
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/httpact.sx.sina.com.cn2349" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/httpads.sina.com.cn" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/httpah.sina.com.cn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/Bitarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/crawler_thread_join.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/docindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpmovie.douban.com" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpmovie.douban.comchart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpmovie.douban.comcinemanowplaying" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpmovie.douban.comexplore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpmovie.douban.comtv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comannual2018" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comcinemanowplaying" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comreview9582829" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject1434172" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject1483218" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject23774847" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject24852545" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject26235346" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject26426056" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject26709258" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject26729867" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject26794435" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject26889955" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject26929010" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject27002635" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject27119724" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject27163278" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject27202818" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30135113" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30210700" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30225296" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30232732" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30250669" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30261964" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30329892" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30345265" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30372377" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30376977" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30390185" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30390922" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30459575" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject30470184" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject3097572" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject3147497" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject32659890" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject33479277" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject34802201" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject34845343" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comsubject6041200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comtag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comtrailer254098" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comtrailer254147" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/html/httpsmovie.douban.comtrailer254178" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/index.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/EE208.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EE208.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_lucene/BoolSearchFiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/4_lucene/BoolSearchFiles.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/samples4/.goutputstream-RDUBQZ" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/samples4/.goutputstream-RDUBQZ 2019-10-08 03_23_25" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/samples4/FacetExample 2019-10-08 03_23_19.py" beforeDir="false" />
@@ -173,8 +226,6 @@
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/seg/test_finalseg.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/seg/test_jieba.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/seg/test_mmseg.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_lucene/UpdateFiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/4_lucene/UpdateFiles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_lucene/index/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/4_lucene/index/segments.gen" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/samples4/index/_8.cfe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/samples4/index/_8.cfs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/samples4/index/_8.si" beforeDir="false" />
@@ -203,11 +254,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/4_lucene" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/5_lucene_pict" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/5_lucene_pict" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/5_lucene_pict" />
       <recent name="$PROJECT_DIR$/4_lucene" />
       <recent name="$PROJECT_DIR$/4_lucene/testdir" />
       <recent name="$PROJECT_DIR$/3_crawler" />
@@ -225,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BoolSearchFiles">
+  <component name="RunManager" selected="Python.PagetoDocs">
     <configuration name="BoolSearchFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -247,7 +302,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="IndexUpdate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PagetoDocs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,53 +310,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4_lucene/sample_code" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4_lucene/sample_code/IndexUpdate.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SearchFiles (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="EE208" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4_lucene/sample_code" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4_lucene/sample_code/SearchFiles.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SearchFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="EE208" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4_lucene" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5_lucene_pict" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4_lucene/SearchFiles.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_lucene_pict/PagetoDocs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -331,13 +344,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="crawler_thread_join" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EE208" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5_lucene_pict" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_lucene_pict/crawler_thread_join.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EE208" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5_lucene_pict" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_lucene_pict/login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PagetoDocs" />
+        <item itemvalue="Python.crawler_thread_join" />
+        <item itemvalue="Python.login" />
         <item itemvalue="Python.BoolSearchFiles" />
         <item itemvalue="Python.UpdateFiles" />
-        <item itemvalue="Python.SearchFiles (1)" />
-        <item itemvalue="Python.IndexUpdate" />
-        <item itemvalue="Python.SearchFiles" />
       </list>
     </recent_temporary>
   </component>
@@ -520,7 +575,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571129215180</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="site search finished">
+      <created>1571131397732</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1571131397732</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -570,6 +632,7 @@
     <MESSAGE value="indexfiles completed" />
     <MESSAGE value="docs ready" />
     <MESSAGE value="EX5 init" />
-    <option name="LAST_COMMIT_MESSAGE" value="EX5 init" />
+    <MESSAGE value="site search finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="site search finished" />
   </component>
 </project>
