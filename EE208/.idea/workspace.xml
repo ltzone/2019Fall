@@ -65,8 +65,16 @@
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/httpact.sx.sina.com.cn2349" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/httpads.sina.com.cn" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/httpah.sina.com.cn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/docindex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/index.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/SearchFiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/UpdateFiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/index/_0.cfe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/index/_0.cfs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/index/_0.si" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/index/segments.gen" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/index/segments_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_lucene_pict/index/write.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/samples4/.goutputstream-RDUBQZ" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/samples4/.goutputstream-RDUBQZ 2019-10-08 03_23_25" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/samples4/FacetExample 2019-10-08 03_23_19.py" beforeDir="false" />
@@ -201,18 +209,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/5_lucene_pict" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/4_lucene" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/5_lucene_pict" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/5_lucene_pict" />
       <recent name="$PROJECT_DIR$/4_lucene" />
+      <recent name="$PROJECT_DIR$/5_lucene_pict" />
       <recent name="$PROJECT_DIR$/4_lucene/testdir" />
       <recent name="$PROJECT_DIR$/3_crawler" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/5_lucene_pict" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -227,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PagetoDocs">
+  <component name="RunManager" selected="Python.BoolSearchFiles">
     <configuration name="BoolSearchFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -236,11 +244,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4_lucene" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5_lucene_pict" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4_lucene/BoolSearchFiles.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_lucene_pict/SearchFiles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,53 +286,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4_lucene" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4_lucene/UpdateFiles.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="crawler_thread_join" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="EE208" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5_lucene_pict" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_lucene_pict/crawler_thread_join.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="EE208" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5_lucene_pict" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_lucene_pict/login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_lucene_pict/UpdateFiles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -335,11 +301,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.PagetoDocs" />
-        <item itemvalue="Python.crawler_thread_join" />
-        <item itemvalue="Python.login" />
         <item itemvalue="Python.BoolSearchFiles" />
         <item itemvalue="Python.UpdateFiles" />
+        <item itemvalue="Python.PagetoDocs" />
       </list>
     </recent_temporary>
   </component>
@@ -536,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571455962894</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="pagetodoc finished">
+      <created>1571456296964</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1571456296964</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">

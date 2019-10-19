@@ -49,9 +49,10 @@ def extract_subject(soup, output):
 
 def extract_celebrity(soup, output):
     global COUNT
-    title = soup.h1.get_text(strip=True).split('(')[0]
+    title = soup.h1.get_text(strip=True)
     titleseg = jieba.cut(title)
     title = ' '.join(titleseg)
+    title = title.split('(')[0]
 
     # main celebrity
     output.write(soup.find(id = "headline").img['src']+'\n')
