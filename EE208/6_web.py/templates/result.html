@@ -1,4 +1,17 @@
-$def with (name)
+$def with(form)
+$def with(query)
+
+
+<h1>Search Results</h1>
+<h2>for $query</h2>
+
+<form action="/s" method="GET">
+    $:form.render()
+</form>
+
+
+
+
 
 $if name:
     I just wanted to say <em>hello</em> to $name.

@@ -65,15 +65,18 @@
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/httpact.sx.sina.com.cn2349" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/httpads.sina.com.cn" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/httpah.sina.com.cn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/SearchFiles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/UpdateFiles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/5_lucene_pict/index/_0.cfe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/5_lucene_pict/index/_0.cfs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/5_lucene_pict/index/_0.si" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/5_lucene_pict/index/segments.gen" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/5_lucene_pict/index/segments_1" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/5_lucene_pict/index/write.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_web.py/HighlightSearchFiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_web.py/UpdateFiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_web.py/index.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_web.py/index/segments.gen" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_web.py/index/write.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/EE208.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EE208.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/samples4/.goutputstream-RDUBQZ" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/samples4/.goutputstream-RDUBQZ 2019-10-08 03_23_25" beforeDir="false" />
@@ -185,7 +188,9 @@
       <change beforePath="$PROJECT_DIR$/4_lucene/samples4/index/_8.si" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/samples4/index/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/4_lucene/samples4/index/segments.gen" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/samples4/index/segments_a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_lucene_pict/PagetoDocs.py" beforeDir="false" afterPath="$PROJECT_DIR$/5_lucene_pict/PagetoDocs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_web.py/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/6_web.py/code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_web.py/templates/formtest.html" beforeDir="false" afterPath="$PROJECT_DIR$/6_web.py/templates/formtest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_web.py/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/6_web.py/templates/result.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -214,6 +219,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/6_web.py" />
       <recent name="$PROJECT_DIR$/4_lucene" />
       <recent name="$PROJECT_DIR$/5_lucene_pict" />
       <recent name="$PROJECT_DIR$/4_lucene/testdir" />
@@ -235,8 +241,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BoolSearchFiles">
-    <configuration name="BoolSearchFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager">
+    <configuration name="HighlightSearchFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,53 +250,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5_lucene_pict" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6_web.py" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_lucene_pict/SearchFiles.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="PagetoDocs" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="EE208" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5_lucene_pict" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_lucene_pict/PagetoDocs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="UpdateFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="EE208" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5_lucene_pict" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_lucene_pict/UpdateFiles.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6_web.py/HighlightSearchFiles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -301,9 +265,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.BoolSearchFiles" />
-        <item itemvalue="Python.UpdateFiles" />
-        <item itemvalue="Python.PagetoDocs" />
+        <item itemvalue="Python.HighlightSearchFiles" />
       </list>
     </recent_temporary>
   </component>

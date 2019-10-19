@@ -1,7 +1,10 @@
 import web
 from web import form
 import urllib2
-import os
+import sys, os, lucene
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
 
 urls = (
     '/', 'index',
@@ -16,7 +19,10 @@ login = form.Form(
     form.Button('Search'),
 )
 
-def func(command):
+def func(query):
+
+
+
     return 'Your input is '+command
 
 class index:
