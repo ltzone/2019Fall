@@ -1,6 +1,16 @@
-$def with (name)
+$def with (form,kw,contents)
 
-$if name:
-    I just wanted to say <em>hello</em> to $name.
-$else:
-    <em>Hello</em>, world!
+
+<h1>Search Results</h1>
+<h2>for $kw</h2>
+
+<form action="/s" method="GET">
+    $:form.render()
+</form>
+
+
+
+<div>
+    $:contents
+</div>
+

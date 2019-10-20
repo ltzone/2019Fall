@@ -65,9 +65,6 @@
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/httpact.sx.sina.com.cn2349" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/httpads.sina.com.cn" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/4_lucene/testdir/httpah.sina.com.cn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/SearchFiles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/UpdateFiles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_lucene_pict/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/5_lucene_pict/index/_0.cfe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/5_lucene_pict/index/_0.cfs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/5_lucene_pict/index/_0.si" afterDir="false" />
@@ -185,7 +182,7 @@
       <change beforePath="$PROJECT_DIR$/4_lucene/samples4/index/_8.si" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/samples4/index/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/4_lucene/samples4/index/segments.gen" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/samples4/index/segments_a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_lucene_pict/PagetoDocs.py" beforeDir="false" afterPath="$PROJECT_DIR$/5_lucene_pict/PagetoDocs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_web.py/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/6_web.py/templates/result.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -214,6 +211,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/6_web.py" />
       <recent name="$PROJECT_DIR$/4_lucene" />
       <recent name="$PROJECT_DIR$/5_lucene_pict" />
       <recent name="$PROJECT_DIR$/4_lucene/testdir" />
@@ -235,8 +233,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BoolSearchFiles">
-    <configuration name="BoolSearchFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.code">
+    <configuration name="HighlightSearchFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,11 +242,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5_lucene_pict" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6_web.py" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_lucene_pict/SearchFiles.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6_web.py/HighlightSearchFiles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,7 +255,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PagetoDocs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="code" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -265,32 +263,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5_lucene_pict" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6_web.py" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_lucene_pict/PagetoDocs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="UpdateFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="EE208" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5_lucene_pict" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_lucene_pict/UpdateFiles.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6_web.py/code.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -301,9 +278,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.BoolSearchFiles" />
-        <item itemvalue="Python.UpdateFiles" />
-        <item itemvalue="Python.PagetoDocs" />
+        <item itemvalue="Python.code" />
+        <item itemvalue="Python.HighlightSearchFiles" />
       </list>
     </recent_temporary>
   </component>
@@ -507,7 +483,28 @@
       <option name="project" value="LOCAL" />
       <updated>1571456296964</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="EX6 a highlight searcher is built">
+      <created>1571498921724</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1571498921724</updated>
+    </task>
+    <task id="LOCAL-00029" summary="highlightsearch integrated but with lucene problem">
+      <created>1571501980015</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1571501980015</updated>
+    </task>
+    <task id="LOCAL-00030" summary="syntax error on page">
+      <created>1571502802856</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1571502802856</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -536,7 +533,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="crawler login" />
     <MESSAGE value="crawler1 finished" />
     <MESSAGE value="code 2.1" />
     <MESSAGE value="URL v2.0" />
@@ -559,6 +555,9 @@
     <MESSAGE value="EX5 init" />
     <MESSAGE value="site search finished" />
     <MESSAGE value="pagetodoc finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="pagetodoc finished" />
+    <MESSAGE value="EX6 a highlight searcher is built" />
+    <MESSAGE value="highlightsearch integrated but with lucene problem" />
+    <MESSAGE value="syntax error on page" />
+    <option name="LAST_COMMIT_MESSAGE" value="syntax error on page" />
   </component>
 </project>

@@ -1,6 +1,7 @@
-import web
-from web import form
-import urllib2
+#!/usr/bin/env python
+
+INDEX_DIR = "index"
+
 import sys, os, lucene
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -23,28 +24,6 @@ from org.apache.lucene.search.highlight import QueryScorer
 from org.apache.lucene.search.highlight import SimpleHTMLFormatter
 from org.apache.lucene.search.highlight import SimpleSpanFragmenter
 
-
-
-
-try:
-    vm_env = lucene.initVM(vmargs=['-Djava.awt.headless=true'])
-    print 'lucene', lucene.VERSION
-except:
-    vm_env = lucene.getVMEnv()
-
-
-urls = (
-    '/', 'index',
-    '/s', 's'
-)
-
-
-render = web.template.render('templates') # your templates
-
-login = form.Form(
-    form.Textbox('keyword'),
-    form.Button('Search'),
-)
 
 def parseCommand(command):
     '''
@@ -77,8 +56,11 @@ def run(searcher, analyzer, command):
     command_dict['contents'] = (" ".join(seg_list))
     querys = BooleanQuery()
     for k,v in command_dict.iteritems():
-        query = QueryParser(Version.LUCENE_CURRENT, k, analyzer).parse(v)
+        query = QueryParser(Version.LUCENE_CURRENT, k,
+                            analyzer).parse(v)
         querys.add(query, BooleanClause.Occur.MUST)
+
+
 
     scoreDocs = searcher.search(querys, 50).scoreDocs
     print "%s total matching documents." % len(scoreDocs)
@@ -120,9 +102,8 @@ def running(command):
     return run(searcher, analyzer, command)
 
 
-
-def func(command):
-    result_seg = running(command)
+def func(query):
+    result_seg = running(query)
     output = ''
     count = 0
     for item in result_seg:
@@ -135,21 +116,16 @@ def func(command):
         output += "<hr>"
     return output
 
-class index:
-    def GET(self):
-        f = login()
-        return render.formtest(f)
 
-class s:
-    def GET(self):
-        user_data = web.input()
-        vm_env.attachCurrentThread()
-        f = login()
-        kw = user_data.keyword
-        contents = func(kw)
-        return render.result(f,kw,contents)
+if __name__ == '__main__':
+    #STORE_DIR = "index"
+    lucene.initVM(vmargs=['-Djava.awt.headless=true'])
+    print 'lucene', lucene.VERSION
+    #base_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
+    #directory = SimpleFSDirectory(File(STORE_DIR))
+    #searcher = IndexSearcher(DirectoryReader.open(directory))
+    #analyzer = SimpleAnalyzer(Version.LUCENE_CURRENT)
+    command = 'sina'
+    print func(command)
 
-if __name__ == "__main__":
 
-    app = web.application(urls, globals())
-    app.run()

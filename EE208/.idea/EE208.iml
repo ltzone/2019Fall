@@ -9,6 +9,9 @@
       <excludeFolder url="file://$MODULE_DIR$/4_lucene/samples4" />
       <excludeFolder url="file://$MODULE_DIR$/5_lucene_pict/docs" />
       <excludeFolder url="file://$MODULE_DIR$/5_lucene_pict/html" />
+      <excludeFolder url="file://$MODULE_DIR$/6_web.py/docs" />
+      <excludeFolder url="file://$MODULE_DIR$/6_web.py/html" />
+      <excludeFolder url="file://$MODULE_DIR$/6_web.py/index" />
       <excludePattern pattern="4_lucene/html" />
     </content>
     <orderEntry type="jdk" jdkName="Python 2.7" jdkType="Python SDK" />
