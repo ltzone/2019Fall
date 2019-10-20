@@ -79,7 +79,7 @@ class IndexFiles(object):
         t4 = FieldType() #t3 is used to index sites
         t4.setIndexed(True)
         t4.setStored(True)
-        t4.setTokenized(True)
+        t4.setTokenized(False)
         t4.setIndexOptions(FieldInfo.IndexOptions.DOCS_AND_FREQS_AND_POSITIONS)
 
 
@@ -94,8 +94,8 @@ class IndexFiles(object):
             t = t.split()
             filename = t[1]
             URL = t[0]
-#        for root, dirnames, filenames in os.walk(root):
-#            for filename in filenames:
+        #        for root, dirnames, filenames in os.walk(root):
+        #            for filename in filenames:
             print "updating", filename
             try:
                 writer.deleteDocuments(Term("name", filename))
