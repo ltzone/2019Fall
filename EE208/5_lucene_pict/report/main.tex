@@ -140,11 +140,157 @@ for k,v in command_dict.iteritems():
 
 \subsubsection{Solution}
 
+\paragraph{爬取豆瓣电影网页}
+
+\begin{python}
+def URL_set_uniform(URLset,page):
+    urlseg = urlparse.urlparse(page)
+    uniURLs = set()
+    for i in URLset:
+        j = i['href'].split('#')[0]      # remove parameters
+        ......                           # 将相对路径转化为绝对路径
+        jseg = urlparse.urlparse(j)      # 获得当前页面的域名，仅当域名是豆瓣电影时加入队列
+        if (jseg.netloc == 'movie.douban.com'):
+            uniURLs.add(jseg.scheme+'://'+jseg.netloc+jseg.path)
+    return uniURLs
+\end{python}
+
+
+\paragraph{提取图片信息}
+
+\begin{python}
+def extract_subject(soup, output):
+    global COUNT
+    title = soup.h1.get_text(strip=True).split('(')[0]          # 网页标题，去除（豆瓣）后缀
+    titleseg = jieba.cut(title)
+    title = ' '.join(titleseg)                                  # 对网页标题分词
+
+    # 电影主题图
+    output.write(soup.find(id = "mainpic").img['src']+'\n')     # 电影主题图地址打印在第一行
+    output.write(title+' ')
+    infoseg = jieba.cut(soup.find(id="info").get_text(strip=True))
+    infos = " ".join(infoseg)              # title+infos作为电影相关信息的分词结果打印在第二行
+    output.write(infos+'\n')
+    COUNT += 1
+    
+    # 电影主要卡司
+    for celebrity in soup.select(".celebrity"):
+        imgsrc = celebrity.select('.avatar')[0]['style'].split('(')[1].split(')')[0]
+        output.write(imgsrc+'\n')                               # 电影卡司人物图打印在第一行
+        output.write(title+' ')
+        textseg = jieba.cut(' '.join(celebrity.select(".info")[0].get_text().split('\n')))
+        output.write(" ".join(textseg))                         # 电影卡司信息打印在第二行
+        output.write('\n')
+        COUNT += 1
+        
+    # 电影相关图
+    related_session = soup.find(id = "related-pic")
+    for pic in related_session.find_all('img'):
+        imgsrc = pic['src']
+        ...    # 在output中第一行写入imgsrc，第二行写入和标题图一样的title，infos等信息
+        COUNT += 1
+
+    output.write('EOF')
+\end{python}
+
+
+\paragraph{建立图片文档}
+\begin{python}
+# 一个用于获取豆瓣电影域名下页面类型（即path的第一级目录）的函数
+def getPageType(URL):
+    urlseg = urlparse.urlparse(URL)
+    if len(urlseg.path)>0:
+        return urlseg.path.split('/')[1]
+    else:
+        return ''
+\end{python}
+
+\begin{python}
+def PagesToDocs(root,index,storeDir):
+    while (True):
+        从index的一行中获取URL，filename和pagetype，如果一行为空则break
+        try:
+            path = os.path.join(root, filename)
+            content = open(path)
+            soup = BeautifulSoup(content, features='lxml')
+            content.close()
+            if pagetype in ["subject","celebrity"]:
+                output = open(os.path.join(storeDir, filename), 'w')
+                从content中提取标题title
+                在output中写入title，URL
+                调用globals()['extract_%s' % pagetype](soup, output)
+                将当前文件名写入docindex文件中
+        except Exception, e:
+            print "Failed in indexDocs:", e
+
+if __name__ == "__main__":
+    COUNT = 0                                # COUNT是一个全局计数器，统计被存储的图片数
+    PagesToDocs("html","index.txt","docs")
+    print "total images collected", COUNT
+\end{python}
+
+
+
+
+\paragraph{图片索引与搜索}
+
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{cccccc}
+\hline
+\textbf{Field Type} & \textbf{Field Name} & \textbf{Indexed} & \textbf{Stored} & \textbf{Tokenized} & \textbf{\begin{tabular}[c]{@{}c@{}}Record Freq\\ \& Position\end{tabular}} \\ \hline
+\textbf{t1}         & imgurl, url, name   & N                & Y               & N                  & N                                                                          \\
+\textbf{t2}         & contents            & Y                & N               & Y                  & Y                                                                          \\
+\textbf{t3}         & titles              & Y                & Y               & Y                  & Y                                                                          \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
 \subsubsection{Results}
 
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=14.5cm]{img/crawl_images.png}
+\caption{爬取豆瓣电影网页过程截图}
+\label{fig:crawl_images}
+\end{figure}
 
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=14.5cm]{img/getpict.png}
+\caption{建立图片文档过程截图}
+\label{fig:pagetodocs}
+\end{figure}
 
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=14.5cm]{img/pictdocs.png}
+\caption{图片文档结果示例}
+\label{fig:docexample}
+\end{figure}
 
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=14.5cm]{img/indexing.png}
+\caption{为图片文档建立索引过程截图}
+\label{fig:indexpict}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=8.5cm]{img/search.png}
+\includegraphics[width=8.5cm]{img/search2.png}
+\caption{图片搜索示例}
+\label{fig:search1pict}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=14.5cm]{img/search3.png}
+\caption{图片搜索示例}
+\label{fig:search2pict}
+\end{figure}
 
 \section{实验总结}
 \paragraph{概述}
