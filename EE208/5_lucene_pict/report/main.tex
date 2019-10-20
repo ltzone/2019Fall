@@ -139,15 +139,19 @@ for k,v in command_dict.iteritems():
 \subsection{图片搜索引擎}
 
 \subsubsection{Solution}
+在本实验中，我们选取豆瓣电影网页（域名：movie.douban.com）为检索对象，爬取一定数目的电影和名人主页，获取其中的图片。
 
 \paragraph{爬取豆瓣电影网页}
+我们首先要针对性地爬取一定数目的豆瓣电影网站。此前我们的爬虫是在全网以广度优先遍历的方式进行爬取的，为了实现定向爬取，我们可以对Lab3中的并行化爬虫做一些改动。当我们在处理URL时，我们可以限制加入待爬队列的URL。我们的实现方式是利用urlparse库获取URL中的域名（netloc），只有当域名是豆瓣电影时加入队列。我们将这一步判断条件加在了URL标准化的函数中，这样可以保证每一个爬取到的网页都会被判断是否符合爬取条件。
+
+另外需要注意的一点是我们最终输出的URL是通过urlparse的元素组合起来的，之所以不直接采用原本的URL原因是因为豆瓣在设计网页时，会加入一定的参数，如访问来源from、页面标签tag等，这会造成同一内容的网页被多次爬取和解析，因此我们通过连接urlparse结果各部分的方式，来移除不必要的参数。代码如下。
 
 \begin{python}
 def URL_set_uniform(URLset,page):
     urlseg = urlparse.urlparse(page)
     uniURLs = set()
     for i in URLset:
-        j = i['href'].split('#')[0]      # remove parameters
+        j = i['href'].split('#')[0]      # 移除页面标签
         ......                           # 将相对路径转化为绝对路径
         jseg = urlparse.urlparse(j)      # 获得当前页面的域名，仅当域名是豆瓣电影时加入队列
         if (jseg.netloc == 'movie.douban.com'):
@@ -157,6 +161,7 @@ def URL_set_uniform(URLset,page):
 
 
 \paragraph{提取图片信息}
+通常来说图片的信息集中在图片本身替代文字alt、以及图片周围的文本中，这些信息的提取可以通过取图片的父节点，调用get\_text函数来实现。但在本实验中，由于爬取时已经限制了豆瓣电影网页的范围，我们可以针对性地为一类具有相同结构的网页设计特定的提取图片及信息函数，这样可以达到更好的检索效果。这里以豆瓣电影中的电影主页(http://movie.douban .com/subject/...)为例，展示我们针对性提取信息的方法。提取subject页面信息的代码如下，该函数的第一个参数是经过beautifulsoup解析的HTML树，第二个参数是输出文档的文件。
 
 \begin{python}
 def extract_subject(soup, output):
@@ -193,8 +198,18 @@ def extract_subject(soup, output):
     output.write('EOF')
 \end{python}
 
+如图\ref{fig:pagestructure}所示，在subject页面中，我们主要提取三类图片——电影主宣传图、演员图和电影相关图。每个页面有一张电影主宣传图，位于一个id为mainpic的容器中，可以用soup.find方法提取出来。电影的演职员表、地区、时间、译名等位于图片右侧id为info的信息栏中，我们用get\_text函数和结巴中文分词器进行处理，类似地，我们也可以用soup.find方法提取id为related-pic的电影相关图，将电影信息作为描述该图片的文本。对演职员图，它们分布于一个class为celebrity的容器中，soup.find方法不支持对class的查找，为此我们该用soup.select方法，匹配class的名称。另外需要注意的一点是演员图片的图片地址是作为CSS参数的一部分包含在标签里的，因此我们需要对标签做一些字符串上的处理才能得到演员的照片。倘若使用一般化的方法，我们是难以从这里提取出演职员照片这一重要信息的。
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=14.5cm]{img/pagestructure.png}
+\caption{subject页面的结构和图片信息示意}
+\label{fig:pagestructure}
+\end{figure}
 
 \paragraph{建立图片文档}
+
+首先，我们写了一个简短的获取页面类型的函数。我们注意到豆瓣电影的URL十分有规律，它是以“http://movie.douban.com/页面类型/页面编号”的方式呈现的，我们通过urlparse库提取出URL中的path，并取第一个“/”前的文字，就获得了页面的类型，进而利用该类型页面共有的函数来建立图片文档。
 \begin{python}
 # 一个用于获取豆瓣电影域名下页面类型（即path的第一级目录）的函数
 def getPageType(URL):
@@ -205,10 +220,12 @@ def getPageType(URL):
         return ''
 \end{python}
 
+随后，我们遍历已爬取的文件目录index.txt，对符合提取图片函数要求的页面（在本实验中，有subject和celebrity两类网页），我们对解析后的HTML树调用对应的提取函数，并将提取结果和页面标题、URL一并输出在另一个目录下的同名文件中。在主程序中，我们定义了一个全局变量COUNT，用来统计已被提取的图片数目，伪代码如下所示。
+
 \begin{python}
 def PagesToDocs(root,index,storeDir):
     while (True):
-        从index的一行中获取URL，filename和pagetype，如果一行为空则break
+        从index的一行中获取URL，filename和pagetype，如果该行为空则break
         try:
             path = os.path.join(root, filename)
             content = open(path)
@@ -230,9 +247,9 @@ if __name__ == "__main__":
 \end{python}
 
 
-
-
 \paragraph{图片索引与搜索}
+
+在获得了图片信息后，我们就可以为此前创建的信息文档建立索引和搭建搜索程序。建立索引时的FieldType配置如下，对contents和titles的分词器选用了支持空格和特殊符号分割的SimpleAnalyzer。
 
 \begin{table}[h]
 \begin{center}
@@ -246,8 +263,11 @@ if __name__ == "__main__":
 \end{center}
 \end{table}
 
+在建立索引的过程中，通过按顺序地读取图片信息文档，我们就可以依次为索引文档不同的Field添加相应信息。索引与搜索程序的Python脚本与Lab4类似，本段不作详述。
 
 \subsubsection{Results}
+
+爬取网页的过程如图\ref{fig:crawl_images}所示。实验中我们以movie.douban.com为seed，爬取了约400个网页。
 
 \begin{figure}[htbp]
 \centering
@@ -255,6 +275,8 @@ if __name__ == "__main__":
 \caption{爬取豆瓣电影网页过程截图}
 \label{fig:crawl_images}
 \end{figure}
+
+建立图片文档的脚本位于PagetoDocs.py文件中，建立过程和文档结果示例如图\ref{fig:pagetodocs}和\ref{fig:docexample}所示。建立索引的脚本位于UpdateFiles.py文件中，过程如图\ref{fig:indexpict}所示。
 
 \begin{figure}[htbp]
 \centering
@@ -277,6 +299,8 @@ if __name__ == "__main__":
 \label{fig:indexpict}
 \end{figure}
 
+搜索结果示例如图\ref{fig:search1pict}和\ref{fig:search2pict}所示。
+
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=8.5cm]{img/search.png}
@@ -294,17 +318,16 @@ if __name__ == "__main__":
 
 \section{实验总结}
 \paragraph{概述}
-通过本次实验的学习，我将课堂上学习到的建立索引表、词法分析、文档打分等概念付诸实践，学会了如何利用lucene搭建一个简单的搜索引擎。
+本实验中，我们实现了一个支持site搜索的搜索引擎，能够对搜索结果的域名加以限定。此外，我们还针对豆瓣电影搭建了一个图片搜索引擎，能够匹配图片周围的文本进行检索。
 
 \paragraph{感想}
-为了提高搜索引擎的检索效果，构建索引的过程十分重要，我们的索引应该能够完备、有效地描述一个网页中主要的文字内容。在最初，我使用了一个简单的get\_text函数提取网页上的文本，这样做所带来的问题是我们所提取出的文字中，大量javascript、CSS代码被识别成文本保留了下来，对这些代码做索引是没有意义的，这将降低搜索引擎的表现。在通过网络获得帮助，对提取文本的函数经过改进后，我们的中文搜索引擎能够达到良好的检索效果。这带给我的启示是在对网页建立索引时，我们需要灵活根据需要提取有用的信息，避免冗余信息影响索引的构建和检索的效果。
+通过本次实验的学习，我更加熟练地掌握了搭建搜索引擎的技巧，并且通过模拟site搜索的实验学会了更新索引、处理复杂query的方法。在搭建图片搜索引擎的过程中，我对网页爬取、解析的能力也得到了进步。
 
 \paragraph{创新}
-在本实验中，我新建了一个将中文网页提取文本、进行分词的函数(HtmltoDoc.py)。该函数能够将一个目录下的HTML文件进行解析，提取出其中的文本，并利用结巴分词器进行分词，将分词结果输出在另一个目录下的同名文件中。该函数能够独立地被调用，用于网页信息的预处理、检索索引的建立等场合中。
-
+在本实验中，不同于普遍方法，我针对豆瓣电影网站本身的特点，写了extract\_subject，extract\_celebrity两个解析特定类型页面获取图片的函数。能够有效避免图片与文字信息不匹配的问题，并且还能在一些特定场合（如图片url作为背景被嵌入css样式中）有效提取需要的图片，更加提高了索引文档的可靠性和准确性，能够提升搜索引擎的表现。此外，HtmltoDocs这一脚本也具有一定的扩展性，当我们需要爬取更多其他类型的页面时，我们只需要提供新的extract\_xxx函数，并在PagetoDocs函数中的页面类型参数列表中添加该类型名称即可。
 
 \paragraph{问题}
-本实验在处理site检索过程中，遇到的一个问题是域名无法做到部分匹配。如输入site:sina. com.cn时，只会输出域名是sina.com.cn的网址，其他类似www.sina.com.cn的网页不会被输出，如图\ref{fig:sitetest2}所示。分析原因，我们原本采用的分词器是WhiteSpaceAnalyzer，这一分词器能对我们经过空格分隔的中文分词结果有效，但并不会对网站域名做任何分词的操作，因此我们改用SimpleAnalyzer解决了这一问题。这一问题的出现和解决提示我们在构造索引的过程中，选择合适的分词方式十分重要，这极大关系到搜索引擎的效率、表现乃至正确率。
+本实验在处理site检索过程中，遇到的一个问题是域名无法做到部分匹配。如输入site:sina. com.cn时，只会输出域名是sina.com.cn的网址，其他类似www.sina.com.cn的网页不会被输出，如图\ref{fig:sitetest2}所示。分析原因，我们原本采用的分词器是WhiteSpaceAnalyzer，这一分词器能对我们经过空格分隔的中文分词结果有效，但并不会对网站域名做任何分词的操作，因此我们改用SimpleAnalyzer解决了这一问题。这一问题的出现和解决提示我们在构造索引的过程中，选择合适的分词方式或分词器十分重要，这极大关系到搜索引擎的效率、表现乃至正确率。
 
 \begin{figure}[htbp]
 \centering
