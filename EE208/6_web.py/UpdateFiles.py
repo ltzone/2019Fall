@@ -70,11 +70,7 @@ class IndexFiles(object):
         t2.setTokenized(True)
         t2.setIndexOptions(FieldInfo.IndexOptions.DOCS_AND_FREQS_AND_POSITIONS)
 
-        t4 = FieldType() #t3 is used to index sites
-        t4.setIndexed(True)
-        t4.setStored(True)
-        t4.setTokenized(True)
-        t4.setIndexOptions(FieldInfo.IndexOptions.DOCS_AND_FREQS_AND_POSITIONS)
+
 
 
         indextxt = open(self.filedir, 'r')
@@ -104,7 +100,7 @@ class IndexFiles(object):
                 doc.add(Field("path", path, t1))
                 doc.add(Field("url", URL, t1))
                 doc.add(Field("title",title, t2))
-                doc.add(Field("site", get_site(URL), t4))
+                doc.add(Field("site", get_site(URL), t2))
                 if len(contents) > 0:
                     doc.add(Field("contents", contents, t2))
                 else:

@@ -32,6 +32,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="binaryTree.h" />
 		<Unit filename="dLinkList.h" />
 		<Unit filename="linkQueue.h" />
 		<Unit filename="linkStack.h" />

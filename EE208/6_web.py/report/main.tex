@@ -1,0 +1,98 @@
+\documentclass{article}
+\usepackage{pythonhighlight}
+\usepackage{graphicx}
+\usepackage{ctex}
+\usepackage[left=3cm,top=3cm,right=3cm]{geometry}
+\usepackage{hyperref}
+% TITLE PAGE CONTENT %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\labno}{06}
+\newcommand{\labtitle}{EE208 Web.py}
+\newcommand{\authorname}{周李韬}
+\newcommand{\studentno}{518030910407}
+\newcommand{\classno}{F1803016}
+% END TITLE PAGE CONTENT %%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+{\LARGE \textsc{Laboratory No. \labno:} \\ \vspace{4pt}}
+{\Large \textsc{\labtitle} \\ \vspace{4pt}} 
+\rule[13pt]{\textwidth}{1pt} \\ \vspace{15pt}
+{\large By: \authorname \\ \vspace{10pt}
+No. \studentno \\ \vspace{10pt}
+SJTU \classno \\ \vspace{10pt}
+\today \vspace{20pt}}
+\end{center}
+
+
+
+\section{实验准备}
+
+\subsection{实验环境}
+\begin{itemize}
+\item\textbf{Environment} Ubuntu 16.04 (on Virtual Machine)
+\item\textbf{Language} Python 2.7.16 with packages as follows
+	\begin{itemize}
+	\item urllib 1.24.2
+	\item beautifulsoup4 4.8.0
+	\item lucene 4.9.0
+	\item web.py 3.7
+	\end{itemize}
+\item\textbf{Tools} PyCharm 2019.2, Virtual Box
+\end{itemize}
+
+\subsection{实验目的}
+本实验中，我们需要为此前构建的索引和检索程序建立一个web前端。要求能够输入关键词、通过网页形式返回检索结果，本实验的实现基于Python中web.py库的框架。
+
+\subsection{实验原理}
+
+基于web.py库，要搭建搜索引擎前端，我们还需要设计URL的组织方式、生成页面的模板、并设计函数将用户的请求对接我们的检索程序并返回相应的检索结果。我们的前端包含两类页面，首页“index”和搜索结果页“s”。在index页面我们需要设计一个输入关键词的表单，这可以通过web.py中form类实现，用户输入信息keyword后，web前端会返回搜索结果类的一个实例，其中包含参数keyword。在搜索结果页面，web前端会调用此前实验中搭建完成的检索程序，根据keyword从已建立的索引中查找匹配的文档，传入搜索结果页的模板中生成对应的结果网页。以上两类页面构成了本次实验目标构建的一个简单搜索引擎。
+
+需要注意的是，我们在此前的实验中，并没有在索引中存储HTML网页的文字内容“contents”，也没有设计检索程序返回contents的匹配摘要和关键词高亮展示。因此，在搭建网页之前，我们还需要重新建立带contents的索引，设计能够返回高亮关键词的文档摘要函数。
+
+\section{实验步骤}
+
+\subsection{搜索结果的高亮和摘要}
+
+\subsubsection{Solution}
+
+\paragraph{重建索引}
+
+本实验的搜索结果网页要求返回网页内容中关键词的上下文，为此我们需要首先重建索引，将网页中的文本内容存储下来。我们修改Lab5中UpdateFiles.py脚本中FieldType配置，配置如下表所示。contents的FieldType被设置成与title一样被索引、存储、分词和记录词频位置。与此前的实验相同，我们采用了结巴中文分词器和Lucene库中的SimpleAnalyzer进行分词索引。
+
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{cccccc}
+\hline
+\textbf{Field Type} & \textbf{Field Name} & \textbf{Indexed} & \textbf{Stored} & \textbf{Tokenized} & \textbf{\begin{tabular}[c]{@{}c@{}}Record Freq\\ \& Position\end{tabular}} \\ \hline
+\textbf{t1}         & path, url, name     & N                & Y               & N                  & N                                \\
+\textbf{t2}         & \textbf{contents}, titles    & Y                & Y               & Y                  & Y                                \\
+ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\paragraph{提取关键词摘要}
+
+
+
+\section{实验总结}
+\paragraph{概述}
+本实验中，我们实现了一个支持site搜索的搜索引擎，能够对搜索结果的域名加以限定。此外，我们还针对豆瓣电影搭建了一个图片搜索引擎，能够匹配图片周围的文本进行检索。
+
+\paragraph{感想}
+通过本次实验的学习，我更加熟练地掌握了搭建搜索引擎的技巧，并且通过模拟site搜索的实验学会了更新索引、处理复杂query的方法。在搭建图片搜索引擎的过程中，我对网页爬取、解析的能力也得到了进步。
+
+\paragraph{创新}
+在本实验中，不同于普遍方法，我针对豆瓣电影网站本身的特点，写了extract\_subject，extract\_celebrity两个解析特定类型页面获取图片的函数。能够有效避免图片与文字信息不匹配的问题，并且还能在一些特定场合（如图片url作为背景被嵌入css样式中）有效提取需要的图片，更加提高了索引文档的可靠性和准确性，能够提升搜索引擎的表现。此外，HtmltoDocs这一脚本也具有一定的扩展性，当我们需要爬取更多其他类型的页面时，我们只需要提供新的extract\_xxx函数，并在PagetoDocs函数中的页面类型参数列表中添加该类型名称即可。
+
+\paragraph{问题}
+本实验在处理site检索过程中，遇到的一个问题是域名无法做到部分匹配。如输入site:sina. com.cn时，只会输出域名是sina.com.cn的网址，其他类似www.sina.com.cn的网页不会被输出，如图\ref{fig:sitetest2}所示。分析原因，我们原本采用的分词器是WhiteSpaceAnalyzer，这一分词器能对我们经过空格分隔的中文分词结果有效，但并不会对网站域名做任何分词的操作，因此我们改用SimpleAnalyzer解决了这一问题。这一问题的出现和解决提示我们在构造索引的过程中，选择合适的分词方式或分词器十分重要，这极大关系到搜索引擎的效率、表现乃至正确率。
+
+
+
+\end{document}
+
