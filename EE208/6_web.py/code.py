@@ -138,7 +138,7 @@ def func(command):
 class index:
     def GET(self):
         f = login()
-        return render.formtest(f)
+        return render.index(f)
 
 class s:
     def GET(self):
