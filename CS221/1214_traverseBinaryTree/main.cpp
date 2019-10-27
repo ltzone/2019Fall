@@ -1,78 +1,80 @@
-#include <cstdio>
-
+#include<cstdio>
 using namespace std;
-
-
-    void preOrder(int t, int *son_of, int *neb_of, int *tree )
-    {       if (tree[t] == 0) return;
-            printf("%d ", tree[t]);
-            preOrder(son_of[t],son_of,neb_of,tree);
-            preOrder(neb_of[t],son_of,neb_of,tree);
-    }
-
-    void midOrder(int t, int *son_of, int *neb_of, int *tree )
-    {       if (tree[t] == 0) return;
-            midOrder(son_of[t],son_of,neb_of,tree);
-            printf("%d ", tree[t]);
-            midOrder(neb_of[t],son_of,neb_of,tree);
-    }
-
-
-void levelOrder(int root, int *son_of, int *neb_of, int *tree)
-    {
-        int bitmap [100002] = {0};
-        int head = 0;
-        int tail = 0;
-        int current = root;
-
-        while (current!=0)
-        {
-            bitmap[tail++] = current;
-            printf("%d ",tree[current]);
-            current = neb_of[current];
-        }
-        while ( head != tail )   {
-            current = bitmap[head++];
-            current = son_of[current];
-            while (tree[current] != 0)
-            {
-                if ( tree[son_of[current]] != 0) bitmap[tail++]=current;
-                printf("%d ", tree[current]);
-                current = neb_of[current];
-            }
-        }
-    }
-
-
-
-
-
-
+int n;
+void preorder(int *son_of,int *neb_of,int *tree,int root)
+{
+	printf("%d ", tree[root]);
+	if(son_of[root])
+	{
+		preorder(son_of,neb_of,tree,son_of[root]);
+		int t=son_of[root];
+		while(neb_of[t])
+		{
+			preorder(son_of,neb_of,tree,neb_of[t]);
+			t=neb_of[t];
+		}
+	}
+}
+void postorder(int *son_of,int *neb_of,int *tree,int root)
+{
+	if(son_of[root])
+	{
+		postorder(son_of,neb_of,tree,son_of[root]);
+		int t=son_of[root];
+		while(neb_of[t])
+		{
+			postorder(son_of,neb_of,tree,neb_of[t]);
+			t=neb_of[t];
+		}
+	}
+	printf("%d ", tree[root]);
+}
+void seqorder(int *son_of,int *neb_of,int *tree,int root)
+{
+	int *queue=new int[n+1];
+	queue[1]=root;
+	int tail=2,head=1,t;
+	while(head!=tail)
+	{
+		t=son_of[queue[head]];
+		if(t)
+		{
+			queue[tail++]=t;
+			while(neb_of[t])
+			{
+				t=neb_of[t];
+				queue[tail++]=t;
+			}
+		}
+		head++;
+	}
+	for(int i=1;i<=n;i++)
+	{
+		printf("%d ", tree[queue[i]]);
+	}
+}
 int main()
 {
-    int tree [100002] = {0};
-    int son_of [100002]= {0};
-    int neb_of [100002] = {0};
-    int rows,left,right,data;
-    scanf("%d", &rows);
-    int root = 1;
-    for (int i=1;i<=rows;++i)
-    {
-        scanf("%d", &left);
-        scanf("%d", &right);
-        scanf("%d", &data);
-        son_of[i] = left;
-        neb_of[i] = right;
-        tree[i] = data;
-        if (left == root) root = i;
-    }
-
-
-
-    preOrder(root,son_of,neb_of,tree);
-    printf("\n");
-    midOrder(root,son_of,neb_of,tree);
-    printf("\n");
-    levelOrder(root,son_of,neb_of,tree);
-    return 0;
+	scanf("%d",&n);
+	int *son_of=new int[n+1],*neb_of=new int[n+1],*tree=new int[n+1],*flag=new int[n+1];
+	for(int i=1;i<=n;i++)
+		flag[i]=0;
+	for(int i=1;i<=n;i++)
+	{
+		scanf("%d %d %d",&son_of[i],&neb_of[i],&tree[i]);
+		flag[son_of[i]]=1;
+		flag[neb_of[i]]=1;
+	}
+	int root;
+	for(int i=1;i<=n;i++)
+		if(!flag[i])
+		{
+			root=i;
+			break;
+		}
+	preorder(son_of,neb_of,tree,root);
+	printf("\n");
+	postorder(son_of,neb_of,tree,root);
+	printf("\n");
+	seqorder(son_of,neb_of,tree,root);
 }
