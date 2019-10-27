@@ -9,27 +9,21 @@ using namespace std;
             preOrder(son_of[t],son_of,neb_of,tree);
             preOrder(neb_of[t],son_of,neb_of,tree);
     }
-    void PreOrder(int *son_of, int *neb_of, int *tree)
-    {
-         preOrder(1,son_of,neb_of,tree);
-    }
+
     void midOrder(int t, int *son_of, int *neb_of, int *tree )
     {       if (tree[t] == 0) return;
             midOrder(son_of[t],son_of,neb_of,tree);
             printf("%d ", tree[t]);
             midOrder(neb_of[t],son_of,neb_of,tree);
     }
-    void MidOrder(int *son_of, int *neb_of, int *tree)
-    {
-         midOrder(1,son_of,neb_of,tree);
-    }
 
-void LevelOrder(int *son_of, int *neb_of, int *tree)
+
+void levelOrder(int root, int *son_of, int *neb_of, int *tree)
     {
         int bitmap [100002] = {0};
         int head = 0;
         int tail = 0;
-        int current = 1;
+        int current = root;
 
         while (current!=0)
         {
@@ -61,6 +55,7 @@ int main()
     int neb_of [100002] = {0};
     int rows,left,right,data;
     scanf("%d", &rows);
+    int root = 1;
     for (int i=1;i<=rows;++i)
     {
         scanf("%d", &left);
@@ -69,16 +64,15 @@ int main()
         son_of[i] = left;
         neb_of[i] = right;
         tree[i] = data;
+        if (left == root) root = i;
     }
 
 
 
-
-
-    PreOrder(son_of,neb_of,tree);
+    preOrder(root,son_of,neb_of,tree);
     printf("\n");
-    MidOrder(son_of,neb_of,tree);
+    midOrder(root,son_of,neb_of,tree);
     printf("\n");
-    LevelOrder(son_of,neb_of,tree);
+    levelOrder(root,son_of,neb_of,tree);
     return 0;
 }
