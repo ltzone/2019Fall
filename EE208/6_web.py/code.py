@@ -35,7 +35,8 @@ except:
 
 urls = (
     '/', 'index',
-    '/s', 's'
+    '/s', 's',
+    '/img', 'img',
 )
 
 
@@ -148,6 +149,15 @@ class s:
         kw = user_data.keyword
         contents = func(kw)
         return render.result(f,kw,contents)
+
+class img:
+    def GET(self):
+        user_data = web.input()
+        vm_env.attachCurrentThread()
+        f = login()
+        kw = user_data.keyword
+        
+
 
 if __name__ == "__main__":
     app = web.application(urls, globals())
