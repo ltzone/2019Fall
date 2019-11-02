@@ -1,0 +1,16 @@
+$def with (form,kw,contents)
+
+
+<h1>Search Results</h1>
+<h2>for $kw</h2>
+
+<form action="/s" method="GET">
+    $:form.render()
+</form>
+
+
+
+<div>
+    $:contents
+</div>
+
