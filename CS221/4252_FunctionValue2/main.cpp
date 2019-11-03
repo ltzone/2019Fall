@@ -12,137 +12,95 @@ int f (int a, int b, int c, int x)
     return a*x*x+b*x+c;
 }
 
-
-
-
-class Solution
+class Iter
 {
 private:
-    struct node {
-       int  data;
-       node *prev, *next;
-       node(const int &x, node *p = NULL, node *n = NULL)
-               { data = x; next = n; prev = p;}
-       node( ):next(NULL), prev(NULL) {}
-       ~node() {}
-    };
-    node  *head, *tail;
-    int currentLength;
-
-
+    int a,b,c;
+    int mid;
+    bool leftflag;
+    bool switchflag;
+    int i;
 public:
-    Solution(int a,int b,int c,int k)
+    Iter(int a0,int b0,int c0)
     {
-        head = new node;
-        head->next = tail = new node;
-        tail->prev = head;
-        currentLength = 0;
-
+        a = a0; b = b0; c = c0; i = 0;
         float u = getmid(a,b);
-        int t = floor(u);
-        if (u-t<=0.5)
+        mid = floor(u);
+        if (u-mid<=0.5) leftflag = true;
+        else leftflag = false;
+        switchflag = false;
+    }
+    int get()
+    {
+        if (leftflag)
         {
-            insert_at_tail(f(a,b,c,t));
-            for (int j=1;j<=k/2+1;++j)
-            {
-                insert_at_tail(f(a,b,c,t+j));
-                insert_at_tail(f(a,b,c,t-j));
-            }
-
+            if (switchflag) ++i;
+            switchflag = !switchflag;
+            return f(a,b,c,mid+(1-2*switchflag)*i);
         }
         else
         {
-            insert_at_tail(f(a,b,c,t+1));
-            for (int j=1;j<=k/2;++j)
-            {
-                insert_at_tail(f(a,b,c,t+1-j));
-                insert_at_tail(f(a,b,c,t+1+j));
-            }
+            if (switchflag) ++i;
+            switchflag = !switchflag;
+            return f(a,b,c,mid+1+(2*switchflag-1)*i);
         }
-    }
-    void insert_at_head(int x)
-    {
-        node *tmp;
-        tmp = new node(x, head, head->next);
-        head->next->prev = tmp;
-        head->next = tmp;
-        ++currentLength;
-    }
-    void insert_at_tail(int x)
-    {
-        node *tmp;
-        tmp = new node(x, tail->prev, tail);
-        tail->prev->next = tmp;
-        tail->prev = tmp;
-        ++currentLength;
-    }
-    void insert_before(node * y, int x)
-    {
-        node *tmp;
-        tmp = new node(x, y->prev, y);
-        y->prev->next = tmp;
-        y->prev = tmp;
-    }
-    void print(int k)
-    {
-        node *tmp=head->next;
-        for (int i=0;i<k;++i)
-        {
-            printf("%d ",tmp->data);
-            tmp = tmp->next;
-        }
-        return;
-    }
-    void updaterow(int a,int b,int c)
-    {
-        float u = getmid(a,b);
-        int t = floor(u);
-        node* seqcur = head->next;
-        node* seqmax = tail->prev;
-        //printf("#%f#",(u-t));
-        if (u-t<=0.5)
-        {
-
-            bool flag = true; //1-2flag --- left
-            int fvalue = f(a,b,c,t);
-            if (fvalue>=seqmax->data) return;
-            int i=0;
-            while ((fvalue=(f(a,b,c,t+(1-2*flag)*i)))<seqmax->data)
-            {
-                if (flag) ++i;
-                flag = !flag;
-                while (seqcur->data<fvalue) seqcur = seqcur -> next;
-                insert_before(seqcur,fvalue);
-                seqmax = seqmax -> prev;
-            }
-        }
-        else
-        {
-            bool flag = true; //1-2flag --- left
-            int fvalue = f(a,b,c,t);
-            if (fvalue>=seqmax->data) return;
-            int i=0;
-            while ((fvalue=(f(a,b,c,t+1+(2*flag-1)*i)))<seqmax->data)
-            {
-                if (flag) ++i;
-                flag = !flag;
-                while (seqcur->data<fvalue) seqcur = seqcur -> next;
-                insert_before(seqcur,fvalue);
-                seqmax = seqmax -> prev;
-            }
-        }
-        node* p = seqmax->next, *q;
-        seqmax->next = tail;
-        while (p->next!=NULL)
-        {
-            q = p->next;
-            delete p;
-            p = q;
-        }
-        tail->prev = seqmax;
     }
 };
 
+class heap
+{
+private:
+    int currentsize;
+    int* array;
+    int maxSize;
+    void doubleSpace()
+    {
+        int *tmp = array;
+        maxSize *= 2;
+        array = new int [maxSize];
+        for (int i=0;i<=currentsize;++i)
+            array[i] = tmp[i];
+        delete [] tmp;
+    }
+public:
+    int maxval;
+    int gethead() const {return array[1];}
+    heap (int capacity = 50)
+    {
+        array = new int [capacity];
+        maxSize = capacity;
+        currentsize = 0;
+    }
+    ~heap () {delete [] array;}
+    bool isEmpty () const { return currentsize == 0;}
+    void enQueue (const int &x)
+    {
+        if (currentsize == maxSize - 1) doubleSpace();
+        int hole = ++currentsize;
+        for(;hole>1&x>array[hole/2];hole/=2)
+            array[hole] = array[hole/2];
+        array[hole] = x;
+    }
+    int deQueue()
+    {
+        int minitem;
+        minitem = array[1];
+        array[1] = array[currentsize--];
+        int tmp = array[1];
+        int child;
+        int hole = 1;
+        for (;hole*2<=currentsize;hole=child)
+        {
+            child = hole*2;
+            if (child!=currentsize && array[child+1]>array[child])
+                child++;
+            if (array[child]>tmp) array[hole] = array[child];
+            else break;
+        }
+        array[hole] = tmp;
+        return minitem;
+    }
+};
 
 
 
@@ -150,19 +108,36 @@ int main()
 {
     int n,k;
     scanf("%d %d",&n,&k);
+    Iter ** iters = new Iter* [n];
     int a,b,c;
-    scanf("%d %d %d",&a,&b,&c);
-    Solution t(a,b,c,k);
-      //      t.print(k);
-    //        printf("\n");
-    for (int i=1;i<n;++i)
+    heap res;
+    for (int i=0;i<n;++i)
     {
         scanf("%d %d %d",&a,&b,&c);
-        t.updaterow(a,b,c);
-  //              t.print(k);
-//        printf("\n");
+        iters[i] = new Iter(a,b,c);
+        for (int j=0;j<k/n+1;++j)
+            res.enQueue(iters[i]->get());
     }
- t.print(k);
-    return 0;
+    for (int i=0;i<n;++i)
+    {
+        int tmp;
+        while ((tmp = iters[i]->get())<res.gethead())
+        {
+            res.deQueue();
+            res.enQueue(tmp);
+        }
+    }
+    for (int i=0;i<n;++i)
+    {
+        delete [] iters[i];
+    }
+    delete [] iters;
 
+
+    int * output = new int [n*(k/n+1)];
+    for (int i=0;i<n*(k/n+1);++i) output[i]=res.deQueue();
+    int i=n*(k/n+1)-1;
+    for (int cnt=0;cnt<k;++cnt) { printf("%d ",output[i]); --i;}
+    delete [] output;
+    return 0;
 }

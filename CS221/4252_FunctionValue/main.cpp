@@ -9,7 +9,6 @@ private:
     int currentsize;
     int* array;
     int maxSize;
-    int capa;
     void doubleSpace()
     {
         int *tmp = array;
@@ -27,21 +26,16 @@ public:
         array = new int [capacity];
         maxSize = capacity;
         currentsize = 0;
-        maxval = -2147483648;
-        capa = capacity;
     }
     ~heap () {delete [] array;}
     bool isEmpty () const { return currentsize == 0;}
     void enQueue (const int &x)
     {
         if (currentsize == maxSize - 1) doubleSpace();
-        if (x>maxval) maxval = x;
-        if (currentsize<capa||x<maxval){
         int hole = ++currentsize;
         for(;hole>1&x<array[hole/2];hole/=2)
             array[hole] = array[hole/2];
         array[hole] = x;
-        }
     }
     int deQueue()
     {
