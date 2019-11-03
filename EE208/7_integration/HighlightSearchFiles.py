@@ -66,8 +66,8 @@ def run(searcher, analyzer, command):
     print "%s total matching documents." % len(scoreDocs)
 
     scorer = QueryScorer(query)
-    fragmenter = SimpleSpanFragmenter(scorer)
-    simpleHTMLFormatter = SimpleHTMLFormatter("<b><font color='red'>", "</font></b>")
+    fragmenter = SimpleSpanFragmenter(scorer,250)
+    simpleHTMLFormatter = SimpleHTMLFormatter("<b>", "</b>")
     highlighter = Highlighter(simpleHTMLFormatter, scorer)
     highlighter.setTextFragmenter(fragmenter)
 
@@ -80,8 +80,11 @@ def run(searcher, analyzer, command):
         if contents :
             tkStream = analyzer.tokenStream("contents",contents)
             highlight = highlighter.getBestFragment(tkStream, contents)
+            highlightseg = highlight.split()
+            highlight = ''.join(highlightseg)
+            results.append((doc.get("title").strip(),doc.get("url"),highlight))
 
-        results.append((doc.get("title").strip(),doc.get("url"),highlight))
+        
         '''
         print 'path:', doc.get("path"), \
             '\nname:', doc.get("name"), \
@@ -110,10 +113,9 @@ def web_func(query):
         count += 1
         output += "<div class='websec' id='res"+str(count)+"'>"
         output += "<h3><a href='"+item[1]+"'>"+item[0]+"</a></h3>"
-        output += "<p>"+item[2]+"</p>"
-        output += item[1]
+        output += "<p class='weburl'>"+item[1]+"</p>"
+        output += "<p class='webtext'>"+item[2]+"</p>"
         output += "</div>"
-        output += "<hr>"
     return output
 
 

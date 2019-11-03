@@ -30,7 +30,7 @@ def run(searcher, analyzer, command):
 
     for i, scoreDoc in enumerate(scoreDocs):
         doc = searcher.doc(scoreDoc.doc)
-        res_lis.append((doc.get("imgurl"),doc.get("url"),doc.get("title")))
+        res_lis.append((doc.get("imgurl").strip(),doc.get("url").strip(),doc.get("title")))
 
     return res_lis
 
@@ -41,10 +41,9 @@ def img_func(query):
     for item in result_seg:
         count += 1
         output += "<div class='imgsec' id='res"+str(count)+"'>"
-        output += "<h3><a href='"+item[1]+"'>"+item[2]+"</a></h3>"
-        output += "<img src='"+item[0]+"'> </img>"
+        output += "<a href='"+item[1]+"'>"
+        output += "<img src='"+item[0]+"' alt='"+item[2]"'> </img>"+"</a>"
         output += "</div>"
-        output += "<hr>"
     return output
 
 def running(command):
