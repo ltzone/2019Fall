@@ -37,24 +37,16 @@ except:
 urls = (
     '/', 'index',
     '/s', 's',
-    '/img', 'i',
-    '/jump','j',
 )
 
 
 render = web.template.render('templates') # your templates
 
-login = form.Form(
-    form.Textbox('keyword',web.form.notnull),
-    form.Radio('option',['web','images']),
-    form.Button('Search'),
-)
 
 
 class index:
     def GET(self):
-        f = login()
-        return render.index(f)
+        return render.index()
 
 class s:
     def GET(self):
@@ -63,11 +55,9 @@ class s:
         kw = user_data.keyword
         vm_env.attachCurrentThread()
         if (option == 'web'):
-            f = login()
             contents = web_func(kw)
             return render.result('Web',kw, contents)
         else :
-            f = login()
             contents = img_func(kw)
             return render.result('Img',kw, contents)
 
