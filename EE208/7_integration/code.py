@@ -65,11 +65,11 @@ class s:
         if (option == 'web'):
             f = login()
             contents = web_func(kw)
-            return render.result(f, kw, contents)
+            return render.result('Web',kw, contents)
         else :
             f = login()
             contents = img_func(kw)
-            return render.result(f, kw, contents)
+            return render.result('Img',kw, contents)
 
 
 

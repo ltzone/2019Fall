@@ -28,6 +28,8 @@ body {
 	background-color: rgba(245,245,245,0.75);
 	width: 90%;
     text-align:left;
+    attachment:fixed;
+    padding-bottom:20px;
 }
 
 .result_contents
@@ -36,7 +38,7 @@ body {
 	padding-right: 20%;
 }
 
-.resurl
+.weburl
 {
 	color: rgb(0,169,16);
 	word-break:keep-all;
@@ -59,7 +61,7 @@ body {
 }
 
 
-.restext
+.webtext
 {
 	color: rgb(102,102,102);
 	font-size: 12px;

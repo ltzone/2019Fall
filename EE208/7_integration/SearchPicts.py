@@ -42,7 +42,7 @@ def img_func(query):
         count += 1
         output += "<div class='imgsec' id='res"+str(count)+"'>"
         output += "<a href='"+item[1]+"'>"
-        output += "<img src='"+item[0]+"' alt='"+item[2]"'> </img>"+"</a>"
+        output += "<img src='"+item[0]+"' alt='"+item[2]+"'> </img>"+"</a>"
         output += "</div>"
     return output
 
