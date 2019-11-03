@@ -71,6 +71,8 @@
       <change afterPath="$PROJECT_DIR$/5_lucene_pict/index/segments.gen" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/5_lucene_pict/index/segments_1" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/5_lucene_pict/index/write.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/EE208.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EE208.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/samples4/.goutputstream-RDUBQZ" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/samples4/.goutputstream-RDUBQZ 2019-10-08 03_23_25" beforeDir="false" />
@@ -177,12 +179,14 @@
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/seg/test_finalseg.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/seg/test_jieba.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/Samples/seg/test_mmseg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_lucene/index/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/4_lucene/index/segments.gen" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/samples4/index/_8.cfe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/samples4/index/_8.cfs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/samples4/index/_8.si" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/samples4/index/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/4_lucene/samples4/index/segments.gen" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_lucene/samples4/index/segments_a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_web.py/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/6_web.py/templates/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_integration/SearchPicts.py" beforeDir="false" afterPath="$PROJECT_DIR$/7_integration/SearchPicts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_integration/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/7_integration/static/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -206,18 +210,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/4_lucene" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/7_integration" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/7_integration" />
       <recent name="$PROJECT_DIR$/6_web.py" />
       <recent name="$PROJECT_DIR$/4_lucene" />
       <recent name="$PROJECT_DIR$/5_lucene_pict" />
       <recent name="$PROJECT_DIR$/4_lucene/testdir" />
-      <recent name="$PROJECT_DIR$/3_crawler" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/7_integration/static" />
+      <recent name="$PROJECT_DIR$/7_integration" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/5_lucene_pict" />
     </key>
   </component>
@@ -233,7 +240,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.code">
+  <component name="RunManager" selected="Python.code (1)">
+    <configuration name="BoolSearchFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EE208" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4_lucene" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4_lucene/BoolSearchFiles.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="HighlightSearchFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,7 +274,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6_web.py/HighlightSearchFiles.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7_integration/HighlightSearchFiles.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UpdateFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EE208" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4_lucene" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4_lucene/UpdateFiles.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="code (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EE208" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7_integration" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7_integration/code.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,7 +348,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.code (1)" />
         <item itemvalue="Python.code" />
+        <item itemvalue="Python.BoolSearchFiles" />
+        <item itemvalue="Python.UpdateFiles" />
         <item itemvalue="Python.HighlightSearchFiles" />
       </list>
     </recent_temporary>
@@ -504,7 +577,28 @@
       <option name="project" value="LOCAL" />
       <updated>1571502802856</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="EX6 code finished!">
+      <created>1571503255093</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1571503255093</updated>
+    </task>
+    <task id="LOCAL-00032" summary="integration half complete, img display expected">
+      <created>1572707347702</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1572707347702</updated>
+    </task>
+    <task id="LOCAL-00033" summary="webpage checked">
+      <created>1572769172487</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1572769172487</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -533,10 +627,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="crawler1 finished" />
-    <MESSAGE value="code 2.1" />
-    <MESSAGE value="URL v2.0" />
-    <MESSAGE value="IMG v2.0" />
     <MESSAGE value="CODE 2.3" />
     <MESSAGE value="CODE 2.4 init" />
     <MESSAGE value="CODE 3.1 bitarray" />
@@ -558,6 +648,10 @@
     <MESSAGE value="EX6 a highlight searcher is built" />
     <MESSAGE value="highlightsearch integrated but with lucene problem" />
     <MESSAGE value="syntax error on page" />
-    <option name="LAST_COMMIT_MESSAGE" value="syntax error on page" />
+    <MESSAGE value="EX6 code finished!" />
+    <MESSAGE value="EX6 rename" />
+    <MESSAGE value="integration half complete, img display expected" />
+    <MESSAGE value="webpage checked" />
+    <option name="LAST_COMMIT_MESSAGE" value="webpage checked" />
   </component>
 </project>

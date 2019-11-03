@@ -40,10 +40,12 @@ def img_func(query):
     count = 0
     for item in result_seg:
         count += 1
+        output += "<div class='col-md-3'>"
         output += "<div class='imgsec' id='res"+str(count)+"'>"
-        output += "<a href='"+item[1]+"'>"
-        output += "<img src='"+item[0]+"' alt='"+item[2]+"'> </img>"+"</a>"
-        output += "</div>"
+        output += "<a class='thumbnail' href='"+item[1]+"'>"
+        output += "<img class='img-responsive' src='"+item[0]+"' alt='"+item[2]+"'> </img>"
+        output += "<p class='imgtext'>"+item[2]+"</p></a>"        
+        output += "</div></div>"
     return output
 
 def running(command):

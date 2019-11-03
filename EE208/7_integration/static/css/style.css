@@ -38,6 +38,15 @@ body {
 	padding-right: 20%;
 }
 
+.result_contents .img-responsive
+{
+	height: 200px;
+}
+.result_contents p
+{
+	text-align: center;
+}
+
 .weburl
 {
 	color: rgb(0,169,16);
@@ -60,6 +69,13 @@ body {
 	margin-bottom: 4px;
 }
 
+.list li{
+	display:inline-block;
+}
+
+.list img{
+	width:200px;
+}
 
 .webtext
 {
