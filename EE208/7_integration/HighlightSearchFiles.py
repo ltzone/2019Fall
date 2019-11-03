@@ -108,7 +108,7 @@ def web_func(query):
     count = 0
     for item in result_seg:
         count += 1
-        output += "<div id='res"+str(count)+"'>"
+        output += "<div class='websec' id='res"+str(count)+"'>"
         output += "<h3><a href='"+item[1]+"'>"+item[0]+"</a></h3>"
         output += "<p>"+item[2]+"</p>"
         output += item[1]

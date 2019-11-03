@@ -40,7 +40,7 @@ def img_func(query):
     count = 0
     for item in result_seg:
         count += 1
-        output += "<div id='res"+str(count)+"'>"
+        output += "<div class='imgsec' id='res"+str(count)+"'>"
         output += "<h3><a href='"+item[1]+"'>"+item[2]+"</a></h3>"
         output += "<img src='"+item[0]+"'> </img>"
         output += "</div>"
