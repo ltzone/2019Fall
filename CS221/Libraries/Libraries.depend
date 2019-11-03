@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1571540211 source:d:\git\2019fall\cs221\libraries\main.cpp
+1572168657 source:d:\git\2019fall\cs221\libraries\main.cpp
 	<iostream>
 	"linkQueue.h"
 	"seqQueue.h"
@@ -7,14 +7,14 @@
 	"seqStack.h"
 	"sLinkList.h"
 
-1571540211 d:\git\2019fall\cs221\libraries\linkqueue.h
+1572168657 d:\git\2019fall\cs221\libraries\linkqueue.h
 
-1571540211 d:\git\2019fall\cs221\libraries\seqqueue.h
+1572168657 d:\git\2019fall\cs221\libraries\seqqueue.h
 
-1571540211 d:\git\2019fall\cs221\libraries\linkstack.h
+1572168657 d:\git\2019fall\cs221\libraries\linkstack.h
 
-1571540211 d:\git\2019fall\cs221\libraries\seqstack.h
+1572168657 d:\git\2019fall\cs221\libraries\seqstack.h
 
-1571540211 d:\git\2019fall\cs221\libraries\slinklist.h
+1572168657 d:\git\2019fall\cs221\libraries\slinklist.h
 	<iostream>
 

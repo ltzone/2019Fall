@@ -1,25 +1,98 @@
-#ifndef BINARYTREE_H_INCLUDED
-#define BINARYTREE_H_INCLUDED
+#include <iostream>
 
-template<class T>
-class bTree {
+using namespace std;
+
+
+/************
+STL linkQueue
+   front                       rear
+[a1,next]->[a2,next]->....->[an,NULL]
+i.p. for empty queue: front = rear = NULL
+
+isEmpty()
+enQueue(elemType)
+deQueue()
+getHead()
+
+************/
+template <class elemType>
+class linkQueue
+{
+private:
+    struct node {
+        elemType  data;
+        node *next;
+        node(const elemType &x, node *N = NULL){ data = x; next = N;}
+        node():next(NULL) {}
+        ~node() {}
+	};
+	node *front, *rear;
 public:
-    virtual void clear() = 0;
-    virtual bool isEmpty() const = 0;
-    virtual T Root(T flag) const = 0;
-    virtual T parent(T x， T flag) const = 0;
-    virtual T lchild（T x, T flag) const = 0;
-    virtual T rchild（T x, T flag) const = 0;
-    virtual void delLeft(T x) = 0;
-    virtual void delRight(T x) = 0;
-    virtual void preOrder() const = 0;
-    virtual void midOrder() const = 0;
-    virtual void postOrder() const= 0;
-    virtual void levelOrder() const = 0;
+    linkQueue();
+    ~linkQueue();
+    bool isEmpty() const;
+    void enQueue(const elemType &x);
+    elemType deQueue();
+    elemType getHead() const;
 };
 
+template <class elemType>
+linkQueue<elemType>::linkQueue()
+{
+   front = rear = NULL;
+}
+
+template <class elemType>
+void linkQueue<elemType>::enQueue(const elemType &x)
+{
+    if (rear == NULL) front = rear = new node(x);
+    else rear = rear->next = new node(x);
+}
+
+template <class elemType>
+elemType linkQueue<elemType>::deQueue()
+{
+    node *tmp = front;
+    elemType value = front->data;
+    front = front->next;
+    if (front == NULL) rear = NULL;
+    delete tmp;
+    return value;
+}
+
+template <class elemType>
+bool linkQueue<elemType>::isEmpty() const
+{
+     return front == NULL;
+}
+
+template <class elemType>
+elemType linkQueue<elemType>::getHead() const
+{
+     return front->data;
+}
+
+template <class elemType>
+linkQueue<elemType>::~linkQueue()
+{
+    node *tmp;
+    while (front != NULL) {
+        tmp = front;
+        front = front->next;
+        delete tmp;
+    }
+}
+
+/************
+STL Binary Tree
+*************
+*************
+************/
+
+
 template<class T>
-class binaryTree : public bTree<T> {
+class binaryTree
+{
     friend void printTree(const binaryTree &t, T flag);
 private:
     struct Node
@@ -46,9 +119,35 @@ private:
         void preOrder() const;
         void midOrder() const;
         void postOrder() const;
-        void levelOrder() const;
+        void levelOrder(T flag) const;
         void createTree(T flag);
         T parent(T x, T flag) const { return flag; }
+
+        void buildbyorder_ind (T preord[], T midord[], int pre1, int pre2, int mid1, int mid2, Node* root)
+        {
+            if (pre1 > pre2) return;
+            if (pre1 == pre2)
+            {
+                root->data = preord[pre1];
+                return;
+            }
+            int i;
+            for (i=mid1+1;midord[i] != preord[pre1];++i) {}
+            root -> data = midord[i];
+            root -> left = new Node;
+            root -> right = new Node;
+            buildbyorder_ind(preord,midord,pre1+1,pre1+i-mid1,mid1,i-1,root->left);
+            buildbyorder_ind(preord,midord,pre1+i-mid1+1,pre2,i+1,mid2,root->right);
+        }
+
+        void buildbyorder (T preord[], T midord[], int len)
+        {
+            clear();
+            root = new Node;
+            buildbyorder_ind(preord,midord,0,len-1,0,len-1,root);
+        }
+
+
     private:
         Node *find(T x, Node *t ) const;
         void clear(Node *&t) ;
@@ -86,6 +185,12 @@ void binaryTree<T>::clear()
     clear(root);
 }
 
+template <class T>
+binaryTree<T>::~binaryTree()
+{
+	    clear(root);
+}
+
 template<class T>
 void binaryTree<T>::preOrder(binaryTree<T>::Node *t)  const
 {
@@ -94,7 +199,7 @@ void binaryTree<T>::preOrder(binaryTree<T>::Node *t)  const
     preOrder(t->left);
     preOrder(t->right);
 }
- 
+
 template<class T>
 void binaryTree<T>::preOrder()  const
 {    cout << "\nPredoredr:";
@@ -109,7 +214,7 @@ void binaryTree<T>::midOrder(binaryTree<T>::Node *t) const
     cout << t->data << ' ';
     midOrder(t->right);
 }
- 
+
 template<class T>
 void binaryTree<T>::midOrder() const
 {
@@ -125,7 +230,7 @@ void binaryTree<T>::postOrder(binaryTree<T>::Node *t)  const
     postOrder(t->right);
     cout << t->data << ' ';
 }
- 
+
 template<class T>
 void binaryTree<T>::postOrder()  const
 {
@@ -134,25 +239,28 @@ void binaryTree<T>::postOrder()  const
 }
 
 template<class T>
-void binaryTree<T>::levelOrder() const
+void binaryTree<T>::levelOrder(T flag) const
 {
     linkQueue< Node * > que;
     Node *tmp;
-     
-    cout << "layertraverse:";
     que.enQueue(root);
-     
     while (!que.isEmpty())
     {
         tmp = que.deQueue();
-        cout << tmp->data << ' ';
-        if (tmp->left) que.enQueue(tmp->left);
-        if (tmp->right) que.enQueue(tmp->right);
+        if (tmp)
+        {
+            cout << tmp->data << ' ';
+            if (tmp->left) que.enQueue(tmp->left);
+            else que.enQueue(NULL);
+            if (tmp->right) que.enQueue(tmp->right);
+            else que.enQueue(NULL);
+        }
+        else cout << "NULL ";
     }
 }
 
 template <class T>
-binaryTree<T>::Node *binaryTree<T>::
+typename binaryTree<T>::Node *binaryTree<T>::
  find(T x, binaryTree<T>::Node *t) const
 {
     Node *tmp;
@@ -195,7 +303,7 @@ T binaryTree<T>::rchild(T x, T flag) const
 }
 
 template <class Type>
-void BinaryTree<Type>::createTree(Type flag)
+void binaryTree<Type>::createTree(Type flag)
 {
     linkQueue< Node * > que;
     Node *tmp;
@@ -209,7 +317,7 @@ void BinaryTree<Type>::createTree(Type flag)
         tmp = que.deQueue();
         cout << "Input" << tmp->data
                 << "'s two songs(" << flag
-                << "represents null)：";
+                << "represents null)£º";
         cin >> ldata >> rdata;
         if (ldata != flag)
             que.enQueue(tmp->left = new Node(ldata));
@@ -219,22 +327,26 @@ void BinaryTree<Type>::createTree(Type flag)
     cout << "create completed!\n";
 }
 
-template <class T>
-void printTree(const binaryTree<T> &t, T flag)
-{
-    linkQueue<T> q;
-    q.enQueue(t.root->data);
-    cout << endl;
-    while (!q.isEmpty())
-    {
-        char p, l, r;
-        p = q.deQueue();
-        l = t.lchild(p,flag);
-        r = t.rchild(p,flag);
-        cout << p << "  " << l  << "  " << r << endl;
-        if (l != '@') q.enQueue(l);
-        if (r != '@') q.enQueue(r);
-    }
-}
 
-#endif // BINARYTREE_H_INCLUDED
+
+
+
+
+
+int main()
+{
+    char preord[27];
+    char midord[27];
+    cin >> preord;
+    cin >> midord;
+    int len = 0;
+    while (preord[len]!='\0') ++len;
+
+    binaryTree<char> t;
+    t.buildbyorder(preord,midord,len);
+
+    t.levelOrder(preord[len-1]);
+
+
+    return 0;
+}
