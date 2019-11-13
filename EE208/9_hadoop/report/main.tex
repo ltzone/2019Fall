@@ -46,12 +46,14 @@ Map-Reduce的原理在上一次实验中已阐述。简单来说，Map对输入�
 
 \paragraph{计算单词平均长度}
 
+我们可以采用和WordCount Example类似的思想解决计算单词平均长度的问题。对读入的每个单词，我们将其通过Map函数产生（首字母，单词长度，单词个数（初始值为1））的记录，在Reduce函数中，对相同首字母的记录做合并操作，将单词长度、单词个数进行累加，最后输出单词长度和单词个数之商，就得到了所有首字母开头的单词的平均长度分布。
 
 
 \paragraph{计算PageRank}
 本实验中，我们通过迭代的方式计算图的PageRank。在一次迭代中，我们通过以下公式计算一个点的PageRank。
 $$ PageRank(v) = \sum_{(u,v)\in \mathbf{G}} {\frac{PageRank(u)}{OutDegree(u)}}$$
-可以证明，在对所有节点进行该运算后，一次迭代运算的结果中所有节点的PageRank之和仍为1，且在连通性较好的情况下中，多次迭代能够收敛到页面真实的PageRank值。
+
+数学中可以证明，在对所有节点进行该运算后，一次迭代运算的结果中所有节点的PageRank之和仍为1，且在连通性较好的情况下中，多次迭代能够收敛到页面真实的PageRank值。
 
 在分布式实现方面，我们假设图是以邻接表的形式存储在文本文件中的，由于图的结构在运算过程中只会被读取，不会被修改，因此我们考虑在实验中将图作为一组静态数据，在输入时图结构会被Map函数读入参与运算，在Reduce过程中，参与运算后就会被消去。在下一次迭代时，再重新通过Map函数读取静态的图结构邻接表参与PageRank的运算。
 
@@ -63,37 +65,10 @@ $$ PageRank(v) = \sum_{(u,v)\in \mathbf{G}} {\frac{PageRank(u)}{OutDegree(u)}}$$
 
 \section{实验步骤}
 
-\subsection{安装Hadoop}
+\subsection{计算单词平均长度}
 
-根据实验材料中的提示，我们在Linux虚拟机中为分配了账户，依次下载、安装了java8，Hadoop2.7.3，并完成了Hadoop的配置。
 
 \subsection{计算$\pi$}
-
-Hadoop计算$\pi$的原理已在上一节中进行解释。Hadoop Example中已对改运算进行了封装，我们调用时需要传入两个参数，map是运行map任务的个数，sample是每个map任务中取样的个数。map与sample之积就是一次统计中的全部试验个数。我们在命令行中调用该函数的命令如下。
-\begin{python}
-hadoopjar /usr/local/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.3.jar pi 2 10
-\end{python}
-
-试验结果如下所示：
-\begin{table}[htbp]
-\begin{tabular}{cccccc}
-\hline
-\textbf{Experiment} & \textbf{\begin{tabular}[c]{@{}c@{}}Number of\\ Maps\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Number of\\ Samples\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Total Sample\\ Counts\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Running\\ Time(s)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Estimated\\ pi\end{tabular}} \\ \hline
-1                   & 2                                                                 & 10                                                                   & 20                                                                     & 18.275                                                             & 3.8                                                             \\
-2                   & 5                                                                 & 10                                                                   & 50                                                                     & 22.300                                                             & 3.28                                                            \\
-3                   & 1                                                                 & 100                                                                  & 100                                                                    & 17.244                                                             & 3.2                                                             \\
-4                   & 10                                                                & 10                                                                   & 100                                                                    & 26.427                                                             & 3.2                                                             \\
-5                   & 2                                                                 & 100                                                                  & 200                                                                    & 17.759                                                             & 3.12                                                            \\
-6                   & 10                                                                & 100                                                                  & 1000                                                                   & 27.978                                                             & 3.148                                                           \\
-7                   & 20                                                                & 100000                                                               & 2000000                                                                & 48.594                                                             & 3.141504                                                        \\
-8                   & 100                                                               & 100000                                                               & 10000000                                                               & 75.672                                                             & 3.1415844                                                       \\
-9                   & 10                                                                & 1000000                                                              & 10000000                                                               & 27.616                                                             & 3.1415844                                                       \\
-10                  & 10                                                                & 10000000                                                             & 100000000                                                              & 27.340                                                             & 3.14159256                                                      \\ \hline
-\end{tabular}
-\end{table}
-
-从相同样本数的实验中可以得知，在不改变随机数列的种子的情况下，该样例的算法是确定性的。比较3、4实验可得，在数据量较小的情况下，Maps过多会增加运行时间，比较8、9实验可得，过多的Maps在超过本机运行能力的情况下，也会拖慢运行时间，比较9、10实验则可得，在选取合适的Maps条件下，分布式计算能够有效减小甚至消除由于样本数增多而造成的时间消耗。根据实验结果所得，当样本数达到$10^8$数量级时，$\pi$的估算能够达到5位小数的精度。
-
 
 \begin{figure}[htbp]
 \centering
