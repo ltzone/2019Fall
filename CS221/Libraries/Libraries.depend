@@ -1,20 +1,31 @@
 # depslib dependency file v1.0
-1572168657 source:d:\git\2019fall\cs221\libraries\main.cpp
+1573636497 source:d:\git\2019fall\cs221\libraries\main.cpp
 	<iostream>
 	"linkQueue.h"
 	"seqQueue.h"
 	"linkStack.h"
 	"seqStack.h"
 	"sLinkList.h"
+	"binaryTree.h"
+	"heap.h"
+	"priorityqueue.h"
 
-1572168657 d:\git\2019fall\cs221\libraries\linkqueue.h
+1573535016 d:\git\2019fall\cs221\libraries\linkqueue.h
 
-1572168657 d:\git\2019fall\cs221\libraries\seqqueue.h
+1573535016 d:\git\2019fall\cs221\libraries\seqqueue.h
 
-1572168657 d:\git\2019fall\cs221\libraries\linkstack.h
+1573535016 d:\git\2019fall\cs221\libraries\linkstack.h
 
-1572168657 d:\git\2019fall\cs221\libraries\seqstack.h
+1573535016 d:\git\2019fall\cs221\libraries\seqstack.h
 
-1572168657 d:\git\2019fall\cs221\libraries\slinklist.h
+1573535016 d:\git\2019fall\cs221\libraries\slinklist.h
 	<iostream>
+
+1573636610 d:\git\2019fall\cs221\libraries\binarytree.h
+	<iostream>
+	"linkQueue.h"
+
+1573547234 d:\git\2019fall\cs221\libraries\heap.h
+
+1573635538 d:\git\2019fall\cs221\libraries\priorityqueue.h
 
