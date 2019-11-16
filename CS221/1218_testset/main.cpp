@@ -76,6 +76,66 @@ public:
         cout << endl;
     }
 
+    void union_add2(int* input, int cnt)
+    {
+        sort_input(input,cnt);
+        int j=0;
+        node *tmp;
+        node * tmph = new node(-2147483648);
+        node * q=new node(2147483647,tmph,NULL);
+        tmph->next = q;
+        node * p = head->next;
+        int mergelength = 0;
+        while (p!=tail && j < cnt)
+        {
+            if (p->data < input[j])
+            {
+                tmp = new node(p->data,q->prev,q);
+                q->prev->next = tmp;
+                q->prev = tmp;
+                ++mergelength;
+                p = p->next;
+            }
+            else
+            {
+                tmp = new node(input[j],q->prev,q);
+                q->prev->next = tmp;
+                q->prev = tmp;
+                ++mergelength;
+
+                if (p->data==input[j]) p=p->next;
+                j += 1;
+            }
+        }
+
+
+        while (p!=tail)
+        {
+            tmp = new node(p->data,q->prev,q);
+            q->prev->next = tmp;
+            q->prev = tmp;
+            ++mergelength;
+            p = p->next;
+        }
+
+        while (j < cnt)
+        {
+            tmp = new node(input[j],q->prev,q);
+            q->prev->next = tmp;
+            q->prev = tmp;
+            ++mergelength;
+            j += 1;
+        }
+        clear();
+        delete head;
+        head = tmph;
+        delete tail;
+        tail = q;
+        currentLength = mergelength;
+        print();
+    }
+
+
     void union_add(int* input, int cnt)
     {
         sort_input(input,cnt);
@@ -92,7 +152,7 @@ public:
 
         while (p!=tail && q<cnt)
         {
-            if (p->data == input[q]) { p=p->next; ++q; }
+            if (p->data == input[q]) { ++q; }
             else if (p->data < input[q])
             {
                 if (p->next->data > input[q])
@@ -101,6 +161,7 @@ public:
                     p->next->prev = tmp;
                     p->next = tmp;
                     ++currentLength;
+                    ++q;
                 }
                 p = p->next;
             }
@@ -153,6 +214,50 @@ public:
         print();
     }
 
+    void intersect2 (int* input, int cnt)
+    {
+        sort_input(input,cnt);
+        node *p = head->next;
+        int q = 0;
+        node *tmp;
+
+        for (;p!=tail&&q<cnt;p=p->next)
+        {
+            if (p->data == input[q])
+            {
+                ++q;
+            }
+            else if (p->data > input[q])
+            {
+                ++q; p = p->prev;
+            }
+            else
+            {
+                tmp = p->next;
+                p->prev->next = tmp;
+                tmp->prev = p->prev;
+                delete p;
+                --currentLength;
+                p = tmp;
+                p = p->prev;
+            }
+        }
+        if (p!=tail)
+        {
+            tmp = p;
+            p->prev->next = tail;
+            tail->prev = p->prev;
+            while (p!=tail)
+            {
+                tmp = p->next;
+                delete p;
+                p = tmp;
+                --currentLength;
+            }
+        }
+        print();
+    }
+
     void intersect_minus (int* input, int cnt)
     {
         sort_input(input,cnt);
@@ -181,6 +286,32 @@ public:
         print();
     }
 
+    void intersect_minus2 (int* input, int cnt)
+    {
+        sort_input(input,cnt);
+        node *p = head->next;
+        int q = 0;
+        node *tmp;
+        for (q=0;q<cnt&&p!=tail;++q)
+        {
+            if (p->data == input[q])
+            {
+                tmp = p->next;
+                p->prev->next = tmp;
+                tmp->prev = p->prev;
+                delete p;
+                --currentLength;
+                p = tmp;
+            }
+            else if (p->data < input[q])
+            {
+                p = p->next;
+                --q;
+            }
+        }
+        print();
+    }
+
 };
 
 void input_input (int* input, int cnt)
@@ -203,7 +334,7 @@ int main()
         {
             cin >> cnt; int *input = new int [cnt];
             input_input(input,cnt);
-            t.intersect(input,cnt);
+            t.intersect2(input,cnt);
             delete [] input;
         }
 
@@ -211,14 +342,14 @@ int main()
         {
             cin >> cnt; int *input = new int [cnt];
             input_input(input,cnt);
-            t.union_add(input,cnt);
+            t.union_add2(input,cnt);
             delete [] input;
         }
         if (op== '-')
         {
             cin >> cnt; int *input = new int [cnt];
             input_input(input,cnt);
-            t.intersect_minus(input,cnt);
+            t.intersect_minus2(input,cnt);
             delete [] input;
         }
     }
