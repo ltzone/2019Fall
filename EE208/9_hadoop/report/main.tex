@@ -257,7 +257,7 @@ if (src != current_src):
    print '%s\t%.4f' % (src,float(seg[1])*(1-alpha))  # src节点的pagerank
 \end{python}
 
-使用实验材料所给的数据如下所示。
+改进后的实验中，我们使用了助教所给的实验数据，如下所示。
 
 \begin{python}
 # Graph Structure
@@ -269,27 +269,7 @@ src | dst      | Initial PageRank
  4  | 2        | 0.25
 \end{python}
 
-我们得到的迭代结果如下所示。
-\begin{center}
-\begin{table}[]
-\begin{tabular}{ccccc}
-\hline
-\textbf{Iteration} & \textbf{1} & \textbf{2} & \textbf{C} & \textbf{D} \\ \hline
-1                  & 0.25       & 0.25       & 0.25       & 0.25       \\
-2                  & 0.25       & 0.21       & 0.46       & 0.08       \\
-3                  & 0.46       & 0.12       & 0.33       & 0.08       \\
-4                  & 0.33       & 0.19       & 0.31       & 0.15       \\
-5                  & 0.31       & 0.18       & 0.38       & 0.11       \\
-6                  & 0.38       & 0.16       & 0.34       & 0.10       \\
-7                  & 0.34       & 0.18       & 0.36       & 0.11       \\
-8                  & 0.36       & 0.17       & 0.35       & 0.11       \\
-9                  & 0.35       & 0.17       & 0.35       & 0.12       \\
-10                 & 0.35       & 0.18       & 0.35       & 0.12       \\ \hline
-\end{tabular}
-\end{table}
-\end{center}
-
-观察发现，在第十次迭代时，PageRank的计算值已接近收敛。
+得到的迭代结果可在result文件夹中找到。观察发现，在第十次迭代时，PageRank的计算值已接近收敛。
 
 \section{实验总结}
 \paragraph{概述}
