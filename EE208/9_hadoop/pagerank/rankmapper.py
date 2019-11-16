@@ -7,6 +7,7 @@ current_src = None
 current_dst = None
 current_degree = 0
 current_rank = 0
+alpha = 0.85
 
 for line in sys.stdin:
     line = line.strip()
@@ -15,11 +16,12 @@ for line in sys.stdin:
         src = seg[0]
         if (src != current_src):
             current_src = src
-            current_rank = float(seg[1])
+            current_rank = float(seg[1])*alpha
+            print '%s\t%.4f' % (src,float(seg[1])*(1-alpha))
         else:
             if (len(seg)>1):
                 current_dst = seg[1:]
                 current_degree = len(current_dst)
                 subrank = current_rank/current_degree
                 for dst in current_dst:
-                    print '%s\t%s' % (dst,subrank)
+                    print '%s\t%.4f' % (dst,subrank)
