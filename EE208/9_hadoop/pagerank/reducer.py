@@ -13,13 +13,13 @@ for line in sys.stdin:
         src = seg[0]
         if (src != current_src):
             if (current_src):
-                print '%s %.2f' % (current_src, current_rank)
+                print '%s %.4f' % (current_src, current_rank)
             current_src = src
             current_rank = float(seg[1])
         else:
             current_rank += float(seg[1])
             
 if current_src == src:
-    print '%s %.2f' % (current_src, current_rank)
+    print '%s %.4f' % (current_src, current_rank)
     
 # (src, rank) after iteration

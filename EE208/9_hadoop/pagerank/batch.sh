@@ -20,5 +20,5 @@ do
     eval "$rm $input/_SUCCESS"
 done
 mkdir ~/result
-eval "$cp2local $output/* ~/result"
-
+eval "$cp2local tempinput_merge* ~/result"
+eval "$cp2local tempoutput* ~/result"
