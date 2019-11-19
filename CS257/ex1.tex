@@ -1,0 +1,271 @@
+\exercise {
+Let $C \subseteq \mathbf{R}^{n}$ be a convex set, with $x_{1}, \ldots, x_{k} \in C,$ and let $\theta_{1}, \ldots, \theta_{k} \in \mathbf{R}$ satisfy $\theta_{i} \geq 0, \theta_{1}+\cdots+\theta_{k}=1 $ Show that $ \theta_{1} x_{1}+\cdots+\theta_{k} x_{k} \in C $ . ( The definition of convexity is that this holds for $ k=2 $; you must show it for arbitrary $k $. ) Hint. Use induction on $k$.
+}
+\begin{proof}
+By induction on $k$,
+
+When $k = 2$, since $\theta_{1} + \theta_{2} = 1$, we get $\theta_{1} x_{1} + \theta_{2} x_{2} \in C$ by the definition of convexity.
+
+Assume when $k = n$, the result holds.
+
+For $k = n + 1$, 
+\begin{equation}
+ \theta_{1} x_{1}+\cdots + \theta_{n} x_{n} + \theta_{n+1} x_{n+1} = (\theta_{1} + \cdots + \theta_{n} ) \cdot ( \frac{\theta_1}{\theta_{1} + \cdots + \theta_{n}} x_{1} + \cdots + \frac{\theta_n}{\theta_{1} + \cdots + \theta_{n}} x_{n}) +  \theta_{n+1} x_{n+1}
+\label{ex:1.1}
+\end{equation}
+
+By inductive hypothesis,
+$$ \frac{\theta_1}{\theta_{1} + \cdots + \theta_{n}} x_{1} + \cdots + \frac{\theta_n}{\theta_{1} + \cdots + \theta_{n}} x_{n} \in C $$
+
+Then we know that $$ (\theta_{1} + \cdots + \theta_{n} ) \cdot ( \frac{\theta_1}{\theta_{1} + \cdots + \theta_{n}} x_{1} + \cdots + \frac{\theta_n}{\theta_{1} + \cdots + \theta_{n}} x_{n}) +  \theta_{n+1} x_{n+1} \in C $$
+
+by the definition of convexity on equation \ref{ex:1.1}.
+
+
+The result follows by induction. 
+\end{proof}
+
+
+\exercise{Show that a set is convex if and only if its intersection with any line is convex. Show that a set is affine if and only if its intersection with any line is affine.}
+
+\begin{proof}
+
+For the first argument, A set is convex if and only if its intersection with any line is convex.
+
+\begin{enumerate}
+\item{
+if a set $C$ is convex, then for any of its intersection with a line $l$, for arbitrary $x_1, x_2 \in l \cap C, \theta \in [0,1],$
+
+On one hand, $x = \tta x_1 + (1-\tta) x_2 \in C$ by definition of convexivity.
+
+On the other hand, $x = \tta x_1 + (1-\tta) x_2$ must be on the line segment between $x_1$ and $x_2$.
+
+Hence $x = \tta x_1 + (1-\tta) x_2 \in C \cap l$. i.e. $C \cap l$ is a convex set.}
+\item{
+if for any line $l$, $C \cap l$ is convex, for arbitrary $x_1, x_2 \in C, \theta \in [0,1]$,
+
+$x_1, x_2$ forms a line $l' = \{x \vert x = \tta x_1 + (1 - \tta x_2), \tta \in \Rb \}$.
+
+By condition we know that $l' \cap C$ is a convex set.
+
+Then for $\tta \in [0,1]$, $x = \tta x_1 + (1-\tta) x_2 \in l' \cap C \subseteq C$ by definition, i.e. $C$ is a convex set.}
+\end{enumerate}
+
+For the second argument, A set is affine if and only if its intersection with any line is affine.
+
+\begin{enumerate}
+\item{
+if a set $C$ is affine, then for any of its intersection with a line $l$, for arbitrary $x_1, x_2 \in l \cap C, \theta \in \Rb,$
+
+On one hand, $x = \tta x_1 + (1-\tta) x_2 \in C$ by definition of affinity.
+
+On the other hand, $x = \tta x_1 + (1-\tta) x_2$ must be on the line formed by $x_1$ and $x_2$.
+
+Hence $x = \tta x_1 + (1-\tta) x_2 \in C \cap l$. i.e. $C \cap l$ is an affine set.}
+\item{
+if for any line $l$, $C \cap l$ is affine, for arbitrary $x_1, x_2 \in C, \theta \in \Rb$,
+
+$x_1, x_2$ forms a line $l' = \{x \vert x = \tta x_1 + (1 - \tta x_2), \tta \in \Rb \}$.
+
+By condition we know that $l' \cap C$ is an affine set.
+
+Then for $\tta \in \Rb$, $x = \tta x_1 + (1-\tta) x_2 \in l' \cap C \subseteq C$ by definition, i.e. $C$ is an affine set.}
+\end{enumerate}
+\end{proof}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%EXERCISE 3
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\exercise{$\text { Which of the sets } S \text { are polyhedra?}$ $\text{ If possible, express } S \text { in the form } S=\{x | A x \preceq b, F x=g\} $
+\begin{enumerate}
+\item $S=\left\{y_{1} a_{1}+y_{2} a_{2} |-1 \leq y_{1} \leq 1,-1 \leq y_{2} \leq 1\right\},$ where $a_{1}, a_{2} \in \mathbf{R}^{n} $
+
+\item $S=\left\{x \in \mathbf{R}^{n} | x \succeq 0,1^{T} x=1, \sum_{i=1}^{n} x_{i} a_{i}=b_{1}, \sum_{i=1}^{n} x_{i} a_{i}^{2}=b_{2}\right\},$ where $a_{1}, \ldots, a_{n} \in \mathbf{R}$ and $b_{1}, b_{2} \in \mathbf{R} . $
+
+\item $S=\left\{x \in \mathbf{R}^{n} | x \succeq 0, x^{T} y \leq 1 \text { for all } y \text { with }\|y\|_{2}=1\right\} $
+
+\item $S=\left\{x \in \mathbf{R}^{n} | x \succeq 0, x^{T} y \leq 1 \text { for all } y \text { with } \sum_{i=1}^{n}\left|y_{i}\right|=1\right\} $
+\end{enumerate}
+}
+\begin{solution}
+\par{~}
+
+\begin{enumerate}
+
+\item { $S=\left\{y_{1} a_{1}+y_{2} a_{2} |-1 \leq y_{1} \leq 1,-1 \leq y_{2} \leq 1\right\}$ is a polyhedra.
+
+W.l.o.g, assume that $a_1,a_2$ are linearly independent. Let $V = \begin{bmatrix} v_1 & \cdots & v_{n-2} \end{bmatrix} $ be the nullspace of matrix $ \begin{bmatrix} a_1 & a_2 \end{bmatrix} ^T $. 
+
+\begin{equation}
+Vx = 0, \text{ where }  V = \begin{bmatrix} v_1 & \cdots & v_{n-2} \end{bmatrix}
+\label{eqn:3.1}
+\end{equation}
+The plane $S'$ described by equation \ref{eqn:3.1} indicates that $x = y_{1} a_{1}+y_{2} a_{2}$ lies on plane $S'$ formed by $a_1$ and $a_2$
+
+According to $-1 \leq y_{1} \leq 1,-1 \leq y_{2} \leq 1$, four planes parallel to $a_1$ or $a_2$ and orthogonal to $\Ncal(\begin{bmatrix} a_1 & a_2 \end{bmatrix} ^T)$ are the boundary of the polyhedra.
+
+We construct two mutually orthogonal vectors as follows to describe the plane $S'$ within a metric.
+$$v_1 = a_1 - \frac{\lag a_1 , a_2\rag}{\mid a_2 \mid ^2}$$
+$$v_2 = a_2- \frac{\lag a_1 , a_2\rag}{\mid a_1 \mid ^2}$$
+
+Then vector $x$ is in the boundary of the polyhedra can be described as
+\begin{equation}
+\begin{split}
+ v_1^T x \leq \left| v_1^T a_1 \right| \\
+ v_1^T x \geq - \left| v_1^T a_1 \right| \\
+ v_2^T x \leq \left| v_2^T a_2 \right| \\
+ v_2^T x \geq - \left| v_2^T a_2 \right| 
+\end{split}
+\label{eqn:3.2}
+\end{equation}
+
+Combine equation \ref{eqn:3.1} and inequality \ref{eqn:3.2}, polyhedra $S$ is expressed.
+
+}
+
+\item { $S=\left\{x \in \mathbf{R}^{n} | x \succeq 0,1^{T} x=1, \sum_{i=1}^{n} x_{i} a_{i}=b_{1}, \sum_{i=1}^{n} x_{i} a_{i}^{2}=b_{2}\right\}$ is a polyhedra already in its uniform format.
+}
+
+\item { $S=\left\{x \in \mathbf{R}^{n} | x \succeq 0, x^{T} y \leq 1 \text { for all } y \text { with }\|y\|_{2}=1\right\}$ is not a polyhedra.
+
+By Cauchy-Schwartz inequality, $\lag x,y \rag \leq \lnorm x \rnorm \cdot \lnorm y \rnorm $.
+
+Then by condition, we have $\lnorm x \rnorm \leq 1$.
+
+Conversely, if $\lnorm x \rnorm \leq 1$, then for all $\lnorm y \rnorm = 1$, it is true that $x^{T} y \leq 1$.
+
+So the original set can be equally interpreted as part of a unit ball $\lnorm x \rnorm \leq 1$, which can't be intersected by a finite number of halfspaces or halfplanes. The set in question is clearly not a polyhedra.
+}
+
+\item { $S=\left\{x \in \mathbf{R}^{n} | x \succeq 0, x^{T} y \leq 1 \text { for all } y \text { with } \sum_{i=1}^{n}\left|y_{i}\right|=1\right\} $ is a polyhedra.
+
+We can show that `$x^{T} y \leq 1 \text { for all } y \text { with } \sum_{i=1}^{n}\left|y_{i}\right|=1$' if and only if $\left| x_i \right| \leq 1, i = 1,2,\cdots ,n$
+
+If $\left| x_i \right| \leq 1, i = 1,2,\cdots ,n$, then
+
+$$x^{T} y = \sum_{i=1}^n x_i y_i \leq \sum_{i=1}^n \left| y_i \right| = 1 $$.
+
+Conversely, suppose $x$ is an arbitrary vector that can be satisfied by all $y$ with $\sum_{i=1}^{n}\left|y_{i}\right|=1$ that $x^{T} y \leq 1$.
+
+Then for the $i$-th entry in vector $x$ $x_i$, we make vector $y \in \Rb^n$ to be
+
+$$
+y_k = \begin{cases}
+1, &k = i  \text{ and } x_i \geq 0 \\
+-1, &k = i \text{ and } x_i < 0 \\
+0, &k \neq i
+\end{cases}$$
+
+By applying the condition, it follows that $\left| x_i \right| <= 1$
+
+Then the original set can be equally interpreted as
+
+$$ S = \left\{x \in \mathbf{R}^{n} | x \succeq 0, - \mathbf{1} \preceq x \preceq \mathbf{1} \right\} $$
+
+}
+
+\end{enumerate}
+
+\end{solution}
+
+
+%%%%%%%%%%%%%%%%%%%%%EXERCISE 4
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\exercise
+[Voronoi sets and polyhedral decomposition]{Let $x_{0}, \ldots, x_{K} \in \mathbf{R}^{n}$ . Consider the set of points that are closer (in Euclidean norm) to $x_0$ than the other $x_i$, i.e.,
+$$ V=\left\{x \in \mathbf{R}^{n} |\left\|x-x_{0}\right\|_{2} \leq\left\|x-x_{i}\right\|_{2}, i=1, \ldots, K\right\} $$
+
+V is called the \textit{Voronoi region} around $x_0$ with respect to $x_{1}, \ldots, x_{K}$.
+
+(a) Show that $V$ is a polyhedron. Express $V$ in the form $V=\{x | A x \preceq b\}$.
+
+(b) Conversely, given a polyhedron $P$ with nonempty interior, show how to find $x_{0}, \ldots, x_{K}$ so that the polyhedron is the Voronoi region of $x_0$ with respect to $x_{1}, \ldots, x_{K}$.
+}
+
+\begin{proof}
+\begin{enumerate}
+\item{
+From $\left\|x-x_{0}\right\|_{2} \leq\left\|x-x_{i}\right\|_{2}$ we can learn that
+\begin{equation}
+\begin{aligned}
+(x-x_0)^T(x-x_0) &\leq& (x - x_i)^T(x-x_i)\\
+x^T x - 2 x^T x_0 + x_0^T x_0 &\leq&  x^T x - 2 x^T x_i + x_i^T x_i \\
+2(x_i^T - x_0^T)x &\leq& \lnorm x_i \rnorm - \lnorm x_0 \rnorm
+\end{aligned}
+\label{eqn:4}
+\end{equation}
+
+By applying the proof in equation \ref{eqn:4} on all $x_i$, we can have
+
+
+Then the Voronoi region around $x_0$ with respect to $x_{1}, \ldots, x_{K}$ can be written as a polyhedron in $$S = \{x | Ax \preceq b, \text{ where } A = \begin{bmatrix}
+2(x_1^T - x_0^T) \\
+2(x_2^T - x_0^T) \\
+\cdots \\
+2(x_K^T - x_0^T)
+\end{bmatrix}
+, b = \begin{bmatrix}
+\lnorm x_1 \rnorm - \lnorm x_0 \rnorm \\
+\lnorm x_2 \rnorm - \lnorm x_0 \rnorm \\
+\cdots \\
+\lnorm x_K \rnorm - \lnorm x_0 \rnorm \\
+\end{bmatrix} \}  $$
+}
+
+\item{
+By definition we learn that any polyhedron can be written as a set of vectors satisfying $Ax \preceq b$.
+
+We take a vector $x_0$ in the polyhedron
+
+For every row in the simplex $a_i^T x \preceq b_i$, it can be expressed as the Voronoi set around $x_0$ and its mirror vector with respect to $a_i^T x = b$. 
+
+The mirror vector of $x_0$ with respect to $a_i^T x = b$ can be expressed as $x_i = x_0 + d \cdot a_i$.
+
+By the property of mirroring, $a_i^T x_0 + a_i^T x_i = 2b $, we can solve that $$d = \frac{2b-2a_i^T x_0}{\lnorm a_i \rnorm}$$
+It follows that the polyhedron written as $Ax \preceq b$ can be expressed by a Voronoi set around an arbitrarily chosen $x_0$ in the set with respect to a set of vectors $$x_i = x_0 + \frac{2b-2a_i^T x_0}{\lnorm a_i \rnorm} \cdot a_i \text{ ,where } a_i \text{ is the i-th row of the matrix } A$$
+}
+
+\end{enumerate}
+\end{proof}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%	EXERCISE 5
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{exercise}
+Show that if $S_{1}$ and $S_{2}$ are convex sets in $\mathbf{R}^{m+n}$, then so is their partial sum
+$$
+S=\left\{\left(x, y_{1}+y_{2}\right) | x \in \mathbf{R}^{m}, y_{1}, y_{2} \in \mathbf{R}^{n},\left(x, y_{1}\right) \in S_{1},\left(x, y_{2}\right) \in S_{2}\right\}
+$$
+\end{exercise}
+\begin{proof}
+Take arbitrary $z_1,z_2 \in S$, then by the property of $S$, we have
+\begin{equation}
+\begin{split}
+z_1 = \begin{bmatrix}x_1 & y_{11}+y_{12}\\ \end{bmatrix} \\
+z_2 = \begin{bmatrix}x_2 & y_{21}+y_{22}\\ \end{bmatrix} \\
+\begin{bmatrix}x_1 & y_{11}\\ \end{bmatrix}, \begin{bmatrix}x_2 & y_{21}\\ \end{bmatrix} \in S_1 \\
+\begin{bmatrix}x_1 & y_{12}\\ \end{bmatrix}, \begin{bmatrix}x_2 & y_{22}\\ \end{bmatrix} \in S_2 
+\end{split}
+\end{equation}
+
+For any $\theta \in [0,1]$,
+$$
+\tta z_1 + (1-\tta) z_2 =  \begin{bmatrix}\tta x_1 + (1-\tta) x_2 & (\tta y_{11} + (1-\tta) y_{21})+ (\tta y_{12} + (1-\tta) y_{22}) \end{bmatrix}
+$$
+
+By the convexity of $S_1$,
+$$
+\begin{bmatrix}\tta x_1 + (1-\tta) x_2 & (\tta y_{11} + (1-\tta) y_{21}) \end{bmatrix} \in S_1
+$$
+
+By the convexity of $S_2$,
+$$
+\begin{bmatrix}\tta x_1 + (1-\tta) x_2 & (\tta y_{12} + (1-\tta) y_{22}) \end{bmatrix} \in S_2
+$$
+
+Hence, $\tta z_1 + (1-\tta) z_2 \in S$. The result follows by definition.
+\end{proof}

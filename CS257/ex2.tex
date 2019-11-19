@@ -1,0 +1,285 @@
+\exercise {Solution set of a quadratic inequality. Let $C \in \mathbf{R}^{n}$ be the solution set of a quadratic inequality,
+$$
+C=\left\{x \in \mathbf{R}^{n} | x^{T} A x+b^{T} x+c \leq 0\right\}
+$$
+with $A \in \mathbf{S}^{n}$ (symmetric matrix), $b \in \mathbf{R}^{n},$ and $c \in \mathbf{R} .$
+
+(a) Show that $C$ is convex if $A \succeq 0$ (positive semidefinite).
+
+(b) Show that the intersection of $C$ and the hyperplane defined by $g^{T} x+h=0$ (where $g \neq 0$ ) is convex if
+$A+\lambda g g^{T} \geq 0$ for some $\lambda \in \mathbf{R}$.
+
+Are the converses of these statements true?}
+\begin{proof}
+\par{~}
+\begin{enumerate}
+
+\item{
+
+Let $f(x) = x^{T} A x+b^{T} x+c$, since $f(x)$ is differentiable, by Second-Order Conditions,
+
+On $\mathbf{R}^{n\times n}$, $\bigtriangledown^2 f(x) = A \succeq 0$ if and only if $f(x)$ is a convex function.
+
+By condition, if A is semi-positive, $f(x)$ is a convex function.
+
+Hence, for arbitrary $x_1, x_2 \in C, \theta \in [0,1]$,
+
+$$ f(\theta x + (1-\theta) y) \leq \theta f(x) + (1-\theta)f(y) \leq 0 ,$$
+
+which indicates that $ \theta x + (1-\theta) y \in C$. Therefore $C$ is a convex set.
+
+Conversely, when $A = - I, b = 0, c = 0$, $C=\left\{x \in \mathbf{R}^{n} | x^{T}x \geq 0\right\} = \mathbf{R}^{n\times n}$, $C$ is a convex set. However, $A$ is not semi-positive. The converse argument doesn't hold.
+}
+\item{
+
+Let $H$ be the intersection of $C$ and the hyperplane $g^{T} x+h=0$.
+
+For arbitrary $x_1, x_2 \in H, \theta \in \left[0,1\right] $
+
+\begin{equation}
+\begin{aligned}
+ &(\tta x_1 + (1-\tta) x_2)^T A (\tta x_1 + (1-\tta)x_2) + b^T (\tta x_1 + (1-\tta)x_2) + c \\
+= & \tta^2 x_1^T A x_1 + (1-\tta)^2 x_2^T A x_2 + \tta(1-\tta) x_1^T A x_2 + \tta (1-\tta) x_2^T A x_1 + \tta b^T x_1 + (1-\tta) b^T x_2 + c \\
+= & \tta (x_1^T A x_1 + b^T x_1 + c) + (1-\tta)(x_2^T A x_2 + b^T x_2 + c) + (\tta^2-\tta)(x_1-x_2)^T A (x_1-x_2) :\leq 0
+\end{aligned}
+\end{equation}
+
+Since $x_1,x_2 \in H$, we have that
+\begin{equation}
+\begin{aligned}
+x_1^T A x_1 + b^T x_1 + c \leq 0 \\
+x_2^T A x_2 + b^T x_2 + c \leq 0
+\end{aligned}
+\label{eqn:1-1}
+\end{equation}
+
+Note that for $x_1, x_2$ on hyperplane, we have $ g^{T} (x_1 - x_2) = 0 $. Hence,
+\begin{equation}
+\begin{aligned}
+(x_1-x_2)^T A (x_1-x_2) &= (x_1-x_2)^T A (x_1-x_2) + \lambda (x_1 - x_2)^T g g^T (x_1 - x_2) \\
+&= (x_1-x_2)^T (A+\lambda g g^T) (x_1-x_2) \geq 0
+\end{aligned}
+\label{eqn:1-2}
+\end{equation}
+
+By equation \ref{eqn:1-1} and \ref{eqn:1-2}, it follows that $f(\tta x_1 + (1-\tta) x_2) \leq 0$.
+
+Since the hyperplane $g^{T} x+h=0$ is affine, $\tta x_1 + (1-\tta) x_2 \in H$. Hence H is convex.
+
+Conversely, we take $A = \begin{bmatrix}
+1 &-1 \\
+-1& 1\\
+\end{bmatrix} b = 0, c = 0, g = \begin{bmatrix}
+1 & 0 
+\end{bmatrix}, h = 0
+$.
+Then $H = {(0,0)}$ is a convex set but there is no solution for $\lambda$ in $A + \lambda g g^T = 0$. The converse argument doesn't hold.
+}
+\end{enumerate}
+\end{proof}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%EXERCISE     2  %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\exercise{Suppose $f: \mathbf{R} \rightarrow \mathbf{R}$ is convex, and $a, b \in \operatorname{dom}(f)$ with $a<b .$
+\begin{enumerate}
+\item{Show that $$
+f(x) \leq \frac{b-x}{b-a} f(a)+\frac{x-a}{b-a} f(b), \quad \forall x \in[a, b]
+$$}
+\item{Show that $$
+\frac{f(x)-f(a)}{x-a} \leq \frac{f(b)-f(a)}{b-a} \leq \frac{f(b)-f(x)}{b-x}, \quad \forall x \in(a, b)
+$$}
+Draw a sketch that illustrate this inequality.
+\item{Suppose f is differentiable. Use the result in (b) to show that
+$$
+f^{\prime}(a) \leq \frac{f(b)-f(a)}{b-a} \leq f^{\prime}(b)
+$$}
+\item{
+$
+\text { Suppose } f \text { is twice differentiable. Use the result in (c) to show that } f^{\prime \prime}(a) \geq 0 \text { and } f^{\prime \prime}(b) \geq 0
+$
+}
+
+\end{enumerate}
+\begin{proof}
+\par{~}
+\begin{enumerate}
+
+
+\item{
+Let $$\tta = \frac{b-x}{b-a} \in \left[0,1\right],$$
+By convexivity,
+\begin{equation}
+f(x) \leq \tta f(a) + (1 - \tta) f (b) = \frac{b-x}{b-a} f(a)+\frac{x-a}{b-a} f(b)
+\label{eqn:2-1}
+\end{equation}
+}
+
+\item{
+By subtracting $f(a)$ and divide $(x-a)$ from both sides of the inequality \ref{eqn:2-1}, we can get $$\frac{f(x)-f(a)}{x-a} \leq \frac{f(b)-f(a)}{b-a}.$$
+
+Similarly, By subtracting $f(b)$ and divide $(b-x)$ from both sides of the inequality \ref{eqn:2-1}, we can get $$\frac{f(b)-f(a)}{b-a} \leq \frac{f(b)-f(x)}{b-x}.$$
+}
+
+\item{
+By taking limit of $x \rightarrow a$, we have
+\begin{equation}
+f^{\prime}(a) \leq \frac{f(b)-f(a)}{b-a}.
+\label{eqn:2-2}
+\end{equation}
+Similarly, By taking limit of $x \rightarrow b$, we have 
+\begin{equation}
+f^{\prime}(b) \geq \frac{f(b)-f(a)}{b-a}.
+\label{eqn:2-3}
+\end{equation}
+}
+
+\item{
+From inequality \ref{eqn:2-2} and \ref{eqn:2-3}, we have
+\begin{equation}
+\frac{f^{\prime}(b)-f^{\prime}(a)}{b-a} \geq 0
+\end{equation}
+Since $a,b$ are arbitrary, by taking limit of $b \rightarrow a$ and $a \rightarrow b$, it follows that $f^{\prime \prime}(a) \geq 0 \text { and } f^{\prime \prime}(b) \geq 0 $
+
+}
+
+\end{enumerate}
+
+\end{proof}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%EXERCISE 3
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\exercise{Inverse of an increasing convex function. Suppose $f: \mathbf{R} \rightarrow \mathbf{R}$ is increasing and convex on its domain $(a, b) .$
+Let $g$ denote its inverse, i.e., the function with domain $(f(a), f(b))$ and $g(f(x))=x$ for $a<x<b .$ What can
+you say about convexity or concavity of $g ?$
+}
+\begin{solution}
+$g$ is concave. We can plot the epigraph of $g$ as follows.
+\begin{equation}
+\begin{aligned}
+\mathbf{epi} (g) &= \left\{(u,v) | v \geq g(u)\right\} \\
+&= \left\{(u,v) |f(v) \geq f(g(u)) \right\} \\
+&= \left\{(u,v) |f(v) \geq u) \right\} \\
+&= \left\{(u,v) |u \geq -f(v)) \right\} \\
+&= \mathbf{epi} (-f)
+\end{aligned}
+\end{equation}
+Hence, g is concave.
+\end{solution}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%EXERCISE 4%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\exercise
+{Kullback-Leibler (KL) divergence between two positive vectors $u, v \in \mathbf{R}_{++}^{n}$ is given by
+$$
+D_{k l}=\sum_{i=1}^{n}\left(u_{i} \log \left(u_{i} / v_{i}\right)-u_{i}+v_{i}\right)
+$$
+Prove the information inequality, $D_{k l}(u, v) \geq 0$ for all $u, v \in \mathbf{R}_{++}^{n}$, Also, show that $D_{k l}(u, v)=0$ if and only if $ u = v$. Hint: The Kullback-Leibler divergence can be expressed as $$
+D_{k l}(u, v)=f(u)-f(v)-\nabla f(v)^{T}(u-v)
+$$
+where $f(v)=\sum_{i=1}^{n} v_{i} \log v_{i}$ is the negative entropy of $v$
+}
+
+\begin{proof}
+Note that for arbitrary $u,v,\tta \in \left[0,1\right]$,
+\begin{equation}
+\begin{aligned}
+f(\tta u + (1-\tta)v) &= \sum_{i=1}^{n} (\tta u_i + (1-\tta)v_i) \log (\tta u_i + (1-\tta)v_i) \\
+&= \sum_{i=1}^{n} \tta u_i \log (\tta u_i + (1-\tta)v_i) + (1-\tta)v_i) \log (\tta u_i + (1-\tta)v_i) \\
+&\leq \sum_{i=1}^{n} \tta u_i \log (u_i) + (1-\tta)v_i) \log (v_i) \\
+&= \tta f(u) + (1-\tta )f(v)
+\end{aligned}
+\label{eqn:4}
+\end{equation}
+
+Hence, $f$ is a convex function. By first-order condition, we have
+$$ f(u) \geq f(v) + \bigtriangledown f(v)^T(u-v).$$
+
+Furthermore, by the analysis in equation \ref{eqn:4}, as $u \neq v$, we have 
+$$ f(u) > f(v) + \bigtriangledown f(v)^T(u-v).$$
+
+By unfolding $f$, we get
+\begin{equation}
+\begin{aligned} \sum_{i=1}^{n} u_{i} \log u_{i} &>\sum_{i=1}^{n} v_{i} \log v_{i}+\sum_{i=1}^{n}\left(\log v_{i}+1\right)\left(u_{i}-v_{i}\right) \\ &=\sum_{i=1}^{n} u_{i} \log v_{i}+(u-v) \end{aligned}
+\end{equation}
+
+Then the result follows.
+\end{proof}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%	EXERCISE 5
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{exercise}
+For each of the following functions determine whether it is convex, concave.
+\begin{enumerate}
+\item{$f(x)=e^{x}-1$ on $\mathbf{R}$}
+\item{$f\left(x_{1}, x_{2}\right)=x_{1} x_{2} \text { on } \mathbf{R}_{++}^{2}$}
+\item{$f\left(x_{1}, x_{2}\right)=1 /\left(x_{1} x_{2}\right)$ on $\mathbf{R}_{++}^{2}$}
+\item{$f\left(x_{1}, x_{2}\right)=x_{1} / x_{2}$ on $\mathbf{R}_{++}^{2}$}
+\item{$f\left(x_{1}, x_{2}\right)=x_{1}^{\alpha} x_{2}^{1-\alpha},$ where $0 \leq \alpha \leq 1,$ on $\mathbf{R}_{++}^{2}$}
+\end{enumerate}
+\end{exercise}
+\begin{solution}
+\par{~}
+\begin{enumerate}
+\item{Convex, Since $$f^{\prime \prime}(x) = e^x > 0$$.}
+\item{ Take the Hessian of f.
+$$\bigtriangledown^2 f(x) = \begin{bmatrix}
+0 & 1 \\
+1 & 0 \\
+\end{bmatrix}$$
+
+$\lambda = 1,-1$, the Hessian of $f$ or $-f$ is not semi-definite.
+
+Neither convex nor concave.
+}
+
+\item{ Take the Hessian of f.
+
+$$ A = \bigtriangledown^2 f(x) = \begin{bmatrix}
+\frac{2}{x_1^3 x_2} & \frac{1}{x_1^2 x_2^2} \\
+\frac{1}{x_1^2 x_2^2} & \frac{2}{x_2^3 x_1} \\
+\end{bmatrix}$$
+
+Note that $Tr(A)>0, det(A)>0$. Hence $\lambda > 0$.
+
+$f$ is convex.
+}
+\item{ Take the Hessian of f.
+
+$$ \bigtriangledown^2 f(x) =
+\begin{bmatrix}
+0 & \ -\frac{1}{x_2^2} \\
+-\frac{1}{ x_2^2} & \frac{2x_1}{x_2^3} \\
+\end{bmatrix}
+$$
+
+Note that $\lambda_1 \lambda_2 = - \frac{1}{x_2^4} < 0$. Hence the Hessian of $f$ or $-f$ is not semi-definite.
+
+Neither convex nor concave.
+}
+
+
+\item{ Take the Hessian of f.
+\begin{equation}
+\begin{aligned}
+\bigtriangledown^2 f(x) &=\left[\begin{array}{cc}{\alpha(\alpha-1) x_{1}^{\alpha-2} x_{2}^{1-\alpha}} & {\alpha(1-\alpha) x_{1}^{\alpha-1} x_{2}^{-\alpha}} \\ {\alpha(1-\alpha) x_{1}^{\alpha-1} x_{2}^{-\alpha}} & {(1-\alpha)(-\alpha) x_{1}^{\alpha} x_{2}^{\alpha}}\end{array}\right] \\
+&= -\alpha(1-\alpha) x_{1}^{\alpha} x_{2}^{1-\alpha}\left[\begin{array}{c}{1 / x_{1}} \\ {-1 / x_{2}}\end{array}\right]\left[\begin{array}{c}{1 / x_{1}} \\ {-1 / x_{2}}\end{array}\right]^{T} \\
+&\leq 0
+\end{aligned}
+\end{equation}
+Hence $f$ is concave.
+
+}
+
+
+\end{enumerate}
+\end{solution}
