@@ -62,8 +62,8 @@ def de_maximum(img):
                     dtmp1 = int(g[i+1][j]*(1-ratio) + ratio*g[i+1][j+1])
                     dtmp2 = int(g[i-1][j]*(1-ratio) + ratio*g[i-1][j-1])
                 else:
-                    dtmp1 = int(g[i][j+1]*(1-1/ratio) + 1/ratio*g[i-1][j+1])
-                    dtmp2 = int(g[i][j-1]*(1-1/ratio) + 1/ratio*g[i+1][j-1])
+                    dtmp1 = int(g[i][j+1]*(1-1/ratio) + 1/ratio*g[i+1][j+1])
+                    dtmp2 = int(g[i][j-1]*(1-1/ratio) + 1/ratio*g[i-1][j-1])
             else:
                 if ratio >=-1:
                     dtmp1 = int(g[i-1][j]*(1+ratio) - ratio*g[i-1][j+1])
@@ -99,7 +99,8 @@ def threshold(img,high,low):
             connected_component = [(i,j)]
             while to_visit:
                 (k,p) = to_visit.pop()
-                for x,y in [-1,0,1]:
+               # for (x,y) in [(-1,0),(1,0),(0,1),(0,-1)]:
+                for x, y in [-1, 0, 1]:
                     if img[k+x,p+y]>high:
                         strong_connected = True
                     elif img[k+x,p+y]>low:
@@ -120,9 +121,15 @@ def strong_connected(img,high,i,j):
     return false
 '''
 
-c = de_maximum(get_Gaus_blur(get_gray_scale_2(img)))
+p,q,c,t = Sobel(get_Gaus_blur(get_gray_scale_2(img)))
+
+print (c)
+
+
 c = cv2.convertScaleAbs(c)
-c = threshold(c,50,100)
+
+print (c)
+c = threshold(c,75,150)
 
 print (c)
 
