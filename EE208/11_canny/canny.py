@@ -73,6 +73,7 @@ def de_maximum(img):
                     dtmp2 = int(g[i][j-1]*(1+1/ratio) - 1/ratio*g[i+1][j-1])
             if max(dtmp1,dtmp2,g[i][j]) != g[i][j]:
                 res[i][j] = 0
+    print (res)
     return res
 
 
@@ -121,17 +122,10 @@ def strong_connected(img,high,i,j):
     return false
 '''
 
-p,q,c,t = Sobel(get_Gaus_blur(get_gray_scale_2(img)))
-
-print (c)
-
-
+c = de_maximum(get_Gaus_blur(get_gray_scale_2(img)))
 c = cv2.convertScaleAbs(c)
+c = threshold(c,50,150)
 
-print (c)
-c = threshold(c,75,150)
-
-print (c)
 
 
 cv2.namedWindow("Image")

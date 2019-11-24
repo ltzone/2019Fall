@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d1aead1-d0c6-4835-a16e-3e028f4cccc8" name="Default Changelist" comment="pagetodoc finished">
-      <change afterPath="$PROJECT_DIR$/11_canny/canny.py" afterDir="false" />
+    <list default="true" id="4d1aead1-d0c6-4835-a16e-3e028f4cccc8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_canny/canny.py" beforeDir="false" afterPath="$PROJECT_DIR$/11_canny/canny.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/EE208$canny.coverage" NAME="canny Coverage Results" MODIFIED="1574576412368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_canny" />
+    <SUITE FILE_PATH="coverage/EE208$canny.coverage" NAME="canny Coverage Results" MODIFIED="1574578320604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_canny" />
     <SUITE FILE_PATH="coverage/EE208$histogram.coverage" NAME="histogram Coverage Results" MODIFIED="1574162557861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_img" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -42,13 +42,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
-          <entry key="py" value="4312" />
+          <entry key="py" value="4482" />
+          <entry key="txt" value="117" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="4312" />
+          <entry key="PLAIN_TEXT" value="131" />
+          <entry key="Python" value="4482" />
         </counts>
       </usages-collector>
     </session>
@@ -58,14 +59,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/11_canny/canny.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="117" column="34" lean-forward="true" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
+            <state relative-caret-position="-1325">
+              <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1574576412184" expanded="true" signature="707:4163" ph="..." />
-                <marker date="1574576412184" expanded="true" signature="1628:4137" ph="..." />
-                <marker date="1574576412184" expanded="true" signature="2726:4084" ph="..." />
-                <marker date="1574576412184" expanded="true" signature="3948:4084" ph="..." />
+                <marker date="1574578320531" expanded="true" signature="707:4241" ph="..." />
+                <marker date="1574578320531" expanded="true" signature="1628:4215" ph="..." />
+                <marker date="1574578320531" expanded="true" signature="2742:4162" ph="..." />
+                <marker date="1574578320531" expanded="true" signature="4026:4162" ph="..." />
               </folding>
             </state>
           </provider>
@@ -567,7 +568,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572769172487</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="canny completed">
+      <created>1574576604857</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1574576604857</updated>
+    </task>
+    <task id="LOCAL-00035" summary="problem detected: scale-convert grind the maximum and thus generates double edges">
+      <created>1574578002940</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1574578002940</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -580,7 +595,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32740214" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3985765" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39679715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -634,8 +649,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CODE 2.3" />
-    <MESSAGE value="CODE 2.4 init" />
     <MESSAGE value="CODE 3.1 bitarray" />
     <MESSAGE value="CODE 3.1 bitarray better packaged" />
     <MESSAGE value="CODE 3.2 basic structure of threading finished, varlock expected" />
@@ -659,7 +672,9 @@
     <MESSAGE value="EX6 rename" />
     <MESSAGE value="integration half complete, img display expected" />
     <MESSAGE value="webpage checked" />
-    <option name="LAST_COMMIT_MESSAGE" value="webpage checked" />
+    <MESSAGE value="canny completed" />
+    <MESSAGE value="problem detected: scale-convert grind the maximum and thus generates double edges" />
+    <option name="LAST_COMMIT_MESSAGE" value="problem detected: scale-convert grind the maximum and thus generates double edges" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/1_Parser/IMG.py">
@@ -732,14 +747,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/11_canny/canny.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="117" column="34" lean-forward="true" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
+        <state relative-caret-position="-1325">
+          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1574576412184" expanded="true" signature="707:4163" ph="..." />
-            <marker date="1574576412184" expanded="true" signature="1628:4137" ph="..." />
-            <marker date="1574576412184" expanded="true" signature="2726:4084" ph="..." />
-            <marker date="1574576412184" expanded="true" signature="3948:4084" ph="..." />
+            <marker date="1574578320531" expanded="true" signature="707:4241" ph="..." />
+            <marker date="1574578320531" expanded="true" signature="1628:4215" ph="..." />
+            <marker date="1574578320531" expanded="true" signature="2742:4162" ph="..." />
+            <marker date="1574578320531" expanded="true" signature="4026:4162" ph="..." />
           </folding>
         </state>
       </provider>
