@@ -2,7 +2,6 @@ import cv2
 import numpy
 import math
 
-img = cv2.imread("./img/1.jpg", cv2.IMREAD_COLOR)
 
 
 
@@ -31,10 +30,10 @@ def get_Gaus_blur(img):
 def Sobel(img):
     height = len(img)
     width = len(img[0])
-    p = numpy.zeros((width, height), dtype=int)
-    q = numpy.zeros((width, height), dtype=int)
-    g = numpy.zeros((width, height), dtype=int)
-    t = numpy.zeros((width, height), dtype=float)
+    p = numpy.zeros((height, width), dtype=int)
+    q = numpy.zeros((height, width), dtype=int)
+    g = numpy.zeros((height, width), dtype=int)
+    t = numpy.zeros((height, width), dtype=float)
     for i in range(1, height - 1):
         for j in range(1, width - 1):
             p[i][j] = int((img[i + 1, j + 1] + 2 * img[i + 1, j] + img[i + 1, j - 1]) \
@@ -48,10 +47,49 @@ def Sobel(img):
                 t[i][j] = math.pi/2
     return p, q, g, t
 
+def Canny(img):
+    height = len(img)
+    width = len(img[0])
+    p = numpy.zeros((height, width), dtype=int)
+    q = numpy.zeros((height, width), dtype=int)
+    g = numpy.zeros((height, width), dtype=int)
+    t = numpy.zeros((height, width), dtype=float)
+    for i in range(1, height - 1):
+        for j in range(1, width - 1):
+            p[i][j] = (int(img[i,j+1])-int(img[i,j])+int(img[i+1,j+1])-int(img[i+1,j]))/2
+            q[i][j] = (int(img[i,j])-int(img[i+1,j])+int(img[i,j+1])-int(img[i+1,j+1]))/2
+            g[i][j] = int(math.sqrt(p[i][j]*p[i][j]+q[i][j]*q[i][j]))
+            if p[i][j] != 0:
+                t[i][j] = math.atan(q[i][j]/p[i][j])
+            else:
+                t[i][j] = math.pi/2
+    return p, q, g, t
+
+def Prewitt(img):
+    height = len(img)
+    width = len(img[0])
+    p = numpy.zeros((height, width), dtype=int)
+    q = numpy.zeros((height, width), dtype=int)
+    g = numpy.zeros((height, width), dtype=int)
+    t = numpy.zeros((height, width), dtype=float)
+    for i in range(1, height - 1):
+        for j in range(1, width - 1):
+            p[i][j] = int((int(img[i + 1, j + 1]) +  int(img[i + 1, j]) + int(img[i + 1, j - 1])) \
+                      - (int(img[i - 1, j + 1]) + int( img[i - 1, j]) + int(img[i - 1, j - 1])))
+            q[i][j] = int((int(img[i - 1, j - 1]) + int(img[i , j-1]) + int(img[i + 1, j - 1])) \
+                      - (int(img[i - 1, j + 1]) + int(img[i, j+1]) + int(img[i + 1, j + 1])))
+            g[i][j] = int(math.sqrt(p[i][j]*p[i][j]+q[i][j]*q[i][j]))
+            if p[i][j] != 0:
+                t[i][j] = math.atan(q[i][j]/p[i][j])
+            else:
+                t[i][j] = math.pi/2
+    return p, q, g, t
+
+
 def de_maximum(img):
     height = len(img)
     width = len(img[0])
-    p, q, g, t = Sobel(img)
+    p, q, g, t = Canny(img)
     res = g
     for i in range(1, height - 1):
         for j in range(1, width - 1):
@@ -81,7 +119,7 @@ def de_maximum(img):
 def threshold(img,high,low):
     height = len(img)
     width = len(img[0])
-    result = numpy.zeros((width, height), dtype=numpy.uint8)
+    result = numpy.zeros((height, width), dtype=numpy.uint8)
     weakset = dict()
 
     for i in range(1, height - 1):
@@ -113,18 +151,12 @@ def threshold(img,high,low):
                 for (k,p) in connected_component:
                     result[k,p] = 255
     return result
-'''
-def strong_connected(img,high,i,j):
-    for x in [-1,0,1]:
-        for y in [-1,0,1]:
-            if img[i+x][j+y]>high:
-                return true
-    return false
-'''
 
-c = de_maximum(get_Gaus_blur(get_gray_scale_2(img)))
+
+img = cv2.imread("./img/2.jpg", cv2.IMREAD_GRAYSCALE)
+c = de_maximum(get_Gaus_blur(img))
 c = cv2.convertScaleAbs(c)
-c = threshold(c,50,150)
+c = threshold(c,20,25)
 
 
 
