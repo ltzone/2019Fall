@@ -89,7 +89,7 @@ def Prewitt(img):
 def de_maximum(img):
     height = len(img)
     width = len(img[0])
-    p, q, g, t = Canny(img)
+    p, q, g, t = Prewitt(img)
     res = g
     for i in range(1, height - 1):
         for j in range(1, width - 1):
@@ -153,10 +153,10 @@ def threshold(img,high,low):
     return result
 
 
-img = cv2.imread("./img/2.jpg", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("./img/3.jpg", cv2.IMREAD_GRAYSCALE)
 c = de_maximum(get_Gaus_blur(img))
 c = cv2.convertScaleAbs(c)
-c = threshold(c,20,25)
+c = threshold(c,40,120)
 
 
 
