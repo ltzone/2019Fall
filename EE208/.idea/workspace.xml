@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d1aead1-d0c6-4835-a16e-3e028f4cccc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/12_SIFT/sift.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,84 +12,78 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/EE208$canny.coverage" NAME="canny Coverage Results" MODIFIED="1574578320604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_canny" />
+    <SUITE FILE_PATH="coverage/EE208$sift.coverage" NAME="sift Coverage Results" MODIFIED="1575188188149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12_SIFT" />
+    <SUITE FILE_PATH="coverage/EE208$canny.coverage" NAME="canny Coverage Results" MODIFIED="1575102070748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_canny" />
     <SUITE FILE_PATH="coverage/EE208$histogram.coverage" NAME="histogram Coverage Results" MODIFIED="1574162557861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_img" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="713437458">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="6" />
+          <entry key="py" value="9" />
           <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="6" />
+          <entry key="Python" value="8" />
+          <entry key="UML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
-          <entry key="py" value="4482" />
+          <entry key="py" value="6952" />
           <entry key="txt" value="132" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="146" />
-          <entry key="Python" value="4482" />
+          <entry key="Python" value="6952" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/11_canny/canny.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="120" column="27" selection-start-line="120" selection-start-column="27" selection-end-line="121" selection-end-column="16" />
+            <state relative-caret-position="361">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1574578320531" expanded="true" signature="707:4241" ph="..." />
-                <marker date="1574578320531" expanded="true" signature="1628:4215" ph="..." />
-                <marker date="1574578320531" expanded="true" signature="2742:4162" ph="..." />
-                <marker date="1574578320531" expanded="true" signature="4026:4162" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2_crawler/crawler_sample.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/12_SIFT/sift.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10_img/histogram.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="47" />
+            <state relative-caret-position="57">
+              <caret line="88" column="20" lean-forward="true" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1574163244518" expanded="true" signature="74:458" ph="..." />
-                <marker date="1574163244518" expanded="true" signature="505:845" ph="..." />
+                <marker date="1575187842035" expanded="true" signature="1215:1216" ph="..." />
+                <marker date="1575187842035" expanded="true" signature="1415:1561" ph="..." />
+                <marker date="1575187842035" expanded="true" signature="1624:1719" ph="..." />
+                <marker date="1575187842035" expanded="true" signature="1820:1821" ph="..." />
+                <marker date="1575187842035" expanded="true" signature="1847:2777" ph="..." />
               </folding>
             </state>
           </provider>
@@ -106,12 +101,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/12_SIFT/sift.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/10_img/hisotgram.py" />
         <option value="$PROJECT_DIR$/10_img/histogram.py" />
         <option value="$PROJECT_DIR$/11_canny/canny.py" />
+        <option value="$PROJECT_DIR$/12_SIFT/sift.py" />
       </list>
     </option>
   </component>
@@ -121,10 +120,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="width" value="981" />
-    <option name="height" value="1032" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-11" />
+    <option name="width" value="1154" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectId" id="1QdrbWr4ZJsrXxNoWULLcY1KmnY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -135,7 +134,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,22 +144,18 @@
             <path>
               <item name="EE208" type="b2602c69:ProjectViewProjectNode" />
               <item name="EE208" type="462c0819:PsiDirectoryNode" />
-              <item name="2_crawler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EE208" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EE208" type="462c0819:PsiDirectoryNode" />
-              <item name="10_img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EE208" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EE208" type="462c0819:PsiDirectoryNode" />
               <item name="11_canny" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EE208" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EE208" type="462c0819:PsiDirectoryNode" />
+              <item name="12_SIFT" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,29 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.canny">
-    <configuration name="BoolSearchFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="EE208" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4_lucene" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4_lucene/BoolSearchFiles.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.sift">
     <configuration name="canny" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -308,20 +280,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sift" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EE208" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12_SIFT" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12_SIFT/sift.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.BoolSearchFiles" />
       <item itemvalue="Python.code" />
       <item itemvalue="Python.code (1)" />
       <item itemvalue="Python.histogram" />
       <item itemvalue="Python.canny" />
+      <item itemvalue="Python.sift" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sift" />
         <item itemvalue="Python.canny" />
         <item itemvalue="Python.histogram" />
         <item itemvalue="Python.code (1)" />
         <item itemvalue="Python.code" />
-        <item itemvalue="Python.BoolSearchFiles" />
       </list>
     </recent_temporary>
   </component>
@@ -592,14 +586,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="0" width="769" height="687" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15440582" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12658228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32740214" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3267148" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39679715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -731,18 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10_img/histogram.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1574163244518" expanded="true" signature="74:458" ph="..." />
-            <marker date="1574163244518" expanded="true" signature="505:845" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2_crawler/crawler_sample.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -750,16 +733,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/10_img/histogram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#D:/GIT/2019Fall/EE208/12_SIFT/sift.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#D:/GIT/2019Fall/EE208/12_SIFT/sift.py</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="522.0" y="255.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/11_canny/canny.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="120" column="27" selection-start-line="120" selection-start-column="27" selection-end-line="121" selection-end-column="16" />
+        <state relative-caret-position="361">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1574578320531" expanded="true" signature="707:4241" ph="..." />
-            <marker date="1574578320531" expanded="true" signature="1628:4215" ph="..." />
-            <marker date="1574578320531" expanded="true" signature="2742:4162" ph="..." />
-            <marker date="1574578320531" expanded="true" signature="4026:4162" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_SIFT/sift.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="88" column="20" lean-forward="true" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1575187842035" expanded="true" signature="1215:1216" ph="..." />
+            <marker date="1575187842035" expanded="true" signature="1415:1561" ph="..." />
+            <marker date="1575187842035" expanded="true" signature="1624:1719" ph="..." />
+            <marker date="1575187842035" expanded="true" signature="1820:1821" ph="..." />
+            <marker date="1575187842035" expanded="true" signature="1847:2777" ph="..." />
           </folding>
         </state>
       </provider>
