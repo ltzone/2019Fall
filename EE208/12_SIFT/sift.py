@@ -1,34 +1,6 @@
 import cv2
 import numpy as np
 import math
-'''
-filename = 'chessboard.png'
-img = cv2.imread(filename)
-gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
-gray = np.float32(gray)
-dst = cv2.cornerHarris(gray,2,3,0.04)
-#result is dilated for marking the corners, not important
-dst = cv2.dilate(dst,None)
-# Threshold for an optimal value, it may vary depending on the image.
-img[dst>0.01*dst.max()]=[0,0,255]
-cv2.imshow('dst',img)
-if cv2.waitKey(0) & 0xff == 27:
-    cv2.destroyAllWindows()
-'''
-
-
-target = cv2.imread("./target.jpg", cv2.IMREAD_COLOR)
-
-img = cv2.imread("./dataset/3.jpg", cv2.IMREAD_COLOR)
-width = len(img[0])
-height = len(img)
-
-img = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
-img = np.float32(img)
-#dst = cv2.cornerHarris(img, 2, 3, 0.1)
-
-max_corner = 10
-corner_points = cv2.goodFeaturesToTrack(img,max_corner,0.1,10,blockSize=3,k=0.04)
 
 def get_grad(I, x, y):
     r = int(I[x+1, y])
@@ -100,6 +72,18 @@ def SIFT_descripter(I,a,b):
                     result[(bx+by*4)*8+int((lgrad-t)/45)] += 1
     return result
 
+def similarity(sift1,sift2):
+    return math.sqrt(np.inner(sift1-sift2, sift1-sift2))
+
+
+
+'''
+img = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+img = np.float32(img)
+#dst = cv2.cornerHarris(img, 2, 3, 0.1)
+
+max_corner = 10
+corner_points = cv2.goodFeaturesToTrack(img,max_corner,0.1,10,blockSize=3,k=0.04)
 
 grads = list()
 cps = list()
@@ -109,8 +93,90 @@ for [[i,j]] in corner_points:
     grads.append(get_grad(img,i,j))
     cps.append((i,j))
 
-(a,b) = cps[0]
-print (SIFT_descripter(img,a,b))
+sifters = list()
+for (a,b) in cps:
+    tmp = np.array(SIFT_descripter(img,a,b),dtype=float)
+    norm = math.sqrt(np.inner(tmp,tmp))
+    tmp /= norm
+    sifters.append(tmp)
+'''
+def get_cp_and_sifter(img,max_corner):
+    corner_points = cv2.goodFeaturesToTrack(img, max_corner, 0.1, 10, blockSize=3, k=0.04)
+    grads = list()
+    cps = list()
+    for [[i, j]] in corner_points:
+        i = int(i)
+        j = int(j)
+        cps.append((i, j))
+    sifters = list()
+    for (a, b) in cps:
+        tmp = np.array(SIFT_descripter(img, a, b), dtype=float)
+        norm = math.sqrt(np.inner(tmp, tmp))
+        tmp /= norm
+        sifters.append(tmp)
+    return cps,sifters
+
+def read_pict(src):
+    img = cv2.imread(src, cv2.IMREAD_COLOR)
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    img = np.float32(img)
+    return img
+
+def find_min_and_second(list):
+    one = 0
+    second = 0
+    for i in range(len(list)):
+        if list[i] < list[one]:
+            second = one
+            one = i
+        elif list[i] < list[second]:
+            second = i
+    return one,second
+
+def find_match(cps1,sifters1,cps2,sifters2):
+    res = set()
+    for i in range(len(cps1)):
+        dists = list()
+        for j in range(len(cps2)):
+            dists.append(similarity(sifters1[i],sifters2[j]))
+        one,second = find_min_and_second(dists)
+        print (dists)
+        if dists[one]/dists[second] < 0.9:
+            res.add((cps1[i],cps2[one]))
+    return res
+
+
+img = read_pict("./dataset/3.jpg")
+target = read_pict("./target.jpg")
+
+cps1,sifter1 = get_cp_and_sifter(img,30)
+cps2,sifter2 = get_cp_and_sifter(target,30)
+res = find_match(cps1,sifter1,cps2,sifter2)
+
+print(res)
+
+img1 = cv2.imread("./dataset/3.jpg",cv2.IMREAD_COLOR)
+img2 = cv2.imread("./target.jpg", cv2.IMREAD_COLOR)
+'''
+for (point1,point2) in res:
+    cv2.circle(img1,point1,1,(0,0,255),4)
+    cv2.circle(img2,point2,1,(0,0,255),4)
+'''
+
+for point1 in cps1:
+    cv2.circle(img1,point1,1,(0,0,255),4)
+for point2 in cps2:
+    cv2.circle(img2,point2,1,(0,0,255),4)
+
+
+
+cv2.imshow('img1', img1)
+cv2.imshow('img2', img2)
+cv2.waitKey()
+
+
+
+
 
 
 
