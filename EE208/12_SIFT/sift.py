@@ -57,23 +57,137 @@ def get_theta_of(I,a,b):
              get_grad(I,a+1,b)[1]*dx1*dy2 + \
              get_grad(I,a,b+1)[1]*dx2*dy1 + \
              get_grad(I,a+1,b+1)[1]*dx1*dy1
-    return int(result)
+    return result
+'''
+def get_theta_of(I,a,b):
+    return get_grad(I,round(a),round(b))[1]
+'''
 
 def SIFT_descripter(I,a,b):
     result = [0]*128
-    t = get_main_dir_for_cp(I,a,b,3)
+    t = get_main_dir_for_cp(I,a,b,5)
     for bx in range(4):
         for by in range(4):
             for i in range(4):
                 for j in range(4):
                     x_r = (bx-2)*4+i
                     y_r = (by-2)*4+j
-                    lgrad = get_theta_of(I,a+x_r*dcos(t)+y_r*dsin(t),b+x_r*dsin(t)+y_r*dcos(t))
-                    result[(bx+by*4)*8+int((lgrad-t)/45)] += 1
+                    lgrad = get_theta_of(I, a + x_r * dcos(t) - y_r * dsin(t), b + x_r * dsin(t) + y_r * dcos(t))
+                    #lgrad = get_theta_of(I,a+x_r*dcos(t)+y_r*dsin(t),b+x_r*dsin(t)+y_r*dcos(t))
+                    result[(bx+by*4)*8+int(((lgrad+t)%360)/45)] += 1
+    print (result)
     return result
 
 def similarity(sift1,sift2):
     return math.sqrt(np.inner(sift1-sift2, sift1-sift2))
+    # return np.inner(sift1,sift2)
+
+def get_cp_and_sifter(img,max_corner):
+    corner_points = cv2.goodFeaturesToTrack(img, max_corner, 0.01, 15, blockSize=3, k=0.04)
+    grads = list()
+    cps = list()
+    img = cv2.GaussianBlur(img, (3, 3), 0)
+    for [[i, j]] in corner_points:
+        i = int(i)
+        j = int(j)
+        cps.append((i, j))
+    sifters = list()
+    for (a, b) in cps:
+        tmp = np.array(SIFT_descripter(img, a, b), dtype=float)
+        norm = math.sqrt(np.inner(tmp, tmp))
+        tmp /= norm
+        sifters.append(tmp)
+    return cps,sifters
+
+def read_pict(src):
+    img = cv2.imread(src, cv2.IMREAD_COLOR)
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+    img = np.float32(img)
+
+    return img
+
+def find_min_and_second(list):
+    one = 0
+    second = 1
+    for i in range(1,len(list)):
+        if list[i] < list[one]:
+            second = one
+            one = i
+        elif list[i] < list[second]:
+            second = i
+    return one,second
+
+def find_match(cps1,sifters1,cps2,sifters2):
+    res = set()
+    for i in range(len(cps1)):
+        dists = list()
+        for j in range(len(cps2)):
+            dists.append(similarity(sifters1[i],sifters2[j]))
+        '''
+        print(dists)
+        goal = dists.index(min(dists))
+        if min(dists)<1:
+            res.add((cps1[i],cps2[goal]))
+
+        '''
+        one,second = find_min_and_second(dists)
+        print (dists)
+        if dists[one]/dists[second] < 0.85:
+            res.add((cps1[i],cps2[one]))
+
+    return res
+
+
+img = read_pict("./dataset/3.jpg")
+#img = read_pict("./target.jpg")
+target = read_pict("./target.jpg")
+
+
+n = 20
+cps1,sifter1 = get_cp_and_sifter(img,n)
+cps2,sifter2 = get_cp_and_sifter(target,n)
+res = find_match(cps1,sifter1,cps2,sifter2)
+
+print(res)
+
+img1 = cv2.imread("./dataset/3.jpg",cv2.IMREAD_COLOR)
+#img1 = cv2.imread("./target.jpg", cv2.IMREAD_COLOR)
+img2 = cv2.imread("./target.jpg", cv2.IMREAD_COLOR)
+
+
+output =  np.zeros((400,400), np.uint8)
+
+
+kp1 = [cv2.KeyPoint(x,y,1) for ((x,y),j) in res]
+kp2 = [cv2.KeyPoint(x,y,1) for (i,(x,y)) in res]
+matches = [cv2.DMatch(i,i,0.1) for i in range(len(res))]
+result = cv2.drawMatches(img1,kp1,img2,kp2,matches,output)
+''''
+cv2.imshow('img1', img1)
+cv2.imshow('img2', img2)
+'''
+cv2.imshow('img',result)
+cv2.waitKey()
+
+
+
+
+
+
+
+'''
+I = np.zeros((height,width), dtype=np.uint8)
+
+for i in range(height):
+    for j in range(width):
+        if dst[i][j]>0.01*dst.max():
+            I[i][j]= 255
+
+print (dst)
+cv2.imshow('dst',I)
+cv2.waitKey(0)
+'''
 
 
 
@@ -100,95 +214,17 @@ for (a,b) in cps:
     tmp /= norm
     sifters.append(tmp)
 '''
-def get_cp_and_sifter(img,max_corner):
-    corner_points = cv2.goodFeaturesToTrack(img, max_corner, 0.1, 10, blockSize=3, k=0.04)
-    grads = list()
-    cps = list()
-    for [[i, j]] in corner_points:
-        i = int(i)
-        j = int(j)
-        cps.append((i, j))
-    sifters = list()
-    for (a, b) in cps:
-        tmp = np.array(SIFT_descripter(img, a, b), dtype=float)
-        norm = math.sqrt(np.inner(tmp, tmp))
-        tmp /= norm
-        sifters.append(tmp)
-    return cps,sifters
 
-def read_pict(src):
-    img = cv2.imread(src, cv2.IMREAD_COLOR)
-    img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    img = np.float32(img)
-    return img
-
-def find_min_and_second(list):
-    one = 0
-    second = 0
-    for i in range(len(list)):
-        if list[i] < list[one]:
-            second = one
-            one = i
-        elif list[i] < list[second]:
-            second = i
-    return one,second
-
-def find_match(cps1,sifters1,cps2,sifters2):
-    res = set()
-    for i in range(len(cps1)):
-        dists = list()
-        for j in range(len(cps2)):
-            dists.append(similarity(sifters1[i],sifters2[j]))
-        one,second = find_min_and_second(dists)
-        print (dists)
-        if dists[one]/dists[second] < 0.9:
-            res.add((cps1[i],cps2[one]))
-    return res
-
-
-img = read_pict("./dataset/3.jpg")
-target = read_pict("./target.jpg")
-
-cps1,sifter1 = get_cp_and_sifter(img,30)
-cps2,sifter2 = get_cp_and_sifter(target,30)
-res = find_match(cps1,sifter1,cps2,sifter2)
-
-print(res)
-
-img1 = cv2.imread("./dataset/3.jpg",cv2.IMREAD_COLOR)
-img2 = cv2.imread("./target.jpg", cv2.IMREAD_COLOR)
 '''
 for (point1,point2) in res:
     cv2.circle(img1,point1,1,(0,0,255),4)
     cv2.circle(img2,point2,1,(0,0,255),4)
-'''
+    cv2.imshow('img1', img1)
+    cv2.imshow('img2', img2)
+    cv2.waitKey()
 
 for point1 in cps1:
     cv2.circle(img1,point1,1,(0,0,255),4)
 for point2 in cps2:
     cv2.circle(img2,point2,1,(0,0,255),4)
-
-
-
-cv2.imshow('img1', img1)
-cv2.imshow('img2', img2)
-cv2.waitKey()
-
-
-
-
-
-
-
-'''
-I = np.zeros((height,width), dtype=np.uint8)
-
-for i in range(height):
-    for j in range(width):
-        if dst[i][j]>0.01*dst.max():
-            I[i][j]= 255
-
-print (dst)
-cv2.imshow('dst',I)
-cv2.waitKey(0)
 '''
