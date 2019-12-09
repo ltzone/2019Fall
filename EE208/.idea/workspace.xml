@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d1aead1-d0c6-4835-a16e-3e028f4cccc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/12_SIFT/sift_gauss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_SIFT/sift_new.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12_SIFT/sift.py" beforeDir="false" afterPath="$PROJECT_DIR$/12_SIFT/sift.py" afterDir="false" />
     </list>
@@ -12,50 +14,52 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/EE208$sift.coverage" NAME="sift Coverage Results" MODIFIED="1575798011652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12_SIFT" />
+    <SUITE FILE_PATH="coverage/EE208$sift_gauss.coverage" NAME="sift_gauss Coverage Results" MODIFIED="1575809775976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12_SIFT" />
+    <SUITE FILE_PATH="coverage/EE208$sift.coverage" NAME="sift Coverage Results" MODIFIED="1575892813511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12_SIFT" />
     <SUITE FILE_PATH="coverage/EE208$canny.coverage" NAME="canny Coverage Results" MODIFIED="1575102070748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_canny" />
+    <SUITE FILE_PATH="coverage/EE208$sift_new.coverage" NAME="sift_new Coverage Results" MODIFIED="1575896175797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12_SIFT" />
     <SUITE FILE_PATH="coverage/EE208$histogram.coverage" NAME="histogram Coverage Results" MODIFIED="1574162557861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_img" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="713437458">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="9" />
+          <entry key="py" value="11" />
           <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="8" />
+          <entry key="Python" value="10" />
           <entry key="UML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
-          <entry key="py" value="9531" />
-          <entry key="txt" value="150" />
+          <entry key="py" value="13657" />
+          <entry key="txt" value="167" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="164" />
-          <entry key="Python" value="9531" />
+          <entry key="PLAIN_TEXT" value="181" />
+          <entry key="Python" value="13657" />
         </counts>
       </usages-collector>
     </session>
@@ -65,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/11_canny/canny.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="42" />
+            <state relative-caret-position="494">
+              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="42" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -74,13 +78,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/12_SIFT/sift.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="129" column="26" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
+            <state relative-caret-position="19">
+              <caret line="166" column="15" lean-forward="true" selection-start-line="166" selection-start-column="15" selection-end-line="166" selection-end-column="15" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
+                <marker date="1575820954706" expanded="true" signature="203:206" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/12_SIFT/sift_new.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="113" column="19" lean-forward="true" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1575896175765" expanded="true" signature="1911:1920" ph="..." />
+                <marker date="1575896175765" expanded="true" signature="5917:6513" ph="..." />
               </folding>
             </state>
           </provider>
@@ -98,6 +117,19 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>get_rotate</find>
+      <find>I[</find>
+      <find>Gau</find>
+      <find>get_main</find>
+      <find>goodFe</find>
+      <find>inner</find>
+      <find>sifter</find>
+      <find>tmp</find>
+      <find>simi</find>
+      <find>Gauss</find>
+      <find>zero</find>
+      <find>good</find>
+      <find>theta</find>
+      <find>calcula</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -112,7 +144,9 @@
         <option value="$PROJECT_DIR$/10_img/hisotgram.py" />
         <option value="$PROJECT_DIR$/10_img/histogram.py" />
         <option value="$PROJECT_DIR$/11_canny/canny.py" />
+        <option value="$PROJECT_DIR$/12_SIFT/sift_gauss.py" />
         <option value="$PROJECT_DIR$/12_SIFT/sift.py" />
+        <option value="$PROJECT_DIR$/12_SIFT/sift_new.py" />
       </list>
     </option>
   </component>
@@ -123,10 +157,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="436" />
-    <option name="y" value="-20" />
-    <option name="width" value="1071" />
-    <option name="height" value="1106" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="983" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectId" id="1QdrbWr4ZJsrXxNoWULLcY1KmnY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -168,17 +202,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/7_integration" />
-      <recent name="$PROJECT_DIR$/6_web.py" />
-      <recent name="$PROJECT_DIR$/4_lucene" />
-      <recent name="$PROJECT_DIR$/5_lucene_pict" />
-      <recent name="$PROJECT_DIR$/4_lucene/testdir" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/7_integration/static" />
       <recent name="$PROJECT_DIR$/7_integration" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/5_lucene_pict" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GIT\2019Fall\EE208\12_SIFT" />
+      <recent name="$PROJECT_DIR$/7_integration" />
+      <recent name="$PROJECT_DIR$/6_web.py" />
+      <recent name="$PROJECT_DIR$/4_lucene" />
       <recent name="$PROJECT_DIR$/5_lucene_pict" />
     </key>
   </component>
@@ -194,7 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sift">
+  <component name="RunManager" selected="Python.sift_new">
     <configuration name="canny" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EE208" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,50 +243,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_canny/canny.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="code (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="EE208" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7_integration" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7_integration/code.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="code" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="EE208" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6_web.py" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6_web.py/code.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -305,20 +295,64 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sift_gauss" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EE208" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12_SIFT" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12_SIFT/sift_gauss.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sift_new" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EE208" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12_SIFT" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12_SIFT/sift_new.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.code" />
-      <item itemvalue="Python.code (1)" />
       <item itemvalue="Python.histogram" />
       <item itemvalue="Python.canny" />
       <item itemvalue="Python.sift" />
+      <item itemvalue="Python.sift_gauss" />
+      <item itemvalue="Python.sift_new" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sift_new" />
         <item itemvalue="Python.sift" />
+        <item itemvalue="Python.sift_gauss" />
         <item itemvalue="Python.canny" />
         <item itemvalue="Python.histogram" />
-        <item itemvalue="Python.code (1)" />
-        <item itemvalue="Python.code" />
       </list>
     </recent_temporary>
   </component>
@@ -592,7 +626,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575188245888</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="a correct version">
+      <created>1575798036378</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1575798036393</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -604,7 +645,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25266904" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3202847" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39679715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -615,10 +656,11 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.33393502" />
       <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.3291815" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32983023" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -659,7 +701,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CODE 3.2 basic structure of threading finished, varlock expected" />
     <MESSAGE value="CODE 3.2 problem with varlock" />
     <MESSAGE value="CODE 3.2 strill can't exit" />
     <MESSAGE value="EX2 EX3 code Final version" />
@@ -684,7 +725,8 @@
     <MESSAGE value="problem detected: scale-convert grind the maximum and thus generates double edges" />
     <MESSAGE value="submit version" />
     <MESSAGE value="SIFT descriptor" />
-    <option name="LAST_COMMIT_MESSAGE" value="SIFT descriptor" />
+    <MESSAGE value="a correct version" />
+    <option name="LAST_COMMIT_MESSAGE" value="a correct version" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/1_Parser/IMG.py">
@@ -765,10 +807,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/12_SIFT/sift_gauss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/11_canny/canny.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="42" />
+        <state relative-caret-position="494">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="42" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -777,10 +826,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/12_SIFT/sift.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="129" column="26" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
+        <state relative-caret-position="19">
+          <caret line="166" column="15" lean-forward="true" selection-start-line="166" selection-start-column="15" selection-end-line="166" selection-end-column="15" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+            <marker date="1575820954706" expanded="true" signature="203:206" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_SIFT/sift_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="113" column="19" lean-forward="true" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1575896175765" expanded="true" signature="1911:1920" ph="..." />
+            <marker date="1575896175765" expanded="true" signature="5917:6513" ph="..." />
           </folding>
         </state>
       </provider>
