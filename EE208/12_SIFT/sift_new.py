@@ -9,8 +9,8 @@ def dcos(x):
     return math.cos(math.radians(x))
 
 def similarity(sift1,sift2):
-    return math.sqrt(np.inner(sift1-sift2, sift1-sift2))
-    #return np.inner(sift1,sift2)
+    # return math.sqrt(np.inner(sift1-sift2, sift1-sift2))
+    return np.inner(sift1,sift2)
 
 def by_value(t):
     return (-t[2])
@@ -36,8 +36,8 @@ class siftIMG:
         self.orgimg = cv2.imread(src, cv2.IMREAD_COLOR)
         self.img = np.float32(img)
 
-        krn1 = np.array([[-1,0,1],[-2,0,2],[-1,0,1]],dtype=np.float32)
-        krn2 = np.array([[-1, -2, -1], [0, 0, 0], [1, 2, 1]],dtype=np.float32)
+        krn1 = np.array([[-1,0,1],[-1,0,1],[-1,0,1]],dtype=np.float32)
+        krn2 = np.array([[-1, -1, -1], [0, 0, 0], [1, 1, 1]],dtype=np.float32)
 
 
         #img = cv2.GaussianBlur(img, (5, 5), 1, 1)
@@ -131,7 +131,6 @@ class siftIMG:
 
     def get_cps_and_sifter(self,max_corner):
         self.extract_cps(max_corner)
-
         sifters = list()
         for [[a, b]] in self.cps:
             tmp = np.array(self.SIFT_descripter(int(a), int(b)), dtype=float)
@@ -153,31 +152,11 @@ def find_match2(siftimg1,siftimg2,n):
         one, second = find_min_and_second([i[2] for i in dists])
         #print(dists)
         try:
-            if (dists[one][2]/dists[second][2]) < 0.9:
+            if (dists[one][2]/dists[second][2]) < 0.8:
                 res.add((dists[one][0], dists[one][1]))
         except ZeroDivisionError:
             continue
     return res
-
-'''
-    print(dists)
-    dist_sorted = sorted(dists, key=by_value)
-    print(dist_sorted)
-    popedx = list()
-    popedy = list()
-    cnt = 0
-    for (k1, k2, v) in dist_sorted:
-        if (k1 not in popedx) and (k2 not in popedy):
-            print(k1, k2, v)
-            res.add((k1, k2))
-            popedx.append(k1)
-            popedy.append(k2)
-            cnt += 1
-        if v < 0.9 or cnt > 10:
-            break
-'''
-
-
 
 def find_match(siftimg1,siftimg2,n):
     sifters1 = siftimg1.get_cps_and_sifter(n)
@@ -187,33 +166,55 @@ def find_match(siftimg1,siftimg2,n):
     for (k1, s1) in (sifters1):
         for (k2, s2) in (sifters2):
             dists.append((k1, k2, similarity(s1, s2)))
-    print(dists)
+    # print(dists)
     dist_sorted = sorted(dists, key=by_value)
-    print(dist_sorted)
+    # print(dist_sorted)
     popedx = list()
     popedy = list()
     cnt = 0
     for (k1, k2, v) in dist_sorted:
         if (k1 not in popedx) and (k2 not in popedy):
-            print(k1, k2, v)
+            # print(k1, k2, v)
             res.add((k1, k2))
             popedx.append(k1)
             popedy.append(k2)
             cnt += 1
+            print (v)
         if v < 0.9 or cnt > 5:
             break
     return res
 
 
+def find_match_rate(siftimg1,siftimg2,n):
+    sifters1 = siftimg1.get_cps_and_sifter(n)
+    sifters2 = siftimg2.get_cps_and_sifter(n)
+    result = 0
+    dists = list()
+    for (k1, s1) in (sifters1):
+        for (k2, s2) in (sifters2):
+            dists.append((k1, k2, similarity(s1, s2)))
+    # print(dists)
+    dist_sorted = sorted(dists, key=by_value)
+    for (k1, k2, v) in dist_sorted[:100]:
+        result += v
+    return result
 
+match_rate = list()
+img2 = siftIMG("./target.jpg")
 
+for i in range(1,6):
+    data = "./dataset/"+str(i)+".jpg"
+    img1 = siftIMG(data)
+    res = find_match_rate(img1, img2, 50)
+    match_rate.append(res)
+    print (str(i)+" match rate: " + str(res))
 
-img1 = siftIMG("./dataset/5.jpg")
-img2 = siftIMG("./target2.jpg")
+maxidx = match_rate.index(max(match_rate))
+
+img1 = siftIMG("./dataset/"+str(maxidx+1)+".jpg")
+# img1 = siftIMG("./dataset/"+"3"+".jpg")
 output = np.zeros((400,400), np.uint8)
-
-n = 200
-
+n = 50
 res = find_match(img1,img2,n)
 
 kp1 = [cv2.KeyPoint(x,y,1) for ((x,y),j) in res]

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d1aead1-d0c6-4835-a16e-3e028f4cccc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/12_SIFT/sift_gauss.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_SIFT/sift_new.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_SIFT/sift.py" beforeDir="false" afterPath="$PROJECT_DIR$/12_SIFT/sift.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_SIFT/sift_new.py" beforeDir="false" afterPath="$PROJECT_DIR$/12_SIFT/sift_new.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,14 +14,14 @@
     <SUITE FILE_PATH="coverage/EE208$sift_gauss.coverage" NAME="sift_gauss Coverage Results" MODIFIED="1575809775976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12_SIFT" />
     <SUITE FILE_PATH="coverage/EE208$sift.coverage" NAME="sift Coverage Results" MODIFIED="1575892813511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12_SIFT" />
     <SUITE FILE_PATH="coverage/EE208$canny.coverage" NAME="canny Coverage Results" MODIFIED="1575102070748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_canny" />
-    <SUITE FILE_PATH="coverage/EE208$sift_new.coverage" NAME="sift_new Coverage Results" MODIFIED="1575896175797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12_SIFT" />
+    <SUITE FILE_PATH="coverage/EE208$sift_new.coverage" NAME="sift_new Coverage Results" MODIFIED="1575903946506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12_SIFT" />
     <SUITE FILE_PATH="coverage/EE208$histogram.coverage" NAME="histogram Coverage Results" MODIFIED="1574162557861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_img" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="713437458">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
@@ -52,54 +49,29 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
-          <entry key="py" value="13657" />
+          <entry key="py" value="14064" />
           <entry key="txt" value="167" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="181" />
-          <entry key="Python" value="13657" />
+          <entry key="Python" value="14064" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11_canny/canny.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/12_SIFT/sift.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="166" column="15" lean-forward="true" selection-start-line="166" selection-start-column="15" selection-end-line="166" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <marker date="1575820954706" expanded="true" signature="203:206" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/12_SIFT/sift_new.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="113" column="19" lean-forward="true" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
+            <state relative-caret-position="360">
+              <caret line="224" column="9" lean-forward="true" selection-start-line="224" selection-start-column="9" selection-end-line="224" selection-end-column="9" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1575896175765" expanded="true" signature="1911:1920" ph="..." />
-                <marker date="1575896175765" expanded="true" signature="5917:6513" ph="..." />
+                <marker date="1575903836787" expanded="true" signature="1912:1921" ph="..." />
+                <marker date="1575903836787" expanded="true" signature="5488:6661" ph="..." />
               </folding>
             </state>
           </provider>
@@ -127,9 +99,11 @@
       <find>simi</find>
       <find>Gauss</find>
       <find>zero</find>
-      <find>good</find>
       <find>theta</find>
       <find>calcula</find>
+      <find>good</find>
+      <find>index</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -645,7 +619,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3202847" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3202847" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39679715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -826,23 +800,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/12_SIFT/sift.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="166" column="15" lean-forward="true" selection-start-line="166" selection-start-column="15" selection-end-line="166" selection-end-column="15" />
+        <state relative-caret-position="3040">
+          <caret line="166" column="15" selection-start-line="166" selection-start-column="15" selection-end-line="166" selection-end-column="15" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1575820954706" expanded="true" signature="203:206" ph="..." />
+            <marker date="1575896504415" expanded="true" signature="203:206" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/12_SIFT/sift_new.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="113" column="19" lean-forward="true" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
+        <state relative-caret-position="360">
+          <caret line="224" column="9" lean-forward="true" selection-start-line="224" selection-start-column="9" selection-end-line="224" selection-end-column="9" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1575896175765" expanded="true" signature="1911:1920" ph="..." />
-            <marker date="1575896175765" expanded="true" signature="5917:6513" ph="..." />
+            <marker date="1575903836787" expanded="true" signature="1912:1921" ph="..." />
+            <marker date="1575903836787" expanded="true" signature="5488:6661" ph="..." />
           </folding>
         </state>
       </provider>
