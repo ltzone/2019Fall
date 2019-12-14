@@ -14,7 +14,7 @@
       <excludeFolder url="file://$MODULE_DIR$/6_web.py/index" />
       <excludePattern pattern="4_lucene/html" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 2.7" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
