@@ -2,85 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f31696d0-50ea-49d8-abb7-a952aede1f33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/2019Fall.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/12_SIFT/report/img/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/checkpoint/ckpt_0_acc_73.010000.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/checkpoint/ckpt_1_acc_73.860000.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/checkpoint/ckpt_2_acc_74.380000.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/checkpoint/ckpt_3_acc_74.660000.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/checkpoint/ckpt_4_acc_75.300000.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/data/cifar-10-batches-py/batches.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/data/cifar-10-batches-py/data_batch_1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/data/cifar-10-batches-py/data_batch_2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/data/cifar-10-batches-py/data_batch_3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/data/cifar-10-batches-py/data_batch_4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/data/cifar-10-batches-py/data_batch_5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/data/cifar-10-batches-py/readme.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/data/cifar-10-batches-py/test_batch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/exp1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/exp2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/model.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/myexp1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/pretrained/ckpt_4_acc_63.320000.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img/good.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img/plot10000_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img/plot1000_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img/plot1000_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img/plot1000_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img/plot100_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img/plot2000_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img/plot3000_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img/plot50000_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img/t1000_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img/t1000_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img/t1000_006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img/t1000_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img/t100_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img/t800_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img2/plot100.01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img2/plot100.01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img2/plot1000.001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img2/plot1000.01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img2/plot1000.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img2/plot10000.01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img2/plot2000.002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img2/plot3000.001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img2/plot50000.01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img2/t100.01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img2/t1000.001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img2/t1000.005.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img2/t1000.006.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img2/t1000.01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img2/t800.01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/img2/t800.05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/report.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/report.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/result/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/result/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/result/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/result/.idea/result.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/result/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/result/model.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/result/plot100.01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/result/plot1000.001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/result/plot1000.01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/result/plot1000.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/result/plot10000.01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/result/plot2000.002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/result/plot3000.001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/result/plot50000.01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/result/t100.01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/result/t1000.001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/result/t1000.005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/result/t1000.006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/result/t1000.01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/result/t800.01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EE208/13_pytorch/result/t800.05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EE208/13_pytorch/report/report.out" beforeDir="false" afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/report.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EE208/13_pytorch/report/report.tex" beforeDir="false" afterPath="$PROJECT_DIR$/EE208/13_pytorch/report/report.tex" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +14,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/2019Fall$exp1.coverage" NAME="exp1 Coverage Results" MODIFIED="1576330883884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EE208/13_pytorch" />
     <SUITE FILE_PATH="coverage/2019Fall$myexp1.coverage" NAME="myexp1 Coverage Results" MODIFIED="1576476753500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EE208/13_pytorch" />
-    <SUITE FILE_PATH="coverage/2019Fall$exp2.coverage" NAME="exp2 Coverage Results" MODIFIED="1576478280242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EE208/13_pytorch" />
+    <SUITE FILE_PATH="coverage/2019Fall$exp2.coverage" NAME="exp2 Coverage Results" MODIFIED="1576495448604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EE208/13_pytorch" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -119,12 +42,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="337" />
+          <entry key="py" value="341" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="337" />
+          <entry key="Python" value="341" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -141,23 +64,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EE208/13_pytorch/exp2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-230">
-              <caret line="101" column="35" lean-forward="true" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
-              <folding>
-                <element signature="e#35#44#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="133">
+              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EE208/13_pytorch/myexp1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+            <state relative-caret-position="95">
+              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -176,8 +96,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/EE208/13_pytorch/exp1.py" />
-        <option value="$PROJECT_DIR$/EE208/13_pytorch/myexp1.py" />
         <option value="$PROJECT_DIR$/EE208/13_pytorch/exp2.py" />
+        <option value="$PROJECT_DIR$/EE208/13_pytorch/myexp1.py" />
       </list>
     </option>
   </component>
@@ -340,9 +260,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="655" height="695" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34170854" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16491511" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -353,7 +274,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3291815" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -379,20 +300,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EE208/13_pytorch/myexp1.py">
+    <entry file="file://$PROJECT_DIR$/EE208/13_pytorch/exp2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+        <state relative-caret-position="133">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EE208/13_pytorch/exp2.py">
+    <entry file="file://$PROJECT_DIR$/EE208/13_pytorch/myexp1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-230">
-          <caret line="101" column="35" lean-forward="true" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
-          <folding>
-            <element signature="e#35#44#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="95">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
