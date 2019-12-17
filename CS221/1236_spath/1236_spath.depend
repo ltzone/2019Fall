@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1576586427 source:d:\git\2019fall\cs221\1236_spath\main.cpp
+	<iostream>
+	<queue>
+
