@@ -1,0 +1,235 @@
+\documentclass{article}
+\usepackage{pythonhighlight}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{ctex}
+\usepackage[left=3cm,top=3cm,right=3cm]{geometry}
+\usepackage{hyperref}
+% TITLE PAGE CONTENT %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\labno}{13}
+\newcommand{\labtitle}{EE208 PyTorch}
+\newcommand{\authorname}{周李韬}
+\newcommand{\studentno}{518030910407}
+\newcommand{\classno}{F1803016}
+% END TITLE PAGE CONTENT %%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+{\LARGE \textsc{Laboratory No. \labno:} \\ \vspace{4pt}}
+{\Large \textsc{\labtitle} \\ \vspace{4pt}} 
+\rule[13pt]{\textwidth}{1pt} \\ \vspace{15pt}
+{\large By: \authorname \\ \vspace{10pt}
+No. \studentno \\ \vspace{10pt}
+SJTU \classno \\ \vspace{10pt}
+\today \vspace{20pt}}
+\end{center}
+
+
+
+\section{实验准备}
+
+\subsection{实验环境}
+\begin{itemize}
+\item\textbf{Environment} Python 3.7
+\item\textbf{Packages} PyTorch 1.3.1, matplotlib
+\item\textbf{Tools} Pycharm 2018.2 on Windows 10
+\end{itemize}
+
+\subsection{实验目的}
+
+本实验中，我们需要利用PyTorch训练模型，实现初等函数的拟合和对CIFAR-10进行图片分类。
+
+\subsection{实验原理}
+机器学习的目的和核心是寻找一个函数，经典的神经网络中包括输入层、输出层和中间层（隐藏层），在一层神经网络中，通过对输入的边权值做加权求和，经过一次非线性函数的映射后即可得到输出层。这一层的输出又可以作为下一层的输入，从而叠加形成许多隐藏层，形成神经网络。现代神经网络的层数非常多（可能有50层甚至几百层），对这种多层神经网络的训练，可以认为就是深度学习。本实验中，我们通过PyTorch进行深度学习的训练，实现初等函数的拟合和图片分类。
+
+
+\section{实验过程}
+
+\subsection{初等线性函数的拟合}
+
+在PyTorch中已经内置好了相关的神经网络模型，训练原理如下。
+
+\begin{python}
+1. 随机读入一个batch的数据(x, target_y)。[len(x)=len(target_y)=batch size, 即x[i]对应target_y[i]
+2. 把x输入模型，得到predicted_y[predicted_y=model(x)]
+3. 比较predic_y和target_y, 计算误差(mse)
+4. 根据误差，告知模型各参数的修正趋势（各参数是该变大还是减小）[loss.backward()]，并依据此趋势更新参数[optimizer.step()]
+5. 回到1
+\end{python}
+
+我们在拟合函数的实验中只需要调整两个参数，即Epoch\_Num（训练轮次数）和learning\_rate（修正幅度）。我们首先对函数
+
+$$ f(x) = x^2 + 2\sin{x}+\cos{x-1}-5, x \in \left[-5,5\right]$$
+
+进行拟合。实验结果如下所示。
+
+\subsubsection{更改NUM\_TRAIN\_EPOCHS}
+
+
+\begin{figure}[htb]
+\centering
+\subfigure[EPOCH = 100, LearningRate = 0.01]{
+\begin{minipage}[htb]{6cm}
+\includegraphics[width=6cm]{img/plot100_01.png}
+%\caption{EPOCH = 100, LearningRate = 0.01}
+\end{minipage}%
+}%
+\subfigure[EPOCH = 1000, LearningRate = 0.01]{
+\begin{minipage}[htb]{6cm}
+\includegraphics[width=6cm]{img/plot1000_01.png}
+%\caption{EPOCH = 1000, LearningRate = 0.01}
+\end{minipage}%
+}%
+
+\subfigure[EPOCH = 10000, LearningRate = 0.01]{
+\begin{minipage}[htb]{6cm}
+\includegraphics[width=6cm]{img/plot10000_01.png}
+%\caption{EPOCH = 10000, LearningRate = 0.01}
+\end{minipage}%
+}%
+\subfigure[EPOCH = 50000, LearningRate = 0.01]{
+\begin{minipage}[htb]{6cm}
+\includegraphics[width=6cm]{img/plot50000_01.png}
+%\caption{EPOCH = 50000, LearningRate = 0.01}
+\end{minipage}%
+}%
+\centering
+\caption{实验A部分结果}
+\label{fig:funA}
+\end{figure}
+
+训练结果如图\ref{fig:funA}所示。从实验中可知，EPOCH越高，LOSS越小，这是因为我们训练拟合函数的方法朝着LOSS减小的方向调整参数的。在EPOCH次数不是很大的情况下，训练次数越多，拟合曲线与原曲线的相似程度越大。但若EPOCH过大，在我们训练集取点较稀疏的地方，会出现明显的峰值，出现过拟合的现象，如图d所示。此外，我们也注意到，在训练轮次达到50000次的情况下，LOSS已不能再下降了，甚至有时会出现上下浮动的情况，表明进一步的训练已经对提升模型的精确程度无效了。
+
+
+\subsubsection{更改LEARNING\_RATE}
+
+训练结果如图\ref{fig:funB}所示。Learning Rate是我们每次训练对模型调整的参数大小，learning rate决定了权值更新的速度。固定训练轮次不变，改变learning rate，总体而言，learning rate越高，曲线越平滑。从拟合效果方面看，在图a中，learning rate过大使结果会在目标周围浮动过大，在图c中，learning rate过小会使拟合速度过慢，在训练1000轮后拟合曲线两端与原曲线有较大偏离。因此learning rate与拟合效果密切相关，理想的learning rate应该随训练轮次数依次降低，从而更有效地趋近训练目标。
+
+\begin{figure}[htb]
+\centering
+\subfigure[EPOCH = 1000, LearningRate = 0.1]{
+\begin{minipage}[htb]{6cm}
+\includegraphics[width=6cm]{img/plot100_01.png}
+\end{minipage}%
+}%
+\subfigure[EPOCH = 1000, LearningRate = 0.01]{
+\begin{minipage}[htb]{6cm}
+\includegraphics[width=6cm]{img/plot1000_01.png}
+\end{minipage}%
+}%
+
+\subfigure[EPOCH = 1000, LearningRate = 0.001]{
+\begin{minipage}[htb]{6cm}
+\includegraphics[width=6cm]{img/plot1000_001.png}
+\end{minipage}%
+}%
+\centering
+\caption{实验B部分结果}
+\label{fig:funB}
+\end{figure}
+
+要取得较好的拟合效果，我们需要兼顾训练轮次和学习率的关系，学习率低意味着训练轮次要高才能达到较好的拟合，但也要注意不能训练过多轮导致过拟合，经过调试，我们在$EPOCH = 2000， LR = 0.002$时取得了原函数较好的拟合，如图\ref{fig:funB2}所示。
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=7.5cm]{img/plot2000_002.png}
+\caption{EPOCH = 2000, Learning\_Rate=0.002}
+\label{fig:funB2}
+\end{figure}
+
+
+\subsubsection{自定义函数拟合}
+
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=7.5cm]{img/good.png}
+\caption{对函数$f(x)=e^x - 2x$的拟合结果，EPOCH = 1500, Learning\_Rate=0.02}
+\label{fig:funC1}
+\end{figure}
+
+
+由于本实验采用的模型是以多项式的方式在小区间内进行训练拟合的，因此对于局部变化率较小的函数，如指对函数、简单多项式函数，通过简单的调参，可以做到效果较好的拟合，如图\ref{fig:funC1}所示。
+
+\begin{figure}[htb]
+\centering
+\subfigure[EPOCH = 1000, LearningRate = 0.01]{
+\begin{minipage}[htb]{6cm}
+\includegraphics[width=6cm]{img/t1000_01.png}
+\end{minipage}%
+}%
+\subfigure[EPOCH = 1000, LearningRate = 0.001]{
+\begin{minipage}[htb]{6cm}
+\includegraphics[width=6cm]{img/t1000_001.png}
+\end{minipage}%
+}%
+
+\subfigure[EPOCH = 800, LearningRate = 0.01]{
+\begin{minipage}[htb]{6cm}
+\includegraphics[width=6cm]{img/t800_01.png}
+\end{minipage}%
+}%
+\subfigure[EPOCH = 1000, LearningRate = 0.006]{
+\begin{minipage}[htb]{6cm}
+\includegraphics[width=6cm]{img/t1000_006.png}
+\end{minipage}%
+}%
+\centering
+\caption{实验C部分结果}
+\label{fig:funC2}
+\end{figure}
+
+为了更好地观察训练轮次和学习率对函数拟合的影响，本实验选取了一个较为复杂的函数 $$ f(x) = 3 \cos{\frac{x^2}{4}} +  x $$ 该函数在$[-5,5]$区间内有若干极值点，我们的参数调整过程如图\ref{fig:funC2}。我们的调参过程简述如下：对比图a和b，我们发现训练轮次取1000时，欠拟合与过拟合的学习率介于0.01和0.001之间，进一步对比图a和图c，我们发现降低训练轮次会导致明显的欠拟合，因此取训练轮次为1000，在0.01以下附近调整学习率，最终在0.006附近得到了较好的拟合效果。
+
+尽管经过反复调参，我们依然发现在0~2区间存在一个明显的峰值，修改torch.manual\_seed后，同样的参数不再适用，并且在其他位置出现明显偏离。这表明我们的训练结果也与训练集的选取密切相关。本实验外另一个提高训练效果的有效方法是增加训练集的规模。
+
+\subsection{图像分类}
+
+本实验中，我们使用resnet20模型，对CIFAR-10数据集进行分类训练。Python脚本的主体已经给出，我们需要对测试部分的代码给予补充。补充代码如下。
+
+\begin{python}
+def test(epoch):
+    print('==> Testing...')
+    model.eval()
+    with torch.no_grad():
+        test_loss = 0
+        correct = 0
+        total = 0
+        for batch_idx, (inputs, targets) in enumerate(testloader):
+            outputs = model(inputs)              # 将input输入已建立的模型中，得到输出
+            _, predicted = outputs.max(1)
+            total += targets.size(0)             # 统计测试数据总数
+            correct += predicted.eq(targets).sum().item()  # 统计正确测试结果数
+        acc = 100. * correct / total             # 计算 test acc
+    # Save checkpoint.
+    print ...
+\end{python}
+
+根据实验指导中推荐的训练策略，我们首先以0.1的学习率训练5个轮次，随后以0.01的学习率训练5个轮次，训练的结果如下表和图\ref{fig:img}所示。
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=13.5cm]{img/img.png}
+\caption{CIFAR-10训练AAC记录}
+\label{fig:img}
+\end{figure}
+
+Train ACC是训练过程中统计的正确输出数目与总数之比，Test ACC是对测试集调用训练后的模型得到的正确输出数目与总数之比。根据深度学习的原理，由于训练集和测试集性质相同，Train ACC与Test ACC在数值上应该呈正相关的关系。但需要注意的是Train ACC是随着训练过程产生的，如在一轮训练中，第一批次的数据可能最初得到的是错误结果，但可能在经过多批次训练后的模型中会得到正确结果，但在这一轮训练计算Train ACC的过程中，仍然是作为错误结果被统计的。因此Train ACC是随着模型的训练动态变化的（在实验前半段的训练中得到了体现）。而Test ACC则是针对经过训练得到的一个固定的模型进行测试计算得到的，可以相对准确地描述一个模型的精确度，因此在采用相同测试集的情况下，Test ACC可以作为我们衡量模型优劣的标准。
+
+在lr从0.1变到0.01后，我们可以看到Test ACC的随着训练轮次增加变化程度减小了，原因一方面是我们降低了learning rate，使得错误结果对模型的修正影响降低了。另一方面，随着训练轮次的增多，神经网络模型也基本达到了其原理上的准确度，因而变化减小。
+
+\section{实验总结}
+\paragraph{概述}
+本实验中，我们通过PyTorch实现了一个初等函数的拟合和图片分类的应用。
+
+\paragraph{感想}
+通过本次实验的学习，我通过实践模型训练的过程，进一步了解了深度学习的原理，体验到了PyTorch这一深度学习框架的灵活易用。通过调试参数、分析现象，我也认识到了训练模型中的一些重要参数的作用。
+
+\paragraph{问题}
+在拟合函数的实验中，对于较为复杂的函数，无论如何调试参数，拟合程度往往不能达到理想的情况。我认为这是由于我们的训练集，即从原函数中随机选取的函数点数目较少产生的，这也提示了我们在深度学习训练模型的过程中，我们需要确保数据集的准确性和数目。
+
+\end{document}
+
