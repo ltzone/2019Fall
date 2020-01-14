@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1576055212 source:d:\git\2019fall\cs221\libraries2\main.cpp
+	<iostream>
+	<stack>
+

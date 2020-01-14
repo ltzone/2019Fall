@@ -34,9 +34,12 @@
 		</Compiler>
 		<Unit filename="binaryTree.h" />
 		<Unit filename="dLinkList.h" />
+		<Unit filename="heap.h" />
+		<Unit filename="hufftree.h" />
 		<Unit filename="linkQueue.h" />
 		<Unit filename="linkStack.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="priorityqueue.h" />
 		<Unit filename="sLinkList.h" />
 		<Unit filename="seqQueue.h" />
 		<Unit filename="seqStack.h" />
